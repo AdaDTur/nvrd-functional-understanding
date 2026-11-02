@@ -49,11 +49,11 @@ OBJECTS = ["shape_1", "shape_2", "shape_3", "shape_10", "shape_11", "shape_12", 
            "shape_28", "shape_29", "shape_30", "shape_31", "shape_32", "shape_33", "shape_38",
            "shape_39", "shape_40"]  # all 30 novel objects in the dataset (ids scattered 1-40)
 SIZES = ["hand", "human", "building"]  # matches generate_size_charts.py's SCENARIOS labels
-# How many distinct objects one participant session (one "group") covers -- 10, per the original
-# discussion (30-object pool -> 9 groups). Earlier, with only 10 objects available, this was
-# temporarily set to 5 so the partitioning logic was actually exercised instead of degenerating to
-# "every group = all objects"; now that the pool is the full 30, back to the originally-designed 10.
-OBJECTS_PER_GROUP = 10
+# How many distinct objects one participant session (one "group") covers. Started at 10 (30-object
+# pool -> 9 groups), lowered to 5 per-session because 10 felt like too much for one participant to
+# get through -> 18 groups, 72 participants needed (more, shorter sessions instead of fewer, longer
+# ones -- same 90 object x size cells covered either way, just sliced differently).
+OBJECTS_PER_GROUP = 5
 ANNOTATIONS_PER_CELL = 4  # how many independent participants should see each (object, size) pair
 SEED = 7  # fixed for reproducibility -- re-run with a different seed (or None) for a fresh shuffle
 

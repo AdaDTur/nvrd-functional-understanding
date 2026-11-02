@@ -17,8 +17,8 @@
       },
       "vocabularies": {
         "agd20k": {
-          "label": "none",
-          "justification": "Part 1 appears to be a smooth, rounded surface without any protrusions or features that could be easily grasped or manipulated, unlike the other parts which have distinct shapes or textures that suggest potential affordances"
+          "label": "brush with",
+          "justification": "Part 1 appears to be a flat, wide surface with a smooth texture, likely designed for easy cleaning or wiping, distinguishing it from the other parts which seem to have different shapes or functions"
         }
       }
     },
@@ -34,8 +34,8 @@
       },
       "vocabularies": {
         "agd20k": {
-          "label": "none",
-          "justification": "Part 2 appears to be a smooth, rounded surface without any protrusions or features that would allow for grasping or manipulation, unlike the other parts which have distinct shapes or textures that suggest different affordances"
+          "label": "brush with",
+          "justification": "Part 2 appears to be a flat, elongated surface with a smooth texture, making it ideal for brushing compared to the other parts which seem to be more rounded or protruding"
         }
       }
     },
@@ -68,8 +68,8 @@
       },
       "vocabularies": {
         "agd20k": {
-          "label": "none",
-          "justification": "Part 4 appears to be a small, rounded protrusion at the bottom of the object, likely serving no functional purpose compared to the other parts that seem to have distinct shapes or positions"
+          "label": "brush with",
+          "justification": "Part 4 appears to be a small, flat, paddle-like structure at the bottom of the object, likely designed for easy manipulation and cleaning, distinguishing it from the other more rounded or protruding parts"
         }
       }
     },

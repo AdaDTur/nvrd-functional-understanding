@@ -34,8 +34,8 @@
       },
       "vocabularies": {
         "agd20k": {
-          "label": "none",
-          "justification": "Part 2 appears to be a solid, untextured surface with no visible handles, grips, or protrusions that would allow for easy manipulation or interaction"
+          "label": "brush with",
+          "justification": "Part 2 appears to be a flat, elongated surface with a smooth texture, likely designed for easy cleaning or grooming, distinguishing it from the other parts which may have different shapes or functions"
         }
       }
     },

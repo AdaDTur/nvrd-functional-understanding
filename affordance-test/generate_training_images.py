@@ -24,8 +24,9 @@ if os.path.isdir(_VENV_DIR) and os.path.realpath(sys.prefix) != os.path.realpath
 
 from PIL import Image
 
-from affordance_labeling import downscale, highlight_region, numbered_overlay, partition_regions
-from region_information_gain import load_regions, resolve_image_path
+from affordance_labeling import (
+    downscale, highlight_region, load_regions, numbered_overlay, partition_regions, resolve_image_path,
+)
 
 OUT_DIR = os.path.join(HERE, "figures", "training_images")
 os.makedirs(OUT_DIR, exist_ok=True)

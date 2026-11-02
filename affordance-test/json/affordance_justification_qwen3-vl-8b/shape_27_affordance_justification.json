@@ -34,8 +34,8 @@
       },
       "vocabularies": {
         "agd20k": {
-          "label": "none",
-          "justification": "Part 2\u2019s slender, curved form lacks any protrusions, grips, handles, or surfaces designed for interaction, making no clear functional use possible compared to the others\u2019 distinct shapes suggesting manipulation or attachment points"
+          "label": "sit on",
+          "justification": "Part 2 has a broad, flat surface positioned horizontally at ground level, making it suitable for supporting weight like seating"
         }
       }
     },

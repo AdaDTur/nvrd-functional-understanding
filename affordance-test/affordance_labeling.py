@@ -19,6 +19,7 @@ Entry points live in other files (batch_final_labeling.py etc.); this module has
 """
 
 import inspect
+import json
 import os
 
 import cv2
@@ -29,15 +30,18 @@ from PIL import Image
 from pycocotools import mask as mask_utils
 from transformers import DynamicCache
 
-from region_information_gain import MODEL_NAME  # noqa: F401  (re-exported for callers)
-
 
 HERE = os.path.dirname(os.path.realpath(__file__))
+REPO_ROOT = os.path.dirname(HERE)
+REGIONS_TEST = os.path.join(REPO_ROOT, "regions_test")
 # Output JSONs are organized by which pipeline stage produced them; imported by every script that reads or writes
 # one of these, so the layout only needs to change in one place.
 JSON_DIR = os.path.join(HERE, "json")
 AFFORDANCE_JUSTIFICATION_DIR = os.path.join(JSON_DIR, "affordance_justification")  # final, standard results
 os.makedirs(AFFORDANCE_JUSTIFICATION_DIR, exist_ok=True)
+
+MODEL_NAME = "Qwen/Qwen2-VL-7B-Instruct"  # legacy; kept only for the "qwen2-vl-7b" MODELS entry, not run for the study
+MASK_SUBDIRS = {"sam": "sam_masks", "sam_slic": "sam_slic_masks"}
 BACKGROUND_AREA_FRAC = 0.5
 MIN_PART_FRAC = 0.001
 DIM_FACTOR = 0.3
@@ -60,6 +64,10 @@ AGD20K_VERBS = [
 
 VOCABULARIES = {
     "agd20k": {"options": [v.replace("_", " ") for v in AGD20K_VERBS] + ["none"], "glosses": {}},
+    # Same options, minus "none" -- forces the model to commit to one of the real verbs instead of
+    # abstaining. Used for targeted re-scoring of parts that came back "none" under the standard
+    # vocabulary above (see relabel_none_cases.py), not for a full pipeline run.
+    "agd20k_no_none": {"options": [v.replace("_", " ") for v in AGD20K_VERBS], "glosses": {}},
 }
 
 
@@ -90,6 +98,35 @@ def downscale(img: Image.Image) -> Image.Image:
     if scale >= 1:
         return img
     return img.resize((round(img.width * scale), round(img.height * scale)), Image.LANCZOS)
+
+
+def resolve_image_path(object_name: str) -> str:
+    """Looks for object_name's image first among NVRD splits (regions_test/data/<split>/),
+    then in test_images/, trying common extensions."""
+    search_dirs = [
+        os.path.join(REGIONS_TEST, "data", split)
+        for split in ("novel", "known", "shape-shape", "shape-texture")
+    ] + [os.path.join(REPO_ROOT, "test_images")]
+    for d in search_dirs:
+        for ext in (".png", ".jpg", ".jpeg"):
+            candidate = os.path.join(d, f"{object_name}{ext}")
+            if os.path.isfile(candidate):
+                return candidate
+    raise FileNotFoundError(
+        f"Could not find an image for '{object_name}' under regions_test/data/*/ or test_images/"
+    )
+
+
+def load_regions(object_name: str, max_regions: "int | None" = None, source: str = "sam"):
+    """source: 'sam' (SAM masks only) or 'sam_slic' (SAM masks + SLIC superpixels filling the pixels
+    SAM left unmasked, from regions/region_features/slic/merge_sam_and_slic_regions.py)."""
+    sam_path = os.path.join(REGIONS_TEST, "output", MASK_SUBDIRS[source], f"{object_name}.json")
+    with open(sam_path) as f:
+        regions = json.load(f)
+    regions = sorted(regions, key=lambda r: r["area"], reverse=True)
+    if max_regions is not None:
+        regions = regions[:max_regions]
+    return regions
 
 
 def highlight_region(image: Image.Image, mask: np.ndarray) -> Image.Image:
@@ -226,12 +263,16 @@ def softmax(x: np.ndarray) -> np.ndarray:
 
 def build_per_part_question(part_idx: int, n_parts: int, options: list, glosses: dict) -> str:
     listed = ", ".join(f"{o} ({glosses[o]})" if o in glosses else o for o in options)
+    # The "answer none" instruction only makes sense when "none" is actually one of the scored
+    # options (VOCABULARIES["agd20k"]) -- omitted for a none-less vocabulary (VOCABULARIES
+    # ["agd20k_no_none"]) so the prompt doesn't dangle a way out that isn't actually on offer.
+    none_clause = f'If part {part_idx} offers none of these, answer "none". ' if "none" in options else ""
     return (
         f"The image shows an object with {n_parts} parts marked and numbered (1 to {n_parts}), each "
         f"outlined and tinted a different color. Focusing specifically on part {part_idx}: consider "
         "whether its affordance differs from the other numbered parts, then choose the single "
-        f"affordance part {part_idx} offers from this list: {listed}. If part {part_idx} offers none "
-        'of these, answer "none". Answer with the option only.'
+        f"affordance part {part_idx} offers from this list: {listed}. {none_clause}"
+        "Answer with the option only."
     )
 
 

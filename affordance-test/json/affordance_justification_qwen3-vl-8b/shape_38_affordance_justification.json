@@ -17,8 +17,8 @@
       },
       "vocabularies": {
         "agd20k": {
-          "label": "none",
-          "justification": "Part 1 has no discernible functional surface for grasping, pressing, twisting, sliding, pulling, pushing, turning, opening, closing, inserting, removing, hanging, carrying, wearing, attaching, detaching, rotating, pivoting, swiveling, locking, unlocking, adjusting, extending, retracting,"
+          "label": "hold",
+          "justification": "Part 1 has smooth, curved surfaces extending outward in multiple directions, suggesting ergonomic contours designed for gripping comfortably by hand \u2014 unlike part 2\u2019s recessed circular form which appears intended as a base rather than something held directly"
         }
       }
     },
@@ -34,8 +34,8 @@
       },
       "vocabularies": {
         "agd20k": {
-          "label": "none",
-          "justification": "Part 2\u2019s small size, recessed placement within the larger form, and lack of any protruding features make it incapable of being grasped or manipulated for use"
+          "label": "sit on",
+          "justification": "Part 2 has a small, rounded depression at its base which creates a natural indentation suitable for supporting weight while sitting"
         }
       }
     }

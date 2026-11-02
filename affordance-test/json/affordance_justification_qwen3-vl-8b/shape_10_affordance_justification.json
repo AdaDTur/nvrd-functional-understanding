@@ -17,8 +17,8 @@
       },
       "vocabularies": {
         "agd20k": {
-          "label": "none",
-          "justification": "Part 1 appears as a smooth, rounded surface without any protrusions, indentations, handles, edges, or functional features typically associated with grasping, pressing, sliding, twisting, pulling, pushing, opening, closing, cutting, tearing, puncturing, inserting, removing, rotating, turning, flipping, folding,"
+          "label": "hold",
+          "justification": "Part 1 has a broad, concave surface positioned centrally beneath the main body, suggesting its function as a stable base for gripping or supporting weight unlike any of the protruding appendages around it"
         }
       }
     },
@@ -34,8 +34,8 @@
       },
       "vocabularies": {
         "agd20k": {
-          "label": "none",
-          "justification": "Part 2\u2019s smooth, rounded dome lacks any protrusions, indentations, or functional features suggesting interaction or use, unlike the others which have distinct shapes implying purposeful engagement"
+          "label": "sit on",
+          "justification": "Part 2 has a broad, rounded top surface positioned above the rest of the structure, making it suitable for supporting weight like a seat"
         }
       }
     },
@@ -51,8 +51,8 @@
       },
       "vocabularies": {
         "agd20k": {
-          "label": "none",
-          "justification": "Part 3\u2019s slender, pointed structure extending outward without any visible surface area for gripping, pressing, or interacting suggests no functional use as a handle, button, lever, or tool interface \u2014 unlike adjacent components which imply interaction through their form"
+          "label": "hit",
+          "justification": "Part 3 has a sharp, pointed tip extending outward in a direction suggesting forward motion, making it suitable for piercing or striking objects ahead of its path \u2014 unlike any other feature which appears more rounded or supportive rather than offensive"
         }
       }
     },
@@ -68,8 +68,8 @@
       },
       "vocabularies": {
         "agd20k": {
-          "label": "none",
-          "justification": "Part 4\u2019s small, recessed, circular form tucked beneath the main body lacks any visible protrusions, handles, edges, or surfaces designed for interaction, making no functional interface apparent compared to the others\u2019 distinct shapes suggesting use"
+          "label": "eat",
+          "justification": "Part 4\u2019s small, open-mouth-like indentation at the base suggests functionality for consuming food, unlike the smooth surfaces of surrounding areas which appear non-functional in ingestion tasks"
         }
       }
     },
@@ -85,8 +85,8 @@
       },
       "vocabularies": {
         "agd20k": {
-          "label": "none",
-          "justification": "Part 5\u2019s slender, pointed tip lacks any surface area or structural feature suitable for gripping, pressing, or interacting meaningfully with its environment like the others do"
+          "label": "hit",
+          "justification": "Part 5\u2019s slender, pointed tip positioned at the rear suggests it can be used as a striking tool for poking or tapping objects ahead of its body"
         }
       }
     }

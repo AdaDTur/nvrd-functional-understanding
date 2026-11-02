@@ -36,9 +36,9 @@ from transformers import AutoModelForImageTextToText, AutoProcessor, Qwen2VLForC
 
 from affordance_labeling import (
     AFFORDANCE_JUSTIFICATION_DIR, JSON_DIR, MODEL_NAME, VOCABULARIES, build_per_part_question, build_prompt_text,
-    downscale, first_sentence, numbered_overlay, partition_regions, score_options,
+    downscale, first_sentence, load_regions, numbered_overlay, partition_regions, resolve_image_path, score_options,
 )
-from region_information_gain import load_regions, resolve_image_path
+from gpu_contention import wait_for_gpu_headroom
 
 HERE = os.path.dirname(os.path.realpath(__file__))
 VOCAB = "agd20k"
@@ -224,6 +224,9 @@ def main():
         if category != last_category:
             print(f"\n=== {category} ===")
             last_category = category
+        wait_for_gpu_headroom(log=print)  # re-checked before every object (not just once before the
+                                           # whole run), so a contending job that shows up mid-run
+                                           # gets the same backoff a pre-launch check alone would miss
         print(f"  {name}:")
         try:
             data = process_object(model, processor, option_ids, device, name, repo_id, safe_generate=safe_generate)

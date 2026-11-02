@@ -51,8 +51,8 @@
       },
       "vocabularies": {
         "agd20k": {
-          "label": "none",
-          "justification": "Part three appears as a green structure in contact with another component without any distinct protrusions or separations suggesting interaction capability like openings for movement typical of some labeled sections; its role likely involves support rather than direct functional engagement akin to others which may facilitate motion such as legs or appendages shown elsewhere"
+          "label": "brush with",
+          "justification": "The green structure of Part 3 has bristle-like projections suggesting its use for brushing actions, differing in function as compared to smooth surfaces like those likely serving structural roles elsewhere"
         }
       }
     },
@@ -68,8 +68,8 @@
       },
       "vocabularies": {
         "agd20k": {
-          "label": "none",
-          "justification": "Part four appears as an internal structure without any external-facing surface features typical of interactive elements like openings or protrusions found in others"
+          "label": "eat",
+          "justification": "Part four has a rounded indentation suggesting its role as food intake area in contrast to others which appear structural rather than functional for consumption"
         }
       }
     },
@@ -85,8 +85,8 @@
       },
       "vocabularies": {
         "agd20k": {
-          "label": "none",
-          "justification": "Part five appears as a small protrusion without any surface texture changes indicative of interaction points like ridges or openings found in functional structures such as valves; its isolated positioning suggests minimal engagement compared to interconnected components within similar systems depicted by numbers four through three which show more complex interfaces likely designed for mechanical action facilitating fluid movement across membranes"
+          "label": "stick",
+          "justification": "The elongated pointed structure of Part 5 suggests its function as something meant for attachment or insertion into another surface compared to more rounded shapes like those in Parts 2-4 which likely serve sensory roles within tentacles-like appendages"
         }
       }
     }

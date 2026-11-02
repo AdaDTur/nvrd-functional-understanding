@@ -36,22 +36,14 @@
     "human",
     "building"
   ],
-  "objects_per_group": 10,
+  "objects_per_group": 5,
   "annotations_per_cell": 4,
-  "num_groups": 9,
-  "participants_needed": 36,
+  "num_groups": 18,
+  "participants_needed": 72,
   "groups": [
     [
       {
-        "object": "shape_28",
-        "size": "hand"
-      },
-      {
         "object": "shape_14",
-        "size": "hand"
-      },
-      {
-        "object": "shape_20",
         "size": "building"
       },
       {
@@ -59,27 +51,37 @@
         "size": "hand"
       },
       {
-        "object": "shape_21",
-        "size": "human"
-      },
-      {
-        "object": "shape_13",
+        "object": "shape_26",
         "size": "building"
       },
       {
-        "object": "shape_25",
+        "object": "shape_10",
+        "size": "human"
+      },
+      {
+        "object": "shape_27",
+        "size": "hand"
+      }
+    ],
+    [
+      {
+        "object": "shape_28",
+        "size": "hand"
+      },
+      {
+        "object": "shape_20",
+        "size": "building"
+      },
+      {
+        "object": "shape_13",
         "size": "hand"
       },
       {
         "object": "shape_18",
-        "size": "hand"
+        "size": "human"
       },
       {
-        "object": "shape_2",
-        "size": "hand"
-      },
-      {
-        "object": "shape_19",
+        "object": "shape_3",
         "size": "building"
       }
     ],
@@ -89,36 +91,38 @@
         "size": "building"
       },
       {
-        "object": "shape_40",
-        "size": "building"
+        "object": "shape_15",
+        "size": "hand"
       },
       {
-        "object": "shape_20",
+        "object": "shape_33",
         "size": "hand"
+      },
+      {
+        "object": "shape_18",
+        "size": "hand"
+      },
+      {
+        "object": "shape_11",
+        "size": "human"
+      }
+    ],
+    [
+      {
+        "object": "shape_40",
+        "size": "human"
       },
       {
         "object": "shape_15",
         "size": "building"
       },
       {
-        "object": "shape_30",
-        "size": "human"
-      },
-      {
         "object": "shape_31",
+        "size": "human"
+      },
+      {
+        "object": "shape_18",
         "size": "building"
-      },
-      {
-        "object": "shape_23",
-        "size": "human"
-      },
-      {
-        "object": "shape_10",
-        "size": "human"
-      },
-      {
-        "object": "shape_27",
-        "size": "human"
       },
       {
         "object": "shape_19",
@@ -127,9 +131,27 @@
     ],
     [
       {
-        "object": "shape_22",
+        "object": "shape_12",
         "size": "building"
       },
+      {
+        "object": "shape_20",
+        "size": "hand"
+      },
+      {
+        "object": "shape_26",
+        "size": "human"
+      },
+      {
+        "object": "shape_32",
+        "size": "hand"
+      },
+      {
+        "object": "shape_3",
+        "size": "human"
+      }
+    ],
+    [
       {
         "object": "shape_39",
         "size": "human"
@@ -139,19 +161,7 @@
         "size": "building"
       },
       {
-        "object": "shape_15",
-        "size": "hand"
-      },
-      {
-        "object": "shape_30",
-        "size": "building"
-      },
-      {
-        "object": "shape_31",
-        "size": "hand"
-      },
-      {
-        "object": "shape_25",
+        "object": "shape_13",
         "size": "human"
       },
       {
@@ -159,134 +169,26 @@
         "size": "hand"
       },
       {
-        "object": "shape_27",
-        "size": "building"
-      },
-      {
         "object": "shape_11",
-        "size": "building"
+        "size": "hand"
       }
     ],
     [
       {
         "object": "shape_12",
-        "size": "building"
-      },
-      {
-        "object": "shape_14",
-        "size": "building"
-      },
-      {
-        "object": "shape_16",
-        "size": "hand"
-      },
-      {
-        "object": "shape_38",
-        "size": "building"
-      },
-      {
-        "object": "shape_21",
-        "size": "hand"
-      },
-      {
-        "object": "shape_26",
-        "size": "building"
-      },
-      {
-        "object": "shape_32",
         "size": "human"
-      },
-      {
-        "object": "shape_18",
-        "size": "human"
-      },
-      {
-        "object": "shape_3",
-        "size": "hand"
-      },
-      {
-        "object": "shape_17",
-        "size": "human"
-      }
-    ],
-    [
-      {
-        "object": "shape_28",
-        "size": "human"
-      },
-      {
-        "object": "shape_39",
-        "size": "hand"
       },
       {
         "object": "shape_1",
-        "size": "building"
-      },
-      {
-        "object": "shape_29",
-        "size": "human"
-      },
-      {
-        "object": "shape_33",
-        "size": "human"
-      },
-      {
-        "object": "shape_26",
-        "size": "human"
-      },
-      {
-        "object": "shape_23",
-        "size": "building"
-      },
-      {
-        "object": "shape_18",
-        "size": "building"
-      },
-      {
-        "object": "shape_27",
         "size": "hand"
-      },
-      {
-        "object": "shape_17",
-        "size": "hand"
-      }
-    ],
-    [
-      {
-        "object": "shape_12",
-        "size": "human"
-      },
-      {
-        "object": "shape_40",
-        "size": "human"
-      },
-      {
-        "object": "shape_20",
-        "size": "human"
-      },
-      {
-        "object": "shape_29",
-        "size": "building"
       },
       {
         "object": "shape_30",
-        "size": "hand"
-      },
-      {
-        "object": "shape_31",
         "size": "human"
       },
       {
-        "object": "shape_32",
-        "size": "building"
-      },
-      {
-        "object": "shape_10",
-        "size": "building"
-      },
-      {
-        "object": "shape_2",
-        "size": "building"
+        "object": "shape_25",
+        "size": "hand"
       },
       {
         "object": "shape_19",
@@ -295,31 +197,15 @@
     ],
     [
       {
-        "object": "shape_22",
-        "size": "hand"
-      },
-      {
         "object": "shape_40",
+        "size": "building"
+      },
+      {
+        "object": "shape_16",
         "size": "hand"
       },
       {
-        "object": "shape_1",
-        "size": "human"
-      },
-      {
-        "object": "shape_15",
-        "size": "human"
-      },
-      {
-        "object": "shape_33",
-        "size": "hand"
-      },
-      {
-        "object": "shape_26",
-        "size": "hand"
-      },
-      {
-        "object": "shape_25",
+        "object": "shape_30",
         "size": "building"
       },
       {
@@ -327,12 +213,52 @@
         "size": "hand"
       },
       {
-        "object": "shape_3",
+        "object": "shape_17",
+        "size": "building"
+      }
+    ],
+    [
+      {
+        "object": "shape_28",
+        "size": "human"
+      },
+      {
+        "object": "shape_38",
         "size": "building"
       },
       {
-        "object": "shape_11",
+        "object": "shape_33",
+        "size": "human"
+      },
+      {
+        "object": "shape_23",
         "size": "hand"
+      },
+      {
+        "object": "shape_2",
+        "size": "hand"
+      }
+    ],
+    [
+      {
+        "object": "shape_22",
+        "size": "hand"
+      },
+      {
+        "object": "shape_16",
+        "size": "human"
+      },
+      {
+        "object": "shape_31",
+        "size": "building"
+      },
+      {
+        "object": "shape_32",
+        "size": "human"
+      },
+      {
+        "object": "shape_2",
+        "size": "building"
       }
     ],
     [
@@ -341,70 +267,34 @@
         "size": "hand"
       },
       {
-        "object": "shape_14",
+        "object": "shape_1",
         "size": "human"
       },
       {
-        "object": "shape_16",
-        "size": "human"
+        "object": "shape_31",
+        "size": "hand"
       },
       {
-        "object": "shape_38",
-        "size": "human"
-      },
-      {
-        "object": "shape_21",
+        "object": "shape_25",
         "size": "building"
       },
       {
-        "object": "shape_13",
-        "size": "hand"
-      },
-      {
-        "object": "shape_32",
-        "size": "hand"
-      },
-      {
-        "object": "shape_24",
-        "size": "human"
-      },
-      {
         "object": "shape_3",
-        "size": "human"
-      },
-      {
-        "object": "shape_11",
-        "size": "human"
+        "size": "hand"
       }
     ],
     [
       {
-        "object": "shape_22",
-        "size": "human"
-      },
-      {
-        "object": "shape_39",
-        "size": "building"
+        "object": "shape_40",
+        "size": "hand"
       },
       {
         "object": "shape_1",
-        "size": "hand"
-      },
-      {
-        "object": "shape_29",
-        "size": "hand"
-      },
-      {
-        "object": "shape_33",
         "size": "building"
       },
       {
-        "object": "shape_13",
+        "object": "shape_21",
         "size": "human"
-      },
-      {
-        "object": "shape_23",
-        "size": "hand"
       },
       {
         "object": "shape_24",
@@ -413,9 +303,137 @@
       {
         "object": "shape_2",
         "size": "human"
+      }
+    ],
+    [
+      {
+        "object": "shape_14",
+        "size": "hand"
+      },
+      {
+        "object": "shape_29",
+        "size": "human"
+      },
+      {
+        "object": "shape_21",
+        "size": "building"
+      },
+      {
+        "object": "shape_23",
+        "size": "building"
+      },
+      {
+        "object": "shape_27",
+        "size": "human"
+      }
+    ],
+    [
+      {
+        "object": "shape_39",
+        "size": "hand"
+      },
+      {
+        "object": "shape_29",
+        "size": "building"
+      },
+      {
+        "object": "shape_26",
+        "size": "hand"
+      },
+      {
+        "object": "shape_10",
+        "size": "building"
       },
       {
         "object": "shape_17",
+        "size": "hand"
+      }
+    ],
+    [
+      {
+        "object": "shape_14",
+        "size": "human"
+      },
+      {
+        "object": "shape_15",
+        "size": "human"
+      },
+      {
+        "object": "shape_21",
+        "size": "hand"
+      },
+      {
+        "object": "shape_23",
+        "size": "human"
+      },
+      {
+        "object": "shape_11",
+        "size": "building"
+      }
+    ],
+    [
+      {
+        "object": "shape_22",
+        "size": "human"
+      },
+      {
+        "object": "shape_38",
+        "size": "human"
+      },
+      {
+        "object": "shape_13",
+        "size": "building"
+      },
+      {
+        "object": "shape_24",
+        "size": "human"
+      },
+      {
+        "object": "shape_17",
+        "size": "human"
+      }
+    ],
+    [
+      {
+        "object": "shape_22",
+        "size": "building"
+      },
+      {
+        "object": "shape_20",
+        "size": "human"
+      },
+      {
+        "object": "shape_33",
+        "size": "building"
+      },
+      {
+        "object": "shape_32",
+        "size": "building"
+      },
+      {
+        "object": "shape_27",
+        "size": "building"
+      }
+    ],
+    [
+      {
+        "object": "shape_39",
+        "size": "building"
+      },
+      {
+        "object": "shape_29",
+        "size": "hand"
+      },
+      {
+        "object": "shape_30",
+        "size": "hand"
+      },
+      {
+        "object": "shape_25",
+        "size": "human"
+      },
+      {
+        "object": "shape_19",
         "size": "building"
       }
     ]

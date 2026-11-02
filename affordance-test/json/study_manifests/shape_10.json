@@ -49,26 +49,26 @@
       "part": 1,
       "region_id": "shape_10_region_13",
       "labels": {
-        "qwen3-vl-8b": "none",
+        "qwen3-vl-8b": "hold",
         "internvl3-8b": "beat",
-        "molmo2-8b": "none"
+        "molmo2-8b": "brush with"
       }
     },
     {
       "part": 2,
       "region_id": "shape_10_region_11",
       "labels": {
-        "qwen3-vl-8b": "none",
+        "qwen3-vl-8b": "sit on",
         "internvl3-8b": "beat",
-        "molmo2-8b": "none"
+        "molmo2-8b": "brush with"
       }
     },
     {
       "part": 3,
       "region_id": "shape_10_region_0",
       "labels": {
-        "qwen3-vl-8b": "none",
-        "internvl3-8b": "none",
+        "qwen3-vl-8b": "hit",
+        "internvl3-8b": "brush with",
         "molmo2-8b": "brush with"
       }
     },
@@ -76,17 +76,17 @@
       "part": 4,
       "region_id": "shape_10_region_1",
       "labels": {
-        "qwen3-vl-8b": "none",
-        "internvl3-8b": "none",
-        "molmo2-8b": "none"
+        "qwen3-vl-8b": "eat",
+        "internvl3-8b": "eat",
+        "molmo2-8b": "brush with"
       }
     },
     {
       "part": 5,
       "region_id": "shape_10_region_4",
       "labels": {
-        "qwen3-vl-8b": "none",
-        "internvl3-8b": "none",
+        "qwen3-vl-8b": "hit",
+        "internvl3-8b": "stick",
         "molmo2-8b": "brush with"
       }
     }

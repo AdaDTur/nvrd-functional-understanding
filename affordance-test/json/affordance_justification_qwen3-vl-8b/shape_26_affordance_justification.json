@@ -17,8 +17,8 @@
       },
       "vocabularies": {
         "agd20k": {
-          "label": "none",
-          "justification": "Part 1 has no discernible functional surface features for grasping, pressing, sliding, twisting, pulling, pushing, cutting, prying, drilling, hammering, screwing, unscrewing, inserting, removing, turning, lifting, carrying, wearing, holding, opening, closing, locking, unlocking, fast"
+          "label": "hold",
+          "justification": "Part 1 has a smooth, concave surface surrounded by spiky protrusions, making its central depression ideal for gripping objects securely while minimizing slippage compared to the jagged edges of the adjacent sections"
         }
       }
     },
@@ -34,8 +34,8 @@
       },
       "vocabularies": {
         "agd20k": {
-          "label": "none",
-          "justification": "Part 2\u2019s smooth, concave surface lacks any protrusions, grips, edges, or contours designed for interaction, making no functional interface available for use by human hands or tools \u2014 unlike Parts 1 and 3 which have textured surfaces or shapes suggesting potential manipulation points"
+          "label": "eat",
+          "justification": "Part 2\u2019s smooth, rounded interior surface suggests ease of access for consumption compared to its spiky exterior and protruding appendage"
         }
       }
     },
@@ -51,8 +51,8 @@
       },
       "vocabularies": {
         "agd20k": {
-          "label": "none",
-          "justification": "Part 3\u2019s jagged, inward-curving edge lacks any clear functional surface for gripping, pressing, or interacting meaningfully with external objects due to its irregular form and recessed positioning within the overall structure"
+          "label": "hit",
+          "justification": "Part 3\u2019s jagged, protruding edge suggests it can be used as a striking surface due to its sharp contours designed for impact rather than grip or containment like the others"
         }
       }
     }

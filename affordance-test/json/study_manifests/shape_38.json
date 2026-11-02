@@ -49,18 +49,18 @@
       "part": 1,
       "region_id": "shape_38_region_3",
       "labels": {
-        "qwen3-vl-8b": "none",
+        "qwen3-vl-8b": "hold",
         "internvl3-8b": "sit on",
-        "molmo2-8b": "none"
+        "molmo2-8b": "brush with"
       }
     },
     {
       "part": 2,
       "region_id": "shape_38_region_1",
       "labels": {
-        "qwen3-vl-8b": "none",
+        "qwen3-vl-8b": "sit on",
         "internvl3-8b": "carry",
-        "molmo2-8b": "none"
+        "molmo2-8b": "hold"
       }
     }
   ]

@@ -49,7 +49,7 @@
       "part": 1,
       "region_id": "shape_26_region_61",
       "labels": {
-        "qwen3-vl-8b": "none",
+        "qwen3-vl-8b": "hold",
         "internvl3-8b": "beat",
         "molmo2-8b": "beat"
       }
@@ -58,16 +58,16 @@
       "part": 2,
       "region_id": "shape_26_region_60",
       "labels": {
-        "qwen3-vl-8b": "none",
+        "qwen3-vl-8b": "eat",
         "internvl3-8b": "eat",
-        "molmo2-8b": "none"
+        "molmo2-8b": "brush with"
       }
     },
     {
       "part": 3,
       "region_id": "shape_26_region_59",
       "labels": {
-        "qwen3-vl-8b": "none",
+        "qwen3-vl-8b": "hit",
         "internvl3-8b": "hit",
         "molmo2-8b": "brush with"
       }

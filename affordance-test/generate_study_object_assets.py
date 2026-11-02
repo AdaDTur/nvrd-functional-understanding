@@ -26,8 +26,10 @@ if os.path.isdir(_VENV_DIR) and os.path.realpath(sys.prefix) != os.path.realpath
 
 from PIL import Image
 
-from affordance_labeling import AGD20K_VERBS, downscale, highlight_region, numbered_overlay, partition_regions
-from region_information_gain import load_regions, resolve_image_path
+from affordance_labeling import (
+    AGD20K_VERBS, downscale, highlight_region, load_regions, numbered_overlay, partition_regions,
+    resolve_image_path,
+)
 
 IMG_OUT_DIR = os.path.join(HERE, "figures", "study_images")
 MANIFEST_OUT_DIR = os.path.join(HERE, "json", "study_manifests")

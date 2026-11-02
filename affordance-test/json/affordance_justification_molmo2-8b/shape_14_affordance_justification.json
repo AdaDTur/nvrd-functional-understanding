@@ -17,8 +17,8 @@
       },
       "vocabularies": {
         "agd20k": {
-          "label": "none",
-          "justification": "Part 1 appears to be a solid, untextured surface with no visible handles, buttons, or other interactive features, making it impossible to grip or manipulate"
+          "label": "brush with",
+          "justification": "The part labeled 1 appears to be a flat, elongated surface with a smooth texture, making it ideal for brushing compared to the other numbered parts which may have different shapes or textures"
         }
       }
     },
@@ -34,8 +34,8 @@
       },
       "vocabularies": {
         "agd20k": {
-          "label": "none",
-          "justification": "Part 2 appears to be a solid, enclosed section without any visible openings or handles, making it impossible to grasp or manipulate"
+          "label": "brush with",
+          "justification": "Part 2 appears to be a hollow, oval-shaped depression with a textured surface, resembling a brush holder or holder for a paintbrush, which is designed to be brushed with"
         }
       }
     }

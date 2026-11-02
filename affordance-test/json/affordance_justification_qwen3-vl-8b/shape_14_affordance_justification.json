@@ -17,8 +17,8 @@
       },
       "vocabularies": {
         "agd20k": {
-          "label": "none",
-          "justification": "Part 1 has no discernible surface features for grasping or interaction due to its smooth, concave form nestled within another structure, making any functional use impossible without external support"
+          "label": "hold",
+          "justification": "Part 1 has a concave, cup-like depression designed for gripping or supporting objects securely within its curved interior surface"
         }
       }
     },
@@ -34,8 +34,8 @@
       },
       "vocabularies": {
         "agd20k": {
-          "label": "none",
-          "justification": "Part 2\u2019s concave, recessed form lacks any protrusions or surfaces designed for interaction, making its affordances nonexistent compared to the more accessible surrounding structure of part 1"
+          "label": "hold",
+          "justification": "Part 2 has a concave, cup-like indentation designed for gripping or cradling objects securely within its curved recess"
         }
       }
     }

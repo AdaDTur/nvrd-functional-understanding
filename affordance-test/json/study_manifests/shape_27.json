@@ -58,7 +58,7 @@
       "part": 2,
       "region_id": "shape_27_region_6",
       "labels": {
-        "qwen3-vl-8b": "none",
+        "qwen3-vl-8b": "sit on",
         "internvl3-8b": "carry",
         "molmo2-8b": "hold"
       }
