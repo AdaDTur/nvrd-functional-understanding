@@ -19,6 +19,10 @@
         "agd20k": {
           "label": "sit on",
           "justification": "Part 1 has a broad, flat surface positioned horizontally at its base, making it suitable for supporting weight like seating"
+        },
+        "agd20k_no_none": {
+          "label": "sit on",
+          "justification": "Part 1 has a broad, flat surface positioned horizontally at its base, making it suitable for supporting weight like seating"
         }
       }
     },
@@ -34,6 +38,10 @@
       },
       "vocabularies": {
         "agd20k": {
+          "label": "sit on",
+          "justification": "Part 2 has a broad, flat surface positioned horizontally at ground level, making it suitable for supporting weight like seating"
+        },
+        "agd20k_no_none": {
           "label": "sit on",
           "justification": "Part 2 has a broad, flat surface positioned horizontally at ground level, making it suitable for supporting weight like seating"
         }
@@ -53,6 +61,10 @@
         "agd20k": {
           "label": "hit",
           "justification": "Part 3\u2019s elongated, pointed tip suggests it can be used as a striking tool due to its sharp end designed for impact rather than grasping or supporting like the broader limbs around it"
+        },
+        "agd20k_no_none": {
+          "label": "hit",
+          "justification": "Part 3\u2019s elongated, pointed tip suggests it can be used as a striking tool due to its sharp end designed for impact rather than grasping or supporting like the broader limbs around it"
         }
       }
     },
@@ -68,6 +80,10 @@
       },
       "vocabularies": {
         "agd20k": {
+          "label": "hit",
+          "justification": "Part 4\u2019s flat, broad surface positioned at the end of its limb suggests it can be easily struck against surfaces for impact rather than grasping or manipulating objects like the others"
+        },
+        "agd20k_no_none": {
           "label": "hit",
           "justification": "Part 4\u2019s flat, broad surface positioned at the end of its limb suggests it can be easily struck against surfaces for impact rather than grasping or manipulating objects like the others"
         }
@@ -87,6 +103,10 @@
         "agd20k": {
           "label": "hit",
           "justification": "Part 5\u2019s sharp, pointed tip suggests its function is for striking rather than grasping or supporting like the broader limbs around it"
+        },
+        "agd20k_no_none": {
+          "label": "hit",
+          "justification": "Part 5\u2019s sharp, pointed tip suggests its function is for striking rather than grasping or supporting like the broader limbs around it"
         }
       }
     },
@@ -104,6 +124,10 @@
         "agd20k": {
           "label": "hit",
           "justification": "Part 6 has a sharp, pointed tip positioned at the top of the central body, making it suitable for striking objects due to its aggressive geometry compared to surrounding rounded appendages"
+        },
+        "agd20k_no_none": {
+          "label": "hit",
+          "justification": "Part 6 has a sharp, pointed tip positioned at the top of the central body, making it suitable for striking objects due to its aggressive geometry compared to surrounding rounded appendages"
         }
       }
     },
@@ -119,6 +143,10 @@
       },
       "vocabularies": {
         "agd20k": {
+          "label": "hit",
+          "justification": "Part 7\u2019s sharp, pointed tip positioned at the top of the structure suggests its function as a striking element rather than for grasping or supporting like the broader limbs below"
+        },
+        "agd20k_no_none": {
           "label": "hit",
           "justification": "Part 7\u2019s sharp, pointed tip positioned at the top of the structure suggests its function as a striking element rather than for grasping or supporting like the broader limbs below"
         }

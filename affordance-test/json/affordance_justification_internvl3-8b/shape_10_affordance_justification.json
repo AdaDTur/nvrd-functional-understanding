@@ -19,6 +19,10 @@
         "agd20k": {
           "label": "beat",
           "justification": "The rounded protrusion at the top suggests rhythmic movement akin to beating due its dynamic positioning compared to more static elements like extensions or supports in adjacent areas"
+        },
+        "agd20k_no_none": {
+          "label": "beat",
+          "justification": "The rounded protrusion at the top suggests rhythmic movement akin to beating due its dynamic positioning compared to more static elements like extensions or supports in adjacent areas"
         }
       }
     },
@@ -34,6 +38,10 @@
       },
       "vocabularies": {
         "agd20k": {
+          "label": "beat",
+          "justification": "The rounded protrusions of Part 2 suggest rhythmic movement akin to beating compared to its smooth surface differing significantly in function than Parts 3-4 which are more structural components like stalks and base supports"
+        },
+        "agd20k_no_none": {
           "label": "beat",
           "justification": "The rounded protrusions of Part 2 suggest rhythmic movement akin to beating compared to its smooth surface differing significantly in function than Parts 3-4 which are more structural components like stalks and base supports"
         }
@@ -53,6 +61,10 @@
         "agd20k": {
           "label": "brush with",
           "justification": "The green structure of Part 3 has bristle-like projections suggesting its use for brushing actions, differing in function as compared to smooth surfaces like those likely serving structural roles elsewhere"
+        },
+        "agd20k_no_none": {
+          "label": "brush with",
+          "justification": "The green structure of Part 3 has bristle-like projections suggesting its use for brushing actions, differing in function as compared to smooth surfaces like those likely serving structural roles elsewhere"
         }
       }
     },
@@ -70,6 +82,10 @@
         "agd20k": {
           "label": "eat",
           "justification": "Part four has a rounded indentation suggesting its role as food intake area in contrast to others which appear structural rather than functional for consumption"
+        },
+        "agd20k_no_none": {
+          "label": "eat",
+          "justification": "Part four has a rounded indentation suggesting its role as food intake area in contrast to others which appear structural rather than functional for consumption"
         }
       }
     },
@@ -85,6 +101,10 @@
       },
       "vocabularies": {
         "agd20k": {
+          "label": "stick",
+          "justification": "The elongated pointed structure of Part 5 suggests its function as something meant for attachment or insertion into another surface compared to more rounded shapes like those in Parts 2-4 which likely serve sensory roles within tentacles-like appendages"
+        },
+        "agd20k_no_none": {
           "label": "stick",
           "justification": "The elongated pointed structure of Part 5 suggests its function as something meant for attachment or insertion into another surface compared to more rounded shapes like those in Parts 2-4 which likely serve sensory roles within tentacles-like appendages"
         }

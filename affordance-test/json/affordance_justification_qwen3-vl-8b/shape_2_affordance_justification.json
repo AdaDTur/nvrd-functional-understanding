@@ -36,6 +36,10 @@
         "agd20k": {
           "label": "sit on",
           "justification": "Part 2 has a broad, flat surface positioned horizontally at its base, making it suitable for supporting weight like seating"
+        },
+        "agd20k_no_none": {
+          "label": "sit on",
+          "justification": "Part 2 has a broad, flat surface positioned horizontally at its base, making it suitable for supporting weight like seating"
         }
       }
     },
@@ -70,6 +74,10 @@
         "agd20k": {
           "label": "hit",
           "justification": "Part 4\u2019s elongated, cylindrical form tapers into a blunt end positioned for striking objects directly in front of its body \u2014 unlike any surrounding component designed for grip, balance, or defense \u2014 making it uniquely suited as a weaponized implement intended solely for impact"
+        },
+        "agd20k_no_none": {
+          "label": "hit",
+          "justification": "Part 4\u2019s elongated, cylindrical form tapers into a blunt end positioned for striking objects directly in front of its body \u2014 unlike any surrounding component designed for grip, balance, or defense \u2014 making it uniquely suited as a weaponized implement intended solely for impact"
         }
       }
     },
@@ -85,6 +93,10 @@
       },
       "vocabularies": {
         "agd20k": {
+          "label": "hold",
+          "justification": "Part 5 has a flat, broad surface extending outward at right angles, making it ideal for gripping compared to the slender, pointed shapes of all other components which are designed more for piercing or attachment rather than grasping"
+        },
+        "agd20k_no_none": {
           "label": "hold",
           "justification": "Part 5 has a flat, broad surface extending outward at right angles, making it ideal for gripping compared to the slender, pointed shapes of all other components which are designed more for piercing or attachment rather than grasping"
         }
@@ -104,6 +116,10 @@
         "agd20k": {
           "label": "hit",
           "justification": "Part 6 has a thick, blunt end positioned for striking objects directly against its surface area"
+        },
+        "agd20k_no_none": {
+          "label": "hit",
+          "justification": "Part 6 has a thick, blunt end positioned for striking objects directly against its surface area"
         }
       }
     },
@@ -121,6 +137,10 @@
         "agd20k": {
           "label": "hit",
           "justification": "Part 7\u2019s sharp, pointed tip positioned at the top of the central body suggests its function as a striking implement rather than for grasping or supporting weight like the broader limbs around it"
+        },
+        "agd20k_no_none": {
+          "label": "hit",
+          "justification": "Part 7\u2019s sharp, pointed tip positioned at the top of the central body suggests its function as a striking implement rather than for grasping or supporting weight like the broader limbs around it"
         }
       }
     },
@@ -136,6 +156,10 @@
       },
       "vocabularies": {
         "agd20k": {
+          "label": "hit",
+          "justification": "Part 8\u2019s sharp, pointed tip positioned at the top of the central body suggests its function as a striking implement rather than for grasping or supporting weight like the broader limbs around it"
+        },
+        "agd20k_no_none": {
           "label": "hit",
           "justification": "Part 8\u2019s sharp, pointed tip positioned at the top of the central body suggests its function as a striking implement rather than for grasping or supporting weight like the broader limbs around it"
         }

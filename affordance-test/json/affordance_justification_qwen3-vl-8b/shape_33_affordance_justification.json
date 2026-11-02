@@ -36,6 +36,10 @@
         "agd20k": {
           "label": "wear",
           "justification": "Part 2\u2019s flat, rectangular top surface suggests it can be placed over another item like a hat for covering purposes"
+        },
+        "agd20k_no_none": {
+          "label": "wear",
+          "justification": "Part 2\u2019s flat, rectangular top surface suggests it can be placed over another item like a hat for covering purposes"
         }
       }
     },
@@ -51,6 +55,10 @@
       },
       "vocabularies": {
         "agd20k": {
+          "label": "sit on",
+          "justification": "Part 3 has a broad, flat surface at its base positioned horizontally near ground level, making it suitable for supporting weight when seated \u2014 unlike most other components which are slender, pointed, or curved for movement rather than stability"
+        },
+        "agd20k_no_none": {
           "label": "sit on",
           "justification": "Part 3 has a broad, flat surface at its base positioned horizontally near ground level, making it suitable for supporting weight when seated \u2014 unlike most other components which are slender, pointed, or curved for movement rather than stability"
         }
@@ -70,6 +78,10 @@
         "agd20k": {
           "label": "hit",
           "justification": "Part 4\u2019s sharp, pointed spike-like structure positioned at the rear suggests its function as a defensive weapon for striking opponents"
+        },
+        "agd20k_no_none": {
+          "label": "hit",
+          "justification": "Part 4\u2019s sharp, pointed spike-like structure positioned at the rear suggests its function as a defensive weapon for striking opponents"
         }
       }
     },
@@ -87,6 +99,10 @@
         "agd20k": {
           "label": "kick",
           "justification": "Part 5 has a long, slender leg-like structure extending downward from the body\u2019s center, positioned for striking motion rather than grasping or supporting weight like most of its counterparts"
+        },
+        "agd20k_no_none": {
+          "label": "kick",
+          "justification": "Part 5 has a long, slender leg-like structure extending downward from the body\u2019s center, positioned for striking motion rather than grasping or supporting weight like most of its counterparts"
         }
       }
     },
@@ -102,6 +118,10 @@
       },
       "vocabularies": {
         "agd20k": {
+          "label": "hit",
+          "justification": "Part 6 has a jagged, lightning-bolt-like edge positioned prominently for striking impact rather than grasping or connecting like most of its counterparts"
+        },
+        "agd20k_no_none": {
           "label": "hit",
           "justification": "Part 6 has a jagged, lightning-bolt-like edge positioned prominently for striking impact rather than grasping or connecting like most of its counterparts"
         }
@@ -189,6 +209,10 @@
         "agd20k": {
           "label": "hold",
           "justification": "Part 12 has a small protrusion at its base which appears designed for gripping or attachment by another component in assembly"
+        },
+        "agd20k_no_none": {
+          "label": "hold",
+          "justification": "Part 12 has a small protrusion at its base which appears designed for gripping or attachment by another component in assembly"
         }
       }
     },
@@ -240,6 +264,10 @@
         "agd20k": {
           "label": "hold",
           "justification": "Part 13 appears as a small protrusion near its top edge which suggests grip functionality for holding onto something else in context of interaction design while being distinctively positioned compared to others like flat surfaces or appendages around it such as those labeled nearby numbers indicating lack thereof; however since instruction requires focusing solely on justifying '"
+        },
+        "agd20k_no_none": {
+          "label": "hold",
+          "justification": "Part 13 appears as a small protrusion near its top edge which suggests grip functionality for holding onto something else in context of interaction design while being distinctively positioned compared to others like flat surfaces or appendages around it such as those labeled nearby numbers indicating lack thereof; however since instruction requires focusing solely on justifying '"
         }
       }
     },
@@ -255,6 +283,10 @@
       },
       "vocabularies": {
         "agd20k": {
+          "label": "sit on",
+          "justification": "Part 14 has been identified as having no clear functional purpose in supporting weight due to its small size and central placement within the body structure of the figure; unlike larger structural components such as legs or base elements which are designed for bearing load during use \u2014 like sitting\u2014part 13 appears more decorative than utilitarian"
+        },
+        "agd20k_no_none": {
           "label": "sit on",
           "justification": "Part 14 has been identified as having no clear functional purpose in supporting weight due to its small size and central placement within the body structure of the figure; unlike larger structural components such as legs or base elements which are designed for bearing load during use \u2014 like sitting\u2014part 13 appears more decorative than utilitarian"
         }

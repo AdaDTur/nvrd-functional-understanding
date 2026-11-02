@@ -36,6 +36,10 @@
         "agd20k": {
           "label": "sit on",
           "justification": "Part 2 has a broad, flat base positioned at the bottom of the figure, making it stable enough for support when seated"
+        },
+        "agd20k_no_none": {
+          "label": "sit on",
+          "justification": "Part 2 has a broad, flat base positioned at the bottom of the figure, making it stable enough for support when seated"
         }
       }
     },

@@ -12,11 +12,19 @@ objects; on-image labels would be legible for the small objects and unreadable c
 ones, which also means no two objects' figures would share a consistent style -- bad for a
 supplementary figure set a reader flips through together.
 
-Output: manuscript_figures/region_labels/<object>_region_labels.png
+Two variants, one subfolder each, selected with --vocab:
+  agd20k          (default) -- the standard labels, "none" allowed     -> region_labels/with_none/
+  agd20k_no_none  -- forced-choice labels, no "none" option available  -> region_labels/no_none/
+The no_none variant reads vocabularies["agd20k_no_none"] from the justification files (see
+score_no_none_labels.py), not the study manifest, since the manifest only carries the standard
+agd20k label.
+
+Output: manuscript_figures/region_labels/<with_none|no_none>/<object>_region_labels.png
 
 Usage:
-    venv_vlm/bin/python3 plot_object_region_labels.py                   # all 30 novel objects
-    venv_vlm/bin/python3 plot_object_region_labels.py shape_14 shape_27 # just these
+    venv_vlm/bin/python3 plot_object_region_labels.py                                  # all 30, agd20k
+    venv_vlm/bin/python3 plot_object_region_labels.py shape_14 shape_27                 # just these
+    venv_vlm/bin/python3 plot_object_region_labels.py --vocab agd20k_no_none shape_10   # no-none variant
 """
 import json
 import os
@@ -28,11 +36,13 @@ import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch
 from PIL import Image
 
+from relabel_none_cases import out_dir_for
+
 HERE = os.path.dirname(os.path.realpath(__file__))
 IMG_DIR = os.path.join(HERE, "figures", "study_images")
 MANIFEST_DIR = os.path.join(HERE, "json", "study_manifests")
 OUT_DIR = os.path.join(HERE, "manuscript_figures", "region_labels")
-os.makedirs(OUT_DIR, exist_ok=True)
+VOCAB_SUBDIR = {"agd20k": "with_none", "agd20k_no_none": "no_none"}
 
 OBJECTS = ["shape_1", "shape_2", "shape_3", "shape_10", "shape_11", "shape_12", "shape_13",
            "shape_14", "shape_15", "shape_16", "shape_17", "shape_18", "shape_19", "shape_20",
@@ -61,10 +71,34 @@ def load_manifest(obj: str) -> list:
     return sorted(data["regions"], key=lambda r: r["part"])
 
 
-def make_figure(obj: str):
+def load_regions_for_vocab(obj: str, vocab: str) -> list:
+    """Part/region_id ordering always comes from the manifest (it's what the numbered overlay image
+    was built against); for vocab == "agd20k_no_none" the per-model label itself is swapped out for
+    vocabularies["agd20k_no_none"]["label"] read directly from each model's justification file."""
+    regions = load_manifest(obj)
+    if vocab == "agd20k":
+        return regions
+    label_by_model_region = {}
+    for m in MODELS:
+        path = os.path.join(out_dir_for(m), f"{obj}_affordance_justification.json")
+        with open(path) as f:
+            data = json.load(f)
+        label_by_model_region[m] = {
+            r["region_id"]: r["vocabularies"][vocab]["label"] for r in data["regions"]
+        }
+    return [
+        {"part": r["part"], "region_id": r["region_id"],
+         "labels": {m: label_by_model_region[m][r["region_id"]] for m in MODELS}}
+        for r in regions
+    ]
+
+
+def make_figure(obj: str, vocab: str = "agd20k"):
+    out_dir = os.path.join(OUT_DIR, VOCAB_SUBDIR[vocab])
+    os.makedirs(out_dir, exist_ok=True)
     img_path = os.path.join(IMG_DIR, f"{obj}_numbered.png")
     image = Image.open(img_path).convert("RGB")
-    regions = load_manifest(obj)
+    regions = load_regions_for_vocab(obj, vocab)
     n_parts = len(regions)
 
     row_h = 0.42  # inches per table row, used to size the figure to the part count
@@ -128,20 +162,27 @@ def make_figure(obj: str):
 
     fig.suptitle(obj.replace("_", " ").title(), fontsize=14, fontweight="bold", x=0.03, ha="left",
                  y=1 - 0.08 / fig_h)
-    fig.text(0.03, 1 - 0.33 / fig_h,
-              f"{n_parts} region{'s' if n_parts != 1 else ''} • forced-choice label per model "
-              "(italic gray = \"none\")", fontsize=9, color="#555555")
+    caption = (
+        f"{n_parts} region{'s' if n_parts != 1 else ''} • forced-choice label per model "
+        + ("(italic gray = \"none\")" if vocab == "agd20k" else "(\"none\" not offered as an option)")
+    )
+    fig.text(0.03, 1 - 0.33 / fig_h, caption, fontsize=9, color="#555555")
 
-    out_png = os.path.join(OUT_DIR, f"{obj}_region_labels.png")
+    out_png = os.path.join(out_dir, f"{obj}_region_labels.png")
     fig.savefig(out_png, dpi=300)
     plt.close(fig)
     return out_png
 
 
 def main():
-    objects = sys.argv[1:] or OBJECTS
+    args = sys.argv[1:]
+    vocab = "agd20k"
+    if args and args[0] == "--vocab":
+        vocab = args[1]
+        args = args[2:]
+    objects = args or OBJECTS
     for obj in objects:
-        out = make_figure(obj)
+        out = make_figure(obj, vocab)
         print(f"saved {out}")
 
 

@@ -19,6 +19,10 @@
         "agd20k": {
           "label": "sit on",
           "justification": "Part 1 has a broad, rounded base positioned at the bottom of the structure, suggesting stability for supporting weight rather than being manipulated like the flexible appendages above"
+        },
+        "agd20k_no_none": {
+          "label": "sit on",
+          "justification": "Part 1 has a broad, rounded base positioned at the bottom of the structure, suggesting stability for supporting weight rather than being manipulated like the flexible appendages above"
         }
       }
     },
@@ -87,6 +91,10 @@
         "agd20k": {
           "label": "hold",
           "justification": "Part 5 has a thick, curved loop extending outward from the body, designed for gripping or grasping \u2014 unlike any of the other components which are either spiky protrusions, textured segments, or limb-like appendages without such ergonomic contours"
+        },
+        "agd20k_no_none": {
+          "label": "hold",
+          "justification": "Part 5 has a thick, curved loop extending outward from the body, designed for gripping or grasping \u2014 unlike any of the other components which are either spiky protrusions, textured segments, or limb-like appendages without such ergonomic contours"
         }
       }
     },
@@ -102,6 +110,10 @@
       },
       "vocabularies": {
         "agd20k": {
+          "label": "hold",
+          "justification": "Part 6 has a curved, loop-like form positioned at the side of the main body, suggesting its function as a handle for gripping or carrying"
+        },
+        "agd20k_no_none": {
           "label": "hold",
           "justification": "Part 6 has a curved, loop-like form positioned at the side of the main body, suggesting its function as a handle for gripping or carrying"
         }
@@ -138,6 +150,10 @@
         "agd20k": {
           "label": "hit",
           "justification": "Part 8\u2019s sharp, pointed tip positioned prominently at the top front suggests its function as a weapon for striking rather than grasping or supporting like adjacent body segments"
+        },
+        "agd20k_no_none": {
+          "label": "hit",
+          "justification": "Part 8\u2019s sharp, pointed tip positioned prominently at the top front suggests its function as a weapon for striking rather than grasping or supporting like adjacent body segments"
         }
       }
     },
@@ -172,6 +188,10 @@
         "agd20k": {
           "label": "hit",
           "justification": "Part 1 protrudes outward like a blunt spike designed for striking rather than grasping or supporting due to its pointed tip positioned at the top of the creature\u2019s head where impact would be most effective in combat scenarios compared to softer body segments below which are more suited for movement or protection"
+        },
+        "agd20k_no_none": {
+          "label": "hit",
+          "justification": "Part 1 protrudes outward like a blunt spike designed for striking rather than grasping or supporting due to its pointed tip positioned at the top of the creature\u2019s head where impact would be most effective in combat scenarios compared to softer body segments below which are more suited for movement or protection"
         }
       }
     },
@@ -187,6 +207,10 @@
       },
       "vocabularies": {
         "agd20k": {
+          "label": "hit",
+          "justification": "Part 10\u2019s sharp tip suggests its function as a weaponized protrusion designed for striking rather than grasping or supporting like adjacent segments"
+        },
+        "agd20k_no_none": {
           "label": "hit",
           "justification": "Part 10\u2019s sharp tip suggests its function as a weaponized protrusion designed for striking rather than grasping or supporting like adjacent segments"
         }

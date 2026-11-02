@@ -36,6 +36,10 @@
         "agd20k": {
           "label": "sit on",
           "justification": "Part 2 forms a broad, flat base at the bottom of the structure, providing stable support for weight-bearing interaction unlike any other component which are curved or protruding"
+        },
+        "agd20k_no_none": {
+          "label": "sit on",
+          "justification": "Part 2 forms a broad, flat base at the bottom of the structure, providing stable support for weight-bearing interaction unlike any other component which are curved or protruding"
         }
       }
     },
@@ -87,6 +91,10 @@
         "agd20k": {
           "label": "sit on",
           "justification": "Part 5 has a broad, flat surface positioned at ground level, making it suitable for supporting weight like seating"
+        },
+        "agd20k_no_none": {
+          "label": "sit on",
+          "justification": "Part 5 has a broad, flat surface positioned at ground level, making it suitable for supporting weight like seating"
         }
       }
     },
@@ -136,6 +144,10 @@
       },
       "vocabularies": {
         "agd20k": {
+          "label": "sit on",
+          "justification": "Part 8 has a broad, flat surface positioned at the base of the structure, making it suitable for supporting weight like seating"
+        },
+        "agd20k_no_none": {
           "label": "sit on",
           "justification": "Part 8 has a broad, flat surface positioned at the base of the structure, making it suitable for supporting weight like seating"
         }

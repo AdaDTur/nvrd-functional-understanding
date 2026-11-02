@@ -19,6 +19,10 @@
         "agd20k": {
           "label": "beat",
           "justification": "Part 1 appears to be a flat, elongated surface with a smooth texture, likely designed to be struck or tapped, distinguishing it from the other parts that seem to have different shapes or purposes"
+        },
+        "agd20k_no_none": {
+          "label": "beat",
+          "justification": "Part 1 appears to be a flat, elongated surface with a smooth texture, likely designed to be struck or tapped, distinguishing it from the other parts that seem to have different shapes or purposes"
         }
       }
     },
@@ -34,6 +38,10 @@
       },
       "vocabularies": {
         "agd20k": {
+          "label": "hold",
+          "justification": "Part 2 appears to be a cylindrical, tubular structure positioned at the base of the object, likely designed to be gripped and manipulated, distinguishing it from the other more decorative or structural elements"
+        },
+        "agd20k_no_none": {
           "label": "hold",
           "justification": "Part 2 appears to be a cylindrical, tubular structure positioned at the base of the object, likely designed to be gripped and manipulated, distinguishing it from the other more decorative or structural elements"
         }
@@ -53,6 +61,10 @@
         "agd20k": {
           "label": "brush with",
           "justification": "Part 3 appears to be a long, thin, tubular structure extending from the main body, likely designed for reaching and cleaning in confined spaces, unlike the other more compact or protruding parts"
+        },
+        "agd20k_no_none": {
+          "label": "brush with",
+          "justification": "Part 3 appears to be a long, thin, tubular structure extending from the main body, likely designed for reaching and cleaning in confined spaces, unlike the other more compact or protruding parts"
         }
       }
     },
@@ -68,6 +80,10 @@
       },
       "vocabularies": {
         "agd20k": {
+          "label": "beat",
+          "justification": "Part 4 appears to be a cylindrical, drum-like structure positioned horizontally, likely designed to be struck or tapped, distinguishing it from the other parts that seem to be more decorative or structural elements"
+        },
+        "agd20k_no_none": {
           "label": "beat",
           "justification": "Part 4 appears to be a cylindrical, drum-like structure positioned horizontally, likely designed to be struck or tapped, distinguishing it from the other parts that seem to be more decorative or structural elements"
         }
@@ -87,6 +103,10 @@
         "agd20k": {
           "label": "beat",
           "justification": "Part 5 appears to be a flat, elongated surface with a smooth texture, likely designed to be struck or tapped, distinguishing it from the other parts that seem to serve different functions or have different shapes"
+        },
+        "agd20k_no_none": {
+          "label": "beat",
+          "justification": "Part 5 appears to be a flat, elongated surface with a smooth texture, likely designed to be struck or tapped, distinguishing it from the other parts that seem to serve different functions or have different shapes"
         }
       }
     },
@@ -104,6 +124,10 @@
         "agd20k": {
           "label": "beat",
           "justification": "Part 6 appears to be a flat, circular surface with a slightly raised edge, resembling a drum or tambourine, which is designed to be struck or beaten"
+        },
+        "agd20k_no_none": {
+          "label": "beat",
+          "justification": "Part 6 appears to be a flat, circular surface with a slightly raised edge, resembling a drum or tambourine, which is designed to be struck or beaten"
         }
       }
     },
@@ -119,6 +143,10 @@
       },
       "vocabularies": {
         "agd20k": {
+          "label": "beat",
+          "justification": "Part 7 appears to be a flat, drum-like surface positioned at the top of the object, likely designed to be struck or tapped, distinguishing it from the other parts which seem to be more structural or decorative elements"
+        },
+        "agd20k_no_none": {
           "label": "beat",
           "justification": "Part 7 appears to be a flat, drum-like surface positioned at the top of the object, likely designed to be struck or tapped, distinguishing it from the other parts which seem to be more structural or decorative elements"
         }

@@ -5,3 +5,4 @@ data/sample-data/
 figures/
 *.log
 .DS_Store
+/Aff-Grasp/

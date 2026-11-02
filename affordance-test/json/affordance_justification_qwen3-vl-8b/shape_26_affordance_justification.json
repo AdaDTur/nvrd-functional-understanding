@@ -19,6 +19,10 @@
         "agd20k": {
           "label": "hold",
           "justification": "Part 1 has a smooth, concave surface surrounded by spiky protrusions, making its central depression ideal for gripping objects securely while minimizing slippage compared to the jagged edges of the adjacent sections"
+        },
+        "agd20k_no_none": {
+          "label": "hold",
+          "justification": "Part 1 has a smooth, concave surface surrounded by spiky protrusions, making its central depression ideal for gripping objects securely while minimizing slippage compared to the jagged edges of the adjacent sections"
         }
       }
     },
@@ -36,6 +40,10 @@
         "agd20k": {
           "label": "eat",
           "justification": "Part 2\u2019s smooth, rounded interior surface suggests ease of access for consumption compared to its spiky exterior and protruding appendage"
+        },
+        "agd20k_no_none": {
+          "label": "eat",
+          "justification": "Part 2\u2019s smooth, rounded interior surface suggests ease of access for consumption compared to its spiky exterior and protruding appendage"
         }
       }
     },
@@ -51,6 +59,10 @@
       },
       "vocabularies": {
         "agd20k": {
+          "label": "hit",
+          "justification": "Part 3\u2019s jagged, protruding edge suggests it can be used as a striking surface due to its sharp contours designed for impact rather than grip or containment like the others"
+        },
+        "agd20k_no_none": {
           "label": "hit",
           "justification": "Part 3\u2019s jagged, protruding edge suggests it can be used as a striking surface due to its sharp contours designed for impact rather than grip or containment like the others"
         }

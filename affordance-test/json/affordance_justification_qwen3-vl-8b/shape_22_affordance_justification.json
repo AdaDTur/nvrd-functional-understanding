@@ -70,6 +70,10 @@
         "agd20k": {
           "label": "drink with",
           "justification": "Part 4 forms the wide base of the vessel, suggesting its primary function as a container for holding liquid intended for consumption via drinking"
+        },
+        "agd20k_no_none": {
+          "label": "drink with",
+          "justification": "Part 4 forms the wide base of the vessel, suggesting its primary function as a container for holding liquid intended for consumption via drinking"
         }
       }
     },
@@ -121,6 +125,10 @@
         "agd20k": {
           "label": "drink with",
           "justification": "Part 7\u2019s curved handle-like form extends outward for gripping during use, distinguishing its functional purpose as opposed to the stacked structural components around it"
+        },
+        "agd20k_no_none": {
+          "label": "drink with",
+          "justification": "Part 7\u2019s curved handle-like form extends outward for gripping during use, distinguishing its functional purpose as opposed to the stacked structural components around it"
         }
       }
     },
@@ -136,6 +144,10 @@
       },
       "vocabularies": {
         "agd20k": {
+          "label": "hold",
+          "justification": "Part 8 curves outward into a loop-like handle positioned for gripping, distinguishing its function as something meant to be held by hand unlike any of the stacked circular segments around it"
+        },
+        "agd20k_no_none": {
           "label": "hold",
           "justification": "Part 8 curves outward into a loop-like handle positioned for gripping, distinguishing its function as something meant to be held by hand unlike any of the stacked circular segments around it"
         }

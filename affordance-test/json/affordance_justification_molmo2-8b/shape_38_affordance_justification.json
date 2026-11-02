@@ -19,6 +19,10 @@
         "agd20k": {
           "label": "brush with",
           "justification": "The curved, elongated shape of part 1 suggests it's designed to be held and swept, making it ideal for brushing tasks compared to the other, more solid-looking component"
+        },
+        "agd20k_no_none": {
+          "label": "brush with",
+          "justification": "The curved, elongated shape of part 1 suggests it's designed to be held and swept, making it ideal for brushing tasks compared to the other, more solid-looking component"
         }
       }
     },
@@ -34,6 +38,10 @@
       },
       "vocabularies": {
         "agd20k": {
+          "label": "hold",
+          "justification": "Part 2 appears to be a small, round, protruding element at the bottom of the object, likely designed to be easily grasped and manipulated, distinguishing it from the larger, more complex main body"
+        },
+        "agd20k_no_none": {
           "label": "hold",
           "justification": "Part 2 appears to be a small, round, protruding element at the bottom of the object, likely designed to be easily grasped and manipulated, distinguishing it from the larger, more complex main body"
         }

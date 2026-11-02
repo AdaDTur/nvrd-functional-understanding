@@ -19,6 +19,10 @@
         "agd20k": {
           "label": "hold",
           "justification": "Part 1 has a smooth, curved surface positioned centrally for gripping, distinguishing its ergonomic design intended for manual handling compared to surrounding structural elements"
+        },
+        "agd20k_no_none": {
+          "label": "hold",
+          "justification": "Part 1 has a smooth, curved surface positioned centrally for gripping, distinguishing its ergonomic design intended for manual handling compared to surrounding structural elements"
         }
       }
     },
@@ -70,6 +74,10 @@
         "agd20k": {
           "label": "carry",
           "justification": "Part 4\u2019s curved, loop-like form extends outward like a handle, designed for gripping and transporting the main body of the device \u2014 unlike any flat surface or control element among the others"
+        },
+        "agd20k_no_none": {
+          "label": "carry",
+          "justification": "Part 4\u2019s curved, loop-like form extends outward like a handle, designed for gripping and transporting the main body of the device \u2014 unlike any flat surface or control element among the others"
         }
       }
     },
@@ -104,6 +112,10 @@
         "agd20k": {
           "label": "wear",
           "justification": "Part 6 has a small, flat surface positioned at the top of the device\u2019s body where fingers naturally rest during handling \u2014 suggesting its function as a grip point for wearing rather than interacting directly like buttons or ports elsewhere"
+        },
+        "agd20k_no_none": {
+          "label": "wear",
+          "justification": "Part 6 has a small, flat surface positioned at the top of the device\u2019s body where fingers naturally rest during handling \u2014 suggesting its function as a grip point for wearing rather than interacting directly like buttons or ports elsewhere"
         }
       }
     },
@@ -119,6 +131,10 @@
       },
       "vocabularies": {
         "agd20k": {
+          "label": "hold",
+          "justification": "Part 7 has a curved, elongated form positioned for gripping, distinguishing its function as something meant to be held by hand compared to surrounding flat or decorative elements"
+        },
+        "agd20k_no_none": {
           "label": "hold",
           "justification": "Part 7 has a curved, elongated form positioned for gripping, distinguishing its function as something meant to be held by hand compared to surrounding flat or decorative elements"
         }
@@ -138,6 +154,10 @@
         "agd20k": {
           "label": "hold",
           "justification": "Part 8 has a smooth, rounded contour positioned centrally for gripping, distinguishing its ergonomic design intended for manual handling unlike surrounding structural elements"
+        },
+        "agd20k_no_none": {
+          "label": "hold",
+          "justification": "Part 8 has a smooth, rounded contour positioned centrally for gripping, distinguishing its ergonomic design intended for manual handling unlike surrounding structural elements"
         }
       }
     },
@@ -155,6 +175,10 @@
         "agd20k": {
           "label": "text on",
           "justification": "Part 9\u2019s flat, elongated oval surface appears designed for displaying information rather than gripping or pressing like surrounding components"
+        },
+        "agd20k_no_none": {
+          "label": "text on",
+          "justification": "Part 9\u2019s flat, elongated oval surface appears designed for displaying information rather than gripping or pressing like surrounding components"
         }
       }
     },
@@ -170,6 +194,10 @@
       },
       "vocabularies": {
         "agd20k": {
+          "label": "text on",
+          "justification": "Part 1 appears as a flat surface designed for displaying information rather than being manipulated physically like surrounding components"
+        },
+        "agd20k_no_none": {
           "label": "text on",
           "justification": "Part 1 appears as a flat surface designed for displaying information rather than being manipulated physically like surrounding components"
         }

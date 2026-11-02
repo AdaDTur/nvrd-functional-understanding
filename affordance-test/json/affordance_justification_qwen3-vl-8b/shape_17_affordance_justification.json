@@ -53,6 +53,10 @@
         "agd20k": {
           "label": "sip",
           "justification": "Part 3\u2019s small, open-ended cylindrical form suggests it can hold liquid for sipping rather than holding larger volumes like the central chamber or funnel-like openings of others"
+        },
+        "agd20k_no_none": {
+          "label": "sip",
+          "justification": "Part 3\u2019s small, open-ended cylindrical form suggests it can hold liquid for sipping rather than holding larger volumes like the central chamber or funnel-like openings of others"
         }
       }
     },

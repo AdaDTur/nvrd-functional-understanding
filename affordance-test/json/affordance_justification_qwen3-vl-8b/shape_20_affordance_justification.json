@@ -53,6 +53,10 @@
         "agd20k": {
           "label": "drink with",
           "justification": "Part 3 has a curved tube-like structure ending in a flared opening positioned upwardly, suggesting its function as a vessel for consuming liquids through suction or pouring"
+        },
+        "agd20k_no_none": {
+          "label": "drink with",
+          "justification": "Part 3 has a curved tube-like structure ending in a flared opening positioned upwardly, suggesting its function as a vessel for consuming liquids through suction or pouring"
         }
       }
     },
@@ -68,6 +72,10 @@
       },
       "vocabularies": {
         "agd20k": {
+          "label": "sit on",
+          "justification": "Part 4 has a broad, sturdy base shaped like a foot, positioned low near the ground among several similar supports, making it structurally suited for bearing weight when someone sits upon its surface"
+        },
+        "agd20k_no_none": {
           "label": "sit on",
           "justification": "Part 4 has a broad, sturdy base shaped like a foot, positioned low near the ground among several similar supports, making it structurally suited for bearing weight when someone sits upon its surface"
         }
@@ -87,6 +95,10 @@
         "agd20k": {
           "label": "sit on",
           "justification": "Part 5 has a thick, rounded base positioned centrally beneath the main body, suggesting stability for weight-bearing support like sitting"
+        },
+        "agd20k_no_none": {
+          "label": "sit on",
+          "justification": "Part 5 has a thick, rounded base positioned centrally beneath the main body, suggesting stability for weight-bearing support like sitting"
         }
       }
     },
@@ -102,6 +114,10 @@
       },
       "vocabularies": {
         "agd20k": {
+          "label": "sit on",
+          "justification": "Part 6 has a broad, sturdy base positioned low near the ground, making it suitable for supporting weight when sitting"
+        },
+        "agd20k_no_none": {
           "label": "sit on",
           "justification": "Part 6 has a broad, sturdy base positioned low near the ground, making it suitable for supporting weight when sitting"
         }
@@ -121,6 +137,10 @@
         "agd20k": {
           "label": "drink with",
           "justification": "Part 7 has a wide opening at its top end leading into a narrow tube-like structure positioned for holding near the mouth, making it suitable as a drinking vessel distinct from all surrounding appendages which lack such form"
+        },
+        "agd20k_no_none": {
+          "label": "drink with",
+          "justification": "Part 7 has a wide opening at its top end leading into a narrow tube-like structure positioned for holding near the mouth, making it suitable as a drinking vessel distinct from all surrounding appendages which lack such form"
         }
       }
     },
@@ -136,6 +156,10 @@
       },
       "vocabularies": {
         "agd20k": {
+          "label": "sit on",
+          "justification": "Part 8 has a sturdy, rounded base positioned centrally beneath the main body, suggesting stability for supporting weight when seated"
+        },
+        "agd20k_no_none": {
           "label": "sit on",
           "justification": "Part 8 has a sturdy, rounded base positioned centrally beneath the main body, suggesting stability for supporting weight when seated"
         }

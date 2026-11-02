@@ -19,6 +19,10 @@
         "agd20k": {
           "label": "sit on",
           "justification": "Part 1 has a flat, broad top surface positioned at the highest point of the structure, designed for weight-bearing support consistent with seating functionality unlike any other component which serves structural or connecting roles rather than direct human contact use"
+        },
+        "agd20k_no_none": {
+          "label": "sit on",
+          "justification": "Part 1 has a flat, broad top surface positioned at the highest point of the structure, designed for weight-bearing support consistent with seating functionality unlike any other component which serves structural or connecting roles rather than direct human contact use"
         }
       }
     },
@@ -34,6 +38,10 @@
       },
       "vocabularies": {
         "agd20k": {
+          "label": "sit on",
+          "justification": "Part 2 has a broad, curved surface positioned at the top of the structure, designed for weight-bearing support consistent with seating functionality unlike any other component\u2019s form or placement"
+        },
+        "agd20k_no_none": {
           "label": "sit on",
           "justification": "Part 2 has a broad, curved surface positioned at the top of the structure, designed for weight-bearing support consistent with seating functionality unlike any other component\u2019s form or placement"
         }
@@ -68,6 +76,10 @@
       },
       "vocabularies": {
         "agd20k": {
+          "label": "hold",
+          "justification": "Part 4 has a rounded, concave surface positioned centrally at the junction of structural elements, suggesting its function as a grip point for manual interaction"
+        },
+        "agd20k_no_none": {
           "label": "hold",
           "justification": "Part 4 has a rounded, concave surface positioned centrally at the junction of structural elements, suggesting its function as a grip point for manual interaction"
         }

@@ -87,6 +87,10 @@
         "agd20k": {
           "label": "sit on",
           "justification": "Part 5 has a sturdy, rounded base positioned near ground level among four supporting legs, making its form ideal for bearing weight when someone sits upon it \u2014 unlike any of the other components which are either appendages, sensors, or internal structures designed for function rather than support"
+        },
+        "agd20k_no_none": {
+          "label": "sit on",
+          "justification": "Part 5 has a sturdy, rounded base positioned near ground level among four supporting legs, making its form ideal for bearing weight when someone sits upon it \u2014 unlike any of the other components which are either appendages, sensors, or internal structures designed for function rather than support"
         }
       }
     },
@@ -102,6 +106,10 @@
       },
       "vocabularies": {
         "agd20k": {
+          "label": "sit on",
+          "justification": "Part 6 has a broad, flat top surface supported by sturdy legs positioned low near the ground, making it suitable for bearing weight when sat upon \u2014 unlike most other components which are slender, protruding, or internal structures designed for function rather than support"
+        },
+        "agd20k_no_none": {
           "label": "sit on",
           "justification": "Part 6 has a broad, flat top surface supported by sturdy legs positioned low near the ground, making it suitable for bearing weight when sat upon \u2014 unlike most other components which are slender, protruding, or internal structures designed for function rather than support"
         }
@@ -121,6 +129,10 @@
         "agd20k": {
           "label": "sit on",
           "justification": "Part 7 has a broad, flat base positioned at ground level among four supporting legs, making its surface suitable for bearing weight when someone sits upon it \u2014 unlike any of the other components which are either protruding appendages or internal structures without such structural support capacity"
+        },
+        "agd20k_no_none": {
+          "label": "sit on",
+          "justification": "Part 7 has a broad, flat base positioned at ground level among four supporting legs, making its surface suitable for bearing weight when someone sits upon it \u2014 unlike any of the other components which are either protruding appendages or internal structures without such structural support capacity"
         }
       }
     },
@@ -138,6 +150,10 @@
         "agd20k": {
           "label": "hold",
           "justification": "Part 8 has a rounded top connected by a narrow stalk-like base, making its form ideal for gripping in various orientations unlike any of the surrounding components which are either flat-topped, multi-lobed, spherical, or leg-shaped"
+        },
+        "agd20k_no_none": {
+          "label": "hold",
+          "justification": "Part 8 has a rounded top connected by a narrow stalk-like base, making its form ideal for gripping in various orientations unlike any of the surrounding components which are either flat-topped, multi-lobed, spherical, or leg-shaped"
         }
       }
     },
@@ -153,6 +169,10 @@
       },
       "vocabularies": {
         "agd20k": {
+          "label": "sit on",
+          "justification": "Part 9 has a broad, flat base positioned at ground level among four legs of varying shapes but all supporting weight, suggesting its design allows for stable sitting rather than grasping or moving like the others"
+        },
+        "agd20k_no_none": {
           "label": "sit on",
           "justification": "Part 9 has a broad, flat base positioned at ground level among four legs of varying shapes but all supporting weight, suggesting its design allows for stable sitting rather than grasping or moving like the others"
         }
@@ -221,6 +241,10 @@
       },
       "vocabularies": {
         "agd20k": {
+          "label": "hold",
+          "justification": "Part 12\u2019s cylindrical form extends outward like a handle for gripping, unlike any of its surrounding components which are either flat surfaces or rounded protrusions without such ergonomic contours designed for manual grasping"
+        },
+        "agd20k_no_none": {
           "label": "hold",
           "justification": "Part 12\u2019s cylindrical form extends outward like a handle for gripping, unlike any of its surrounding components which are either flat surfaces or rounded protrusions without such ergonomic contours designed for manual grasping"
         }

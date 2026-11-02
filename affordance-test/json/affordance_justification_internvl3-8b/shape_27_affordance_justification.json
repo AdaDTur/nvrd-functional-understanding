@@ -19,6 +19,10 @@
         "agd20k": {
           "label": "carry",
           "justification": "The flat elongated structure of Part 1 suggests its design for grasping or holding onto easily compared to more rigidly positioned components like spikes or limbs in Parts 2-6 which likely serve defensive purposes rather than being held by others"
+        },
+        "agd20k_no_none": {
+          "label": "carry",
+          "justification": "The flat elongated structure of Part 1 suggests its design for grasping or holding onto easily compared to more rigidly positioned components like spikes or limbs in Parts 2-6 which likely serve defensive purposes rather than being held by others"
         }
       }
     },
@@ -34,6 +38,10 @@
       },
       "vocabularies": {
         "agd20k": {
+          "label": "carry",
+          "justification": "The flat elongated structure of Part 2 suggests its design for grasping or holding onto something easily compared to more rigidly positioned components like spikes or limbs in Parts 3-6 which are less suited for carrying due their protruding shapes"
+        },
+        "agd20k_no_none": {
           "label": "carry",
           "justification": "The flat elongated structure of Part 2 suggests its design for grasping or holding onto something easily compared to more rigidly positioned components like spikes or limbs in Parts 3-6 which are less suited for carrying due their protruding shapes"
         }
@@ -53,6 +61,10 @@
         "agd20k": {
           "label": "hit",
           "justification": "Part three has elongated spikes resembling those used for striking targets in games due to its pointed edges which suggest impact rather than smooth surfaces like most of the rest of the body does"
+        },
+        "agd20k_no_none": {
+          "label": "hit",
+          "justification": "Part three has elongated spikes resembling those used for striking targets in games due to its pointed edges which suggest impact rather than smooth surfaces like most of the rest of the body does"
         }
       }
     },
@@ -68,6 +80,10 @@
       },
       "vocabularies": {
         "agd20k": {
+          "label": "carry",
+          "justification": "The flat elongated structure of Part 4 suggests its suitability for gripping compared to more rounded shapes like Parts 2 and 5 which are less conducive to carrying due to their curvature"
+        },
+        "agd20k_no_none": {
           "label": "carry",
           "justification": "The flat elongated structure of Part 4 suggests its suitability for gripping compared to more rounded shapes like Parts 2 and 5 which are less conducive to carrying due to their curvature"
         }
@@ -87,6 +103,10 @@
         "agd20k": {
           "label": "hit",
           "justification": "Part five has small raised dots resembling buttons commonly associated for being pressed in interactive objects like toys or games; its central location makes direct contact likely compared to others which are more limb-like without such features"
+        },
+        "agd20k_no_none": {
+          "label": "hit",
+          "justification": "Part five has small raised dots resembling buttons commonly associated for being pressed in interactive objects like toys or games; its central location makes direct contact likely compared to others which are more limb-like without such features"
         }
       }
     },
@@ -104,6 +124,10 @@
         "agd20k": {
           "label": "hit",
           "justification": "Part six has elongated spikes protruding outward in multiple directions at its tip end which suggest points of contact for hitting actions; these features are distinct compared to smoother surfaces seen elsewhere like broad flat areas labeled as numbers four through seven indicating non-contact uses such standing support functions rather than interactive ones involving physical impact typical associated activities related"
+        },
+        "agd20k_no_none": {
+          "label": "hit",
+          "justification": "Part six has elongated spikes protruding outward in multiple directions at its tip end which suggest points of contact for hitting actions; these features are distinct compared to smoother surfaces seen elsewhere like broad flat areas labeled as numbers four through seven indicating non-contact uses such standing support functions rather than interactive ones involving physical impact typical associated activities related"
         }
       }
     },
@@ -119,6 +143,10 @@
       },
       "vocabularies": {
         "agd20k": {
+          "label": "hit",
+          "justification": "Part 7 has pointed spikes resembling those used for striking objects compared to smoother surfaces of others which suggest interaction like touching rather than hitting"
+        },
+        "agd20k_no_none": {
           "label": "hit",
           "justification": "Part 7 has pointed spikes resembling those used for striking objects compared to smoother surfaces of others which suggest interaction like touching rather than hitting"
         }

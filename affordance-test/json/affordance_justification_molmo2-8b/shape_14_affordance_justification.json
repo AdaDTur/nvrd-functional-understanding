@@ -19,6 +19,10 @@
         "agd20k": {
           "label": "brush with",
           "justification": "The part labeled 1 appears to be a flat, elongated surface with a smooth texture, making it ideal for brushing compared to the other numbered parts which may have different shapes or textures"
+        },
+        "agd20k_no_none": {
+          "label": "brush with",
+          "justification": "The part labeled 1 appears to be a flat, elongated surface with a smooth texture, making it ideal for brushing compared to the other numbered parts which may have different shapes or textures"
         }
       }
     },
@@ -34,6 +38,10 @@
       },
       "vocabularies": {
         "agd20k": {
+          "label": "brush with",
+          "justification": "Part 2 appears to be a hollow, oval-shaped depression with a textured surface, resembling a brush holder or holder for a paintbrush, which is designed to be brushed with"
+        },
+        "agd20k_no_none": {
           "label": "brush with",
           "justification": "Part 2 appears to be a hollow, oval-shaped depression with a textured surface, resembling a brush holder or holder for a paintbrush, which is designed to be brushed with"
         }

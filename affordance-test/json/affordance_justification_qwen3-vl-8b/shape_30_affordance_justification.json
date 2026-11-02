@@ -36,6 +36,10 @@
         "agd20k": {
           "label": "carry",
           "justification": "Part 2 has a thick, sturdy limb-like structure positioned near the base of the figure\u2019s body, suggesting its function as a support for bearing weight rather than manipulation or interaction like finer appendages elsewhere"
+        },
+        "agd20k_no_none": {
+          "label": "carry",
+          "justification": "Part 2 has a thick, sturdy limb-like structure positioned near the base of the figure\u2019s body, suggesting its function as a support for bearing weight rather than manipulation or interaction like finer appendages elsewhere"
         }
       }
     },
@@ -70,6 +74,10 @@
         "agd20k": {
           "label": "hold",
           "justification": "Part 4 has a thick, rounded form positioned centrally around another component, suggesting its function as a supportive grip rather than for movement or display like surrounding elements"
+        },
+        "agd20k_no_none": {
+          "label": "hold",
+          "justification": "Part 4 has a thick, rounded form positioned centrally around another component, suggesting its function as a supportive grip rather than for movement or display like surrounding elements"
         }
       }
     },
@@ -87,6 +95,10 @@
         "agd20k": {
           "label": "sit on",
           "justification": "Part 5 has a broad, flat surface positioned low near the base of the figure\u2019s body, making it structurally suitable for supporting weight like a seat while contrasting in form with all surrounding appendages designed for movement rather than stability"
+        },
+        "agd20k_no_none": {
+          "label": "sit on",
+          "justification": "Part 5 has a broad, flat surface positioned low near the base of the figure\u2019s body, making it structurally suitable for supporting weight like a seat while contrasting in form with all surrounding appendages designed for movement rather than stability"
         }
       }
     },
@@ -102,6 +114,10 @@
       },
       "vocabularies": {
         "agd20k": {
+          "label": "hold",
+          "justification": "Part 6 has a curved, hook-like protrusion positioned at the top of the creature\u2019s body, suggesting its function as something meant to be grasped or held by another element in interaction"
+        },
+        "agd20k_no_none": {
           "label": "hold",
           "justification": "Part 6 has a curved, hook-like protrusion positioned at the top of the creature\u2019s body, suggesting its function as something meant to be grasped or held by another element in interaction"
         }
@@ -172,6 +188,10 @@
         "agd20k": {
           "label": "sit on",
           "justification": "Part 12 has a small size relative to its surroundings but appears solid enough for support; unlike most of these irregularly shaped appendages designed more for movement than stability, its compact form suggests potential use as a stable base point \u2014 making \u201csit\u201d plausible despite being surrounded by dynamic limbs"
+        },
+        "agd20k_no_none": {
+          "label": "sit on",
+          "justification": "Part 12 has a small size relative to its surroundings but appears solid enough for support; unlike most of these irregularly shaped appendages designed more for movement than stability, its compact form suggests potential use as a stable base point \u2014 making \u201csit\u201d plausible despite being surrounded by dynamic limbs"
         }
       }
     },
@@ -238,6 +258,10 @@
       },
       "vocabularies": {
         "agd20k": {
+          "label": "carry",
+          "justification": "Part 13 has no visible attachment points for carrying; its smooth surface lacks any structural features designed to support weight transfer like handles or loops found elsewhere in the design"
+        },
+        "agd20k_no_none": {
           "label": "carry",
           "justification": "Part 13 has no visible attachment points for carrying; its smooth surface lacks any structural features designed to support weight transfer like handles or loops found elsewhere in the design"
         }

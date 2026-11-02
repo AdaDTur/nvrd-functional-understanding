@@ -19,6 +19,10 @@
         "agd20k": {
           "label": "beat",
           "justification": "The indentation in Part 1 suggests rhythmic motion typical of beating actions like those found in drumheads or heartbeats, unlike any functional role suggested by more solid structures such as muscular layers seen elsewhere"
+        },
+        "agd20k_no_none": {
+          "label": "beat",
+          "justification": "The indentation in Part 1 suggests rhythmic motion typical of beating actions like those found in drumheads or heartbeats, unlike any functional role suggested by more solid structures such as muscular layers seen elsewhere"
         }
       }
     },
@@ -34,6 +38,10 @@
       },
       "vocabularies": {
         "agd20k": {
+          "label": "beat",
+          "justification": "The rounded protrusion of Part 2 suggests rhythmic movement consistent with beating action compared to its smoother surroundings which lack such dynamic features"
+        },
+        "agd20k_no_none": {
           "label": "beat",
           "justification": "The rounded protrusion of Part 2 suggests rhythmic movement consistent with beating action compared to its smoother surroundings which lack such dynamic features"
         }

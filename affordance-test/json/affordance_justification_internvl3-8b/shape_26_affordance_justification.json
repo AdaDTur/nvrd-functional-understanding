@@ -19,6 +19,10 @@
         "agd20k": {
           "label": "beat",
           "justification": "The rounded orange section labeled as number 2 appears soft and centrally located within the spiky structure of its surroundings which are more rigidly positioned for protection rather than rhythmic action; thus suggesting potential movement akin to beating compared to static structural components like those indicated by numbers 1 & 3 in their respective roles likely"
+        },
+        "agd20k_no_none": {
+          "label": "beat",
+          "justification": "The rounded orange section labeled as number 2 appears soft and centrally located within the spiky structure of its surroundings which are more rigidly positioned for protection rather than rhythmic action; thus suggesting potential movement akin to beating compared to static structural components like those indicated by numbers 1 & 3 in their respective roles likely"
         }
       }
     },
@@ -36,6 +40,10 @@
         "agd20k": {
           "label": "eat",
           "justification": "The orange interior of Part 2 resembles food due to its soft appearance contrasting sharply against Parts 1 and 3 which are more rigid and spiky in texture; suggesting consumption as opposed to defensive functions seen elsewhere"
+        },
+        "agd20k_no_none": {
+          "label": "eat",
+          "justification": "The orange interior of Part 2 resembles food due to its soft appearance contrasting sharply against Parts 1 and 3 which are more rigid and spiky in texture; suggesting consumption as opposed to defensive functions seen elsewhere"
         }
       }
     },
@@ -51,6 +59,10 @@
       },
       "vocabularies": {
         "agd20k": {
+          "label": "hit",
+          "justification": "The green-tinted section labeled as number three has jagged edges resembling teeth which suggest impact resistance consistent with being hit compared to smoother adjacent areas without such features for protection against external forces"
+        },
+        "agd20k_no_none": {
           "label": "hit",
           "justification": "The green-tinted section labeled as number three has jagged edges resembling teeth which suggest impact resistance consistent with being hit compared to smoother adjacent areas without such features for protection against external forces"
         }

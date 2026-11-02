@@ -36,6 +36,10 @@
         "agd20k": {
           "label": "sit on",
           "justification": "Part 2 has a broad, flat surface positioned at the base of the structure, making it suitable for supporting weight like seating"
+        },
+        "agd20k_no_none": {
+          "label": "sit on",
+          "justification": "Part 2 has a broad, flat surface positioned at the base of the structure, making it suitable for supporting weight like seating"
         }
       }
     },

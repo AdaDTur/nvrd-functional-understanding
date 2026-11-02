@@ -53,6 +53,10 @@
         "agd20k": {
           "label": "sit on",
           "justification": "Part 3 has a broad, flat base positioned at the bottom of the form, providing stable support for weight-bearing contact in contrast to all surrounding protrusions designed for attachment rather than bearing load directly underfoot"
+        },
+        "agd20k_no_none": {
+          "label": "sit on",
+          "justification": "Part 3 has a broad, flat base positioned at the bottom of the form, providing stable support for weight-bearing contact in contrast to all surrounding protrusions designed for attachment rather than bearing load directly underfoot"
         }
       }
     },

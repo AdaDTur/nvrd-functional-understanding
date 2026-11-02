@@ -19,6 +19,10 @@
         "agd20k": {
           "label": "beat",
           "justification": "The central, circular, rubbery-looking part appears to be a drum-like surface with a hollow interior, making it suitable for being struck or beaten"
+        },
+        "agd20k_no_none": {
+          "label": "beat",
+          "justification": "The central, circular, rubbery-looking part appears to be a drum-like surface with a hollow interior, making it suitable for being struck or beaten"
         }
       }
     },
@@ -36,6 +40,10 @@
         "agd20k": {
           "label": "brush with",
           "justification": "Part 2 appears to be a flat, elongated surface with a smooth texture, likely designed for easy cleaning or grooming, distinguishing it from the other parts which may have different shapes or functions"
+        },
+        "agd20k_no_none": {
+          "label": "brush with",
+          "justification": "Part 2 appears to be a flat, elongated surface with a smooth texture, likely designed for easy cleaning or grooming, distinguishing it from the other parts which may have different shapes or functions"
         }
       }
     },
@@ -51,6 +59,10 @@
       },
       "vocabularies": {
         "agd20k": {
+          "label": "brush with",
+          "justification": "The green, elongated, pointed part at the end of the object appears to be a brush-like appendage, distinct from the spiky body and tentacle-like structures, making it the most suitable for brushing"
+        },
+        "agd20k_no_none": {
           "label": "brush with",
           "justification": "The green, elongated, pointed part at the end of the object appears to be a brush-like appendage, distinct from the spiky body and tentacle-like structures, making it the most suitable for brushing"
         }

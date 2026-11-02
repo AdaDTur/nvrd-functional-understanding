@@ -36,6 +36,10 @@
         "agd20k": {
           "label": "sit on",
           "justification": "Part 2 has a broad, flat base positioned horizontally at ground level, making it stable for supporting weight like seating"
+        },
+        "agd20k_no_none": {
+          "label": "sit on",
+          "justification": "Part 2 has a broad, flat base positioned horizontally at ground level, making it stable for supporting weight like seating"
         }
       }
     },

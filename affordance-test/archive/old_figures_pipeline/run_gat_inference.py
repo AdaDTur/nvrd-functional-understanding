@@ -7,7 +7,8 @@ GAT's own vocabulary (AFF_LIST in the Aff-Grasp repo) is 8 UMD-style classes: gr
 pound, support, screw, contain, stick -- close to but not identical to our own UMD_GLOSSES (which
 has "wrap-grasp" instead of "screw"/"stick").
 
-Requires: Aff-Grasp repo cloned at ../Aff-Grasp (sibling of this repo), with:
+Requires: Aff-Grasp repo cloned as a sibling of the nvrd repo itself (../../Aff-Grasp relative to
+nvrd/), not inside it -- it's a separate third-party clone, kept out of this repo on purpose. With:
   - affordance-learning/dinov2_vitb14_pretrain.pth (base DINOv2 ViT-B/14 weights)
   - the trained checkpoint (best_8_iou_68.4.pth from HF Gen1113/Model_for_Aff-Grasp)
   - models/dino/ops patched to use the pure-PyTorch deformable-attention fallback (no compiled
@@ -31,10 +32,12 @@ from torchvision import transforms
 import matplotlib.pyplot as plt
 
 HERE = os.path.dirname(os.path.realpath(__file__))
-REPO_ROOT = os.path.dirname(HERE)
-AFF_GRASP_ROOT = os.path.join(REPO_ROOT, "Aff-Grasp", "affordance-learning")
+# HERE is archive/old_figures_pipeline/ (this script was archived, not run in place) -- go up to the
+# nvrd repo root, then out to Aff-Grasp as nvrd's sibling, not nvrd's own subdirectory.
+REPO_ROOT = os.path.dirname(os.path.dirname(os.path.dirname(HERE)))
+AFF_GRASP_ROOT = os.path.join(os.path.dirname(REPO_ROOT), "Aff-Grasp", "affordance-learning")
 DATA_DIR = os.path.join(REPO_ROOT, "regions_test", "data")
-FIGURES_DIR = os.path.join(HERE, "figures", "gat_comparison")
+FIGURES_DIR = os.path.join(REPO_ROOT, "affordance-test", "archive", "old_figures", "gat_comparison")
 os.makedirs(FIGURES_DIR, exist_ok=True)
 
 CROP_SIZE = 448

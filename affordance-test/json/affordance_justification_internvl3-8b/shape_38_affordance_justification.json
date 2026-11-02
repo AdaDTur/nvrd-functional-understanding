@@ -19,6 +19,10 @@
         "agd20k": {
           "label": "sit on",
           "justification": "The rounded indentation in its center provides stability for sitting while contrasting sharply against flat areas less suitable for seating; thus differing functionally even without visual cues like numbers indicating distinct roles within design context of ergonomic support structure depicted here which may include additional uses such as holding objects due presence at base level where item placement could occur more easily"
+        },
+        "agd20k_no_none": {
+          "label": "sit on",
+          "justification": "The rounded indentation in its center provides stability for sitting while contrasting sharply against flat areas less suitable for seating; thus differing functionally even without visual cues like numbers indicating distinct roles within design context of ergonomic support structure depicted here which may include additional uses such as holding objects due presence at base level where item placement could occur more easily"
         }
       }
     },
@@ -34,6 +38,10 @@
       },
       "vocabularies": {
         "agd20k": {
+          "label": "carry",
+          "justification": "The rounded protrusion at the base of Part 2 suggests its function as a handle for carrying due to its ergonomic design compared to the flat surface above labeled Number 1 which lacks such features"
+        },
+        "agd20k_no_none": {
           "label": "carry",
           "justification": "The rounded protrusion at the base of Part 2 suggests its function as a handle for carrying due to its ergonomic design compared to the flat surface above labeled Number 1 which lacks such features"
         }

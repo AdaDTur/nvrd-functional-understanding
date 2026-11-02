@@ -19,6 +19,10 @@
         "agd20k": {
           "label": "hold",
           "justification": "Part 1 has a broad, concave surface positioned centrally beneath the main body, suggesting its function as a stable base for gripping or supporting weight unlike any of the protruding appendages around it"
+        },
+        "agd20k_no_none": {
+          "label": "hold",
+          "justification": "Part 1 has a broad, concave surface positioned centrally beneath the main body, suggesting its function as a stable base for gripping or supporting weight unlike any of the protruding appendages around it"
         }
       }
     },
@@ -34,6 +38,10 @@
       },
       "vocabularies": {
         "agd20k": {
+          "label": "sit on",
+          "justification": "Part 2 has a broad, rounded top surface positioned above the rest of the structure, making it suitable for supporting weight like a seat"
+        },
+        "agd20k_no_none": {
           "label": "sit on",
           "justification": "Part 2 has a broad, rounded top surface positioned above the rest of the structure, making it suitable for supporting weight like a seat"
         }
@@ -53,6 +61,10 @@
         "agd20k": {
           "label": "hit",
           "justification": "Part 3 has a sharp, pointed tip extending outward in a direction suggesting forward motion, making it suitable for piercing or striking objects ahead of its path \u2014 unlike any other feature which appears more rounded or supportive rather than offensive"
+        },
+        "agd20k_no_none": {
+          "label": "hit",
+          "justification": "Part 3 has a sharp, pointed tip extending outward in a direction suggesting forward motion, making it suitable for piercing or striking objects ahead of its path \u2014 unlike any other feature which appears more rounded or supportive rather than offensive"
         }
       }
     },
@@ -70,6 +82,10 @@
         "agd20k": {
           "label": "eat",
           "justification": "Part 4\u2019s small, open-mouth-like indentation at the base suggests functionality for consuming food, unlike the smooth surfaces of surrounding areas which appear non-functional in ingestion tasks"
+        },
+        "agd20k_no_none": {
+          "label": "eat",
+          "justification": "Part 4\u2019s small, open-mouth-like indentation at the base suggests functionality for consuming food, unlike the smooth surfaces of surrounding areas which appear non-functional in ingestion tasks"
         }
       }
     },
@@ -85,6 +101,10 @@
       },
       "vocabularies": {
         "agd20k": {
+          "label": "hit",
+          "justification": "Part 5\u2019s slender, pointed tip positioned at the rear suggests it can be used as a striking tool for poking or tapping objects ahead of its body"
+        },
+        "agd20k_no_none": {
           "label": "hit",
           "justification": "Part 5\u2019s slender, pointed tip positioned at the rear suggests it can be used as a striking tool for poking or tapping objects ahead of its body"
         }

@@ -19,6 +19,10 @@
         "agd20k": {
           "label": "hold",
           "justification": "Part 1 has a concave, cup-like depression designed for gripping or supporting objects securely within its curved interior surface"
+        },
+        "agd20k_no_none": {
+          "label": "hold",
+          "justification": "Part 1 has a concave, cup-like depression designed for gripping or supporting objects securely within its curved interior surface"
         }
       }
     },
@@ -34,6 +38,10 @@
       },
       "vocabularies": {
         "agd20k": {
+          "label": "hold",
+          "justification": "Part 2 has a concave, cup-like indentation designed for gripping or cradling objects securely within its curved recess"
+        },
+        "agd20k_no_none": {
           "label": "hold",
           "justification": "Part 2 has a concave, cup-like indentation designed for gripping or cradling objects securely within its curved recess"
         }

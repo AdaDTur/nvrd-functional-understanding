@@ -19,6 +19,10 @@
         "agd20k": {
           "label": "hold",
           "justification": "Part 1 has smooth, curved surfaces extending outward in multiple directions, suggesting ergonomic contours designed for gripping comfortably by hand \u2014 unlike part 2\u2019s recessed circular form which appears intended as a base rather than something held directly"
+        },
+        "agd20k_no_none": {
+          "label": "hold",
+          "justification": "Part 1 has smooth, curved surfaces extending outward in multiple directions, suggesting ergonomic contours designed for gripping comfortably by hand \u2014 unlike part 2\u2019s recessed circular form which appears intended as a base rather than something held directly"
         }
       }
     },
@@ -34,6 +38,10 @@
       },
       "vocabularies": {
         "agd20k": {
+          "label": "sit on",
+          "justification": "Part 2 has a small, rounded depression at its base which creates a natural indentation suitable for supporting weight while sitting"
+        },
+        "agd20k_no_none": {
           "label": "sit on",
           "justification": "Part 2 has a small, rounded depression at its base which creates a natural indentation suitable for supporting weight while sitting"
         }
