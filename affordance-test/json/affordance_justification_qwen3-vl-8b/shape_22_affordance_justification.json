@@ -36,6 +36,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 2\u2019s flat, horizontal ring-like form lacks any protrusions or contours designed for grasping, holding, or functional interaction, unlike surrounding components which have handles or bowl shapes enabling use"
+        },
+        "agd20k_no_none": {
+          "label": "drink with",
+          "justification": "Part 1\u2019s wide, open rim positioned at the top of the stack allows for direct access to its contents, making it suitable as a drinking vessel unlike any other component which lacks such functional openness"
         }
       }
     },
@@ -53,6 +57,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 3\u2019s smooth, rounded top surface lacks any protrusions, indentations, or functional features typically associated with grasping, pressing, sliding, or attaching \u2014 unlike surrounding components which have handles or rims designed for interaction"
+        },
+        "agd20k_no_none": {
+          "label": "sip",
+          "justification": "Part 2\u2019s smooth, rounded dome at the top suggests its intended use for drinking by allowing easy access without obstruction \u2014 unlike lower sections designed for stacking stability rather than consumption"
         }
       }
     },
@@ -91,6 +99,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 5\u2019s flat, horizontal ring structure lacks any protrusions or contours designed for grasping, holding, or functional interaction, unlike surrounding components which are shaped as handles or containers"
+        },
+        "agd20k_no_none": {
+          "label": "drink with",
+          "justification": "Part 4\u2019s wide, open rim positioned at the top of its cylindrical form suggests direct human interaction for consuming liquids, unlike any other component which lacks such functional orientation"
         }
       }
     },
@@ -108,6 +120,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 6\u2019s narrow, cylindrical form nestled between two larger components lacks any protrusions or surfaces designed for grasping or interaction, making its function purely structural rather than functional in use"
+        },
+        "agd20k_no_none": {
+          "label": "hold",
+          "justification": "Part 5\u2019s cylindrical form and central placement suggest its function as a grip for holding, unlike surrounding components which are either stacked containers or handles designed for external support rather than direct manual grasping"
         }
       }
     },

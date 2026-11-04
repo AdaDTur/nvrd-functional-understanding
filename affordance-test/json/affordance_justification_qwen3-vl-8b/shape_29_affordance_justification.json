@@ -19,6 +19,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 1 appears as a small protrusion embedded within a larger structure without any visible surface features suggesting interaction or functional use for grasping, pressing, twisting, sliding, etc"
+        },
+        "agd20k_no_none": {
+          "label": "hold",
+          "justification": "Part 1 has a rounded protrusion near its edge which appears designed for gripping due to its distinct contour contrasting with surrounding smooth surfaces"
         }
       }
     },
@@ -36,6 +40,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 2 appears as a smooth, concave surface embedded within another structure without any protrusions, handles, edges, or textures suggesting interaction \u2014 making no clear functional interface for use by external forces"
+        },
+        "agd20k_no_none": {
+          "label": "look out",
+          "justification": "Part 2\u2019s large, open circular aperture facing forward suggests it serves as a primary viewing port for observation rather than interaction or containment like surrounding components"
         }
       }
     },
@@ -53,6 +61,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 3 appears as a smooth, concave recess within a larger structure without any protrusions, handles, edges, or surfaces designed for interaction \u2014 making no functional surface available for grasping, pressing, sliding, or attaching anything else"
+        },
+        "agd20k_no_none": {
+          "label": "look out",
+          "justification": "Part 3\u2019s large, deep green circular opening facing forward suggests it serves as a primary viewing port for observation rather than interaction or containment like surrounding components"
         }
       }
     },
@@ -70,6 +82,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 4\u2019s flat, symmetrical cross-shape offers no clear functional surface for gripping, pressing, twisting, or attaching\u2014unlike most other components\u2014which makes its interaction impossible without external tools or forceful manipulation beyond typical use cases"
+        },
+        "agd20k_no_none": {
+          "label": "hold",
+          "justification": "Part 4 has a broad, flat top surface resembling a handlebar, positioned centrally above the main body for gripping"
         }
       }
     },
@@ -192,6 +208,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 12 appears as a small protrusion without any functional surface features for grasping, pressing, or attaching\u2014unlike others which have distinct shapes suggesting interaction\u2014and thus offers no usable affordances despite its presence in proximity to interactive elements like 8-9"
+        },
+        "agd20k_no_none": {
+          "label": "sip",
+          "justification": "Part 12\u2019s small size and rounded tip suggest its function as a drinking vessel for sipping liquids due to ergonomic design suited for holding close to lips while consuming beverages in moderation \u2014 unlike larger components designed for broader interaction like grasping or pressing"
         }
       }
     },
@@ -209,6 +229,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 12 appears as a small circular protrusion without any visible attachment point for interaction; its form suggests no functional purpose beyond being attached to another component in the structure"
+        },
+        "agd20k_no_none": {
+          "label": "sip",
+          "justification": "Part 12\u2019s small size and rounded tip suggest its function as a drinking vessel for sipping liquids due to ergonomic design suited for holding close to lips while consuming beverages in moderation \u2014 unlike larger components designed for broader interaction like grasping or pressing"
         }
       }
     },
@@ -226,6 +250,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 10 appears as a small sphere attached by thin stalks without any visible surface features for grasping or interaction, making its function purely decorative rather than functional in terms of use"
+        },
+        "agd20k_no_none": {
+          "label": "hold",
+          "justification": "Part 10 has three small protrusions extending outward like fingers for grasping objects while others are more rounded or attached structures without such functional extensions"
         }
       }
     },

@@ -19,6 +19,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 1 appears as a small, smooth protrusion embedded flush into the main body surface without any functional edges, openings, or structural features suggesting interaction or use"
+        },
+        "agd20k_no_none": {
+          "label": "hold",
+          "justification": "Part 1 has a smooth, rounded surface positioned centrally near where hands would naturally grip, making it ergonomically suited for holding compared to surrounding spiky or angular sections"
         }
       }
     },
@@ -99,6 +103,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 5 appears as a small, smooth protrusion embedded flush into the main body surface without any functional edges, openings, or attachment points for interaction"
+        },
+        "agd20k_no_none": {
+          "label": "hold",
+          "justification": "Part 5 has a small, rounded protrusion positioned centrally near where hands would naturally grip, making it ergonomically suited for holding compared to surrounding flat surfaces or spiky elements"
         }
       }
     },
@@ -137,6 +145,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 7\u2019s small size, sharp point directed outwardly without any visible attachment points or functional surfaces for gripping, holding, or interacting suggests no practical use beyond decoration"
+        },
+        "agd20k_no_none": {
+          "label": "hit",
+          "justification": "Part 7 has a sharp, pointed tip positioned prominently outward, making it structurally suited for piercing or striking compared to surrounding rounded sections"
         }
       }
     },
@@ -154,6 +166,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 8\u2019s sharp, angular spike protruding upward has no functional surface for gripping, pressing, or interacting in any practical way compared to the rounded, bulbous sections around it"
+        },
+        "agd20k_no_none": {
+          "label": "hit",
+          "justification": "Part 8\u2019s sharp, pointed tip positioned prominently at the top suggests its function as a defensive weapon designed for striking opponents directly above"
         }
       }
     }

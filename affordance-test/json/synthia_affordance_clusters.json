@@ -1,0 +1,1735 @@
+[
+  {
+    "canonical": "absorb",
+    "members": [
+      "absorb"
+    ]
+  },
+  {
+    "canonical": "accelerate",
+    "members": [
+      "accelerate"
+    ]
+  },
+  {
+    "canonical": "adjust",
+    "members": [
+      "adjust",
+      "calibrate",
+      "correct",
+      "modulate",
+      "regulate",
+      "resize",
+      "tune"
+    ]
+  },
+  {
+    "canonical": "administer",
+    "members": [
+      "administer"
+    ]
+  },
+  {
+    "canonical": "aim",
+    "members": [
+      "aim",
+      "target"
+    ]
+  },
+  {
+    "canonical": "align",
+    "members": [
+      "align"
+    ]
+  },
+  {
+    "canonical": "amplify",
+    "members": [
+      "amplify"
+    ]
+  },
+  {
+    "canonical": "anchor",
+    "members": [
+      "anchor",
+      "moor"
+    ]
+  },
+  {
+    "canonical": "apply",
+    "members": [
+      "apply"
+    ]
+  },
+  {
+    "canonical": "ascend",
+    "members": [
+      "ascend",
+      "climb"
+    ]
+  },
+  {
+    "canonical": "assist_breathing",
+    "members": [
+      "assist_breathing"
+    ]
+  },
+  {
+    "canonical": "attach",
+    "members": [
+      "adhere",
+      "attach",
+      "connect",
+      "dock",
+      "fasten",
+      "glue",
+      "join",
+      "mount",
+      "stick"
+    ]
+  },
+  {
+    "canonical": "attack",
+    "members": [
+      "attack"
+    ]
+  },
+  {
+    "canonical": "bake",
+    "members": [
+      "bake"
+    ]
+  },
+  {
+    "canonical": "balance",
+    "members": [
+      "balance",
+      "brace",
+      "stabilize",
+      "steady"
+    ]
+  },
+  {
+    "canonical": "beat",
+    "members": [
+      "beat",
+      "froth",
+      "whip",
+      "whisk"
+    ]
+  },
+  {
+    "canonical": "bend",
+    "members": [
+      "bend"
+    ]
+  },
+  {
+    "canonical": "blend",
+    "members": [
+      "blend",
+      "mix"
+    ]
+  },
+  {
+    "canonical": "block",
+    "members": [
+      "block"
+    ]
+  },
+  {
+    "canonical": "blow",
+    "members": [
+      "blow"
+    ]
+  },
+  {
+    "canonical": "boil",
+    "members": [
+      "boil"
+    ]
+  },
+  {
+    "canonical": "botton_up",
+    "members": [
+      "botton_up"
+    ]
+  },
+  {
+    "canonical": "bounce",
+    "members": [
+      "bounce"
+    ]
+  },
+  {
+    "canonical": "brake",
+    "members": [
+      "brake",
+      "stop"
+    ]
+  },
+  {
+    "canonical": "break",
+    "members": [
+      "break",
+      "smash"
+    ]
+  },
+  {
+    "canonical": "break_ice",
+    "members": [
+      "break_ice"
+    ]
+  },
+  {
+    "canonical": "brew",
+    "members": [
+      "brew",
+      "infuse"
+    ]
+  },
+  {
+    "canonical": "brown",
+    "members": [
+      "brown",
+      "sear",
+      "toast"
+    ]
+  },
+  {
+    "canonical": "buffer",
+    "members": [
+      "buffer",
+      "cushion"
+    ]
+  },
+  {
+    "canonical": "bump",
+    "members": [
+      "bump"
+    ]
+  },
+  {
+    "canonical": "burn",
+    "members": [
+      "burn"
+    ]
+  },
+  {
+    "canonical": "bury",
+    "members": [
+      "bury"
+    ]
+  },
+  {
+    "canonical": "call",
+    "members": [
+      "call"
+    ]
+  },
+  {
+    "canonical": "carry",
+    "members": [
+      "carry",
+      "transport"
+    ]
+  },
+  {
+    "canonical": "carve",
+    "members": [
+      "carve",
+      "chisel",
+      "sculpt",
+      "whittle"
+    ]
+  },
+  {
+    "canonical": "catch",
+    "members": [
+      "catch",
+      "trap debris"
+    ]
+  },
+  {
+    "canonical": "channel water",
+    "members": [
+      "channel",
+      "channel water",
+      "divert water",
+      "route"
+    ]
+  },
+  {
+    "canonical": "charge",
+    "members": [
+      "charge",
+      "power"
+    ]
+  },
+  {
+    "canonical": "check",
+    "members": [
+      "check",
+      "diagnose",
+      "monitor"
+    ]
+  },
+  {
+    "canonical": "chop",
+    "members": [
+      "chip",
+      "chop",
+      "dice",
+      "mince"
+    ]
+  },
+  {
+    "canonical": "circulate",
+    "members": [
+      "circulate"
+    ]
+  },
+  {
+    "canonical": "clamp",
+    "members": [
+      "clamp",
+      "pinch"
+    ]
+  },
+  {
+    "canonical": "clean",
+    "members": [
+      "clean",
+      "rinse",
+      "scrub",
+      "wipe"
+    ]
+  },
+  {
+    "canonical": "click",
+    "members": [
+      "click"
+    ]
+  },
+  {
+    "canonical": "clip",
+    "members": [
+      "clip"
+    ]
+  },
+  {
+    "canonical": "close",
+    "members": [
+      "close",
+      "seal"
+    ]
+  },
+  {
+    "canonical": "cock",
+    "members": [
+      "cock"
+    ]
+  },
+  {
+    "canonical": "collect",
+    "members": [
+      "collect",
+      "gather",
+      "harvest",
+      "pick"
+    ]
+  },
+  {
+    "canonical": "collect water",
+    "members": [
+      "collect water"
+    ]
+  },
+  {
+    "canonical": "compress",
+    "members": [
+      "compact",
+      "compress"
+    ]
+  },
+  {
+    "canonical": "conceal",
+    "members": [
+      "conceal"
+    ]
+  },
+  {
+    "canonical": "contain",
+    "members": [
+      "contain",
+      "enclose",
+      "store"
+    ]
+  },
+  {
+    "canonical": "contain fire",
+    "members": [
+      "contain fire"
+    ]
+  },
+  {
+    "canonical": "contain water",
+    "members": [
+      "contain water",
+      "store water"
+    ]
+  },
+  {
+    "canonical": "control water",
+    "members": [
+      "control water"
+    ]
+  },
+  {
+    "canonical": "control_speed",
+    "members": [
+      "control_speed"
+    ]
+  },
+  {
+    "canonical": "cook",
+    "members": [
+      "cook",
+      "stew"
+    ]
+  },
+  {
+    "canonical": "cool",
+    "members": [
+      "cool",
+      "cooling",
+      "defrost",
+      "freeze"
+    ]
+  },
+  {
+    "canonical": "cover",
+    "members": [
+      "cover",
+      "sheath",
+      "wrap"
+    ]
+  },
+  {
+    "canonical": "crush",
+    "members": [
+      "crush",
+      "mash",
+      "pound"
+    ]
+  },
+  {
+    "canonical": "cultivate",
+    "members": [
+      "cultivate",
+      "plow"
+    ]
+  },
+  {
+    "canonical": "cut",
+    "members": [
+      "cleave",
+      "cut",
+      "incise",
+      "saw",
+      "score",
+      "slash",
+      "slice",
+      "slit",
+      "snip",
+      "split",
+      "trim"
+    ]
+  },
+  {
+    "canonical": "cycle",
+    "members": [
+      "cycle",
+      "pedal"
+    ]
+  },
+  {
+    "canonical": "dangle",
+    "members": [
+      "dangle",
+      "hang"
+    ]
+  },
+  {
+    "canonical": "decorate",
+    "members": [
+      "decorate",
+      "style"
+    ]
+  },
+  {
+    "canonical": "defend",
+    "members": [
+      "defend",
+      "parry",
+      "protect",
+      "shelter",
+      "shield"
+    ]
+  },
+  {
+    "canonical": "deflate",
+    "members": [
+      "deflate"
+    ]
+  },
+  {
+    "canonical": "deflect",
+    "members": [
+      "deflect"
+    ]
+  },
+  {
+    "canonical": "deploy",
+    "members": [
+      "deploy"
+    ]
+  },
+  {
+    "canonical": "deposit",
+    "members": [
+      "deposit"
+    ]
+  },
+  {
+    "canonical": "descend",
+    "members": [
+      "descend",
+      "dive",
+      "lower"
+    ]
+  },
+  {
+    "canonical": "detach",
+    "members": [
+      "detach",
+      "disengage",
+      "unfasten"
+    ]
+  },
+  {
+    "canonical": "detect",
+    "members": [
+      "detect"
+    ]
+  },
+  {
+    "canonical": "detonate",
+    "members": [
+      "detonate"
+    ]
+  },
+  {
+    "canonical": "dig",
+    "members": [
+      "dig",
+      "excavate",
+      "mine",
+      "trench"
+    ]
+  },
+  {
+    "canonical": "direct",
+    "members": [
+      "direct",
+      "divert",
+      "guide"
+    ]
+  },
+  {
+    "canonical": "disassemble",
+    "members": [
+      "disassemble"
+    ]
+  },
+  {
+    "canonical": "disconnect",
+    "members": [
+      "disconnect",
+      "unplug"
+    ]
+  },
+  {
+    "canonical": "dispense",
+    "members": [
+      "discharge",
+      "dispense",
+      "distribute"
+    ]
+  },
+  {
+    "canonical": "display",
+    "members": [
+      "display"
+    ]
+  },
+  {
+    "canonical": "dispose",
+    "members": [
+      "dispose",
+      "dump"
+    ]
+  },
+  {
+    "canonical": "divide",
+    "members": [
+      "divide",
+      "separate"
+    ]
+  },
+  {
+    "canonical": "drag",
+    "members": [
+      "drag",
+      "haul",
+      "tow"
+    ]
+  },
+  {
+    "canonical": "drain",
+    "members": [
+      "drain"
+    ]
+  },
+  {
+    "canonical": "drain water",
+    "members": [
+      "drain water"
+    ]
+  },
+  {
+    "canonical": "draw",
+    "members": [
+      "draw",
+      "sketch",
+      "trace"
+    ]
+  },
+  {
+    "canonical": "drill",
+    "members": [
+      "bore",
+      "create hole",
+      "drill"
+    ]
+  },
+  {
+    "canonical": "drink",
+    "members": [
+      "drink",
+      "sip"
+    ]
+  },
+  {
+    "canonical": "drive",
+    "members": [
+      "drive"
+    ]
+  },
+  {
+    "canonical": "drop",
+    "members": [
+      "drop"
+    ]
+  },
+  {
+    "canonical": "dry",
+    "members": [
+      "dry"
+    ]
+  },
+  {
+    "canonical": "eat",
+    "members": [
+      "eat",
+      "feed"
+    ]
+  },
+  {
+    "canonical": "eject",
+    "members": [
+      "eject",
+      "expel"
+    ]
+  },
+  {
+    "canonical": "empty",
+    "members": [
+      "empty"
+    ]
+  },
+  {
+    "canonical": "engage",
+    "members": [
+      "engage"
+    ]
+  },
+  {
+    "canonical": "erase",
+    "members": [
+      "erase"
+    ]
+  },
+  {
+    "canonical": "exercise",
+    "members": [
+      "exercise"
+    ]
+  },
+  {
+    "canonical": "extend",
+    "members": [
+      "extend",
+      "reach",
+      "stretch"
+    ]
+  },
+  {
+    "canonical": "extinguish",
+    "members": [
+      "extinguish",
+      "extinguish fires"
+    ]
+  },
+  {
+    "canonical": "extract",
+    "members": [
+      "extract",
+      "retrieve"
+    ]
+  },
+  {
+    "canonical": "fill",
+    "members": [
+      "fill",
+      "load",
+      "refill",
+      "reload"
+    ]
+  },
+  {
+    "canonical": "filter",
+    "members": [
+      "filter",
+      "strain"
+    ]
+  },
+  {
+    "canonical": "fire",
+    "members": [
+      "fire",
+      "launch",
+      "shoot"
+    ]
+  },
+  {
+    "canonical": "fish",
+    "members": [
+      "fish",
+      "fishing"
+    ]
+  },
+  {
+    "canonical": "flash",
+    "members": [
+      "flash",
+      "spark"
+    ]
+  },
+  {
+    "canonical": "flatten",
+    "members": [
+      "flatten"
+    ]
+  },
+  {
+    "canonical": "flip",
+    "members": [
+      "flip"
+    ]
+  },
+  {
+    "canonical": "float",
+    "members": [
+      "buoy",
+      "float"
+    ]
+  },
+  {
+    "canonical": "fly",
+    "members": [
+      "fly",
+      "glide"
+    ]
+  },
+  {
+    "canonical": "focus",
+    "members": [
+      "focus"
+    ]
+  },
+  {
+    "canonical": "fold",
+    "members": [
+      "fold"
+    ]
+  },
+  {
+    "canonical": "form",
+    "members": [
+      "forge",
+      "form",
+      "model",
+      "mold",
+      "shape"
+    ]
+  },
+  {
+    "canonical": "fry",
+    "members": [
+      "fry",
+      "saute"
+    ]
+  },
+  {
+    "canonical": "fuel",
+    "members": [
+      "fuel",
+      "refuel"
+    ]
+  },
+  {
+    "canonical": "grate",
+    "members": [
+      "grate",
+      "zest"
+    ]
+  },
+  {
+    "canonical": "grill",
+    "members": [
+      "grill",
+      "roast"
+    ]
+  },
+  {
+    "canonical": "grind",
+    "members": [
+      "grind"
+    ]
+  },
+  {
+    "canonical": "heat",
+    "members": [
+      "heat",
+      "warm"
+    ]
+  },
+  {
+    "canonical": "hit",
+    "members": [
+      "hammer",
+      "hit",
+      "impact",
+      "strike",
+      "tap"
+    ]
+  },
+  {
+    "canonical": "hold",
+    "members": [
+      "grab",
+      "grasp",
+      "grip",
+      "hold",
+      "wield"
+    ]
+  },
+  {
+    "canonical": "hold_food",
+    "members": [
+      "hold_food"
+    ]
+  },
+  {
+    "canonical": "humidify",
+    "members": [
+      "humidify"
+    ]
+  },
+  {
+    "canonical": "ignite",
+    "members": [
+      "ignite"
+    ]
+  },
+  {
+    "canonical": "illuminate",
+    "members": [
+      "illuminate",
+      "light",
+      "shine"
+    ]
+  },
+  {
+    "canonical": "immerse",
+    "members": [
+      "immerse",
+      "soak",
+      "submerge"
+    ]
+  },
+  {
+    "canonical": "indicate",
+    "members": [
+      "alert",
+      "highlight",
+      "indicate",
+      "mark",
+      "point",
+      "signal",
+      "warn"
+    ]
+  },
+  {
+    "canonical": "inflate",
+    "members": [
+      "inflate"
+    ]
+  },
+  {
+    "canonical": "inject",
+    "members": [
+      "inject"
+    ]
+  },
+  {
+    "canonical": "ink",
+    "members": [
+      "ink"
+    ]
+  },
+  {
+    "canonical": "input",
+    "members": [
+      "input",
+      "type"
+    ]
+  },
+  {
+    "canonical": "insert",
+    "members": [
+      "insert"
+    ]
+  },
+  {
+    "canonical": "insert_arm",
+    "members": [
+      "insert_arm"
+    ]
+  },
+  {
+    "canonical": "insulate",
+    "members": [
+      "insulate"
+    ]
+  },
+  {
+    "canonical": "intake",
+    "members": [
+      "intake"
+    ]
+  },
+  {
+    "canonical": "irrigate",
+    "members": [
+      "irrigate",
+      "supply water",
+      "water"
+    ]
+  },
+  {
+    "canonical": "jump",
+    "members": [
+      "jump"
+    ]
+  },
+  {
+    "canonical": "kick",
+    "members": [
+      "kick"
+    ]
+  },
+  {
+    "canonical": "knead",
+    "members": [
+      "knead"
+    ]
+  },
+  {
+    "canonical": "label",
+    "members": [
+      "label",
+      "sign"
+    ]
+  },
+  {
+    "canonical": "lean",
+    "members": [
+      "lean",
+      "recline"
+    ]
+  },
+  {
+    "canonical": "level",
+    "members": [
+      "level"
+    ]
+  },
+  {
+    "canonical": "lever",
+    "members": [
+      "lever",
+      "leverage",
+      "prise",
+      "pry"
+    ]
+  },
+  {
+    "canonical": "lift",
+    "members": [
+      "elevate",
+      "hoist",
+      "lift",
+      "raise"
+    ]
+  },
+  {
+    "canonical": "listen",
+    "members": [
+      "listen"
+    ]
+  },
+  {
+    "canonical": "lock",
+    "members": [
+      "lock",
+      "secure"
+    ]
+  },
+  {
+    "canonical": "loosen",
+    "members": [
+      "loosen",
+      "losen"
+    ]
+  },
+  {
+    "canonical": "measure",
+    "members": [
+      "measure",
+      "scale"
+    ]
+  },
+  {
+    "canonical": "move",
+    "members": [
+      "move",
+      "shift",
+      "transfer"
+    ]
+  },
+  {
+    "canonical": "mow",
+    "members": [
+      "mow"
+    ]
+  },
+  {
+    "canonical": "nail",
+    "members": [
+      "nail"
+    ]
+  },
+  {
+    "canonical": "navigate",
+    "members": [
+      "navigate"
+    ]
+  },
+  {
+    "canonical": "open",
+    "members": [
+      "open"
+    ]
+  },
+  {
+    "canonical": "organize",
+    "members": [
+      "organize"
+    ]
+  },
+  {
+    "canonical": "orient",
+    "members": [
+      "angle",
+      "orient",
+      "tilt"
+    ]
+  },
+  {
+    "canonical": "pack",
+    "members": [
+      "assemble",
+      "pack"
+    ]
+  },
+  {
+    "canonical": "paddle",
+    "members": [
+      "paddle",
+      "row"
+    ]
+  },
+  {
+    "canonical": "paint",
+    "members": [
+      "paint"
+    ]
+  },
+  {
+    "canonical": "peel",
+    "members": [
+      "peel",
+      "strip"
+    ]
+  },
+  {
+    "canonical": "penetrate",
+    "members": [
+      "impale",
+      "penetrate",
+      "pierce",
+      "poke",
+      "spear",
+      "stab",
+      "thrust"
+    ]
+  },
+  {
+    "canonical": "photograph",
+    "members": [
+      "film",
+      "photograph",
+      "record"
+    ]
+  },
+  {
+    "canonical": "place",
+    "members": [
+      "lay",
+      "place",
+      "position",
+      "set"
+    ]
+  },
+  {
+    "canonical": "place_arm",
+    "members": [
+      "place_arm"
+    ]
+  },
+  {
+    "canonical": "place_chin",
+    "members": [
+      "place_chin"
+    ]
+  },
+  {
+    "canonical": "place_hand",
+    "members": [
+      "place_hand"
+    ]
+  },
+  {
+    "canonical": "plant",
+    "members": [
+      "plant",
+      "seed"
+    ]
+  },
+  {
+    "canonical": "play",
+    "members": [
+      "play"
+    ]
+  },
+  {
+    "canonical": "pluck",
+    "members": [
+      "pluck"
+    ]
+  },
+  {
+    "canonical": "plug",
+    "members": [
+      "plug"
+    ]
+  },
+  {
+    "canonical": "polish",
+    "members": [
+      "file",
+      "plane",
+      "polish",
+      "rub",
+      "sand",
+      "scrape",
+      "shave",
+      "smooth"
+    ]
+  },
+  {
+    "canonical": "pop",
+    "members": [
+      "pop"
+    ]
+  },
+  {
+    "canonical": "pour",
+    "members": [
+      "pour",
+      "trickle"
+    ]
+  },
+  {
+    "canonical": "press",
+    "members": [
+      "press",
+      "squeeze"
+    ]
+  },
+  {
+    "canonical": "pressurize",
+    "members": [
+      "pressurize"
+    ]
+  },
+  {
+    "canonical": "prevent falling",
+    "members": [
+      "prevent falling"
+    ]
+  },
+  {
+    "canonical": "print",
+    "members": [
+      "print",
+      "stamp"
+    ]
+  },
+  {
+    "canonical": "propel",
+    "members": [
+      "propel"
+    ]
+  },
+  {
+    "canonical": "prune",
+    "members": [
+      "prune"
+    ]
+  },
+  {
+    "canonical": "pull",
+    "members": [
+      "pull",
+      "retract"
+    ]
+  },
+  {
+    "canonical": "pump",
+    "members": [
+      "pump"
+    ]
+  },
+  {
+    "canonical": "punch",
+    "members": [
+      "punch"
+    ]
+  },
+  {
+    "canonical": "push",
+    "members": [
+      "push"
+    ]
+  },
+  {
+    "canonical": "reduce noise",
+    "members": [
+      "reduce noise",
+      "reduce_noise"
+    ]
+  },
+  {
+    "canonical": "reinforce",
+    "members": [
+      "reinforce"
+    ]
+  },
+  {
+    "canonical": "release",
+    "members": [
+      "release"
+    ]
+  },
+  {
+    "canonical": "release water",
+    "members": [
+      "release water"
+    ]
+  },
+  {
+    "canonical": "remove",
+    "members": [
+      "remove"
+    ]
+  },
+  {
+    "canonical": "remove_cap",
+    "members": [
+      "remove_cap"
+    ]
+  },
+  {
+    "canonical": "replace",
+    "members": [
+      "replace"
+    ]
+  },
+  {
+    "canonical": "rest",
+    "members": [
+      "rest"
+    ]
+  },
+  {
+    "canonical": "ride",
+    "members": [
+      "ride",
+      "straddle"
+    ]
+  },
+  {
+    "canonical": "ring",
+    "members": [
+      "produce_sound",
+      "ring",
+      "sound"
+    ]
+  },
+  {
+    "canonical": "rip",
+    "members": [
+      "rip",
+      "tear"
+    ]
+  },
+  {
+    "canonical": "roll",
+    "members": [
+      "roll"
+    ]
+  },
+  {
+    "canonical": "rotate",
+    "members": [
+      "pivot",
+      "rotate",
+      "spin",
+      "swivel",
+      "turn",
+      "twirl",
+      "twist"
+    ]
+  },
+  {
+    "canonical": "run",
+    "members": [
+      "jog",
+      "run"
+    ]
+  },
+  {
+    "canonical": "scan",
+    "members": [
+      "scan"
+    ]
+  },
+  {
+    "canonical": "scoop",
+    "members": [
+      "scoop"
+    ]
+  },
+  {
+    "canonical": "screw",
+    "members": [
+      "screw"
+    ]
+  },
+  {
+    "canonical": "scroll",
+    "members": [
+      "scroll"
+    ]
+  },
+  {
+    "canonical": "season",
+    "members": [
+      "season"
+    ]
+  },
+  {
+    "canonical": "seat",
+    "members": [
+      "seat"
+    ]
+  },
+  {
+    "canonical": "see",
+    "members": [
+      "look",
+      "observe",
+      "see",
+      "view",
+      "watch"
+    ]
+  },
+  {
+    "canonical": "select",
+    "members": [
+      "select"
+    ]
+  },
+  {
+    "canonical": "serve",
+    "members": [
+      "serve"
+    ]
+  },
+  {
+    "canonical": "sew",
+    "members": [
+      "sew",
+      "staple"
+    ]
+  },
+  {
+    "canonical": "shade",
+    "members": [
+      "shade"
+    ]
+  },
+  {
+    "canonical": "shake",
+    "members": [
+      "shake"
+    ]
+  },
+  {
+    "canonical": "sharpen",
+    "members": [
+      "sharpen"
+    ]
+  },
+  {
+    "canonical": "shock",
+    "members": [
+      "shock"
+    ]
+  },
+  {
+    "canonical": "shoulder",
+    "members": [
+      "shoulder"
+    ]
+  },
+  {
+    "canonical": "shred",
+    "members": [
+      "shred"
+    ]
+  },
+  {
+    "canonical": "sit",
+    "members": [
+      "sit"
+    ]
+  },
+  {
+    "canonical": "sleep",
+    "members": [
+      "sleep"
+    ]
+  },
+  {
+    "canonical": "slide",
+    "members": [
+      "slide"
+    ]
+  },
+  {
+    "canonical": "smell",
+    "members": [
+      "smell"
+    ]
+  },
+  {
+    "canonical": "speak",
+    "members": [
+      "speak"
+    ]
+  },
+  {
+    "canonical": "spray",
+    "members": [
+      "spray",
+      "sprinkle"
+    ]
+  },
+  {
+    "canonical": "spread",
+    "members": [
+      "spread"
+    ]
+  },
+  {
+    "canonical": "stack",
+    "members": [
+      "stack"
+    ]
+  },
+  {
+    "canonical": "stand",
+    "members": [
+      "stand",
+      "stand_up"
+    ]
+  },
+  {
+    "canonical": "start",
+    "members": [
+      "activate",
+      "start",
+      "turn on",
+      "turn_on"
+    ]
+  },
+  {
+    "canonical": "steam",
+    "members": [
+      "steam"
+    ]
+  },
+  {
+    "canonical": "steer",
+    "members": [
+      "steer"
+    ]
+  },
+  {
+    "canonical": "step on",
+    "members": [
+      "step",
+      "step on",
+      "step_on"
+    ]
+  },
+  {
+    "canonical": "store_fuel",
+    "members": [
+      "store_fuel"
+    ]
+  },
+  {
+    "canonical": "stroke",
+    "members": [
+      "stroke"
+    ]
+  },
+  {
+    "canonical": "suck",
+    "members": [
+      "suck",
+      "suction",
+      "vacuum"
+    ]
+  },
+  {
+    "canonical": "support",
+    "members": [
+      "support"
+    ]
+  },
+  {
+    "canonical": "sweep",
+    "members": [
+      "sweep"
+    ]
+  },
+  {
+    "canonical": "swim",
+    "members": [
+      "swim"
+    ]
+  },
+  {
+    "canonical": "swing",
+    "members": [
+      "swing"
+    ]
+  },
+  {
+    "canonical": "switch",
+    "members": [
+      "switch",
+      "toggle"
+    ]
+  },
+  {
+    "canonical": "throw",
+    "members": [
+      "throw"
+    ]
+  },
+  {
+    "canonical": "tie",
+    "members": [
+      "tie",
+      "tighten"
+    ]
+  },
+  {
+    "canonical": "time",
+    "members": [
+      "time"
+    ]
+  },
+  {
+    "canonical": "track",
+    "members": [
+      "track"
+    ]
+  },
+  {
+    "canonical": "treat",
+    "members": [
+      "treat"
+    ]
+  },
+  {
+    "canonical": "trigger",
+    "members": [
+      "trigger"
+    ]
+  },
+  {
+    "canonical": "turn off",
+    "members": [
+      "deactivate",
+      "turn off",
+      "turn_off"
+    ]
+  },
+  {
+    "canonical": "unbutton",
+    "members": [
+      "unbutton"
+    ]
+  },
+  {
+    "canonical": "unload",
+    "members": [
+      "unload"
+    ]
+  },
+  {
+    "canonical": "unlock",
+    "members": [
+      "unlock"
+    ]
+  },
+  {
+    "canonical": "unscrew",
+    "members": [
+      "unscrew"
+    ]
+  },
+  {
+    "canonical": "unseal",
+    "members": [
+      "unseal"
+    ]
+  },
+  {
+    "canonical": "untie",
+    "members": [
+      "untie"
+    ]
+  },
+  {
+    "canonical": "vent",
+    "members": [
+      "vent"
+    ]
+  },
+  {
+    "canonical": "walk",
+    "members": [
+      "walk"
+    ]
+  },
+  {
+    "canonical": "wash",
+    "members": [
+      "wash"
+    ]
+  },
+  {
+    "canonical": "wear",
+    "members": [
+      "wear"
+    ]
+  },
+  {
+    "canonical": "wedge",
+    "members": [
+      "wedge"
+    ]
+  },
+  {
+    "canonical": "write",
+    "members": [
+      "write",
+      "write on"
+    ]
+  },
+  {
+    "canonical": "stir",
+    "members": [
+      "stir"
+    ]
+  }
+]

@@ -19,6 +19,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 1\u2019s slender, branching form lacks any discernible functional surface for grasping, pressing, twisting, or attaching\u2014making no clear interaction possible compared to more solidly shaped components like limbs or appendages elsewhere in the figure"
+        },
+        "agd20k_no_none": {
+          "label": "brush with",
+          "justification": "Part 1 has a slender, flexible form ending in multiple fine tips resembling bristles, making it suitable for brushing surfaces while its elongated structure allows precise directional control unlike sturdier components"
         }
       }
     },
@@ -57,6 +61,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 3\u2019s elongated, irregularly shaped appendage lacks any discernible functional form for grasping, pressing, sliding, or attaching\u2014making its interaction potential nonexistent compared to more structured components like limbs or protrusions elsewhere"
+        },
+        "agd20k_no_none": {
+          "label": "drink with",
+          "justification": "Part 3\u2019s elongated, curved spout-like form suggests functionality for pouring or sipping liquids directly into its opening, distinguishing it as uniquely designed for consumption compared to all surrounding body segments which lack such structural cues"
         }
       }
     },
@@ -137,6 +145,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 7\u2019s small size, rounded tip, lack of attachment points, and isolated positioning suggest no functional interaction potential compared to more structured components like limbs or appendages elsewhere in the figure"
+        },
+        "agd20k_no_none": {
+          "label": "kick",
+          "justification": "Part 7 has a thick, sturdy limb positioned near the base of the body, suggesting strength for propulsion rather than fine manipulation like finer appendages elsewhere"
         }
       }
     },
@@ -154,6 +166,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 8\u2019s irregular, soft-textured protrusion lacks any clear functional form for grasping, attaching, moving, or interacting meaningfully in its context compared to surrounding elements"
+        },
+        "agd20k_no_none": {
+          "label": "eat",
+          "justification": "Part 8\u2019s elongated, curved form resembling a mouth-like opening suggests functionality for intake rather than manipulation or display like surrounding appendages"
         }
       }
     },
@@ -171,6 +187,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 9 appears as a small, recessed circular indentation without any protrusions, handles, edges, or functional surfaces for interaction, making its form inherently non-functional in terms of use or manipulation compared to surrounding elements designed for engagement"
+        },
+        "agd20k_no_none": {
+          "label": "sit on",
+          "justification": "Part 9 has a rounded, cushion-like form positioned at ground level beneath the main body, suggesting ergonomic support for sitting rather than grasping or attaching like most surrounding appendages"
         }
       }
     },
@@ -209,6 +229,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 12\u2019s small size relative to its surroundings suggests limited functional interaction potential compared to larger components like limbs or appendages"
+        },
+        "agd20k_no_none": {
+          "label": "hit",
+          "justification": "Part 12\u2019s sharp, pointed tip suggests its function as a weapon for striking rather than grasping or supporting like surrounding appendages"
         }
       }
     },
@@ -226,6 +250,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 13 appears as a small, smooth protrusion without any functional surface features for gripping, pressing, pulling, or attaching\u2014making its use impossible in practical interaction compared to surrounding elements designed for manipulation"
+        },
+        "agd20k_no_none": {
+          "label": "hold",
+          "justification": "Part 13 has a smooth, rounded surface positioned centrally near the top of the body where fingers would naturally grip for holding"
         }
       }
     },
@@ -243,6 +271,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 12 appears as a small circular indentation without any protrusions, handles, edges for gripping, or functional surfaces typically associated with usable objects \u2014 making its form inherently non-functional in terms of interaction"
+        },
+        "agd20k_no_none": {
+          "label": "eat",
+          "justification": "Part 12 has a smooth, rounded surface resembling a mouth opening positioned centrally for receiving food items like those shown nearby in its vicinity"
         }
       }
     },
@@ -281,6 +313,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 14 appears as a smooth, rounded protrusion without any discernible functional surface for grasping, pressing, twisting, sliding, or attaching \u2014 unlike most surrounding components which have distinct shapes suggesting interaction potential"
+        },
+        "agd20k_no_none": {
+          "label": "hit",
+          "justification": "Part 14\u2019s rounded form suggests softness for gentle contact rather than impact resistance like harder surfaces would imply in its context of interaction within the overall structure"
         }
       }
     }

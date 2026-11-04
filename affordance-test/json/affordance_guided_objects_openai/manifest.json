@@ -1,0 +1,143 @@
+[
+  {
+    "scenario_id": "water_plant",
+    "task": "watering a plant",
+    "avoid": "watering cans",
+    "exclude": "the actual plant",
+    "model": "openai/gpt-image-2",
+    "quality": "high",
+    "prompt": "Generate an image of an entirely novel object/concept that could be used for watering a plant. Make sure it has zero resemblance to existing watering cans, but still has the evident functionality. Make the background white and add nothing else to the image. Do not include the actual plant.",
+    "output_image": "/shared/nas/data/m1/adadt2/nvrd/affordance-test/figures/affordance_guided_objects_openai/water_plant.png",
+    "status": "ok",
+    "judge_model": "see generate_affordance_edits.GENERATE_JUDGE_MODEL",
+    "judge_verdict": "pass",
+    "judge_reasoning": "Its wand-like form is unlike a conventional watering can, and its enclosed reservoir can feed water through the lower nozzle onto a plant.",
+    "attempts": [
+      {
+        "attempt": 1,
+        "prompt": "Generate an image of an entirely novel object/concept that could be used for watering a plant. Make sure it has zero resemblance to existing watering cans, but still has the evident functionality. Make the background white and add nothing else to the image. Do not include the actual plant.",
+        "judge_verdict": "pass",
+        "judge_reasoning": "Its wand-like form is unlike a conventional watering can, and its enclosed reservoir can feed water through the lower nozzle onto a plant.",
+        "judge_prompt_fix": null
+      }
+    ],
+    "retry_exhausted": false
+  },
+  {
+    "scenario_id": "scoop_stir_soup",
+    "task": "scooping and stirring soup",
+    "avoid": "ladles",
+    "exclude": "the soup or pot or anything else",
+    "model": "openai/gpt-image-2",
+    "quality": "high",
+    "prompt": "Generate an image of an entirely novel object/concept that could be used for scooping and stirring soup. Make sure it has zero resemblance to existing ladles, but still has the evident functionality. Make the background white and add nothing else to the image. Do not include the soup or pot or anything else.",
+    "output_image": "/shared/nas/data/m1/adadt2/nvrd/affordance-test/figures/affordance_guided_objects_openai/scoop_stir_soup.png",
+    "status": "ok",
+    "judge_model": "see generate_affordance_edits.GENERATE_JUDGE_MODEL",
+    "judge_verdict": "pass",
+    "judge_reasoning": "Its crescent reservoir and integrated side grip depart from a conventional ladle, while solid, continuous walls retain soup and allow stirring.",
+    "attempts": [
+      {
+        "attempt": 1,
+        "prompt": "Generate an image of an entirely novel object/concept that could be used for scooping and stirring soup. Make sure it has zero resemblance to existing ladles, but still has the evident functionality. Make the background white and add nothing else to the image. Do not include the soup or pot or anything else.",
+        "judge_verdict": "fail",
+        "judge_reasoning": "The scooping end has deep gaps between curved prongs, so soup would drain out rather than remain contained.",
+        "judge_prompt_fix": "Fill the gaps between the prongs with continuous solid walls to form a watertight scooping cavity."
+      },
+      {
+        "attempt": 2,
+        "prompt": "Generate an image of an entirely novel object/concept that could be used for scooping and stirring soup. Make sure it has zero resemblance to existing ladles, but still has the evident functionality. Make the background white and add nothing else to the image. Do not include the soup or pot or anything else. Fill the gaps between the prongs with continuous solid walls to form a watertight scooping cavity.",
+        "judge_verdict": "fail",
+        "judge_reasoning": "The solid scoop could hold and stir soup, but its bowl-on-a-long-handle silhouette remains recognizable as a restyled ladle.",
+        "judge_prompt_fix": "Replace the long stem with a lateral handgrip integrated into a crescent-shaped reservoir, retaining continuous watertight walls and an open top."
+      },
+      {
+        "attempt": 3,
+        "prompt": "Generate an image of an entirely novel object/concept that could be used for scooping and stirring soup. Make sure it has zero resemblance to existing ladles, but still has the evident functionality. Make the background white and add nothing else to the image. Do not include the soup or pot or anything else. Replace the long stem with a lateral handgrip integrated into a crescent-shaped reservoir, retaining continuous watertight walls and an open top.",
+        "judge_verdict": "pass",
+        "judge_reasoning": "Its crescent reservoir and integrated side grip depart from a conventional ladle, while solid, continuous walls retain soup and allow stirring.",
+        "judge_prompt_fix": null
+      }
+    ],
+    "retry_exhausted": false
+  },
+  {
+    "scenario_id": "support_human_item",
+    "task": "supporting a human or item",
+    "avoid": "seats or ottomans",
+    "exclude": "any human or other objects or anything else",
+    "model": "openai/gpt-image-2",
+    "quality": "high",
+    "prompt": "Generate an image of an entirely novel object/concept that could be used for supporting a human or item. Make sure it has zero resemblance to existing seats or ottomans, but still has the evident functionality. Make the background white and add nothing else to the image. Do not include any human or other objects or anything else.",
+    "output_image": "/shared/nas/data/m1/adadt2/nvrd/affordance-test/figures/affordance_guided_objects_openai/support_human_item.png",
+    "status": "ok",
+    "judge_model": "see generate_affordance_edits.GENERATE_JUDGE_MODEL",
+    "judge_verdict": "pass",
+    "judge_reasoning": "The branching stone-like form is not recognizable as a seat or ottoman, and its solid ledges connect through thick supports to a broad ground-contact base capable of supporting items.",
+    "attempts": [
+      {
+        "attempt": 1,
+        "prompt": "Generate an image of an entirely novel object/concept that could be used for supporting a human or item. Make sure it has zero resemblance to existing seats or ottomans, but still has the evident functionality. Make the background white and add nothing else to the image. Do not include any human or other objects or anything else.",
+        "judge_verdict": "fail",
+        "judge_reasoning": "The saddle-shaped top on a central pedestal is immediately recognizable as a stool despite its organic cutouts.",
+        "judge_prompt_fix": "Replace the saddle top and pedestal with a low, irregular branching structure bearing several broad, horizontal support ledges."
+      },
+      {
+        "attempt": 2,
+        "prompt": "Generate an image of an entirely novel object/concept that could be used for supporting a human or item. Make sure it has zero resemblance to existing seats or ottomans, but still has the evident functionality. Make the background white and add nothing else to the image. Do not include any human or other objects or anything else. Replace the saddle top and pedestal with a low, irregular branching structure bearing several broad, horizontal support ledges.",
+        "judge_verdict": "pass",
+        "judge_reasoning": "The branching stone-like form is not recognizable as a seat or ottoman, and its solid ledges connect through thick supports to a broad ground-contact base capable of supporting items.",
+        "judge_prompt_fix": null
+      }
+    ],
+    "retry_exhausted": false
+  },
+  {
+    "scenario_id": "cut_food",
+    "task": "cutting food",
+    "avoid": "knives",
+    "exclude": "any food or cutting board",
+    "model": "openai/gpt-image-2",
+    "quality": "high",
+    "prompt": "Generate an image of an entirely novel object/concept that could be used for cutting food. Make sure it has zero resemblance to existing knives, but still has the evident functionality. Make the background white and add nothing else to the image. Do not include any food or cutting board.",
+    "output_image": "/shared/nas/data/m1/adadt2/nvrd/affordance-test/figures/affordance_guided_objects_openai/cut_food.png",
+    "status": "ok",
+    "judge_model": "see generate_affordance_edits.GENERATE_JUDGE_MODEL",
+    "judge_verdict": "pass",
+    "judge_reasoning": "Its loop-and-wire form is unlike a knife, and taut metal wires could mechanically slice soft foods such as cheese or boiled eggs.",
+    "attempts": [
+      {
+        "attempt": 1,
+        "prompt": "Generate an image of an entirely novel object/concept that could be used for cutting food. Make sure it has zero resemblance to existing knives, but still has the evident functionality. Make the background white and add nothing else to the image. Do not include any food or cutting board.",
+        "judge_verdict": "pass",
+        "judge_reasoning": "Its loop-and-wire form is unlike a knife, and taut metal wires could mechanically slice soft foods such as cheese or boiled eggs.",
+        "judge_prompt_fix": null
+      }
+    ],
+    "retry_exhausted": false
+  },
+  {
+    "scenario_id": "carry_items",
+    "task": "carrying groceries or other items by hand",
+    "avoid": "bags or baskets",
+    "exclude": "any groceries or other items",
+    "model": "openai/gpt-image-2",
+    "quality": "high",
+    "prompt": "Generate an image of an entirely novel object/concept that could be used for carrying groceries or other items by hand. Make sure it has zero resemblance to existing bags or baskets, but still has the evident functionality. Make the background white and add nothing else to the image. Do not include any groceries or other items.",
+    "output_image": "/shared/nas/data/m1/adadt2/nvrd/affordance-test/figures/affordance_guided_objects_openai/carry_items.png",
+    "status": "ok",
+    "judge_model": "see generate_affordance_edits.GENERATE_JUDGE_MODEL",
+    "judge_verdict": "pass",
+    "judge_reasoning": "The branching pod structure is unlike a conventional bag or basket, and its solid-bottomed pockets connect to a sturdy handgrip for carrying items.",
+    "attempts": [
+      {
+        "attempt": 1,
+        "prompt": "Generate an image of an entirely novel object/concept that could be used for carrying groceries or other items by hand. Make sure it has zero resemblance to existing bags or baskets, but still has the evident functionality. Make the background white and add nothing else to the image. Do not include any groceries or other items.",
+        "judge_verdict": "pass",
+        "judge_reasoning": "The branching pod structure is unlike a conventional bag or basket, and its solid-bottomed pockets connect to a sturdy handgrip for carrying items.",
+        "judge_prompt_fix": null
+      }
+    ],
+    "retry_exhausted": false
+  }
+]

@@ -19,6 +19,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 1 has no discernible functional form for grasping, holding, inserting fingers into, pressing down upon, sliding along its surface, rotating around any axis, lifting off of surfaces, pushing against anything else in space \u2014 all common ways humans interact physically with objects\u2014making interaction impossible without external tools or force applied through"
+        },
+        "agd20k_no_none": {
+          "label": "hold",
+          "justification": "The smooth, rounded contours of Part 1 suggest ergonomic comfort for gripping without sharp edges or protrusions interfering during handling"
         }
       }
     },

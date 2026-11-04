@@ -40,6 +40,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 2\u2019s smooth, rounded cylindrical form lacks any discernible functional features like grips, edges for leverage, openings, or attachment points typically associated with usable objects"
+        },
+        "agd20k_no_none": {
+          "label": "eat",
+          "justification": "Part 2\u2019s rounded, bulbous form nestled between stacked segments suggests a soft, edible texture designed for consumption rather than structural support like the surrounding rigid limbs or spiky crown elements"
         }
       }
     },
@@ -57,6 +61,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 3\u2019s smooth, rounded cylindrical form lacks any protrusions, indentations, or structural features designed for grasping, attaching, or interacting functionally\u2014unlike surrounding components\u2014which renders its affordances nonexistent in practical use"
+        },
+        "agd20k_no_none": {
+          "label": "sit on",
+          "justification": "Part 3 has a broad, flat top surface positioned centrally beneath heavier upper segments, making its form ideal for supporting weight like seating"
         }
       }
     },
@@ -74,6 +82,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 4\u2019s small size, smooth surface without protrusions or functional contours, and central placement suggest no intended interaction beyond visual ornamentation"
+        },
+        "agd20k_no_none": {
+          "label": "eat",
+          "justification": "Part 4\u2019s small size, smooth surface texture resembling flesh, central placement atop the stacked structure, and proximity to spiky protrusions suggest it functions as a consumable core rather than structural support like surrounding segments"
         }
       }
     },
@@ -133,6 +145,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 7\u2019s slender, curved tail-like appendage lacks any functional surface features for gripping, holding, pressing, or attaching\u2014making no clear interaction possible compared to more structured body segments"
+        },
+        "agd20k_no_none": {
+          "label": "kick",
+          "justification": "Part 7 has a slender, curved form extending outward like a leg ending in a pointed tip, positioned for striking motion unlike any of the rounded, stacked segments above it"
         }
       }
     },
@@ -171,6 +187,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 9\u2019s sharp, pointed tip protrudes upward without any surface for gripping, attaching, or interacting functionally\u2014unlike surrounding components designed for handling or connection\u2014which renders its affordances nonexistent in practical use"
+        },
+        "agd20k_no_none": {
+          "label": "hit",
+          "justification": "Part 9\u2019s sharp, pointed tip positioned prominently at the top makes it suitable for striking rather than grasping or holding like most of the rounded components around it"
         }
       }
     },
@@ -230,6 +250,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 10\u2019s small size and central placement make its functional use ambiguous compared to larger manipulable components like limbs or handles"
+        },
+        "agd20k_no_none": {
+          "label": "hit",
+          "justification": "Part 10\u2019s sharp tip protrudes outward at an angle, making it suitable for striking rather than grasping or supporting like adjacent segments"
         }
       }
     }

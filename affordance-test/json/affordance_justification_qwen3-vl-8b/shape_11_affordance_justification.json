@@ -19,6 +19,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 1\u2019s central, smooth, rounded dome lacks any protrusions, indentations, grips, edges, holes, or attachment points typically associated with functional use in everyday objects \u2014 unlike surrounding elements which suggest potential interaction surfaces like handles or footholds"
+        },
+        "agd20k_no_none": {
+          "label": "sit on",
+          "justification": "Part 1 has a broad, flat top surface relative to its size compared to surrounding protrusions, suggesting stability for weight-bearing support unlike smaller appendages around it"
         }
       }
     },
@@ -57,6 +61,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 3\u2019s flat, inward-facing surface lacks any protrusions, edges, or contours suitable for gripping, pressing, sliding, or attaching\u2014making no functional interaction possible compared to surrounding elements designed for manipulation"
+        },
+        "agd20k_no_none": {
+          "label": "hit",
+          "justification": "Part 2 has a flat, angular surface positioned prominently outward, making it suitable for striking objects due to its exposed geometry compared to surrounding curved elements"
         }
       }
     },
@@ -74,6 +82,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 4 appears as a solid, rounded segment fused seamlessly into the main body without any protrusions, indentations, handles, edges, or surfaces designed for interaction \u2014 making no functional surface available for grasping, pressing, sliding, twisting, pulling, pushing, turning, opening, closing, inserting, removing, hanging"
+        },
+        "agd20k_no_none": {
+          "label": "sit on",
+          "justification": "Part 3 has a broad, flat surface positioned at the base of the structure, making it suitable for supporting weight like seating"
         }
       }
     },
@@ -112,6 +124,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 6\u2019s curled, non-planar form lacks any clear surface for gripping, pressing, or attaching objects, making functional interaction impossible compared to more structured adjacent components"
+        },
+        "agd20k_no_none": {
+          "label": "brush with",
+          "justification": "Part 5\u2019s curved, flexible form suggests softness suitable for gentle application against surfaces like paint or skin \u2014 unlike rigid components designed for structural support or grip elsewhere in the assembly"
         }
       }
     },
@@ -129,6 +145,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 7\u2019s curled, non-planar form lacks any clear surface for gripping, pressing, or attaching objects, making functional interaction impossible compared to more structured adjacent components"
+        },
+        "agd20k_no_none": {
+          "label": "hold",
+          "justification": "Part 6 has a curved, hook-like form positioned at the side of the main body, suggesting its function as something designed for gripping or grasping \u2014 unlike most surrounding flat surfaces which appear structural rather than interactive"
         }
       }
     },
@@ -167,6 +187,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 9\u2019s curled, non-planar form lacks any clear surface for gripping, pressing, or attaching\u2014unlike most others\u2014which renders its functional use impossible without external context"
+        },
+        "agd20k_no_none": {
+          "label": "hit",
+          "justification": "Part 8\u2019s curved, hook-like form at its tip suggests it can be used as a grasping tool for striking objects due to its pointed end positioned outwardly toward potential targets unlike any of the surrounding flat surfaces which are designed more for structural support rather than interaction through forceful contact points like gripping tools do in real"
         }
       }
     },
@@ -184,6 +208,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 1\u2080 has no discernible functional surface features for grasping, pressing, sliding, twisting, pulling, pushing, rotating, turning, prying, levering, hooking, pinching, poking, stabbing, scraping, cutting, drilling, pounding, hammering, screwing, unscrewing, inserting"
+        },
+        "agd20k_no_none": {
+          "label": "hold",
+          "justification": "Part 9 has a concave surface near its edge, suggesting it\u2019s designed for gripping or grasping by hand \u2014 unlike surrounding flat surfaces which are more suited for resting or display rather than active manipulation"
         }
       }
     },
@@ -201,6 +229,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 10\u2019s curved form suggests no functional interaction surface for grasping or manipulation compared to adjacent flat areas like those of parts 3\u20136 which are clearly designed as handholds or footholds"
+        },
+        "agd20k_no_none": {
+          "label": "sip",
+          "justification": "Part 12\u2019s curved opening at its top suggests it can be held like a cup for drinking liquid directly from it \u2014 unlike any of the surrounding flat surfaces which are designed as structural supports rather than functional containers"
         }
       }
     },
@@ -218,6 +250,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 10\u2019s small size and curved edge make its surface too narrow for gripping or functional use compared to larger adjacent sections like 3\u20136 which are shaped into distinct handles suitable for grasping"
+        },
+        "agd20k_no_none": {
+          "label": "hold",
+          "justification": "Part 10\u2019s curved hook-like form suggests its purpose as something designed for grasping rather than structural support like adjacent flat surfaces"
         }
       }
     }

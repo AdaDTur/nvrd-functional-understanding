@@ -19,6 +19,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 1 has no discernible functional form for grasping, attaching, inserting, pulling, pushing, twisting, turning, sliding, lifting, cutting, prying, hammering, drilling, scraping, rubbing, wiping, pressing down, rolling over, spinning around, flipping upside-down, hanging off, fitting into another"
+        },
+        "agd20k_no_none": {
+          "label": "hold",
+          "justification": "Part 1 has a broad, flat surface positioned centrally at the top of the structure, making it ideal for gripping compared to its narrower appendages which are oriented outwardly as limbs rather than handles"
         }
       }
     },
@@ -57,6 +61,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 3\u2019s slender, vertical form lacks any protrusions, grips, handles, or surfaces designed for interaction, making no clear functional use possible compared to surrounding components"
+        },
+        "agd20k_no_none": {
+          "label": "sit on",
+          "justification": "Part 3 has a wide, flat surface positioned vertically at ground level, making it suitable for supporting weight like seating while contrasting in orientation and form compared to all surrounding appendages which are elongated rods extending outwardly without horizontal stability features"
         }
       }
     },

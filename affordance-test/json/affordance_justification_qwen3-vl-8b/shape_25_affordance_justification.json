@@ -61,6 +61,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 3\u2019s irregular, bulbous form lacks any clear functional surface for grasping, pressing, or interacting in ways typical of usable objects like handles or buttons seen elsewhere"
+        },
+        "agd20k_no_none": {
+          "label": "eat",
+          "justification": "Part 3\u2019s small size, rounded top surface, soft texture implied by its smooth shading, and placement atop another component suggest it can be easily picked up and consumed as food"
         }
       }
     },
@@ -78,6 +82,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 4\u2019s elongated, thin protrusion lacks any discernible surface features or structural form suitable for grasping, pressing, twisting, sliding, or otherwise interacting meaningfully \u2014 unlike the others which have rounded contours suggesting functional manipulation"
+        },
+        "agd20k_no_none": {
+          "label": "drink with",
+          "justification": "Part 4 extends outward as a narrow spout-like protrusion designed for directing liquid flow into a container or mouth, unlike the rounded base, wrapped band, or domed top of the others"
         }
       }
     }

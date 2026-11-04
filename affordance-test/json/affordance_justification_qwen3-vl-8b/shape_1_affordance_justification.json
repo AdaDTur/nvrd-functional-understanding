@@ -40,6 +40,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 2 has no discernible surface features for gripping, pressing, sliding, rotating, or any interaction \u2014 its smooth convex curvature suggests purely decorative placement within the assembly rather than functional use"
+        },
+        "agd20k_no_none": {
+          "label": "sit on",
+          "justification": "Part 2 has a broad, flat surface positioned centrally within the structure, suggesting stability for weight-bearing use like sitting"
         }
       }
     },
@@ -57,6 +61,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 3 has no discernible surface features for gripping, pressing, sliding, rotating, pulling, pushing, twisting, turning, pinching, folding, unfolding, opening, closing, detaching, attaching, inserting, removing, adjusting, locking, unlocking, swiping, tapping, scrolling, dragging, dropping, lifting"
+        },
+        "agd20k_no_none": {
+          "label": "hold",
+          "justification": "Part 3 has a smooth, curved surface positioned prominently around the central body of the device, suggesting its function as a grip for secure handling during use"
         }
       }
     },
@@ -95,6 +103,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 5 appears as a flat, smooth surface without any protrusions, indentations, grips, or functional features suggesting interaction or use, unlike surrounding components which have distinct shapes designed for handling or operation"
+        },
+        "agd20k_no_none": {
+          "label": "wear",
+          "justification": "Part 5\u2019s curved, slender form fits ergonomically against the body for comfortable handling during use"
         }
       }
     },

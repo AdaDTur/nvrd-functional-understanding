@@ -1,0 +1,3307 @@
+[
+  {
+    "term": "absorb",
+    "applicable": true,
+    "reason": "Sponge or cloth part enables absorbing liquids."
+  },
+  {
+    "term": "accelerate",
+    "applicable": true,
+    "reason": "Throttle or pedal part enables accelerating."
+  },
+  {
+    "term": "access",
+    "applicable": false,
+    "reason": "Abstract or software concept, not a physical affordance."
+  },
+  {
+    "term": "activate",
+    "applicable": true,
+    "reason": "Button or switch part enables activating a device."
+  },
+  {
+    "term": "add",
+    "applicable": false,
+    "reason": "Too generic and abstract for a physical part affordance."
+  },
+  {
+    "term": "adhere",
+    "applicable": true,
+    "reason": "Adhesive strip or suction cup enables adhering objects."
+  },
+  {
+    "term": "adjust",
+    "applicable": true,
+    "reason": "Dial, knob, or screw enables adjusting settings."
+  },
+  {
+    "term": "administer",
+    "applicable": true,
+    "reason": "Syringe or dropper part enables administering substances."
+  },
+  {
+    "term": "agriculture",
+    "applicable": false,
+    "reason": "Industry domain, not an action on an object."
+  },
+  {
+    "term": "aim",
+    "applicable": true,
+    "reason": "Sight, scope, or barrel part enables aiming."
+  },
+  {
+    "term": "air-to-ground assault",
+    "applicable": false,
+    "reason": "Military operation, not a physical part affordance."
+  },
+  {
+    "term": "aircraft movements",
+    "applicable": false,
+    "reason": "System-level phenomenon, not an affordance."
+  },
+  {
+    "term": "airflow",
+    "applicable": false,
+    "reason": "Physical phenomenon/noun, not a user action."
+  },
+  {
+    "term": "alert",
+    "applicable": true,
+    "reason": "Horn, bell, or button enables alerting others."
+  },
+  {
+    "term": "align",
+    "applicable": true,
+    "reason": "Guide edge or notch enables aligning components."
+  },
+  {
+    "term": "amplify",
+    "applicable": true,
+    "reason": "Megaphone cone or horn part enables amplifying sound."
+  },
+  {
+    "term": "analyze",
+    "applicable": false,
+    "reason": "Cognitive or software process, not a physical affordance."
+  },
+  {
+    "term": "anchor",
+    "applicable": true,
+    "reason": "Cleat, peg, or spike enables anchoring something."
+  },
+  {
+    "term": "angle",
+    "applicable": true,
+    "reason": "Hinge or swivel joint enables angling a component."
+  },
+  {
+    "term": "apply",
+    "applicable": true,
+    "reason": "Brush tip or roller part enables applying substances."
+  },
+  {
+    "term": "ascend",
+    "applicable": true,
+    "reason": "Ladder rung or step enables ascending."
+  },
+  {
+    "term": "assemble",
+    "applicable": true,
+    "reason": "Snap-fit tab or connector enables assembling components."
+  },
+  {
+    "term": "assist",
+    "applicable": false,
+    "reason": "Too vague and abstract for a physical affordance."
+  },
+  {
+    "term": "assist_breathing",
+    "applicable": true,
+    "reason": "Resuscitator bag or mask enables assisting breathing."
+  },
+  {
+    "term": "attach",
+    "applicable": true,
+    "reason": "Clip, clamp, or hook enables attaching things."
+  },
+  {
+    "term": "attack",
+    "applicable": true,
+    "reason": "Blade or blunt weapon head enables attacking."
+  },
+  {
+    "term": "attack submarine",
+    "applicable": false,
+    "reason": "Vehicle type, not a user action affordance."
+  },
+  {
+    "term": "bake",
+    "applicable": true,
+    "reason": "Baking tray or mold enables baking food."
+  },
+  {
+    "term": "balance",
+    "applicable": true,
+    "reason": "Fulcrum or flat base enables balancing objects."
+  },
+  {
+    "term": "bask",
+    "applicable": false,
+    "reason": "Passive environmental action, not mediated by object parts."
+  },
+  {
+    "term": "beat",
+    "applicable": true,
+    "reason": "Whisk, mallet, or drumstick enables beating."
+  },
+  {
+    "term": "bend",
+    "applicable": true,
+    "reason": "Bending die or plier jaw enables bending materials."
+  },
+  {
+    "term": "blend",
+    "applicable": true,
+    "reason": "Whisk or blade part enables blending ingredients."
+  },
+  {
+    "term": "block",
+    "applicable": true,
+    "reason": "Stopper, plug, or guard enables blocking passage."
+  },
+  {
+    "term": "blossom",
+    "applicable": false,
+    "reason": "Biological plant process, not an intentional user action."
+  },
+  {
+    "term": "blow",
+    "applicable": true,
+    "reason": "Mouthpiece or whistle enables blowing air into it."
+  },
+  {
+    "term": "board",
+    "applicable": false,
+    "reason": "Whole-vehicle transit action, not a small object affordance."
+  },
+  {
+    "term": "boil",
+    "applicable": true,
+    "reason": "Kettle chamber or pot enables boiling liquid."
+  },
+  {
+    "term": "border",
+    "applicable": false,
+    "reason": "Scene-level spatial relation, not a user action."
+  },
+  {
+    "term": "bore",
+    "applicable": true,
+    "reason": "Drill bit or auger part enables boring holes."
+  },
+  {
+    "term": "borrow",
+    "applicable": false,
+    "reason": "Social interaction, not a physical object affordance."
+  },
+  {
+    "term": "botton_up",
+    "applicable": true,
+    "reason": "Buttons afford buttoning up clothing."
+  },
+  {
+    "term": "bounce",
+    "applicable": true,
+    "reason": "Surface affords bouncing objects."
+  },
+  {
+    "term": "bow",
+    "applicable": false,
+    "reason": "Bodily gesture, not an object part affordance."
+  },
+  {
+    "term": "brace",
+    "applicable": true,
+    "reason": "Support structure affords bracing."
+  },
+  {
+    "term": "brake",
+    "applicable": true,
+    "reason": "Lever or pad affords braking."
+  },
+  {
+    "term": "break",
+    "applicable": true,
+    "reason": "Striking head or wedge affords breaking."
+  },
+  {
+    "term": "break_ice",
+    "applicable": true,
+    "reason": "Pick or blade affords breaking ice."
+  },
+  {
+    "term": "brew",
+    "applicable": true,
+    "reason": "Basket or chamber affords brewing."
+  },
+  {
+    "term": "brown",
+    "applicable": true,
+    "reason": "Heated surface affords browning food."
+  },
+  {
+    "term": "buffer",
+    "applicable": true,
+    "reason": "Polishing pad affords buffing surfaces."
+  },
+  {
+    "term": "bump",
+    "applicable": true,
+    "reason": "Bumper surface affords bumping against objects."
+  },
+  {
+    "term": "buoy",
+    "applicable": true,
+    "reason": "Float affords keeping items buoyant."
+  },
+  {
+    "term": "burn",
+    "applicable": true,
+    "reason": "Torch tip affords burning materials."
+  },
+  {
+    "term": "bury",
+    "applicable": true,
+    "reason": "Blade or trowel affords burying objects."
+  },
+  {
+    "term": "calibrate",
+    "applicable": true,
+    "reason": "Dial or screw affords calibrating."
+  },
+  {
+    "term": "call",
+    "applicable": true,
+    "reason": "Keypad or button affords placing calls."
+  },
+  {
+    "term": "camp",
+    "applicable": false,
+    "reason": "Complex outdoor activity, not a part affordance."
+  },
+  {
+    "term": "carry",
+    "applicable": true,
+    "reason": "Handle affords carrying an object."
+  },
+  {
+    "term": "carve",
+    "applicable": true,
+    "reason": "Blade or gouge affords carving material."
+  },
+  {
+    "term": "catch",
+    "applicable": true,
+    "reason": "Net or mitt affords catching items."
+  },
+  {
+    "term": "celebrate",
+    "applicable": false,
+    "reason": "Abstract social event, not a part affordance."
+  },
+  {
+    "term": "channel",
+    "applicable": true,
+    "reason": "Groove affords channeling fluid or cable."
+  },
+  {
+    "term": "channel water",
+    "applicable": true,
+    "reason": "Spout or groove affords channeling water."
+  },
+  {
+    "term": "charge",
+    "applicable": true,
+    "reason": "Port or contacts afford charging devices."
+  },
+  {
+    "term": "check",
+    "applicable": true,
+    "reason": "Gauge or dipstick affords checking levels."
+  },
+  {
+    "term": "check-in",
+    "applicable": false,
+    "reason": "Administrative or digital process."
+  },
+  {
+    "term": "chip",
+    "applicable": true,
+    "reason": "Pointed tip affords chipping material."
+  },
+  {
+    "term": "chisel",
+    "applicable": true,
+    "reason": "Beveled edge affords chiseling."
+  },
+  {
+    "term": "chop",
+    "applicable": true,
+    "reason": "Heavy blade affords chopping."
+  },
+  {
+    "term": "circulate",
+    "applicable": true,
+    "reason": "Paddle or blade affords circulating fluid."
+  },
+  {
+    "term": "clamp",
+    "applicable": true,
+    "reason": "Jaws afford clamping workpieces."
+  },
+  {
+    "term": "clean",
+    "applicable": true,
+    "reason": "Bristles or sponge afford cleaning."
+  },
+  {
+    "term": "cleave",
+    "applicable": true,
+    "reason": "Heavy wedge or blade affords cleaving."
+  },
+  {
+    "term": "click",
+    "applicable": true,
+    "reason": "Button or switch affords clicking."
+  },
+  {
+    "term": "climb",
+    "applicable": true,
+    "reason": "Rung or hold affords climbing."
+  },
+  {
+    "term": "clip",
+    "applicable": true,
+    "reason": "Spring clip affords clipping onto surfaces."
+  },
+  {
+    "term": "close",
+    "applicable": true,
+    "reason": "Lid or handle affords closing."
+  },
+  {
+    "term": "cock",
+    "applicable": true,
+    "reason": "Hammer or lever affords cocking mechanism."
+  },
+  {
+    "term": "collect",
+    "applicable": true,
+    "reason": "Scoop or tray affords collecting items."
+  },
+  {
+    "term": "collect water",
+    "applicable": true,
+    "reason": "Basin or cup cavity affords collecting water."
+  },
+  {
+    "term": "command",
+    "applicable": false,
+    "reason": "Abstract social action with no physical affordance."
+  },
+  {
+    "term": "communicate",
+    "applicable": false,
+    "reason": "Abstract communication action, not a direct physical affordance."
+  },
+  {
+    "term": "compact",
+    "applicable": true,
+    "reason": "Tamper or press head affords compacting material."
+  },
+  {
+    "term": "compare",
+    "applicable": false,
+    "reason": "Abstract cognitive action."
+  },
+  {
+    "term": "compose",
+    "applicable": false,
+    "reason": "Abstract creative activity."
+  },
+  {
+    "term": "compress",
+    "applicable": true,
+    "reason": "Clamp or piston face affords compressing objects."
+  },
+  {
+    "term": "conceal",
+    "applicable": true,
+    "reason": "Lid, flap, or compartment affords concealing items."
+  },
+  {
+    "term": "condense",
+    "applicable": false,
+    "reason": "Thermodynamic process, not a manual affordance."
+  },
+  {
+    "term": "connect",
+    "applicable": true,
+    "reason": "Plug, clasp, or socket affords connecting parts."
+  },
+  {
+    "term": "construct",
+    "applicable": false,
+    "reason": "Broad, multi-step activity rather than single affordance."
+  },
+  {
+    "term": "contain",
+    "applicable": true,
+    "reason": "Hollow interior or vessel affords containing items."
+  },
+  {
+    "term": "contain fire",
+    "applicable": true,
+    "reason": "Brazier or burner cup affords containing fire."
+  },
+  {
+    "term": "contain water",
+    "applicable": true,
+    "reason": "Reservoir or bottle cavity affords containing water."
+  },
+  {
+    "term": "control",
+    "applicable": false,
+    "reason": "Too generic and abstract on its own."
+  },
+  {
+    "term": "control water",
+    "applicable": true,
+    "reason": "Valve handle or faucet knob affords controlling water."
+  },
+  {
+    "term": "control_speed",
+    "applicable": true,
+    "reason": "Dial, throttle, or lever affords controlling speed."
+  },
+  {
+    "term": "convert",
+    "applicable": false,
+    "reason": "Abstract process, not a physical part affordance."
+  },
+  {
+    "term": "convey",
+    "applicable": false,
+    "reason": "System-level transport action, not small object affordance."
+  },
+  {
+    "term": "cook",
+    "applicable": true,
+    "reason": "Heated surface or pan affords cooking food."
+  },
+  {
+    "term": "cool",
+    "applicable": true,
+    "reason": "Chilled surface or cooling gel affords cooling."
+  },
+  {
+    "term": "cooling",
+    "applicable": true,
+    "reason": "Part designed to provide cooling function."
+  },
+  {
+    "term": "coordinate",
+    "applicable": false,
+    "reason": "Purely abstract organizational action."
+  },
+  {
+    "term": "corner",
+    "applicable": false,
+    "reason": "Vehicle maneuvering action, not graspable object affordance."
+  },
+  {
+    "term": "correct",
+    "applicable": true,
+    "reason": "Eraser or tip affords correcting marks."
+  },
+  {
+    "term": "cover",
+    "applicable": true,
+    "reason": "Lid, cap, or sheath affords covering."
+  },
+  {
+    "term": "create hole",
+    "applicable": true,
+    "reason": "Awl or punch tip affords creating holes."
+  },
+  {
+    "term": "cross",
+    "applicable": false,
+    "reason": "Pedestrian or environment-scale traversal action."
+  },
+  {
+    "term": "cruise",
+    "applicable": false,
+    "reason": "Vehicle-level driving action, not a part affordance."
+  },
+  {
+    "term": "crush",
+    "applicable": true,
+    "reason": "Pestle base or jaw affords crushing objects."
+  },
+  {
+    "term": "cultivate",
+    "applicable": true,
+    "reason": "Trowel or rake tines afford cultivating soil."
+  },
+  {
+    "term": "cultivate agriculture",
+    "applicable": false,
+    "reason": "Macro-scale industry activity, not graspable tool affordance."
+  },
+  {
+    "term": "cushion",
+    "applicable": true,
+    "reason": "Padded surface or foam layer affords cushioning."
+  },
+  {
+    "term": "cut",
+    "applicable": true,
+    "reason": "Sharpened blade edge affords cutting materials."
+  },
+  {
+    "term": "cycle",
+    "applicable": true,
+    "reason": "Pedals afford cycling motion."
+  },
+  {
+    "term": "dangle",
+    "applicable": true,
+    "reason": "Hook, strap, or loop affords dangling items."
+  },
+  {
+    "term": "deactivate",
+    "applicable": true,
+    "reason": "Switch, latch, or button affords deactivating devices."
+  },
+  {
+    "term": "decelerate",
+    "applicable": false,
+    "reason": "Whole-vehicle movement action, not part affordance."
+  },
+  {
+    "term": "decorate",
+    "applicable": true,
+    "reason": "Stamp, nozzle, or tip affords decorating surfaces."
+  },
+  {
+    "term": "defend",
+    "applicable": true,
+    "reason": "Shield face or guard affords defending."
+  },
+  {
+    "term": "deflate",
+    "applicable": true,
+    "reason": "valve affords releasing air to deflate an object"
+  },
+  {
+    "term": "deflect",
+    "applicable": true,
+    "reason": "guard or shield affords deflecting objects or debris"
+  },
+  {
+    "term": "defrost",
+    "applicable": true,
+    "reason": "scraper or heating element affords defrosting surfaces"
+  },
+  {
+    "term": "degrade",
+    "applicable": false,
+    "reason": "passive chemical or environmental breakdown process"
+  },
+  {
+    "term": "dehumidify",
+    "applicable": false,
+    "reason": "internal appliance process, not a hand-held part affordance"
+  },
+  {
+    "term": "delineate",
+    "applicable": false,
+    "reason": "scene-level boundary or abstract demarcating action"
+  },
+  {
+    "term": "deliver",
+    "applicable": false,
+    "reason": "logistical or transportation service, not part affordance"
+  },
+  {
+    "term": "deliver_ink",
+    "applicable": false,
+    "reason": "action performed by the part itself, not user"
+  },
+  {
+    "term": "demarcate",
+    "applicable": false,
+    "reason": "scene-level boundary marking"
+  },
+  {
+    "term": "deploy",
+    "applicable": true,
+    "reason": "lever or button affords deploying an attached component"
+  },
+  {
+    "term": "deploy crew",
+    "applicable": false,
+    "reason": "large-scale operational or military activity"
+  },
+  {
+    "term": "deposit",
+    "applicable": true,
+    "reason": "slot affords depositing coins or tokens"
+  },
+  {
+    "term": "descend",
+    "applicable": true,
+    "reason": "rung or rope affords descending safely"
+  },
+  {
+    "term": "detach",
+    "applicable": true,
+    "reason": "clip or latch affords detaching a component"
+  },
+  {
+    "term": "detect",
+    "applicable": true,
+    "reason": "probe or wand affords detecting materials"
+  },
+  {
+    "term": "detonate",
+    "applicable": true,
+    "reason": "trigger button affords detonating an explosive"
+  },
+  {
+    "term": "develop",
+    "applicable": false,
+    "reason": "abstract or chemical process"
+  },
+  {
+    "term": "diagnose",
+    "applicable": true,
+    "reason": "stethoscope or test probe affords diagnosing issues"
+  },
+  {
+    "term": "dice",
+    "applicable": true,
+    "reason": "knife blade affords dicing food"
+  },
+  {
+    "term": "dig",
+    "applicable": true,
+    "reason": "trowel blade affords digging soil"
+  },
+  {
+    "term": "direct",
+    "applicable": true,
+    "reason": "nozzle or pointer affords directing flow or light"
+  },
+  {
+    "term": "direct traffic",
+    "applicable": false,
+    "reason": "traffic-system level activity"
+  },
+  {
+    "term": "direction",
+    "applicable": false,
+    "reason": "noun describing orientation, not a user action"
+  },
+  {
+    "term": "disassemble",
+    "applicable": true,
+    "reason": "tool bit affords disassembling fastened parts"
+  },
+  {
+    "term": "discharge",
+    "applicable": true,
+    "reason": "valve or trigger affords discharging contents"
+  },
+  {
+    "term": "disconnect",
+    "applicable": true,
+    "reason": "plug or coupler affords disconnecting cables"
+  },
+  {
+    "term": "disembark",
+    "applicable": false,
+    "reason": "vehicle-level action"
+  },
+  {
+    "term": "disengage",
+    "applicable": true,
+    "reason": "lever or switch affords disengaging a mechanism"
+  },
+  {
+    "term": "dispatch",
+    "applicable": false,
+    "reason": "logistical or administrative action"
+  },
+  {
+    "term": "dispense",
+    "applicable": true,
+    "reason": "spout or pump affords dispensing liquids"
+  },
+  {
+    "term": "dispenser",
+    "applicable": false,
+    "reason": "noun referring to an object, not an affordance"
+  },
+  {
+    "term": "display",
+    "applicable": true,
+    "reason": "stand or mount affords displaying an item"
+  },
+  {
+    "term": "dispose",
+    "applicable": true,
+    "reason": "hatch or opening affords disposing of waste"
+  },
+  {
+    "term": "distribute",
+    "applicable": true,
+    "reason": "rake or spreader affords distributing material evenly"
+  },
+  {
+    "term": "dive",
+    "applicable": true,
+    "reason": "springboard affords diving"
+  },
+  {
+    "term": "divert",
+    "applicable": true,
+    "reason": "vane or baffle affords diverting flow"
+  },
+  {
+    "term": "divert water",
+    "applicable": true,
+    "reason": "channel or spout affords diverting water"
+  },
+  {
+    "term": "divide",
+    "applicable": true,
+    "reason": "blade or divider affords dividing materials"
+  },
+  {
+    "term": "dock",
+    "applicable": true,
+    "reason": "connector affords docking a device"
+  },
+  {
+    "term": "drag",
+    "applicable": true,
+    "reason": "handle affords dragging an object along"
+  },
+  {
+    "term": "drain",
+    "applicable": true,
+    "reason": "A strainer or plug hole affords draining."
+  },
+  {
+    "term": "drain water",
+    "applicable": true,
+    "reason": "A plug hole or strainer affords draining water."
+  },
+  {
+    "term": "draw",
+    "applicable": true,
+    "reason": "A pen tip or stylus affords drawing."
+  },
+  {
+    "term": "drill",
+    "applicable": true,
+    "reason": "A drill bit affords drilling."
+  },
+  {
+    "term": "drink",
+    "applicable": true,
+    "reason": "A cup rim or straw affords drinking."
+  },
+  {
+    "term": "drive",
+    "applicable": true,
+    "reason": "A steering wheel or pedal affords driving."
+  },
+  {
+    "term": "drop",
+    "applicable": true,
+    "reason": "A pipette or dropper bulb affords dropping."
+  },
+  {
+    "term": "dry",
+    "applicable": true,
+    "reason": "A towel or squeegee affords drying."
+  },
+  {
+    "term": "dump",
+    "applicable": true,
+    "reason": "A bucket rim or tray affords dumping."
+  },
+  {
+    "term": "eat",
+    "applicable": true,
+    "reason": "A fork tine or spoon affords eating."
+  },
+  {
+    "term": "educate",
+    "applicable": false,
+    "reason": "Abstract social activity, not a physical part affordance."
+  },
+  {
+    "term": "eject",
+    "applicable": true,
+    "reason": "An eject button or lever affords ejecting."
+  },
+  {
+    "term": "elevate",
+    "applicable": true,
+    "reason": "A jack pad or lever affords elevating."
+  },
+  {
+    "term": "emergency",
+    "applicable": false,
+    "reason": "State or concept, not an action affordance."
+  },
+  {
+    "term": "emit",
+    "applicable": false,
+    "reason": "Describes what a device does, not user action."
+  },
+  {
+    "term": "empty",
+    "applicable": true,
+    "reason": "A container opening or spout affords emptying."
+  },
+  {
+    "term": "enclose",
+    "applicable": true,
+    "reason": "A lid or clasp affords enclosing."
+  },
+  {
+    "term": "engage",
+    "applicable": true,
+    "reason": "A clutch lever or latch affords engaging."
+  },
+  {
+    "term": "enhance",
+    "applicable": false,
+    "reason": "Abstract outcome, not a physical action."
+  },
+  {
+    "term": "enter",
+    "applicable": false,
+    "reason": "Large-scale architectural or virtual action."
+  },
+  {
+    "term": "entertain",
+    "applicable": false,
+    "reason": "Abstract social effect, not a physical manipulation affordance."
+  },
+  {
+    "term": "erase",
+    "applicable": true,
+    "reason": "An eraser end affords erasing."
+  },
+  {
+    "term": "erode",
+    "applicable": false,
+    "reason": "Passive natural wear, not a physical tool affordance."
+  },
+  {
+    "term": "erupt",
+    "applicable": false,
+    "reason": "Natural geological or spontaneous process."
+  },
+  {
+    "term": "escort",
+    "applicable": false,
+    "reason": "Social security activity, not a tool affordance."
+  },
+  {
+    "term": "escort high-value assets",
+    "applicable": false,
+    "reason": "High-level security procedure, not a physical part affordance."
+  },
+  {
+    "term": "estimate",
+    "applicable": false,
+    "reason": "Purely cognitive process."
+  },
+  {
+    "term": "evacuate",
+    "applicable": false,
+    "reason": "Emergency procedure or large-scale protocol."
+  },
+  {
+    "term": "evaporate",
+    "applicable": false,
+    "reason": "Thermodynamic physical process, not a tool affordance."
+  },
+  {
+    "term": "excavate",
+    "applicable": true,
+    "reason": "A trowel or shovel blade affords excavating."
+  },
+  {
+    "term": "exercise",
+    "applicable": true,
+    "reason": "A dumbbell handle or resistance band affords exercising."
+  },
+  {
+    "term": "exit",
+    "applicable": false,
+    "reason": "Architectural or software action, not small object affordance."
+  },
+  {
+    "term": "expel",
+    "applicable": true,
+    "reason": "A syringe plunger or nozzle affords expelling."
+  },
+  {
+    "term": "explode",
+    "applicable": false,
+    "reason": "Destructive chemical event, not a graspable affordance."
+  },
+  {
+    "term": "explore",
+    "applicable": false,
+    "reason": "High-level cognitive or navigation behavior."
+  },
+  {
+    "term": "extend",
+    "applicable": true,
+    "reason": "A telescoping rod or arm affords extending."
+  },
+  {
+    "term": "extinguish",
+    "applicable": true,
+    "reason": "A candle snuffer affords extinguishing."
+  },
+  {
+    "term": "extinguish fires",
+    "applicable": true,
+    "reason": "An extinguisher nozzle affords extinguishing fires."
+  },
+  {
+    "term": "extract",
+    "applicable": true,
+    "reason": "Tweezers or corkscrew tips afford extracting."
+  },
+  {
+    "term": "facilitate",
+    "applicable": false,
+    "reason": "Abstract concept, not a direct physical affordance."
+  },
+  {
+    "term": "facilitate air travel",
+    "applicable": false,
+    "reason": "macro-scale system concept, not part affordance."
+  },
+  {
+    "term": "facilitate trade",
+    "applicable": false,
+    "reason": "abstract economic process."
+  },
+  {
+    "term": "farm",
+    "applicable": false,
+    "reason": "broad occupational activity, not direct part affordance."
+  },
+  {
+    "term": "fasten",
+    "applicable": true,
+    "reason": "clips and buckles afford fastening."
+  },
+  {
+    "term": "feed",
+    "applicable": true,
+    "reason": "spoons and bottles afford feeding."
+  },
+  {
+    "term": "file",
+    "applicable": true,
+    "reason": "abrasive surfaces afford filing."
+  },
+  {
+    "term": "fill",
+    "applicable": true,
+    "reason": "vessel openings afford filling."
+  },
+  {
+    "term": "film",
+    "applicable": true,
+    "reason": "camera controls and lenses afford filming."
+  },
+  {
+    "term": "filter",
+    "applicable": true,
+    "reason": "mesh screens afford filtering."
+  },
+  {
+    "term": "fire",
+    "applicable": true,
+    "reason": "triggers afford firing."
+  },
+  {
+    "term": "fish",
+    "applicable": true,
+    "reason": "fishing rods and hooks afford fishing."
+  },
+  {
+    "term": "fishing",
+    "applicable": true,
+    "reason": "reels and hooks afford fishing."
+  },
+  {
+    "term": "fit",
+    "applicable": false,
+    "reason": "stative relationship rather than physical user affordance."
+  },
+  {
+    "term": "fix",
+    "applicable": false,
+    "reason": "broad maintenance task, not specific physical action."
+  },
+  {
+    "term": "flash",
+    "applicable": true,
+    "reason": "light buttons and shutters afford flashing."
+  },
+  {
+    "term": "flatten",
+    "applicable": true,
+    "reason": "roller and press surfaces afford flattening."
+  },
+  {
+    "term": "flip",
+    "applicable": true,
+    "reason": "spatula blades afford flipping."
+  },
+  {
+    "term": "float",
+    "applicable": true,
+    "reason": "buoyancy rings and vests afford floating."
+  },
+  {
+    "term": "flood control",
+    "applicable": false,
+    "reason": "civil infrastructure scale concept."
+  },
+  {
+    "term": "flow",
+    "applicable": false,
+    "reason": "fluid behavior, not user-directed action."
+  },
+  {
+    "term": "fly",
+    "applicable": true,
+    "reason": "kite handles and gliders afford flying."
+  },
+  {
+    "term": "focus",
+    "applicable": true,
+    "reason": "lens rings afford focusing."
+  },
+  {
+    "term": "fold",
+    "applicable": true,
+    "reason": "hinges and creases afford folding."
+  },
+  {
+    "term": "follow",
+    "applicable": false,
+    "reason": "abstract navigation or visual tracking action."
+  },
+  {
+    "term": "forecast",
+    "applicable": false,
+    "reason": "computational or cognitive prediction."
+  },
+  {
+    "term": "forge",
+    "applicable": true,
+    "reason": "anvils and smithing hammers afford forging."
+  },
+  {
+    "term": "form",
+    "applicable": true,
+    "reason": "molds and shaping dies afford forming."
+  },
+  {
+    "term": "freeze",
+    "applicable": true,
+    "reason": "ice trays and molds afford freezing."
+  },
+  {
+    "term": "froth",
+    "applicable": true,
+    "reason": "whisks and steam wands afford frothing."
+  },
+  {
+    "term": "fry",
+    "applicable": true,
+    "reason": "pan surfaces afford frying."
+  },
+  {
+    "term": "fuel",
+    "applicable": true,
+    "reason": "spouts and nozzles afford fueling."
+  },
+  {
+    "term": "gather",
+    "applicable": true,
+    "reason": "rake tines and baskets afford gathering."
+  },
+  {
+    "term": "generate",
+    "applicable": false,
+    "reason": "too abstract and unspecific."
+  },
+  {
+    "term": "generate lift",
+    "applicable": false,
+    "reason": "aerodynamic phenomenon, not direct user action."
+  },
+  {
+    "term": "generate_thrust",
+    "applicable": false,
+    "reason": "internal engine mechanism function."
+  },
+  {
+    "term": "glide",
+    "applicable": true,
+    "reason": "runner blades and smooth bases afford gliding."
+  },
+  {
+    "term": "glue",
+    "applicable": true,
+    "reason": "applicator tips and nozzles afford gluing."
+  },
+  {
+    "term": "govern",
+    "applicable": false,
+    "reason": "abstract social or political activity."
+  },
+  {
+    "term": "grab",
+    "applicable": true,
+    "reason": "claws and handles afford grabbing."
+  },
+  {
+    "term": "grasp",
+    "applicable": true,
+    "reason": "grips and handles afford grasping."
+  },
+  {
+    "term": "grate",
+    "applicable": true,
+    "reason": "Grater surface lets a person grate food items."
+  },
+  {
+    "term": "graze",
+    "applicable": false,
+    "reason": "Biological animal action or unintentional skin contact."
+  },
+  {
+    "term": "grazing",
+    "applicable": false,
+    "reason": "Biological animal feeding behavior."
+  },
+  {
+    "term": "grill",
+    "applicable": true,
+    "reason": "Grill grate lets a person grill food."
+  },
+  {
+    "term": "grind",
+    "applicable": true,
+    "reason": "Burr or pestle allows grinding substances."
+  },
+  {
+    "term": "grip",
+    "applicable": true,
+    "reason": "Handle or textured surface affords gripping."
+  },
+  {
+    "term": "grow",
+    "applicable": false,
+    "reason": "Biological developmental process."
+  },
+  {
+    "term": "guide",
+    "applicable": true,
+    "reason": "Track or groove guides another physical component."
+  },
+  {
+    "term": "hammer",
+    "applicable": true,
+    "reason": "Hammer head lets a person hammer objects."
+  },
+  {
+    "term": "hang",
+    "applicable": true,
+    "reason": "Hook or loop affords hanging an object."
+  },
+  {
+    "term": "harvest",
+    "applicable": true,
+    "reason": "Sickle blade or comb allows harvesting plants."
+  },
+  {
+    "term": "haul",
+    "applicable": true,
+    "reason": "Strap or handle enables hauling heavy loads."
+  },
+  {
+    "term": "heat",
+    "applicable": true,
+    "reason": "Heating plate or element allows heating items."
+  },
+  {
+    "term": "highlight",
+    "applicable": true,
+    "reason": "Marker tip lets a person highlight text."
+  },
+  {
+    "term": "hike",
+    "applicable": false,
+    "reason": "Large-scale locomotion activity across terrain."
+  },
+  {
+    "term": "hit",
+    "applicable": true,
+    "reason": "Striking face allows hitting a target."
+  },
+  {
+    "term": "hoist",
+    "applicable": true,
+    "reason": "Pulley or hook lets a person hoist loads."
+  },
+  {
+    "term": "hold",
+    "applicable": true,
+    "reason": "Handle or clamp allows holding objects."
+  },
+  {
+    "term": "hold_food",
+    "applicable": true,
+    "reason": "Bowl or skewer holds food."
+  },
+  {
+    "term": "host",
+    "applicable": false,
+    "reason": "Abstract social or computational function."
+  },
+  {
+    "term": "house",
+    "applicable": false,
+    "reason": "Passive structural enclosure rather than user action."
+  },
+  {
+    "term": "humidify",
+    "applicable": true,
+    "reason": "Nozzle or wick allows humidifying surrounding air."
+  },
+  {
+    "term": "identify",
+    "applicable": false,
+    "reason": "Cognitive recognition task."
+  },
+  {
+    "term": "ignite",
+    "applicable": true,
+    "reason": "Striker or spark wheel enables igniting flame."
+  },
+  {
+    "term": "illuminate",
+    "applicable": true,
+    "reason": "Lamp or lens enables illuminating an area."
+  },
+  {
+    "term": "immerse",
+    "applicable": true,
+    "reason": "Dipper or strainer basket enables immersing items."
+  },
+  {
+    "term": "impact",
+    "applicable": true,
+    "reason": "Striking face delivers impact to materials."
+  },
+  {
+    "term": "impale",
+    "applicable": true,
+    "reason": "Sharp prong or spike allows impaling."
+  },
+  {
+    "term": "incise",
+    "applicable": true,
+    "reason": "Scalpel edge affords incising material precisely."
+  },
+  {
+    "term": "increase_downforce",
+    "applicable": false,
+    "reason": "Vehicle aerodynamic feature, not small object tool affordance."
+  },
+  {
+    "term": "indicate",
+    "applicable": true,
+    "reason": "Needle or pointer allows indicating a measurement."
+  },
+  {
+    "term": "indicate elevation",
+    "applicable": false,
+    "reason": "Instrument-level informational display function."
+  },
+  {
+    "term": "infiltrate",
+    "applicable": false,
+    "reason": "Covert social/military action or passive fluid seepage."
+  },
+  {
+    "term": "inflate",
+    "applicable": true,
+    "reason": "Pump nozzle or valve affords inflating objects."
+  },
+  {
+    "term": "inflict",
+    "applicable": false,
+    "reason": "Abstract grammatical construct, not a physical action."
+  },
+  {
+    "term": "inform",
+    "applicable": false,
+    "reason": "Abstract communicative or cognitive process."
+  },
+  {
+    "term": "infuse",
+    "applicable": true,
+    "reason": "Infuser basket lets a person infuse liquids."
+  },
+  {
+    "term": "inhabit",
+    "applicable": false,
+    "reason": "Living in an architectural space."
+  },
+  {
+    "term": "inject",
+    "applicable": true,
+    "reason": "Syringe needle lets a person inject fluids."
+  },
+  {
+    "term": "ink",
+    "applicable": true,
+    "reason": "Stamp pad or roller affords inking surfaces."
+  },
+  {
+    "term": "input",
+    "applicable": true,
+    "reason": "A button, key, or jack affords inputting data."
+  },
+  {
+    "term": "insert",
+    "applicable": true,
+    "reason": "A slot or opening affords inserting an object."
+  },
+  {
+    "term": "insert_arm",
+    "applicable": true,
+    "reason": "A strap, sleeve, or loop affords inserting an arm."
+  },
+  {
+    "term": "insulate",
+    "applicable": true,
+    "reason": "A grip or barrier affords insulating from heat or shock."
+  },
+  {
+    "term": "intake",
+    "applicable": true,
+    "reason": "A port, valve, or nozzle affords fluid intake."
+  },
+  {
+    "term": "intercept",
+    "applicable": false,
+    "reason": "Abstract or tactical action not tied to small objects."
+  },
+  {
+    "term": "interpret",
+    "applicable": false,
+    "reason": "Purely cognitive and abstract action."
+  },
+  {
+    "term": "irrigate",
+    "applicable": true,
+    "reason": "A nozzle or syringe tip affords irrigating."
+  },
+  {
+    "term": "jog",
+    "applicable": true,
+    "reason": "A dial or control knob affords jogging media or position."
+  },
+  {
+    "term": "join",
+    "applicable": true,
+    "reason": "A clamp, fastener, or connector affords joining parts."
+  },
+  {
+    "term": "jump",
+    "applicable": true,
+    "reason": "A spring or elastic surface affords jumping."
+  },
+  {
+    "term": "kick",
+    "applicable": true,
+    "reason": "A pedal, lever, or ball surface affords kicking."
+  },
+  {
+    "term": "knead",
+    "applicable": true,
+    "reason": "A paddle, roller, or textured surface affords kneading."
+  },
+  {
+    "term": "label",
+    "applicable": true,
+    "reason": "A flat surface or tag affords labeling."
+  },
+  {
+    "term": "land",
+    "applicable": false,
+    "reason": "Vehicle-level or aviation action."
+  },
+  {
+    "term": "launch",
+    "applicable": true,
+    "reason": "A trigger, spring, or sling affords launching."
+  },
+  {
+    "term": "launch aircraft",
+    "applicable": false,
+    "reason": "Carrier or airfield-level aviation action."
+  },
+  {
+    "term": "lay",
+    "applicable": true,
+    "reason": "A flat base or tray affords laying items down."
+  },
+  {
+    "term": "lean",
+    "applicable": true,
+    "reason": "A rest, stand, or leg affords leaning against."
+  },
+  {
+    "term": "learn",
+    "applicable": false,
+    "reason": "Purely cognitive internal mental process."
+  },
+  {
+    "term": "leave",
+    "applicable": false,
+    "reason": "Scene-level locational movement, not a tool affordance."
+  },
+  {
+    "term": "level",
+    "applicable": true,
+    "reason": "A scraper, trowel, or bubble vial affords leveling."
+  },
+  {
+    "term": "lever",
+    "applicable": true,
+    "reason": "A rigid arm or pry edge affords levering."
+  },
+  {
+    "term": "leverage",
+    "applicable": true,
+    "reason": "A long handle affords gaining mechanical leverage."
+  },
+  {
+    "term": "lift",
+    "applicable": true,
+    "reason": "A handle, rim, or loop affords lifting."
+  },
+  {
+    "term": "light",
+    "applicable": true,
+    "reason": "A striker or igniter tip affords lighting fire."
+  },
+  {
+    "term": "listen",
+    "applicable": true,
+    "reason": "An earpiece or speaker cup affords listening."
+  },
+  {
+    "term": "live",
+    "applicable": false,
+    "reason": "Broad biological state, not a functional part affordance."
+  },
+  {
+    "term": "load",
+    "applicable": true,
+    "reason": "A hopper, chamber, or tray affords loading."
+  },
+  {
+    "term": "locate",
+    "applicable": false,
+    "reason": "Abstract cognitive or navigational task."
+  },
+  {
+    "term": "lock",
+    "applicable": true,
+    "reason": "A latch, bolt, or keyway affords locking."
+  },
+  {
+    "term": "look",
+    "applicable": true,
+    "reason": "A peephole, lens, or viewfinder affords looking through."
+  },
+  {
+    "term": "loosen",
+    "applicable": true,
+    "reason": "A wrench head, knob, or screw affords loosening."
+  },
+  {
+    "term": "losen",
+    "applicable": true,
+    "reason": "Variant spelling of loosen; physically enables releasing tension."
+  },
+  {
+    "term": "lower",
+    "applicable": true,
+    "reason": "A cord, crank, or handle affords lowering objects."
+  },
+  {
+    "term": "mail",
+    "applicable": false,
+    "reason": "Postal service and societal system action."
+  },
+  {
+    "term": "maintain",
+    "applicable": false,
+    "reason": "High-level abstract upkeep activity."
+  },
+  {
+    "term": "manage",
+    "applicable": false,
+    "reason": "Purely abstract and organizational action."
+  },
+  {
+    "term": "mark",
+    "applicable": true,
+    "reason": "A tip, scribe, or stamp affords marking."
+  },
+  {
+    "term": "mash",
+    "applicable": true,
+    "reason": "A perforated head or pestle affords mashing."
+  },
+  {
+    "term": "measure",
+    "applicable": true,
+    "reason": "Ruler edge or measuring cup enables measuring."
+  },
+  {
+    "term": "meet",
+    "applicable": false,
+    "reason": "Purely social interaction without physical part affordance."
+  },
+  {
+    "term": "mince",
+    "applicable": true,
+    "reason": "Knife blade affords mincing food."
+  },
+  {
+    "term": "mine",
+    "applicable": true,
+    "reason": "Pickaxe head affords mining rock or minerals."
+  },
+  {
+    "term": "mix",
+    "applicable": true,
+    "reason": "Whisk or spoon bowl affords mixing."
+  },
+  {
+    "term": "model",
+    "applicable": true,
+    "reason": "Sculpting tool tip affords modeling clay."
+  },
+  {
+    "term": "modulate",
+    "applicable": true,
+    "reason": "Knob or slider affords modulating signals."
+  },
+  {
+    "term": "mold",
+    "applicable": true,
+    "reason": "Mold cavity affords molding pliable material."
+  },
+  {
+    "term": "monitor",
+    "applicable": true,
+    "reason": "Gauge or screen affords monitoring readings."
+  },
+  {
+    "term": "moor",
+    "applicable": true,
+    "reason": "Cleat or hook affords mooring a vessel."
+  },
+  {
+    "term": "mount",
+    "applicable": true,
+    "reason": "Bracket or peg affords mounting an object."
+  },
+  {
+    "term": "move",
+    "applicable": true,
+    "reason": "Handle or caster affords moving an object."
+  },
+  {
+    "term": "mow",
+    "applicable": true,
+    "reason": "Mower blade affords mowing grass."
+  },
+  {
+    "term": "nail",
+    "applicable": true,
+    "reason": "Hammer head affords nailing fasteners."
+  },
+  {
+    "term": "navigate",
+    "applicable": true,
+    "reason": "Compass dial affords navigating directions."
+  },
+  {
+    "term": "note",
+    "applicable": false,
+    "reason": "Cognitive action rather than direct physical affordance."
+  },
+  {
+    "term": "observe",
+    "applicable": true,
+    "reason": "Lens or eyepiece affords observing details."
+  },
+  {
+    "term": "occupy",
+    "applicable": false,
+    "reason": "Abstract or spatial state, not a tool affordance."
+  },
+  {
+    "term": "off-road",
+    "applicable": false,
+    "reason": "Vehicle-level activity, not a specific part affordance."
+  },
+  {
+    "term": "offer_habitat",
+    "applicable": false,
+    "reason": "Environmental or ecological property."
+  },
+  {
+    "term": "open",
+    "applicable": true,
+    "reason": "Bottle opener tip affords opening caps."
+  },
+  {
+    "term": "operate",
+    "applicable": false,
+    "reason": "Too broad and generic across whole systems."
+  },
+  {
+    "term": "organize",
+    "applicable": true,
+    "reason": "Tray divider affords organizing small items."
+  },
+  {
+    "term": "orient",
+    "applicable": true,
+    "reason": "Grip or alignment mark affords orienting."
+  },
+  {
+    "term": "overlook",
+    "applicable": false,
+    "reason": "Architectural or environmental perspective."
+  },
+  {
+    "term": "pack",
+    "applicable": true,
+    "reason": "Compartment or pouch affords packing contents."
+  },
+  {
+    "term": "paddle",
+    "applicable": true,
+    "reason": "Paddle blade affords paddling through water."
+  },
+  {
+    "term": "paint",
+    "applicable": true,
+    "reason": "Brush bristles afford painting surfaces."
+  },
+  {
+    "term": "park",
+    "applicable": false,
+    "reason": "Whole-vehicle maneuver, not a tool part affordance."
+  },
+  {
+    "term": "parry",
+    "applicable": true,
+    "reason": "Blade or sword guard affords parrying strikes."
+  },
+  {
+    "term": "party",
+    "applicable": false,
+    "reason": "Purely social activity."
+  },
+  {
+    "term": "patrol",
+    "applicable": false,
+    "reason": "Security activity not tied to tool part affordance."
+  },
+  {
+    "term": "pay",
+    "applicable": false,
+    "reason": "Financial transaction without distinct physical part affordance."
+  },
+  {
+    "term": "pedal",
+    "applicable": true,
+    "reason": "Bicycle pedal affords pedaling."
+  },
+  {
+    "term": "peddle",
+    "applicable": false,
+    "reason": "Commercial selling activity, not a physical affordance."
+  },
+  {
+    "term": "peel",
+    "applicable": true,
+    "reason": "Peeler blade affords peeling skin off produce."
+  },
+  {
+    "term": "penetrate",
+    "applicable": true,
+    "reason": "Pointed spike or needle affords penetrating material."
+  },
+  {
+    "term": "photograph",
+    "applicable": true,
+    "reason": "Camera lens or shutter button affords photographing."
+  },
+  {
+    "term": "pick",
+    "applicable": true,
+    "reason": "Tine or pick point affords picking items."
+  },
+  {
+    "term": "picnic",
+    "applicable": false,
+    "reason": "Recreational activity rather than specific part affordance."
+  },
+  {
+    "term": "pierce",
+    "applicable": true,
+    "reason": "A sharp point affords piercing materials."
+  },
+  {
+    "term": "pinch",
+    "applicable": true,
+    "reason": "Tweezer tips or tongs afford pinching items."
+  },
+  {
+    "term": "pivot",
+    "applicable": true,
+    "reason": "A hinge or swivel pin affords pivoting."
+  },
+  {
+    "term": "place",
+    "applicable": true,
+    "reason": "A flat surface or tray affords placing objects."
+  },
+  {
+    "term": "place_arm",
+    "applicable": true,
+    "reason": "An armrest affords placing one's arm."
+  },
+  {
+    "term": "place_chin",
+    "applicable": true,
+    "reason": "A violin chinrest affords placing one's chin."
+  },
+  {
+    "term": "place_hand",
+    "applicable": true,
+    "reason": "A grip or rest affords placing one's hand."
+  },
+  {
+    "term": "plan",
+    "applicable": false,
+    "reason": "Purely mental activity with no specific physical part."
+  },
+  {
+    "term": "plane",
+    "applicable": true,
+    "reason": "A hand plane blade affords planing wood."
+  },
+  {
+    "term": "plant",
+    "applicable": true,
+    "reason": "A dibber or trowel tip affords planting."
+  },
+  {
+    "term": "play",
+    "applicable": true,
+    "reason": "Instrument keys or toy components afford playing."
+  },
+  {
+    "term": "plot",
+    "applicable": false,
+    "reason": "Abstract or cognitive task rather than physical affordance."
+  },
+  {
+    "term": "plow",
+    "applicable": true,
+    "reason": "A small hand plow blade affords plowing."
+  },
+  {
+    "term": "pluck",
+    "applicable": true,
+    "reason": "A pick or tweezer tip affords plucking."
+  },
+  {
+    "term": "plug",
+    "applicable": true,
+    "reason": "A stopper or prong affords plugging an opening."
+  },
+  {
+    "term": "point",
+    "applicable": true,
+    "reason": "A pointer tip or stylus affords pointing."
+  },
+  {
+    "term": "poke",
+    "applicable": true,
+    "reason": "A rigid tip or probe affords poking."
+  },
+  {
+    "term": "polish",
+    "applicable": true,
+    "reason": "A buffing pad or cloth affords polishing."
+  },
+  {
+    "term": "pop",
+    "applicable": true,
+    "reason": "A bottle opener edge affords popping caps."
+  },
+  {
+    "term": "position",
+    "applicable": true,
+    "reason": "Adjustment knobs or guides afford positioning parts."
+  },
+  {
+    "term": "pound",
+    "applicable": true,
+    "reason": "A mallet head or pestle base affords pounding."
+  },
+  {
+    "term": "pour",
+    "applicable": true,
+    "reason": "A spout or lip affords pouring liquids."
+  },
+  {
+    "term": "power",
+    "applicable": true,
+    "reason": "A switch or crank affords powering a device."
+  },
+  {
+    "term": "predict",
+    "applicable": false,
+    "reason": "Cognitive or computational action lacking physical part interaction."
+  },
+  {
+    "term": "preheat",
+    "applicable": false,
+    "reason": "Internal appliance cycle rather than graspable tool affordance."
+  },
+  {
+    "term": "preserve",
+    "applicable": false,
+    "reason": "Abstract or chemical outcome without direct physical actuation."
+  },
+  {
+    "term": "press",
+    "applicable": true,
+    "reason": "A button, key, or lever affords pressing."
+  },
+  {
+    "term": "pressurize",
+    "applicable": true,
+    "reason": "A pump handle or valve affords pressurizing containers."
+  },
+  {
+    "term": "prevent falling",
+    "applicable": true,
+    "reason": "A safety clip, lip, or lanyard prevents falling."
+  },
+  {
+    "term": "prevent flooding",
+    "applicable": false,
+    "reason": "Civil engineering scale action, not small object affordance."
+  },
+  {
+    "term": "print",
+    "applicable": true,
+    "reason": "A stamp face or block affords printing."
+  },
+  {
+    "term": "prise",
+    "applicable": true,
+    "reason": "A pry bar tip affords prising objects apart."
+  },
+  {
+    "term": "process",
+    "applicable": false,
+    "reason": "Abstract industrial or computational process."
+  },
+  {
+    "term": "process passengers",
+    "applicable": false,
+    "reason": "Institutional airport-level system, not small object affordance."
+  },
+  {
+    "term": "produce_sound",
+    "applicable": true,
+    "reason": "A whistle or rattle part affords producing sound."
+  },
+  {
+    "term": "propel",
+    "applicable": true,
+    "reason": "A paddle blade or fin affords propelling motion."
+  },
+  {
+    "term": "protect",
+    "applicable": true,
+    "reason": "A shield, guard, or cover affords protecting parts."
+  },
+  {
+    "term": "provide shelter",
+    "applicable": false,
+    "reason": "Architectural or environmental function, not small object affordance."
+  },
+  {
+    "term": "provide_shade",
+    "applicable": false,
+    "reason": "Passive environmental effect of structures, not physical tool affordance."
+  },
+  {
+    "term": "prune",
+    "applicable": true,
+    "reason": "Shear blades afford pruning plant stems."
+  },
+  {
+    "term": "pry",
+    "applicable": true,
+    "reason": "Prying tool tip affords prying open objects."
+  },
+  {
+    "term": "pull",
+    "applicable": true,
+    "reason": "Handle or knob affords pulling."
+  },
+  {
+    "term": "pull over",
+    "applicable": false,
+    "reason": "Vehicle traffic action, not a graspable affordance."
+  },
+  {
+    "term": "pump",
+    "applicable": true,
+    "reason": "Lever or bulb affords pumping."
+  },
+  {
+    "term": "punch",
+    "applicable": true,
+    "reason": "Hole puncher part affords punching holes."
+  },
+  {
+    "term": "push",
+    "applicable": true,
+    "reason": "Button or flat surface affords pushing."
+  },
+  {
+    "term": "raise",
+    "applicable": true,
+    "reason": "Lever or jack handle affords raising items."
+  },
+  {
+    "term": "reach",
+    "applicable": true,
+    "reason": "Extension pole or hook affords reaching objects."
+  },
+  {
+    "term": "read",
+    "applicable": false,
+    "reason": "Cognitive activity, not physical object manipulation."
+  },
+  {
+    "term": "receive",
+    "applicable": false,
+    "reason": "Abstract or communication action, not physical manipulation."
+  },
+  {
+    "term": "recline",
+    "applicable": true,
+    "reason": "Chair backrest or lever affords reclining."
+  },
+  {
+    "term": "record",
+    "applicable": true,
+    "reason": "Recording button or microphone affords recording."
+  },
+  {
+    "term": "reduce drag",
+    "applicable": false,
+    "reason": "Passive aerodynamic effect, not an intentional action."
+  },
+  {
+    "term": "reduce noise",
+    "applicable": true,
+    "reason": "Mute button or damper affords reducing noise."
+  },
+  {
+    "term": "reduce_drag",
+    "applicable": false,
+    "reason": "Passive aerodynamic effect, not an intentional action."
+  },
+  {
+    "term": "reduce_noise",
+    "applicable": true,
+    "reason": "Mute switch or silencer affords reducing noise."
+  },
+  {
+    "term": "reference",
+    "applicable": false,
+    "reason": "Abstract cognitive action, not physical affordance."
+  },
+  {
+    "term": "refill",
+    "applicable": true,
+    "reason": "Port, cap, or opening affords refilling."
+  },
+  {
+    "term": "reflect",
+    "applicable": false,
+    "reason": "Optical physical property, not user physical action."
+  },
+  {
+    "term": "refuel",
+    "applicable": true,
+    "reason": "Fuel cap or inlet affords refueling."
+  },
+  {
+    "term": "regulate",
+    "applicable": true,
+    "reason": "Valve, dial, or knob affords regulating flow."
+  },
+  {
+    "term": "reinforce",
+    "applicable": true,
+    "reason": "Brace, bracket, or rib affords reinforcing."
+  },
+  {
+    "term": "relax",
+    "applicable": false,
+    "reason": "Subjective physiological state, not a physical action."
+  },
+  {
+    "term": "release",
+    "applicable": true,
+    "reason": "Catch, latch, or trigger affords releasing."
+  },
+  {
+    "term": "release water",
+    "applicable": true,
+    "reason": "Valve or spigot affords releasing water."
+  },
+  {
+    "term": "reload",
+    "applicable": true,
+    "reason": "Chamber or magazine slot affords reloading."
+  },
+  {
+    "term": "remove",
+    "applicable": true,
+    "reason": "Tab, handle, or fastener affords removing."
+  },
+  {
+    "term": "remove_cap",
+    "applicable": true,
+    "reason": "Bottle opener or tab affords removing caps."
+  },
+  {
+    "term": "replace",
+    "applicable": true,
+    "reason": "Detachable part or socket affords replacing components."
+  },
+  {
+    "term": "report",
+    "applicable": false,
+    "reason": "Abstract social/informational action."
+  },
+  {
+    "term": "represent",
+    "applicable": false,
+    "reason": "Abstract symbolic action, not physical manipulation."
+  },
+  {
+    "term": "rescue",
+    "applicable": false,
+    "reason": "High-level situational activity, not a part affordance."
+  },
+  {
+    "term": "resize",
+    "applicable": true,
+    "reason": "Adjustment slider or buckle affords resizing."
+  },
+  {
+    "term": "respond",
+    "applicable": false,
+    "reason": "Abstract communicative or cognitive response."
+  },
+  {
+    "term": "rest",
+    "applicable": true,
+    "reason": "Armrest or footrest affords resting body parts."
+  },
+  {
+    "term": "retain water",
+    "applicable": false,
+    "reason": "Passive property of a container, not action."
+  },
+  {
+    "term": "retract",
+    "applicable": true,
+    "reason": "Mechanism button or slider affords retracting parts."
+  },
+  {
+    "term": "retrieve",
+    "applicable": true,
+    "reason": "Magnet tool or hook affords retrieving objects."
+  },
+  {
+    "term": "return",
+    "applicable": false,
+    "reason": "Abstract or directional concept, not specific affordance."
+  },
+  {
+    "term": "ride",
+    "applicable": true,
+    "reason": "Seat, deck, or pedal affords riding."
+  },
+  {
+    "term": "ring",
+    "applicable": true,
+    "reason": "A bell clapper or button affords ringing."
+  },
+  {
+    "term": "rinse",
+    "applicable": true,
+    "reason": "A basin or nozzle affords rinsing."
+  },
+  {
+    "term": "rip",
+    "applicable": true,
+    "reason": "A seam ripper or edge affords ripping."
+  },
+  {
+    "term": "ripple",
+    "applicable": false,
+    "reason": "Describes fluid motion or effect, not user action."
+  },
+  {
+    "term": "rise",
+    "applicable": false,
+    "reason": "Intransitive movement, not a physical tool affordance."
+  },
+  {
+    "term": "roast",
+    "applicable": true,
+    "reason": "A skewer or pan affords roasting."
+  },
+  {
+    "term": "roll",
+    "applicable": true,
+    "reason": "A roller or pin affords rolling."
+  },
+  {
+    "term": "rotate",
+    "applicable": true,
+    "reason": "A knob or swivel part affords rotating."
+  },
+  {
+    "term": "route",
+    "applicable": true,
+    "reason": "A router bit or guide clip affords routing."
+  },
+  {
+    "term": "row",
+    "applicable": true,
+    "reason": "An oar handle affords rowing."
+  },
+  {
+    "term": "rub",
+    "applicable": true,
+    "reason": "An eraser or cloth affords rubbing."
+  },
+  {
+    "term": "run",
+    "applicable": true,
+    "reason": "A running shoe sole affords running."
+  },
+  {
+    "term": "run dry",
+    "applicable": false,
+    "reason": "Failure state rather than an intentional affordance."
+  },
+  {
+    "term": "sail",
+    "applicable": false,
+    "reason": "Vehicle-level activity, not a small object affordance."
+  },
+  {
+    "term": "sand",
+    "applicable": true,
+    "reason": "A sanding block or pad affords sanding."
+  },
+  {
+    "term": "saute",
+    "applicable": true,
+    "reason": "A pan affords sauteing food."
+  },
+  {
+    "term": "saw",
+    "applicable": true,
+    "reason": "A saw blade affords sawing."
+  },
+  {
+    "term": "scale",
+    "applicable": true,
+    "reason": "A scaler blade affords scaling fish."
+  },
+  {
+    "term": "scan",
+    "applicable": true,
+    "reason": "A scanner wand or reader affords scanning."
+  },
+  {
+    "term": "scare birds",
+    "applicable": false,
+    "reason": "High-level ecological goal, not a direct action."
+  },
+  {
+    "term": "scoop",
+    "applicable": true,
+    "reason": "A bowl or spoon affords scooping."
+  },
+  {
+    "term": "score",
+    "applicable": true,
+    "reason": "A scoring tool or blade affords scoring."
+  },
+  {
+    "term": "scout",
+    "applicable": false,
+    "reason": "Abstract reconnaissance task, not a physical part affordance."
+  },
+  {
+    "term": "scrape",
+    "applicable": true,
+    "reason": "A scraping edge affords scraping."
+  },
+  {
+    "term": "screw",
+    "applicable": true,
+    "reason": "A driver bit affords screwing."
+  },
+  {
+    "term": "scroll",
+    "applicable": true,
+    "reason": "A mouse wheel affords scrolling."
+  },
+  {
+    "term": "scrub",
+    "applicable": true,
+    "reason": "A brush head affords scrubbing."
+  },
+  {
+    "term": "sculpt",
+    "applicable": true,
+    "reason": "A sculpting wire or blade affords sculpting."
+  },
+  {
+    "term": "seal",
+    "applicable": true,
+    "reason": "A heat sealer or lid affords sealing."
+  },
+  {
+    "term": "sear",
+    "applicable": true,
+    "reason": "A cooking grate or press affords searing."
+  },
+  {
+    "term": "search",
+    "applicable": false,
+    "reason": "Abstract cognitive activity rather than direct physical affordance."
+  },
+  {
+    "term": "season",
+    "applicable": true,
+    "reason": "A grinder or shaker affords seasoning food."
+  },
+  {
+    "term": "seat",
+    "applicable": true,
+    "reason": "A surface affords seating a person or part."
+  },
+  {
+    "term": "secure",
+    "applicable": true,
+    "reason": "A clamp, strap, or latch affords securing."
+  },
+  {
+    "term": "see",
+    "applicable": true,
+    "reason": "An eyepiece, lens, or visor affords seeing."
+  },
+  {
+    "term": "seed",
+    "applicable": true,
+    "reason": "A seeder tool or dispenser affords seeding."
+  },
+  {
+    "term": "select",
+    "applicable": true,
+    "reason": "A button or dial affords selecting an option."
+  },
+  {
+    "term": "send",
+    "applicable": false,
+    "reason": "System-level communication action rather than physical affordance."
+  },
+  {
+    "term": "sensor",
+    "applicable": false,
+    "reason": "Noun referring to a component, not an action."
+  },
+  {
+    "term": "separate",
+    "applicable": true,
+    "reason": "A divider or wedge affords separating items."
+  },
+  {
+    "term": "serve",
+    "applicable": true,
+    "reason": "A utensil or platter part affords serving."
+  },
+  {
+    "term": "set",
+    "applicable": true,
+    "reason": "A dial, knob, or trap affords setting."
+  },
+  {
+    "term": "settle",
+    "applicable": false,
+    "reason": "Abstract process or dispute resolution, not physical affordance."
+  },
+  {
+    "term": "sew",
+    "applicable": true,
+    "reason": "A needle or sewing tool affords sewing."
+  },
+  {
+    "term": "shade",
+    "applicable": true,
+    "reason": "A visor or brim part affords shading."
+  },
+  {
+    "term": "shake",
+    "applicable": true,
+    "reason": "A handle allows a person to shake an object."
+  },
+  {
+    "term": "shape",
+    "applicable": true,
+    "reason": "A chisel, mold, or file affords shaping material."
+  },
+  {
+    "term": "sharpen",
+    "applicable": true,
+    "reason": "A whetstone or sharpener blade affords sharpening."
+  },
+  {
+    "term": "shave",
+    "applicable": true,
+    "reason": "A razor blade affords shaving hair or surfaces."
+  },
+  {
+    "term": "sheath",
+    "applicable": true,
+    "reason": "A scabbard or case opening affords sheathing a blade."
+  },
+  {
+    "term": "shelter",
+    "applicable": true,
+    "reason": "An umbrella canopy affords sheltering from rain."
+  },
+  {
+    "term": "shield",
+    "applicable": true,
+    "reason": "A handguard or visor affords shielding."
+  },
+  {
+    "term": "shift",
+    "applicable": true,
+    "reason": "A gear lever or switch affords shifting positions."
+  },
+  {
+    "term": "shine",
+    "applicable": true,
+    "reason": "A polishing pad or buffing wheel affords shining surfaces."
+  },
+  {
+    "term": "shock",
+    "applicable": true,
+    "reason": "A contact prong or stun probe affords shocking."
+  },
+  {
+    "term": "shoot",
+    "applicable": true,
+    "reason": "A trigger or barrel affords shooting."
+  },
+  {
+    "term": "shop",
+    "applicable": false,
+    "reason": "Commercial activity not tied to an object part."
+  },
+  {
+    "term": "shoulder",
+    "applicable": true,
+    "reason": "A strap or stock affords shouldering an object."
+  },
+  {
+    "term": "show",
+    "applicable": false,
+    "reason": "Abstract display action, not a physical part affordance."
+  },
+  {
+    "term": "shred",
+    "applicable": true,
+    "reason": "A grater or shredder blade affords shredding."
+  },
+  {
+    "term": "sign",
+    "applicable": true,
+    "reason": "A pen tip or stylus affords signing."
+  },
+  {
+    "term": "signal",
+    "applicable": true,
+    "reason": "A mirror, whistle, or flag affords signaling."
+  },
+  {
+    "term": "simmer",
+    "applicable": false,
+    "reason": "Thermodynamic cooking state, not direct physical manipulation."
+  },
+  {
+    "term": "sip",
+    "applicable": true,
+    "reason": "A cup rim or straw affords sipping."
+  },
+  {
+    "term": "sit",
+    "applicable": true,
+    "reason": "A seat or stool surface affords sitting."
+  },
+  {
+    "term": "sketch",
+    "applicable": true,
+    "reason": "A pencil or stylus tip affords sketching."
+  },
+  {
+    "term": "slash",
+    "applicable": true,
+    "reason": "A sharp edge or blade affords slashing."
+  },
+  {
+    "term": "sleep",
+    "applicable": true,
+    "reason": "A pillow, hammock, or pad part affords sleeping."
+  },
+  {
+    "term": "slice",
+    "applicable": true,
+    "reason": "A knife blade affords slicing food or materials."
+  },
+  {
+    "term": "slide",
+    "applicable": true,
+    "reason": "A track, runner, or base affords sliding."
+  },
+  {
+    "term": "slit",
+    "applicable": true,
+    "reason": "A blade edge or opener affords slitting."
+  },
+  {
+    "term": "smash",
+    "applicable": true,
+    "reason": "A hammer head or mallet affords smashing."
+  },
+  {
+    "term": "smell",
+    "applicable": true,
+    "reason": "A scent vent or test strip affords smelling."
+  },
+  {
+    "term": "smooth",
+    "applicable": true,
+    "reason": "Sandpaper, a plane, or iron affords smoothing."
+  },
+  {
+    "term": "snip",
+    "applicable": true,
+    "reason": "Scissor blades afford snipping."
+  },
+  {
+    "term": "soak",
+    "applicable": true,
+    "reason": "A basin or sponge part affords soaking items."
+  },
+  {
+    "term": "socialize",
+    "applicable": false,
+    "reason": "Purely social activity, not an object part affordance."
+  },
+  {
+    "term": "sound",
+    "applicable": true,
+    "reason": "A horn button or bell clapper affords sounding."
+  },
+  {
+    "term": "spark",
+    "applicable": true,
+    "reason": "A flint wheel or igniter button affords sparking."
+  },
+  {
+    "term": "speak",
+    "applicable": true,
+    "reason": "A microphone or mouthpiece part affords speaking into."
+  },
+  {
+    "term": "spear",
+    "applicable": true,
+    "reason": "A pointed tip or prong affords spearing objects."
+  },
+  {
+    "term": "speed",
+    "applicable": false,
+    "reason": "Abstract rate of motion, not a physical part affordance."
+  },
+  {
+    "term": "spin",
+    "applicable": true,
+    "reason": "An axle, knob, or top affords spinning."
+  },
+  {
+    "term": "split",
+    "applicable": true,
+    "reason": "A wedge or blade affords splitting materials."
+  },
+  {
+    "term": "spray",
+    "applicable": true,
+    "reason": "A nozzle or trigger affords spraying liquids."
+  },
+  {
+    "term": "spread",
+    "applicable": true,
+    "reason": "A flat blade or spreader affords spreading substance."
+  },
+  {
+    "term": "sprinkle",
+    "applicable": true,
+    "reason": "A perforated cap or shaker affords sprinkling particles."
+  },
+  {
+    "term": "squat",
+    "applicable": false,
+    "reason": "Bodily exercise movement not mediated by a small part."
+  },
+  {
+    "term": "squeeze",
+    "applicable": true,
+    "reason": "A flexible bulb or lever handles afford squeezing."
+  },
+  {
+    "term": "stab",
+    "applicable": true,
+    "reason": "A sharp point or blade affords stabbing."
+  },
+  {
+    "term": "stabilize",
+    "applicable": true,
+    "reason": "A base, brace, or foot affords stabilizing objects."
+  },
+  {
+    "term": "stack",
+    "applicable": true,
+    "reason": "Interlocking rims or flat surfaces afford stacking."
+  },
+  {
+    "term": "stamp",
+    "applicable": true,
+    "reason": "An embossed surface or head affords stamping."
+  },
+  {
+    "term": "stand",
+    "applicable": true,
+    "reason": "A footplate or pedal surface affords standing on."
+  },
+  {
+    "term": "stand_up",
+    "applicable": true,
+    "reason": "A grab bar or armrest affords standing up."
+  },
+  {
+    "term": "staple",
+    "applicable": true,
+    "reason": "A stapler head or anvil affords stapling papers."
+  },
+  {
+    "term": "start",
+    "applicable": true,
+    "reason": "A start button or ignition switch affords starting."
+  },
+  {
+    "term": "steady",
+    "applicable": true,
+    "reason": "A handle, grip, or rest affords steadying."
+  },
+  {
+    "term": "steam",
+    "applicable": true,
+    "reason": "A steam nozzle or basket affords steaming."
+  },
+  {
+    "term": "steer",
+    "applicable": true,
+    "reason": "A handlebar or wheel affords steering."
+  },
+  {
+    "term": "step",
+    "applicable": true,
+    "reason": "A pedal, rung, or tread affords stepping."
+  },
+  {
+    "term": "step on",
+    "applicable": true,
+    "reason": "A pedal or base affords stepping on."
+  },
+  {
+    "term": "step_off",
+    "applicable": false,
+    "reason": "Disengagement action, not a direct functional part affordance."
+  },
+  {
+    "term": "step_on",
+    "applicable": true,
+    "reason": "A pedal or floor button affords stepping on."
+  },
+  {
+    "term": "stew",
+    "applicable": true,
+    "reason": "A pot cavity or vessel affords stewing food."
+  },
+  {
+    "term": "stick",
+    "applicable": true,
+    "reason": "An adhesive strip or prong affords sticking."
+  },
+  {
+    "term": "stir",
+    "applicable": true,
+    "reason": "A spoon bowl or rod affords stirring liquid."
+  },
+  {
+    "term": "stop",
+    "applicable": true,
+    "reason": "A brake lever or stop button affords stopping."
+  },
+  {
+    "term": "store",
+    "applicable": true,
+    "reason": "An interior cavity or compartment affords storing items."
+  },
+  {
+    "term": "store water",
+    "applicable": true,
+    "reason": "A bottle or reservoir cavity affords storing water."
+  },
+  {
+    "term": "store_fuel",
+    "applicable": true,
+    "reason": "A tank or fuel canister affords storing fuel."
+  },
+  {
+    "term": "straddle",
+    "applicable": true,
+    "reason": "A saddle, seat, or beam affords straddling."
+  },
+  {
+    "term": "strain",
+    "applicable": true,
+    "reason": "A mesh or perforated surface affords straining liquids."
+  },
+  {
+    "term": "strengthen",
+    "applicable": false,
+    "reason": "Long-term biological outcome, not an immediate part affordance."
+  },
+  {
+    "term": "stretch",
+    "applicable": true,
+    "reason": "An elastic band or cord affords stretching."
+  },
+  {
+    "term": "strike",
+    "applicable": true,
+    "reason": "A hammer face or striker surface affords striking."
+  },
+  {
+    "term": "strip",
+    "applicable": true,
+    "reason": "A wire stripper notch or blade affords stripping."
+  },
+  {
+    "term": "stroke",
+    "applicable": true,
+    "reason": "A brush head or soft surface affords stroking."
+  },
+  {
+    "term": "stroll",
+    "applicable": false,
+    "reason": "Scene-level locomotion, not a graspable object affordance."
+  },
+  {
+    "term": "study",
+    "applicable": false,
+    "reason": "Purely mental activity without a direct physical part affordance."
+  },
+  {
+    "term": "style",
+    "applicable": true,
+    "reason": "Styling tools have parts used to style hair."
+  },
+  {
+    "term": "submerge",
+    "applicable": true,
+    "reason": "A handle or weight used to submerge items."
+  },
+  {
+    "term": "suck",
+    "applicable": true,
+    "reason": "Straws or mouthpieces afford sucking liquids or air."
+  },
+  {
+    "term": "suction",
+    "applicable": true,
+    "reason": "Suction cups allow adhering to surfaces via suction."
+  },
+  {
+    "term": "sunbathe",
+    "applicable": false,
+    "reason": "Environment-level body activity, not a small tool affordance."
+  },
+  {
+    "term": "supply",
+    "applicable": false,
+    "reason": "Abstract logistical concept rather than physical part action."
+  },
+  {
+    "term": "supply water",
+    "applicable": true,
+    "reason": "A spout or valve lets a user supply water."
+  },
+  {
+    "term": "support",
+    "applicable": true,
+    "reason": "A base, stand, or rest supports another object."
+  },
+  {
+    "term": "support life",
+    "applicable": false,
+    "reason": "Broad ecological or medical system concept."
+  },
+  {
+    "term": "support structure",
+    "applicable": false,
+    "reason": "Civil engineering or architectural structural concept."
+  },
+  {
+    "term": "support wildlife",
+    "applicable": false,
+    "reason": "Ecological concept, not a graspable object affordance."
+  },
+  {
+    "term": "surround",
+    "applicable": false,
+    "reason": "Spatial relationship rather than an action performed with part."
+  },
+  {
+    "term": "sweep",
+    "applicable": true,
+    "reason": "Broom bristles or brush heads afford sweeping."
+  },
+  {
+    "term": "swim",
+    "applicable": true,
+    "reason": "Fins or kickboards afford swimming."
+  },
+  {
+    "term": "swing",
+    "applicable": true,
+    "reason": "Handles on bats, clubs, or bells afford swinging."
+  },
+  {
+    "term": "switch",
+    "applicable": true,
+    "reason": "A switch or button allows switching electrical states."
+  },
+  {
+    "term": "swivel",
+    "applicable": true,
+    "reason": "A swivel joint allows rotating attached components."
+  },
+  {
+    "term": "take off",
+    "applicable": false,
+    "reason": "Whole aircraft maneuver rather than part affordance."
+  },
+  {
+    "term": "take-off",
+    "applicable": false,
+    "reason": "Whole aircraft maneuver rather than part affordance."
+  },
+  {
+    "term": "takeoff",
+    "applicable": false,
+    "reason": "Whole aircraft maneuver rather than part affordance."
+  },
+  {
+    "term": "tap",
+    "applicable": true,
+    "reason": "Buttons, keys, or hammer tips afford tapping."
+  },
+  {
+    "term": "target",
+    "applicable": true,
+    "reason": "Sights or reticles let a person target objects."
+  },
+  {
+    "term": "taxi",
+    "applicable": false,
+    "reason": "Whole vehicle aircraft movement."
+  },
+  {
+    "term": "teach",
+    "applicable": false,
+    "reason": "Abstract social activity, not a physical part affordance."
+  },
+  {
+    "term": "tear",
+    "applicable": true,
+    "reason": "Serrated dispenser edges let a user tear tape."
+  },
+  {
+    "term": "throw",
+    "applicable": true,
+    "reason": "A grip or javelin shaft affords throwing."
+  },
+  {
+    "term": "thrust",
+    "applicable": true,
+    "reason": "Handles on stabbing tools or weapons afford thrusting."
+  },
+  {
+    "term": "tie",
+    "applicable": true,
+    "reason": "Cords, laces, or straps afford tying."
+  },
+  {
+    "term": "tighten",
+    "applicable": true,
+    "reason": "Tool heads or knobs allow tightening fasteners."
+  },
+  {
+    "term": "tilt",
+    "applicable": true,
+    "reason": "Levers or tilt mechanisms afford tilting."
+  },
+  {
+    "term": "time",
+    "applicable": true,
+    "reason": "Buttons or dials on stopwatches afford timing."
+  },
+  {
+    "term": "toast",
+    "applicable": true,
+    "reason": "Racks or toasting forks allow toasting food."
+  },
+  {
+    "term": "toggle",
+    "applicable": true,
+    "reason": "Toggle levers afford toggling between states."
+  },
+  {
+    "term": "tour",
+    "applicable": false,
+    "reason": "Abstract travel activity, not a physical part affordance."
+  },
+  {
+    "term": "tow",
+    "applicable": true,
+    "reason": "Tow hooks, straps, or hitches afford towing."
+  },
+  {
+    "term": "trace",
+    "applicable": true,
+    "reason": "Stylus tips or edge guides afford tracing."
+  },
+  {
+    "term": "track",
+    "applicable": true,
+    "reason": "Tracking rollers, balls, or styluses afford tracking."
+  },
+  {
+    "term": "traction",
+    "applicable": false,
+    "reason": "Physical property/noun, not an action a person performs."
+  },
+  {
+    "term": "trade and commerce",
+    "applicable": false,
+    "reason": "Purely abstract economic activity."
+  },
+  {
+    "term": "train",
+    "applicable": false,
+    "reason": "Abstract educational/coaching activity or large vehicle."
+  },
+  {
+    "term": "transduce",
+    "applicable": false,
+    "reason": "Physics sensor process, not direct human action."
+  },
+  {
+    "term": "transfer",
+    "applicable": true,
+    "reason": "Pipette or spoon allows transferring substances."
+  },
+  {
+    "term": "transform",
+    "applicable": false,
+    "reason": "Too abstract and broad for object affordances."
+  },
+  {
+    "term": "transmit",
+    "applicable": false,
+    "reason": "Electronic signal process, not physical interaction."
+  },
+  {
+    "term": "transmit footage",
+    "applicable": false,
+    "reason": "System-level electronic function, not manual affordance."
+  },
+  {
+    "term": "transport",
+    "applicable": true,
+    "reason": "A handle or tray affords transporting items."
+  },
+  {
+    "term": "transport VIPs",
+    "applicable": false,
+    "reason": "Specific social and vehicle-level service."
+  },
+  {
+    "term": "transport aircraft",
+    "applicable": false,
+    "reason": "Large-scale carrier system function."
+  },
+  {
+    "term": "transport heavy loads",
+    "applicable": false,
+    "reason": "Industrial or heavy vehicle-level task."
+  },
+  {
+    "term": "trap debris",
+    "applicable": true,
+    "reason": "A strainer or net part traps debris."
+  },
+  {
+    "term": "travel",
+    "applicable": false,
+    "reason": "Scene-level locomotion, not small-object affordance."
+  },
+  {
+    "term": "traverse",
+    "applicable": false,
+    "reason": "Terrain-level navigation and movement."
+  },
+  {
+    "term": "treat",
+    "applicable": true,
+    "reason": "An applicator tip affords treating a surface."
+  },
+  {
+    "term": "trench",
+    "applicable": true,
+    "reason": "A spade or trenching blade affords trenching."
+  },
+  {
+    "term": "trickle",
+    "applicable": true,
+    "reason": "A dropper or spout affords trickling liquid."
+  },
+  {
+    "term": "trigger",
+    "applicable": true,
+    "reason": "A lever or trigger part affords activating."
+  },
+  {
+    "term": "trim",
+    "applicable": true,
+    "reason": "A blade or shear part affords trimming."
+  },
+  {
+    "term": "tune",
+    "applicable": true,
+    "reason": "A knob or peg affords tuning."
+  },
+  {
+    "term": "turn",
+    "applicable": true,
+    "reason": "A dial or handle affords turning."
+  },
+  {
+    "term": "turn off",
+    "applicable": true,
+    "reason": "A switch or button affords turning off."
+  },
+  {
+    "term": "turn on",
+    "applicable": true,
+    "reason": "A switch or button affords turning on."
+  },
+  {
+    "term": "turn_off",
+    "applicable": true,
+    "reason": "A switch or button affords turning off."
+  },
+  {
+    "term": "turn_on",
+    "applicable": true,
+    "reason": "A switch or button affords turning on."
+  },
+  {
+    "term": "twirl",
+    "applicable": true,
+    "reason": "A stick or wand affords twirling."
+  },
+  {
+    "term": "twist",
+    "applicable": true,
+    "reason": "A cap or knob affords twisting."
+  },
+  {
+    "term": "type",
+    "applicable": true,
+    "reason": "A keyboard key affords typing."
+  },
+  {
+    "term": "unbutton",
+    "applicable": true,
+    "reason": "A button or slit affords unbuttoning."
+  },
+  {
+    "term": "understand",
+    "applicable": false,
+    "reason": "Cognitive state, not a physical action."
+  },
+  {
+    "term": "unfasten",
+    "applicable": true,
+    "reason": "A clasp or buckle affords unfastening."
+  },
+  {
+    "term": "unload",
+    "applicable": true,
+    "reason": "A container or tray affords unloading items."
+  },
+  {
+    "term": "unlock",
+    "applicable": true,
+    "reason": "A keyway or latch affords unlocking."
+  },
+  {
+    "term": "unplug",
+    "applicable": true,
+    "reason": "A plug or cord grip affords unplugging."
+  },
+  {
+    "term": "unscrew",
+    "applicable": true,
+    "reason": "A screw head or lid affords unscrewing."
+  },
+  {
+    "term": "unseal",
+    "applicable": true,
+    "reason": "A pull tab affords unsealing."
+  },
+  {
+    "term": "untie",
+    "applicable": true,
+    "reason": "A lace or knot affords untying."
+  },
+  {
+    "term": "use",
+    "applicable": false,
+    "reason": "Too generic to describe a specific affordance."
+  },
+  {
+    "term": "vacuum",
+    "applicable": true,
+    "reason": "A nozzle attachment affords vacuuming."
+  },
+  {
+    "term": "vent",
+    "applicable": true,
+    "reason": "A valve or vent hole affords venting."
+  },
+  {
+    "term": "vibrate",
+    "applicable": false,
+    "reason": "Action performed by the motorized device itself."
+  },
+  {
+    "term": "view",
+    "applicable": true,
+    "reason": "An eyepiece or viewfinder affords viewing."
+  },
+  {
+    "term": "visit",
+    "applicable": false,
+    "reason": "Social or spatial activity, not part-enabled."
+  },
+  {
+    "term": "visualize",
+    "applicable": false,
+    "reason": "Mental cognitive process, not physical interaction."
+  },
+  {
+    "term": "wait",
+    "applicable": false,
+    "reason": "Passive temporal state, not part-enabled."
+  },
+  {
+    "term": "walk",
+    "applicable": true,
+    "reason": "Crutch, cane, or stilt parts enable walking."
+  },
+  {
+    "term": "warm",
+    "applicable": true,
+    "reason": "Hand warmer or heating element warms objects."
+  },
+  {
+    "term": "warn",
+    "applicable": true,
+    "reason": "Whistle, horn, or bell parts enable warning."
+  },
+  {
+    "term": "wash",
+    "applicable": true,
+    "reason": "Sponge, cloth, or brush bristle washes things."
+  },
+  {
+    "term": "watch",
+    "applicable": true,
+    "reason": "Screen, visor, or lens part enables watching."
+  },
+  {
+    "term": "water",
+    "applicable": true,
+    "reason": "Watering can spout or nozzle waters plants."
+  },
+  {
+    "term": "wear",
+    "applicable": true,
+    "reason": "Straps, bands, or handles afford wearing."
+  },
+  {
+    "term": "wedge",
+    "applicable": true,
+    "reason": "Tapered edge or doorstop tip enables wedging."
+  },
+  {
+    "term": "whip",
+    "applicable": true,
+    "reason": "Whip lash or beater attachment enables whipping."
+  },
+  {
+    "term": "whisk",
+    "applicable": true,
+    "reason": "Whisk loops or wires afford whisking liquids."
+  },
+  {
+    "term": "whittle",
+    "applicable": true,
+    "reason": "Carving blade edge affords whittling wood."
+  },
+  {
+    "term": "wield",
+    "applicable": true,
+    "reason": "Grip or handle allows wielding a tool."
+  },
+  {
+    "term": "wipe",
+    "applicable": true,
+    "reason": "Squeegee blade or cloth surface wipes surfaces."
+  },
+  {
+    "term": "work",
+    "applicable": false,
+    "reason": "Too broad and abstract, not a part affordance."
+  },
+  {
+    "term": "wrap",
+    "applicable": true,
+    "reason": "Bandage, ribbon, or film enables wrapping items."
+  },
+  {
+    "term": "write",
+    "applicable": true,
+    "reason": "Pen or stylus tip affords writing."
+  },
+  {
+    "term": "write on",
+    "applicable": true,
+    "reason": "Notepad, tablet, or label surface affords writing on."
+  },
+  {
+    "term": "zest",
+    "applicable": true,
+    "reason": "Zester blade or microplane teeth afford zesting."
+  }
+]

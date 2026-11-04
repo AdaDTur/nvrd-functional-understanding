@@ -19,6 +19,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 1 has no discernible surface features for interaction due to its smooth inner curve facing inward without any protrusions, indentations, handles, edges, or openings suitable for grasping, pressing, sliding into, pulling out of, inserting objects in, hanging onto, turning around, etc"
+        },
+        "agd20k_no_none": {
+          "label": "eat",
+          "justification": "Part 1 has a smooth, concave bowl-like indentation designed for holding food items within easy reach of consumption tools like spoons or forks \u2014 unlike its surrounding sections which are more structural in form without such functional contours suited directly for eating actions"
         }
       }
     },
@@ -57,6 +61,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 3\u2019s small size, recessed placement within another component, and lack of any protruding edges make its surface non-functional for grasping or interaction \u2014 unlike surrounding elements designed for manipulation"
+        },
+        "agd20k_no_none": {
+          "label": "hit",
+          "justification": "Part 2 has a smooth, concave surface positioned centrally within its larger structure, making it ideal for being struck directly without obstruction by surrounding elements"
         }
       }
     },
@@ -74,6 +82,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 4\u2019s solid, rounded form lacks any discernible surface features or openings designed for interaction, making no functional interface available compared to the others\u2019 distinct shapes suggesting use"
+        },
+        "agd20k_no_none": {
+          "label": "sit on",
+          "justification": "Part 3 has a broad, flat surface positioned at the base of the structure, making it suitable for supporting weight like seating, unlike the hollow openings designed for insertion or containment in the others"
         }
       }
     },
@@ -91,6 +103,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 5\u2019s concave, recessed form within the larger structure offers no surface for gripping, pressing, or interaction \u2014 unlike surrounding elements designed for contact or manipulation"
+        },
+        "agd20k_no_none": {
+          "label": "eat",
+          "justification": "Part 4 has a concave, bowl-like depression surrounded by raised edges suitable for holding food items intended for consumption"
         }
       }
     },
@@ -108,6 +124,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 6 appears as a small, recessed indentation without any protrusions, edges for gripping, or surface features enabling interaction \u2014 unlike surrounding elements which suggest functional engagement through form"
+        },
+        "agd20k_no_none": {
+          "label": "brush with",
+          "justification": "Part 5 has a small, flat, elongated surface positioned at the edge of the green section, making it suitable for brushing against surfaces while maintaining grip during use \u2014 unlike the larger recesses designed for holding items rather than direct contact interaction"
         }
       }
     }

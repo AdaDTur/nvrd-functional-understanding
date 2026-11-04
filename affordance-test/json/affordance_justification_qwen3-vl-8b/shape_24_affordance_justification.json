@@ -19,6 +19,10 @@
         "agd20k": {
           "label": "none",
           "justification": "The irregularly shaped form lacks any discernible functional surfaces for grasping, inserting objects into, or engaging in typical interactive actions like pressing or turning"
+        },
+        "agd20k_no_none": {
+          "label": "hold",
+          "justification": "The central indentation of part 2 provides a natural grip point for fingers due to its concave curvature designed around human hand dimensions"
         }
       }
     }

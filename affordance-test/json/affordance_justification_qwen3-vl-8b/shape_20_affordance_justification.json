@@ -19,6 +19,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 1 has no discernible surface features for grasping, attaching, inserting, removing, pushing, pulling, twisting, turning, sliding, pressing, lifting, rotating, flipping, folding, unfolding, opening, closing, bending, stretching, compressing, tearing, cutting, drilling, screwing, unscrewing"
+        },
+        "agd20k_no_none": {
+          "label": "sit on",
+          "justification": "Part 1 has a broad, rounded base positioned centrally beneath all limbs, suggesting structural stability for weight-bearing support unlike any of its appendages which are slender or specialized in function"
         }
       }
     },
@@ -36,6 +40,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 2\u2019s broad, flat top surface lacks any protrusions, indentations, or structural features designed for interaction, making its function purely decorative rather than utilitarian like most surrounding components"
+        },
+        "agd20k_no_none": {
+          "label": "sip",
+          "justification": "Part 2\u2019s wide, shallow bowl-like form positioned atop the central body suggests it can hold liquid for sipping without needing direct contact of lips to its rim like smaller openings elsewhere"
         }
       }
     },
@@ -179,6 +187,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 9\u2019s small size, rounded tip, lack of attachment points, and isolated positioning suggest no functional interaction surface for grasping, pressing, or manipulating objects \u2014 unlike most surrounding components which have clear structural roles enabling use"
+        },
+        "agd20k_no_none": {
+          "label": "brush with",
+          "justification": "Part 9 has a slender, tapered form ending in a rounded tip positioned near the central body\u2019s surface, suggesting its design allows for controlled contact\u2014ideal for brushing motions unlike larger structural components nearby"
         }
       }
     },
@@ -196,6 +208,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 12 appears as a small protrusion without any functional surface for grasping, attaching, or interacting \u2014 unlike surrounding elements which have clear forms suggesting utility \u2014 making its affordances effectively nonexistent in practical terms despite being physically present within the structure\u2019s outline"
+        },
+        "agd20k_no_none": {
+          "label": "sip",
+          "justification": "Part 12\u2019s small size and rounded tip suggest its function as a drinking spout for sipping liquids directly into your mouth without needing additional tools like straws or cups"
         }
       }
     },
@@ -213,6 +229,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 12 appears as a small protrusion without any functional surface for grasping, holding, pressing, or attaching \u2014 unlike most others which have distinct shapes suggesting interaction potential"
+        },
+        "agd20k_no_none": {
+          "label": "sip",
+          "justification": "Part 12\u2019s small size and rounded tip suggest its function as a drinking vessel for sipping liquids due to their design facilitating controlled intake of fluids through narrow openings like straws or spouts found in similar objects used for consumption purposes such as cups or bottles which are typically designed around human mouth sizes whereas larger structures serve"
         }
       }
     },
@@ -230,6 +250,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 13 appears as a small protrusion without any functional surface for grasping, attaching, or interacting \u2014 unlike most others which have distinct shapes suggesting utility \u2014 making its affordances effectively nonexistent in practical terms despite being physically present"
+        },
+        "agd20k_no_none": {
+          "label": "hit",
+          "justification": "Part 13\u2019s elongated, slender form suggests precision targeting rather than broad impact capability compared to its thicker counterparts like part 6 which are better suited for stability or force absorption"
         }
       }
     },
@@ -247,6 +271,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 12 appears as a small protrusion without any functional surface for grasping, attaching, inserting, pulling, pushing, twisting, turning, sliding, lifting, pressing, rotating, squeezing, tapping, dragging, pinching, hooking, unhooking, opening, closing, unfolding, folding, detaching"
+        },
+        "agd20k_no_none": {
+          "label": "brush with",
+          "justification": "Part 12\u2019s elongated, slender form suggests its intended use for precise application of substances like paint or ink in artistic tasks"
         }
       }
     },
@@ -264,6 +292,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 13 appears as a small protrusion without any functional surface for grasping, pressing, twisting, sliding, pulling, pushing, cutting, tearing, drilling, hammering, screwing, unscrewing, prying open, opening/closing, turning/rotating, inserting/removing, writing/drawing"
+        },
+        "agd20k_no_none": {
+          "label": "hold",
+          "justification": "Part 13 has a rounded end positioned near its base for gripping purposes while others are more elongated or pointed in function"
         }
       }
     }

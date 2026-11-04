@@ -19,6 +19,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 1 has no distinct surface features or protrusions for grasping, pressing, twisting, sliding, pulling, pushing, turning, opening, closing, inserting, removing, hanging, carrying, fitting, clipping, locking, unlocking, swiveling, rotating, pivoting, detaching, attaching, adjusting, extending"
+        },
+        "agd20k_no_none": {
+          "label": "hold",
+          "justification": "Part 1 has a broad, flat central surface surrounded by curved extensions, making its form ideal for gripping securely while allowing fingers to wrap around adjacent areas \u2014 unlike the narrow openings of Parts 3 and 4 which are designed for insertion rather than holding"
         }
       }
     },
@@ -36,6 +40,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 2 has no distinct surface features or protrusions for grasping, pressing, twisting, sliding, pulling, pushing, turning, opening, closing, inserting, removing, hanging, carrying, fitting into another component, attaching something else onto itself, rotating around its axis, pivoting at any point along its perimeter,"
+        },
+        "agd20k_no_none": {
+          "label": "hold",
+          "justification": "Part 2 has a broad, flat central surface surrounded by raised edges forming four distinct lobes, making its form ideal for gripping securely without slipping \u2014 unlike the narrow openings of parts 3 and 4 or the irregular contours elsewhere"
         }
       }
     },
@@ -74,6 +82,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 4\u2019s small, enclosed opening at the top lacks any visible surface area for gripping, inserting tools, or applying force \u2014 unlike the larger openings of parts 3 and others which suggest functional interaction points"
+        },
+        "agd20k_no_none": {
+          "label": "sip",
+          "justification": "Part 4\u2019s small, open-top opening at the top of its narrow neck suggests it can be easily lifted for sipping without needing both hands like larger containers"
         }
       }
     }

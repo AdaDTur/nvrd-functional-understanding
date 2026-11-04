@@ -19,6 +19,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 1 has no discernible functional form for grasping, pressing, sliding, or attaching due to its smooth, rounded contour nestled within larger structural elements without any protrusions or indentations designed for interaction"
+        },
+        "agd20k_no_none": {
+          "label": "hold",
+          "justification": "Part 1 has a smooth, concave surface positioned centrally at the base of the form, suggesting ergonomic design for gripping compared to surrounding protrusions"
         }
       }
     },
@@ -36,6 +40,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 2\u2019s broad, flat top surface lacks any protrusions, indentations, or functional features typically associated with grasping, pressing, sliding, or attaching \u2014 making no clear interaction possible compared to surrounding elements designed for contact or manipulation"
+        },
+        "agd20k_no_none": {
+          "label": "sit on",
+          "justification": "Part 2 has a broad, flat top surface positioned at the highest point of the object, making it suitable for supporting weight like a seat while contrasting in form and placement compared to all surrounding protrusions designed as spikes rather than surfaces meant to bear load directly above them"
         }
       }
     },
@@ -74,6 +82,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 4\u2019s sharp, inward-pointing spike lacks any surface area suitable for gripping, pressing, or interacting meaningfully with external objects due to its narrow tip and angular form"
+        },
+        "agd20k_no_none": {
+          "label": "hit",
+          "justification": "Part 4 protrudes outward as a sharp point near the top of the main body, making it suitable for striking objects due to its pointed tip positioned prominently in space compared to surrounding rounded sections"
         }
       }
     },
@@ -91,6 +103,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 5\u2019s slender, pointed projection lacks any surface area or structural feature suitable for gripping, pressing, or interacting functionally with external objects \u2014 unlike surrounding components which have broader bases or curved surfaces designed for contact or manipulation"
+        },
+        "agd20k_no_none": {
+          "label": "hit",
+          "justification": "Part 5\u2019s sharp, pointed tip positioned outward suggests its function as a defensive spike designed for striking rather than grasping or supporting like adjacent segments"
         }
       }
     },
@@ -108,6 +124,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 6\u2019s small size, sharp point directed inward toward the body, lack of surface area for grip or interaction, and embedded positioning suggest no functional use beyond structural support"
+        },
+        "agd20k_no_none": {
+          "label": "hit",
+          "justification": "Part 6 has a sharp, pointed tip positioned prominently outward, making it suitable for striking objects due to its aggressive geometry compared to surrounding rounded sections"
         }
       }
     },
@@ -125,6 +145,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 7\u2019s slender, pointed projection lacks any surface area or structural form suitable for gripping, pressing, or interacting functionally\u2014unlike surrounding components\u2014which renders its potential use negligible in practical terms"
+        },
+        "agd20k_no_none": {
+          "label": "hold",
+          "justification": "Part 7 has a narrow, pointed projection extending outward at an angle conducive for gripping or grasping by hand, unlike any of the surrounding rounded surfaces which are designed more for display than interaction"
         }
       }
     }

@@ -19,6 +19,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 1 has no discernible functional surface features like edges for gripping, indentations for insertion, or protrusions for attachment; its smooth, concave form suggests purely decorative placement within the structure rather than interactive use"
+        },
+        "agd20k_no_none": {
+          "label": "hold",
+          "justification": "Part 1 has a smooth, concave surface positioned centrally within the structure\u2019s interior cavity, making it ergonomically suited for gripping compared to surrounding flat or protruding sections"
         }
       }
     },
@@ -57,6 +61,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 3\u2019s smooth, concave surface recesses inward without any protrusions or edges suitable for gripping, pressing, or interacting physically \u2014 unlike surrounding components which offer clear tactile interfaces"
+        },
+        "agd20k_no_none": {
+          "label": "sit on",
+          "justification": "Part 3 has a broad, flat top surface positioned at the upper center of the structure, making it suitable for supporting weight like seating while contrasting in form with all surrounding recesses designed as handles or grips rather than surfaces meant to bear body load directly above them"
         }
       }
     },
@@ -74,6 +82,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 4\u2019s irregularly shaped indentation at the side of the main body lacks any clear functional surface for gripping, pressing, sliding, or attaching \u2014 unlike surrounding areas which suggest potential interaction points \u2014 making its affordances effectively nonexistent in practical use"
+        },
+        "agd20k_no_none": {
+          "label": "hit",
+          "justification": "Part 4 has a large, rounded surface positioned prominently at the front of the object\u2019s lower half, making it easily accessible for striking actions compared to its more recessed neighbors"
         }
       }
     },
@@ -91,6 +103,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 5\u2019s irregularly shaped indentation at the side of the structure lacks any clear functional surface for gripping, pressing, sliding, or attaching \u2014 unlike adjacent regions which suggest potential interaction points \u2014 making its affordances effectively nonexistent in practical use cases"
+        },
+        "agd20k_no_none": {
+          "label": "hold",
+          "justification": "Part 5 has a smooth, slightly concave surface positioned at an angle conducive for gripping, unlike surrounding sections which are more rounded or recessed"
         }
       }
     },
@@ -108,6 +124,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 6\u2019s small size, recessed positioning within the base of the structure, and lack of any protruding edges make its surface non-functional for grasping or interaction \u2014 unlike all surrounding components which are shaped for handling"
+        },
+        "agd20k_no_none": {
+          "label": "sit on",
+          "justification": "Part 6 has a broad, flat surface positioned at the base of the structure, making it suitable for supporting weight as intended by its placement in relation to gravity\u2019s pull downward \u2014 unlike any other section which lacks such structural orientation toward bearing load horizontally while remaining upright"
         }
       }
     },
@@ -125,6 +145,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 7 forms a flat top surface without any protrusions, indentations, or functional features suggesting interaction or use, unlike the surrounding components which have distinct shapes implying tactile engagement"
+        },
+        "agd20k_no_none": {
+          "label": "sit on",
+          "justification": "Part 7 has a flat top surface positioned at the apex of the structure, making it suitable for supporting weight as intended by its placement above all other sections"
         }
       }
     }

@@ -19,6 +19,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 1 has no discernible surface features for grasping, attaching, or interacting mechanically due to its smooth interior contour surrounded by organic curves without functional protrusions or indentations suitable for manipulation"
+        },
+        "agd20k_no_none": {
+          "label": "hold",
+          "justification": "Part 1 has a large central cavity surrounded by raised ridges designed for gripping securely \u2014 unlike any of its rounded neighbors which are meant more for attachment than grasping"
         }
       }
     },
@@ -36,6 +40,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 2\u2019s small size, rounded form, and lack of attachment points suggest no functional interaction surface for grasping or manipulation compared to larger connected components"
+        },
+        "agd20k_no_none": {
+          "label": "hit",
+          "justification": "Part 2\u2019s small size, rounded form, and attachment via a narrow stalk make it easily targetable for impact compared to larger, more integrated components like those in positions 3\u20135 which are either detached spheres or embedded within bulkier structures"
         }
       }
     },
@@ -53,6 +61,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 3\u2019s small size, smooth rounded surface, lack of protrusions for gripping or attachment points, and its detached positioning suggest no functional interaction possibilities compared to the others"
+        },
+        "agd20k_no_none": {
+          "label": "sit on",
+          "justification": "Part 3 has a smooth, rounded dome-like surface positioned low relative to its surroundings, making it suitable for supporting weight without sharp edges or protrusions like the others"
         }
       }
     },
@@ -70,6 +82,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 4 appears as a small protrusion without any functional surface features for grasping, attaching, or interacting\u2014making its use impossible despite being physically present"
+        },
+        "agd20k_no_none": {
+          "label": "hit",
+          "justification": "Part 4\u2019s small size, rounded end, and protruding orientation suggest it can be easily grasped or struck by another element in interaction"
         }
       }
     },
@@ -87,6 +103,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 5\u2019s small size, smooth surface, lack of protrusions or indentations for gripping, and its embedded placement within another component make no functional interaction possible compared to the others"
+        },
+        "agd20k_no_none": {
+          "label": "hold",
+          "justification": "Part 5 has a small, rounded indentation designed for gripping, distinguishing its function as something meant to be held by hand compared to the larger, more decorative surrounding elements"
         }
       }
     }

@@ -19,6 +19,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 1\u2019s broad, flat base lacks any protrusions or contours designed for gripping, pressing, twisting, sliding, pulling, pushing, lifting, rotating, inserting, removing, hanging, attaching, detaching, folding, unfolding, opening, closing, turning, swiveling, pivoting, locking, unlocking,"
+        },
+        "agd20k_no_none": {
+          "label": "sit on",
+          "justification": "Part 1 has a broad, flat surface positioned at the bottom of the star-shaped form, making it suitable for supporting weight when used as a seat"
         }
       }
     },
@@ -36,6 +40,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 2 has no distinct functional surface features like edges, grips, holes, or protrusions for interaction; its smooth, rounded form offers nothing tangible to grasp, press, insert, or manipulate \u2014 unlike surrounding components designed for tactile engagement"
+        },
+        "agd20k_no_none": {
+          "label": "hold",
+          "justification": "Part 2 has a rounded, concave surface positioned centrally within the structure, making it ergonomically suited for gripping compared to the flat or angular surrounding components designed more for structural support or attachment points"
         }
       }
     },
@@ -53,6 +61,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 3\u2019s narrow, elongated form tapers into a pointed tip without any flat surface or rounded edge suitable for gripping, pressing, or interacting functionally \u2014 unlike surrounding components designed for tactile engagement"
+        },
+        "agd20k_no_none": {
+          "label": "hit",
+          "justification": "Part 3 has a narrow, elongated form extending outward like a finger-like projection designed for targeted contact rather than broad support or grip"
         }
       }
     },
@@ -70,6 +82,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 4\u2019s narrow, angled form lacks any surface area suitable for gripping or functional interaction, unlike surrounding components designed for handling"
+        },
+        "agd20k_no_none": {
+          "label": "hit",
+          "justification": "Part 4 has a thick, bluntly tapered end positioned at the outer edge of its arm-like structure, making it suitable for striking surfaces due to its solid form factor compared to surrounding more slender components designed for grip or connection"
         }
       }
     },
@@ -87,6 +103,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 5\u2019s narrow, flat profile at its end lacks any protrusions or contours designed for gripping, pressing, twisting, sliding, hanging, attaching, pulling, pushing, lifting, rotating, folding, unfolding, opening, closing, inserting, removing, turning, swiveling, detaching, snapping, clicking,"
+        },
+        "agd20k_no_none": {
+          "label": "hold",
+          "justification": "Part 5 has a flat, broad surface extending outward at an angle, making it ergonomically suited for gripping compared to surrounding curved or pointed sections designed more for structural support rather than manual interaction"
         }
       }
     },
@@ -104,6 +124,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 6 appears as a narrow, flat extension without any discernible functional surface for gripping, pressing, twisting, sliding, or attaching \u2014 unlike surrounding components which have distinct shapes suggesting interaction capabilities"
+        },
+        "agd20k_no_none": {
+          "label": "hold",
+          "justification": "Part 6 has a narrow, elongated form tapering into a flat end positioned for gripping, unlike surrounding segments which are broader or angled differently, making its geometry uniquely suited for grasping by hand"
         }
       }
     },
@@ -121,6 +145,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 7 appears as a small, flat extension without any discernible functional surface for gripping, pressing, twisting, sliding, or attaching \u2014 unlike surrounding components which have distinct shapes suggesting interaction capabilities"
+        },
+        "agd20k_no_none": {
+          "label": "hold",
+          "justification": "Part 7 has a flat, wide surface positioned at the edge of the central body, making it suitable for gripping by hand compared to surrounding protrusions designed more for structural support or display"
         }
       }
     },
@@ -138,6 +166,10 @@
         "agd20k": {
           "label": "none",
           "justification": "Part 8 appears as a small central hub without any protrusions, indentations, or surfaces designed for interaction, making its form unsuitable for grasping, pressing, twisting, sliding, or otherwise manipulating \u2014 unlike all surrounding components which have distinct shapes suggesting functional engagement"
+        },
+        "agd20k_no_none": {
+          "label": "hold",
+          "justification": "Part 8 has a rounded, concave surface positioned centrally within the structure, making it ergonomically suited for gripping compared to the flat or extended surfaces of surrounding components"
         }
       }
     }
