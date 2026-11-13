@@ -48,14 +48,43 @@ def gpu_status() -> dict:
         rows = _run_csv("compute-apps=pid,used_memory,gpu_uuid")
     except subprocess.CalledProcessError:
         rows = []  # some drivers refuse this query under certain permissions; fail open
+    mine_by_index = {idx: 0 for idx in free_by_index}
     for pid, used_mib, uuid in rows:
         if int(pid) == my_pid:
+            # Our own footprint counts as available to us: otherwise, once a model is loaded on a
+            # 16 GB card, the per-object re-check sees < MIN_FREE_MIB free and blocks on itself.
+            idx = uuid_to_index.get(uuid)
+            if idx is not None:
+                mine_by_index[idx] += int(used_mib)
             continue
         idx = uuid_to_index.get(uuid)
         if idx is not None:
             other_by_index[idx] += int(used_mib)
 
-    return {idx: {"free_mib": free_by_index[idx], "other_mib": other_by_index[idx]} for idx in free_by_index}
+    # Only the GPUs this process can actually use: with CUDA_VISIBLE_DEVICES=2, another user's job on
+    # GPU 0 is irrelevant and would otherwise block forever. (nvidia-smi indices are physical, which is
+    # what CUDA_VISIBLE_DEVICES lists; non-integer entries like GPU UUIDs fall back to checking all.)
+    visible = os.environ.get("CUDA_VISIBLE_DEVICES", "").strip()
+    indices = list(free_by_index)
+    if visible:
+        try:
+            indices = [int(v) for v in visible.split(",") if v.strip() and int(v) in free_by_index]
+        except ValueError:
+            pass
+    return {idx: {"free_mib": free_by_index[idx] + mine_by_index[idx], "other_mib": other_by_index[idx]}
+            for idx in indices}
+
+
+def contention_blockers(min_free_mib: int = MIN_FREE_MIB,
+                        other_proc_mib_threshold: int = OTHER_PROC_MIB_THRESHOLD) -> list:
+    """Non-blocking check: one string per visible GPU that's currently contended, [] if clear.
+    Same rule wait_for_gpu_headroom() waits on, so a caller can react (e.g. free its own GPU
+    memory) before waiting, instead of waiting while still holding the GPU."""
+    return [
+        f"GPU{idx} free={s['free_mib']}MiB other={s['other_mib']}MiB"
+        for idx, s in gpu_status().items()
+        if s["free_mib"] < min_free_mib or s["other_mib"] > other_proc_mib_threshold
+    ]
 
 
 def wait_for_gpu_headroom(
@@ -69,15 +98,10 @@ def wait_for_gpu_headroom(
     load), not just once -- that's what makes it catch contention that starts mid-run."""
     waited = False
     while True:
-        status = gpu_status()
-        blockers = [
-            f"GPU{idx} free={s['free_mib']}MiB other={s['other_mib']}MiB"
-            for idx, s in status.items()
-            if s["free_mib"] < min_free_mib or s["other_mib"] > other_proc_mib_threshold
-        ]
+        blockers = contention_blockers(min_free_mib, other_proc_mib_threshold)
         if not blockers:
             if waited:
-                log(f"GPU headroom OK, resuming ({status})")
+                log(f"GPU headroom OK, resuming ({gpu_status()})")
             return
         if not waited:
             log(f"Pausing for GPU contention: {blockers}")

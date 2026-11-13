@@ -1,0 +1,199 @@
+{
+  "object": "carry_items",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "image_path": "/shared/nas/data/m1/adadt2/nvrd/affordance-test/figures/affordance_guided_novel_objects/base_images/carry_items.png",
+  "vocabulary": "synthia_filtered",
+  "regions": [
+    {
+      "region_id": "carry_items_region_9",
+      "area": 75856,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "Zck56go04L3N3M2N3M2O1N2O0O2O2N_OXQOLgn05ZQOKdn05]QOJbn08_QOG`n09bQOE^n0:eQOD[n0<d001O01O01JaPOJ_o0652O0O10O01aMMnRO7_1Lck0OlRO<6\\Ok07Tl0W1hSOiNWl0d1]SO\\Ncl0g1[SOYNdl0n1USOSNik0KXTON1X2KPNkk0MWTOM1Z2ImMnk0MSTO16c2hk0]MPTO22f2mk0m01O0O2O3]OkSOTMWl0j2jSOUMWl0k2iSOTMWl0n2hSOQMYl0Z31OH`LQTOa3nk0aLPTO_3Ql0aLoSO^3Ql09O[LoSO]3Ql0cLoSOa1`0C_k0mNRTOX1i0HUk0PORTOV1o0EPk0UORTOQ1V1Fhj0XOUTOl0X1Jdj0ZOTTOi0]1K_j0\\OQTOi0c1KQOXO`j04kTOf0i1LlN\\O\\OOjj04UUOd0j1MgN@_OMjj0o0SWOBdNMXj0>WWOEaNMWj0>ZWODTN\\OOd0bj0;]WODQN_O0b0aj0:^WO2QNDaj08`WO5oMC`j07bWO6oMAaj07`WO:nM_Obj04bWO?kM\\Odj04bWO`0kMZOdj06`WOb0kMWOfj06_WOd0jMVOhj04_WOMgM43Hij07^WOKhM61Fjj08^WOMgM5OGmj06]WOOgM5MDQk08[WOOhM5KERk05\\WO2fM4MDRk06[WO5cM1ODSk06[WOn0bMlNTk06YWOn0cMmNTk04YWOP1cMkNTk05YWO\\1hh0dNWWO\\1ih0dNWWOo0dMmNVk03VWO]1jh0cNVWO[1mh0dNSWO4eMd0Wk0YOTWO3fMc0Vk0ZOTWO3gMa0Vk0\\OSWO3hMa0Tk0\\OTWO2jMb0Qk0]OTWO4hM?Uk0\\OSWO]1lh0dNSWO\\1nh0cNSWO]1lh0dNSWO\\1nh0dNPWO]1Pi0cNPWO]1Qi0cNnVO]1Ri0cNnVO]1Ri0dNmVO1jMg0[k0WOkVO2lMe0Yk0ZOjVO2mMd0Xk0ZOkVO3lMc0Zk0YOjVO4mMb0Yk0[OjVO5kM?\\k0]OgVO[1Xi0fNgVOZ1Zi0eNfVO\\1Yi0eNfVO[1[i0dNeVO]1Zi0aNhVO_1Yi0`NgVO`1Yi0`NgVOa1Xi0_NhVO2mMm0\\k0QOfVO2PNl0Yk0ROgVO2QNk0Xk0SOgVO2RNj0Wk0UOfVO0TNj0Xk0UOdVO2TNh0Xk0WOcVO`1^i0`N`VOa1ai0_N^VOb1ai0_N_VO`1bi0`N]VO`1ci0`N]VO`1di0`N[VOa1di0_N\\VOb1di0]N]VO0TNQ1`k0nN\\VO1VNP1]k0oN]VO1WNo0]k0PO[VO2WNo0]k0oN\\VO2XNn0]k0POZVO2ZNn0[k0QOZVO2[Nl0\\k0ROYVO1\\Nm0Zk0SOYVO1^Nk0Yk0TOXVO1`Nj0Yk0TOWVO2bNi0Vk0VOXVO0eNg0Tk0XOWVOObNDIT1^k0XOXVO0aNFGR1`k0XOXVONbNQ1Wk0QOVVONcNR1Vk0POWVOOcNP1Wk0QOUVOOdNQ1Vk0POVVOOfNP1Tk0QOVVONgNP1Sk0SOUVONiNn0Rk0TOTVONlNl0Pk0WOSVONoNi0nj0YORVONROg0mj0[OPVOOSOf0lj0\\OPVONTOg0lj0\\OnUOMWOg0kj0\\OmUONWOg0kj0\\OmUONUOh0oj0[OjUOMVOj0oj0[OiUOLWOi0Qk0_OcUOH\\Oj0Pk0BeTOUOb0?Ik0Pk0KUUOZOLj0Pk0MRUOXOOl0oj0MPUOXO1j0Pk00mTOUO3I@f0_k0>lTOTO5H@92D^k0W1jTOTO7G^O=2A_k0X1hTOSO9G^O>2@^k0Y1hTORO;F^O`00_O_k0=eTO03N;G]O`00^Oak0:oTOKE9?C\\O`00@ak07TUOI^O?b0A[Oj0ak0[OWUOH\\Ob0b0LZOI0M`k05cUO9Bf0jj0QOdUO9Bg0ij0POgUO7A3[OK]k0KgUO4Cm0ej0QOfUO2AR1ij0lNfUO1^OV1mj0iNeUO1]OW1nj0hNdUO1_OW1mj0gNdUO1@Z1kj0eNdUO0C0\\Oj0]k0VOcUO1DO\\Oj0^d0jN[B=WJOE[1hc0[Nf[OM^6=_J1EZ1hc0[Ne[O1\\69aJ1GZ1fc0]Ne[O0\\67cJ1G[1ec0]Nd[O1\\67aJ0L]1bc0ZNg[O2Y66bJ0N^1^c0\\Ni[O1W66dJON^1]c0kNk[O[On5=kJ0N^1\\c0mNk[OZOo5;kJ2L_1[c0mNn[OXOP69lJ3J`1[c0UOmAYOlJ3L`1Zc0UOnAXOkJ4La1Zc0ROoAYOkJ4Lc1Xc0jNS\\OUOn5:jJ3NOZOT1mc0FkAUOoJ5Ig1]c0POjATOoJ8Gf1`c0nNhATOQK:Ef1cc0kNfAUOPK<Ge1fc0fNcAXOPK?Ee1hc0dNbAWOQK`0Ff1gc0cNaAWOQKa0He1gc0aN_AZORKa0Dh1lc0\\N]A[ORKa0El1jc0WN_A\\ORKa0Em1jc0VN^A[OSKb0Eo1jc0SN^A\\OQKb0Jo1hc0RN\\A\\ORKb0LR2ec0PN[A\\OTKb0ISOH:OW2Qd0^NZA\\OTKb0JCGT2nc0\\N\\AZOTKd0K`2ac0aM`A[OSKc0MZ1FoNic0I_A[OTKd0NZ1FoNic0H^A[OTKc00i2]c0XM_A[OTKc02o2CVL`c0l0eA\\OWK`03i3ab0ZLUB]OVK`05k3m0bKk?e0lC_OWK>2T4CXKi0<^`0:mC@WK58X5_OSKSa0Nk^OXOP5;ZK58d1^O]2Ta0\\LkC]O[K68f1^OZ2Ta0^LjC\\OZK79[1_O\\N32Mf3Sa0oLiC\\OZK7;Z1BYN23Mf3Sa0QMfC\\OZK8;Z1DWN31Li3Ra0RMeC[OZK9;Y1HTN22Li3Ra0UM`C6gKg08TN@g3Ua0XM[C6gKg0;RN@b2OPN^a0?PC5gKk0g0NRb0SO^A4iKl0f0mNTc04\\@2jKo0f0\\Nbc0e0k_OOnKQ1HkML0c08Xd0n0b_OMoKR1HRN?I_d0W1Z_OJQLU1FRNge0Q1_^OHTLU1GSNfe0P1^^OGSLZ1GoMie0R1Z^OEVLn0G[NM0le0T1X^OAYLl0LjNde0j0U^OAZLl0MgNge0l0Q^O@ZLk1he0fNl]O@[Le1F\\MVf0`1g]O^O]Lg1Pf0lNa]O\\O_Li1Qf0mN^]OYOaLi1Sf0POZ]OUOcLk1Vf0ROS]OSOgLj1Xf0TOP]OQOgLk1\\f0UOj\\OoNjLm1]f0VOg\\OlNlLm1_f0XOc\\OlNlLl1df0XO]\\OmNmLl1hf0YOW\\OlNQMj1kf0]Om[OkNXMg1mf0Ag[OiNYMf1Sg0Ca[O_1ad0dNZ[O\\1hd0fNT[O[1nd0fNmZO[1Ue0kNaZOW1ae0oNVZOS1le0SOkYOn0Vf0VO\\YOQ1hf0\\O_XOn0bg0f32M3N2N3M2O1N2O2M2O1N2O1O1O2L3N2N2N2N2N2O1O1N3N1N2O1O1O2N1O100OX_OcIo7]6oGfIP8\\6lGfIS8\\6iGhIV8Y6gGiIZ8Y6_GkIa8X6YGkIg8V6SGoIm8S6nFPJR9R6kFPJT9Q6jFPJW9P6hFQJW9R6`FTJ`9P6YFTJf9n5VFSJk9T6jEPJV:S6dEoI]:V6\\EjIf:Z6TEfIn:]6jDfIX;^6]DdIh;^6RDcIQ<a6fCbI\\<a6`C]Ic<f6XCXIl<j6oBVIT=o6cBRI`=S7XBmHl=X7iAhH\\>`7\\^OjFa2k0\\MOja0l8Y@^GmMCma0R9l_OcGWNWOPb0Y9m^OYHVOYNoa0e<Q^OZCoa0i<n]OTCVb0X=2Fh]OlB[b0Z=2Id]OhB_b0W=5O0M4M3L4N2L3M4O1M3N2N2M3N2N2N2N2M3N2O010O100QKo[OoMQd0k1X\\ORNhc0c1j\\OVNUc0i1S]OQNmb0n1]]OjMbb0U2b]OhM^b0W2l]O`MTb0`2U^OXMia0j2`^OmL_a0S3f^OjLXa0W3P_OaLo`0b0V\\O^OP3Lg`0`0l\\OYOb22a`0<^]O[OU26[`08P^O[Og1<V`04`^OZO^1>o?4k^O\\OY1>j?3Q_O_OY1;d?4W_OAV1:a?1^_OES1:\\?Ne_OHT15U?2l_OJQ10Q?4Q@MP1Mm>4Y@Ml0Of>2b@Oi0Oc>Oh@2i0M\\>On@5g0KX>OTA7e0IU>NYA9e0GP>N^A:f0Fi=0bA;SLVN^4a1i=MhA:QLZN_4^1g=KmA<mK^N^4[1e=JRB<kKaN_4X1c=IUB8PLgN\\4U1]=KYB8nKiN_4R1W=M]B7oKlN\\4P1V=L`B5RLPOY4o0R=JeB7QLPOY4n0P=JhB7nKTO[4j0l<JmB9jKVO]4g0j<IQC9hKYO^4d0g<IVC9cK]O_4b0e<H[CROXKn0:J]4=d<G_CSOYKm06N_4=^<EfCQOXKn0LSO4m0i48X<HQD5lJMj48W<EUD[1EPOU<DXDZ1FROo;D\\DZ1HQOj;D_DZ1JROd;CeDe0bJPOY5h0];BiDf0aJkNOF`5T1U;DlDf0bJPO^5g0P;CQEe0dJoN\\5j0m:AUE]O`Jk03^O]5h0i:AXE^O`Ji03@^5h0d:A]E^O`Jf01D^5h0a:@aE]ObJd0OG`5i0Y:_OhE\\OaJb0F\\O4?e5i0V:^OkEZOaJj0FHW1_OS3Y1f8gNcEe0g3l0lJdNR3T1`8fNWC3b2c0k3l0iJfNS3Q1^8iNXC1c2b0l3l0hJnNS3e0]8VOjE;P4k0gJoNP3h0\\8VOjE8V4`0]InNX1<l2l0^8SOjE7X4?]ImNY1>h2n0^8gN_C3\\2>\\4<kJ]O`2P1^8fN_C4Z2=b48gJB`2R1Z8cNeC3W2>e46fJC_2U1X8bNgC2V2?g43eJBc2X1T8aNgC4U2>j42ZIZOh0:T3^1k7ZNPD6T2;l42YI]Og08U3IWLR1a;kNSD9S2:o4OYI@e08V3E]LS1Y;nNTD:Q29S5NTIEg03T4g0j6nNSD=P28V54iHAP11V4f0m6[OoE8W5c0fITO[4b0k6^OlE:X5a0mHjNJ2>1W5g0`6AmCEg1e0a5a0kHTO7I[5d0`6DiCGg1c0c5a0lHUOKE35d5?a6FgCIe1b0f5<dHoN7=IE43h54UJH^<>VE6g5<QI[OCF35j50i6OZCOc1`0k5<nHBGCm5Mk6OVC2a1a0X5[ObI1DP1<BGCo5Jk60UC5^1`0Z5^OZI5Lg0=EFBUc00S^Oc0_5JVI<=EFAUc03P^O4hNNj6\\1dInNBDXc02l]O4lNKk6\\1dIgNBFO7Xc04g]O3ROBOOl6d1bIgNC4Xc01^]O3ZO\\OQ7f1[IcNF9Uc02Y]O3f6NiH\\O5i0N_O2:Tc0[1PDfNRI6F\\O8>ob0Z1QDeNTI6D]O7?Qc0W1RDdNTIc0JAQc0W1TD`NUI>]OYO<b0ob0Q1e\\O[N`77WI`0ZO[O;b0nb0R1[D_NYIc0^OLF\\ORc0e1fD[NVIh0\\OLD^ORc0c1PFPOZG5fb0i0SFPOXG8db0g0VFPOVG8fb0e0XFPORGNDLRc0V1YFoNRGMDGN0Uc01k\\OT1\\9XOmFAG59KI0Uc02j\\OU1[9EdFTOoc00U\\OT1Y9Hn:Fe[OL^9>m:^Oe[OH2:^9?l:YOS\\O4U9`0b;[ObDd0^e0O1N3N0O2O1N3K5N1N2KPaQ;"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "channel water",
+          "justification": "Part 1\u2019s narrow, tubular form extending downward from a wider opening suggests its function as a conduit for fluid flow, unlike surrounding solid structures designed for containment or support"
+        }
+      }
+    },
+    {
+      "region_id": "carry_items_region_13",
+      "area": 29639,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "n`\\c06io02O2[PONZ37Qh0McTO03G_26aM=oj0]OQUOo0o1WOQNm0gj0?XUOiN;MEj1dj0W3I7L3N2M4M2N3N1N3N03M01N3L5L2MTJaVO40OW1b2Vh0[McVO31K`1e2jg0\\MdVO62Ck1g2]g0WNVYOg1hf0WMgVOk0f2l1af0XNdYOf1\\f0VNkYOh1Rf0UNSZOl1ie0SN\\ZOl1be0RNcZOm1Ze0RNmZOk1Re0RNR[On1Vd0_MoWO21N3b0i3P2nc0RNWXOLn3R2gc0UN[XOGP4U2bc0VN]XO@NGV4c2]c0VN`XO@W4\\2Uc0XNaXO]O[4[2Rc0YNcXO[O]4]2mb0fNT]O\\1gb0dN\\]O]1ab0cNa]O\\1]b0eNd]O^1Xb0bNi]O_1Ub0bNl]O_1Qb0bNo]O`1na0aNS^O`1fa0dN[^O^1^a0gNc^O[1Xa0cMoYOD04k4f2Ta0dNYZOYNV4V3YLkLUd0b1T[O[N86T4X3PLjL`d0\\1`[OhNk3i3e`0_M_[OROc3`3n`0]M_[OWO`3[3Sa0]M\\[OYO`3Z3Wa0ZMZ[O[OOAh2i3oa0[MZ[O\\OM7U2Q3eb0ZM[[O]OJc0l1f2Qc0XMZ[O^OI^1R1l1kc0XMU[OCMi1c0]1\\d0WMQ[OEOP2=S1dd0XMmZOG1P2=Q1gd0PLhZOP1102P2?o0fd0XMhZOI4Q2`0k0ed0aNjZOd0d0i0fd0^NfZOj0e0g0dd0aNeZOh0i0f0cd0j1^[OVNbd0f1c[OYN^d0a1h[O^NYd0_1i[O`NYd0W1P\\OhNPd0V1S\\OiNnc0o0Y\\OQOhc0]M^ZOU2o1=cc0\\MaZOl1W2f0Zc0YMdZOg1\\2o0Qc0YMlZOV1\\2a1ib0ZMnZOTO@_1n2R2eb0[MV[O:^2Z2]b0[MY[OVOoN011n3\\3ja0^Mj_Ob2W`0\\Mk_Ob2W`0]Mj_Ob2W`0\\Mj_Oc2W`0[Mk_Oe2V`0ZMk_Od2W`0ZMj_Of2V`0[MnYO]Oh5V3\\`0aMc_O_2]`0aMd_O^2]`0bMb_O]2``0bM`_O^2a`0bM__O\\2c`0cM]_O]2c`0cM^_O[2d`0eM[_O[2f`0dMZ_O[2h`0eMX_OZ2i`0eMW_OZ2k`0eMU_O[2k`0fMT_OY2n`0fMS_OY2m`0hMR_OW2Pa0hMQ_OW2Pa0iMo^OV2Sa0iMn^OV2k>ZM^[OOn1b0h3T2l>aM\\]O:h3U2k>cM]]O8g3T2m>eM\\]O6h3T2k>hM\\]O5h3R2m>iM\\]O5f3Q2o>kM[]O4f3o1P?mMZ]O4f3o1Q?mMY]O4e3n1S?oMX]O2e3n1S?SNV]OOh3m1R?VNU]OLi3m1S?YNS]OIj3n1T?YNQ]OJj3l1V?ZNQ]OIj3k1W?\\No\\OIi3k1X?[NQ]OIg3k1Y?\\NP]OJf3i1[?\\NQ]OJd3i1]?\\NP]OKb3i1^?\\NP]OLa3g1`?]NP]OK`3g1a?]N\\[O@S1<o3g1b?^NV[O^OI3_1:P4f1c?RO\\\\OYOP4d1e?UOX\\OXOS4b1g?XOS\\OVOW4a1f?[OP\\OUOY4`1h?_Oj[OSO]4]1k?Bc[OTOa4Y1m?D][OWOf4T1o?DZ[OZOf4Q1R`0TNdZO\\1b0RO]OMZ5`1Z`0^N\\ZO105d0N]ONY5`1Z`0_OoZOTO_OMW5_1\\`0_OP[OTO]ONW5^1]`0_OP[OUO\\OOV5]1_`0]OQ[OVO[OOU5]1``0_OoZOVO[OOT5\\1d`0^OmZOWO\\ONS5\\1f`0_OkZOWO[ONT5\\1f`0_OkZOVO]OOP5\\1j`0_NWZO?d0F\\OOo4\\1`a0iNZZOFXO6m4Z1ha0cNUZOKXO7k4Z1dc0gN[\\OX1gc0hNW\\OX1jc0hNV\\OW1kc0jNT\\OV1lc0kNR\\OU1oc0lNP\\OS1Qd0nNm[OR1Td0oNk[OP1Wd0oNi[OP1Xd0QOf[Oo0[d0ROd[Om0]d0SOb[Om0_d0TO`[Ok0bd0jNkVONb4X1dd0jNjVOOa4V1fd0kNiVO0_4T1jd0lNhVOO^4T1kd0mNgVO0\\4T1nd0lNeVO0\\4T1Pe0lNcVO2[4R1Te0kNaVO3[4Q1Ve0YOhZOg0Ye0ZOeZOe0^e0ZOaZOf0`e0[O^ZOe0ce0[O\\ZOe0ee0\\OZZOb0ie0^OUZOb0le0@QZO?Rf0AlYO?Uf0BiYO>Yf0BeYO>\\f0CbYO=`f0C^YO<df0D[YO<gf0DVYO<lf0EQYO<Pg0FlXO:Wg0FgXO:Zg0GdXO9^g0I]XO7eg0KXXO4kg0MQXO4Ph0MmWO3Vh0NeWO3^h0M_WO4ch0MYWO2lh0NoVO3Ti00iTOhNg1Z1bi03[VONfi06RVOLQj04jUOMYj08_UOIdj0<TUODoj0`0eTOE_k0[23L4M5J4M5I8J5I8I7G9I:@a0C\\\\e5"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "contain",
+          "justification": "Part 2 has a concave inner surface and open top structure positioned within another component, clearly designed for holding items inside its cavity while being integrated into a larger assembly"
+        }
+      }
+    },
+    {
+      "region_id": "carry_items_region_19",
+      "area": 41134,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "Xdg5U1in08_Oa0E=G6J5L3L5M1N3N2M2M4M3L4N0]OgL]TO\\3_k0fLaTO\\3[k0eLeTO]3Yk0dLgTO]3Vk0eLjTO]3Qk0fLoTO[3nj0fLQUO\\3mj0fLRUO]3jj0dLVUO^3hj0bLYUO_3dj0bL\\UO_3bj0aL`UO^OGl3dj0iLlUOY3Pj0gLQVOZ3ni0eLTVO]3hi0cL[VOD[OG100U3Wj0`M]VOCJ1_Oa2Xj0kM_VODIo2ei0`M`VOB@G08Ke2Qj0lMdVOA^OH13Nk2li0jMfVOA^OI12Oj2ki0iMhVOB\\OK20Nl2ii0hMlVO_O[ON20Nl2gi0fMoVO@ZOO1OOm2ei0eMRWONZOk2ci0UMUWO1VO@0P3bi0`MYWO@UO21M0Q3`i0`MZWO@VO01N0T3]i0^M]WO^OVO21K2X3Xi0]M`WO\\OWO21J5Y3Ri0`MnWO\\O[OJ]OV3Wi0cMRXO]O@Q3\\h0cMUXO[O^OT3Zh0bMYXOYO_OV3Uh0bM]XOWO^OX3Sh0bM`XOTO_O[3ng0aMmYO[2Pf0fMSZOX2le0hMTZOY2je0iMUZOX2je0gMWZOZ2ge0gMZZOY2ee0fM\\ZO[2de0]M`WOYOn2[3`e0nLaWONW35hL`2`h0\\MaWONX3W3Ue0nLbWOIZ3Z3Re0eLeWO2ON[3\\3nd0dLkWO0MN[3_3ld0dLkWO0_3\\3dd0eLlWO0a3[3bd0eLnWONa3^3_d0eLPXOMa3_3_d0bLRXOM`3b3]d0aLm[O`3Sd0^Lo[Oc3Uh0200O100O100O100O1O100O010O1O1O1O100O001O100O00100O001O010O0010O01O001O001O0010O01O001O001O000001O01N1000001O0000001O000O10000000000O10000O100O100O100O0O2O1O1N2N101M3M2N3L4hLjJhXO3i10SNb5Yg0aJgXO0f1m5Ze0]JoXOGe1l5Ze0lJ`ZOZ5]e0jJaZOV5]e0lJcZOU5Ze0nJWZO`5We0XIVZOZ1>d5[e0UISZOV1<m5be0oHnYOW18Q6ie0kHlYOR9Tf0oFkYOP9Vf0=OPGkYOV8Uf0_GkYOM2a8Tf0bGkYOK7^8me0gGnYOJ4_8oe0iGlYOF1f8Sf0fGlYOa8Uf0`GlYO^8Sf0g01O1O1O100O1O1O1O001O1O2N1O1O1O1N2O1O2M2O1O1N3N1N3N1N3M3N1O2M3M3M3L4M3M3L6K3L4M3L5L3M5I9H5K4K6J>Af0YLVUOS1oj0]NXUOfNKg2^k0oMWUOl1^k0]MjTOZ2dl0G7UOYROTOQn0=PRO[Ofn09VQOJUZnb0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "contain",
+          "justification": "Part 3 has a concave, bowl-like interior surface positioned below its rimmed edge, clearly designed to hold items within its curved cavity while contrasting in form with surrounding protruding components"
+        }
+      }
+    },
+    {
+      "region_id": "carry_items_region_8",
+      "area": 38114,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "_ik<=ao09G8H7J4L5J5L3M4K5L4L3L4L5L3M3L4M3M3M2N4L2M4M3L4M2O2L3N3M2M3N3M2M3N3L3N2N3L3N2N2M3N2N2M3N2M3N2M3N2N2N2M3N1N3M3N2M2N3N2M3N1N3M3N1O2M3M3N1O2M3N1O2N1N3N2N1M4N101N101O001O010O0102lHeWOE1^6[h0fIVXOY6kg0bIZXO\\6jh0cI\\VOT6ji0O4K4L3N2M2N3N1N100O1O1O100O1O3M2N1O1O2O0O2N001O001O001O001O100O001O1O1O001O000O10001O001O001O001O1N1000001O000O10001O000O100O100O10000O10O02O0O1000O0100O100O10O0100O1O010O100O010O010O1O00010O001O010O00000001O0001O010O001OM3001OO1M300001O001OK5TOiKcUO1G]4Xj0bKoUOT5Qj0nJjUOT5Xj0lJgUOT5Yj0nJeUOR5]j0mJcUOR5^j0nJaUOR5_j063N1O2N2M3N5K2N1O2N2M3N4K4M4K4L5L3L5K4M2N4K5K4L4M4K5K4M3K6K5J6K4K5K6L5H7G:I7IeVP;"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "hold_food",
+          "justification": "Part 4\u2019s wide, rounded bowl-like form at the bottom of the structure provides ample space for securely holding food items without spilling during use \u2014 unlike its narrower neighbors which are designed for structural support rather than containment"
+        }
+      }
+    },
+    {
+      "region_id": "carry_items_region_14",
+      "area": 20198,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "Qf]e08do06L3M3G8L5J6M2H9M3H7L5bLRN^XOY2`g0iMVXOa2ig0hMeWOa2Zh0eMeUOB_1n2kh0jMlVO_2Si0eMnUOQOK1L21^3Yj0Q210O0010O01O001O001O00010O0010O0010O0001O010O010O010O001O010O1O100O000001O0001O010O001O001O1O001O1O0000010N101O001O1O1O00001O001N10001N101O001O1N101O1N2O1N2O001N2O0O2O0O2O1N101N1O2N101N2N2N1O2N101N3M2N2N3M1O2N1O2M3M5K2O2N4K4M3L3M4K4M4L4K<D4M6H5K9H9H7Di[R6"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "contain",
+          "justification": "Part 5 has a concave inner surface and open top structure positioned within another component, suggesting its function as a receptacle for holding items inside"
+        }
+      }
+    },
+    {
+      "region_id": "carry_items_region_18",
+      "area": 18834,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "VTT;f0Vo0:H3L6J6L3L3M3L3O2NVOoQOF0[Okm0P1WROLem05[ROPON<0Hem0l0_ROnNMi0am01cROVO5j0Vm0OVSO0il0NZSO3el0L]SO3bl0N^SOHUOF]m0b0`SOFUOGZm0d0aSODVOGYm0f0bSO@XOGWm0j0bSO^Ogl0c0YSO]Ofl0:\\ROCm03gl0:^ROBk04fl0;_RO@k05fl0;aRO_Oj04fl0=aRO]Oj04fl0?fSO]O]l0c0_13N1N2jQO]Oll0d0SSO^Oll0c0nROBQm0>jROITm08fRONYm02gRO0Wm0C]ROK;b0Ym0B^ROJ:d0Wm01hROOYm00hROK\\m05fROD`m0<`RO@cm0`0ZROBhm0<YRODhm0;YROEfm0<YRODhm0<VRODkm0=TROClm04kQOE78nm04kQOC69om05mQOA2;Qn04nQO_O1=[1@Tk0d0`SO_O0>[1ATk0a0cSO^OMa0]1AQk0a0kSOOS1BQk0?lSOOT1APk0`0kSO0U1Anj0`0lSO0V1@nj0`0lSO0V1@mj0`0mSO1V1@lj0?mSO2X1^Okj0`0mSO2X1_Ojj0?lSO4Z1^Oij0=mSO6[1\\Ogj0?mSO6\\1\\Ofj0=nSO8]1ZOej0>nSO8]1ZOdj0`0mSO6a1YObj0a0mSO6b1XO`j0d0mSO4c1XO`j0d0mSO4c1YO^j0e0mSO3f1WO]j0g1cUOYN]j0f1eUOYN[j0g1eUOYN[j0g1eUOZNYj0g1hUOXNXj0h1hUOYNWj0g1iUOYNVj0h1jUOXNVj0h1kUOXNTj0h1lUOXNSj0j1lUOWNSj0i1mUOWNSj0i1nUOVNRj0j1nUOWNQj0h1PVOXNPj0h1QVOXNni0h1RVOXNni0g1TVOXNki0>ZTOb0k1POki0>YTOc0l1oNki0?WTOc0o1nNii0?XTOc0o1nNii0i1WVOWNii0i1WVOXNhi0g1YVOYNgi0>YTOb0Q2POei0g1[VOYNdi0h1\\VOXNdi0h1\\VOXNdi0h1\\VOXNdi0h1\\VOYNci0;]TOf0P2oNci0:_TOf0n1POci0:_TOf0n1POci0:^TOh0n1oNbi0;_TOf0o1oNbi0;`TOe0o1oNai0;aTOf0n1oNai0;bTOe0n1oN`i0;dTOe0l1PO`i0;dTOe0l1QO^i0;eTOe0m1PO^i0<dTOd0n1PO^i0<cTOe0o1oN^i0=aTOe0R2mN]i0>aTOd0S2nN\\i0>`TOe0T2mN\\i0>`TOd0U2nN[i0i1eVOWN[i0i1eVOXNZi0h1fVOXNZi0g1gVOYNYi0g1gVOYNYi0f1hVOZNXi0f1hVO[NWi0f1hVOZNWi0g1iVOYNWi0h1iVOWNWi0i1iVOWNWi0i1iVOWNXi0g1iVOXNXi0h1hVOXNWi0j1hVOWNWi0i1iVOWNWi0i1iVOWNWi0i1hVOXNXi0h1iVOWNWi0i1iVOWNWi0i1iVOXNVi0h1jVOXNVi0h1jVOXNVi0h1jVOXNVi0h1jVOXNVi0g1kVOYNUi0g1kVOYNUi0g1kVOYNUi0g1kVOYNUi0g1kVOYNUi0g1kVOYNUi0g1kVOYNUi0g1kVOYNUi0g1kVOYNUi0g1kVOYNUi0g1kVOYNUi0g1kVOYNUi0h1jVOYNUi0f1lVOZNTi0g1kVOYNVi0f1iVO[NWi0d1jVO\\NVi0d1jVO\\NVi0e1iVOZNWi0g1iVOYNWi0g1iVOXNXi0h1gVOZNXi0f1hVOZNXi0f1hVO[NWi0e1iVO[NWi0e1iVOZNXi0f1hVOZNXi0e1iVO[NWi0e1iVO[NXi0d1hVO\\NXi0c1iVO\\NXi0d1hVO\\NXi0d1gVO]NYi0d1fVO\\NZi0d1fVO\\NZi0d1fVO\\NZi0e1eVO[N[i0e1eVO[N[i0e1eVO[N[i0e1dVO\\N\\i0d1dVO\\N\\i0d1dVO\\N\\i0e1cVO[N]i0e1bVO[N`i0c1aVO]N_i0c1aVO]N_i0d1`VO\\N`i0d1`VO\\N`i0d1`VO\\N`i0d1_VO\\Nbi0d1^VO\\Nbi0d1^VO\\Nci0b1^VO^Nbi0b1]VO_Nci0a1]VO^Ndi0b1\\VO^Ndi0b1\\VO^Ndi0b1[VO_Nfi0_1[VO`Nfi0`1YVOaNgi0`1XVO`Nhi0`1XVO`Nhi0a1WVO^Nji0b1VVO^Nji0c1TVO^Nmi0a1SVO_Nmi0a1SVO_Nmi0a1RVO_Noi0a1QVO_Noi0a1QVO_Noi0a1PVO_NQj03XTOl0f1QORj03ZTOj0c1TOTj00[TOj0b1UOTj01ZTOj0a1VOVj0OZTOj0`1WOVj0N[TOk0^1WOXj0NZTOk0^1WOXj0OXTOk0_1WOZj0NUTOl0a1UO[j0ORTOo0a1SO]j0\\1dUOdN\\j0\\1dUOcN^j0\\1aUOeN_j0[1aUOeN`j0Z1_UOgNaj0Y1_UOfNcj0Z1\\UOfNdj0Z1[UOgNej0Y1[UOfNfj0OkSOk0^1WOhj0MjSOk0^1XOij0X1VUOhNjj0X1UUOiNkj0W1TUOjNmj0U1SUOjNnj0V1QUOkNPk0T1PUOkNQk0V1mTOkNSk0U1lTOlNUk0S1jTOmNWk0S1hTOnNXk0R1gTOnN[k0R1dTOnN\\k0R1cTOnN_k0MdSO<l0Gak0KeSO?h0Gdk0HeSOa0e0Hgk0^O\\SO0<j0?Hkk0\\O\\SO0;l0<Jel06YSOJil06TSOKnl05lRO0Tm02gRO0Zm0Z11O2N1O2O1N2N1O2O2M2N2N2N1O2N1O2N3J5M3M5K7H6Jkkn;"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 6\u2019s rigid, circular ring structure lacks any protrusions, indentations, or surfaces designed for interaction, making no functional use possible without external tools or attachments"
+        }
+      }
+    },
+    {
+      "region_id": "carry_items_region_10",
+      "area": 10511,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "[db7;`o09K2M4K5L3L5L4M2N2M3M3M3N2N2N2N1O2M3N2N2M2N3L4N1N3N1O2N2N1O2N1O2N2N1O2N1O1O2N1O2N1O1O2O0O1O1O2N1O1O1O1O101N1O1O100O1O1O101N1O100O1O1O1O1O1O010O100O1O1O100O10O010000O100O01000O0010O01O00QNRUOnNnj0m0]UOlNcj0l0eUOTO\\j0`0PVO_OPj09YVOEii06[VOXOSNMek0i0[VOWOUNDhk0S1VVOTOXj0c0RVO[Oni0c0i2M4L3M4L5L4Lg^Pe0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 7 appears as a small, recessed indentation without any protrusions, handles, edges, or surfaces designed for interaction \u2014 unlike surrounding components which have clear functional forms suggesting grip, attachment points, or movement interfaces"
+        }
+      }
+    },
+    {
+      "region_id": "carry_items_region_6",
+      "area": 6342,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "V`b7a0Xo0:K6H8H5L4L4K5N1N3L3O2N1O1N2O001M2010O00O101O000O10001O01O00001O00000000000000001O001O010O1N101O001O1O001O1O100O1O002N1O1O1O1O1O001O2N1O1O1O0O2O2O0O1O1O1O10O01O1O1O1O1O100O1O1O100O1O1O1O1O1O1O100O1O001O1O1O1O001O1O1O001O2N1O2N2O1N2N1O2N1O2LPbdd0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 8 appears as a flat, non-projecting surface without any protrusions, indentations, handles, or openings designed for interaction, making no functional interface available for use by human hands or tools \u2014 unlike surrounding components which have clearly defined grips, edges, or attachment points enabling manipulation"
+        }
+      }
+    },
+    {
+      "region_id": "carry_items_region_4",
+      "area": 5069,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "U^Xd0311fo06O1N2O10O0100O1O1O1O1O001OO1011N1O0fPO_OUo0g0O1O1O1O1O2N1O00100O1O1O1O1O1O1O2N1O1O2N1O1O100O1O1O1O001O1O001O1O100O1O010O1O10O01O10O010O0100OXNnQOc1Rn0[NoQOf1Un0001O1N200O10O01O010O100O01000000O10O10O01001N2O1O1N10001O1N10001N3N1N100O2M4M2M5K4K6H=E`_V8"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 9 appears as a small, flat protrusion without any functional surface for gripping, pressing, twisting, or attaching \u2014 unlike surrounding components which have distinct shapes enabling interaction \u2014 making its affordances nonexistent in practical use"
+        }
+      }
+    },
+    {
+      "region_id": "carry_items_region_3",
+      "area": 4732,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "\\bQd0Z1an0:F;D;H8G8H9H5L5K5K7I4M2N3M2O2M2O2M3N2M3N2N100O2O0101N2O0O4L2N5K8G7J7H?Be0ZO:Ek0VO?@gZe:"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "channel water",
+          "justification": "Part 12\u2019s narrow, elongated opening at its base suggests functionality for directing fluid flow through constrained pathways \u2014 unlike surrounding components which are broader or closed-ended\u2014making it uniquely suited as a conduit rather than container or connector"
+        }
+      }
+    },
+    {
+      "region_id": "carry_items_region_12",
+      "area": 2331,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "Wika03lo02N1O2N1O1N1O2O1N2N2N2N101N2N2N1O2O1O1M201M2M4M2O2M2N3N1O2M2N3N1N2L4N2N2L4K5N2O1001O002M2N3N2M3L4M9F8G7J:F=AhX]<"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 12 appears as a small, recessed indentation within another component without any protrusions, handles, edges, or surfaces designed for interaction \u2014 making no functional surface available for grasping, pressing, sliding, twisting, pulling, pushing, rotating, turning, lifting, etc"
+        }
+      }
+    }
+  ],
+  "overall": {
+    "label": "assist_breathing",
+    "justification": "The branching central tube connected to multiple air sacs mimics lung anatomy for gas exchange support during respiration"
+  }
+}

@@ -1,0 +1,653 @@
+{
+  "check": "intended task + 14 random distractors, shuffled per labeler",
+  "results": {
+    "comb_hair": {
+      "task": "detangling and combing hair",
+      "correct": 2,
+      "labels": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "choice": "detangling and combing hair",
+          "correct": true,
+          "options": [
+            "squeezing the last toothpaste out of a tube",
+            "gripping and pulling a heavy door open",
+            "pumping air into a bicycle tire",
+            "picking up litter from the ground without bending down",
+            "sanding a rough wooden surface smooth",
+            "driving a screw into a piece of wood",
+            "hammering a nail into a wooden board",
+            "pouring liquid into a narrow-necked bottle without spilling",
+            "crushing garlic cloves",
+            "detangling and combing hair",
+            "sharpening a pencil",
+            "watering a plant",
+            "opening a tightly sealed jar lid",
+            "straining solid particles out of a liquid",
+            "propping a book open to a page while reading"
+          ]
+        },
+        {
+          "model": "x-ai/grok-4.7",
+          "choice": "detangling and combing hair",
+          "correct": true,
+          "options": [
+            "writing on paper",
+            "propping a book open to a page while reading",
+            "squeezing juice out of a citrus fruit",
+            "sanding a rough wooden surface smooth",
+            "squeezing the last toothpaste out of a tube",
+            "tearing off a strip of adhesive tape",
+            "hammering a nail into a wooden board",
+            "carrying groceries or other items by hand",
+            "rolling out dough flat",
+            "measuring the length of an object",
+            "picking up litter from the ground without bending down",
+            "cutting food",
+            "opening a tightly sealed jar lid",
+            "gripping and pulling a heavy door open",
+            "detangling and combing hair"
+          ]
+        },
+        {
+          "model": "mistralai/mistral-medium-3-5",
+          "choice": "cutting food",
+          "correct": false,
+          "options": [
+            "rolling out dough flat",
+            "squeezing the last toothpaste out of a tube",
+            "wiping and cleaning a flat surface",
+            "watering a plant",
+            "scooping and stirring soup",
+            "digging a small hole in garden soil",
+            "pouring liquid into a narrow-necked bottle without spilling",
+            "detangling and combing hair",
+            "scraping ice off a car windshield",
+            "sharpening a pencil",
+            "squeezing juice out of a citrus fruit",
+            "scratching an itch in the middle of one's own back",
+            "cracking open walnut shells",
+            "peeling the skin off a potato",
+            "cutting food"
+          ]
+        }
+      ]
+    },
+    "prop_up_book": {
+      "task": "propping a book open to a page while reading",
+      "correct": 2,
+      "labels": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "choice": "propping a book open to a page while reading",
+          "correct": true,
+          "options": [
+            "squeezing the last toothpaste out of a tube",
+            "gripping and pulling a heavy door open",
+            "pumping air into a bicycle tire",
+            "opening a tightly sealed jar lid",
+            "sanding a rough wooden surface smooth",
+            "driving a screw into a piece of wood",
+            "hammering a nail into a wooden board",
+            "crushing garlic cloves",
+            "scraping ice off a car windshield",
+            "propping a book open to a page while reading",
+            "sharpening a pencil",
+            "watering a plant",
+            "wiping and cleaning a flat surface",
+            "rolling out dough flat",
+            "hanging and organizing a set of keys"
+          ]
+        },
+        {
+          "model": "x-ai/grok-4.7",
+          "choice": "propping a book open to a page while reading",
+          "correct": true,
+          "options": [
+            "picking up litter from the ground without bending down",
+            "hanging and organizing a set of keys",
+            "writing on paper",
+            "sanding a rough wooden surface smooth",
+            "squeezing the last toothpaste out of a tube",
+            "tearing off a strip of adhesive tape",
+            "hammering a nail into a wooden board",
+            "carrying groceries or other items by hand",
+            "squeezing juice out of a citrus fruit",
+            "measuring the length of an object",
+            "opening a tightly sealed jar lid",
+            "cutting food",
+            "wiping and cleaning a flat surface",
+            "gripping and pulling a heavy door open",
+            "propping a book open to a page while reading"
+          ]
+        },
+        {
+          "model": "mistralai/mistral-medium-3-5",
+          "choice": "scratching an itch in the middle of one's own back",
+          "correct": false,
+          "options": [
+            "squeezing juice out of a citrus fruit",
+            "squeezing the last toothpaste out of a tube",
+            "scratching an itch in the middle of one's own back",
+            "watering a plant",
+            "scooping and stirring soup",
+            "digging a small hole in garden soil",
+            "crushing garlic cloves",
+            "propping a book open to a page while reading",
+            "straining solid particles out of a liquid",
+            "sharpening a pencil",
+            "writing on paper",
+            "detangling and combing hair",
+            "cracking open walnut shells",
+            "peeling the skin off a potato",
+            "cutting food"
+          ]
+        }
+      ]
+    },
+    "crack_nuts": {
+      "task": "cracking open walnut shells",
+      "correct": 2,
+      "labels": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "choice": "cracking open walnut shells",
+          "correct": true,
+          "options": [
+            "gripping and pulling a heavy door open",
+            "peeling the skin off a potato",
+            "pumping air into a bicycle tire",
+            "opening a tightly sealed jar lid",
+            "propping a book open to a page while reading",
+            "sanding a rough wooden surface smooth",
+            "hammering a nail into a wooden board",
+            "crushing garlic cloves",
+            "scraping ice off a car windshield",
+            "cracking open walnut shells",
+            "squeezing the last toothpaste out of a tube",
+            "watering a plant",
+            "wiping and cleaning a flat surface",
+            "rolling out dough flat",
+            "hanging and organizing a set of keys"
+          ]
+        },
+        {
+          "model": "x-ai/grok-4.7",
+          "choice": "cracking open walnut shells",
+          "correct": true,
+          "options": [
+            "picking up litter from the ground without bending down",
+            "hanging and organizing a set of keys",
+            "writing on paper",
+            "propping a book open to a page while reading",
+            "gripping and pulling a heavy door open",
+            "tearing off a strip of adhesive tape",
+            "hammering a nail into a wooden board",
+            "carrying groceries or other items by hand",
+            "squeezing juice out of a citrus fruit",
+            "measuring the length of an object",
+            "opening a tightly sealed jar lid",
+            "cutting food",
+            "wiping and cleaning a flat surface",
+            "peeling the skin off a potato",
+            "cracking open walnut shells"
+          ]
+        },
+        {
+          "model": "mistralai/mistral-medium-3-5",
+          "choice": "scratching an itch in the middle of one's own back",
+          "correct": false,
+          "options": [
+            "squeezing juice out of a citrus fruit",
+            "gripping and pulling a heavy door open",
+            "scratching an itch in the middle of one's own back",
+            "watering a plant",
+            "scooping and stirring soup",
+            "digging a small hole in garden soil",
+            "crushing garlic cloves",
+            "cracking open walnut shells",
+            "straining solid particles out of a liquid",
+            "squeezing the last toothpaste out of a tube",
+            "writing on paper",
+            "detangling and combing hair",
+            "sharpening a pencil",
+            "driving a screw into a piece of wood",
+            "cutting food"
+          ]
+        }
+      ]
+    },
+    "funnel_liquid": {
+      "task": "pouring liquid into a narrow-necked bottle without spilling",
+      "correct": 3,
+      "labels": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "choice": "pouring liquid into a narrow-necked bottle without spilling",
+          "correct": true,
+          "options": [
+            "squeezing the last toothpaste out of a tube",
+            "gripping and pulling a heavy door open",
+            "pumping air into a bicycle tire",
+            "opening a tightly sealed jar lid",
+            "sanding a rough wooden surface smooth",
+            "driving a screw into a piece of wood",
+            "hammering a nail into a wooden board",
+            "crushing garlic cloves",
+            "scraping ice off a car windshield",
+            "pouring liquid into a narrow-necked bottle without spilling",
+            "sharpening a pencil",
+            "watering a plant",
+            "wiping and cleaning a flat surface",
+            "rolling out dough flat",
+            "propping a book open to a page while reading"
+          ]
+        },
+        {
+          "model": "x-ai/grok-4.7",
+          "choice": "pouring liquid into a narrow-necked bottle without spilling",
+          "correct": true,
+          "options": [
+            "picking up litter from the ground without bending down",
+            "propping a book open to a page while reading",
+            "writing on paper",
+            "sanding a rough wooden surface smooth",
+            "squeezing the last toothpaste out of a tube",
+            "tearing off a strip of adhesive tape",
+            "hammering a nail into a wooden board",
+            "carrying groceries or other items by hand",
+            "squeezing juice out of a citrus fruit",
+            "measuring the length of an object",
+            "opening a tightly sealed jar lid",
+            "cutting food",
+            "wiping and cleaning a flat surface",
+            "gripping and pulling a heavy door open",
+            "pouring liquid into a narrow-necked bottle without spilling"
+          ]
+        },
+        {
+          "model": "mistralai/mistral-medium-3-5",
+          "choice": "pouring liquid into a narrow-necked bottle without spilling",
+          "correct": true,
+          "options": [
+            "squeezing juice out of a citrus fruit",
+            "squeezing the last toothpaste out of a tube",
+            "scratching an itch in the middle of one's own back",
+            "watering a plant",
+            "scooping and stirring soup",
+            "digging a small hole in garden soil",
+            "crushing garlic cloves",
+            "pouring liquid into a narrow-necked bottle without spilling",
+            "straining solid particles out of a liquid",
+            "sharpening a pencil",
+            "writing on paper",
+            "detangling and combing hair",
+            "cracking open walnut shells",
+            "peeling the skin off a potato",
+            "cutting food"
+          ]
+        }
+      ]
+    },
+    "roll_dough": {
+      "task": "rolling out dough flat",
+      "correct": 1,
+      "labels": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "choice": "rolling out dough flat",
+          "correct": true,
+          "options": [
+            "squeezing the last toothpaste out of a tube",
+            "gripping and pulling a heavy door open",
+            "pumping air into a bicycle tire",
+            "opening a tightly sealed jar lid",
+            "sanding a rough wooden surface smooth",
+            "driving a screw into a piece of wood",
+            "hammering a nail into a wooden board",
+            "pouring liquid into a narrow-necked bottle without spilling",
+            "crushing garlic cloves",
+            "rolling out dough flat",
+            "sharpening a pencil",
+            "watering a plant",
+            "wiping and cleaning a flat surface",
+            "straining solid particles out of a liquid",
+            "propping a book open to a page while reading"
+          ]
+        },
+        {
+          "model": "x-ai/grok-4.7",
+          "choice": "wiping and cleaning a flat surface",
+          "correct": false,
+          "options": [
+            "picking up litter from the ground without bending down",
+            "propping a book open to a page while reading",
+            "writing on paper",
+            "sanding a rough wooden surface smooth",
+            "squeezing the last toothpaste out of a tube",
+            "tearing off a strip of adhesive tape",
+            "hammering a nail into a wooden board",
+            "carrying groceries or other items by hand",
+            "squeezing juice out of a citrus fruit",
+            "measuring the length of an object",
+            "opening a tightly sealed jar lid",
+            "cutting food",
+            "wiping and cleaning a flat surface",
+            "gripping and pulling a heavy door open",
+            "rolling out dough flat"
+          ]
+        },
+        {
+          "model": "mistralai/mistral-medium-3-5",
+          "choice": "squeezing the last toothpaste out of a tube",
+          "correct": false,
+          "options": [
+            "squeezing juice out of a citrus fruit",
+            "squeezing the last toothpaste out of a tube",
+            "scratching an itch in the middle of one's own back",
+            "watering a plant",
+            "scooping and stirring soup",
+            "digging a small hole in garden soil",
+            "pouring liquid into a narrow-necked bottle without spilling",
+            "rolling out dough flat",
+            "scraping ice off a car windshield",
+            "sharpening a pencil",
+            "writing on paper",
+            "detangling and combing hair",
+            "cracking open walnut shells",
+            "peeling the skin off a potato",
+            "cutting food"
+          ]
+        }
+      ]
+    },
+    "scratch_back": {
+      "task": "scratching an itch in the middle of one's own back",
+      "correct": 3,
+      "labels": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "choice": "scratching an itch in the middle of one's own back",
+          "correct": true,
+          "options": [
+            "squeezing the last toothpaste out of a tube",
+            "gripping and pulling a heavy door open",
+            "pumping air into a bicycle tire",
+            "picking up litter from the ground without bending down",
+            "sanding a rough wooden surface smooth",
+            "driving a screw into a piece of wood",
+            "hammering a nail into a wooden board",
+            "pouring liquid into a narrow-necked bottle without spilling",
+            "crushing garlic cloves",
+            "scratching an itch in the middle of one's own back",
+            "sharpening a pencil",
+            "watering a plant",
+            "opening a tightly sealed jar lid",
+            "straining solid particles out of a liquid",
+            "propping a book open to a page while reading"
+          ]
+        },
+        {
+          "model": "x-ai/grok-4.7",
+          "choice": "scratching an itch in the middle of one's own back",
+          "correct": true,
+          "options": [
+            "writing on paper",
+            "propping a book open to a page while reading",
+            "squeezing juice out of a citrus fruit",
+            "sanding a rough wooden surface smooth",
+            "squeezing the last toothpaste out of a tube",
+            "tearing off a strip of adhesive tape",
+            "hammering a nail into a wooden board",
+            "carrying groceries or other items by hand",
+            "rolling out dough flat",
+            "measuring the length of an object",
+            "picking up litter from the ground without bending down",
+            "cutting food",
+            "opening a tightly sealed jar lid",
+            "gripping and pulling a heavy door open",
+            "scratching an itch in the middle of one's own back"
+          ]
+        },
+        {
+          "model": "mistralai/mistral-medium-3-5",
+          "choice": "scratching an itch in the middle of one's own back",
+          "correct": true,
+          "options": [
+            "rolling out dough flat",
+            "squeezing the last toothpaste out of a tube",
+            "wiping and cleaning a flat surface",
+            "watering a plant",
+            "scooping and stirring soup",
+            "digging a small hole in garden soil",
+            "pouring liquid into a narrow-necked bottle without spilling",
+            "scratching an itch in the middle of one's own back",
+            "scraping ice off a car windshield",
+            "sharpening a pencil",
+            "squeezing juice out of a citrus fruit",
+            "detangling and combing hair",
+            "cracking open walnut shells",
+            "peeling the skin off a potato",
+            "cutting food"
+          ]
+        }
+      ]
+    },
+    "support_human_item": {
+      "task": "supporting a human or item",
+      "correct": 3,
+      "labels": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "choice": "supporting a human or item",
+          "correct": true,
+          "options": [
+            "squeezing the last toothpaste out of a tube",
+            "gripping and pulling a heavy door open",
+            "pumping air into a bicycle tire",
+            "picking up litter from the ground without bending down",
+            "sanding a rough wooden surface smooth",
+            "driving a screw into a piece of wood",
+            "hammering a nail into a wooden board",
+            "pouring liquid into a narrow-necked bottle without spilling",
+            "crushing garlic cloves",
+            "supporting a human or item",
+            "sharpening a pencil",
+            "watering a plant",
+            "opening a tightly sealed jar lid",
+            "straining solid particles out of a liquid",
+            "propping a book open to a page while reading"
+          ]
+        },
+        {
+          "model": "x-ai/grok-4.7",
+          "choice": "supporting a human or item",
+          "correct": true,
+          "options": [
+            "writing on paper",
+            "propping a book open to a page while reading",
+            "squeezing juice out of a citrus fruit",
+            "sanding a rough wooden surface smooth",
+            "squeezing the last toothpaste out of a tube",
+            "tearing off a strip of adhesive tape",
+            "hammering a nail into a wooden board",
+            "digging a small hole in garden soil",
+            "rolling out dough flat",
+            "detangling and combing hair",
+            "picking up litter from the ground without bending down",
+            "carrying groceries or other items by hand",
+            "opening a tightly sealed jar lid",
+            "gripping and pulling a heavy door open",
+            "supporting a human or item"
+          ]
+        },
+        {
+          "model": "mistralai/mistral-medium-3-5",
+          "choice": "supporting a human or item",
+          "correct": true,
+          "options": [
+            "rolling out dough flat",
+            "squeezing the last toothpaste out of a tube",
+            "wiping and cleaning a flat surface",
+            "watering a plant",
+            "scooping and stirring soup",
+            "measuring the length of an object",
+            "pouring liquid into a narrow-necked bottle without spilling",
+            "supporting a human or item",
+            "scraping ice off a car windshield",
+            "sharpening a pencil",
+            "squeezing juice out of a citrus fruit",
+            "scratching an itch in the middle of one's own back",
+            "cracking open walnut shells",
+            "peeling the skin off a potato",
+            "carrying groceries or other items by hand"
+          ]
+        }
+      ]
+    },
+    "water_plant": {
+      "task": "watering a plant",
+      "correct": 2,
+      "labels": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "choice": "watering a plant",
+          "correct": true,
+          "options": [
+            "squeezing the last toothpaste out of a tube",
+            "gripping and pulling a heavy door open",
+            "pumping air into a bicycle tire",
+            "picking up litter from the ground without bending down",
+            "sanding a rough wooden surface smooth",
+            "driving a screw into a piece of wood",
+            "hammering a nail into a wooden board",
+            "pouring liquid into a narrow-necked bottle without spilling",
+            "crushing garlic cloves",
+            "watering a plant",
+            "sharpening a pencil",
+            "scooping and stirring soup",
+            "opening a tightly sealed jar lid",
+            "straining solid particles out of a liquid",
+            "propping a book open to a page while reading"
+          ]
+        },
+        {
+          "model": "x-ai/grok-4.7",
+          "choice": "watering a plant",
+          "correct": true,
+          "options": [
+            "writing on paper",
+            "propping a book open to a page while reading",
+            "squeezing juice out of a citrus fruit",
+            "sanding a rough wooden surface smooth",
+            "squeezing the last toothpaste out of a tube",
+            "tearing off a strip of adhesive tape",
+            "hammering a nail into a wooden board",
+            "digging a small hole in garden soil",
+            "rolling out dough flat",
+            "detangling and combing hair",
+            "picking up litter from the ground without bending down",
+            "carrying groceries or other items by hand",
+            "opening a tightly sealed jar lid",
+            "gripping and pulling a heavy door open",
+            "watering a plant"
+          ]
+        },
+        {
+          "model": "mistralai/mistral-medium-3-5",
+          "choice": "pouring liquid into a narrow-necked bottle without spilling",
+          "correct": false,
+          "options": [
+            "rolling out dough flat",
+            "squeezing the last toothpaste out of a tube",
+            "wiping and cleaning a flat surface",
+            "scooping and stirring soup",
+            "supporting a human or item",
+            "measuring the length of an object",
+            "pouring liquid into a narrow-necked bottle without spilling",
+            "watering a plant",
+            "scraping ice off a car windshield",
+            "sharpening a pencil",
+            "squeezing juice out of a citrus fruit",
+            "scratching an itch in the middle of one's own back",
+            "cracking open walnut shells",
+            "peeling the skin off a potato",
+            "carrying groceries or other items by hand"
+          ]
+        }
+      ]
+    },
+    "pump_air": {
+      "task": "pumping air into a bicycle tire",
+      "correct": 3,
+      "labels": [
+        {
+          "model": "anthropic/claude-haiku-5.5",
+          "choice": "pumping air into a bicycle tire",
+          "correct": true,
+          "options": [
+            "gripping and pulling a heavy door open",
+            "peeling the skin off a potato",
+            "hammering a nail into a wooden board",
+            "opening a tightly sealed jar lid",
+            "propping a book open to a page while reading",
+            "sanding a rough wooden surface smooth",
+            "tearing off a strip of adhesive tape",
+            "crushing garlic cloves",
+            "scraping ice off a car windshield",
+            "pumping air into a bicycle tire",
+            "squeezing the last toothpaste out of a tube",
+            "watering a plant",
+            "wiping and cleaning a flat surface",
+            "rolling out dough flat",
+            "hanging and organizing a set of keys"
+          ]
+        },
+        {
+          "model": "x-ai/grok-4.7",
+          "choice": "pumping air into a bicycle tire",
+          "correct": true,
+          "options": [
+            "picking up litter from the ground without bending down",
+            "hanging and organizing a set of keys",
+            "writing on paper",
+            "propping a book open to a page while reading",
+            "gripping and pulling a heavy door open",
+            "cracking open walnut shells",
+            "tearing off a strip of adhesive tape",
+            "carrying groceries or other items by hand",
+            "squeezing juice out of a citrus fruit",
+            "measuring the length of an object",
+            "opening a tightly sealed jar lid",
+            "cutting food",
+            "wiping and cleaning a flat surface",
+            "peeling the skin off a potato",
+            "pumping air into a bicycle tire"
+          ]
+        },
+        {
+          "model": "mistralai/mistral-medium-3-5",
+          "choice": "pumping air into a bicycle tire",
+          "correct": true,
+          "options": [
+            "squeezing juice out of a citrus fruit",
+            "gripping and pulling a heavy door open",
+            "scratching an itch in the middle of one's own back",
+            "watering a plant",
+            "scooping and stirring soup",
+            "digging a small hole in garden soil",
+            "crushing garlic cloves",
+            "pumping air into a bicycle tire",
+            "straining solid particles out of a liquid",
+            "squeezing the last toothpaste out of a tube",
+            "writing on paper",
+            "detangling and combing hair",
+            "sharpening a pencil",
+            "driving a screw into a piece of wood",
+            "cutting food"
+          ]
+        }
+      ]
+    }
+  }
+}

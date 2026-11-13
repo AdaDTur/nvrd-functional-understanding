@@ -1,0 +1,294 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>SAM3 region annotator</title>
+<style>
+  body { font-family: -apple-system, Helvetica, Arial, sans-serif; margin: 0; background: #1a1a1a; color: #eee; }
+  #top { display: flex; align-items: center; gap: 16px; padding: 12px 20px; background: #111; border-bottom: 1px solid #333; }
+  #main { display: flex; gap: 20px; padding: 20px; }
+  #canvasWrap { position: relative; border: 1px solid #333; background: #000; display: inline-block; }
+  canvas { display: block; cursor: crosshair; }
+  #sidebar { width: 320px; display: flex; flex-direction: column; gap: 12px; }
+  button { background: #2a2a2a; color: #eee; border: 1px solid #444; border-radius: 6px; padding: 8px 14px; cursor: pointer; font-size: 13px; }
+  button:hover { background: #3a3a3a; }
+  button.primary { background: #0072B2; border-color: #0072B2; }
+  button.danger { background: #882222; border-color: #a33; }
+  select { background: #2a2a2a; color: #eee; border: 1px solid #444; border-radius: 6px; padding: 6px 10px; font-size: 13px; }
+  .row { display: flex; gap: 8px; flex-wrap: wrap; }
+  #regionList { display: flex; flex-direction: column; gap: 6px; max-height: 420px; overflow-y: auto; }
+  .regionItem { display: flex; justify-content: space-between; align-items: center; background: #222; border-radius: 6px; padding: 6px 10px; font-size: 12px; }
+  .swatch { width: 12px; height: 12px; border-radius: 3px; display: inline-block; margin-right: 6px; }
+  #status { font-size: 12px; color: #999; }
+  h3 { margin: 4px 0; font-size: 13px; color: #aaa; text-transform: uppercase; letter-spacing: 0.05em; }
+  .hint { font-size: 11px; color: #888; line-height: 1.5; }
+</style>
+</head>
+<body>
+
+<div id="top">
+  <strong>SAM3 region annotator</strong>
+  <select id="objectSelect"></select>
+  <span id="status">loading…</span>
+</div>
+
+<div id="main">
+  <div id="canvasWrap">
+    <canvas id="canvas"></canvas>
+  </div>
+
+  <div id="sidebar">
+    <h3>Mode</h3>
+    <div class="row">
+      <label><input type="radio" name="mode" value="point" checked> Point</label>
+      <label><input type="radio" name="mode" value="outline"> Outline</label>
+    </div>
+    <div class="hint" id="modeHint"></div>
+
+    <h3>Current region</h3>
+    <div class="row">
+      <button id="undoBtn">Undo point</button>
+      <button id="clearBtn">Clear points</button>
+    </div>
+    <label for="gtInput" class="hint">Ground-truth affordance (required to commit):</label>
+    <input id="gtInput" list="gtVocab" placeholder="e.g. hold, contain, none…" autocomplete="off"
+           style="background:#2a2a2a; color:#eee; border:1px solid #444; border-radius:6px; padding:6px 10px; font-size:13px;">
+    <datalist id="gtVocab"></datalist>
+    <button id="commitBtn" class="primary">Commit region</button>
+
+    <h3>Committed regions (<span id="regionCount">0</span>)</h3>
+    <div id="regionList"></div>
+
+    <h3>Save</h3>
+    <div class="hint">Writes all committed regions for this object to json/affordance_guided_objects_regions_manual/&lt;object&gt;.json</div>
+    <button id="saveBtn" class="primary">Save regions for this object</button>
+    <div id="saveStatus" class="hint"></div>
+  </div>
+</div>
+
+<script>
+let currentObject = null;
+let img = new Image();
+const canvas = document.getElementById("canvas");
+const ctx = canvas.getContext("2d");
+const statusEl = document.getElementById("status");
+
+async function api(path, opts) {
+  const resp = await fetch(path, opts);
+  if (!resp.ok) {
+    const err = await resp.json().catch(() => ({error: resp.statusText}));
+    throw new Error(err.error || resp.statusText);
+  }
+  return resp.json();
+}
+
+async function loadVocab() {
+  const vocab = await api("/api/vocab");
+  const list = document.getElementById("gtVocab");
+  list.innerHTML = "";
+  for (const v of vocab) {
+    const opt = document.createElement("option");
+    opt.value = v;
+    list.appendChild(opt);
+  }
+}
+
+async function loadObjectList() {
+  const objects = await api("/api/objects");
+  const sel = document.getElementById("objectSelect");
+  sel.innerHTML = "";
+  for (const o of objects) {
+    const opt = document.createElement("option");
+    opt.value = o; opt.textContent = o;
+    sel.appendChild(opt);
+  }
+  sel.addEventListener("change", () => selectObject(sel.value));
+  if (objects.length) selectObject(objects[0]);
+}
+
+function selectObject(objectId) {
+  currentObject = objectId;
+  statusEl.textContent = "loading " + objectId + "…";
+  img = new Image();
+  img.onload = () => {
+    canvas.width = img.width;
+    canvas.height = img.height;
+    refreshState();
+  };
+  img.src = "/api/object/" + objectId + "/image?t=" + Date.now();
+}
+
+function drawOverlayPng(b64) {
+  return new Promise((resolve) => {
+    const overlay = new Image();
+    overlay.onload = () => { ctx.drawImage(overlay, 0, 0); resolve(); };
+    overlay.src = "data:image/png;base64," + b64;
+  });
+}
+
+async function render(state) {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  ctx.drawImage(img, 0, 0);
+  for (const r of state.regions) {
+    await drawOverlayPng(r.mask_png);
+  }
+  if (state.preview && state.preview.mask_png) {
+    await drawOverlayPng(state.preview.mask_png);
+  }
+  // draw points
+  for (const p of state.points) {
+    ctx.beginPath();
+    ctx.arc(p.x, p.y, 6, 0, 2 * Math.PI);
+    ctx.fillStyle = p.label === 1 ? "#00e676" : "#ff5252";
+    ctx.fill();
+    ctx.lineWidth = 2;
+    ctx.strokeStyle = "#000";
+    ctx.stroke();
+  }
+  renderRegionList(state.regions);
+  const scoreTxt = state.preview && state.preview.score !== null && state.preview.score !== undefined
+    ? " | preview score " + state.preview.score.toFixed(3) : "";
+  statusEl.textContent = currentObject + " — " + state.points.length + " point(s) in progress" + scoreTxt;
+}
+
+const PALETTE = ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd",
+                 "#8c564b", "#e377c2", "#7f7f7f", "#bcbd22", "#17becf"];
+
+function renderRegionList(regions) {
+  document.getElementById("regionCount").textContent = regions.length;
+  const list = document.getElementById("regionList");
+  list.innerHTML = "";
+  regions.forEach((r, i) => {
+    const div = document.createElement("div");
+    div.className = "regionItem";
+    const color = PALETTE[i % PALETTE.length];
+    div.innerHTML = `<span><span class="swatch" style="background:${color}"></span>${r.id} (${r.area}px) &mdash; <strong>${r.ground_truth}</strong></span>`;
+    const delBtn = document.createElement("button");
+    delBtn.textContent = "delete";
+    delBtn.className = "danger";
+    delBtn.onclick = () => deleteRegion(r.id);
+    div.appendChild(delBtn);
+    list.appendChild(div);
+  });
+}
+
+async function refreshState() {
+  const state = await api("/api/object/" + currentObject + "/state");
+  lastState = state;
+  await render(state);
+}
+
+let mode = "point";
+const modeHints = {
+  point: "Click = positive point (part of region). Shift+click = negative point (not part of region). Preview updates after every click.",
+  outline: "Click-and-drag a rough loop around the part, then release. SAM3 snaps it to the real boundary -- the filled loop itself is NOT used as-is.",
+};
+function setMode(m) {
+  mode = m;
+  document.getElementById("modeHint").textContent = modeHints[m];
+}
+for (const el of document.querySelectorAll('input[name="mode"]')) {
+  el.addEventListener("change", (e) => setMode(e.target.value));
+}
+setMode("point");
+
+function canvasPoint(e) {
+  const rect = canvas.getBoundingClientRect();
+  return {
+    x: (e.clientX - rect.left) * (canvas.width / rect.width),
+    y: (e.clientY - rect.top) * (canvas.height / rect.height),
+  };
+}
+
+let lastState = null;  // most recent server state, re-drawn under the live in-progress outline path
+let dragPath = null;    // [{x,y}, ...] while actively dragging in outline mode
+
+function drawLivePath(path) {
+  if (!lastState) return;
+  render(lastState).then(() => {
+    if (path.length < 2) return;
+    ctx.beginPath();
+    ctx.moveTo(path[0].x, path[0].y);
+    for (const p of path.slice(1)) ctx.lineTo(p.x, p.y);
+    ctx.strokeStyle = "#ffeb3b";
+    ctx.lineWidth = 2;
+    ctx.setLineDash([6, 4]);
+    ctx.stroke();
+    ctx.setLineDash([]);
+  });
+}
+
+canvas.addEventListener("click", async (e) => {
+  if (mode !== "point") return;
+  const {x, y} = canvasPoint(e);
+  const label = e.shiftKey ? 0 : 1;
+  statusEl.textContent = "scoring…";
+  const state = await api("/api/object/" + currentObject + "/point", {
+    method: "POST", headers: {"Content-Type": "application/json"},
+    body: JSON.stringify({x, y, label}),
+  });
+  lastState = state;
+  await render(state);
+});
+
+canvas.addEventListener("mousedown", (e) => {
+  if (mode !== "outline") return;
+  dragPath = [canvasPoint(e)];
+});
+canvas.addEventListener("mousemove", (e) => {
+  if (mode !== "outline" || dragPath === null) return;
+  dragPath.push(canvasPoint(e));
+  drawLivePath(dragPath);
+});
+canvas.addEventListener("mouseup", async (e) => {
+  if (mode !== "outline" || dragPath === null) return;
+  const path = dragPath;
+  dragPath = null;
+  if (path.length < 3) return;
+  statusEl.textContent = "snapping outline to boundary…";
+  const state = await api("/api/object/" + currentObject + "/outline", {
+    method: "POST", headers: {"Content-Type": "application/json"},
+    body: JSON.stringify({points: path}),
+  });
+  lastState = state;
+  await render(state);
+});
+
+document.getElementById("undoBtn").onclick = async () => {
+  const state = await api("/api/object/" + currentObject + "/undo_point", {method: "POST"});
+  lastState = state;
+  await render(state);
+};
+document.getElementById("clearBtn").onclick = async () => {
+  const state = await api("/api/object/" + currentObject + "/clear_points", {method: "POST"});
+  lastState = state;
+  await render(state);
+};
+document.getElementById("commitBtn").onclick = async () => {
+  const gtInput = document.getElementById("gtInput");
+  try {
+    const state = await api("/api/object/" + currentObject + "/commit", {
+      method: "POST", headers: {"Content-Type": "application/json"},
+      body: JSON.stringify({ground_truth: gtInput.value}),
+    });
+    gtInput.value = "";
+    lastState = state;
+    await render(state);
+  } catch (e) { alert(e.message); }
+};
+async function deleteRegion(regionId) {
+  const state = await api("/api/object/" + currentObject + "/delete_region/" + regionId, {method: "POST"});
+  lastState = state;
+  await render(state);
+}
+document.getElementById("saveBtn").onclick = async () => {
+  const res = await api("/api/object/" + currentObject + "/save", {method: "POST"});
+  document.getElementById("saveStatus").textContent =
+    `Saved ${res.n_regions} region(s) to ${res.saved}`;
+};
+
+loadVocab();
+loadObjectList();
+</script>
+</body>
+</html>

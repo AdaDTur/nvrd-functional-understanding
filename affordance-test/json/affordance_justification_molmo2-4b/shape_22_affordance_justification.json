@@ -1,0 +1,628 @@
+{
+  "object": "shape_22",
+  "model": "allenai/Molmo2-4B",
+  "image_path": "/shared/nas/data/m1/adadt2/nvrd/regions_test/data/novel/shape_22.png",
+  "region_source": "sam_slic",
+  "method": "per_part_with_comparative_context",
+  "top_k": 10,
+  "modes": [
+    "logprob",
+    "generation"
+  ],
+  "regions": [
+    {
+      "region_id": "shape_22_region_9",
+      "area": 93524,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "T_m6=Yo0h0]O9G;F9I3M3L4M4M2N3M2O1N20O0100O10O01O1O001N101O00001O001O0000001O0000000O101N100O2O0O2O0O101N1O100O2N1N2\\OgL^TO\\3`k0d0N1O1O101N110O000001O0001O01O001O0000010O0000000001O000001O00000000001O0001O00000001O000000O10000000001O01N11O00000O10000000000000000000000000001O00000000O0101O0000000000O11O000000000O10000000000000000O011O0000000000000O100000000000O1000O10000000000000000O1000000000000O100000O1000000000O100000O010000000000O100000000O1000O1000000000O100000000O100000000O01000000000O100000000O10O1000O10000O100000000O010000000O100000O10O1000000O100000O10O1000000O10000O10O10O100000O10O100000000O1000O10O1000000O10O1000O100000O0100O10000O10O10O100000O10O10000000O010000O010O100000O10O100O10O10O1000000O01000O1000O10O100O10O1000O100000O0100O1000O010000O01000O1000O10O1000O0100000O0100O10000O01000O010O10O10O10000O010O10O1000O10O10O10O0100O1000O010000O0100000O010O100O010O10O10O100O010O10O10O100O010O01000O10O10O10O01O10O010O10O010O10O10O10O0100O010O010O100O010O00100O010O10O0100O00100O010O010O1O010O010O1O010O001O10O01O1O0O2O001O10OO2N1O1M4L30100O010000O010O1O100O2O000O101N10000000000O101N10000O100O1O2M2H8N201O00001O001O2ON100O02O0O2N2B]UO\\Kej0^3VUO_M7QOdj0`3UUO_MWk0e30000001kNhTO`MXk0X2jTOjLNn0Yk0W2iTOkLNn0Zk0b31O001O001O010O1O0O2O1O1N2O0O2N3M2O1N2N2N3M1K6M4N100N3N1N4L2N3L4L4L3N3L5K6J5K5I8I9F9F7Iddh5"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "drink with",
+          "justification": "The topmost, dome-shaped component appears to be a spout or pour spout, designed for dispensing liquid, which is the primary function for drinking",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "drink with",
+                "logprob": -0.7060217135294806,
+                "prob": 0.5294535938160806
+              },
+              {
+                "option": "carry",
+                "logprob": -1.9550813035166357,
+                "prob": 0.1518337131697012
+              },
+              {
+                "option": "none",
+                "logprob": -2.5019439091847744,
+                "prob": 0.0878757007089341
+              },
+              {
+                "option": "hold",
+                "logprob": -2.642625397478696,
+                "prob": 0.0763434192242598
+              },
+              {
+                "option": "eat",
+                "logprob": -3.39256104346714,
+                "prob": 0.036064398577470874
+              },
+              {
+                "option": "hit",
+                "logprob": -3.3926197964756284,
+                "prob": 0.03606227974779954
+              },
+              {
+                "option": "beat",
+                "logprob": -3.705129091744311,
+                "prob": 0.026383482236240135
+              },
+              {
+                "option": "stir",
+                "logprob": -4.268115452432539,
+                "prob": 0.015025545422780326
+              },
+              {
+                "option": "sit on",
+                "logprob": -4.94762863314827,
+                "prob": 0.007615903297022127
+              },
+              {
+                "option": "sip",
+                "logprob": -5.6269731071952265,
+                "prob": 0.003860876097612441
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "drink with",
+              "hold",
+              "sip",
+              "carry",
+              "eat",
+              "pick up",
+              "pour",
+              "stir",
+              "sit on",
+              "none"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. drink with\n2. hold\n3. sip\n4. carry\n5. eat\n6. pick up\n7. pour\n8. stir\n9. sit on\n10. none"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_22_region_2",
+      "area": 81052,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "^[Z8g0Ro0:H8I5J7K5K4L4M3K5M4L3K5L3N3L3N2N2N3L3N2N3M3M2N3N1N2N2N3N1N2N3N1N2O1O1N3N1N2O1O1N2O2M2O1O1O1N2O1O1O1O1O1O1N2O1O1O1O1O2N1O1O1N101O100O1O1O1O1O1O1O1O1O100O1O1O1O1O1O100O1O100O1O1O1O100O1O1O1O010O1O100O1O100O1O1O100O10O01O100O100O100O010O1O100O1000O0100O1O100O100O10000O010O100O100O10O010000O100O10O10O100O10000O01000O10000O10O1000O1000O010000O10O10O10000O0100000O1000O10O10000O010000000O01000000000O01000000000O01000000O10O1000O100000000O1000O10O100000000O1000000O0100000O1000000O1000000O10000O1000000O10000O1000001N10000O1000000O100000000O10000O2O00000O1000000O101O0O10000O1000001N10000O1000000O2O000O10000O2O000O101O0O10001O0O10000O2O000O10001N10001O0O2O000O101O0O101O0O101O0O101O0O2O001N10001N101O0O101N101O0O101O0O10001N101O0O101N101O0O2O001N101O0O2O1N101N101O0O101N101O1O0O2O0O2O1N101N101N101O0O2O1N101O1N2O0O2O1O1N101N101N2O0O2O1N2O0O2O1N2O1N2O1O0O2O1N2O0O2N2O1N2O1N2N2O1N2O1N2O1N2O1N2N2O1N2O1N2O1N2N2N2N2O2M2N2N2N3N1N2N2N3M2N3L4L4K6JYgo8"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "drink with",
+          "justification": "The topmost, dome-shaped section appears to be a spout or pour spout, designed for dispensing liquid, which is the primary function for drinking",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "drink with",
+                "logprob": -0.5649627889506519,
+                "prob": 0.5996957183145956
+              },
+              {
+                "option": "none",
+                "logprob": -2.0014589618949685,
+                "prob": 0.14258327535728924
+              },
+              {
+                "option": "carry",
+                "logprob": -2.188959676946979,
+                "prob": 0.11820560251354276
+              },
+              {
+                "option": "hold",
+                "logprob": -3.0014795789902564,
+                "prob": 0.05245237423208793
+              },
+              {
+                "option": "eat",
+                "logprob": -3.7201878676132765,
+                "prob": 0.02556431188234764
+              },
+              {
+                "option": "hit",
+                "logprob": -3.9389776722237,
+                "prob": 0.02054068404809482
+              },
+              {
+                "option": "beat",
+                "logprob": -4.493694488395704,
+                "prob": 0.011795176668391067
+              },
+              {
+                "option": "stir",
+                "logprob": -5.197331227594987,
+                "prob": 0.0058360485623278465
+              },
+              {
+                "option": "sit on",
+                "logprob": -5.243987581459805,
+                "prob": 0.005570014170033597
+              },
+              {
+                "option": "sip",
+                "logprob": -5.368661239510402,
+                "prob": 0.004917124654646096
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "none",
+              "drink with",
+              "eat",
+              "hold",
+              "stir",
+              "carry",
+              "hit",
+              "sit on",
+              "pick up"
+            ],
+            "n_valid": 9,
+            "invalid": [],
+            "raw": "none\ndrink with\neat\nhold\nstir\ncarry\nhit\nsit on\nstir\npick up"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_22_region_5",
+      "area": 73716,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "^ei6;ao08J5K5L4K4L4M4L3M3M2N4M2M3M3H9L3N1N3O1N2O1000000O00010O1O1N101O001O00000010O01O1O0O2O1O0O2O0O2N2O0O100O101N101N100O100O100O2O0O100O1O100O1O100O100O1O010O1O2N1O1O100O010O1O1O2O0O00100O001O100O2N10O010O01O1O1O1O100O1O001O10O01O1O00100O001O1O10O01O001O010O1O001O010O001O001O010O001O0010O01O001O00010O001O000010O0001O0000001O000010O0001O0010O0001O01O01O0000001O01O000001O000000001O01O01O000001O0001O00001O000000001O0000010O0000000000001O000001O000001O0000000001O0000000001O00000000000000010O00000000000000000000001O000001O00000000000000000000001O000000000000000001O00000000000000000000000000O10000000000000000000000000000000000000000000000O1000000000000000001O0O01000000000000000000000O100000000000000000000O100000000000000O1000O10000000O1000000O100000000O10000000O11N10000O10O10000001N1000O100000O10O1000O100000000O100O10O10O10000O1000O01000000O100O1000000O10O0100O1O100O10O010000O100O1O010O100O100O1O10O0100O1O100O1O001O100O001O001O100O1O1O1O1O1O1O1O001O1O1O1N101O1O1O001O1O1O1O10O01N2O001O1N2_O\\SOdMel0S2fSOjM\\l0S2gSOkM[l0T2gSOiM[l0R2k0N3M3N1N3O1N1O2N101N2O1M201O1O1O002N1O1N20O0100O001O010O0010000O11N101N2O0O2N100O10000O1O010O10000M201O000001N1O101N1N3M101O1O2M2N3N2N3L3N3J6KjZZ7"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "drink with",
+          "justification": "The bottom section is a bowl-shaped cup with a wide opening, designed specifically for holding and consuming liquids, unlike the other numbered parts which appear to be structural or decorative components",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "drink with",
+                "logprob": -0.4874022198782768,
+                "prob": 0.6431922189039677
+              },
+              {
+                "option": "carry",
+                "logprob": -1.8610673624498304,
+                "prob": 0.16284168607201355
+              },
+              {
+                "option": "hold",
+                "logprob": -2.5954585695581045,
+                "prob": 0.07813102855915018
+              },
+              {
+                "option": "none",
+                "logprob": -2.829779107851209,
+                "prob": 0.061810096959710466
+              },
+              {
+                "option": "eat",
+                "logprob": -3.5641249094333034,
+                "prob": 0.02965767457073522
+              },
+              {
+                "option": "hit",
+                "logprob": -5.3259996525302995,
+                "prob": 0.005092893759915542
+              },
+              {
+                "option": "sit on",
+                "logprob": -5.527447701519122,
+                "prob": 0.0041636751703811835
+              },
+              {
+                "option": "sip",
+                "logprob": -5.873776498687221,
+                "prob": 0.002944883746664124
+              },
+              {
+                "option": "stir",
+                "logprob": -6.293233082978986,
+                "prob": 0.0019359782556696132
+              },
+              {
+                "option": "lift",
+                "logprob": -6.419599499204196,
+                "prob": 0.0017061618932982883
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "none",
+              "drink with",
+              "eat",
+              "hold",
+              "pick up",
+              "stir",
+              "carry",
+              "sip",
+              "sit on",
+              "write"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "none\ndrink with\neat\nhold\npick up\nstir\ncarry\nsip\nsit on\nwrite"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_22_region_4",
+      "area": 52803,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "YcT7>\\o0:I7J7H6K5L5J3M2N3M3N3L4M2M4M3M2N2N3L3N1O2N2N101N2N2N2N2N2N2O1N1O2O0O2O1N2O0O2O0O2O0O2O0O1000100O01XLTTO[3_l0I3N2M100O2O0O1O100O1O010O10O01O1O010O0010O01O1O01O010O0001O010O001O01O01O000010O0001O01O0001O01O00010O000001O0001O010O00000001O01O0001O01O0001O000001O0001O000001O0001O0000001O0001O000000010O000000000010O000000000010O00000000000010O000000000000010O000001O0000000000000001O0001O000000000000010O00000000000000000000001O0001O000001O00000000000000000000000010O0000000000000000000000000000000000000001O00000000000000000000001O0000000000O1000000001O00000000000000000000O11O000000000O100000000000000000000000O1001O00000000O10000000O1000000000000000000O1000000000000000000O100000000000O100000O10000000000000000000000O1000000000O100000O100000000000000O10000000O100000O1000000000000O10O10000000O100000O10O10000000000O10000000O10O1000000000O010000O10000000O0100000000O100000O01000000O1000O01000000O10O10O10000O10O1000O1000O100000O1000O100000O100O10O01000O0100O100O010O1000O10O10O10O010O100O0100000000O01O100O010O1O1O00100OPMcSO_2]l0_MmSOX2Tl0fMoSOY2Rl0eMQTOX2ok0hMSTOW2mk0hMUTOW2lk0gMWTOV2jk0hMYTOW2hk0gMZTOW2hl001O1N2O1O1N2O1O1O1N2O000O101N101N2N2N1O2O0O2O001N2O2M100O2N1O1O00100O100O100O00001O00O2N1N2O1O1M3N2O1O1L3L5J6N1101N102N1N3L4N3L4L6I5L4L7Eo\\c6"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "drink with",
+          "justification": "The curved, hollow section at the bottom of the object is designed to hold liquid, making it the primary drinking surface and distinguishing it from the other numbered parts that serve different functions",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "drink with",
+                "logprob": -0.6918826340988744,
+                "prob": 0.5338713808404518
+              },
+              {
+                "option": "carry",
+                "logprob": -1.5966339815349784,
+                "prob": 0.21602704380834478
+              },
+              {
+                "option": "none",
+                "logprob": -2.3309766853926703,
+                "prob": 0.10365425594848371
+              },
+              {
+                "option": "hold",
+                "logprob": -2.8310241162835155,
+                "prob": 0.06286650235752868
+              },
+              {
+                "option": "eat",
+                "logprob": -3.83095761705772,
+                "prob": 0.023128831753957586
+              },
+              {
+                "option": "hit",
+                "logprob": -4.377902929729316,
+                "prob": 0.013384999698793384
+              },
+              {
+                "option": "stir",
+                "logprob": -4.604823705245508,
+                "prob": 0.010667629534882163
+              },
+              {
+                "option": "beat",
+                "logprob": -4.916986403375631,
+                "prob": 0.007807237443246033
+              },
+              {
+                "option": "pour",
+                "logprob": -5.17082627498894,
+                "prob": 0.006056979898125875
+              },
+              {
+                "option": "sip",
+                "logprob": -5.744105882797157,
+                "prob": 0.003414160724759958
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "none",
+              "drink with",
+              "hold",
+              "eat",
+              "pick up",
+              "stir",
+              "carry",
+              "sip",
+              "sit on",
+              "write"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "none\ndrink with\nhold\neat\npick up\nstir\ncarry\nsip\nsit on\nwrite"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_22_region_6",
+      "area": 36496,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "_ai87ho02gPOLdn04[QOObn03\\QO0cn0O]QO2bn0O\\QO3bn0g0O1N3N1O10O01O001O001O1O010O001O001O001O00010O00001O001O000010OO101O0000010O0000000O20O0001O0000001O000000001O0000001O00010O0000001O0000000000001O0O11O0001O0000000000001O000000001N11O0000000001O000000000000001N1000000001O00O1000001O0000000000001O00000000000O10001O0000000000000O11O000000O10000000001O000000O01000001O000000000000000000000O1000000000001O000000000O10000000000000000O100000000000000O1000000000000000000O10000000000000000O1000000000000O0100000000000O10000000000O1000000000000O10000000000O10000000O0100000000000O010000O1000000000000O10O100000O1000000O10000000O10O10000000O10O1000000O10000000O10O10000O01000000000O1000O10O10000000O0100000000O01000O100O10O100000O1000O01000000O1000O010000000O01000000O0100000O10O1000O10O10O1000000O01000O1000O10O01000O10O10O10O100O0100O010O100O01000O01000O10O100O01000O0100O10O010O1O01000O01000O10O010O10O10O010O010O0100O010O010O10O0100O010O010O10O01O01000O01O01O001O1O010O001O001N2N2N1O2N1N3L4L3mNT1H8M2M4L3N4L3O2MPaR8"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "none",
+          "justification": "Part 5 appears to be a smooth, flat surface without any protrusions or features that would allow it to be grasped or manipulated, unlike the other numbered parts which have handles or raised edges",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.4516911145765334,
+                "prob": 0.2533425505276005
+              },
+              {
+                "option": "drink with",
+                "logprob": -1.4877563177142292,
+                "prob": 0.24436849818040068
+              },
+              {
+                "option": "carry",
+                "logprob": -1.8110788664489519,
+                "prob": 0.1768593485536558
+              },
+              {
+                "option": "hold",
+                "logprob": -2.248607229877962,
+                "prob": 0.11418573903363104
+              },
+              {
+                "option": "eat",
+                "logprob": -2.7485335786477663,
+                "prob": 0.06926225268810736
+              },
+              {
+                "option": "hit",
+                "logprob": -3.107968524971511,
+                "prob": 0.048349946588640176
+              },
+              {
+                "option": "beat",
+                "logprob": -3.865797709178878,
+                "prob": 0.022660785803730217
+              },
+              {
+                "option": "cut",
+                "logprob": -4.19361075758934,
+                "prob": 0.016327044172025896
+              },
+              {
+                "option": "stir",
+                "logprob": -4.86654581213952,
+                "prob": 0.00833020303681349
+              },
+              {
+                "option": "pick up",
+                "logprob": -5.279862013725506,
+                "prob": 0.00551003859932819
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "none",
+              "eat",
+              "drink with",
+              "hold",
+              "pick up",
+              "stir",
+              "carry",
+              "sit on",
+              "hit"
+            ],
+            "n_valid": 9,
+            "invalid": [],
+            "raw": "none\neat\ndrink with\nhold\npick up\nstir\ncarry\nsit on\nstir\nhit"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_22_region_0",
+      "area": 34287,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "jhZf06eo06K5L3L5L3N2N2N1O2N2N2O1O1N2N2O1O1O1O1O2N1O100O2M2eK]NXZOd1ce0fNXZOZ1ge0iNVZOX1he0kNWZOU1he0mNWZOT1de0QO[ZOo0ce0UO[ZOk0be0YO]ZOg0ae0[O_ZOe0]e0@bZO`0Ye0EgZO;Te0KkZO5Pe00P[O0md04R[OLjd08V[OHfd0=Y[OCad0c0_[O]O]d0h0b[OXOYd0m0g[OSOUd0R1j[OnNRd0V1n[OjNmc0\\1R\\OdNgc0c1X\\O^Ndc0g1[\\OYN`c0l1`\\OTN[c0R2d\\OnMWc0X2h\\OhMTc0\\2k\\OdMSc0`2l\\O`MQc0c2o\\O]Mnb0f2R]OZMlb0h2S]OYMkb0j2T]OUMjb0n2V]ORMhb0P3X]OPMfb0R3Y]OoLeb0S3[]OmLcb0U3]]OjLbb0X3]]OiLab0Y3_]OgL`b0Y3a]OgL^b0Z3a]OgL]b0[3c]OdL]b0\\3d]OdL[b0]3d]OdL\\b0[3e]OdL[b0[3f]OfLYb0Y3i]OgLUb0X3m]OiLRb0T3R^OlLna0Q3T^OoLla0P3V^OPMia0m2Z^OTMea0i2_^OWM`a0d2e^O\\M\\a0_2h^ObMWa0^2j^OaMWa0X2o^OiMPa0T2S_OmMm`0l1Y_OUNf`0g1__OXNb`0b1c_O_N\\`0^1h_ObNX`0[1j_OeNW`0W1l_OjNS`0S1P@mNQ`0n0T@ROl?j0W@WOh?g0Z@YOg?c0]@]Oc?`0_@@a?>a@C_?:c@F^?6e@K[?3f@M[?1f@0Z?Of@1Z?0d@2\\?Nc@3]?Mb@3_?M_@5a?K]@6d?KZ@5g?KW@7i?JT@7m?JP@8P`0Jl_O7U`0Kg_O7Y`0Lb_O5_`0M]_O5d`0MV_O5k`0MP_O6Pa0Mk^O4Va0Od^O3]a01\\^O2ea00U^O2la02l]O1Ub01e]O2]b01[]O3eb02R]O1ob03h\\O1Zc07U\\O0lc08e[OO[d0>cZO6_e0T51O2N2N1O2N1O2N2N2N2N1O2N2N2N2N2N2M3N2N2N2M3N2N3L3N2N3L3N3L3M4M2M4L3N3L4L3M5K3M5K4L4L5J5L4L4K5L5J5K7I7I6J6K6I6I8H8H8H9F;E<B?@b0[Om]c3"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "carry",
+          "justification": "The curved, textured surface of part 6 is positioned on the side of the object, designed for easy gripping and lifting, unlike the other parts which serve different functions",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "carry",
+                "logprob": -0.7890903521620203,
+                "prob": 0.4852625091947906
+              },
+              {
+                "option": "drink with",
+                "logprob": -1.4789391956292093,
+                "prob": 0.24343285551259225
+              },
+              {
+                "option": "hold",
+                "logprob": -2.132874554663431,
+                "prob": 0.12658395932412295
+              },
+              {
+                "option": "none",
+                "logprob": -2.3359584400604945,
+                "prob": 0.10331906438551991
+              },
+              {
+                "option": "eat",
+                "logprob": -4.210943423851859,
+                "prob": 0.015844729619269797
+              },
+              {
+                "option": "hit",
+                "logprob": -4.890719706803793,
+                "prob": 0.008029005289014466
+              },
+              {
+                "option": "beat",
+                "logprob": -6.039175915764645,
+                "prob": 0.0025462060735470934
+              },
+              {
+                "option": "lift",
+                "logprob": -6.195321284089005,
+                "prob": 0.0021781133550980184
+              },
+              {
+                "option": "sit on",
+                "logprob": -6.35198140333523,
+                "prob": 0.001862275169103663
+              },
+              {
+                "option": "pick up",
+                "logprob": -6.578200540039688,
+                "prob": 0.0014852451052948053
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "none",
+              "hold",
+              "carry",
+              "drink with",
+              "eat",
+              "stir",
+              "pick up",
+              "pour",
+              "sip",
+              "sit on"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "none\nhold\ncarry\ndrink with\neat\nstir\npick up\npour\nsip\nsit on"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_22_region_1",
+      "area": 24295,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "`ac3410Vo0R1WOf0]O=A`0F9E9H:F:G7K5K6I6J6I7K6J4L5J6L4K4N2M4K5K4K6L3M3L4M3N3L3N2M3L4M3M3N2M3N2M3M3N101N2L4M3N2N1O2N1N3N1O2N2N2N2N1O2N1O2O0O2NbK[ZOcNde0S1oZOfNPe0S1^[OfNad0T1j[OiNTd0Q1X\\OjNgc0R1a\\OlN]c0P1j\\OnNUc0o0Q]OPOnb0n0V]OPOib0m0\\]OROdb0j0b]OTO]b0j0h]OUOWb0f0P^OXOoa0e0W^OYOha0f0[^OZOca0b0c^O]O\\a0a0i^O]OWa0b0j^O_OTa0`0o^O_OQa0>S_OAl`0?V_OAi`0<[_OCd`0<^_ODb`0:a_OE^`0:d_OF\\`08g_OGX`07l_OHT`07n_OIQ`06P@Jo?6R@Jn?5T@Jl?4V@Li?4X@Lh?3Z@Lf?3[@Me?2\\@Nc?2_@Lb?3_@Ma?2`@Ma?3`@Ic?7]@Ge?9[@Eg?;Y@Dh?<Y@Ai??W@@j?`0V@_Ok?b0U@[Om?f0R@YOo?i0P@UOQ`0l0P@ROP`0o0S@lNn?V1T@eNm?]1V@]Nl?d1V@VNl?JaYOg1e6SNQ`0[2i61O3N0O010O0001O001O1O001O1O1O1O1O001N2O1O2N1O2N2N3M1O2N2N3M2N2M5L3L9G;D8J1N2Neb^g0"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "carry",
+          "justification": "The curved, elongated shape of part 7 extends outward from the main body, providing a natural grip and leverage for lifting or transporting the object, unlike the other parts which appear to be more structural or functional components",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "carry",
+                "logprob": -0.8424486097646877,
+                "prob": 0.4606270343861895
+              },
+              {
+                "option": "drink with",
+                "logprob": -1.7976293323736172,
+                "prob": 0.17722284587187828
+              },
+              {
+                "option": "none",
+                "logprob": -1.858056984783616,
+                "prob": 0.16683082991879059
+              },
+              {
+                "option": "hold",
+                "logprob": -2.0456321824749466,
+                "prob": 0.13829721579051046
+              },
+              {
+                "option": "eat",
+                "logprob": -4.092405408009654,
+                "prob": 0.017861219983582432
+              },
+              {
+                "option": "hit",
+                "logprob": -4.272177402977832,
+                "prob": 0.014922346974097542
+              },
+              {
+                "option": "beat",
+                "logprob": -5.261925045953831,
+                "prob": 0.00554619575578616
+              },
+              {
+                "option": "lift",
+                "logprob": -5.928370914887637,
+                "prob": 0.0028481406401020693
+              },
+              {
+                "option": "sit on",
+                "logprob": -5.963959091808647,
+                "prob": 0.002748562911546565
+              },
+              {
+                "option": "pick up",
+                "logprob": -6.053424441968673,
+                "prob": 0.0025133407576203672
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "none",
+              "hold",
+              "carry",
+              "drink with",
+              "eat",
+              "pick up",
+              "stir",
+              "sit on",
+              "take photo",
+              "write"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "none\nhold\ncarry\ndrink with\neat\npick up\nstir\nsit on\ntake photo\nwrite"
+          }
+        }
+      }
+    }
+  ]
+}

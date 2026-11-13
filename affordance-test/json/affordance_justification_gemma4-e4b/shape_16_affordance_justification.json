@@ -1,0 +1,456 @@
+{
+  "object": "shape_16",
+  "model": "google/gemma-4-E4B-it",
+  "image_path": "/shared/nas/data/m1/adadt2/nvrd/regions_test/data/novel/shape_16.png",
+  "region_source": "sam_slic",
+  "method": "per_part_with_comparative_context",
+  "top_k": 10,
+  "modes": [
+    "logprob",
+    "generation"
+  ],
+  "regions": [
+    {
+      "region_id": "shape_16_region_3",
+      "area": 49235,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "WUW9Y37jLQl0R5aN8H6J5L3M3M2N2O2M2O1N2O001O1N2O001O00001N101O00001N10001O001N10001O00001N10001O00001O0O101O00001O0000001N101O0000001O001O00000O2O0000000000000000000000000O1000000000000000000000O10000000000000O1000O10000O100000000000000000000000000000O10O100000000O10000000000000000000000000000O01000000000O10000000000O1000000O100O10000O100O100O100O1O100O1O1O001N2O1N2O1O1N2N2O1O1N2M3O1N2O1N2O1N2N2O1O1M3O1N2N2O1N2O2M2N2O1N2N2N2N2N2O1O1N3N1N2N2O1N2N3M2O1N2O2M2N2N2O2M2N3M2N3N1N3N2M3M3M3M3M3M3M4L4L4M4K5K8G=Cc0]OoiP?"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "hold",
+          "justification": "Its blocky upper structure suggests a surface designed for grasping by hands",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "hold",
+                "logprob": -0.36263182750190026,
+                "prob": 0.6964467440867889
+              },
+              {
+                "option": "none",
+                "logprob": -1.487623691544286,
+                "prob": 0.2261049934246247
+              },
+              {
+                "option": "sit on",
+                "logprob": -2.6126377580802114,
+                "prob": 0.07340451144288833
+              },
+              {
+                "option": "look out",
+                "logprob": -6.1126465794636715,
+                "prob": 0.0022166046233632578
+              },
+              {
+                "option": "lift",
+                "logprob": -6.862646340934589,
+                "prob": 0.0010470501344797757
+              },
+              {
+                "option": "stick",
+                "logprob": -8.363041192322271,
+                "prob": 0.0002335362338764518
+              },
+              {
+                "option": "pick up",
+                "logprob": -8.48764061906229,
+                "prob": 0.00020617757572157332
+              },
+              {
+                "option": "carry",
+                "logprob": -9.362635731547925,
+                "prob": 8.594802069887288e-05
+              },
+              {
+                "option": "lie on",
+                "logprob": -9.612647533000171,
+                "prob": 6.693559588181997e-05
+              },
+              {
+                "option": "ride",
+                "logprob": -9.73843743634643,
+                "prob": 5.902381451104496e-05
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "hold",
+              "sit on",
+              "look out",
+              "carry",
+              "lift",
+              "brush with",
+              "pack",
+              "wear",
+              "stick",
+              "none"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. hold\n2. sit on\n3. look out\n4. carry\n5. lift\n6. brush with\n7. pack\n8. wear\n9. stick\n10. none"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_16_region_5",
+      "area": 43738,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "a\\X=7ho07J1N2O0O2N1M4N1O001N1000000000000001O0000O10O10O100000O01001O0000O1O10O100O1O10000000O10O1000O1O1000O01O10O01O00100O01O01O10O01000O10O0O110O0000100O00000010O10N1010O100O10O00001O100O2N101N2O1M3O1O1O1N2N2N1N3N2N2N2O1M3O1N3M2N2N2O1N2N3L3L4A?O101N100010O0000010O00010O01O10O01O010O010O010O010O010O10O10O10O10O10O10O1000O0100O01000O100000O01000000O10000000O10O10001O00O100001O000O100000000000001O00000000001O00001O0000001O0000010O00001O001O010O001O001O010O001O1O010O1O010O002OO01O00100O10O0100O10000O1O10O01O2O0O100O10000O101N10001N10000O2O0O2O000O101O001N2O00001O1O001O1N2O001O1O1N110O1O1O1O1O010O2N002N1O1O100O1O1O101N1O10001N1O101O1N1O1O2O1O0O2OO11N2O1O0nWOUJle0l5oYOWJQf0j5lYOXJUf0i5fYOZJ\\f0f5`YO]J`f0d5[YO_Jef0c5VYO`Jjf0c5PYO_JRg0c5hXO`JYg0a5bXObJ`g0_5XXOeJig0i63M2O010N3N2N2N1O3L2O1N101N4L2N2N2O3M0O3L5L4L2O2O1M4L2N2O3L5K2N3M3L6K3N2M6J5K3N3L5K4L2M4M6J4K4M4L4K7J3L5L8G7I5K7J6J6I4M3L8H7I6I6K8GkVS6"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "swing",
+          "justification": "Its curved arm structure suggests movement around a pivot point rather than being fixed like some of the more solid components",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "swing",
+                "logprob": -0.2678048311099701,
+                "prob": 0.7676075417269749
+              },
+              {
+                "option": "none",
+                "logprob": -1.5178011654834336,
+                "prob": 0.21992404896878923
+              },
+              {
+                "option": "ride",
+                "logprob": -5.018163014261518,
+                "prob": 0.006638728180147427
+              },
+              {
+                "option": "hold",
+                "logprob": -5.517799019740778,
+                "prob": 0.004028058107027463
+              },
+              {
+                "option": "throw",
+                "logprob": -7.267796635581362,
+                "prob": 0.0006999732105514285
+              },
+              {
+                "option": "hit",
+                "logprob": -7.767812966962083,
+                "prob": 0.00042454827966072184
+              },
+              {
+                "option": "sit on",
+                "logprob": -8.517828225386893,
+                "prob": 0.00020053934739756486
+              },
+              {
+                "option": "carry",
+                "logprob": -8.642803072800234,
+                "prob": 0.0001769798043685705
+              },
+              {
+                "option": "stick",
+                "logprob": -9.142859337094706,
+                "prob": 0.00010733763805310555
+              },
+              {
+                "option": "lift",
+                "logprob": -9.517818688844272,
+                "prob": 7.3775006608642e-05
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "swing",
+              "hold",
+              "carry",
+              "ride"
+            ],
+            "n_valid": 4,
+            "invalid": [
+              "lean on",
+              "support",
+              "prop",
+              "brace",
+              "rest on",
+              "lean against"
+            ],
+            "raw": "1. swing\n2. hold\n3. carry\n4. ride\n5. lean on\n6. support\n7. prop\n8. brace\n9. rest on\n10. lean against"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_16_region_2",
+      "area": 11030,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "^eR;e1Wn0X2jM8H4L4L3M3M3N1N3M2O2N1N2N2O1M3O1O1N2O1O1O1O1N2O1O1N2N2O100O1N2O1O001O1O1N1010O0000O1000N3M2I7H8H8I7G:G7L5J6I8K4I8J5L4J6K6J5M4K4L5L3M4K4M3N3K4M4L4M2N3M2N3L4N2M3M3M3M2O2M4M2N3MY]Tb0"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "sit on",
+          "justification": "Its flat, supportive surface at the base suggests its function as seating for human weight",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "sit on",
+                "logprob": -0.1466895191384765,
+                "prob": 0.8642468957461859
+              },
+              {
+                "option": "none",
+                "logprob": -2.1466794013667823,
+                "prob": 0.11696428183408657
+              },
+              {
+                "option": "stick",
+                "logprob": -4.522623443161137,
+                "prob": 0.010869107194351193
+              },
+              {
+                "option": "lie on",
+                "logprob": -5.39670967982601,
+                "prob": 0.004535060056013119
+              },
+              {
+                "option": "hold",
+                "logprob": -6.896702527512389,
+                "prob": 0.001011915914095048
+              },
+              {
+                "option": "eat",
+                "logprob": -7.39675628778059,
+                "prob": 0.0006137250320405578
+              },
+              {
+                "option": "ride",
+                "logprob": -7.525652104057372,
+                "prob": 0.0005395045298300338
+              },
+              {
+                "option": "drink with",
+                "logprob": -7.896779534094094,
+                "prob": 0.00037223439538768775
+              },
+              {
+                "option": "sip",
+                "logprob": -8.459253519773483,
+                "prob": 0.00021209828278696577
+              },
+              {
+                "option": "lift",
+                "logprob": -8.646714090384194,
+                "prob": 0.00017584258557552836
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "sit on",
+              "lie on",
+              "hold",
+              "brush with",
+              "drag",
+              "carry",
+              "stick"
+            ],
+            "n_valid": 7,
+            "invalid": [
+              "support",
+              "rest on",
+              "lean on"
+            ],
+            "raw": "1. sit on\n2. lie on\n3. hold\n4. support\n5. rest on\n6. lean on\n7. brush with\n8. drag\n9. carry\n10. stick"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_16_region_1",
+      "area": 4073,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "X]Q;8ao0:J4L3N3M2N3N2N2N2N2M3N2N2N3M2N2N2O1N2O1N2N2O1N2O1N101O0O2O001O000O100000000000000000O10001N100O101N101N101N1O2O0O2N1O2N2N2N2N2M4M3L4L5K4L6J5JTcfb0"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "hold",
+          "justification": "The small circular component appears designed for grasping by fingers due to its size and central placement relative to the main structure",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "hold",
+                "logprob": -0.3445038794689026,
+                "prob": 0.712793050321786
+              },
+              {
+                "option": "none",
+                "logprob": -1.3444989919371437,
+                "prob": 0.2622231906443066
+              },
+              {
+                "option": "hit",
+                "logprob": -4.344512939222113,
+                "prob": 0.013055141835194226
+              },
+              {
+                "option": "catch",
+                "logprob": -5.219517469067796,
+                "prob": 0.005442168140370764
+              },
+              {
+                "option": "pick up",
+                "logprob": -5.594518065216562,
+                "prob": 0.0037403415864539435
+              },
+              {
+                "option": "swing",
+                "logprob": -7.844548819804913,
+                "prob": 0.00039421697864140383
+              },
+              {
+                "option": "stick",
+                "logprob": -7.844564196806459,
+                "prob": 0.0003942109168129203
+              },
+              {
+                "option": "cut",
+                "logprob": -8.068621814250946,
+                "prob": 0.0003150805972803598
+              },
+              {
+                "option": "sit on",
+                "logprob": -8.094537376527569,
+                "prob": 0.00030702000496093376
+              },
+              {
+                "option": "open",
+                "logprob": -8.34450495233341,
+                "prob": 0.00023911517327327372
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "hold",
+              "pick up",
+              "carry",
+              "lift",
+              "push",
+              "drag",
+              "catch",
+              "hit",
+              "swing"
+            ],
+            "n_valid": 9,
+            "invalid": [],
+            "raw": "1. hold\n2. pick up\n3. carry\n4. lift\n5. push\n6. drag\n7. catch\n8. hit\n9. swing\n10. hold"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_16_region_6",
+      "area": 2910,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "d\\R::bo05L4L5L9G8H5L5J5L3M3L4M2N2N2N2N2N2N2N2N101N1O2O0O0100O1O1N3UOlRO\\N`m0\\1f0N2M4M2M3O1N2O2M2O1O1O1N2O101N1O1O1O100O1O1O100O100O10000O100O2O00001O00001O000O2O00010O0O2O1NUd^c0"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "hold",
+          "justification": "The small circular component appears designed for grasping by fingers due to its size and placement near where hands would interact with the structure",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "hold",
+                "logprob": -0.7743040322220622,
+                "prob": 0.46411357471051407
+              },
+              {
+                "option": "pick up",
+                "logprob": -1.2743045090668375,
+                "prob": 0.28149897841940763
+              },
+              {
+                "option": "none",
+                "logprob": -1.3992965221164013,
+                "prob": 0.24842396067779252
+              },
+              {
+                "option": "stick",
+                "logprob": -6.399376865396334,
+                "prob": 0.001673733001748612
+              },
+              {
+                "option": "catch",
+                "logprob": -6.899316310526046,
+                "prob": 0.0010152318571054757
+              },
+              {
+                "option": "lift",
+                "logprob": -7.649321913198946,
+                "prob": 0.0004795588857546722
+              },
+              {
+                "option": "open",
+                "logprob": -7.774303078560479,
+                "prob": 0.0004232172023533513
+              },
+              {
+                "option": "hit",
+                "logprob": -8.024328111878276,
+                "prob": 0.0003295936376765296
+              },
+              {
+                "option": "drink with",
+                "logprob": -8.149347304466573,
+                "prob": 0.0002908597819555093
+              },
+              {
+                "option": "push",
+                "logprob": -8.274339674673683,
+                "prob": 0.0002566848151066737
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "hold",
+              "pick up",
+              "carry",
+              "lift",
+              "push",
+              "drag"
+            ],
+            "n_valid": 6,
+            "invalid": [
+              "grip",
+              "attach",
+              "connect",
+              "support"
+            ],
+            "raw": "1. hold\n2. pick up\n3. carry\n4. lift\n5. push\n6. drag\n7. grip\n8. attach\n9. connect\n10. support"
+          }
+        }
+      }
+    }
+  ]
+}

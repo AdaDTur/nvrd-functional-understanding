@@ -1,0 +1,629 @@
+{
+  "object": "shape_15",
+  "model": "allenai/Molmo2-4B",
+  "image_path": "/shared/nas/data/m1/adadt2/nvrd/regions_test/data/novel/shape_15.png",
+  "region_source": "sam_slic",
+  "method": "per_part_with_comparative_context",
+  "top_k": 10,
+  "modes": [
+    "logprob",
+    "generation"
+  ],
+  "regions": [
+    {
+      "region_id": "shape_15_region_7",
+      "area": 150579,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "gg_8f0ln0f0C<E8J5H9I7G7L5G9J6K4K5L4J5L6K6G8L3L3N3K5L3N2K6K4N3H7N2J6K5M4L3N3J6M2M2N3M3M3K6M2L4M3M3N2O0K6M4M2N2N2L3M4N2M2L5M4K4M2N3M2M4M2N3L4M3M3N1N3L4N1N3L3N3M2O2M2M3O2M2N2M3N3DoDb[OV;]d07O100O2N1O2N1O1O1N2M3O1N2O1N3L3N1O2L4L4L5L3M3M3TOSCS^O04Q=ga0j0N2SOTBb_OP>]`0j000O1001N101O001N2O1O1O001O001O001O001N101O0O2O1N101O1N10001O00001N1000001O0O101O0O10001N100O100O1O1O100000O10O1000O0100O1O010O1O001000O10O01O1O010O001O010O0010O0O10000000O2O0O10O10O2O01N10O1000O1O001O10O1O101O0O100O0010O1O1O1O1001O1O001O0O2O00000000000O0100L400100O1O001O001O00O100000001O0N2001O010O1O001O001O0010O00001O00010O01O1O001O0010O010O10O010O00010O1O1O0010OO2O010O01O001O001O001M2O2O001O01O01L301N1O2O00000O2N1M4O001O00001M201O00001O0O2N1O2K5N1O2N2N10001O0L5O001O0O2O0O2O1N101O1O1O00001O001O0O2N2N1O2N2N2N1O2O1cIU\\Oc0mc0[Lo[O;`0R3ac0bLX\\O1?X3Zc0eLZ\\OkMBk1R1`3Sc0iLf\\O@=c3mb0mLh\\O\\Ob0k0gNhMNb1Wd0?c\\OkMQOX1e1o0TO]Odc0`0k\\OPOb0n0ROVNSOm0_d0o0o\\OiNb0P1]OTOUc0R1T]OaN>V1^OPOSc0X1X]OZN;[1\\OnNTc0i0[[OmNm1DSN3Y2b1[OlNTc0g0e[OlN_4\\1jLnNUc0h0m@7PLmNVc0i0o@7mKlNWc0k0PA7jKmNUc0l0SA6kKjNSc0o0TA5Sa0Jo^O5Pa0JU_O3k`0KX_O4h`0J\\_O4d`0K^_O4a`0Lb_O2^`0Me_O1[`0Ng_O1Y`0Mk_O1U`0Nn_O0R`0OQ@Oo?0S@Om?0V@Oi?0Z@Nf?1\\@Nd?0_@Ob?Oa@O_?0d@N]?0e@N\\?1g@MZ?2i@JY?4[8MRgb:"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "none",
+          "justification": "The central, rounded protrusion appears to be a smooth, solid surface without any visible features or openings that could serve as handles, grips, or other interactive elements, making it functionally distinct from the other numbered parts",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.4512451526825316,
+                "prob": 0.2524803550696182
+              },
+              {
+                "option": "eat",
+                "logprob": -1.8887014136562357,
+                "prob": 0.16302069941341302
+              },
+              {
+                "option": "hold",
+                "logprob": -2.060669252561638,
+                "prob": 0.13726444820537162
+              },
+              {
+                "option": "drink with",
+                "logprob": -2.14997049109661,
+                "prob": 0.1255379502850756
+              },
+              {
+                "option": "hit",
+                "logprob": -2.5137693454162218,
+                "prob": 0.08725276501096924
+              },
+              {
+                "option": "carry",
+                "logprob": -2.748140889365459,
+                "prob": 0.0690228567714818
+              },
+              {
+                "option": "beat",
+                "logprob": -3.216873132158071,
+                "prob": 0.043194167065793904
+              },
+              {
+                "option": "sit on",
+                "logprob": -4.084370051888982,
+                "prob": 0.018141616347654075
+              },
+              {
+                "option": "pick up",
+                "logprob": -4.3184787911886815,
+                "prob": 0.014355021416312903
+              },
+              {
+                "option": "cut",
+                "logprob": -4.457684904336929,
+                "prob": 0.012489567456212238
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "none",
+              "hold",
+              "eat",
+              "drink with",
+              "sit on",
+              "pick up",
+              "carry",
+              "stir",
+              "write",
+              "wear"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "none\nhold\neat\ndrink with\nsit on\npick up\ncarry\nstir\nwrite\nwear"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_15_region_4",
+      "area": 98345,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "TVS8P1mn07I7I7I8I6J5L3L4M4L3L4M4L3L3N2O2M3M2N3M3M2N3M2N3N2M2N2N3M2O2M2N2O2M2O2M2O1N3N1N2O2N2M2N3N1N3N1N2O1N3N1O1N2O1O1N2O2N1N2O1O2N1N2O1O2N1O1N3N1O2M2O1O1O2N1N3N1O1O1O1O2M2O1O1O2N1O1N2O1O2N1O2N1O1O2M2O2N1O1O1O2N1O2N1N3N2N1O2N2N2N2N1O1O2M2O1O2N1O1O1O1O001O1O1N2O1O001O001O001O1N101O1O001O1O001O001O0O2O001O001O1O001O00001O1O001O00001O0000000000001O000000001O00O01000000000O10001O0O10000O100O100O1O100O1O100O100O1O1O100O1O1O1O1O1N2O1O1O1N2O1O1N2O1O1O1N2O1O1N2N2O1O1O1O1N2N2N2O1N2O1O1N2O1O1O1O1O1O1O1O1N2O1O1O1O1N2O1O1O1O1O1O1O1O1O1O1O1O100O1N200O1O1O1O100O1N2O100O1O1O100O1O100O1O100O1O100O1O1O100O1O1O1O1O1O2N100O1O100O1O1O100O1O100O100O100O10000O100O1O100O100O100O1O100O100O1O100O100O100O100O100O1O100O10000O10000O100O100O10000O100O100O2O000O100O10000O100O100O101O000O1000000O2O0000000O10000O2O00000O1000001O0O100000000O2O00000O2O0000001O0000001O00001O01O01O001O0001O100O010O0001N100O2O0O2O0O1O2N101N2N1O101N1O2O0O2N1O2N1O2O0O2N1O2N1O2N1O2N1O1O2N1O2N2N2M3N1O2M4M2N2N2M4L3M3M4M3L5J4L5K7J5J7G;Bni_8"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "none",
+          "justification": "The topmost section appears to be a smooth, flat surface without any protrusions or features that could potentially be used for grasping or manipulating, unlike the other numbered parts which have distinct shapes or textures",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.1585464127419982,
+                "prob": 0.3349117031184639
+              },
+              {
+                "option": "drink with",
+                "logprob": -1.5998314697353635,
+                "prob": 0.21541833187733805
+              },
+              {
+                "option": "eat",
+                "logprob": -1.846020431650686,
+                "prob": 0.16840855554121295
+              },
+              {
+                "option": "hold",
+                "logprob": -2.8617487561132293,
+                "prob": 0.060987235058053764
+              },
+              {
+                "option": "carry",
+                "logprob": -2.9710721548181027,
+                "prob": 0.054671425228298355
+              },
+              {
+                "option": "hit",
+                "logprob": -3.080466460902244,
+                "prob": 0.049006202716127406
+              },
+              {
+                "option": "beat",
+                "logprob": -3.1741882166534197,
+                "prob": 0.04462191563961458
+              },
+              {
+                "option": "sit on",
+                "logprob": -4.283831281791208,
+                "prob": 0.014710802020483351
+              },
+              {
+                "option": "cut",
+                "logprob": -4.895210802555084,
+                "prob": 0.007982107980135416
+              },
+              {
+                "option": "peel",
+                "logprob": -5.237426575185964,
+                "prob": 0.005668852758236046
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "none",
+              "drink with",
+              "eat",
+              "hold",
+              "sit on",
+              "pick up",
+              "stir",
+              "write",
+              "wear"
+            ],
+            "n_valid": 9,
+            "invalid": [],
+            "raw": "none\ndrink with\neat\nhold\nsit on\npick up\nstir\nwrite\nwear\nnone"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_15_region_5",
+      "area": 61421,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "[lg;3lo02O0O2O001O001N10001O0000001O000O2O001O001O000O10001O000O10001O0O10000O2O0O1000001O00000O10001N1O100O2O0O1000001N100O100O101O0O100O1000001N10000O100O100O2O0O1O1O100O101N1O100O100O100O1O1O1O1O2N1O1O1O1O1O1N2O1O1O1N2O1O1N2N2O1N2O2N1O1O1O1N2O1O1O1O1O1O100O1O1O2N1O100N2O100O1O100N2O1N2O1O2N1O1O1O1O1O1O1O1O1O001O1O100O1O1O100O1O100O1O100O100O10000O100O100O100O100O100O100O1O10O0100O1O100O1O1O1O1O100O00100O1O1N2O1N2O0O2O1M3O1O1N2N2N2O1O001N2O1O1M3N2O0O2N2O1O1O1O1N1O2N2M3M2O2O1N2N2M3O1N2N2O1N101O1O0O2M3O1O1O1O1O001M3O001O1O1N2N101O1N1O2O1O1N2N2O1N2M3M2N3O1O1L3N3N2L4N2O001M3N2O1O1N2O0O2O1O010O1O1O001O1O1O100O00100O001O1O010O1O0010O010O10O1O0010O0010O1O010O01O010O001O010O101N1O2O1N3M2N3N2M3M3N2M3M2N2O2M3M3M3M2N4M2M2N3M4L3M3M3M3M3M2N3M3M4K3N3M4L4L2M5L3M4L3L4M4L3L4L4M4L4K5J5M4K5K4L4L6J7H6J8I7I6I5J7J9G9C=E=A[Xd7"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "none",
+          "justification": "The bottom section appears to be a solid, flat surface without any protrusions or features that would allow for interaction or manipulation, unlike the other numbered parts which have distinct shapes or textures",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.128890955762472,
+                "prob": 0.344859756973886
+              },
+              {
+                "option": "eat",
+                "logprob": -1.785111041739583,
+                "prob": 0.17891623705147292
+              },
+              {
+                "option": "drink with",
+                "logprob": -2.0513080142845865,
+                "prob": 0.1371013967506377
+              },
+              {
+                "option": "hold",
+                "logprob": -2.238328283681767,
+                "prob": 0.11371558981469096
+              },
+              {
+                "option": "carry",
+                "logprob": -2.7695346664695535,
+                "prob": 0.06685286248517575
+              },
+              {
+                "option": "sit on",
+                "logprob": -3.3167140802252106,
+                "prob": 0.038679692023887734
+              },
+              {
+                "option": "hit",
+                "logprob": -3.5039748532290105,
+                "prob": 0.032074263081940814
+              },
+              {
+                "option": "beat",
+                "logprob": -4.402320590073941,
+                "prob": 0.013062012370638306
+              },
+              {
+                "option": "pick up",
+                "logprob": -4.503944841271732,
+                "prob": 0.011799816108833064
+              },
+              {
+                "option": "peel",
+                "logprob": -4.778051348315785,
+                "prob": 0.008970823162984825
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "none",
+              "eat",
+              "drink with",
+              "hold",
+              "pick up",
+              "sit on",
+              "stir",
+              "write",
+              "wear",
+              "carry"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "none\neat\ndrink with\nhold\npick up\nsit on\nstir\nwrite\nwear\ncarry"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_15_region_3",
+      "area": 7023,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "b\\\\65jo02O1N2O100O00100O10O01O100O10O01O10O0100O1O010O100O00100O100O00100O100O00100O00100O100O010O1O100O1O010O100O010O1O100O100O00100O10O01O100O10O01O100O10O01O100O100O1O010O100O100O1O010O100O100O1O100O010O100O1O010O100O100O10O0100O1O100O10O0100O010O1O100O10O0100O100O010O100O100O00100O100O100O1O100O101N1O010OO101N100O2N1O1N2N2N2N2N2O1N2N2L3O2O0O2L5UOWQO9mn0CXQO9ln0EUQO8\\o0LUaSd0"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "none",
+          "justification": "Part 4 appears to be a solid, flat surface without any protrusions or features that could potentially be used for interaction or manipulation, unlike the other numbered parts which have distinct shapes or textures that suggest different affordances",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.033282840391621,
+                "prob": 0.3863739463263227
+              },
+              {
+                "option": "carry",
+                "logprob": -2.205165110208327,
+                "prob": 0.11969219473632009
+              },
+              {
+                "option": "hit",
+                "logprob": -2.4864362042280845,
+                "prob": 0.09034650284493825
+              },
+              {
+                "option": "eat",
+                "logprob": -2.5957497085182695,
+                "prob": 0.08099106218966709
+              },
+              {
+                "option": "drink with",
+                "logprob": -2.653236566548003,
+                "prob": 0.0764664396519858
+              },
+              {
+                "option": "hold",
+                "logprob": -2.6739679040329065,
+                "prob": 0.07489750731022699
+              },
+              {
+                "option": "beat",
+                "logprob": -2.8926653485395946,
+                "prob": 0.06018500080609974
+              },
+              {
+                "option": "cut",
+                "logprob": -3.850801646709442,
+                "prob": 0.023087396603559802
+              },
+              {
+                "option": "pick up",
+                "logprob": -4.43177160340565,
+                "prob": 0.012914063487382573
+              },
+              {
+                "option": "kick",
+                "logprob": -4.673949551710393,
+                "prob": 0.010136461391447428
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "none",
+              "eat",
+              "drink with",
+              "hold",
+              "pick up",
+              "sit on",
+              "stir",
+              "carry",
+              "hit",
+              "write"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "none\neat\ndrink with\nhold\npick up\nsit on\nstir\ncarry\nhit\nwrite"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_15_region_8",
+      "area": 6606,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "^[Ud05io09G3ePOBQo0a0lPODon0h0O1N9H5J8H7H3N4L2O0O2OO101N1O1O1O1O1O1N2O1O1O001O1O001O1O001O001O001O00001O00001O001O001O001O000010O0001O001O00001O001O001O000010O0001O001O00001O001O010O00001O00001O001O010O00001O00001O010O00001O001O000010O01O001O00001O00010O001O00000010O01O001O001O01O01O00001O0010O01O001O001O000010O01O00001O010O00001O001O000010O01O001O001O010O001O001O001O00001O010O001O001O2O0O2Migo5"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "none",
+          "justification": "Part 5 appears to be a small, solid protrusion without any visible openings or features that could serve as a handle, grip, or other interactive element, unlike the other numbered parts which have distinct shapes or textures that suggest potential uses",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.7958830855204724,
+                "prob": 0.48473289346739284
+              },
+              {
+                "option": "hold",
+                "logprob": -2.5459428517206106,
+                "prob": 0.08422891222551208
+              },
+              {
+                "option": "hit",
+                "logprob": -2.5928188051038887,
+                "prob": 0.08037171288783367
+              },
+              {
+                "option": "carry",
+                "logprob": -2.6240441363770515,
+                "prob": 0.07790085693393625
+              },
+              {
+                "option": "drink with",
+                "logprob": -2.6772810428519733,
+                "prob": 0.073862115185142
+              },
+              {
+                "option": "eat",
+                "logprob": -2.8271200354211032,
+                "prob": 0.06358394835953644
+              },
+              {
+                "option": "beat",
+                "logprob": -3.5302741149207577,
+                "prob": 0.03147542160345236
+              },
+              {
+                "option": "cut",
+                "logprob": -4.368671149015427,
+                "prob": 0.013610069737139349
+              },
+              {
+                "option": "sit on",
+                "logprob": -4.538357539742719,
+                "prob": 0.011485938520707057
+              },
+              {
+                "option": "stick",
+                "logprob": -4.561837142449804,
+                "prob": 0.011219394664618427
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "none",
+              "drink with",
+              "eat",
+              "hold",
+              "pick up",
+              "sit on",
+              "stir",
+              "take photo",
+              "write",
+              "wear"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "none\ndrink with\neat\nhold\npick up\nsit on\nstir\ntake photo\nwrite\nwear"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_15_region_9",
+      "area": 4838,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "oaYd098Nnn0d0M3M`0A5K2N2M3N2O0O3N1N101O00O100O1O1O1O1O100O1O2N100O1O100O1O1O10O01O100O1O1O100O100O1O1O010O100O1O010O100O100O00100O100O10O01O1O100O10O01O100O1O010O100O10O0100O100O00100O10O01O100O100O010O100O100O010O100O010O1O10000O010O1O100O010O100O10O0100O1O10O10O100O1O100O1O010O100O1O1O2O0O2No^X7"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "none",
+          "justification": "The sixth part appears to be a small, flat, and unadorned surface without any protrusions or features that would suggest it serves as a functional or interactive element, unlike the other numbered parts which have distinct shapes or textures that imply specific uses or interactions",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.1553675810573623,
+                "prob": 0.3434509836281098
+              },
+              {
+                "option": "drink with",
+                "logprob": -1.820948943903204,
+                "prob": 0.17652509397674304
+              },
+              {
+                "option": "eat",
+                "logprob": -2.374118892068509,
+                "prob": 0.10152378374137246
+              },
+              {
+                "option": "carry",
+                "logprob": -2.3897832203947473,
+                "prob": 0.09994587258351063
+              },
+              {
+                "option": "hold",
+                "logprob": -3.0304598215734586,
+                "prob": 0.052665056131136784
+              },
+              {
+                "option": "hit",
+                "logprob": -3.030463515780866,
+                "prob": 0.052664861575855676
+              },
+              {
+                "option": "beat",
+                "logprob": -3.4991384372406173,
+                "prob": 0.03295930268565302
+              },
+              {
+                "option": "cut",
+                "logprob": -3.9348467886447906,
+                "prob": 0.021318285892593918
+              },
+              {
+                "option": "peel",
+                "logprob": -4.218624179979088,
+                "prob": 0.016051267295773212
+              },
+              {
+                "option": "pick up",
+                "logprob": -4.3038780350470915,
+                "prob": 0.01473954400846649
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "none",
+              "drink with",
+              "eat",
+              "hold",
+              "pick up",
+              "sit on",
+              "stir",
+              "take photo",
+              "write",
+              "wear"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "none\ndrink with\neat\nhold\npick up\nsit on\nstir\ntake photo\nwrite\nwear"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_15_region_2",
+      "area": 3078,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "kbV66io02O0O2O001O001O001O010O00001O0010O01O001O0010O01O001O001O0010O0001O0010O01O001O001O1O010O001O00010O001O001O010O001O001O010O001O001O010O001O00001O010O001O001O1O0010O01O001O1O001O10O01O1O001O2N10O01O00O100O1L4N3M2O1L4O1N2N2N3M2L4O1M4M2N3Lh\\Rf0"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "none",
+          "justification": "Part 7 appears to be a small, flat, and unadorned piece that lacks any protrusions or features that could potentially serve as handles, grips, or other interactive elements, making it functionally inert compared to the other numbered parts",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.6688315501087345,
+                "prob": 0.5497630078529507
+              },
+              {
+                "option": "hold",
+                "logprob": -2.684536514658248,
+                "prob": 0.07324297405817941
+              },
+              {
+                "option": "hit",
+                "logprob": -2.7938771938497666,
+                "prob": 0.06565683097933343
+              },
+              {
+                "option": "eat",
+                "logprob": -2.8719293773756362,
+                "prob": 0.060727063980466026
+              },
+              {
+                "option": "carry",
+                "logprob": -2.9188307158765383,
+                "prob": 0.05794464305976582
+              },
+              {
+                "option": "drink with",
+                "logprob": -2.9523394886637107,
+                "prob": 0.05603516006380746
+              },
+              {
+                "option": "beat",
+                "logprob": -3.6766422624350525,
+                "prob": 0.02715813350766926
+              },
+              {
+                "option": "pick up",
+                "logprob": -4.286071387046832,
+                "prob": 0.014764821911813867
+              },
+              {
+                "option": "cut",
+                "logprob": -4.491942375898361,
+                "prob": 0.012017650748180047
+              },
+              {
+                "option": "stick",
+                "logprob": -4.497399432875682,
+                "prob": 0.011952248357902756
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "none",
+              "eat",
+              "drink with",
+              "hold",
+              "pick up",
+              "sit on",
+              "stir",
+              "write",
+              "wear",
+              "carry"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "none\neat\ndrink with\nhold\npick up\nsit on\nstir\nwrite\nwear\ncarry"
+          }
+        }
+      }
+    }
+  ]
+}

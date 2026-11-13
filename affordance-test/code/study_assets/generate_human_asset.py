@@ -10,7 +10,7 @@ generative model than editing a specific object's shape. Pure black silhouette o
 background, by prompt construction, so extraction is a simple threshold (no gradient/lighting to
 fight, unlike the studio-lit object renders -- grabCut isn't needed here).
 
-No manual environment setup needed -- same self-bootstrap as generate_affordance_edits.py:
+No manual environment setup needed -- same self-bootstrap as image_generation/generate_affordance_guided.py:
     python3 generate_human_asset.py
 """
 import os
@@ -23,7 +23,7 @@ for _sub in os.listdir(_CODE_ROOT):
     if os.path.isdir(_p) and _p not in sys.path:
         sys.path.insert(0, _p)
 HERE = os.path.dirname(_CODE_ROOT)  # affordance-test (scripts moved under code/<category>/)
-_VENV_DIR = os.path.join(os.path.dirname(HERE), "venv")  # venvs live in nvrd/, one level above affordance-test  # has google-genai, same as generate_affordance_edits.py
+_VENV_DIR = os.path.join(os.path.dirname(HERE), "venv")  # venvs live in nvrd/, one level above affordance-test  # has google-genai
 if os.path.isdir(_VENV_DIR) and os.path.realpath(sys.prefix) != os.path.realpath(_VENV_DIR):
     _venv_py = os.path.join(_VENV_DIR, "bin", "python3")
     os.environ["PYTHONUNBUFFERED"] = "1"

@@ -1,0 +1,453 @@
+{
+  "object": "shape_16",
+  "model": "allenai/Molmo2-4B",
+  "image_path": "/shared/nas/data/m1/adadt2/nvrd/regions_test/data/novel/shape_16.png",
+  "region_source": "sam_slic",
+  "method": "per_part_with_comparative_context",
+  "top_k": 10,
+  "modes": [
+    "logprob",
+    "generation"
+  ],
+  "regions": [
+    {
+      "region_id": "shape_16_region_3",
+      "area": 49235,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "WUW9Y37jLQl0R5aN8H6J5L3M3M2N2O2M2O1N2O001O1N2O001O00001N101O00001N10001O001N10001O00001N10001O00001O0O101O00001O0000001N101O0000001O001O00000O2O0000000000000000000000000O1000000000000000000000O10000000000000O1000O10000O100000000000000000000000000000O10O100000000O10000000000000000000000000000O01000000000O10000000000O1000000O100O10000O100O100O100O1O100O1O1O001N2O1N2O1O1N2N2O1O1N2M3O1N2O1N2O1N2N2O1O1M3O1N2N2O1N2O2M2N2O1N2N2N2N2N2O1O1N3N1N2N2O1N2N3M2O1N2O2M2N2N2O2M2N3M2N3N1N3N2M3M3M3M3M3M3M4L4L4M4K5K8G=Cc0]OoiP?"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "none",
+          "justification": "The topmost, flat, square-shaped piece appears to be a solid, stationary component without any visible means to interact with or manipulate it, unlike the other parts that have distinct shapes or protrusions",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.3333088984363712,
+                "prob": 0.28399827015928447
+              },
+              {
+                "option": "hold",
+                "logprob": -2.0052656504849438,
+                "prob": 0.1450402652289515
+              },
+              {
+                "option": "sit on",
+                "logprob": -2.0523474615765736,
+                "prob": 0.1383697685532228
+              },
+              {
+                "option": "carry",
+                "logprob": -2.286443194199819,
+                "prob": 0.10949006903406232
+              },
+              {
+                "option": "drink with",
+                "logprob": -2.324076888820855,
+                "prob": 0.10544612476735848
+              },
+              {
+                "option": "hit",
+                "logprob": -2.7864994436095003,
+                "prob": 0.06640534843650728
+              },
+              {
+                "option": "eat",
+                "logprob": -2.8332975765515584,
+                "prob": 0.06336929695833753
+              },
+              {
+                "option": "beat",
+                "logprob": -4.091144995181821,
+                "prob": 0.018013690468947952
+              },
+              {
+                "option": "lift",
+                "logprob": -4.450506170891458,
+                "prob": 0.012575756518575502
+              },
+              {
+                "option": "pick up",
+                "logprob": -5.149765220965492,
+                "prob": 0.006249564770634612
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "none",
+              "sit on",
+              "hold",
+              "drink with",
+              "eat",
+              "carry",
+              "hit",
+              "stir",
+              "write",
+              "wear"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "none\nsit on\nhold\ndrink with\neat\ncarry\nhit\nstir\nwrite\nwear"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_16_region_5",
+      "area": 43738,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "a\\X=7ho07J1N2O0O2N1M4N1O001N1000000000000001O0000O10O10O100000O01001O0000O1O10O100O1O10000000O10O1000O1O1000O01O10O01O00100O01O01O10O01000O10O0O110O0000100O00000010O10N1010O100O10O00001O100O2N101N2O1M3O1O1O1N2N2N1N3N2N2N2O1M3O1N3M2N2N2O1N2N3L3L4A?O101N100010O0000010O00010O01O10O01O010O010O010O010O010O10O10O10O10O10O10O1000O0100O01000O100000O01000000O10000000O10O10001O00O100001O000O100000000000001O00000000001O00001O0000001O0000010O00001O001O010O001O001O010O001O1O010O1O010O002OO01O00100O10O0100O10000O1O10O01O2O0O100O10000O101N10001N10000O2O0O2O000O101O001N2O00001O1O001O1N2O001O1O1N110O1O1O1O1O010O2N002N1O1O100O1O1O101N1O10001N1O101O1N1O1O2O1O0O2OO11N2O1O0nWOUJle0l5oYOWJQf0j5lYOXJUf0i5fYOZJ\\f0f5`YO]J`f0d5[YO_Jef0c5VYO`Jjf0c5PYO_JRg0c5hXO`JYg0a5bXObJ`g0_5XXOeJig0i63M2O010N3N2N2N1O3L2O1N101N4L2N2N2O3M0O3L5L4L2O2O1M4L2N2O3L5K2N3M3L6K3N2M6J5K3N3L5K4L2M4M6J4K4M4L4K7J3L5L8G7I5K7J6J6I4M3L8H7I6I6K8GkVS6"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "none",
+          "justification": "The curved wooden piece lacks any visible functional elements or interactive features that would provide an affordance for user interaction",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.0527357645332813,
+                "prob": 0.37804368406262867
+              },
+              {
+                "option": "hold",
+                "logprob": -2.1153220436244737,
+                "prob": 0.13063712954311216
+              },
+              {
+                "option": "carry",
+                "logprob": -2.2714997079165187,
+                "prob": 0.11174794140165828
+              },
+              {
+                "option": "hit",
+                "logprob": -2.5684185628197156,
+                "prob": 0.08304037679830556
+              },
+              {
+                "option": "drink with",
+                "logprob": -2.6549551416537724,
+                "prob": 0.07615649577943151
+              },
+              {
+                "option": "sit on",
+                "logprob": -3.0999004007608164,
+                "prob": 0.04880560286217121
+              },
+              {
+                "option": "eat",
+                "logprob": -3.162090147001436,
+                "prob": 0.045862847781059486
+              },
+              {
+                "option": "beat",
+                "logprob": -3.9980440933723003,
+                "prob": 0.019879746038163195
+              },
+              {
+                "option": "cut",
+                "logprob": -4.214126884937286,
+                "prob": 0.016016487090302182
+              },
+              {
+                "option": "lift",
+                "logprob": -4.396501733805053,
+                "prob": 0.013346361301027775
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "none",
+              "drink with",
+              "eat",
+              "hold",
+              "sit on",
+              "pick up",
+              "stir",
+              "write",
+              "wear",
+              "type on"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "none\ndrink with\neat\nhold\nsit on\npick up\nstir\nwrite\nwear\ntype on"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_16_region_2",
+      "area": 11030,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "^eR;e1Wn0X2jM8H4L4L3M3M3N1N3M2O2N1N2N2O1M3O1O1N2O1O1O1O1N2O1O1N2N2O100O1N2O1O001O1O1N1010O0000O1000N3M2I7H8H8I7G:G7L5J6I8K4I8J5L4J6K6J5M4K4L5L3M4K4M3N3K4M4L4M2N3M2N3L4N2M3M3M3M2O2M4M2N3MY]Tb0"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "none",
+          "justification": "The third part appears to be a simple, unadorned cylindrical element without any visible features or attachments that would suggest it serves a specific function or purpose, unlike the other numbered parts which have distinct shapes or connections",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.075239857804263,
+                "prob": 0.36360620599058
+              },
+              {
+                "option": "hold",
+                "logprob": -1.7159283765940927,
+                "prob": 0.19159483568549654
+              },
+              {
+                "option": "sit on",
+                "logprob": -2.325559525837889,
+                "prob": 0.10414162611403595
+              },
+              {
+                "option": "carry",
+                "logprob": -2.3565038013039157,
+                "prob": 0.1009683889176309
+              },
+              {
+                "option": "eat",
+                "logprob": -2.7627304428606294,
+                "prob": 0.06726101825483571
+              },
+              {
+                "option": "drink with",
+                "logprob": -2.961433334799949,
+                "prob": 0.0551401404829618
+              },
+              {
+                "option": "hit",
+                "logprob": -3.247218535572756,
+                "prob": 0.04143362513778954
+              },
+              {
+                "option": "lift",
+                "logprob": -4.262759998353431,
+                "prob": 0.015007518213796615
+              },
+              {
+                "option": "pick up",
+                "logprob": -4.286225403717253,
+                "prob": 0.014659460345530364
+              },
+              {
+                "option": "beat",
+                "logprob": -4.95415111319744,
+                "prob": 0.007516947777703662
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "none",
+              "hold",
+              "sit on",
+              "carry",
+              "pick up",
+              "eat",
+              "drink with",
+              "stir",
+              "write",
+              "wear"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "none\nhold\nsit on\ncarry\npick up\neat\ndrink with\nstir\nwrite\nwear"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_16_region_1",
+      "area": 4073,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "X]Q;8ao0:J4L3N3M2N3N2N2N2N2M3N2N2N3M2N2N2O1N2O1N2N2O1N2O1N101O0O2O001O000O100000000000000000O10001N100O101N101N101N1O2O0O2N1O2N2N2N2N2M4M3L4L5K4L6J5JTcfb0"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "none",
+          "justification": "The small, round, purple piece appears to be a decorative element without any functional purpose or interaction, unlike the other numbered parts that seem to serve specific roles or have distinct shapes and positions",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.8755433750338852,
+                "prob": 0.4473032031407693
+              },
+              {
+                "option": "hold",
+                "logprob": -2.1256226830591913,
+                "prob": 0.12814435007239064
+              },
+              {
+                "option": "hit",
+                "logprob": -2.297452756523853,
+                "prob": 0.10791320968009424
+              },
+              {
+                "option": "carry",
+                "logprob": -2.4849401242972817,
+                "prob": 0.08946432318756771
+              },
+              {
+                "option": "eat",
+                "logprob": -3.031771386915352,
+                "prob": 0.05178024260360266
+              },
+              {
+                "option": "drink with",
+                "logprob": -3.1220939429767895,
+                "prob": 0.047308316450814396
+              },
+              {
+                "option": "cut",
+                "logprob": -3.8477169275283813,
+                "prob": 0.022898310235058925
+              },
+              {
+                "option": "beat",
+                "logprob": -3.867740706948098,
+                "prob": 0.022444359593178465
+              },
+              {
+                "option": "pick up",
+                "logprob": -4.609957661537919,
+                "prob": 0.010684802288672333
+              },
+              {
+                "option": "cut with",
+                "logprob": -4.618587792472681,
+                "prob": 0.01059298780128775
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "none",
+              "hold",
+              "eat",
+              "drink with",
+              "pick up",
+              "sit on",
+              "stir",
+              "write",
+              "wear",
+              "type on"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "none\nhold\neat\ndrink with\npick up\nsit on\nstir\nwrite\nwear\ntype on"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_16_region_6",
+      "area": 2910,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "d\\R::bo05L4L5L9G8H5L5J5L3M3L4M2N2N2N2N2N2N2N2N101N1O2O0O0100O1O1N3UOlRO\\N`m0\\1f0N2M4M2M3O1N2O2M2O1O1O1N2O101N1O1O1O100O1O1O100O100O10000O100O2O00001O00001O000O2O00010O0O2O1NUd^c0"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "none",
+          "justification": "The fifth part appears to be a small, solid, and unadorned component without any visible features or protrusions that could potentially serve as a handle, grip, or other interactive element, making it functionally distinct from the other numbered parts",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.5688940515101422,
+                "prob": 0.6014483355975605
+              },
+              {
+                "option": "hold",
+                "logprob": -2.475244453031337,
+                "prob": 0.0893883390150496
+              },
+              {
+                "option": "hit",
+                "logprob": -2.818955366150476,
+                "prob": 0.06338830143594679
+              },
+              {
+                "option": "carry",
+                "logprob": -2.912661987444153,
+                "prob": 0.05771820893464156
+              },
+              {
+                "option": "drink with",
+                "logprob": -3.0718820201582275,
+                "prob": 0.04922259029570394
+              },
+              {
+                "option": "eat",
+                "logprob": -3.3032533795922063,
+                "prob": 0.039055406251267744
+              },
+              {
+                "option": "beat",
+                "logprob": -4.147018515242962,
+                "prob": 0.01679726667720453
+              },
+              {
+                "option": "sit on",
+                "logprob": -4.43641736722202,
+                "prob": 0.012576340659794873
+              },
+              {
+                "option": "cut",
+                "logprob": -4.6211020946502686,
+                "prob": 0.010455546424980365
+              },
+              {
+                "option": "pick up",
+                "logprob": -4.850208485440817,
+                "prob": 0.008314709749571856
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "none",
+              "drink with",
+              "eat",
+              "hold",
+              "pick up",
+              "sit on",
+              "stir",
+              "write",
+              "wear"
+            ],
+            "n_valid": 9,
+            "invalid": [],
+            "raw": "none\ndrink with\neat\nhold\npick up\nsit on\nstir\nwrite\nwear\nnone"
+          }
+        }
+      }
+    }
+  ]
+}

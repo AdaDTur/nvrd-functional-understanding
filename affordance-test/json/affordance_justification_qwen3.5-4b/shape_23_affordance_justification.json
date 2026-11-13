@@ -1,0 +1,537 @@
+{
+  "object": "shape_23",
+  "model": "Qwen/Qwen3.5-4B",
+  "image_path": "/shared/nas/data/m1/adadt2/nvrd/regions_test/data/novel/shape_23.png",
+  "region_source": "sam_slic",
+  "method": "per_part_with_comparative_context",
+  "top_k": 10,
+  "modes": [
+    "logprob",
+    "generation"
+  ],
+  "regions": [
+    {
+      "region_id": "shape_23_region_8",
+      "area": 225650,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "Za[4T1en0:C`0H6C=G8H7J6H8J7I6K5I7I6K6K5H8L3K6L3M3J6N2L4K5N2M3K5M3L4M3L4L3M4M2O2L3M4N1N3L4M2O2N1L5M2O2M2N2M4N100O2N1N2N3N1O1OoIfXOcM6_5Sg0^LhXORNi0\\5[f0eLRZOV3le0jL\\ZOP3ce0kLeZOT3Ze0jLjZOT3Ue0hLS[OU3md0jLW[OT3hd0hL^[OV3ad0hLe[OU3Yd0kLk[OS3Sd0lLR\\OS3lc0lLY\\OQ3gc0nL[\\OQ3dc0oL_\\Oo2ac0oLb\\OP3^c0mLh\\OQ3Vc0oLl\\OP3Rc0PMR]On2lb0SMV]Ol2ib0RM[]Om2db0RM_]Om2ab0RMa]Om2^b0TMc]Ok2]b0TMf]Oj2Yb0VMi]Oi2Wb0UMl]Oj2Sb0VMo]Oi2Pb0VMS^Oi2ma0VMU^Oj2ia0VMZ^Oh2fa0WM\\^Oh2ca0XM_^Og2`a0YMa^Og2^a0YMd^Of2\\a0XMg^Og2Xa0ZMi^Oe2Wa0ZMk^Oe2Ta0[Mn^Od2Ra0[MP_Od2o`0]MR_Ob2n`0]MS_Oc2l`0]MV_Ob2j`0]MX_Oc2f`0\\M]_Oc2c`0]M^_Ob2a`0^Ma_Oa2_`0_Ma_Oa2^`0_Md_O`2\\`0`Md_O`2[`0`Mg_O`2X`0_Mi_Oa2W`0^Mk_Oa2T`0_Mn_O`2R`0_Mo_Oa2Q`0^MP@c2n?^MS@a2m?^MT@b2l?^MU@b2i?^MY@a2g?_MZ@a2d?`M]@_2c?`M^@a2a?_M`@`2`?_Ma@a2^?`Mb@a2]?^Md@b2\\?^Me@b2Y?^Mh@b2X?]Mi@d2U?]Mk@d2T?[Mn@d2R?\\Mn@e2P?[MQAf2n>ZMRAf2n>ZMSAf2l>YMUAh2i>YMWAg2i>YMWAh2ULeLi?c0RDi2RLlLf?;XDj2oKnLg?8\\Dj2kKTMc?3bDi2iKXMc?OeDj2bK]Mf?IiDl2]K_Mh?EkDm2ZKaMj?BlDo2SKgMm?[OQEP3lJiMR`0WORER3eJnMW`0POTEU3_JPN[`0jNWEZ3RJUNf`0aNXE_3_I`NVa0RN[E\\6d:dI\\E]6c:cI]E]6b:dI^E]6a:cI_E^6`:bI`E^6_:cIaE^6^:bIbE`6\\:`IdEa6Z:`IfE`6Z:`IfEa6Y:_IgEb6X:^IiEb6V:^IjEc6U:]IkEd6S:]ImEd6R:\\InEe6Q:[IoEe6Q:[InEg6P:ZIPFf6P:[IoEe6Q:[IoEf6o9[IQFf6n9YISFh6l9XITFh6k9YITFi6k9XITFh6l9XITFi6k9WITFj6k9XITFi6k9WIUFi6j9XIVFi6i9XIUFi6k9WIUFj6i9WIWFi6i9WIWFi6i9WIWFi6h9XIWFi6i9WIWFi6h9XIXFh6g9YIYFg6f9ZIZFf6f9[IYFe6f9\\IZFd6e9]I[Fc6e9^IZFb6e9`IYFb6f9_IXFb6h9^IXFb6g9`IWFa6i9_IVFc6h9_IVFb6j9^IVFb6j9^IUFc6k9^ITFb6l9^ITFb6l9_IRFb6n9^IRFa6o9_IPFb6P:_IoEa6Q:_InEb6R:_IlEb6T:_IkEa6U:`IiEa6W:_IiEa6W:`IgEa6Y:_IfEb6Z:_IdEb6\\:^IcEc6]:^IbEa6_:_I`Eb6_:`I_Ea6a:_I^Ea6c:`I[Ea6e:_I[E`6f:aIXE_6i:bIUE_6k:bISE^6n:cIoD_6Q;bImD^6U;bIiD]6Y;dIdD^6\\;bIcD^6];dIaD]6_;cI`D^6`;cI^D]6c;dI\\D\\6d;eIZD[6g;fIWDZ6j;gISDY6o;iInCW6T<iIiCX6X<hIfCZ6Z<gIcCZ6^<hI^CY6c<iIYCX6h<iIUCV6n<lInBT6T=mIiBT6W=nIgBR6Z=PJcBP6^=QJ_BP6b=UJTBn5n=TJoAk5S>YJhAg5Y>[JbAg5_>[J[Af5h>^JPAd5R?`Jg@b5Z?bJ_@`5c?fJo_O`5R`0hJZ_Oc5g`0i42O1O1O1N2O1N3M2O1O100O100O1N2N2O1O100O001O2N1N2O1O100O100O100O1O1N200O1O100O100O1O1O100O100O2O0O10O10O10000O10000O100000001N1000000O1000000000000O1000001O0000000000000001O000000000000001O00010O00001O0000001O0000010O001N101O00001O001O001O1O001O001O010O1O1O001O010O1O001O1O1O1O1O001O100O2N1O001O1O2N1O100O1O1O1O100O101O10O1N101O1O1O01O0001cF_^OX4aa0dKe^OZ4[a0cKi^O\\4Xa0`Km^O^4Sa0`KQ_O]4Pa0`KS_O`4m`0^KV_Oa4j`0^KW_Ob4i`0\\KZ_Oc4g`0ZK[_Oe4f`0YK\\_Og4d`0WK^_Oh4c`0VK__Oj4b`0SK`_Ol4a`0RKa_On4_`0QKb_Oo4^`0oJd_OQ5\\`0mJe_OT5\\`0iJf_OW5Z`0gJh_OY5X`0eJj_O[5W`0_Jn_Oa5R`0_Jn_Oa5R`0]JP@b5Q`0]JP@c5P`0[JQ@e5P`0YJQ@g5Q`0VJP@k5Q`0QJR@n5P`0oIQ@R6o?lIS@T6n?iIS@X6n?^IZ@c6f?\\I[@d6f?YI[@g6h?VIX@k6k?PIV@P7m?jHW@V7j?fHX@[7j?^HZ@c7i?VHZ@j7j?lG\\@U8i?aG\\@^8cc01O001O0010O01O00001O1O001O001O00000000000O10001O0000001N1000001N100000000O010000O010000O10O10000O010O01O10O0100O010O10O010O001iM^YOnJdf0d4nYOWKRf0f4WZOTKhe0k4^ZOQKbe0m4fZOmJZe0R5kZOjJVe0T5P[OfJQe0Y5S[OcJnd0]5T[OaJmd0^5[[OYJfd0g5j2O00O1010O0001O01O01N100O2O01O010O01N1O2O0010O01O0O2N1O1O2O1N101O001L4M2O2N1O2O1O0LQIYWOo6dh07M4M2O2O001K4N2L5N1L5M201M2N2K6M2L5K4L5O000L5M2L5I6O2H7O1O2M2H9K4O1M3L401O001K4O1O1O1K5N3O01OO2M2N2N2M3001O0010O0N2O1O100O1001O001OJ5101O002N1O2N1NKdDh[O];Xd05001N101N3N1NN2101O0O3M2O2N1OO000001O1N3N1O1O2M2N3N1N4L3N3L3N1N3K4nIhZOY1]e0]N\\[OP1id0iNf[Oj0^d0ROn[O?Zd0WLbYOn2_2a0Sd0aL^YOk2o20ic0WMVYOg2h3UO[c0TNmXOd2\\4[NRc0g1g5ZMkRO\\2Xm0dMhROY2\\m0eMfROX2dm0M2M2M3N^OTNTSOk1ll0WNRSOh1Pm0XNPSOf1Qm0\\NmROd1Um0[NkROd1Um0]NjROc1Vm0^NhROb1Xm0`NgRO`1Ym0aNgRO^1Zm0bNeRO^1[m0cNdRO]1]m0cNbRO]1_m0dN_RO]1am0cN^RO]1bm0dN^ROZ1dm0`0010O2M20KmM^ROQ2bm0QN^RO9NV1dm0aN]ROn1cm0TN\\ROk1em081kM[ROl1fm0TNZROl1gm0RN[ROl1nm0N1O01FXN\\ROg1dm0[NZROf1fm0ZNZROe1fm0]NYROc1gm0]NZROa1gm0^NZRO5Nn0hm0mN[RO4Mo0gm0oN[RO2No0gm0oN\\RO]1em0dN[RO[1em0gNYROY1gm0`0O010001N101O000O101VNSRO_1mm0aNTRO^1lm0;001O001O2N000000O100O11O0XNoQOa1Rn0]NPRO9Oi0Yn0WOgQOi0Yn0?O1N2O100O11N101O000O2O0O2O0O2N101N101N2O1N1QOZQOc0hn0\\OXQOc0jn082M4M2UOoPOd0Wo0L5K5N5KXhT2"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "none",
+          "justification": "Part 1 forms the main body of the figure but lacks any protrusions like legs for standing or appendages for grasping; its smooth surface offers no tactile cues suggesting manipulation functions found in distinct limbs such as those at positions two through six",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.9346553674840834,
+                "prob": 0.42904316576990453
+              },
+              {
+                "option": "sit on",
+                "logprob": -2.1846796261470445,
+                "prob": 0.12291994314351902
+              },
+              {
+                "option": "carry",
+                "logprob": -2.559873547288589,
+                "prob": 0.08446517790014087
+              },
+              {
+                "option": "ride",
+                "logprob": -2.809679148471332,
+                "prob": 0.06579433578882177
+              },
+              {
+                "option": "look out",
+                "logprob": -2.9347474507776496,
+                "prob": 0.05805933181954704
+              },
+              {
+                "option": "beat",
+                "logprob": -3.1898218458518386,
+                "prob": 0.04498778709330694
+              },
+              {
+                "option": "stick",
+                "logprob": -3.309671281138435,
+                "prob": 0.03990659584858792
+              },
+              {
+                "option": "hit",
+                "logprob": -3.434850903140614,
+                "prob": 0.03521112196878617
+              },
+              {
+                "option": "hold",
+                "logprob": -3.5598910663684364,
+                "prob": 0.031072458078707777
+              },
+              {
+                "option": "wear",
+                "logprob": -4.059826470722328,
+                "prob": 0.018847615931979592
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Looking at part 1 \u2014 the main body of the object (a stylized, cartoonish creature or toy) \u2014 we must consider its affordances: what actions it plausibly supports based on its shape, size, texture, and context.",
+              "Part 1 is large, flat, and appears to be a standalone figure or toy. It has no obvious handles, openings, or surfaces for writing/digital interaction. Its form suggests it could be held, carried, sat on, or even used as a base for other things.",
+              "Let\u2019s evaluate the list:",
+              "**beat**, **boxing**, **brush with**, **catch**, **cut**, **cut with**, **drag**, **drink with**, **eat**, **hit**, **kick**, **lie on**, **lift**, **look out**, **open**, **pack**, **peel**, **pick up**, **pour**, **push**, **ride**, **sip**, **sit on**, **stick**, **stir"
+            ],
+            "raw": "Looking at part 1 \u2014 the main body of the object (a stylized, cartoonish creature or toy) \u2014 we must consider its affordances: what actions it plausibly supports based on its shape, size, texture, and context.\n\nPart 1 is large, flat, and appears to be a standalone figure or toy. It has no obvious handles, openings, or surfaces for writing/digital interaction. Its form suggests it could be held, carried, sat on, or even used as a base for other things.\n\nLet\u2019s evaluate the list:\n\n- **beat**, **boxing**, **brush with**, **catch**, **cut**, **cut with**, **drag**, **drink with**, **eat**, **hit**, **kick**, **lie on**, **lift**, **look out**, **open**, **pack**, **peel**, **pick up**, **pour**, **push**, **ride**, **sip**, **sit on**, **stick**, **stir"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_23_region_7",
+      "area": 71228,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "Ski4`0]o07H6K5L3M3L5M2M3N2N2M3N2N2N2N1O2N1O2N1O2N1O2N101N1O1O101N1O1O1O2O0O100O1O1O2O0O1O100O1O101N100O1O100O100O100O1O100O100O100O100O100O10O0100O100O100O100O010O1O100O10O0100O1O010O100O010O1O10O01O10O01O100O1O00100O1O1O1O00100O001O10O0100O02O001O2N3M3L3N2N1O2N3L3N2N2N1O2N1O1N2O001O1O1O1O1O1O1O1O001O1O001O1O001O010O001O100O010O1O010O1O01O01O01O010O0010O0001O00001O001O001O0010O01O001O001O001N101O00001O00001O000O2O00001N100O1O2O0O100O100O1O100O2N1O100O1O1O1O1O1N2O1O1O1O1N2O1O1O1N2O1N2O1N2N2O1O1N2O1N2O1O1O1O1N2N2O1O1O001O1O1O1O1O1O001O1O1O1O001O1O1O001O1O1O00100O1O00100N2O00100O010O10O0100O010O010O010O010O0100O010O10000O010O100O10O0100O100O1O1O100O100O100O100O100O100O100O100O101O000O101O0O1000001N10001O0O2O001O00001O001O001O001O001O001O0010O01O001O1O001O010O1O00100O1O1O100O1O1O1O1O2O0O1O1O100O100O1O100O1O10001N100O1O100O1O2O0O100O100O1O100O1O10O01O10O010O01O100O1O1O1O10O0100O1O10O01O10O01O00100O00100O1O100O1O00010O001O010O001O01O0001O001O000010O0001O0001O000001O000000010O00000000000000O10001O00000O1000000O1000000O100O100O100O100O100O100O1O1O1O010N2O1ZNPM[VOQ3di0TMWVOm2ii0VMTVOj2ki0YMRVOh2oi0ZMlUOh2Tj0[MgUOg2Zj0\\M_UOg2bj0bMmTOe2Tk0S12M2O1O1O2N1O1O1O1O1O001O2M2O001O1O1O1O1O1O1O0O2O1O1O001O1O001O1N101O1O001O1O0O2O001O1O001O0O2O001O001O1O001N101O001O0O2O1O0O101O001O1N101O001N101O1N2O001O1N101O1O0O2O001N2O1N2O1N2O1N101N2O1N2O1N2N2O1N2N2N3M2O2M3L3N3M4K5K5J8ETUl6"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "sit on",
+          "justification": "Part 2 forms a broad, flat base at the bottom of the structure which provides stability for standing upright; unlike the rounded head-like top section designed primarily as decoration or attachment point, its wide surface area makes sitting feasible without tipping over",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "sit on",
+                "logprob": -0.6303372380934888,
+                "prob": 0.5597866363573909
+              },
+              {
+                "option": "carry",
+                "logprob": -2.1305888501228765,
+                "prob": 0.12487385810139418
+              },
+              {
+                "option": "none",
+                "logprob": -2.3804221089958446,
+                "prob": 0.09726807571100383
+              },
+              {
+                "option": "lie on",
+                "logprob": -2.6303248404838087,
+                "prob": 0.07575982221838136
+              },
+              {
+                "option": "ride",
+                "logprob": -3.380334973013305,
+                "prob": 0.035786043452591045
+              },
+              {
+                "option": "lift",
+                "logprob": -3.5053423637727974,
+                "prob": 0.03158083909542049
+              },
+              {
+                "option": "stick",
+                "logprob": -3.6303325888839026,
+                "prob": 0.02787026511014452
+              },
+              {
+                "option": "wash",
+                "logprob": -4.630609586543869,
+                "prob": 0.010250057918693899
+              },
+              {
+                "option": "wear",
+                "logprob": -4.8805126937513705,
+                "prob": 0.00798352664232211
+              },
+              {
+                "option": "drag",
+                "logprob": -5.006129881949164,
+                "prob": 0.007041090514259349
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "sit on",
+              "lie on",
+              "carry",
+              "hold",
+              "pick up",
+              "lift",
+              "wear",
+              "ride",
+              "none",
+              "kick"
+            ],
+            "n_valid": 10,
+            "invalid": [
+              "Based on the visual analysis of part 2, which is the base or stand of the object, its primary function is to support the main body. Therefore, its affordance is fundamentally different from the other parts (like the eye, the trunk, or the crown) which are functional components of the creature itself.",
+              "Here are the 10 most plausible affordances for part 2, ranked from most likely to least likely:"
+            ],
+            "raw": "Based on the visual analysis of part 2, which is the base or stand of the object, its primary function is to support the main body. Therefore, its affordance is fundamentally different from the other parts (like the eye, the trunk, or the crown) which are functional components of the creature itself.\n\nHere are the 10 most plausible affordances for part 2, ranked from most likely to least likely:\n\n1. sit on\n2. lie on\n3. carry\n4. hold\n5. pick up\n6. lift\n7. wear\n8. ride\n9. none\n10. kick"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_23_region_4",
+      "area": 50896,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "UVd8a0Yo0<G6J7J4L4M3L4M3L3M4M2N3M2N3M2N2O1N1O2N10OgRO^MUm0h2OJlROaMRm0h2O1N2O1O1N101N2O1O1O1O1O001O1O1O0O2O010O1O1O1O1O1O100N2O10O0101N101O0N3N2N1O4L5L3L2O0003L100O00O100O1001O001O1hK[TOS4ik000000O11O001O1O1N2O1O2N1O1O2N1O1O2N1O1O2N2N100O2N1O1O1O1O2N1O1O1O1O1O1O1O001OjMgMeVOY2Vi0PNgVOo1Ti0ZNhVOf1Ti0bNiVO]1Ui0iNgVOW1Wi0oNdVOR1Zi0TOaVOm0]i0ZOYVOk0ei0i2N2O1N2O1N2O1O1O1O1O100O1O1O100O1O2O0O1O100O100O100O100O100O10000O100O1000000O1000000O10000000000000000O100000000001O000001O0000000001O00001O0000001O00001O00001O001O001O001O1O1O00100O1O1O1O1O1O1O1O1O1O2N100O2N1N4M2[LUVOQ1mi0iNYVOU1ii0fN[VOY1hi0`N\\VO`1hi0XN[VOj1ki0jMYVOW2mi0_MWVOa2ck01O1O1O1O1O1O1O1O1O2N1O1N2O1O1N2N2O1O1N3M2O1O1N2N2N2NYNcTOoN\\k0R1bTOPO]k0j2O2N1N3N1O1O1O100N2O100O010O01N1N4M2N3M1O1O10O01O2O0O2N2O1O001N101O1N3N1O1N101O1O0`LPTOQ3Ql0=2O2N1O1O2M2O1O1O1O1N3N1O2N1O2M2O2N1N3N2N1N3N1O2M3M3N2M2O2M3M3M4L3M3N3L3M4L5J4L6J8F:FWjY<"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "wear",
+          "justification": "Part three resembles a crown due to its pointed top placement atop another body section; unlike flat surfaces like two\u2019s base which are for standing up against gravity alone but also have no indication of being worn by anyone else since they don\u2019t look designed as clothing items at all",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "wear",
+                "logprob": -0.4780560129074729,
+                "prob": 0.6479316489994443
+              },
+              {
+                "option": "stick",
+                "logprob": -2.103051185098593,
+                "prob": 0.1275859223812586
+              },
+              {
+                "option": "none",
+                "logprob": -2.4780715690285433,
+                "prob": 0.0876866491605649
+              },
+              {
+                "option": "sit on",
+                "logprob": -3.228086470244307,
+                "prob": 0.041419622978049436
+              },
+              {
+                "option": "ride",
+                "logprob": -3.478099700550956,
+                "prob": 0.032257208034250126
+              },
+              {
+                "option": "look out",
+                "logprob": -4.353126283691381,
+                "prob": 0.01344644743679579
+              },
+              {
+                "option": "beat",
+                "logprob": -4.605366453295574,
+                "prob": 0.010448670761477766
+              },
+              {
+                "option": "hit",
+                "logprob": -5.103245590333245,
+                "prob": 0.006350894273262557
+              },
+              {
+                "option": "swing",
+                "logprob": -5.353098866151413,
+                "prob": 0.004946807196214331
+              },
+              {
+                "option": "carry",
+                "logprob": -5.478141061990755,
+                "prob": 0.004365357824518612
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Looking at part 3 \u2014 the green, crown-like structure on top of the object \u2014 we can assess its affordances based on its shape, position, and typical associations.",
+              "Part 3 resembles a hat or crown. Hats are primarily worn on the head for protection, decoration, or identification. Therefore, \u201cwear\u201d is the most plausible affordance.",
+              "Other possible actions involving a hat-like object:",
+              "\u201csit on\u201d \u2014 unlikely, as it\u2019s on top; sitting on it would be awkward and not typical.",
+              "\u201chold\u201d \u2014 possible if someone picks it up, but not its primary function.",
+              "\u201ccarry\u201d \u2014 similar to hold, not specific to this shape.",
+              "\u201clift\u201d \u2014 again, not inherent to the object\u2019s design.",
+              "\u201ckick\u201d \u2014 absurd for a hat.",
+              "\u201chit\u201d \u2014 no.",
+              "\u201cdrink with\u201d \u2014 no opening.",
+              "\u201ceat\u201d \u2014 no.",
+              "\u201cwrite\u201d"
+            ],
+            "raw": "Looking at part 3 \u2014 the green, crown-like structure on top of the object \u2014 we can assess its affordances based on its shape, position, and typical associations.\n\nPart 3 resembles a hat or crown. Hats are primarily worn on the head for protection, decoration, or identification. Therefore, \u201cwear\u201d is the most plausible affordance.\n\nOther possible actions involving a hat-like object:\n- \u201csit on\u201d \u2014 unlikely, as it\u2019s on top; sitting on it would be awkward and not typical.\n- \u201chold\u201d \u2014 possible if someone picks it up, but not its primary function.\n- \u201ccarry\u201d \u2014 similar to hold, not specific to this shape.\n- \u201clift\u201d \u2014 again, not inherent to the object\u2019s design.\n- \u201ckick\u201d \u2014 absurd for a hat.\n- \u201chit\u201d \u2014 no.\n- \u201cdrink with\u201d \u2014 no opening.\n- \u201ceat\u201d \u2014 no.\n- \u201cwrite\u201d"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_23_region_0",
+      "area": 23095,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "^^W6?Wo0c0A=F5J8I5L5I7K4K5K5L5K4L3M4M2M3M4M2N3L3M3N3L3N2N2N2N2M3N2N2N2N2N2N2N2N2O1N\\MeUOFYj06PVOGni07XVOGfi07_VOGai07cVOH[i06kVOHSi08QWOEnh0;SWOFkh08YWOHfh07]WOGbh08bWOG\\h08gWOHXh07jWOHUh08mWOHRh07PXOHog07UXOHig07YXOJeg06]XOIbg07`XOI_g06cXOI\\g07fXOIYg06iXOIVg08kXOHTg07nXOHQg09PYOGnf09TYOFlf09VYOFif0:XYOGgf08[YOGdf0:\\YOFdf09^YOGaf09`YOF`f09bYOG\\f0:dYOF\\f09eYOGZf0:gYOEYf0:hYOGVf09lYOFTf0:lYOFTf0:mYOERf0<nYOEQf0;PZODoe0<RZODne0<RZODne0;SZOEme0;SZOFle0:TZOFle0:TZOFke0:VZOFje0:VZOFje0:VZOFje0:VZOFje0:VZOFje09WZOGie09WZOGie09WZOGie09WZOHhe08XZOHhe08XZOHhe08XZOHhe08XZOHhe08XZOHhe08WZOIie07WZOIie07VZOJje06VZOJje06UZOKke06TZOJle06TZOJle06SZOKme05SZOJne06RZOJne07PZOJPf06PZOJQf05nYOLRf04nYOLRf04nYOLRf05mYOKSf05lYOLTf04lYOKUf05kYOKVf05hYOLXf04hYOLXf04gYOMYf04eYOM[f04dYOK]f05bYOL^f05`YOLaf04]YOMcf03]YOLdf05ZYOLff05XYOLif03WYOMif04UYOLlf05SYOKnf05PYOLPg05nXOLRg05lXOKVg05hXOLXg06eXOK\\g05bXOK_g06_XOKbg05\\XOKeg06XXOLhg05VXOKlg05RXOLng06nWOKTh06fWONZh06_WOLbh06YWOMhh04TWOMmh08gVOOZi04`VOMbi0W3101N1O2O1N1O2O0O2N1O2N2N1O2N2N1O2N2N2N2N2M2O2N2N2N2N2N2M3N2M3M4M2M3M4L3M4L4L3M4K6K5K5K5J7I7H8G;E;DYb_c0"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "none",
+          "justification": "Part 5 appears as a small protrusion at the tip of the creature\u2019s long neck without any visible functional features like eyes, mouthparts, or attachment points for tools; unlike its larger body sections which suggest structural support or sensory input areas through their size and placement near potential interaction zones such as limbs or face regions where",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.2833513905352447,
+                "prob": 0.7999901050253789
+              },
+              {
+                "option": "hit",
+                "logprob": -3.0333802315581124,
+                "prob": 0.051140181444389816
+              },
+              {
+                "option": "beat",
+                "logprob": -3.1592450770549476,
+                "prob": 0.04509203720863375
+              },
+              {
+                "option": "stick",
+                "logprob": -3.908461268118117,
+                "prob": 0.02131667182388399
+              },
+              {
+                "option": "cut",
+                "logprob": -4.2136973440647125,
+                "prob": 0.015709308038065986
+              },
+              {
+                "option": "look out",
+                "logprob": -4.4085591121111065,
+                "prob": 0.01292795004008043
+              },
+              {
+                "option": "eat",
+                "logprob": -4.845882734254701,
+                "prob": 0.008348384233378945
+              },
+              {
+                "option": "sit on",
+                "logprob": -4.971012649133627,
+                "prob": 0.007366466151816923
+              },
+              {
+                "option": "wear",
+                "logprob": -5.345935051125707,
+                "prob": 0.005063286094391045
+              },
+              {
+                "option": "pick up",
+                "logprob": -5.53727582571446,
+                "prob": 0.004181520446976581
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Looking at the image, part 4 is the small black square with a white \u201c4\u201d inside it, located within the pink circle (which is itself inside a larger red circle) on the left side of the object. This appears to be a label or identifier \u2014 likely indicating that this is part 4 of the 6-part system shown.",
+              "It does not have any functional affordance like being used for eating, drinking, holding, etc. It\u2019s purely informational/labeling. Therefore, none of the listed actions are plausibly performed *on* or *with* part 4 in a functional sense.",
+              "Thus, we rank \u201cnone\u201d first, then select the 9 most plausible options from the list \u2014 even if they\u2019re not functionally relevant, we must still pick 9 that could *theoretically* be associated with interacting with a small labeled part (e.g., pointing at it, touching it, reading it, etc.).",
+              "Let\u2019s evaluate which"
+            ],
+            "raw": "Looking at the image, part 4 is the small black square with a white \u201c4\u201d inside it, located within the pink circle (which is itself inside a larger red circle) on the left side of the object. This appears to be a label or identifier \u2014 likely indicating that this is part 4 of the 6-part system shown.\n\nIt does not have any functional affordance like being used for eating, drinking, holding, etc. It\u2019s purely informational/labeling. Therefore, none of the listed actions are plausibly performed *on* or *with* part 4 in a functional sense.\n\nThus, we rank \u201cnone\u201d first, then select the 9 most plausible options from the list \u2014 even if they\u2019re not functionally relevant, we must still pick 9 that could *theoretically* be associated with interacting with a small labeled part (e.g., pointing at it, touching it, reading it, etc.).\n\nLet\u2019s evaluate which"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_23_region_2",
+      "area": 8389,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "^^]7c0Xo09I6J5L4K6L3M2L3O4K4L3N2N2N2M3M3N2O1M3N2N2O1N2O1N1O2NZN[SO4cl0IgSO2Xl0KnSO2Ql0NQTO2nk0LVTO3hk0MZTO2fk0M\\TO3bk0MaTO1_k0NcTO2[k0OfTO0Zk0OhTO1Vk00kTOOUk00lTO1Sk0NoTO1Qk0OoTO2oj0OQUO1oj0ORUO0mj00TUO0lj00UUOOkj01UUOOkj00WUOOhj02ZUOLfj04ZUOLfj03[UOMej03[UOMej03ZUONej03[UOMej03[UOMej03[UOMej04WUOQO_Nj0Zl05VUO0jj00VUO0jj00UUO1kj00TUO0lj01RUO0nj01QUONPk03nTONRk02mTONTk03jTONVk03hTOMZk02fTONZk03cTOO]k02aTON`k03_TOMak04\\TONek02YTONhk03TTO0lk03oSONRl07fSOLZl0m11O0O10001N101N1O2O0O2N2N101N2N101N2O1N2N2N2N3M2N2N2N2M3N2N3L4J8I5K5L7D;JkaQe0"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "none",
+          "justification": "Part 3 lacks any discernible functional features like protrusions for gripping or attachment points due to its smooth, rounded crown-like form which suggests purely decorative value rather than utility compared to more structured elements elsewhere in the design",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.3079700262460392,
+                "prob": 0.793564953876564
+              },
+              {
+                "option": "hit",
+                "logprob": -3.0578978951380122,
+                "prob": 0.050734569638671394
+              },
+              {
+                "option": "beat",
+                "logprob": -3.3086227233870886,
+                "prob": 0.03948349343762606
+              },
+              {
+                "option": "stick",
+                "logprob": -3.932976312498795,
+                "prob": 0.021147656758643583
+              },
+              {
+                "option": "look out",
+                "logprob": -4.308053662163729,
+                "prob": 0.01453343356207313
+              },
+              {
+                "option": "cut",
+                "logprob": -4.363227441906929,
+                "prob": 0.01375328876459869
+              },
+              {
+                "option": "sit on",
+                "logprob": -4.6204750156612135,
+                "prob": 0.010633723408539792
+              },
+              {
+                "option": "eat",
+                "logprob": -4.7454064760531764,
+                "prob": 0.009384871184327077
+              },
+              {
+                "option": "wear",
+                "logprob": -4.995419347309507,
+                "prob": 0.0073088509526786655
+              },
+              {
+                "option": "ride",
+                "logprob": -5.370423518499592,
+                "prob": 0.005023273946983049
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "none"
+            ],
+            "n_valid": 1,
+            "invalid": [
+              "Looking at the image, part 5 is labeled inside a circular target-like structure on the body of the object \u2014 it appears to be an eye or sensor (with a white center and black pupil). This suggests its primary function is visual perception.",
+              "Now, evaluating the 10 most plausible affordances for part 5 (the eye/sensor):",
+              "**look out** \u2014 most direct: eyes are for looking out.",
+              "**take photo** \u2014 cameras have lenses like eyes; plausible if this is a robot or device.",
+              "**text on** \u2014 unlikely, but some devices with eyes can display text? Weak.",
+              "**talk on** \u2014 no, eyes don\u2019t talk.",
+              "**write** \u2014 no.",
+              "**type on** \u2014 no.",
+              "**wash** \u2014 no.",
+              "**cut** \u2014 no.",
+              "**cut with** \u2014 no."
+            ],
+            "raw": "Looking at the image, part 5 is labeled inside a circular target-like structure on the body of the object \u2014 it appears to be an eye or sensor (with a white center and black pupil). This suggests its primary function is visual perception.\n\nNow, evaluating the 10 most plausible affordances for part 5 (the eye/sensor):\n\n1. **look out** \u2014 most direct: eyes are for looking out.\n2. **take photo** \u2014 cameras have lenses like eyes; plausible if this is a robot or device.\n3. **text on** \u2014 unlikely, but some devices with eyes can display text? Weak.\n4. **talk on** \u2014 no, eyes don\u2019t talk.\n5. **write** \u2014 no.\n6. **type on** \u2014 no.\n7. **wash** \u2014 no.\n8. **cut** \u2014 no.\n9. **cut with** \u2014 no.\n10. **none"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_23_region_1",
+      "area": 1948,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "_^X89co0:G6L2M4M2N2N3M2O1N2O1N101N10001N10000O10001N100000O10001N10001N101N2O1N1O2N2N1O2N2N2N2N2N2L6K7HcaVf0"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "none",
+          "justification": "Part 6 appears as a flat, two-dimensional circular disc embedded within another layer rather than protruding like the crown-like structure above; its smooth surface suggests no tactile function compared to raised elements such as those at positions three and five which may offer grip points for manipulation by fingers due to their textured surfaces designed for interaction purposes",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.1791372238003532,
+                "prob": 0.3329506269638923
+              },
+              {
+                "option": "hit",
+                "logprob": -1.5541220857776352,
+                "prob": 0.22883686039038695
+              },
+              {
+                "option": "look out",
+                "logprob": -2.179216965240812,
+                "prob": 0.12247592378916959
+              },
+              {
+                "option": "beat",
+                "logprob": -2.30498530191835,
+                "prob": 0.108001609899941
+              },
+              {
+                "option": "eat",
+                "logprob": -3.1791510504554026,
+                "prob": 0.045059344379647495
+              },
+              {
+                "option": "cut",
+                "logprob": -3.5060570687055588,
+                "prob": 0.03249461446082768
+              },
+              {
+                "option": "stick",
+                "logprob": -3.804150573676452,
+                "prob": 0.024118540539988957
+              },
+              {
+                "option": "write",
+                "logprob": -4.057994232978672,
+                "prob": 0.018711479311262106
+              },
+              {
+                "option": "hold",
+                "logprob": -4.179161777894478,
+                "prob": 0.016576228608500006
+              },
+              {
+                "option": "sit on",
+                "logprob": -4.179232703856542,
+                "prob": 0.016575052965230874
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Looking at part 6 \u2014 which is a circular, concentric target-like structure with a small square icon in the center (possibly representing a button or interface element) \u2014 we must assess its affordance based on visual cues and typical object semantics.",
+              "Part 6 appears to be an interactive or symbolic component, possibly part of a toy, game, or digital interface. Its design (concentric rings + central icon) suggests it\u2019s meant to be engaged with \u2014 perhaps pressed, clicked, or viewed \u2014 rather than physically manipulated like \u201ccarry\u201d or \u201ckick\u201d.",
+              "Let\u2019s evaluate plausible affordances from the list:",
+              "**beat** \u2013 unlikely; no rhythmic or striking context.",
+              "**boxing** \u2013 no gloves or combat context.",
+              "**brush with** \u2013 no bristles or cleaning context.",
+              "**carry** \u2013 too small and decorative; not designed for transport.",
+              "**catch** \u2013 no motion or ball implied.",
+              "**cut** \u2013"
+            ],
+            "raw": "Looking at part 6 \u2014 which is a circular, concentric target-like structure with a small square icon in the center (possibly representing a button or interface element) \u2014 we must assess its affordance based on visual cues and typical object semantics.\n\nPart 6 appears to be an interactive or symbolic component, possibly part of a toy, game, or digital interface. Its design (concentric rings + central icon) suggests it\u2019s meant to be engaged with \u2014 perhaps pressed, clicked, or viewed \u2014 rather than physically manipulated like \u201ccarry\u201d or \u201ckick\u201d.\n\nLet\u2019s evaluate plausible affordances from the list:\n\n- **beat** \u2013 unlikely; no rhythmic or striking context.\n- **boxing** \u2013 no gloves or combat context.\n- **brush with** \u2013 no bristles or cleaning context.\n- **carry** \u2013 too small and decorative; not designed for transport.\n- **catch** \u2013 no motion or ball implied.\n- **cut** \u2013"
+          }
+        }
+      }
+    }
+  ]
+}

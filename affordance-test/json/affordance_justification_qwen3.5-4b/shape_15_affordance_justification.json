@@ -1,0 +1,629 @@
+{
+  "object": "shape_15",
+  "model": "Qwen/Qwen3.5-4B",
+  "image_path": "/shared/nas/data/m1/adadt2/nvrd/regions_test/data/novel/shape_15.png",
+  "region_source": "sam_slic",
+  "method": "per_part_with_comparative_context",
+  "top_k": 10,
+  "modes": [
+    "logprob",
+    "generation"
+  ],
+  "regions": [
+    {
+      "region_id": "shape_15_region_7",
+      "area": 150579,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "gg_8f0ln0f0C<E8J5H9I7G7L5G9J6K4K5L4J5L6K6G8L3L3N3K5L3N2K6K4N3H7N2J6K5M4L3N3J6M2M2N3M3M3K6M2L4M3M3N2O0K6M4M2N2N2L3M4N2M2L5M4K4M2N3M2M4M2N3L4M3M3N1N3L4N1N3L3N3M2O2M2M3O2M2N2M3N3DoDb[OV;]d07O100O2N1O2N1O1O1N2M3O1N2O1N3L3N1O2L4L4L5L3M3M3TOSCS^O04Q=ga0j0N2SOTBb_OP>]`0j000O1001N101O001N2O1O1O001O001O001O001N101O0O2O1N101O1N10001O00001N1000001O0O101O0O10001N100O100O1O1O100000O10O1000O0100O1O010O1O001000O10O01O1O010O001O010O0010O0O10000000O2O0O10O10O2O01N10O1000O1O001O10O1O101O0O100O0010O1O1O1O1001O1O001O0O2O00000000000O0100L400100O1O001O001O00O100000001O0N2001O010O1O001O001O0010O00001O00010O01O1O001O0010O010O10O010O00010O1O1O0010OO2O010O01O001O001O001M2O2O001O01O01L301N1O2O00000O2N1M4O001O00001M201O00001O0O2N1O2K5N1O2N2N10001O0L5O001O0O2O0O2O1N101O1O1O00001O001O0O2N2N1O2N2N2N1O2O1cIU\\Oc0mc0[Lo[O;`0R3ac0bLX\\O1?X3Zc0eLZ\\OkMBk1R1`3Sc0iLf\\O@=c3mb0mLh\\O\\Ob0k0gNhMNb1Wd0?c\\OkMQOX1e1o0TO]Odc0`0k\\OPOb0n0ROVNSOm0_d0o0o\\OiNb0P1]OTOUc0R1T]OaN>V1^OPOSc0X1X]OZN;[1\\OnNTc0i0[[OmNm1DSN3Y2b1[OlNTc0g0e[OlN_4\\1jLnNUc0h0m@7PLmNVc0i0o@7mKlNWc0k0PA7jKmNUc0l0SA6kKjNSc0o0TA5Sa0Jo^O5Pa0JU_O3k`0KX_O4h`0J\\_O4d`0K^_O4a`0Lb_O2^`0Me_O1[`0Ng_O1Y`0Mk_O1U`0Nn_O0R`0OQ@Oo?0S@Om?0V@Oi?0Z@Nf?1\\@Nd?0_@Ob?Oa@O_?0d@N]?0e@N\\?1g@MZ?2i@JY?4[8MRgb:"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "none",
+          "justification": "Part 1 forms the central body of the structure but lacks any protrusions like spikes found in surrounding sections such as those at positions four through seven; its smooth surface suggests no functional interaction beyond structural support within the whole form",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.6930326192668872,
+                "prob": 0.21124254079544225
+              },
+              {
+                "option": "beat",
+                "logprob": -2.1944384285015985,
+                "prob": 0.12794508475816752
+              },
+              {
+                "option": "sit on",
+                "logprob": -2.4430588444720343,
+                "prob": 0.0997812939685789
+              },
+              {
+                "option": "hold",
+                "logprob": -2.6930843507143436,
+                "prob": 0.07770776782017463
+              },
+              {
+                "option": "carry",
+                "logprob": -2.9431204657739727,
+                "prob": 0.060516684825935516
+              },
+              {
+                "option": "hit",
+                "logprob": -2.943172788596712,
+                "prob": 0.06051351850499874
+              },
+              {
+                "option": "cut",
+                "logprob": -2.951258897781372,
+                "prob": 0.06002617260871304
+              },
+              {
+                "option": "cut with",
+                "logprob": -3.011811136329925,
+                "prob": 0.05649931073552695
+              },
+              {
+                "option": "stick",
+                "logprob": -3.3179973354599497,
+                "prob": 0.04159759027787217
+              },
+              {
+                "option": "look out",
+                "logprob": -3.568181014808033,
+                "prob": 0.032390285909263405
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "hold",
+              "carry",
+              "sit on",
+              "lie on",
+              "kick",
+              "hit",
+              "beat",
+              "push",
+              "none",
+              "stir"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. hold\n2. carry\n3. sit on\n4. lie on\n5. kick\n6. hit\n7. beat\n8. push\n9. none\n10. stir"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_15_region_4",
+      "area": 98345,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "TVS8P1mn07I7I7I8I6J5L3L4M4L3L4M4L3L3N2O2M3M2N3M3M2N3M2N3N2M2N2N3M2O2M2N2O2M2O2M2O1N3N1N2O2N2M2N3N1N3N1N2O1N3N1O1N2O1O1N2O2N1N2O1O2N1N2O1O2N1O1N3N1O2M2O1O1O2N1N3N1O1O1O1O2M2O1O1O2N1O1N2O1O2N1O2N1O1O2M2O2N1O1O1O2N1O2N1N3N2N1O2N2N2N2N1O1O2M2O1O2N1O1O1O1O001O1O1N2O1O001O001O001O1N101O1O001O1O001O001O0O2O001O001O1O001O00001O1O001O00001O0000000000001O000000001O00O01000000000O10001O0O10000O100O100O1O100O1O100O100O1O1O100O1O1O1O1O1N2O1O1O1N2O1O1N2O1O1O1N2O1O1N2N2O1O1O1O1N2N2N2O1N2O1O1N2O1O1O1O1O1O1O1O1N2O1O1O1O1N2O1O1O1O1O1O1O1O1O1O1O1O100O1N200O1O1O1O100O1N2O100O1O1O100O1O100O1O100O1O100O1O1O100O1O1O1O1O1O2N100O1O100O1O1O100O1O100O100O100O10000O100O1O100O100O100O1O100O100O1O100O100O100O100O100O1O100O10000O10000O100O100O10000O100O100O2O000O100O10000O100O100O101O000O1000000O2O0000000O10000O2O00000O1000001O0O100000000O2O00000O2O0000001O0000001O00001O01O01O001O0001O100O010O0001N100O2O0O2O0O1O2N101N2N1O101N1O2O0O2N1O2N1O2O0O2N1O2N1O2N1O2N1O1O2N1O2N2N2M3N1O2M4M2N2N2M4L3M3M4M3L5J4L5K7J5J7G;Bni_8"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "sit on",
+          "justification": "Part two has a broad, flat top surface positioned at the highest point of the structure, making its large area ideal for supporting weight in contrast to the narrower spikes below which are designed primarily as protrusions rather than platforms",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "sit on",
+                "logprob": -1.650455113425778,
+                "prob": 0.21596083975681452
+              },
+              {
+                "option": "ride",
+                "logprob": -1.9013198731699958,
+                "prob": 0.16804508963566914
+              },
+              {
+                "option": "beat",
+                "logprob": -2.2763229696429335,
+                "prob": 0.11549523083165293
+              },
+              {
+                "option": "lift",
+                "logprob": -2.6503963462164393,
+                "prob": 0.07945222209282568
+              },
+              {
+                "option": "none",
+                "logprob": -2.7755280584387947,
+                "prob": 0.07010710532959659
+              },
+              {
+                "option": "hit",
+                "logprob": -2.7756087459565606,
+                "prob": 0.07010144878949895
+              },
+              {
+                "option": "wear",
+                "logprob": -3.0254621448984835,
+                "prob": 0.05460306749243807
+              },
+              {
+                "option": "carry",
+                "logprob": -3.2755080345232273,
+                "prob": 0.04252296031374541
+              },
+              {
+                "option": "eat",
+                "logprob": -3.2755669132020557,
+                "prob": 0.04252045669172796
+              },
+              {
+                "option": "look out",
+                "logprob": -3.9005831234358084,
+                "prob": 0.022759191455290404
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "sit on",
+              "lie on",
+              "carry",
+              "hold",
+              "pick up",
+              "lift",
+              "wear",
+              "none",
+              "kick",
+              "push"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. sit on\n2. lie on\n3. carry\n4. hold\n5. pick up\n6. lift\n7. wear\n8. none\n9. kick\n10. push"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_15_region_5",
+      "area": 61421,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "[lg;3lo02O0O2O001O001N10001O0000001O000O2O001O001O000O10001O000O10001O0O10000O2O0O1000001O00000O10001N1O100O2O0O1000001N100O100O101O0O100O1000001N10000O100O100O2O0O1O1O100O101N1O100O100O100O1O1O1O1O2N1O1O1O1O1O1N2O1O1O1N2O1O1N2N2O1N2O2N1O1O1O1N2O1O1O1O1O1O100O1O1O2N1O100N2O100O1O100N2O1N2O1O2N1O1O1O1O1O1O1O1O1O001O1O100O1O1O100O1O100O1O100O100O10000O100O100O100O100O100O100O1O10O0100O1O100O1O1O1O1O100O00100O1O1N2O1N2O0O2O1M3O1O1N2N2N2O1O001N2O1O1M3N2O0O2N2O1O1O1O1N1O2N2M3M2O2O1N2N2M3O1N2N2O1N101O1O0O2M3O1O1O1O1O001M3O001O1O1N2N101O1N1O2O1O1N2N2O1N2M3M2N3O1O1L3N3N2L4N2O001M3N2O1O1N2O0O2O1O010O1O1O001O1O1O100O00100O001O1O010O1O0010O010O10O1O0010O0010O1O010O01O010O001O010O101N1O2O1N3M2N3N2M3M3N2M3M2N2O2M3M3M3M2N4M2M2N3M4L3M3M3M3M3M2N3M3M4K3N3M4L4L2M5L3M4L3L4M4L3L4L4M4L4K5J5M4K5K4L4L6J7H6J8I7I6I5J7J9G9C=E=A[Xd7"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "sit on",
+          "justification": "Part three has a broad, flat base at its lowest point which provides stability for sitting compared to the more rounded top sections of the rest of the structure; additionally, as being positioned directly beneath where someone would sit makes sense functionally in terms of weight distribution across all components including those above like number two but also below such",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "sit on",
+                "logprob": -1.3411432486509511,
+                "prob": 0.2884567962721006
+              },
+              {
+                "option": "none",
+                "logprob": -1.7161627967070672,
+                "prob": 0.19824938804416553
+              },
+              {
+                "option": "kick",
+                "logprob": -2.09111070560175,
+                "prob": 0.13626177677132179
+              },
+              {
+                "option": "cut",
+                "logprob": -2.843596965074539,
+                "prob": 0.06420567518788303
+              },
+              {
+                "option": "wear",
+                "logprob": -3.2162049921025755,
+                "prob": 0.044233551212056334
+              },
+              {
+                "option": "carry",
+                "logprob": -3.2162173881515628,
+                "prob": 0.04423300289418712
+              },
+              {
+                "option": "lie on",
+                "logprob": -3.5911039111151695,
+                "prob": 0.030404318654127908
+              },
+              {
+                "option": "stick",
+                "logprob": -3.716098069819054,
+                "prob": 0.026831873769925168
+              },
+              {
+                "option": "beat",
+                "logprob": -3.8442906755954027,
+                "prob": 0.023603568183837832
+              },
+              {
+                "option": "ride",
+                "logprob": -4.0911875897072605,
+                "prob": 0.01843960838637299
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "sit on",
+              "lie on",
+              "kick",
+              "carry",
+              "hold",
+              "lift",
+              "push",
+              "drag",
+              "none",
+              "wear"
+            ],
+            "n_valid": 10,
+            "invalid": [
+              "Based on the visual characteristics of part 3 (a large, smooth, green, rounded surface at the base of the object), here is the ranking of its most plausible affordances:"
+            ],
+            "raw": "Based on the visual characteristics of part 3 (a large, smooth, green, rounded surface at the base of the object), here is the ranking of its most plausible affordances:\n\n1. sit on\n2. lie on\n3. kick\n4. carry\n5. hold\n6. lift\n7. push\n8. drag\n9. none\n10. wear"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_15_region_3",
+      "area": 7023,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "b\\\\65jo02O1N2O100O00100O10O01O100O10O01O10O0100O1O010O100O00100O100O00100O100O00100O00100O100O010O1O100O1O010O100O010O1O100O100O00100O10O01O100O10O01O100O10O01O100O100O1O010O100O100O1O010O100O100O1O100O010O100O1O010O100O100O10O0100O1O100O10O0100O010O1O100O10O0100O100O010O100O100O00100O100O100O1O100O101N1O010OO101N100O2N1O1N2N2N2N2N2O1N2N2L3O2O0O2L5UOWQO9mn0CXQO9ln0EUQO8\\o0LUaSd0"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "cut",
+          "justification": "Part four has a sharp, pointed tip extending outward like a blade designed for slicing through materials such as fabric or paper; unlike its rounded counterparts which serve decorative purposes by adding texture without functional utility related to cutting actions performed upon objects placed nearby within space around them due their distinct geometry allowing precise incisions into surfaces they touch against",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "cut",
+                "logprob": -0.5696460753679276,
+                "prob": 0.5750859638786654
+              },
+              {
+                "option": "cut with",
+                "logprob": -1.194669529550083,
+                "prob": 0.3078141149339284
+              },
+              {
+                "option": "beat",
+                "logprob": -3.2679823166690767,
+                "prob": 0.03871330311540953
+              },
+              {
+                "option": "stick",
+                "logprob": -3.3909038226265693,
+                "prob": 0.034235454376405405
+              },
+              {
+                "option": "hit",
+                "logprob": -4.0160806913045235,
+                "prob": 0.018321677398061075
+              },
+              {
+                "option": "none",
+                "logprob": -4.2663100734353065,
+                "prob": 0.014265664041045912
+              },
+              {
+                "option": "kick",
+                "logprob": -6.3908662757094135,
+                "prob": 0.00170454690692299
+              },
+              {
+                "option": "swing",
+                "logprob": -6.391050301695941,
+                "prob": 0.0017042332548578114
+              },
+              {
+                "option": "brush with",
+                "logprob": -6.517679805452644,
+                "prob": 0.001501531822369497
+              },
+              {
+                "option": "pick up",
+                "logprob": -6.5179260384102236,
+                "prob": 0.0015011621412636793
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "cut",
+              "cut with",
+              "hit",
+              "throw",
+              "kick",
+              "swing",
+              "beat",
+              "none",
+              "hold",
+              "push"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. cut\n2. cut with\n3. hit\n4. throw\n5. kick\n6. swing\n7. beat\n8. none\n9. hold\n10. push"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_15_region_8",
+      "area": 6606,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "^[Ud05io09G3ePOBQo0a0lPODon0h0O1N9H5J8H7H3N4L2O0O2OO101N1O1O1O1O1O1N2O1O1O001O1O001O1O001O001O001O00001O00001O001O001O001O000010O0001O001O00001O001O001O000010O0001O001O00001O001O010O00001O00001O001O010O00001O00001O010O00001O001O000010O01O001O00001O00010O001O00000010O01O001O001O01O01O00001O0010O01O001O001O000010O01O00001O010O00001O001O000010O01O001O001O010O001O001O001O00001O010O001O001O2O0O2Migo5"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "cut",
+          "justification": "Part five features sharp edges at its tip which are characteristic of objects designed for cutting actions like knives; unlike most others in the set whose shapes suggest functions such as holding or supporting rather than slicing through materials",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "cut",
+                "logprob": -0.903135359287262,
+                "prob": 0.416440025311417
+              },
+              {
+                "option": "cut with",
+                "logprob": -1.278158902823634,
+                "prob": 0.2862080262275796
+              },
+              {
+                "option": "stick",
+                "logprob": -2.1298545593381277,
+                "prob": 0.1221223308618959
+              },
+              {
+                "option": "hit",
+                "logprob": -2.3799416946130805,
+                "prob": 0.09510067992081753
+              },
+              {
+                "option": "none",
+                "logprob": -3.8801572949741967,
+                "prob": 0.021215255431109192
+              },
+              {
+                "option": "beat",
+                "logprob": -4.006731353816576,
+                "prob": 0.018692950232337233
+              },
+              {
+                "option": "swing",
+                "logprob": -4.504943005784298,
+                "prob": 0.01135814159464835
+              },
+              {
+                "option": "kick",
+                "logprob": -4.879873512811173,
+                "prob": 0.0078068714488490724
+              },
+              {
+                "option": "pick up",
+                "logprob": -5.005969733574602,
+                "prob": 0.006881991553894412
+              },
+              {
+                "option": "look out",
+                "logprob": -6.12999843246871,
+                "prob": 0.002236426727454863
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "cut",
+              "cut with",
+              "hit",
+              "kick",
+              "swing",
+              "throw",
+              "none",
+              "beat",
+              "push",
+              "hold"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. cut\n2. cut with\n3. hit\n4. kick\n5. swing\n6. throw\n7. none\n8. beat\n9. push\n10. hold"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_15_region_9",
+      "area": 4838,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "oaYd098Nnn0d0M3M`0A5K2N2M3N2O0O3N1N101O00O100O1O1O1O1O100O1O2N100O1O100O1O1O10O01O100O1O1O100O100O1O1O010O100O1O010O100O100O00100O100O10O01O1O100O10O01O100O1O010O100O10O0100O100O00100O10O01O100O100O010O100O100O010O100O010O1O10000O010O1O100O010O100O10O0100O1O10O10O100O1O100O1O010O100O1O1O2O0O2No^X7"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "cut",
+          "justification": "Part 6 appears as a flat, wedge-shaped protrusion positioned at the junction between two distinct surface textures\u2014one smooth green area below and another cracked blue section above\u2014suggesting its role in separating these materials rather than being integrated into either like the surrounding organic forms",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "cut",
+                "logprob": -0.632292315363884,
+                "prob": 0.542144593453681
+              },
+              {
+                "option": "cut with",
+                "logprob": -1.2573240842739324,
+                "prob": 0.2901798707112185
+              },
+              {
+                "option": "stick",
+                "logprob": -2.3284635527998034,
+                "prob": 0.09942081577906532
+              },
+              {
+                "option": "none",
+                "logprob": -3.2037500747537706,
+                "prob": 0.04143288893057576
+              },
+              {
+                "option": "hit",
+                "logprob": -5.07875496064662,
+                "prob": 0.006353908263647259
+              },
+              {
+                "option": "pick up",
+                "logprob": -5.206085209327284,
+                "prob": 0.0055942531605619635
+              },
+              {
+                "option": "beat",
+                "logprob": -5.459239608142525,
+                "prob": 0.004343087282666288
+              },
+              {
+                "option": "stir",
+                "logprob": -5.9792907689407,
+                "prob": 0.0025819225345763935
+              },
+              {
+                "option": "look out",
+                "logprob": -6.703750918422884,
+                "prob": 0.0012511637777622522
+              },
+              {
+                "option": "peel",
+                "logprob": -6.829340701173351,
+                "prob": 0.0011034971429611238
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Looking at part 6 in the image: it is a small, gray, pointed protrusion attached to the side of the object (likely a stylized or abstract representation of a creature or artifact). It resembles a horn, spike, or small appendage.",
+              "Its affordance \u2014 what it can be used for \u2014 is limited by its shape and context. Since it\u2019s small, rigid, and protruding, it\u2019s not suitable for actions like drinking, eating, sitting, riding, etc. It might plausibly be used for:",
+              "**stick** \u2014 as a small tool or handle",
+              "**hold** \u2014 if gripped (though small)",
+              "**push** \u2014 if used as a lever or nudge",
+              "**hit** \u2014 if struck with something else (unlikely but possible)",
+              "**cut** \u2014 if sharp (but no indication of sharpness)",
+              "**none** \u2014 most plausible, since it\u2019s too small for most listed actions",
+              "Given"
+            ],
+            "raw": "Looking at part 6 in the image: it is a small, gray, pointed protrusion attached to the side of the object (likely a stylized or abstract representation of a creature or artifact). It resembles a horn, spike, or small appendage.\n\nIts affordance \u2014 what it can be used for \u2014 is limited by its shape and context. Since it\u2019s small, rigid, and protruding, it\u2019s not suitable for actions like drinking, eating, sitting, riding, etc. It might plausibly be used for:\n\n- **stick** \u2014 as a small tool or handle\n- **hold** \u2014 if gripped (though small)\n- **push** \u2014 if used as a lever or nudge\n- **hit** \u2014 if struck with something else (unlikely but possible)\n- **cut** \u2014 if sharp (but no indication of sharpness)\n- **none** \u2014 most plausible, since it\u2019s too small for most listed actions\n\nGiven"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_15_region_2",
+      "area": 3078,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "kbV66io02O0O2O001O001O001O010O00001O0010O01O001O0010O01O001O001O0010O0001O0010O01O001O001O1O010O001O00010O001O001O010O001O001O010O001O001O010O001O00001O010O001O001O1O0010O01O001O1O001O10O01O1O001O2N10O01O00O100O1L4N3M2O1L4O1N2N2N3M2L4O1M4M2N3Lh\\Rf0"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "stick",
+          "justification": "Part seven has a long, slender conical form resembling natural twigs used for grasping objects like pencils; unlike its thicker counterparts which are more suited as handles or supports due to their bulkier shapes designed primarily for holding weight rather than gripping small items effectively without slipping off easily when held by fingers wrapped around them tightly against",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "stick",
+                "logprob": -1.2219140527013224,
+                "prob": 0.3101743893886715
+              },
+              {
+                "option": "cut",
+                "logprob": -1.484194040298462,
+                "prob": 0.2386157930900186
+              },
+              {
+                "option": "none",
+                "logprob": -1.9719650718107005,
+                "prob": 0.1465085321385695
+              },
+              {
+                "option": "cut with",
+                "logprob": -2.2341828340831853,
+                "prob": 0.1127153827172617
+              },
+              {
+                "option": "pick up",
+                "logprob": -2.7231441332824033,
+                "prob": 0.0691241805487724
+              },
+              {
+                "option": "hit",
+                "logprob": -3.4720079830585746,
+                "prob": 0.0326890694803303
+              },
+              {
+                "option": "beat",
+                "logprob": -4.22399145248346,
+                "prob": 0.015410626222886577
+              },
+              {
+                "option": "catch",
+                "logprob": -4.47192072825419,
+                "prob": 0.012026685953187939
+              },
+              {
+                "option": "kick",
+                "logprob": -4.4719324103534746,
+                "prob": 0.012026545457069219
+              },
+              {
+                "option": "look out",
+                "logprob": -4.597061264147669,
+                "prob": 0.010612021627304593
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Looking at part 7 in the image:",
+              "It is a small, pointed, purple-colored protrusion on the side of the main blue body (part 1).",
+              "Its shape resembles a thorn, spike, or small horn \u2014 similar to parts 4, 5, and 6.",
+              "These protrusions appear to be decorative or structural, not functional for interaction like holding, drinking, etc.",
+              "The object overall looks like an abstract or stylized vase or sculpture \u2014 not a tool or container meant for typical human interaction.",
+              "Part 7 does not have an opening, handle, surface for writing, or any feature that would plausibly support actions like \u201cdrink with,\u201d \u201cwrite,\u201d \u201ctype on,\u201d etc.",
+              "Given its form and context, it\u2019s unlikely to offer *any* of the listed affordances meaningfully.",
+              "Therefore, we rank \u201cnone\u201d first, then select the 9 most plausible alternatives based on visual similarity"
+            ],
+            "raw": "Looking at part 7 in the image:\n\n- It is a small, pointed, purple-colored protrusion on the side of the main blue body (part 1).\n- Its shape resembles a thorn, spike, or small horn \u2014 similar to parts 4, 5, and 6.\n- These protrusions appear to be decorative or structural, not functional for interaction like holding, drinking, etc.\n- The object overall looks like an abstract or stylized vase or sculpture \u2014 not a tool or container meant for typical human interaction.\n- Part 7 does not have an opening, handle, surface for writing, or any feature that would plausibly support actions like \u201cdrink with,\u201d \u201cwrite,\u201d \u201ctype on,\u201d etc.\n- Given its form and context, it\u2019s unlikely to offer *any* of the listed affordances meaningfully.\n\nTherefore, we rank \u201cnone\u201d first, then select the 9 most plausible alternatives based on visual similarity"
+          }
+        }
+      }
+    }
+  ]
+}

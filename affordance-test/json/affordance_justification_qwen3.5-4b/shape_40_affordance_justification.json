@@ -1,0 +1,982 @@
+{
+  "object": "shape_40",
+  "model": "Qwen/Qwen3.5-4B",
+  "image_path": "/shared/nas/data/m1/adadt2/nvrd/regions_test/data/novel/shape_40.png",
+  "region_source": "sam_slic",
+  "method": "per_part_with_comparative_context",
+  "top_k": 10,
+  "modes": [
+    "logprob",
+    "generation"
+  ],
+  "regions": [
+    {
+      "region_id": "shape_40_region_16",
+      "area": 123419,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "d]a56bo0d0^O;F:I4M4I8H7K4L3M3L4M2O2hRO\\MPm0m2L4L3M4M2N2N2O1M3M4M2N2N2N2M3N2M4M2N2N2O0O2N1O2N1O2N1O005L1N1O2N1O2N101N2N101N100O2N2O0O2O0O100O2N100O101N10000O2O0O101N100O10001N100O10001N1000000O101O0O1000000O10000000000O100000000000O10O1000000000O100000000O10000O1000000O1000000O2O000000000000001O00`A\\Jd2d5WMeJe2\\5VMmJe2S5WMTKg2k4WMXKh2i4TM\\Kj2e4SM^Km2a4QMcKm2^4PMeKP3[4lLhKT3X4kLjKT3W4iLlKV3U4hLmKW3S4hLnKY3R4dLQL[3o3cLTL\\3m3bLTL_3k3`LWL_3j3_LWLb3i3[LYLe3h3YLZLg3f3WL[Li3e3VL]Li3d3UL]Ll3c3RL_Lm3b3RL^Lo3a3oKaLQ4`3mKaLT4_3jKcLU4^3iKcLX4]3fKdLZ4]3dKdL]4[3cKeL]4\\3aKfL_4Z3_KgLb4Y3\\KhLd4Y3ZKhLg4X3WKjLh4W3VKjLk4W3RKjLn4W3PKjLQ5V3nJjLS5V3kJkLU5V3jJjLW5V3gJlLX5U3gJkLZ5V3cJkL]5V3aJkL`5U3_JkLb5U3\\JlLe5T3YJmLh5T3UJmLl5S3RJnLo5R3PJnLP6T3mImLT6S3kImLU6T3jIlLW6T3gImLZ6S3dInL]6S3`InLa6S3]ImLd6S3ZInLg6Q3YIoLh6Q3VIPMk6Q3SIoLn6Q3PIPMQ7P3nHPMS7Q3jHPMW7P3hHPMY7P3eHQM\\7o2cHQM^7o2aHQM`7o2^HQMc7P3[HQMf7P3WHQMj7o2THRMm7m2SHSMn7m2PHTMP8m2oGSMR8m2lGTMU8l2iGUMY8j2fGUM\\8l2aGUMa8j2^GVMc8j2[GWMg8g2XGZMj8f2TGZMm8f2QGZMR9e2lF\\MW9b2hF^MY9b2eF_M]9`2aFaMa9^2^FbMe9[2ZFfMg9Z2XFeMk9Z2SFgMQ:V2nEjMV:S2hEnM[:P2cEQNb:k1\\EVNh:g1VEYNn:e1PE\\NS;b1lD^NX;_1fDbNa;X1]DiNh;S1WDmNP<m0nCSOZ<g0eCYOi<:UCF[=KdB6_=H_B9e=DYB<R>[OmAe0X>WOfAi0_>TO_Am0e>POYAP1j>oNTAQ1P?mNn@T1U?jNi@W1Z?gNd@[1]?dNa@]1a?bN]@`1e?^NX@g1g?XNW@k1i?TNV@m1k?RNS@Q2l?oMQ@T2P`0kMm_OY2R`0gMl_O[2U`0dMi_O^2Y`0aMc_Oa2^`0_M__Od2a`0]M[_Of2f`0YMX_Oi2h`0XMT_Ok2l`0VMP_Ol2Ra0TMj^Oo2Va0QMg^OQ3Za0QMa^OR3_a0oL\\^OU3ea0kLW^OW3ja0jLR^OY3na0kLj]OX3Wb0iLd]OZ3^b0fL[]O_3fb0dLQ]Ob3ob0fLa\\Oa3`c0`40O010O1O100O1O1O00100O1O1O1O1O010O1O001O1O00100O1O001O001O001O1O001O001O1O001O1O001O00001O001O001O001O001O1O001O1O001O1O1O1N2O001O0O2O1O1O000O2O001N3N1O1N2O2M2N2O1N2O1N2O1N1O101N1O2N101N3M5K3M2N2M4L3N2M3M4L4L4K5K5L3M3L3[IoWOZ5Sh0WJiXO_5Sg0YJZYOc5ff0YJdYOa5`h0N2M2O2M2N3N2N0O101N2O1N101N1O2O0O2N10O01O100O10O0100O100O1O1O1O1O100O10O01O10O0001O0010O01O1O001O1O1O000010O0001O0010O01O1O1O100O0000001O001O001O0010O01O001O001O1O00001O001O001O1O001O001O2N001O1O001O0O2O1O001O1O1O001O1N3N1N2O2N1N101O1O1N101O1O2N1N2O2M3M3N1N2N2N3M3M3N3L2N2M5L3L5L3L6I:B\\T^9"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "carry",
+          "justification": "Part 1 forms three rounded protrusions at its base resembling feet for stability while carrying weight; unlike flat surfaces of others which are designed primarily as display areas rather than structural supports",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "carry",
+                "logprob": -1.6793872113230464,
+                "prob": 0.20858598200869594
+              },
+              {
+                "option": "hold",
+                "logprob": -1.6794248795849853,
+                "prob": 0.2085781250852681
+              },
+              {
+                "option": "none",
+                "logprob": -2.054388164968259,
+                "prob": 0.14335877242719114
+              },
+              {
+                "option": "stick",
+                "logprob": -2.1793750522774644,
+                "prob": 0.12651533157087308
+              },
+              {
+                "option": "sit on",
+                "logprob": -2.6794494353471237,
+                "prob": 0.07672971991707075
+              },
+              {
+                "option": "wear",
+                "logprob": -3.304394840452005,
+                "prob": 0.04107270179131026
+              },
+              {
+                "option": "ride",
+                "logprob": -3.679395436476625,
+                "prob": 0.028228810767075077
+              },
+              {
+                "option": "look out",
+                "logprob": -3.6801759291756753,
+                "prob": 0.028206786982188176
+              },
+              {
+                "option": "lift",
+                "logprob": -3.8043644427925756,
+                "prob": 0.02491261018719391
+              },
+              {
+                "option": "wash",
+                "logprob": -4.429451699499623,
+                "prob": 0.013333595820509069
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "hold",
+              "carry",
+              "sit on",
+              "kick",
+              "lift",
+              "drag",
+              "push",
+              "stir",
+              "none",
+              "wear"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. hold\n2. carry\n3. sit on\n4. kick\n5. lift\n6. drag\n7. push\n8. stir\n9. none\n10. wear"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_40_region_12",
+      "area": 96176,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "k[`<4io05M3K5M4L3L4L3N3M3M3L4L5L4K4M5K3M2N9F4M6J6J5J9H9H9F?A<E7G8I6J6J4M4J5L4L3N4K3N1M5L3N3L2N2N4M1N3M3M2O1N2O1N2O1N3M3N1N2O1N2O1N2O1N2O1N3M2O1N2O0O2O0O2O1N2O1O1N3N1O001N101N10001NbMYYOfKff0W4`YOhK]f0T2^YO_M8=Yf0R2dYO]M6?Vf0O_YOF9H6b0Qf0NfYOC5K6c0ne0NkYO@5L4f0ke0LPZO_O3M4h0he0KSZO^O3M4i0ee0LVZO\\O3M3l0ce0JYZO[O3N2l0be0JZZO[O3N2n0_e0I^ZOZO2N2n0^e0J^ZOYO4M1Q1\\e0HaZOXO3O0Q1\\e0HbZOWO2O2Q1Ye0IdZOWO1O2R1Xe0HeZOVO3O0S1Xe0GgZOVO100T1We0FhZOVO100T1We0FhZOVO100U1Ve0EiZOVO100U1Ue0FjZOUO100V1Te0EkZOUO100W1Se0DlZOUO100W1Se0DlZOUO11OW1Se0CmZOUO11NX1Se0CnZOUOO10X1Re0CmZOUO11OW1Se0CmZOUO11NY1Se0AnZOVO00OY1Se0BlZOVO11OW1Te0BlZOWO01NX1Te0BlZOVO11OX1Se0AmZOWOO2OX1Te0@lZOXO01OW1Ue0AjZOYO01OW1Ve0_OkZOZON2OW1We0^OjZO[OO1NX1We0^OjZO[ON2OW1Xe0]OiZO\\ON3MV1\\e0]OfZO]OM4MU1_e0\\OcZO_ON5HT1ge0ZO_ZO@N^3ae0VMZZOS5ee0e2O0O2O001O001O002N1O1O1O1O1O1N101O001O1O2N1O1O1O001NPLX[OkLgd0n0W[OVM8i1ad0n0^[OSM6m1[d0kNZ[O[O8J6o1Xd0iN`[OYO6L5Q2Td0hNe[OXO4M5R2Rd0gNh[OXO4L4W2mc0dNn[OVO3M3Z2kc0bNQ\\OVO2L4[2ic0bNR\\OVO2M3]2fc0aNV\\OSO3M3_2cc0`NY\\OSO2M2a2bc0^N[\\OSO2M2b2ac0^N\\\\OQO3N1c2_c0]N^\\ORO2M2d2^c0]N_\\OQO1N2d2]c0]Na\\OPO1O1d2]c0]Na\\OPO2N0e2]c0]Na\\OPO2N0f2\\c0\\Nb\\OPO2N0f2\\c0\\Nc\\OoN1O0h2Zc0ZNe\\OoN1O0j2Xc0XNg\\OoN1O0k2Wc0WNh\\OoN000k2Xc0VNh\\OoN01Ok2Xc0UNh\\OPO10Ok2Xc0UNh\\OQO0OOk2Yc0WNg\\OoN1OOk2Yc0WNg\\OoN01Oh2[c0XNe\\OQO0OOg2^c0ZNb\\OPO01Oc2ac0\\N`\\OQOO1Nb2dc0\\N^\\OROO1O_2fc0_N[\\OROO1N^2hc0aNY\\OROO1N\\2kc0aNX\\ORON3MZ2nc0bNU\\OSON3MW2Rd0dNQ\\OTOO3KU2Vd0eNo[OUOM4JS2[d0eNl[OVOL6IP2`d0eNi[OXOK8Em1hd0dNe[O[OIU4bd0cLa[O]OFS4jd0bL\\[Oa5ed0l21O00100O1O1O1O010O00100O1O00100O1O1O010O1O010O1O0hLkZOgKUe0V4S[OdKnd0Z4V[OcKjd0]2eZOgLe0j0fd0Z2Q[OdL<o0dd0[2U[ObL9Q1bd0\\2X[O`L9R1`d0<nZOgN=H6T1`d0;R[OeN:K5T1^d0;W[OcN8L5T1]d0;Y[OcN7L4U1]d0;[[OaN6N3U1[d0<^[O`N5M3V1[d0<_[O_N4O2V1[d0;`[O`N4N1V1[d0<b[O^N3O2U1Yd0?c[O\\N202T1Zd0?c[O]N2O1U1Yd0?e[O\\N200T1Zd0`0e[O[N110S1Zd0b0e[OZN110S1Zd0a0f[O[N010R1Zd0c0f[OZN01OR1\\d0c0f[OYNO2OQ1\\d0e0f[OXNO2OP1]d0f0e[OXNN30n0]d0h0e[OWNN4Nn0j?WN_C`2kLXNM3Om0i?`NYCY2RMWNL40k0i?dNWCV2SMXNM4Nj0l?fNSCU2VMXNL3Nk0g?UNX_Ob0P4S2WMXNK5Nh0f?ROWCk1YMVNK6Ng0g?VOTCg1[MWNL6Me0i?XOQCg1]MWNJ7Mc0k?ZOPCf1\\MWNK7Mb0m?[OmBg1]MVNK7La0P`0\\OjBg1^MWNJ8K>S`0^OhBg1^MWNJ8K=U`0]OhBh1\\MXNJ8K;U`0AhBf1\\MYNH8L9X`0AhBf1ZMZNG;I5_`0BdBh1ZMYNFd2[`0\\MdBj1VM\\NE`2b`0[MbBk1SMk2[`0\\K`BP2kLg2f`0ZK]B_8d=cG[B\\8f=eGXB[8i=eGVB[8j=gGTBX8n=iGPBW8P>kGnAU8S>lGkAS8W>nGgAR8Z>oGdAQ8]>oGbAP8`>QH^An7c>TH[Al7f>UHXAk7i>UHUAk7m>VHQAi7Q?XHm@g7T?ZHk@e7X?[He@f7\\?[Hb@d7`?]H^@b7d?_HY@a7i?`HT@_7o?cHn_O\\7S`0gHi_OX7Z`0iHb_OV7b`0kH\\_OS7g`0oHV_On6n`0TIm^Ok6Wa0YIa^Od6ga0]IT^Oa6Qb0dIe]OY6cb0l2f0WOi0_Oa0B>G9H8I7I8J5L4L4L4M4L3L4M3M4L3M4L3N3M2M4M2N3M2N3M2N3M3L4M2N2N2O2M2N3N1N3M3M3M3M3M2O2M3M3M3N2M3M3M3N3L2N3N2L5L3M3M3N3L4K4M4L3M4L4L3L6K4L3M5J6J5K6J5L6H9G6I9H:E?[OZj[7"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "type on",
+          "justification": "Part two has rounded edges which make typing easier than square buttons like three five seven nine ten eleven four six eight while also being more visible due its placement in center of keypad area compared others scattered around perimeter making them less noticeable when looking at whole device overall design intent seems clear here since we know exactly where fingers should go without",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "type on",
+                "logprob": -0.6101339994838781,
+                "prob": 0.5704273626049526
+              },
+              {
+                "option": "text on",
+                "logprob": -1.9851385292495252,
+                "prob": 0.14422597048567762
+              },
+              {
+                "option": "none",
+                "logprob": -2.2351410309347557,
+                "prob": 0.112323017756293
+              },
+              {
+                "option": "write",
+                "logprob": -2.861595453810878,
+                "prob": 0.06003479942616984
+              },
+              {
+                "option": "stick",
+                "logprob": -3.985778755217325,
+                "prob": 0.019506370082510806
+              },
+              {
+                "option": "look out",
+                "logprob": -3.986538957900848,
+                "prob": 0.019491546922645115
+              },
+              {
+                "option": "sit on",
+                "logprob": -4.485354137930699,
+                "prob": 0.011836236318408697
+              },
+              {
+                "option": "hold",
+                "logprob": -4.6103853493114,
+                "prob": 0.010445115877679234
+              },
+              {
+                "option": "pick up",
+                "logprob": -4.611475338599121,
+                "prob": 0.010433737015808917
+              },
+              {
+                "option": "beat",
+                "logprob": -4.987079038284719,
+                "prob": 0.007166667767391281
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "type on",
+              "text on",
+              "talk on",
+              "take photo",
+              "swing",
+              "sit on",
+              "kick",
+              "lift",
+              "hold",
+              "carry"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. type on\n2. text on\n3. talk on\n4. take photo\n5. swing\n6. sit on\n7. kick\n8. lift\n9. hold\n10. carry"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_40_region_1",
+      "area": 1379,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "Q`W?:co06K3N2M2O2N1O1mPOXOmn0o0N101N101N100O2O000000000000000001O0O101O0O2O001N101N2O1N2N2N2N3L4L6HQ`]?"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "type on",
+          "justification": "Part three appears as a small button-like protrusion positioned within the main body of the figure where fingers would naturally rest for pressing keys; unlike surrounding elements which are flat surfaces without raised features designed for tactile interaction through depression into their surface area due lack concave indentations present elsewhere making them unsuitable typing input devices requiring physical",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "type on",
+                "logprob": -1.3370660377950117,
+                "prob": 0.2862778304752009
+              },
+              {
+                "option": "none",
+                "logprob": -2.0870131153351394,
+                "prob": 0.13523522869933222
+              },
+              {
+                "option": "write",
+                "logprob": -2.0874543872778304,
+                "prob": 0.13517556635187192
+              },
+              {
+                "option": "stick",
+                "logprob": -2.711975807433191,
+                "prob": 0.07238890232738938
+              },
+              {
+                "option": "pick up",
+                "logprob": -2.837973038534983,
+                "prob": 0.06381930774310327
+              },
+              {
+                "option": "cut",
+                "logprob": -3.038612484931946,
+                "prob": 0.05221742896470391
+              },
+              {
+                "option": "cut with",
+                "logprob": -3.288639604306809,
+                "prob": 0.04066587171971336
+              },
+              {
+                "option": "eat",
+                "logprob": -3.336947795789456,
+                "prob": 0.038748072650684875
+              },
+              {
+                "option": "sit on",
+                "logprob": -3.4620358838546963,
+                "prob": 0.03419204205186072
+              },
+              {
+                "option": "hold",
+                "logprob": -3.712034092983231,
+                "prob": 0.026628836813580838
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "type on",
+              "text on",
+              "talk on",
+              "take photo",
+              "swing",
+              "sit on",
+              "kick",
+              "lift",
+              "hold",
+              "carry"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. type on\n2. text on\n3. talk on\n4. take photo\n5. swing\n6. sit on\n7. kick\n8. lift\n9. hold\n10. carry"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_40_region_5",
+      "area": 1296,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "T`cc07fo08I4L4M3M2M3N101N2N101N10000O2O00000000O100O1O11O01O000O2O0O2O0O2O1YOoPO<Ro0CnPO=To0AmPO>Zo001O2N1N3LQ`R;"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "type on",
+          "justification": "Part 4 appears as a rounded button-like protrusion positioned within the grid of interactive elements, suggesting its function involves tactile input rather than structural support like base legs or decorative curves elsewhere; unlike surrounding components which may serve aesthetic balance or stability roles, this element\u2019s isolated placement implies dedicated user interaction capability through pressing motion typical for",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "type on",
+                "logprob": -0.6958925663147966,
+                "prob": 0.5374588625670644
+              },
+              {
+                "option": "none",
+                "logprob": -2.0708986441459274,
+                "prob": 0.13589005565381482
+              },
+              {
+                "option": "write",
+                "logprob": -2.9472123744199052,
+                "prob": 0.056573032507855094
+              },
+              {
+                "option": "text on",
+                "logprob": -3.070911995352617,
+                "prob": 0.0499904902968576
+              },
+              {
+                "option": "stick",
+                "logprob": -3.3210815906058997,
+                "prob": 0.03892603075943262
+              },
+              {
+                "option": "sit on",
+                "logprob": -3.570998766235789,
+                "prob": 0.03031813421369045
+              },
+              {
+                "option": "pick up",
+                "logprob": -3.6970489899103995,
+                "prob": 0.026727574858829293
+              },
+              {
+                "option": "cut",
+                "logprob": -3.9545739889144897,
+                "prob": 0.02065940781071727
+              },
+              {
+                "option": "cut with",
+                "logprob": -4.079594134294894,
+                "prob": 0.018231496118065828
+              },
+              {
+                "option": "eat",
+                "logprob": -4.320854779682122,
+                "prob": 0.014323334763200465
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "type on",
+              "text on",
+              "talk on",
+              "take photo",
+              "swing",
+              "sit on",
+              "hold",
+              "lift",
+              "carry",
+              "none"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. type on\n2. text on\n3. talk on\n4. take photo\n5. swing\n6. sit on\n7. hold\n8. lift\n9. carry\n10. none"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_40_region_18",
+      "area": 1303,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "i]Y?;co05K3N3L3N2O1N2N2N2N1O2O0O2O0O101O00000000000000O2O0O101O0O2O0O2O1N2N2N2N3M3K5M3KYb]?"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "type on",
+          "justification": "Part five appears as a flat surface within the orange section of the toy\u2019s body where others are rounded protrusions; its smoothness suggests suitability for pressing buttons rather than gripping like legs or serving decorative purposes such as antennae tips seen elsewhere in similar shapes but distinct positions around edges instead being central functional areas designed primarily through tactile",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "type on",
+                "logprob": -1.0761587408715059,
+                "prob": 0.37476137274041693
+              },
+              {
+                "option": "write",
+                "logprob": -2.4543493101373315,
+                "prob": 0.09445267494200546
+              },
+              {
+                "option": "hold",
+                "logprob": -2.57603466083674,
+                "prob": 0.08363094140337317
+              },
+              {
+                "option": "none",
+                "logprob": -2.576093185474747,
+                "prob": 0.08362604707602213
+              },
+              {
+                "option": "pick up",
+                "logprob": -2.5770661972637754,
+                "prob": 0.08354471752007224
+              },
+              {
+                "option": "cut",
+                "logprob": -3.130297511816025,
+                "prob": 0.04804560735932304
+              },
+              {
+                "option": "stick",
+                "logprob": -3.326109991307021,
+                "prob": 0.03950148371577012
+              },
+              {
+                "option": "beat",
+                "logprob": -3.32674637879245,
+                "prob": 0.03947635346301484
+              },
+              {
+                "option": "cut with",
+                "logprob": -3.7553271047327144,
+                "prob": 0.025716199400606855
+              },
+              {
+                "option": "hit",
+                "logprob": -3.9509991391241783,
+                "prob": 0.0211459645487331
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "type on",
+              "text on",
+              "talk on",
+              "take photo",
+              "swing",
+              "sit on",
+              "hold",
+              "lift",
+              "carry",
+              "none"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. type on\n2. text on\n3. talk on\n4. take photo\n5. swing\n6. sit on\n7. hold\n8. lift\n9. carry\n10. none"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_40_region_3",
+      "area": 1277,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "j]_a09do07J3M4M2N3M2O1N101N2O010O0000001M2O100O1000O10001O000O2O0O2O0O2O1N1O2N2O2M2M4M3K6IXbV="
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "type on",
+          "justification": "Part 6 appears as a flat surface within the orange section of the toy\u2019s body where fingers can press down without obstructing movement like protruding buttons do elsewhere; its smooth integration into the main structure suggests functionality rather than tactile interaction points found in surrounding areas such as those labeled for gripping or holding purposes due to their raised",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "type on",
+                "logprob": -0.47739910462041735,
+                "prob": 0.6570840317639057
+              },
+              {
+                "option": "none",
+                "logprob": -2.8525267514924053,
+                "prob": 0.06111053451654625
+              },
+              {
+                "option": "write",
+                "logprob": -2.979149009450339,
+                "prob": 0.053842440211568775
+              },
+              {
+                "option": "text on",
+                "logprob": -3.1024081641317025,
+                "prob": 0.04759857639027041
+              },
+              {
+                "option": "hold",
+                "logprob": -3.4774464216752676,
+                "prob": 0.03271273970574139
+              },
+              {
+                "option": "stick",
+                "logprob": -3.727670351800043,
+                "prob": 0.025471002935711296
+              },
+              {
+                "option": "pick up",
+                "logprob": -3.728802960336907,
+                "prob": 0.02544217059130572
+              },
+              {
+                "option": "hit",
+                "logprob": -4.352384799320134,
+                "prob": 0.013637539094337424
+              },
+              {
+                "option": "look out",
+                "logprob": -4.354445314133045,
+                "prob": 0.01360946767374282
+              },
+              {
+                "option": "cut",
+                "logprob": -4.360977351665497,
+                "prob": 0.013520859830037766
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "type on",
+              "text on",
+              "talk on",
+              "take photo",
+              "swing",
+              "stir",
+              "sit on",
+              "hold",
+              "carry",
+              "none"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. type on\n2. text on\n3. talk on\n4. take photo\n5. swing\n6. stir\n7. sit on\n8. hold\n9. carry\n10. none"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_40_region_7",
+      "area": 1290,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "b[[?;co06J4L4M2N2N2N1O2O0O2O0O2O0O2O000000000000000001N10001N101N101N2N101N2N2N3M3L4L6I]d[?"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "type on",
+          "justification": "Part 7 appears as a raised button-like element positioned within the grid of interactive components, suggesting its function involves direct user input rather than structural support like base elements such as number 3",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "type on",
+                "logprob": -0.7435407013281292,
+                "prob": 0.5016597111427613
+              },
+              {
+                "option": "text on",
+                "logprob": -2.2435474364738184,
+                "prob": 0.11193465778853272
+              },
+              {
+                "option": "none",
+                "logprob": -2.368597735738149,
+                "prob": 0.09877702025383943
+              },
+              {
+                "option": "write",
+                "logprob": -2.495291810366325,
+                "prob": 0.08702286624724734
+              },
+              {
+                "option": "stick",
+                "logprob": -2.9937844926316757,
+                "prob": 0.05286165576538647
+              },
+              {
+                "option": "hit",
+                "logprob": -3.6185749697469873,
+                "prob": 0.028300734409216634
+              },
+              {
+                "option": "look out",
+                "logprob": -3.744740402442403,
+                "prob": 0.024946220368181112
+              },
+              {
+                "option": "beat",
+                "logprob": -3.9947308506816626,
+                "prob": 0.01942832153120386
+              },
+              {
+                "option": "sit on",
+                "logprob": -4.118633020778361,
+                "prob": 0.017164266679269
+              },
+              {
+                "option": "hold",
+                "logprob": -4.368832755222684,
+                "prob": 0.013364874638245917
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "type on",
+              "text on",
+              "talk on",
+              "take photo",
+              "swing",
+              "sit on",
+              "hold",
+              "carry",
+              "lift",
+              "none"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. type on\n2. text on\n3. talk on\n4. take photo\n5. swing\n6. sit on\n7. hold\n8. carry\n9. lift\n10. none"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_40_region_2",
+      "area": 1282,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "R`^a0:co06K4L4L3N2N2N2N2O0O2O0O101O000O100000000001O0O10001N10001N101N2O1N1O2N3M3L3N3L6Io_X="
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "type on",
+          "justification": "Part 8 appears as a small button-like protrusion positioned among others in a grid pattern typical of input devices like phones; its raised circular form suggests tactile interaction for pressing rather than sliding or gripping compared to surrounding elements which may serve decorative functions due to their irregular shapes integrated into larger body sections without clear functional interfaces visible at",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "type on",
+                "logprob": -0.4385019809824371,
+                "prob": 0.6741396489899062
+              },
+              {
+                "option": "none",
+                "logprob": -2.5635728713386925,
+                "prob": 0.08050879180591522
+              },
+              {
+                "option": "text on",
+                "logprob": -2.813515778506371,
+                "prob": 0.0627038899430613
+              },
+              {
+                "option": "write",
+                "logprob": -2.939052975096274,
+                "prob": 0.055306270333357846
+              },
+              {
+                "option": "stick",
+                "logprob": -3.688513870241877,
+                "prob": 0.02613892008328896
+              },
+              {
+                "option": "sit on",
+                "logprob": -3.9386246033809584,
+                "prob": 0.02035475735853089
+              },
+              {
+                "option": "look out",
+                "logprob": -4.065573110281548,
+                "prob": 0.017928043349953324
+              },
+              {
+                "option": "pick up",
+                "logprob": -4.4401507176226005,
+                "prob": 0.01232695770105708
+              },
+              {
+                "option": "stir",
+                "logprob": -4.447261896915734,
+                "prob": 0.012239609437379584
+              },
+              {
+                "option": "hold",
+                "logprob": -4.688740320067154,
+                "prob": 0.009613794024574223
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "type on",
+              "text on",
+              "talk on",
+              "take photo",
+              "hold",
+              "carry",
+              "pick up",
+              "lift",
+              "sit on",
+              "none"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. type on\n2. text on\n3. talk on\n4. take photo\n5. hold\n6. carry\n7. pick up\n8. lift\n9. sit on\n10. none"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_40_region_8",
+      "area": 1269,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "b[aa0;bo06K4L3N3M2N101N2N101N101N100000001O00000000O101O000O2O001N101N101N2N2O1N2N2M4L4L`dU="
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "type on",
+          "justification": "Part 9 appears as a small protrusion within the grid of buttons, suggesting its function involves tactile interaction rather than visual display like surrounding elements; unlike others which are flat surfaces for pressing, this raised feature implies direct manipulation through touch alone without needing alignment across multiple components",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "type on",
+                "logprob": -0.4322965425471921,
+                "prob": 0.6722876076815786
+              },
+              {
+                "option": "text on",
+                "logprob": -1.9323079562855128,
+                "prob": 0.1500059294295994
+              },
+              {
+                "option": "none",
+                "logprob": -2.8074657638499048,
+                "prob": 0.06252190749729172
+              },
+              {
+                "option": "write",
+                "logprob": -3.1836365098133683,
+                "prob": 0.04292035845025002
+              },
+              {
+                "option": "stick",
+                "logprob": -4.4333043285878375,
+                "prob": 0.012300974052995116
+              },
+              {
+                "option": "look out",
+                "logprob": -4.433414154122147,
+                "prob": 0.012299623166129514
+              },
+              {
+                "option": "sit on",
+                "logprob": -4.80746898804864,
+                "prob": 0.008461392778383398
+              },
+              {
+                "option": "pick up",
+                "logprob": -5.058748550080054,
+                "prob": 0.006581312733767481
+              },
+              {
+                "option": "beat",
+                "logprob": -5.059137431439012,
+                "prob": 0.006578753881505064
+              },
+              {
+                "option": "hold",
+                "logprob": -5.495254379115067,
+                "prob": 0.00425344141517123
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "type on",
+              "text on",
+              "talk on",
+              "take photo",
+              "hold",
+              "carry",
+              "pick up",
+              "lift",
+              "sit on",
+              "none"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. type on\n2. text on\n3. talk on\n4. take photo\n5. hold\n6. carry\n7. pick up\n8. lift\n9. sit on\n10. none"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_40_region_9",
+      "area": 1263,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "c[jc0=ao05K4L3N3M2N2N1O2O0O2O0O2O0O10001O0000000000O10001O0O2O0O2O0O2N2N2N2N3M3K5L8F\\dn:"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "type on",
+          "justification": "Part 12 appears as a small button-like protrusion positioned where fingers would naturally rest for pressing input keys; unlike surrounding elements which are flat surfaces without raised tactile features designed for manipulation through touch pressure alone rather than visual recognition of symbols embedded within them like those found elsewhere in its vicinity area around number nine region shown here",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "type on",
+                "logprob": -0.4987567058642526,
+                "prob": 0.6364249233023266
+              },
+              {
+                "option": "text on",
+                "logprob": -1.8737539045951053,
+                "prob": 0.16091387113025826
+              },
+              {
+                "option": "none",
+                "logprob": -2.498939129989594,
+                "prob": 0.0861150363607936
+              },
+              {
+                "option": "write",
+                "logprob": -3.511487972922623,
+                "prob": 0.03128488869253457
+              },
+              {
+                "option": "pick up",
+                "logprob": -4.124786341795698,
+                "prob": 0.016942695935871176
+              },
+              {
+                "option": "look out",
+                "logprob": -4.374212146787613,
+                "prob": 0.01320256353224584
+              },
+              {
+                "option": "beat",
+                "logprob": -5.1257839114405215,
+                "prob": 0.006226654891673893
+              },
+              {
+                "option": "sit on",
+                "logprob": -5.186449266784621,
+                "prob": 0.005860142365383747
+              },
+              {
+                "option": "hit",
+                "logprob": -5.248820417844399,
+                "prob": 0.005505803659252865
+              },
+              {
+                "option": "hold",
+                "logprob": -5.436492998735048,
+                "prob": 0.004563683879909527
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "type on",
+              "text on",
+              "talk on",
+              "take photo",
+              "hold",
+              "carry",
+              "sit on",
+              "lie on",
+              "kick",
+              "none"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. type on\n2. text on\n3. talk on\n4. take photo\n5. hold\n6. carry\n7. sit on\n8. lie on\n9. kick\n10. none"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_40_region_4",
+      "area": 1227,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "i]gc0>`o04L4L3N2N3M2O0O2N2O0O2O000O2O0000000000O10001N10001N101N1O2O0O2N2N2N2N2M4L6JWbQ;"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "type on",
+          "justification": "Part 10\u2019s rounded top edge suggests finger placement for pressing buttons like those found in telephones; however since we are asked ONLY ABOUT PART 12 \u2014 which appears as a small rectangular protrusion at bottom right of orange section \u2014 its flat surface may be intended for tactile interaction such as typing or tapping into place",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "type on",
+                "logprob": -0.5720818601866995,
+                "prob": 0.6011686930531446
+              },
+              {
+                "option": "text on",
+                "logprob": -2.322096223740118,
+                "prob": 0.10446595395770872
+              },
+              {
+                "option": "none",
+                "logprob": -2.4471828747773543,
+                "prob": 0.09218289270387157
+              },
+              {
+                "option": "pick up",
+                "logprob": -2.9481256105245848,
+                "prob": 0.05585906555779624
+              },
+              {
+                "option": "write",
+                "logprob": -3.4524817685596645,
+                "prob": 0.03373296921325011
+              },
+              {
+                "option": "hold",
+                "logprob": -4.447165354271419,
+                "prob": 0.012475816474350492
+              },
+              {
+                "option": "cut",
+                "logprob": -4.4597185254096985,
+                "prob": 0.012320184297465548
+              },
+              {
+                "option": "catch",
+                "logprob": -4.572050211885653,
+                "prob": 0.011011137171443341
+              },
+              {
+                "option": "hit",
+                "logprob": -4.572061297600158,
+                "prob": 0.01101101510579688
+              },
+              {
+                "option": "stick",
+                "logprob": -4.572637704550289,
+                "prob": 0.011004670108987705
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "type on",
+              "text on",
+              "talk on",
+              "take photo",
+              "hold",
+              "carry",
+              "pick up",
+              "lift",
+              "sit on",
+              "wear"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. type on\n2. text on\n3. talk on\n4. take photo\n5. hold\n6. carry\n7. pick up\n8. lift\n9. sit on\n10. wear"
+          }
+        }
+      }
+    }
+  ]
+}

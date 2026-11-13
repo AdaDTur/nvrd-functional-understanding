@@ -1,0 +1,1060 @@
+{
+  "object": "shape_31",
+  "model": "microsoft/Phi-3.5-vision-instruct",
+  "image_path": "/shared/nas/data/m1/adadt2/nvrd/regions_test/data/novel/shape_31.png",
+  "region_source": "sam_slic",
+  "method": "per_part_with_comparative_context",
+  "top_k": 10,
+  "modes": [
+    "logprob",
+    "generation"
+  ],
+  "regions": [
+    {
+      "region_id": "shape_31_region_47",
+      "area": 90803,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "okk3d0Uo0<E:H6H9H7H8G8I7J6H8K5H8H8K5I7G9I6J7J5J7H7K6J5L5K4L5K4M3L5K4M4L3N2L4N2N2M3M3N2N2N2N2O1N2N2N2O0O2O1N101N101N101N101O01OO2O0000000000000000O10001O0O1O2O0O1O1O2O0N3N1O1N2N3M2O2N2M2M4L3N2N3N1M4M2M4M2O2L3L5M3N1O2L4M2N3M2O2L3M4M3M3N1N3M3L3O2N2N1O2M3M2O2M3N101O1N1O2O1N2O002N1O2N2O2M4L3M2N3N2M3N1N2O1N2O1N2O2N1O1O1N2O1O1O001O1O1O1O001O1O001O1O00100O001O10O100O2O1N101N2N2O0O2O1O1N1O3N1N2N100O2O0O101N2O1N2N100O1O2O0O2N2O0O101N1O1O2O0O2O0O1O2O0O1O1O001OO2OWTOnKdk0X4O100O1O2N1O100O1O1O100O1O2N1O010O1O1O1O2N100O001O1O1O100O1O1O1O010O1O1O1O1O100O1O1O001O1O100O1O1O1O00100O1O0010O01O1O1O001O10O01O001O001O1O10O01O001O00001O001O01O01O1O001O010O00001O00001O0000001O01O00000001O00001O000000001O000000000001O0001O000000000000000000001O000000000000000000000000000000000000000001O00O10O10000000000000000000000O10000000000O100000000O1000000000000O0100000O1000000O10000O100O1000O0100O100O100O100O100O100O00100O100O1O1O100O00100O1O1O100O1O1O010O1O1O1O1O100O001O100O001O1O1O100O001O1O1O001O1O100O001O1O001O1O1O0lNSUOVMnj0d2ZUOYMgj0d2^UOYMcj0c2bUO[M_j0d2cUOZM]j0d2hUOYMYj0d2kUOZMVj0d2mUOZMTj0e2nUOYMSj0e2QVOXMoi0g2f1N2O1O1M201O001O1O1N2N2O001O1O1O1O1O1N2O1O001O1O1O1O1O1O1O1O100O100O1O1O1O1O1O100O100O1000000O101O000O2O0O0N3M3L4N3J5K6K5GYZ`:"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "none",
+          "justification": "Part 1 lacks distinct features or functional elements, suggesting it does not serve a specific purpose or affordance",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.0351442729588598,
+                "prob": 0.9859300678760712
+              },
+              {
+                "option": "lie on",
+                "logprob": -5.591931881499477,
+                "prob": 0.003806833794086947
+              },
+              {
+                "option": "hit",
+                "logprob": -6.534400733187795,
+                "prob": 0.0014833884539462963
+              },
+              {
+                "option": "eat",
+                "logprob": -6.660880701150745,
+                "prob": 0.0013071497439586315
+              },
+              {
+                "option": "sit on",
+                "logprob": -6.972689453745261,
+                "prob": 0.0009569924720332743
+              },
+              {
+                "option": "hold",
+                "logprob": -7.033725563087501,
+                "prob": 0.0009003282471318244
+              },
+              {
+                "option": "carry",
+                "logprob": -7.285851817578077,
+                "prob": 0.0006996870484093791
+              },
+              {
+                "option": "stick",
+                "logprob": -7.4098015709314495,
+                "prob": 0.000618120491193214
+              },
+              {
+                "option": "wash",
+                "logprob": -7.846926041733241,
+                "prob": 0.00039923848185355126
+              },
+              {
+                "option": "jump",
+                "logprob": -7.850276169367135,
+                "prob": 0.00039790321988083957
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "hold",
+              "carry",
+              "lift",
+              "sit on",
+              "lie on",
+              "push",
+              "drag",
+              "peel",
+              "pour",
+              "none"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. hold\n2. carry\n3. lift\n4. sit on\n5. lie on\n6. push\n7. drag\n8. peel\n9. pour\n10. none"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_31_region_50",
+      "area": 83841,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "e]X7j0Qo09I6J5L5K4L4K5M3L4M2N3L4M5K2N2N2N2N2N2N2N3M2N2N2N1O2O1N2N2N2N2O1N2N2O1N1O2N101N2O1N101O010N101N2O10O01000O010O010O1O0100O0010O010O01O10O010O0001O0000010O001O0010O01O0000001O0010O0001O0000001O0000001O01O000001O0000001O000000001O000000000000001O0000001O00000000001O0000000000001O0000000000000000000000001O000O1000000000001O0000000000000000000O100000001O000000000000000O100000000000001O00dLSUOe1mj0[NSUOe1lj0h100000000000lLTUOT1lj0lNSUOU1lj0P2000hLTUO\\1lj0dNTUO\\1lj0l1000000O1000000000000O100000000000000O1000000000000O100000000O10000000000000000O100000000OQNdUO\\N\\j0c1eUO]N[j0c1eUO]N[j0c1dUO^N\\j0b1dUO^N\\j0c1bUO]N^j0c1dUO\\N\\j0d1dUO\\N\\j0c1fUO\\NZj0d1gUO[NYj0e1hUOZNWj0h1iUOWNWj0i1jUOVNVj0j1kUOUNUj0l1jUOTNUj0T2bUOnM^j0T2]UOoMcj0g300000000O1000000000O1000O10000000000O100000O1000O1000000O1000000O1000O1000O10000O10000000000O100000O10O1000000O1000O1000O10000O1000O100000O1000O01000000O1000000O10O100000O1000O10O10000O1000O10O100000O010000O100000O01000000O10O100000O01000O1000O10O10000O01000O10O10O100000O0100000O010hLkUOe0Uj0ZOmUOe0Sj0ZOPVOd0oi0]ORVOb0ni0]OSVOb0mi0^OTVOb0li0ZOXVOf0hi0YOYVOg0fi0YO\\VOe0ei0ZO\\VOf0di0YO]VOg0bi0ZO^VOe0ci0[O]VOe0ci0^OYVOc0fi0_OnUOeM4m2ni0EPVO;Pj0FoUO;Qj0j20O10O10O01000O01000O0100O010O100OfNoUOfLRj0Z3nUOfLQj0e40O10O010O01000O001O10O01O010O010O10YLRVOmM0V3ni0nNSVOjM1W3ki0PO]VOn0ci0TO^VOj0ai0XO_VOf0bi0ZO^VOe0bi0]O[VOe0ei0\\OYVOe0fi0^OWVOaNLoN2c1li0n0UVO`NMoN3b1ki0Z2RVORL1f1ni0Y2TVOgMmi0Y2RVOgMoi0Z2PVOfMQj0S4101N1O1O2O0O101N1O2N101N100O1O2N101N1gN[UOUL0j0fj0o2kUOhLWj0R3oUOlLRj0P3TVOnLmi0n2WVOPMji0l2ZVOSMhi0j2[VOSMii0b2`VO]M`i0a2dVO]M]i0b2dVO\\M^i0c2dVO[M^i0b2Q2N3M2O1O2N1N3L4M2N300O100O1N101N1N3O2N1O1O2N1O1N2O2M6K1N3N2M2O1O4K4[OiPO;_o0N2GWde7"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "none",
+          "justification": "Part 2 lacks distinct features or functional elements that suggest a specific affordance, unlike other parts which have clear outlines and color distinctions",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.4221328301355243,
+                "prob": 0.7298191946722928
+              },
+              {
+                "option": "eat",
+                "logprob": -2.421786163933575,
+                "prob": 0.0988045336785643
+              },
+              {
+                "option": "beat",
+                "logprob": -3.674369074869901,
+                "prob": 0.028234950223849767
+              },
+              {
+                "option": "peel",
+                "logprob": -3.800372409517877,
+                "prob": 0.024892268308446167
+              },
+              {
+                "option": "cut",
+                "logprob": -3.866707034409046,
+                "prob": 0.023294624380277
+              },
+              {
+                "option": "brush with",
+                "logprob": -3.9377452847948007,
+                "prob": 0.021697224958557165
+              },
+              {
+                "option": "boxing",
+                "logprob": -4.37669186363928,
+                "prob": 0.013988531165624698
+              },
+              {
+                "option": "sip",
+                "logprob": -4.611069273203611,
+                "prob": 0.011065812293349
+              },
+              {
+                "option": "hit",
+                "logprob": -4.859904912766069,
+                "prob": 0.008628103655486144
+              },
+              {
+                "option": "carry",
+                "logprob": -4.9834516033297405,
+                "prob": 0.007625348693475316
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "peel",
+              "brush with",
+              "cut",
+              "cut with",
+              "open",
+              "pack",
+              "pour",
+              "sip",
+              "sit on",
+              "type on"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. peel\n2. brush with\n3. cut\n4. cut with\n5. open\n6. pack\n7. pour\n8. sip\n9. sit on\n10. type on"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_31_region_46",
+      "area": 73339,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "lbQ8b0So0c0D8F:H6L3M4K7J3M3M5L2M3N2N3L3N3M2N2N2N2N2N2N2N2N101N2M2O2O1N1OaMVTOk0hk0UOZTOk0ek0TO\\TOm0bk0QOaTOo0^k0QOdTOo0Zk0ROeTOo0Zk0QOgTOP1Xk0POgTOR1Wk0oN`TOcN3^2]k0nN`TOfN1^2^k0lN`TOgN2]2^k0kN_TOkN1\\2_k0hN`TOd1ak0^1O010O010O0010O01O01O01O010O00010O001O0010O01O0010O000]NcTOdN]k0T1dTO^M0]1\\k0U1eTO\\M1^1Zk0V1mTOjNSk0U1QUO]MCU1\\k0^1VUObNjj0^1UUOdNjj0[1fTO_M1O1X1Yk0Y1dTObM0O2V1Zk0Z1cTOaM1O1X1Zk0g1eTOYN[k0V30010O00000001O01O00001O000010O000001O0001O000001O0001O0001O000000010O000000000001O01O000000000000dLfTOS2Yk0lMiTOS2Wk0nMgTOS2Zk0kMgTOU2Yk0kMhTOT2Xk0kMiTOU2Wk0jMkTOU2Uk0jMnTOT2Rk0kMPUOT2Pk0mMoTOS2Qk0nMnTOS2Qk0SNiTOm1Wk0TNhTOl1Xk0^101O000000010O000000000000001O000000001O00000001O0000000001O00000000001O00000000hMmTOCSk06UUOIkj06WUOIij06YUOIgj07XUOJhj07UUOKkj06kTO3Uk0\\200000000000000000000000001O000000000000000000000000000000000000000000000O1000000000000000001O000000000000000000000O1000000000000000O10000000000000000000O10000000000000000000O0100000000000000O1000000000000000O010000000000000000O100000000000O100000O10000000O100000O1000000000O10O10000000O1000O100000O10O1000O100000O10O1000O10O100000O1000O1000O01000000O1000O10O1000O10O10000000O01000000O010000O10000O1000000O1000000O10O11O0O10000O100000O010000O101O0O100O10000O10000O10001O0O100O100O01000O010O00010O01O10O01O10O010O010O01O010O002O0O2N2O0O2N101N2N2N1O2N1O2N2O1N2N1O2YOfTOeL\\k0S3lTOkLUk0m2TUOQMnj0g2ZUOWMhj0c2]UO\\Mej0a2^UO]Mdj0_2`UO_Mbj0]2d1J4O2N2M3M3N3M2O1N2O1O1N2O2N2N2M2O2O1N2N1N4M4K5H<^OV^T8"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "none",
+          "justification": "Part 3 is flat and lacks any distinct features that suggest a specific function or interaction, unlike other parts that have protrusions or distinct shapes",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.4420493501238525,
+                "prob": 0.6994375421102148
+              },
+              {
+                "option": "eat",
+                "logprob": -1.8165987762622535,
+                "prob": 0.17692520535410475
+              },
+              {
+                "option": "hit",
+                "logprob": -3.878574456553906,
+                "prob": 0.022505312542813564
+              },
+              {
+                "option": "beat",
+                "logprob": -4.195126347243786,
+                "prob": 0.016398658023785883
+              },
+              {
+                "option": "hold",
+                "logprob": -4.252434448280837,
+                "prob": 0.015485303341762874
+              },
+              {
+                "option": "carry",
+                "logprob": -4.44092271302361,
+                "prob": 0.012825086528354356
+              },
+              {
+                "option": "cut",
+                "logprob": -4.492447681725025,
+                "prob": 0.012181009847917108
+              },
+              {
+                "option": "brush with",
+                "logprob": -4.834175627873265,
+                "prob": 0.008655112813523389
+              },
+              {
+                "option": "peel",
+                "logprob": -5.260131026152521,
+                "prob": 0.005653047751444584
+              },
+              {
+                "option": "wash",
+                "logprob": -5.4409863300970756,
+                "prob": 0.004717785523771183
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "eat",
+              "hold",
+              "carry",
+              "sit on",
+              "look out",
+              "drink with",
+              "hit"
+            ],
+            "n_valid": 7,
+            "invalid": [],
+            "raw": "1. eat\n2. hold\n3. carry\n4. sit on\n5. look out\n6. drink with\n7. hit\n8. carry\n9. hit\n10. carry"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_31_region_45",
+      "area": 66184,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "R[d87fo0`0\\O9I8J4L5K4L4L3M4M3J6L4L3M4M2M4L3M4L3M4L3N2N2N3M2N3M2N2M3O1N2O2M2O1N2M3O1O2N1N2N2N2O1O1N2O1O1O1O2N1M3O1O1O1O1O1N2N2O1O1O100O100O1N2O1O1O100O2O0O100O100O1001O0RMoUOMRj00SVOMmi01VVONki01WVOMii02YVOMgi02[VOMfi02[VOMei03[VOMei03\\VOLdi04^VOJai07`VOH`i08`VOGai09`VOF`i0:`VOF_i0;bVOD^i0<bVOD]i0=dVOB\\i0>dVOB\\i0>dVOB[i0?eVOA[i0?eVOAZi0`0fVO@Zi0`0fVO@Yi0a0gVO_OXi0b0hVO^OXi0c0gVO]OXi0d0gVO]OYi0d0dVO^O[i0d0bVO^O]i0c0bVO^O^i0d0_VO]O`i0f0]VO[Obi0i0YVOXOgi0a300O1O1O1O1O1O1O1O1O1O1O1N101EhIlVOZ6Si0:00O100O10000O10000O010O10000O10000O10O0100O1000XK`WOP2`h0kMgWOS2Xh0lMkWOS2Uh0kMnWOT2Rh0kMPXOT2Ph0kMQXOU2og0kMRXOS2ng0nMSXOQ2mg0oMSXOQ2mg0oMSXOQ2lg0PNTXOP2lg0PNUXOn1kg0TNTXOl1lg0TNTXOl1lg0TNTXOl1lg0UNSXOk1mg0VNRXOj1mg0WNRXOj1ng0WNQXOh1Ph0XNPXOh1Ph0YNnWOh1Rh0YNlWOh1Th0YNkWOg1Th0[NjWOf1Vh0[NiWOd1Xh0^NeWOc1[h0^NcWOc1]h0_N`WOb1_h0`N^WOb1bh0aNZWO`1fh0m200O10O100000O10O1000000000000O1000000000000O10O10000000000O1000O10000000000O10001O001N2TISWOc6Wi0N1O001O0O2O1O001O0O101O001cLcVO4^i0JfVO4Zi0KhVO4Yi0HlVO6Ti0InVO6Ri0IPWO5Ri0JnVO6Ri0IPWO6Pi0JQWO5oh0JRWO6oh0HRWO8nh0GTWO7mh0ISWO7nh0GSWO9mh0GSWO9mh0GSWO9mh0FTWO:lh0FTWO9mh0GRWO:nh0FRWO:oh0EPWO;Qi0EoVO;Qi0EnVO<Ri0DnVO<Ri0DnVO;Si0FlVO:Ti0GeVO?[i0AcVOa0]i0@]VOe0ci0k2100000000O100000O01000O10O0100O1N2O1O1N10100O1000O2O00001N101O001N101O0O101O001O0O2O001O1N2O001N2O001O001N2O1O0O2O1O001N2O1O0YLbUOk1`j0QNgUOk1Yj0TNjUOj1Wj0RNoUOk1Rj0SNRVOi1oi0VNTVOh1mi0VNUVOi1li0UNWVOi1ji0TNZVOi1hi0UNZVOj1gi0TN[VOk1fi0SN]VOj1ei0SN^VOl1di0QN^VOn1ci0QN_VOm1ci0PN_VOn1ci0nMbVOP2_i0nMcVOQ2_i0lMcVOR2gk0O1O001O1N101O1N101O1N2O001O1N10001N100O10000O1000000O010O10O10O010O01O1O00100O0010OO2N2O0O2O001N2O1O0010O010O101N101N3N3L5L2M3M2O2M2O5J4L5K2N3M3M8GXfQ:"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "none",
+          "justification": "Part 4 is a smooth, flat surface with no distinct features or edges that suggest a specific function or interaction",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.314429315039888,
+                "prob": 0.7789139075200292
+              },
+              {
+                "option": "eat",
+                "logprob": -2.0639738901518285,
+                "prob": 0.13541659936638806
+              },
+              {
+                "option": "cut",
+                "logprob": -4.237603824585676,
+                "prob": 0.015405521953450829
+              },
+              {
+                "option": "beat",
+                "logprob": -4.31556659983471,
+                "prob": 0.014250090225464508
+              },
+              {
+                "option": "hit",
+                "logprob": -4.376193232368678,
+                "prob": 0.013411822656552523
+              },
+              {
+                "option": "carry",
+                "logprob": -5.0635268001351506,
+                "prob": 0.006745010443601856
+              },
+              {
+                "option": "peel",
+                "logprob": -5.193663972779177,
+                "prob": 0.005921950466717696
+              },
+              {
+                "option": "brush with",
+                "logprob": -5.39359997282736,
+                "prob": 0.00484879327791234
+              },
+              {
+                "option": "sip",
+                "logprob": -5.503296858863905,
+                "prob": 0.004345031373444769
+              },
+              {
+                "option": "wash",
+                "logprob": -5.689167966716923,
+                "prob": 0.0036080298354819974
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "eat",
+              "peel",
+              "cut",
+              "cut with",
+              "hold",
+              "carry",
+              "lift",
+              "push",
+              "pour",
+              "sit on"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. eat\n2. peel\n3. cut\n4. cut with\n5. hold\n6. carry\n7. lift\n8. push\n9. pour\n10. sit on"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_31_region_51",
+      "area": 31500,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "U]i2n0gn0d0^Ob0A:H7H8H;F8H7J5J8I6J5L4J6L5J5L3L6K4L3M4M3K4M3M4L3N3L3M4L3N2M3M3M4L3N2N2N2N1N3N2N2M3M3N2M3N2N2N2N1O2N2N1O2N2N1O2N1O2N2N1O2N1O2O0O2N1O2O0OdK_YO_KEg3kf0:]ZO_Obe0=hZO^OWe0?Q[O^Ond0=[[O_Odd0?c[O^O\\d0<n[O@Qd0>T\\OAjc0=\\\\O@cc0>b\\O@^c0<i\\OAVc0>n\\OAQc0=S]OAlb0=Y]OAgb0=\\]OBcb0=a]OA_b0=d]OB\\b0<g]ODWb0;m]OCSb0;P^ODPb0;R^ODma0;V^ODja0:Y^OFfa08]^OGba09`^OF`a09b^OF^a08e^OG[a08f^OHYa08i^OGWa07k^OIUa07l^OHTa07m^OIRa07P_OHPa07Q_OIo`06S_OJl`05U_OKk`04V_OLj`04V_OLi`04Y_OKg`04Z_OKg`05Y_OKg`04Z_OLf`04Z_OLf`03\\_OLd`04\\_OLd`03]_OMc`03]_OMc`02^_ONb`02^_ONb`02^_OMc`03]_OMc`02^_ONb`02^_ONb`02^_ONb`02]_OOc`01]_OOc`00^_OOc`01]_OOc`01]_OOc`01\\_O0d`00\\_O0e`0O[_O1e`0OZ_O1g`00X_O0h`00W_O1i`0OW_O1i`0OW_O1i`0OV_O2k`0NT_O1m`0OS_O1m`0OR_O2o`0NP_O1Qa0On^O2Ra0Nm^O3Sa0Nl^O2Ta0Nk^O2Va0Oi^O1Xa0Ng^O2Za0Oe^O1[a0Od^O2\\a0Oc^O0_a0O`^O2`a0O_^O1aa0O^^O1da0O[^O1ea00Z^OOga01Y^OOha01X^OMia04V^OLja05V^OIla07U^OGka09V^OEla0;T^ODla0=T^OAna0?R^O_Ooa0b0Q^O]OPb0b0Q^O\\OPb0e0P^OZOQb0f0o]OXORb0h0o]OVOSb0j0m]OTOTb0m0l]OROUb0m0m]OPOTb0Q1k]OnNWb0Q1j]OmNWb0T1i]OkNXb0U1g]OjNZb0W1f]OgN\\b0Y1d]OeN]b0\\1c]ObN_b0]1b]OaN`b0_1`]O_Nab0a1_]O^Ncb0a1^]O^Nbb0a1_]O^Ncb0a1^]O]Ncb0b1^]O]Ndb0_1`]O_Nab0_1b]O_N`b0\\1d]OcN^b0W1h]OgNYb0T1m]OjNUb0R1o]OkNTb0Q1P^OmNRb0o0b6M3L3L5K5L4L3N3Lnfkf0"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "none",
+          "justification": "Part 5 lacks distinct features or functions compared to the other parts, appearing as a simple, unmarked, and untextured section of the object",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.2801857136655599,
+                "prob": 0.8096236141018801
+              },
+              {
+                "option": "carry",
+                "logprob": -2.1537402485264465,
+                "prob": 0.12433940093402318
+              },
+              {
+                "option": "beat",
+                "logprob": -4.531545695848763,
+                "prob": 0.011532965312211025
+              },
+              {
+                "option": "hold",
+                "logprob": -4.653083937824704,
+                "prob": 0.010213100322471934
+              },
+              {
+                "option": "eat",
+                "logprob": -4.967916046502069,
+                "prob": 0.007454658454543262
+              },
+              {
+                "option": "hit",
+                "logprob": -5.153717270935886,
+                "prob": 0.006190636499398031
+              },
+              {
+                "option": "jump",
+                "logprob": -5.595346003770828,
+                "prob": 0.003980506910440709
+              },
+              {
+                "option": "drag",
+                "logprob": -5.9658319358713925,
+                "prob": 0.002748137043862895
+              },
+              {
+                "option": "sip",
+                "logprob": -5.970042614499107,
+                "prob": 0.0027365898497687577
+              },
+              {
+                "option": "pack",
+                "logprob": -6.091940623242408,
+                "prob": 0.0024225351055840428
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "carry",
+              "hold",
+              "lift",
+              "pack",
+              "peel",
+              "pour",
+              "push",
+              "sit on",
+              "type on",
+              "none"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. carry\n2. hold\n3. lift\n4. pack\n5. peel\n6. pour\n7. push\n8. sit on\n9. type on\n10. none"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_31_region_3",
+      "area": 31132,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "oclf0`0li0MU[O:dd00S[O5gd02S[O4id00R[O4kd0OS[O4hd01T[O2id01T[O2jd01S[O1jd02T[O0jd02U[O0hd02X[ONfd04Y[OMed04[[ONbd04][OMbd03^[ONad03_[ON_d03`[OO]d03c[OM\\d04d[OM[d02f[OOXd02h[ONXd01i[O0Ud01k[O0Sd00n[O1Qd0OP\\O0oc01Q\\O0nc0OR\\O2nc0NR\\O3lc0MU\\O4jc0LV\\O5ic0KW\\O5ic0JX\\O7gc0IZ\\O7dc0J\\\\O6dc0I^\\O7ac0I`\\O7^c0Ic\\O7]c0Ic\\O8\\c0He\\O7[c0Hf\\O9Xc0Hh\\O9Wc0Fj\\O:Vc0Fk\\O:Tc0Fl\\O;Rc0Fo\\O:Pc0EQ]O;ob0ER]O;mb0ET]O:lb0FT]O;jb0EX]O:hb0FX]O;gb0D[]O<db0D\\]O<db0D]]O<bb0D_]O;`b0Fa]O:^b0Ee]O9[b0Ge]O9[b0Ge]O:Zb0Ff]O:Zb0Fg]O:Wb0Fj]O:Vb0Fk]O:Tb0Fl]O:Tb0Fm]O9Sb0Gn]O8Rb0Ho]O8Pb0HQ^O7oa0IQ^O7oa0IR^O7ma0IS^O7la0JU^O5ka0KV^O4ja0LV^O4ja0LW^O3ia0MX^O2ha0NX^O3ga0MZ^O2fa0NZ^O2fa0NZ^O2fa0N[^O1ea0O[^O1ea0O[^O1ea00Z^O0fa00[^OOea01[^OOea01[^OOea02Z^ONfa02Z^OOfa00Z^O0fa00Z^OOga01X^O0ha01W^OOia01W^OOia02U^OOka01U^OOka01T^O0la01S^OOma01R^O0oa0OP^O2Pb0On]O1Sb0Ol]O2Tb0Oj]O2Vb0Ni]O3Wb0Ng]O3Zb0Mc]O5]b0Kb]O5_b0L_]O5ab0K]]O7cb0JZ]O7hb0HW]O9ib0HU]O8lb0IP]O:Qc0Fm\\O;Sc0Fj\\O;Wc0Ff\\O<Zc0Ec\\O<_c0D_\\O=ac0D\\\\O=ec0DW\\O?jc0AS\\O`0nc0Ao[Oa0Qd0Aj[Oa0Xd0_Oe[Oc0[d0_Oa[Ob0`d0@[[Oc0fd0]OW[Od0jd0^OQ[Od0Qe0]OjZOf0Ve0\\OdZOg0^e0[O[ZOh0fe0ZOUZOi0ke0ZOnYOi0Tf0ZOcYOj0^f0ZOYYOj0if0^OcXOm0]g0j32N1O2N101N1O2N2N1O2N1O2N2N1O2N2N1O2M3N1O2N2N1N3N2N2N2M3N2M3N2M2O2M4L3N2M3M3N2M4K4N2M4L3M3M4L4K5L3M4K5K5L4L4K5K6I6L6H7J6I8G9H8H9E<Ce0ROV`g2"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "none",
+          "justification": "Part 6 lacks distinct features or functions compared to the other parts, appearing as a flat, untextured surface that does not interact with the object's overall form or suggest a specific use",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.4457017055246979,
+                "prob": 0.6957241359635447
+              },
+              {
+                "option": "carry",
+                "logprob": -1.819506906438619,
+                "prob": 0.17611690799199806
+              },
+              {
+                "option": "hold",
+                "logprob": -3.0062945003446657,
+                "prob": 0.05375090104903743
+              },
+              {
+                "option": "drag",
+                "logprob": -4.881737535761204,
+                "prob": 0.00823931653050157
+              },
+              {
+                "option": "hit",
+                "logprob": -4.944998302962631,
+                "prob": 0.007734235386071577
+              },
+              {
+                "option": "lift",
+                "logprob": -5.0065269427141175,
+                "prob": 0.0072727027369528215
+              },
+              {
+                "option": "eat",
+                "logprob": -5.07088144752197,
+                "prob": 0.006819413583899372
+              },
+              {
+                "option": "beat",
+                "logprob": -5.323027410078794,
+                "prob": 0.005299579728137768
+              },
+              {
+                "option": "lie on",
+                "logprob": -5.402475589304231,
+                "prob": 0.004894828999237182
+              },
+              {
+                "option": "cut",
+                "logprob": -5.463939860463142,
+                "prob": 0.004603031326360285
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "carry",
+              "hold",
+              "lift",
+              "sit on",
+              "stick",
+              "none",
+              "push",
+              "type on",
+              "pour"
+            ],
+            "n_valid": 9,
+            "invalid": [
+              "pour with"
+            ],
+            "raw": "1. carry\n2. hold\n3. lift\n4. sit on\n5. stick\n6. none\n7. push\n8. type on\n9. pour\n10. pour with"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_31_region_2",
+      "area": 29145,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "giXc03ho0<F5K4M2N3L5L3M3M3M3M4M2N2M3M3N2N2N2M3N2N3L3N2N2N2N2N3L3N2O1N2M3N2N2O1N2N3M2N2N2N2O1N2N2N2N2N2O1N2O1N2O1N2O1N2O1O1O1O100O100O1000O101O0000001N101O000O101O0O2O001N101N101O0O101O0O2O0O2O001N101N101N1O101N100O2O1N1O100O2O0O101N1O2O0O100O1O101N2N1O100O100O1O1O100O1O1O10O01O1O1O001O10O01O001O001O001O001O001O000000001O000O10000000000O100000000O10000000O0100000O010000O01000O0100O010O10O10O010O10O01O0010O01O010O1O001O01O01N101O01O01O001N1000001N101O0O101O0O100O2N1O1O10001N1O1O100O100N2O1O1O1O1O1O1O1O100N2O100O001O100O01000O010000O100O100O100O2O0O1O101O0O2N2O0O2N2N2N1O2N2N2N2N2N2N2N2N3L3M3N3L3N3M2M4L4L5J5L6J5I:E]XU3"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "none",
+          "justification": "Part 7 lacks distinct features or functional elements, suggesting it does not serve a specific purpose or action",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.3734579524025321,
+                "prob": 0.7718248497811352
+              },
+              {
+                "option": "carry",
+                "logprob": -2.934874488040805,
+                "prob": 0.05958126089527154
+              },
+              {
+                "option": "drag",
+                "logprob": -3.43414771463722,
+                "prob": 0.036164135060217886
+              },
+              {
+                "option": "hit",
+                "logprob": -4.247362228692509,
+                "prob": 0.016036275415723875
+              },
+              {
+                "option": "lie on",
+                "logprob": -4.394092583679594,
+                "prob": 0.013847753460865624
+              },
+              {
+                "option": "throw",
+                "logprob": -4.559010134951677,
+                "prob": 0.011742391080526828
+              },
+              {
+                "option": "kick",
+                "logprob": -4.560278723714873,
+                "prob": 0.01172750425977225
+              },
+              {
+                "option": "hold",
+                "logprob": -4.684000247565564,
+                "prob": 0.010362726217270673
+              },
+              {
+                "option": "jump",
+                "logprob": -4.749784630723298,
+                "prob": 0.009702959746200014
+              },
+              {
+                "option": "sip",
+                "logprob": -4.751097209053114,
+                "prob": 0.009690232206275934
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "carry",
+              "hold"
+            ],
+            "n_valid": 2,
+            "invalid": [
+              "carry with",
+              "hold with",
+              "carry on",
+              "carry in",
+              "carry out",
+              "carry on",
+              "carry in",
+              "carry on"
+            ],
+            "raw": "1. carry\n2. hold\n3. carry with\n4. hold with\n5. carry on\n6. carry in\n7. carry out\n8. carry on\n9. carry in\n10. carry on"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_31_region_31",
+      "area": 10578,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "bWQc07eo08J6J4L5L2N4L2M4M3M2N2N3M2N3M2O1N2M3N2N2N2O1N1O2N2N2O0O2N101N2N1O2O0O2N1O100O1O1O100O100O1O1O010O0010O01O010O000001O001N100O101O0000001O000O2O00001N100O2O000O101N100O2O000O2O0O101O0O101N100O2O0O100O2O0O1O101N100O2O000O1O2O0O101N100O2O0O101N100O101N100O2O0O1O2O000O100O2N10001N1O100O2O0O101O0O1O2O0O2N101N2N101N3M2N3L4MUln7"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "none",
+          "justification": "Part 8 lacks distinct features or functional elements that suggest a specific use or interaction, unlike other parts that have clear outlines and color distinctions",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.29521470703184605,
+                "prob": 0.8113720351320187
+              },
+              {
+                "option": "hit",
+                "logprob": -3.5448890302795917,
+                "prob": 0.031470555478569515
+              },
+              {
+                "option": "carry",
+                "logprob": -3.6070130923762918,
+                "prob": 0.029574967172070293
+              },
+              {
+                "option": "eat",
+                "logprob": -3.9201101462822407,
+                "prob": 0.02162459330570978
+              },
+              {
+                "option": "hold",
+                "logprob": -4.1062290962727275,
+                "prob": 0.017952193283724854
+              },
+              {
+                "option": "beat",
+                "logprob": -4.11016490124166,
+                "prob": 0.017881675814727542
+              },
+              {
+                "option": "cut",
+                "logprob": -4.685307800769806,
+                "prob": 0.010060668275899616
+              },
+              {
+                "option": "throw",
+                "logprob": -5.168951064464636,
+                "prob": 0.006202735024636167
+              },
+              {
+                "option": "brush with",
+                "logprob": -5.335977825696318,
+                "prob": 0.0052486115058867225
+              },
+              {
+                "option": "stir",
+                "logprob": -5.419358414132148,
+                "prob": 0.004828727513145252
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "carry",
+              "hold",
+              "lift",
+              "push",
+              "pour",
+              "sip",
+              "sit on",
+              "stir",
+              "type on",
+              "none"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. carry\n2. hold\n3. lift\n4. push\n5. pour\n6. sip\n7. sit on\n8. stir\n9. type on\n10. none"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_31_region_29",
+      "area": 5505,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "SUg?5go06L3M2N3L3N3L4L3N3L3N2M4L3N3L3N2M4M2M3N2N3L3M3N2M4M2N2N3L3N2N2N2M3M3N3M2N2N2M3N2N2M3N2N2M3N2N2N2N2M3O1N101O10O011N1O2M3I7iNZ1bNnoY>"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "none",
+          "justification": "Part 9 lacks a clear function or interaction potential, as it appears to be a simple, flat extension without any distinct shape or texture that would suggest a specific use or interaction",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.2133273818762973,
+                "prob": 0.8676903638608304
+              },
+              {
+                "option": "hit",
+                "logprob": -3.462597267702222,
+                "prob": 0.033668579437374724
+              },
+              {
+                "option": "beat",
+                "logprob": -4.403300669044256,
+                "prob": 0.013142636504986375
+              },
+              {
+                "option": "hold",
+                "logprob": -4.524380694783758,
+                "prob": 0.01164389041377648
+              },
+              {
+                "option": "carry",
+                "logprob": -4.712689541163854,
+                "prob": 0.009645319464197428
+              },
+              {
+                "option": "lie on",
+                "logprob": -4.882859839708544,
+                "prob": 0.008136031004550395
+              },
+              {
+                "option": "throw",
+                "logprob": -5.024524264852516,
+                "prob": 0.007061362661187491
+              },
+              {
+                "option": "eat",
+                "logprob": -5.0257731097517535,
+                "prob": 0.007052549618653424
+              },
+              {
+                "option": "cut",
+                "logprob": -5.315401121973991,
+                "prob": 0.0052791293445676344
+              },
+              {
+                "option": "stick",
+                "logprob": -5.401408303994685,
+                "prob": 0.004844063842148589
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "carry",
+              "hold",
+              "lift",
+              "push",
+              "pour",
+              "sit on",
+              "type on",
+              "stick",
+              "stir",
+              "none"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. carry\n2. hold\n3. lift\n4. push\n5. pour\n6. sit on\n7. type on\n8. stick\n9. stir\n10. none"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_31_region_48",
+      "area": 3818,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "cSR:7ho06J3N3L3N4L2O2M2O2M3N1O2N1O1O2N2N1N3N1O1O2N1O2N1O1O2N1O2N1O2N2N1O1O1N3N01O00O0100O1O1O1N2O1O1O1N2O1N101N2N2O1N2O1N2O1N2O1N2N2O1N2N2N2O1N2N2N2O1N2N2M3O1N2M3N2N2N2M\\j[c0"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "none",
+          "justification": "Part 10 is a flat, circular shape with no distinct features or edges, unlike the other parts which have clear outlines and are shaped like segments of a creature",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.05137956410180777,
+                "prob": 0.9783757682604937
+              },
+              {
+                "option": "hit",
+                "logprob": -5.238239364873152,
+                "prob": 0.005468662202498758
+              },
+              {
+                "option": "eat",
+                "logprob": -5.676560716936365,
+                "prob": 0.0035279348256950925
+              },
+              {
+                "option": "lie on",
+                "logprob": -6.0340631461003795,
+                "prob": 0.002467511703483792
+              },
+              {
+                "option": "beat",
+                "logprob": -6.552925604395568,
+                "prob": 0.0014686561178009411
+              },
+              {
+                "option": "throw",
+                "logprob": -7.238112155115232,
+                "prob": 0.0007401971024059378
+              },
+              {
+                "option": "jump",
+                "logprob": -7.241801092866808,
+                "prob": 0.0007374715915819387
+              },
+              {
+                "option": "carry",
+                "logprob": -7.301181614398956,
+                "prob": 0.0006949549657970414
+              },
+              {
+                "option": "hold",
+                "logprob": -7.362858640204649,
+                "prob": 0.0006533872725965569
+              },
+              {
+                "option": "type on",
+                "logprob": -7.418052070192061,
+                "prob": 0.0006183017397090717
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "none"
+            ],
+            "n_valid": 1,
+            "invalid": [],
+            "raw": "10. none"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_31_region_37",
+      "area": 1107,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "VYie04ko04M3L3N3M3M3M2N1O001O000000O10000O10000O1000000O10000O1000000O100O10000O10000O100O10000O100O100O100O2O0O100O2O0O2N2Mjf[8"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "none",
+          "justification": "Part 11 is a flat, smooth surface with no distinct shape or features that suggest a specific function or interaction, unlike the other parts which have outlined edges and are tinted differently",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.2781503607984632,
+                "prob": 0.8286026902520297
+              },
+              {
+                "option": "hit",
+                "logprob": -3.4647731002187356,
+                "prob": 0.03423053345883991
+              },
+              {
+                "option": "carry",
+                "logprob": -3.8397205936489627,
+                "prob": 0.02352751397017878
+              },
+              {
+                "option": "cut",
+                "logprob": -4.317674309015274,
+                "prob": 0.014588256097778715
+              },
+              {
+                "option": "eat",
+                "logprob": -4.590364411706105,
+                "prob": 0.011106457828241868
+              },
+              {
+                "option": "hold",
+                "logprob": -4.651402517105453,
+                "prob": 0.010448815472529797
+              },
+              {
+                "option": "throw",
+                "logprob": -4.776738142885733,
+                "prob": 0.009217952988286558
+              },
+              {
+                "option": "lie on",
+                "logprob": -4.914523658691905,
+                "prob": 0.008031469227148615
+              },
+              {
+                "option": "beat",
+                "logprob": -5.217685687355697,
+                "prob": 0.005931074831710162
+              },
+              {
+                "option": "push",
+                "logprob": -5.277197137475014,
+                "prob": 0.005588405470550177
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "carry",
+              "hold",
+              "lift",
+              "push",
+              "pour",
+              "sit on",
+              "type on",
+              "write",
+              "stick",
+              "none"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. carry\n2. hold\n3. lift\n4. push\n5. pour\n6. sit on\n7. type on\n8. write\n9. stick\n10. none"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_31_region_32",
+      "area": 1095,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "_U_b04ko02N1O2N1O2N2N2N1O2N2N2N1O2N2O0O2N2N2N1O2N1O1O001O00N200N2O1O1O1O1O1N2O2N1O2M3N3M2M4KfkU<"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "none",
+          "justification": "Part 12 is a flat, smooth surface with no distinct shape or features that suggest a specific function or interaction, unlike the other parts which have outlined edges and are tinted differently",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.15621529100462794,
+                "prob": 0.9126835794319732
+              },
+              {
+                "option": "hit",
+                "logprob": -4.093120695673861,
+                "prob": 0.01780508059918425
+              },
+              {
+                "option": "lie on",
+                "logprob": -5.0655111992382444,
+                "prob": 0.006733488364654337
+              },
+              {
+                "option": "eat",
+                "logprob": -5.280932215508074,
+                "prob": 0.0054285514133932886
+              },
+              {
+                "option": "type on",
+                "logprob": -5.3934475182322785,
+                "prob": 0.004850864909634584
+              },
+              {
+                "option": "throw",
+                "logprob": -5.46737370028859,
+                "prob": 0.004505193484070227
+              },
+              {
+                "option": "beat",
+                "logprob": -5.470274114282802,
+                "prob": 0.004492145489282816
+              },
+              {
+                "option": "hold",
+                "logprob": -5.529726545966696,
+                "prob": 0.004232860447318756
+              },
+              {
+                "option": "carry",
+                "logprob": -5.592877554590814,
+                "prob": 0.003973816566163707
+              },
+              {
+                "option": "cut",
+                "logprob": -5.692182391881943,
+                "prob": 0.0035981583577813013
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "carry",
+              "hold",
+              "lift",
+              "sit on",
+              "stick",
+              "stir",
+              "type on",
+              "wash",
+              "write",
+              "none"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. carry\n2. hold\n3. lift\n4. sit on\n5. stick\n6. stir\n7. type on\n8. wash\n9. write\n10. none"
+          }
+        }
+      }
+    }
+  ]
+}

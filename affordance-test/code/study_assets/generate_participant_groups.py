@@ -59,8 +59,10 @@ SIZES = ["hand", "human", "building"]  # matches generate_size_charts.py's SCENA
 # How many distinct objects one participant session (one "group") covers. Started at 10 (30-object
 # pool -> 9 groups), lowered to 5 per-session because 10 felt like too much for one participant to
 # get through -> 18 groups, 72 participants needed (more, shorter sessions instead of fewer, longer
-# ones -- same 90 object x size cells covered either way, just sliced differently).
-OBJECTS_PER_GROUP = 5
+# ones -- same 90 object x size cells covered either way, just sliced differently). Raised back to 10
+# on 2026-11-13 for the labmate version of the study (fewer people available, so longer sessions):
+# 9 groups, 9 x ANNOTATIONS_PER_CELL participants.
+OBJECTS_PER_GROUP = 10
 ANNOTATIONS_PER_CELL = 4  # how many independent participants should see each (object, size) pair
 SEED = 7  # fixed for reproducibility -- re-run with a different seed (or None) for a fresh shuffle
 

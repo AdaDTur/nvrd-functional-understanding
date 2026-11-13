@@ -1,0 +1,710 @@
+{
+  "object": "shape_19",
+  "model": "Qwen/Qwen3.5-4B",
+  "image_path": "/shared/nas/data/m1/adadt2/nvrd/regions_test/data/novel/shape_19.png",
+  "region_source": "sam_slic",
+  "method": "per_part_with_comparative_context",
+  "top_k": 10,
+  "modes": [
+    "logprob",
+    "generation"
+  ],
+  "regions": [
+    {
+      "region_id": "shape_19_region_12",
+      "area": 219869,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "ddW4<Ro0k0A:I6I8G8I6K5K6K4K4M3K4N3L3L4M2M4M2O2M2L4M3O10O010O1O2M20O101O01O001M200001O000O00O2001N101O000O1O10O11N1O2O0O1O1O010O101N2N101O0O2N1O2N1O1N3L3O10000N3L3O2M3M2O2N1O2N1N3M3N101L300O2M20100N2O1O1O001O1N2O001O1N2O0O2O1N2N1O2N2N2N1O2O1M3L4N1N3M3M3O1O100O1O0O2O1O1O1O1O1O100O100O1O1O1O100N2O1O1O2O0O100O100O2O0O1O1O1O100O1O2N100O2O0O100O101O0O1O1O2O0O1O101N1O100O101N1O101N100O2N1O100O101N101N100O2O0O2O0O101O0O1000001O0O101O0O2O0O2N100O2O0O2N1O2N100O2O0O2O0O2N101N101O0O101O1O001N10001N101O1O1O0O2O001N101O0O2O001N101N2O1O001N101N101O0O2O0O2O0O2O0O3N1N101O1N101O0OlDn[O]:Qd0`EU\\O^:ic0`E\\\\O^:dc0_Ea\\O`:]c0aEc\\O_:]c0`Ee\\O`:[c0^Eg\\Ob:Xc0[El\\Oe:Tc0XEo\\Oh:Td000100O010O00100O1N2O1O001O10O01O1O10O0100O1O001O1O1O001O1O1O1N2O1N101O1O001O1O1O1O1O1O001O0O2O2M2O1N2O1O0O2O1N2O1N2N2O1N2O0O2O1N2N2O1N2O1N2N2N101N2O1N101N2O1N2O1N101O1N2O1N2O1N2O0O2O0O2N102M2O1N2O0O2O0O2O1N2N2N2N1O2N1O2N2NnGX_On0g`0jNe_OT1Z`0hNl_OV1S`0gNR@X1l?gNY@W1d?jN`@U1\\?kNi@S1U?nNm@R1o>POSAP1k>oNXAP1g>PO[AP1d>oN^AP1a>oNbAP1_>nNcAR1\\>mNfAR1Z>mNhAS1X>lNiAS1W>lNkAT1T>lNnAR1R>mNPBS1o=mNSBQ1m=nNTBR1l=nNUBQ1l=mNWBR1h=mNZBR1f=mN[BT1d=lN]BS1c=lN_BT1`=kNbBT1^=lNbBT1^=kNdBU1[=kNfBT1[=jNgBU1Y=kNgBU1Y=jNiBV1V=jNkBU1U=kNmBS1S=mNmBT1S=jNoBU1Q=kNoBU1Q=jNQCV1n<jNRCV1n<jNRCV1o<iNRCV1n<iNSCX1l<hNUCW1k<iNVCV1j<jNWCU1j<jNVCV1j<iNXCV1h<jNXCV1h<jNYCV1f<jNZCV1g<iNZCV1f<iN\\CV1d<jN\\CV1d<jN]CU1d<jN\\CV1d<iN]CW1c<iN^CV1b<jN^CV1b<jN^CW1b<hN^CX1b<hN_CV1b<jN^CV1c<iN]CW1c<hN_CW1a<iN_CW1a<iN_CW1b<hN_CW1a<iN_CW1b<hN_CW1a<iN_CW1a<iN_CW1b<hN_CW1a<iN_CW1a<iN_CW1b<gN_CY1a<gN`CX1`<hN`CX1a<gN_CX1b<hN_CW1a<iN_CW1b<hN^CX1b<hN^CX1b<hN_CW1b<gN_CY1a<gN_CX1c<gN]CY1c<gN]CX1e<fN\\CZ1d<fN\\CZ1d<fN]CX1d<gN]CY1d<fN\\CZ1d<fN\\CZ1e<dN\\C\\1d<dN\\C\\1d<cN]C\\1e<cN[C]1e<cN[C]1f<aN[C^1f<bNZC^1f<aN[C^1g<aNYC^1h<aNYC_1g<aNXC_1j<_NWCa1i<_NWCa1i<^NXCb1i<]NWCc1i<\\NXCd1i<[NVCe1k<aKi^OW1]4X3j<YKY_OW1l3`3m<WK[_OU1i3d3l<WK^_OR1f3f3n<VK__OQ1d3h3n<UKc_OP1^3l3o<SKf_On0\\3n3P=RKh_Om0X3Q4P=RKi_Ok0W3S4R=PKi_Ol0U3S4S=QKl_Og0Q3Y4S=oJo_Of0m2\\4U=mJQ@d0i2`4V=lJR@b0i2b4U=kJT@b0f2c4X=jJT@`0e2f4W=iJW@?a2h4Z=hJW@>_2j4Z=gJZ@=Z2m4^=eJY@<Y2P5_=cJY@<V2R5b=aJ[@;P2V5g=^J[@:l1Z5i=\\J\\@9i1\\5l=[J\\@80@QOn5d`0ZJ\\@8^O7WOZ5Qa0UJ\\@9VOc0VOQ5Xa0SJ^@7oNn0SOl4aa0nI]@7jNW8k`0aG\\@;`NY8Ua0[G[@=ZN]8[a0UG]@?QN`8da0PG\\@a0jMc8ja0kF^@]:d?bE\\@]:f?aE\\@^:e?`E\\@_:db0O1N2N2N2N101O0O2O0O2O1N2N002N1O2N2O0O2N1O2O0O2N1N3O0O101N100O1O1O1O1O1N3N1O1O1O101N1N3N2OO0101N1O2N1O1M3O1O2N1O1O2N1O2N2O0O1O2M200O1N3M2O2N2M3M20O02O0O2N1O0O3M2O2O0O1O2N1N2N2O1O1O001O1M210OO00010O0jNbIlXO_6Tg0hIcXOY6_g0T1O01N3M201N1O2N2O1N1N3N30O1O00O100O100001O8IO0O100O1O00101N100O3M10O01O3N00000O100O2O0O2O0O2O1N2O0O010000001O0O2O0O100O2O1O1O000O2O001N101O1N102N001N2O1O0O2O1N2O1N100O2O1N2N2O1N3M101N2N2N2N3M2N2N2N1O3L3N3M2M4M3L3N3L3M5K3M4L4K7J4L4L4L5I7I8H9F7K5I;D<@W\\_3"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "none",
+          "justification": "Part 5 appears as a smooth, integrated patch of skin rather than having any protruding features like spikes or functional appendages seen in surrounding sections such as those labeled for horns or limbs; its flat surface suggests no distinct interactive purpose beyond being structural body coverage",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.2048587625904474,
+                "prob": 0.3245562588732898
+              },
+              {
+                "option": "stick",
+                "logprob": -1.329748150841624,
+                "prob": 0.2864515763276362
+              },
+              {
+                "option": "look out",
+                "logprob": -2.5798113270375325,
+                "prob": 0.08206456599515939
+              },
+              {
+                "option": "sit on",
+                "logprob": -3.0798697333812015,
+                "prob": 0.04977176828017688
+              },
+              {
+                "option": "hit",
+                "logprob": -3.080067318340298,
+                "prob": 0.04976193509885345
+              },
+              {
+                "option": "beat",
+                "logprob": -3.0807748918887228,
+                "prob": 0.04972673732383486
+              },
+              {
+                "option": "cut",
+                "logprob": -3.399039149284363,
+                "prob": 0.03617175281930296
+              },
+              {
+                "option": "cut with",
+                "logprob": -3.399097439178149,
+                "prob": 0.036169644433122455
+              },
+              {
+                "option": "write",
+                "logprob": -3.5912946797907352,
+                "prob": 0.02984516872161223
+              },
+              {
+                "option": "pick up",
+                "logprob": -4.45693785410549,
+                "prob": 0.012558274870756843
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "look out",
+              "none",
+              "carry",
+              "hold",
+              "sit on",
+              "lie on",
+              "wear",
+              "pick up",
+              "lift"
+            ],
+            "n_valid": 9,
+            "invalid": [],
+            "raw": "1. look out\n2. none\n3. carry\n4. hold\n5. sit on\n6. lie on\n7. wear\n8. pick up\n9. lift\n10. none"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_19_region_2",
+      "area": 77805,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "Rgd4>Yo0`0D:G9I6J6J4K7I5L5K4M4K3M5K3N3L4M3M2M4M2N3M2N2N3L3N2N2N2N2N2N2N2N2N2N2N2N1O2N2N2N2O0O2N1O2N2N2O0O2N2N1O2O1N101N2N101N101N1O2N2O0O2O0O2O1N101N101N101O0O2O001N101O0O2O0O2O001O1N101O00001N101O0O2O00001O0O101O00001O00001O001O0O10001O001O00001O000000001O00001O0000001O0000001O000001O01O000000010O000000010O00000010O000001O01O01O01O0000010O00001O01O01O0001O01O000010O01O0000010O00001O00010O00001O001O01O01O001O010O00001O0010O0001O0010O0001O00100O001O001O00100O001O010O001O0010O01O1O001O10O01O001O1O010O1O001O010O001O001O1O10O01O10O01O1O001O001O10O01O1O001O100O001O1O001O10O01O1O001O1O1O1O001O100O001O1O1O1O001O1O100O1O1O1O001O1O1O1O1O1O1O001O1O1O1O1O001O1O1O1O001O1O1O1O2N001O1O1O1O1O1N2O1O1O1O1O001O1O001O1N2O1O1O1O1O1N101O1O001O1N2O1O1O001O1N101N2O0O2O001N2O1O1O0O2O001N2O0O2O1O0O2O0O2O000O2O0O2N101N2O001N100O2O0O2N1O1O2O0O1O2O0O2N1O1O1O2N1O1N201N1O1N2O1O2N1N2O2N1N2N3M2O1N2N2M4M2N3K4M4J6HoV_="
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "carry",
+          "justification": "Part 2 has a smooth, rounded surface without any protrusions like spikes or indentations for attachment points; its broad base suggests stability when placed down rather than being used as a handle or grip point compared to more angular elements elsewhere in the design",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "carry",
+                "logprob": -1.745740169128112,
+                "prob": 0.19582844441146113
+              },
+              {
+                "option": "eat",
+                "logprob": -1.8706835493758263,
+                "prob": 0.17282778082019212
+              },
+              {
+                "option": "none",
+                "logprob": -1.9957523270568345,
+                "prob": 0.15250949164450045
+              },
+              {
+                "option": "sit on",
+                "logprob": -2.2457296810271146,
+                "prob": 0.11877720132013318
+              },
+              {
+                "option": "lie on",
+                "logprob": -2.4956578014034676,
+                "prob": 0.09251042677482946
+              },
+              {
+                "option": "beat",
+                "logprob": -2.7465693109552376,
+                "prob": 0.07198155103117952
+              },
+              {
+                "option": "ride",
+                "logprob": -2.995673893899948,
+                "prob": 0.05610950723272159
+              },
+              {
+                "option": "lift",
+                "logprob": -3.745649575987045,
+                "prob": 0.026504899043507252
+              },
+              {
+                "option": "kick",
+                "logprob": -3.8706976152170682,
+                "prob": 0.023389367675009674
+              },
+              {
+                "option": "hit",
+                "logprob": -4.120913107646629,
+                "prob": 0.018211732947383808
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "sit on",
+              "lie on",
+              "carry",
+              "hold",
+              "kick",
+              "push",
+              "lift",
+              "drag",
+              "none",
+              "wear"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. sit on\n2. lie on\n3. carry\n4. hold\n5. kick\n6. push\n7. lift\n8. drag\n9. none\n10. wear"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_19_region_1",
+      "area": 28682,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "_kca03jo04N101N1O001O1O001O1N2N10100N1O2O1O1N1O2N2M2O2N1N3L4M2L5L3I8H7O2O010O100000O10000O1000O1000000000000000O0100000000O10000O100000000O01000O101O0O10O10O10000O100O101N1000O02O000O10O02O0O100O10000O100O100O1O2O0O100O100O100O100O2O0O100O100O00101N1O101N1O100O100O100O1O101N1O100O1O1O1O100O1O1O101N1O1O100O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1N2O1O1O1O1O1O001O1O1O1N2O1O1O1O1O001N2O1O1O1O1N2O1O001O1N1O2O1O1O001N2O1O001O1N101N2O001N1O2O1O001N101O1O0O2O010O010O02O0O2O1O0O2O=B7I5L4K5K4M4K4M3L4L4L4M4K3M5K4L4L4L4L4L5J5L4K6K4K6J6I7J7I7G:D`Wm5"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "none",
+          "justification": "Part three appears as a smooth green appendage lacking any discernible texture for grasping; unlike its spiky counterparts which offer clear tactile points of interaction through their sharp protrusions",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.3917379330887343,
+                "prob": 0.2721241766925088
+              },
+              {
+                "option": "sit on",
+                "logprob": -1.5167115908398046,
+                "prob": 0.24015506919081375
+              },
+              {
+                "option": "ride",
+                "logprob": -1.7666751140022825,
+                "prob": 0.18703977843954922
+              },
+              {
+                "option": "carry",
+                "logprob": -2.5168323331308784,
+                "prob": 0.08833744593884685
+              },
+              {
+                "option": "lie on",
+                "logprob": -3.1416728493522896,
+                "prob": 0.0472911690778894
+              },
+              {
+                "option": "stick",
+                "logprob": -3.7666796437879384,
+                "prob": 0.025312966729056377
+              },
+              {
+                "option": "kick",
+                "logprob": -3.891720768500818,
+                "prob": 0.022337696083391867
+              },
+              {
+                "option": "wear",
+                "logprob": -4.141772023023805,
+                "prob": 0.017395723569393184
+              },
+              {
+                "option": "beat",
+                "logprob": -4.143627692712471,
+                "prob": 0.017363472785109114
+              },
+              {
+                "option": "cut",
+                "logprob": -4.49142050743103,
+                "prob": 0.012262869043540455
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "none",
+              "carry",
+              "hold",
+              "lift",
+              "sit on",
+              "lie on",
+              "kick",
+              "push",
+              "drag",
+              "wear"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "none\ncarry\nhold\nlift\nsit on\nlie on\nkick\npush\ndrag\nwear"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_19_region_5",
+      "area": 18438,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "a[Yd03eo0`0G4M3L3L5L3M4M1N2O4K3N3M1O1N3M3N2M3N1O1N3N2N1O002M2O1O1O1O0O2O0O2O1O001N2O1N2O1O1O0O2O001N100O10001N2O1N2O1O0O2O0O101N2O0O2O0O101O0O100O1O100O101N100O100O101N1O2O0O011N2N101N100O1O2O0O101N1O101N2O0O2N1O100O2N101N2N101N00101N1O2OO01O2N101N1O2O0O1O1O100O001O010O0000O2O0O1YNTVOZMni0`2^VOWMdi0f2l1N2N3L3O1N3N1M3O1N3M2O2M2O2M2N3M3N3MO02N2N3N1N3N1O2M2O2N2M3N2N2N2N2M4M2N3L4M3M3L5L5J[gQ6"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "hit",
+          "justification": "Part 4 has a sharp, pointed tip positioned prominently at the top right of the head like many spikes in its group; unlike most which are small protrusions, this spike appears larger and more aggressive suggesting intent for striking rather than just defense",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "hit",
+                "logprob": -0.6500290026742732,
+                "prob": 0.5354372230080293
+              },
+              {
+                "option": "stick",
+                "logprob": -2.0250157113296154,
+                "prob": 0.13538153043478915
+              },
+              {
+                "option": "cut",
+                "logprob": -2.3742845356464386,
+                "prob": 0.09547153301448778
+              },
+              {
+                "option": "beat",
+                "logprob": -2.4003538406977896,
+                "prob": 0.09301481805462486
+              },
+              {
+                "option": "cut with",
+                "logprob": -2.8743193144982797,
+                "prob": 0.05790439801955399
+              },
+              {
+                "option": "none",
+                "logprob": -2.90035348321544,
+                "prob": 0.05641635912557119
+              },
+              {
+                "option": "swing",
+                "logprob": -5.400179248128552,
+                "prob": 0.004631743703153611
+              },
+              {
+                "option": "kick",
+                "logprob": -5.525038598549145,
+                "prob": 0.004088074417112247
+              },
+              {
+                "option": "sit on",
+                "logprob": -5.650283896356996,
+                "prob": 0.003606828155075021
+              },
+              {
+                "option": "pick up",
+                "logprob": -5.776515842968365,
+                "prob": 0.0031790957852928917
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "none",
+              "beat",
+              "hit",
+              "cut",
+              "swing",
+              "throw",
+              "push",
+              "lift",
+              "carry",
+              "stick"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "none\nbeat\nhit\ncut\nswing\nthrow\npush\nlift\ncarry\nstick"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_19_region_0",
+      "area": 16358,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "]`h`0`0Wo0<I6J5L5L4K5M2N2M3N2N2M3N2N2N2O1N2O2M2O1N2O1N3M2N101N2N2O0O2O1N2O0O2O1O1O1N2O0O2O00001N101O1O1O0O2O001O001N2O001O0O101O0000001O000O2O00001O001O00001O000O101O00001O0000001N1000000O10001N10000O100O10000O100O100O10O0100O100O010O010O100O10O0100O010O01O1O010O010O1O1O001N2M3N2N2XN]TOQOfk0>QUOWOSk0c0XUOVOkj0d0^UOTOgj0e0^2J6J7I7Jiae:"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "none",
+          "justification": "Part 5 appears as a smooth, integrated patch of skin rather than having any protruding features like spikes or distinct functional appendages seen in surrounding areas such as those labeled for defensive structures; its form suggests purely decorative patterning without clear utility beyond visual design within the creature\u2019s overall aesthetic composition compared to more utilitarian elements",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.0334953027122538,
+                "prob": 0.3786614319658968
+              },
+              {
+                "option": "stick",
+                "logprob": -1.283450006336352,
+                "prob": 0.2949151780201994
+              },
+              {
+                "option": "look out",
+                "logprob": -2.908508892237478,
+                "prob": 0.0580688222114971
+              },
+              {
+                "option": "sit on",
+                "logprob": -3.033549539024534,
+                "prob": 0.051243472813522456
+              },
+              {
+                "option": "cut with",
+                "logprob": -3.2918655854664394,
+                "prob": 0.03957795232448126
+              },
+              {
+                "option": "hit",
+                "logprob": -3.4087255672493484,
+                "prob": 0.03521289046456739
+              },
+              {
+                "option": "cut",
+                "logprob": -3.4168335795402527,
+                "prob": 0.034928538239322356
+              },
+              {
+                "option": "ride",
+                "logprob": -3.662101454101503,
+                "prob": 0.027331403025784046
+              },
+              {
+                "option": "beat",
+                "logprob": -3.7844277136027813,
+                "prob": 0.02418445510160005
+              },
+              {
+                "option": "write",
+                "logprob": -4.1655783099122345,
+                "prob": 0.016519796990121013
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Looking at part 5 in the image: it is a purple, teardrop-shaped protrusion on the side of a spherical object (resembling a stylized creature or toy). It appears to be a sensory or interactive element \u2014 possibly an eye, a button, or a tactile feature.",
+              "Given its shape and position, it does not clearly afford actions like \u201cbeat\u201d, \u201cboxing\u201d, \u201cbrush with\u201d, \u201ccarry\u201d, \u201ccatch\u201d, \u201ccut\u201d, \u201ccut with\u201d, \u201cdrag\u201d, \u201cdrink with\u201d, \u201ceat\u201d, \u201chit\u201d, \u201chold\u201d, \u201cjump\u201d, \u201ckick\u201d, \u201clie on\u201d, \u201clift\u201d, \u201clook out\u201d, \u201copen\u201d, \u201cpack\u201d, \u201cpeel\u201d, \u201cpick up\u201d, \u201cpour\u201d, \u201cpush\u201d, \u201cride\u201d, \u201csip\u201d, \u201csit on\u201d, \u201cstick\u201d, \u201cstir\u201d, \u201cswing\u201d, \u201ctake photo\u201d, \u201ctalk on\u201d, \u201ctext on\u201d, \u201cthrow\u201d, \u201ctype on\u201d, \u201cwash\u201d, \u201cwear\u201d.",
+              "The most plausible interpretations are"
+            ],
+            "raw": "Looking at part 5 in the image: it is a purple, teardrop-shaped protrusion on the side of a spherical object (resembling a stylized creature or toy). It appears to be a sensory or interactive element \u2014 possibly an eye, a button, or a tactile feature.\n\nGiven its shape and position, it does not clearly afford actions like \u201cbeat\u201d, \u201cboxing\u201d, \u201cbrush with\u201d, \u201ccarry\u201d, \u201ccatch\u201d, \u201ccut\u201d, \u201ccut with\u201d, \u201cdrag\u201d, \u201cdrink with\u201d, \u201ceat\u201d, \u201chit\u201d, \u201chold\u201d, \u201cjump\u201d, \u201ckick\u201d, \u201clie on\u201d, \u201clift\u201d, \u201clook out\u201d, \u201copen\u201d, \u201cpack\u201d, \u201cpeel\u201d, \u201cpick up\u201d, \u201cpour\u201d, \u201cpush\u201d, \u201cride\u201d, \u201csip\u201d, \u201csit on\u201d, \u201cstick\u201d, \u201cstir\u201d, \u201cswing\u201d, \u201ctake photo\u201d, \u201ctalk on\u201d, \u201ctext on\u201d, \u201cthrow\u201d, \u201ctype on\u201d, \u201cwash\u201d, \u201cwear\u201d.\n\nThe most plausible interpretations are"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_19_region_6",
+      "area": 13829,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "XZQ=;bo06K3N2N101L4M3M2N3N1M4M2N3N1N2O1M3N1N3N2L5L3M3L4L5K4K5L4K6J5K6J5J6J6J6I7I6J7J5I7K6J7I5M4L4O1N2O1O1O2N100O010O0100O101N1O2N101O0O2O1N2O2N1N3N2M2M5M2N3L3N3L3M4M3L4L3N3L4M2N3L4M3L3N3L3N3L3M3N3M2M4M3L3M4M3L3N2M4M2M4M3L3N3L3N3L3M3M3M3M4L3M2N3M3N1N2M4K4M3M4Lnfo>"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "stick",
+          "justification": "Part six features a sharp, conical tip rising vertically like a pointed tool designed for piercing rather than grasping; unlike its rounded counterparts such as two which are shaped for rolling over surfaces without snagging",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "stick",
+                "logprob": -0.41899329393527296,
+                "prob": 0.6691838398823151
+              },
+              {
+                "option": "hit",
+                "logprob": -1.6691298354999162,
+                "prob": 0.1916982035478994
+              },
+              {
+                "option": "beat",
+                "logprob": -3.169795886205975,
+                "prob": 0.04274517092304773
+              },
+              {
+                "option": "none",
+                "logprob": -3.29444432866876,
+                "prob": 0.037735744893920516
+              },
+              {
+                "option": "cut with",
+                "logprob": -3.8175553650580696,
+                "prob": 0.022364989094849314
+              },
+              {
+                "option": "cut",
+                "logprob": -4.192478716373444,
+                "prob": 0.015372395453902619
+              },
+              {
+                "option": "lift",
+                "logprob": -5.4190386509289965,
+                "prob": 0.004508720739115402
+              },
+              {
+                "option": "sit on",
+                "logprob": -5.5441709616388835,
+                "prob": 0.003978405666385564
+              },
+              {
+                "option": "pick up",
+                "logprob": -5.669819764698332,
+                "prob": 0.00350865351404028
+              },
+              {
+                "option": "look out",
+                "logprob": -6.16906702194683,
+                "prob": 0.0021297084499543226
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "stick",
+              "hit",
+              "beat",
+              "cut",
+              "cut with",
+              "throw",
+              "swing",
+              "kick",
+              "none",
+              "push"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. stick\n2. hit\n3. beat\n4. cut\n5. cut with\n6. throw\n7. swing\n8. kick\n9. none\n10. push"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_19_region_3",
+      "area": 8243,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "Y^\\29fo03M2N3M2O1N101OO14K2O1O1O1O1O001O100O1O1O1O1O1O1O010O1O1O1O1O00100O1O1O1O1O100O1O1O001O100O1O1O1O100O1O1O1O1O1O1O100O1O1O1O1O1O100O1O2N1O1O1O101N1O1O2N1O2N2O0O3M2N3M4L1O001OO100O1O2N100O1O1O1O1O1O1O1O1N2O1O1N2O1O1O1N2N2O1O1N2N2O1N2N2N2N2N101N2N2O1M3O1O1N1N3N2M3N1N3N2M2O2M2M4N2K4O2N1O2O2N1L5NhaPi0"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "none",
+          "justification": "Part 7 appears as a small, isolated protrusion lacking any discernible function like attachment points for limbs or sensory organs; unlike larger structural elements such as those forming the main body base or head dome, its minimal size suggests no significant interactive role within the overall design context of similar components shown elsewhere in the figure set",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.277698632577085,
+                "prob": 0.29743568147589255
+              },
+              {
+                "option": "stick",
+                "logprob": -1.4026496404439968,
+                "prob": 0.26249892768799066
+              },
+              {
+                "option": "hit",
+                "logprob": -2.152714128358639,
+                "prob": 0.12398771760302073
+              },
+              {
+                "option": "beat",
+                "logprob": -2.4030870277492795,
+                "prob": 0.09652573046242159
+              },
+              {
+                "option": "cut",
+                "logprob": -2.4567387402057648,
+                "prob": 0.09148343313581725
+              },
+              {
+                "option": "cut with",
+                "logprob": -3.081785558784759,
+                "prob": 0.048965260568512914
+              },
+              {
+                "option": "pick up",
+                "logprob": -4.028940101536136,
+                "prob": 0.01899083578934931
+              },
+              {
+                "option": "look out",
+                "logprob": -4.277688739764017,
+                "prob": 0.014808597106640805
+              },
+              {
+                "option": "swing",
+                "logprob": -4.652782187797129,
+                "prob": 0.010176838975307507
+              },
+              {
+                "option": "sit on",
+                "logprob": -4.777801380942037,
+                "prob": 0.008980856501276654
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "none",
+              "beat",
+              "hit",
+              "cut",
+              "swing",
+              "throw",
+              "kick",
+              "push",
+              "lift",
+              "hold"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "none\nbeat\nhit\ncut\nswing\nthrow\nkick\npush\nlift\nhold"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_19_region_8",
+      "area": 7902,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "RXl6;co06K4L3N4K3N3M3M2N3M3M2N3N2M2O2M3N2M3N1O2N2M2O2N2N2M3N2N2N1O3L3N2N3M4L3L8I;E00O100N101N2N2N2N1O2N2N2N101N2N2N101N2N2N1O2M3O1N2O0O2N2O1N101N2N2N101N2N1O2N2O1O0O2O1N2O0O2O1N1O2N2N1O2O1N101N2O0O2O0O2N2O0O2O0O2N101N101N101N101N101N101N10001N101O000O101O0O101N100O101N101N1O2Neekd0"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "stick",
+          "justification": "Part 8 appears as a slender, pointed projection rising vertically like a spike; unlike its broader neighbors such as part 4 which resembles a horn or fin, its narrow form suggests utility for piercing rather than display\u2014consistent with being used as a stick-like tool in play scenarios where children use objects\u2019 shapes over their hues",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "stick",
+                "logprob": -0.547542273732688,
+                "prob": 0.5968258195840528
+              },
+              {
+                "option": "none",
+                "logprob": -2.0476910920260707,
+                "prob": 0.1331500240706593
+              },
+              {
+                "option": "hit",
+                "logprob": -2.672763794544153,
+                "prob": 0.07126489076604407
+              },
+              {
+                "option": "cut with",
+                "logprob": -2.8054954397048277,
+                "prob": 0.06240666904337432
+              },
+              {
+                "option": "beat",
+                "logprob": -2.9232306333142333,
+                "prob": 0.05547524869118905
+              },
+              {
+                "option": "cut",
+                "logprob": -2.930442690849304,
+                "prob": 0.0550765972822502
+              },
+              {
+                "option": "look out",
+                "logprob": -5.172636742396207,
+                "prob": 0.00585052173459772
+              },
+              {
+                "option": "sit on",
+                "logprob": -5.672736865504703,
+                "prob": 0.0035481655362005855
+              },
+              {
+                "option": "pick up",
+                "logprob": -5.798618390253978,
+                "prob": 0.003128486041772415
+              },
+              {
+                "option": "swing",
+                "logprob": -5.922688112303149,
+                "prob": 0.0027634488217532457
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "stick",
+              "hit",
+              "cut",
+              "cut with",
+              "swing",
+              "throw",
+              "beat",
+              "kick",
+              "none",
+              "push"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. stick\n2. hit\n3. cut\n4. cut with\n5. swing\n6. throw\n7. beat\n8. kick\n9. none\n10. push"
+          }
+        }
+      }
+    }
+  ]
+}

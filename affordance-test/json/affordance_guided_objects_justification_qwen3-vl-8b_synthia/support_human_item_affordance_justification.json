@@ -1,0 +1,131 @@
+{
+  "object": "support_human_item",
+  "model": "Qwen/Qwen3-VL-8B-Instruct",
+  "image_path": "/shared/nas/data/m1/adadt2/nvrd/affordance-test/figures/affordance_guided_novel_objects/base_images/support_human_item.png",
+  "vocabulary": "synthia_filtered",
+  "regions": [
+    {
+      "region_id": "support_human_item_region_6",
+      "area": 176108,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "Rh]6;do03M3M3M2N2O1N2O1N2O1N2O2N1N2O1N2O1O001N2O1O1O1O2N1N102N1O1O1O1O1N101O1O1O0eLTNbXOm1\\g0UNcXOl1\\g0TNdXOm1Zg0UNdXOm1[g0TNdXOm1[g0TNdXOl1\\g0TNdXOm1[g0TNdXOm1[g0SNeXOm1[g0TNdXOm1[g0TNcXOn1\\g0RNdXOo1Zg0SNeXOn1Zg0SNeXOm1[g0TNdXOm1[g0TNdXOl1[g0VNcXOl1\\g0TNdXOm1[g0TNdXOl1\\g0UNbXOm1]g0TNbXOl1]g0VNbXOk1]g0VNaXOk1_g0VN`XOk1^g0WN`XOj1`g0WN_XOj1`g0WN^XOj1ag0XN^XOi1ag0XN]XOi1bg0YN]XOh1bg0ZN[XOg1dg0[N[XOe1eg0]NXXOd1gf0WMTXOW1S1d1ff0XMUXOW1R1b1hf0XMVXOX1o0a1jf0YMUXOY1n0_1mf0XMTXO\\1l0]1of0XMTXO^1j0[1Rg0VM_WOJ`0i1k0Y1Ug0\\MkWO`1l0U1Qc0lLl_Oa0RLd1l0Q1Uc0lLm_OQ3hL5[c0kLk_OV3cL1ac0jLk_O[3\\LNic0hLj_OX7V`0iHh_OX7W`0jHh_OW7W`0iHj_OV7V`0kHi_OU7W`0lHi_OS7V`0oHj_OP7V`0QIj_On6V`0RIk_Om6U`0TIl_Oj6T`0WIl_Oh6S`0ZIm_Oe6S`0\\Im_Od6R`0]In_Ob6R`0_In_O`6Q`0bIo_O]6Q`0dIo_O[6Q`0fIo_OY6P`0iIP@V6P`0kIP@T6o?mIQ@S6o?oIP@Q6n?QJQ@o5n?SJQ@m5\\?TIS]OP1a3l5[?hJe@W5Z?kJe@U5[?lJd@U5Z?mJe@S5[?oJc@Q5]?PKa@Q5_?PK`@P5_?SK_@m4a?TK]@m4c?TK\\@QOiLZ4jb0fL\\@oNnLX4fb0jLZ@nNSMV4cb0mLY@kNZMT4]b0RMX@jN\\MT4Zb0UMW@gNbMR4Wb0XMV@dNfMS4Tb0[MS@bNlMR4Pb0]MS@aNnMQ4na0aMQ@^NSNP4la0cMo_O^NVNo3ka0dMl_O^N[Nl3ia0gMj_O]N_Nk3ga0iMh_O]NbNi3fa0kMg_O[NeNi3da0mMe_O[NgNi3ca0mMd_OZNkNh3aa0PNa_OYNnNg3aa0QN__OXNROf3_a0SN]_OWNUOf3^a0TN[_OWNWOf3]a0UNY_OVNZOe3]a0WNV_OUN^Oc3\\a0ZNS_OTNAb3\\a0\\NP_OSNEa3Za0^Nm^OSNI_3Za0`Nj^ORNL^3Za0bNf^ORN1[3Ya0eNc^OQN4Z3Ya0gN`^OPN7Y3Ya0iN\\^OPN<W3Wa0oNV^OjMd0W3Va0POS^OkMh0T3Ua0SOo]OlMk0Q3Wa0UOi]OlMo0P3Xa0WOb]OmMW1l2Va0[OW]ORNb1c2Wa0g1i^OYNWa0h1i^OXNVa0h1j^OXNVa0i1i^OWNXa0h1h^OXNXa0h1h^OXNYa0g1g^OYNba0_1]^ObNha0X1X^OhNka0V1T^OjNoa0S1P^OnNRb0Q1m]OoNUb0o0k]OQOVb0o0h]OROZb0l0f]OTO\\b0k0c]OVO]b0j0b]OVO`b0i0^]OXOcb0h0\\]OXOeb0h0Z]OXOgb0g0Y]OZOhb0e0W]O[Okb0c0T]O^Omb0b0R]O_Onb0`0R]O@ob0`0o\\OASc0>k\\OCVc0<j\\OEVc0;h\\OFYc0:e\\OH\\c07c\\OI^c07`\\OJac05_\\OKbc05\\\\OMdc02[\\OOfc01W\\O1kc00Q\\O1Qd0Nl[O4Vd0k51N2N2N2N3N2M2N3M2N3M3M3M3M2O2M2N3MZHnE`IP:_6RFbIl9^6UFcIi9\\6XFfIf9Z6[FgIc9X6_FhIa9W6`FiI_9W6bFjI\\9V6eFkIY9U6iFjIQ1XHb6n=^HkIm0ZHd6i=aHmIk0YHd6j=cHlIh0ZHe6j=dHlIi0WHc6m=fHlIh8S6ZGmIe8S6]GlIb8S6aGlI^8T6dGkI[8T6hGkIW8U6kGjIT8U6oGjIP8V6RHiIm7W6UHhI9_Hj5h=SJeIKcHY6h=nIcIa7]6bHaI]7_6dH`I\\7`6hH]IX7b6jH\\IV7d6mHYIS7g6oHXIP7h6SIUIm6k6VISIi6m6ZIPIf6P7\\InHd6R7_IkHa6T7bIjH_6V7eIfHZ6Z7iIcHV6_7kI_HU6a7nI\\HR6d7QJYHo5g7SJWHm5i7VJTHk5k7XJRHh5n7ZJPHf5o7]JoGc5Q8`JkGa5U8cJgG]5Y8dJeG]5\\8dJbG\\5^8gJ^GZ5b8iJ[GW5e8lJXGT5g8PKUGQ5k8RKRGn4m8UKPGl4P9YKkFg4T9\\KiFe4W9\\KhFd4Y9]KdFd4\\9_K`Fb4`9`K^F`4b9cKZF^4f9eKVF\\4i9hKTFX4l9kKPFV4P:lKnET4R:oKjER4V:PLgEoKlL\\6]=hMbEkKYMX6T=PN`EfKcMV6m<WN\\EbKkMU6i<\\NXE_KQNT6h<_NSE\\KXNT6e<cNoDXK_NT6b<fNlDVKdNS6`<jNgDSKmNR6Z<nNfDoJSOR6W<SO`DlJ\\OPOdNd6_=E[DgJDPOcNc6_=HVDeJJnNcNd6]=KRDdJ>^5a;0lCcJe0\\5^;5hC`Jk0[5];9aC]JU1Y5Z;?YCZJ^1W5Z;e0]BiH6c1V2n4W;f2jDZMW;c2lD\\MU;a2mD_MS;`2nD`MS;^2nDbMR;]2PEbMQ;[2QEeMo:Z2REfMm:Y2UEgMk:X2WEgMi:W2YEiMg:U2\\EjMd:U2]EkMc:T2^ElMa:T2aEkM_:T2bElM^:S2cEmM]:S2dElM\\:T2dElM[:U2eEkMZ:V2fEjMZ:gKgBo3o2:Y:eKnBn3j2<X:cKSCo3e2>X:`KWCR4`2>Y:]K\\CT4[2>Y:\\K_CV4W2>Y:[KcCW4S2>[:XKfCX4o1`0[:VKiCZ4l1?[:UKlC[4i1`0Z:TKoC^4f1=[:SKRDa4a1<\\:RKVDd4[1:_:QKWDg4Y17`:QKYDk4S14d:nJ\\DP5n02f:mJ^DQ5l01f:lJ`DT5i00g:kJbDW5d0Nj:iJdD\\5?Kn:gJdDa5;HQ;fJeDc59GS;dJfDi53BX;cJfDl51AZ;aJgDn5NAZ;aJiDS6H\\O`;_JiDV6F[Oa;^JkDW6DZOb;]JkDZ6BYOe;ZJjD`6^OVOi;XJkDb6\\OUOj;WJkDd6[OUOj;WJkDe6ZOTOj;WJnDd6XOUOk;UJnDg6VOTOl;TJoDh6VOSOl;TJnDi6VOSOo;PJmDl6TOTOn>l0SASOm>m0SASOn>m0RAROn>n0RAROn>n0SAQOn>R1n@nNR?`N\\_OiM_1g3U?]Nd_OjM@kM^1n5_?[Nh_OUNb0`3f?ZNm_OUN:a3i?YNQ@TN5c3j?XNT@SN2e3j?XNW@QNNg3k?WNZ@PNJj3m?TN[@RNFk3o?SN]@RN@m3S`0PN`@\\NmNi3c`0jMb@T5^?lJd@R5\\?nJe@Q5\\?nJe@P5\\?PKf@n4Z?RKg@m4Y?RKi@m4W?SKj@l4W?SKj@l4V?TKk@k4U?UKl@j4T?VKm@i4S?WKn@h4R?YKm@g4S?YKn@f4R?ZKn@f4S?ZKm@e4S?[Kn@c4S?^Kl@b4T?^Km@a4S?`Kl@`4T?`Kl@`4T?aKk@_4V?bKh@^4X?cKh@\\4X?dKh@\\4X?eKg@[4Y?hKe@V4\\?kKc@U4^?lKa@S4_?lIS_O[O[1j6b?eI]_O^OP1m6c?aId_O@g0P7f?\\Ii_OB`0R7g?YIn_OE9R7i?VIR@H3S7k?TIT@KNP7P`0RIV@MIQ7Q`0QIY@NDQ7S`0oH\\@0_OQ7W`0mH]@0\\OS7W`0lH_@4UOQ7\\`0iHb@7POo6_`0iHc@9kNo6b`0gHe@:hNo6c`0fHh@<aNo6g`0cHk@?[Nn6k`0bHk@b0WNm6o`0`Hk@c0TNn6Qa0^Hm@f0jMP7Za0ZHm@f0cMU7`a0THo@f9R?ZFo@e9Q?ZFQAd9Q?[Fo@e9Q?ZFQAd9P?\\FQAc9o>\\FSAb9n>^FRAa3lMk0Sa0dKRA^3TNf0k`0lKRAY3\\Ne0c`0QLSAU3`Nh0]`0SLSAR3dNi0[`0TLRAo2hNj0W`0WLQAn2lNg0T`0[LQAk2POf0P`0_LQAh2ROf0o?bLo@e2VOg0l?dLo@c2YOe0i?hLn@b2\\Oc0g?kLn@^2^Oe0f?mLm@\\2_Oe0e?oLl@[2@d0f?QMk@Z2_Oc0h?TMh@X2Bb0g?VMh@V2Bc0h?VMf@V2Cb0i?XMe@T2Cc0i?YMd@S2Db0j?[Mc@Q2Db0k?]Ma@P2Eb0k?^Ma@o1E`0l?aM_@n1F?m?cM^@l1F`0n?dM[@l1G>P`0fMY@l1F=S`0gMX@j1F>S`0hMW@j1G;T`0kMU@j1G9V`0mMT@i1F8X`0oMR@i1F5[`0RNP@h1E3_`0TNl_Oh1E3a`0UNj_Oh1E2b`0VNj_Og1C3d`0VNi_Oh1B1f`0WNi_Og1@3g`0VNi_Og1@2i`0VNg_Oi1^O2k`0UNh_Oh1]O2l`0VNg_Oh1]O2l`0VNh_Oh1ZO2o`0VNg_Oh1ZO2o`0VNg_Oh1YO2Qa0VNf_Oh1YO2Qa0VNf_Oh1XO3Ra0UNf_Oi1VO3Ta0TNf_Oj1TO2Wa0TNf_Oj1QO3Za0RNe_Ok1QO2[a0SNd_Ol1nN3^a0QNd_Ol1mN3`a0PNd_On1jN3ca0nMc_OP2hN3ea0mMd_OP2eN3ha0mMc_OP2dN4ia0kMd_OS2`N3la0jMd_OT2^N3oa0hMb_OV2^N2Qb0hMb_OV2[N3Sb0fMc_OX2WN4Wb0cMb_OZ2UN3Zb0bMb_O[2nM9ab0[Ma_O]2kM:eb0WMa_O^2iM=gb0TM`_O_2dMb0mb0mL`_O`2cMc0ob0jL`_Ob2bMd0Pc0eLb_Oe2^Mg0Qg0YOoXOg0Qg0YOoXOf0Rg0[OnXOd0Rg0\\OnXOd0Rg0\\OnXOd0Rg0[OoXOd0Rg0\\OoXOc0Qg0\\OPYOd0of0]OQYOb0Pg0^OQYOa0of0^ORYOb0nf0^ORYOb0nf0^OSYO`0nf0@RYO`0nf0_OSYOa0mf0_OSYO`0nf0@SYO?lf0BTYO=mf0BTYO>lf0BTYO=mf0CTYO<lf0CUYO<lf0DTYO<kf0EUYO:lf0EUYO:lf0FTYO9mf0GTYO7lf0JTYO4nf0LRYO3nf0NRYO1of0NRYO1of0ORYOOnf02RYOLPg04PYOJQg06PYOHRg08nXOGRg09oXOESg0;mXODSg0<nXOCSg0:PYOEPg0;QYOCQg0;QYOCPg0=QYOBof0>SYO@nf0`0RYO_Onf0a0SYO^Omf0b0TYO]Omf0b0TYO]Olf0c0UYO\\Okf0d0VYO[Oif0f0XYOYOhf0h0XYOVOif0j0XYOUOhf0l0XYOSOgf0n0ZYOQOff0o0ZYOQOef0P1\\YOoNcf0R1^YOmNbf0S1_YOlN`f0V1`YOiN_f0X1bYOgN[f0\\1fYOcNWf0a1iYO^Nce0dNTXOT3Z2WNbe0W2_ZOhMbe0X2^ZOgMbe0Y2_ZOfMbe0Y2_ZOfMce0X2^ZOgMce0X2^ZOfMde0Z2\\ZOfMde0Y2]ZOfMee0X2\\ZOfMfe0Y2[ZOfMfe0Z2ZZOfMfe0Y2[ZOfMge0X2ZZOgMge0X2ZZOgMge0Y2XZOgMje0W2WZOhMje0W2WZOhMje0X2VZOgMle0W2TZOhMne0W2SZOhMne0X2RZOfMPf0Y2QZOfMPf0Y2QZOfMQf0X2PZOgMQf0X2PZOgMRf0X2nYOgMSf0X2nYOhMRf0X2nYOgMSf0X2nYOgMSf0X2nYOgMSf0Y2mYOfMTf0Y2mYOeMUf0Z2lYOeMUf0[2kYOdMUf0\\2lYOcMUf0\\2lYOcMUf0]2kYObMWf0\\2jYOcMWf0\\2jYOcMXf0[2iYOdMXf0[2hYOfMXf0Z2hYOeMZf0Y2hYOeMYf0Z2hYOeMXf0\\2iYObMXf0]2e301O100O001O010O100O1O10O01O10O01O1O1O2N1O1O100O1O1O1O1O1O1O1O1O1O1N2O2N1O2M2O1O1O1O1O1N2O1O1N2O1O1O1O0O2O1O1N2O1O1O1O1O1O1O100O1O1O1O1O001O100O1O100O1O100O1O2O0O2N101Ng`h3"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 1\u2019s small size, recessed location within a larger cavity, and lack of protrusions make it incapable of being grasped or manipulated by hand like the surrounding extensions"
+        }
+      }
+    },
+    {
+      "region_id": "support_human_item_region_1",
+      "area": 18614,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "mag09fo03L4M3M2N3M2O2M2O1N2O1N2O1O1O1O1N2O1O1O1N2O001O1O1O0O2O1O1O001O000O2O1O001O00001O001O001N10001O00001O000O2O00001O0000001O001N101O0000001O0000001O00001O00001O00001O000000001O00001O00000010O0001O0000001O00001O01O0000000001O000000010O00000000001O0001O00000001O0001O000000000000000001O0001O00000000000001O0000000000000000001O00000000000001O00000000000001O000000000000000000000000000001O000001O0001N10000001O0001O00000000000000010O00000000001O000O1000001O000000001O000O101O001N101O001O0O2O001N101O1N2O0O2O1nNoQO2Sn0LoQO3Sn0JnQO5Tn0InQO5Tn0InQO6Tn0GnQO7Tn0HmQO6Vn0GlQO7Vn0GlQO7Wn0GlQO4Wn0JlQO1d[Sg0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 2 has no discernible surface features for grasping, attaching, or interacting functionally compared to others which have distinct shapes suggesting utility"
+        }
+      }
+    },
+    {
+      "region_id": "support_human_item_region_5",
+      "area": 17701,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "P]_3:eo03M2N3M2N2N2O2M2O1N2O1N2O0O2O1O001N10001O001N101O001N101O001O0O101O0000001N1000001O000O2O0000000O10001O0000000O100000000000001O000000000O2O000000000O1000001O0000000O10000O1O1O1O100N3N1N2O1O1O1O1O1O2N100O100O100000000O101O00000O10000O100000001O0O10000000001O000O100000001N100000000000001O0000000000001O0000000000000000000000000000000000000000000000O1000001O0O1000000O100000000O1000000O101O0O100O100O1O1]OjRO[NXm0c1c0N20000000000O2O00000000001N1000000O2O01O000001O00000000001O00001O0000001O000000001O010O00001O001N100O2N1N3N1N3M2O2O0O2M3N1O2M4M2N3K8GbcRd0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 3\u2019s flat, broad surface lacks any protrusions, indentations, or structural features designed for interaction, making no clear functional use possible compared to surrounding components"
+        }
+      }
+    },
+    {
+      "region_id": "support_human_item_region_2",
+      "area": 17186,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "^d`e06ho05L2N3M2N3M2O1N2N101N2O0O2O1N2N2O0O2O0O100O101O000O101N10001N10001O0O10001O0O10001N10000O10001O00000O101O000O1000000O10000O10001O00000O10000O10000O100O0100000O1000000O100O1000000O10000O10000O100000O0100000O10O10000O10000O10000000000O10000000000O1000O100000O0100000000O100000000O010000000000000O10000000000O1000000000000O100000000000000O100000000O10000000000000000O100000000000000000000O1000000O10000000000O2O0000000000000000000O10000000000000001O000000000O10000000000O101O0000000O100000000000001O00000000000O10000O2O000O1000001O0O1000000O2O0O10001N10000O2O0O100O2O0O100O2O0O1O1O2O0O2N2N1O2N1O2M3N3L5J\\\\R1"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 4\u2019s flat, elongated surface lacks any protrusions, indentations, or structural features designed for interaction, making no functional interface available for use"
+        }
+      }
+    },
+    {
+      "region_id": "support_human_item_region_10",
+      "area": 12688,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "\\X\\;9fo02N3M2N2O1N2O0O2O001N10001N1000001N100O10000O10001O000O101O00000O1000001N10000000001O0O10001O0000000O100000O100O10000000O10O100000O0100O100O100O1000O010000000000000O1000000000O1001O001O0O10000000O10000001O00000O0100O1O100001O0O100000O100000O1000O100001O000O0100O1001O001OO1000O101O1O1O001O001O0O010000000000O1000000O100O10O0100000000O11O00O100O010000000000000001O001O001O0000O1000O1000O1000000000`QOjNVn0W1hQOkNWn0T1jQOlNVn0T1iQOnNVn0R1jQOnNUn0S1kQOlNVn0U1iQOkNWn0^1100000O1000O1000000000000O100O100000000O10000000000000000O1000000000000O100000000O10000000000O1000000000000000001O000O10000O1000000000000O2O000000000O101O000O100000000O2O0000000O2O0000001N10000O101O0O2O001O0O2O0O2O0O2O1N2N2M4LUhd:"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 5\u2019s narrow, elongated projection lacks any surface area suitable for gripping, pressing, or attaching objects \u2014 unlike surrounding components which have broader surfaces designed for interaction \u2014 making its functional use impossible without external support structures"
+        }
+      }
+    },
+    {
+      "region_id": "support_human_item_region_9",
+      "area": 12145,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "U^]g05io05L4L2N3N1N3N1N2O001N2O001O1N101O1N2O001N2O001N101O000O2O00000O2O000O101O0O101O000O2O0O10000O2O001O0O1000000O100000O10O101O001O0O101O00O100O100000O0100O1000O100000O10000O10000001N1000000000000000000000000000001N101O00000000000000000000000000O100000000000000000000000000000000O1000000000000000000001O0000001O0000000000O101N10000O100000000O100O100O101O000O1000000000000O101O000O2O0000000O2O00000O10001N10001N1000001O0O10001O000O101O0O2O001N100000001N1000000O2O0O2O0O2O0O2N1O2O1N2M3N2NQbP1"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "attach",
+          "justification": "Part 6 has a broad, flat surface positioned at the end of a protrusion, making it suitable for fastening onto another structure while allowing secure connection without requiring additional components like screws or bolts \u2014 unlike surrounding features which are more concave or irregularly shaped"
+        }
+      }
+    },
+    {
+      "region_id": "support_human_item_region_14",
+      "area": 2889,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "^de?3lo02JN\\PO3bo0601N11O0001O0000001O001O00001O00001O0000000O2O0O101N1O100O2N1O2O0N2O2N1O1N3N1M3L4[OiN^ROZ1am0c001N11O001O100O3M10O01O001O01O00001O01O010O3N2M3YNjQO^1cn0I3M1O001N101N3L=@f[k="
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 7\u2019s small size, recessed location within a cavity, lack of protrusions for gripping, and absence of any surface suitable for interaction render its affordances nonexistent compared to surrounding components designed for contact or manipulation"
+        }
+      }
+    }
+  ],
+  "overall": {
+    "label": "none",
+    "justification": "The irregularly shaped central body lacks any discernible functional form to perform tasks like holding, moving, transmitting energy, or interacting meaningfully with its environment due to ambiguous structural purpose across all components"
+  }
+}

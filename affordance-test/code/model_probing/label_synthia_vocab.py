@@ -41,7 +41,7 @@ from affordance_labeling import (
     VOCABULARIES, build_per_part_question, build_prompt_text, downscale, numbered_overlay, score_options,
 )
 from batch_final_labeling import (
-    MODELS, build_per_part_justification_prompt, compute_parts, generate_justification, top1_label,
+    ALL_MODELS as MODELS, build_per_part_justification_prompt, compute_parts, generate_justification, top1_label,
 )
 from gpu_contention import wait_for_gpu_headroom
 

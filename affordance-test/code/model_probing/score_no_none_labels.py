@@ -29,7 +29,7 @@ for _sub in os.listdir(_CODE_ROOT):
     if os.path.isdir(_p) and _p not in sys.path:
         sys.path.insert(0, _p)
 
-from batch_final_labeling import MODELS
+from batch_final_labeling import ALL_MODELS as MODELS
 from gpu_contention import wait_for_gpu_headroom
 from relabel_none_cases import NO_NONE_VOCAB, VOCAB, out_dir_for, relabel_object
 

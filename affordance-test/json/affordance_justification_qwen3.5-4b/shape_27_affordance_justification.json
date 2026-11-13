@@ -1,0 +1,630 @@
+{
+  "object": "shape_27",
+  "model": "Qwen/Qwen3.5-4B",
+  "image_path": "/shared/nas/data/m1/adadt2/nvrd/regions_test/data/novel/shape_27.png",
+  "region_source": "sam_slic",
+  "method": "per_part_with_comparative_context",
+  "top_k": 10,
+  "modes": [
+    "logprob",
+    "generation"
+  ],
+  "regions": [
+    {
+      "region_id": "shape_27_region_24",
+      "area": 50869,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "Ykf4340Zo0e0E9F9H7J6I8H6L5G8K5K6J5J6K4L5K5K5K4K6K5K4L5K4J7L3L4L5K4L4L4M3L5L2M4M3M3L4M3M3M3M3L4M2N3M3N2M3M2O2M3M2O2M2N3N1N3M2O1O2M2O1N2N2O1O1N2N2O1N2O1O000N12O00O0100O001O1O1O10OO3N1N110O100O002N1O10O01O2N10O0101N1O01000O1000001N10O02O0000O10O2N10O20O000000000000000001OO020O0O1001O001O0O110O000O101O001N2O0O1O101N2N2O0O2N1O2N101N1N3N1N3N1N3N1O2N2O1001N101N101O001N2O1O1O2M2O2N1O1O2M2O1O2M2O2N2M3N1O2N2N2M3M3M3@mWOPIVh0g6g0J5K5K6K5L4J5L6I7J6I7G:G8J8F9F=B<F;Aa0A`0\\Of0VOn`Zd0"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "carry",
+          "justification": "Part 1 has a long, smooth handle-like extension at its base which suggests functionality for gripping or holding objects like a tool handle; unlike most of these spiky protrusions designed primarily as decorative spikes rather than functional handles",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "carry",
+                "logprob": -1.2308922987867845,
+                "prob": 0.32197918211289883
+              },
+              {
+                "option": "lift",
+                "logprob": -2.2308436631483346,
+                "prob": 0.11845528259273165
+              },
+              {
+                "option": "hit",
+                "logprob": -2.2309231716644717,
+                "prob": 0.11844586476338788
+              },
+              {
+                "option": "hold",
+                "logprob": -2.3559549971396336,
+                "prob": 0.10452478217384972
+              },
+              {
+                "option": "swing",
+                "logprob": -2.730883954609453,
+                "prob": 0.07184386594476812
+              },
+              {
+                "option": "beat",
+                "logprob": -2.732165282010101,
+                "prob": 0.07175186938220948
+              },
+              {
+                "option": "ride",
+                "logprob": -3.730934257058834,
+                "prob": 0.026428551801031003
+              },
+              {
+                "option": "sit on",
+                "logprob": -3.730944151764561,
+                "prob": 0.026428290299581887
+              },
+              {
+                "option": "none",
+                "logprob": -3.8560602404759265,
+                "prob": 0.02332017696355071
+              },
+              {
+                "option": "kick",
+                "logprob": -3.980864762725105,
+                "prob": 0.02058400726025247
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "hold",
+              "carry",
+              "lift",
+              "pick up",
+              "sit on",
+              "kick",
+              "swing",
+              "throw",
+              "none",
+              "beat"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. hold\n2. carry\n3. lift\n4. pick up\n5. sit on\n6. kick\n7. swing\n8. throw\n9. none\n10. beat"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_27_region_6",
+      "area": 24409,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "Yii;a0Qo0e0B;C<F9E<D;F9H8F;H7F:H8F:H7I8D<G9H7E<H7FYOVWOmJ_h0_6G9O2M2O1O2O0O1O1O101N1O1O100O100O1O100O10O010000O]I\\XO80d2cg0UM^XO60d2bg0VM]XO70c2cg0j30000O010O010O010O0100O010O1cI\\XO]4eg0n11O010O0hIZXOZO0b3gg0TMYXOU4hg0Q21N2N2N2O1N2L3N3L3N3K5J6L4L4L4L5I6K4K6L3SLSVOVO0ZO0U1Qj0o36M3K5K6L3L4J7J4L5K4L5K5K5K5K6L3M4I6K4L5iMPSOL1h0Rm0]OmROK0e0Xm0Z14L4K5L5L3L4K5K6K4L4M3K5L4L4M4L3L5Jj]R`0"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "kick",
+          "justification": "Part 2 has a thick, blunt base positioned low near the ground like a boot heel designed for impact rather than balance; unlike slender spikes meant to pierce or long arms intended for grasping its robust form suggests delivering forceful blows through direct contact instead of leverage",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "kick",
+                "logprob": -1.185840963944429,
+                "prob": 0.3316033294298678
+              },
+              {
+                "option": "carry",
+                "logprob": -1.5608842348010512,
+                "prob": 0.22789755159290248
+              },
+              {
+                "option": "lift",
+                "logprob": -2.685828089610368,
+                "prob": 0.0739916565886116
+              },
+              {
+                "option": "none",
+                "logprob": -2.68589484362019,
+                "prob": 0.07398671751369432
+              },
+              {
+                "option": "hold",
+                "logprob": -2.936014512873953,
+                "prob": 0.057614018497394205
+              },
+              {
+                "option": "hit",
+                "logprob": -3.185943356686039,
+                "prob": 0.04487303560221665
+              },
+              {
+                "option": "sit on",
+                "logprob": -3.310940736262637,
+                "prob": 0.03960041869825239
+              },
+              {
+                "option": "drag",
+                "logprob": -3.68595444165112,
+                "prob": 0.027216570190718624
+              },
+              {
+                "option": "swing",
+                "logprob": -3.935881969977345,
+                "prob": 0.021197822363050893
+              },
+              {
+                "option": "beat",
+                "logprob": -3.9384108404628932,
+                "prob": 0.021144283540625565
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "hold",
+              "carry",
+              "lift",
+              "pick up",
+              "sit on",
+              "kick",
+              "drag",
+              "swing",
+              "none",
+              "wear"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. hold\n2. carry\n3. lift\n4. pick up\n5. sit on\n6. kick\n7. drag\n8. swing\n9. none\n10. wear"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_27_region_8",
+      "area": 19377,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "X[Ra04do0<I8J3N1K6K6L3M3M2N2N2N1O2O1N2O2M2N2N2N101N101N1O2N101N1O2N101N1O1O2O0O1O1O1O100O1O1O100O1O0010O0000001O01O01O0000001O0000001O000001O01O0000001O0000001O0000010O00001O0000001O0000001O01O0001N11O01O0000001O00001O000001O01O00001O0000001O00001O000001O01O00001O000000001O00001O00000010O000001O00001O0000001O0000001O00001O00000010O0001O0000001O00001O0000001O0000001O0000001O00001O01O0001O0000001O0000001O0000001O0000001O00001O00001O001O1O1ON2001O01O00O2O000000010O00001O0000001O00001O0000001O00001O0000001O0000001O00001O000000001O00001O0000001O001O001O001O1O1O1O1O1O1O1O1O2N1O2N1O2N2M3N3L4L6HWkg5"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "hit",
+          "justification": "Part three has a long, slender conical tip resembling a spearhead designed for striking; unlike its shorter counterparts like four which are blunt-ended clubs, or five\u2019s flat paddle-like form suited more for pushing than hitting hard objects directly at them",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "hit",
+                "logprob": -1.3938236208559829,
+                "prob": 0.2669254109243793
+              },
+              {
+                "option": "swing",
+                "logprob": -1.6437706944925594,
+                "prob": 0.20789272176413895
+              },
+              {
+                "option": "stick",
+                "logprob": -1.64377188655817,
+                "prob": 0.20789247394252233
+              },
+              {
+                "option": "cut with",
+                "logprob": -2.281096756061743,
+                "prob": 0.10991376725747234
+              },
+              {
+                "option": "beat",
+                "logprob": -2.894240854308009,
+                "prob": 0.059534264817723545
+              },
+              {
+                "option": "cut",
+                "logprob": -3.031083822250366,
+                "prob": 0.05192025886068247
+              },
+              {
+                "option": "none",
+                "logprob": -4.019048169138841,
+                "prob": 0.019331670532800282
+              },
+              {
+                "option": "stir",
+                "logprob": -4.416149481734465,
+                "prob": 0.012996023143984917
+              },
+              {
+                "option": "push",
+                "logprob": -4.643846864659281,
+                "prob": 0.010349580792333701
+              },
+              {
+                "option": "sit on",
+                "logprob": -4.893946750098621,
+                "prob": 0.008059456562964279
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "swing",
+              "hit",
+              "beat",
+              "throw",
+              "kick",
+              "push",
+              "lift",
+              "hold",
+              "carry",
+              "none"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. swing\n2. hit\n3. beat\n4. throw\n5. kick\n6. push\n7. lift\n8. hold\n9. carry\n10. none"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_27_region_0",
+      "area": 13905,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "]_\\c0=^o0:H6K5K4L4M3L4M2N2O2M2O0O2O1O1O001O1O001O001O000000000000000000000000000000000O010001OO10000000O2O00000000000O010000000000000O2OO100000000001O000O100000O1001O000000O01000000000001O00000O100000000000000000000O1000000000000000000O1000000000000O1000000000000000000O2O0000000000000000000O100000000000000O2O000000000000000O1000000000000O100000001O000000000O100000000000000000000O1000001O00000O1000000000000000000O10000000001O00000O1000000000000O1000000000001O0O10000000000000000O1000000000000O1000001O0000000O100000000000000O101O0000000O10001O00000O2O0O2O0O2O1N2N3M2M5Jg`h3"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "cut with",
+          "justification": "Part 4 has a flat, elongated blade-like profile similar in form to knife blades used for slicing materials like wood; unlike curved prongs designed for piercing or gripping objects by their edges as seen elsewhere among these tools",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "cut with",
+                "logprob": -1.435424267920098,
+                "prob": 0.25825954040637894
+              },
+              {
+                "option": "hit",
+                "logprob": -1.6315023889364966,
+                "prob": 0.21227591807816623
+              },
+              {
+                "option": "cut",
+                "logprob": -2.0603991746902466,
+                "prob": 0.13823983936711773
+              },
+              {
+                "option": "stick",
+                "logprob": -2.631520746188471,
+                "prob": 0.07809051257637659
+              },
+              {
+                "option": "none",
+                "logprob": -2.881641967120231,
+                "prob": 0.06080958050411915
+              },
+              {
+                "option": "beat",
+                "logprob": -3.2575188018381596,
+                "prob": 0.04175714255898523
+              },
+              {
+                "option": "push",
+                "logprob": -3.3815358847059542,
+                "prob": 0.036886787811972896
+              },
+              {
+                "option": "swing",
+                "logprob": -3.6315240838303,
+                "prob": 0.02872779824412783
+              },
+              {
+                "option": "hold",
+                "logprob": -3.6315985819674097,
+                "prob": 0.02872565815639264
+              },
+              {
+                "option": "carry",
+                "logprob": -3.881569140961801,
+                "prob": 0.022372223717508296
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "hold",
+              "hit",
+              "beat",
+              "swing",
+              "throw",
+              "kick",
+              "push",
+              "lift",
+              "carry",
+              "none"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. hold\n2. hit\n3. beat\n4. swing\n5. throw\n6. kick\n7. push\n8. lift\n9. carry\n10. none"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_27_region_26",
+      "area": 4937,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "UZb59fo02N2N2O1N2O001O00001O0000001O0000001O00001O00000010O0001O0000001O00001O000000001O01O01O0000001O00001O0000001O00010O00001O0000001O00001O0000001O0000010O0000001O00001O0000001O00001O0000001O00001O01O0001O00001O0000001O0000001O001O00001O0000001O00001O0000001O00001O0000001O0000001O01O0O10O02I6E<A?DRfie0"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "cut with",
+          "justification": "Part five features a flat, blade-like profile designed for slicing motions rather than gripping or striking like its curved counterparts; unlike the thick prongs of three through six which suggest piercing functions due to their pointed tips, four\u2019s blunt end implies pushing instead of cutting while two lacks any sharp edge entirely making seven unique as being small",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "cut with",
+                "logprob": -1.1576504704080435,
+                "prob": 0.33602688612548154
+              },
+              {
+                "option": "stick",
+                "logprob": -1.7286817972490098,
+                "prob": 0.18983586837176458
+              },
+              {
+                "option": "cut",
+                "logprob": -1.7826250195503235,
+                "prob": 0.17986680879461894
+              },
+              {
+                "option": "none",
+                "logprob": -2.6037509289890295,
+                "prob": 0.07912989292059902
+              },
+              {
+                "option": "beat",
+                "logprob": -2.729775663698092,
+                "prob": 0.06976036289956153
+              },
+              {
+                "option": "hit",
+                "logprob": -3.478709688904928,
+                "prob": 0.032987607363475634
+              },
+              {
+                "option": "push",
+                "logprob": -4.103696696765837,
+                "prob": 0.01765722324440765
+              },
+              {
+                "option": "pick up",
+                "logprob": -4.104872509080451,
+                "prob": 0.017636473864953494
+              },
+              {
+                "option": "drag",
+                "logprob": -4.478758676268626,
+                "prob": 0.012134868092701052
+              },
+              {
+                "option": "brush with",
+                "logprob": -4.6047646536826505,
+                "prob": 0.010698215926426564
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "hold",
+              "carry",
+              "pick up",
+              "lift",
+              "throw",
+              "swing",
+              "beat",
+              "hit",
+              "cut",
+              "none"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. hold\n2. carry\n3. pick up\n4. lift\n5. throw\n6. swing\n7. beat\n8. hit\n9. cut\n10. none"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_27_region_7",
+      "area": 4061,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "]Vb?4jo04L3M3N2L4M2N3M3M3L3N3M3M2N3L4N1M4M2N3M2M4N1M3O2O0O2IlM`ROT2^m08N3L3N2N3M2N2N2N2N1O2MG_SOXM`l0k2`SOSM^l0o282N1ON1O2O2EVSO]Mml0e2600N3K4M4K5K5@WROeNmm0[1TRO_NQn0`18M3J7I6J7J6I9Enl\\>"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "stick",
+          "justification": "Part 6 appears as a slender, rigid appendage extending outward like a tool handle; unlike its bulbous body or curved limbs, its narrow form suggests use for gripping rather than holding weight",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "stick",
+                "logprob": -1.1934089651877002,
+                "prob": 0.31453927938415316
+              },
+              {
+                "option": "hit",
+                "logprob": -1.193441388233623,
+                "prob": 0.3145290812279817
+              },
+              {
+                "option": "none",
+                "logprob": -2.3185056351940148,
+                "prob": 0.10210608206047443
+              },
+              {
+                "option": "cut with",
+                "logprob": -2.394681035850226,
+                "prob": 0.09461697430699856
+              },
+              {
+                "option": "cut",
+                "logprob": -2.64466255903244,
+                "prob": 0.07368913521028317
+              },
+              {
+                "option": "beat",
+                "logprob": -2.8190534142777324,
+                "prob": 0.06189655438686905
+              },
+              {
+                "option": "pick up",
+                "logprob": -5.194512237481831,
+                "prob": 0.005754635424109038
+              },
+              {
+                "option": "look out",
+                "logprob": -5.3186525935398095,
+                "prob": 0.005082815471277078
+              },
+              {
+                "option": "kick",
+                "logprob": -5.443451520208328,
+                "prob": 0.00448647092877831
+              },
+              {
+                "option": "stir",
+                "logprob": -5.452712376849377,
+                "prob": 0.004445114159811493
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "hit",
+              "beat",
+              "cut",
+              "cut with",
+              "throw",
+              "swing",
+              "kick",
+              "push",
+              "none",
+              "hold"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. hit\n2. beat\n3. cut\n4. cut with\n5. throw\n6. swing\n7. kick\n8. push\n9. none\n10. hold"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_27_region_25",
+      "area": 3376,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "aTa98go04K4M3N2M3N2N2N2N3M2O1N2O1O001O2N1O1O002N001O1O1O100O1O1O1O001O1O1O001O1O1O001O1O00100O100O001N10O2O0N2O1N2N2N2N2O1N3M2N2N2N2N2N2N3M2O0O2N3M2N2O2M2N2N2N2O1N101N2N2NYikc0"
+      },
+      "vocabularies": {
+        "agd20k": {
+          "label": "stick",
+          "justification": "Part seven appears as a small, slender spike protruding directly upward without any broad surface area for gripping; unlike its larger counterparts which have flat ends designed for holding objects like pencils or pens, this narrow form suggests utility primarily in piercing rather than grasping items such as paperclips or erasers",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "stick",
+                "logprob": -0.9309369882030296,
+                "prob": 0.41356727786483827
+              },
+              {
+                "option": "hit",
+                "logprob": -1.9309519475209527,
+                "prob": 0.15214062313073767
+              },
+              {
+                "option": "cut with",
+                "logprob": -2.2573081843765976,
+                "prob": 0.10977677749440114
+              },
+              {
+                "option": "none",
+                "logprob": -2.305963390354009,
+                "prob": 0.10456342263769908
+              },
+              {
+                "option": "beat",
+                "logprob": -2.4314638862852007,
+                "prob": 0.09223072394569837
+              },
+              {
+                "option": "cut",
+                "logprob": -2.5794400572776794,
+                "prob": 0.07954454152929566
+              },
+              {
+                "option": "look out",
+                "logprob": -4.306014048867837,
+                "prob": 0.014150403562290815
+              },
+              {
+                "option": "pick up",
+                "logprob": -4.55731898702652,
+                "prob": 0.011005973884879047
+              },
+              {
+                "option": "sit on",
+                "logprob": -5.5560867560707266,
+                "prob": 0.004053863742294939
+              },
+              {
+                "option": "swing",
+                "logprob": -5.680943007733731,
+                "prob": 0.0035780364959055165
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "hit",
+              "beat",
+              "cut",
+              "cut with",
+              "throw",
+              "swing",
+              "stick",
+              "none",
+              "kick",
+              "push"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. hit\n2. beat\n3. cut\n4. cut with\n5. throw\n6. swing\n7. stick\n8. none\n9. kick\n10. push"
+          }
+        }
+      }
+    }
+  ]
+}

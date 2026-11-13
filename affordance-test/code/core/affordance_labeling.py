@@ -10,7 +10,10 @@ Shared core for the training-free per-part affordance labelling pipeline (Qwen2-
     outlined and numbered)
   * Scoring:  score_options -- teacher-forced log P(option + <|im_end|> | image, prompt) for every option via one
     shared KV-cache prefix, so we get a full distribution instead of one sampled guess. Verified against a
-    cache-free full-forward reference in verify_methods.py.
+    cache-free full-forward reference in verify_methods.py. topk_from_scores keeps its TOP_K best options.
+  * Direct generation:  build_ranked_question asks the model to write out its TOP_K ranked options;
+    parse_ranked / match_ranked map that answer back onto the vocabulary. Works for any model,
+    including API models with no logprobs.
 
 Images are downscaled to MAX_SIDE px: the shared GPUs are often too full for full-resolution vision-tower
 activations, and answers are somewhat resolution-sensitive, so compare runs at equal MAX_SIDE.
@@ -18,6 +21,7 @@ activations, and answers are somewhat resolution-sensitive, so compare runs at e
 Entry points live in other files (batch_final_labeling.py etc.); this module has no CLI and parses no argv.
 """
 
+import copy
 import inspect
 import json
 import os
@@ -109,9 +113,21 @@ def build_question(options: list, glosses: dict) -> str:
     )
 
 
-def build_prompt_text(processor, question: str) -> str:
-    messages = [{"role": "user", "content": [{"type": "image"}, {"type": "text", "text": question}]}]
-    return processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
+def build_prompt_text(processor, question: str, prompt_style: str = "default",
+                      chat_template_kwargs: "dict | None" = None) -> str:
+    """prompt_style "phi3v": Phi-3.5-vision's chat template only takes string content and expects a
+    literal <|image_1|> placeholder, not a structured {"type": "image"} entry. chat_template_kwargs is
+    forwarded to apply_chat_template -- e.g. {"enable_thinking": False} for Qwen3.5, whose template
+    otherwise opens a <think> block that the forced-choice scoring would land inside of."""
+    if prompt_style == "phi3v":
+        messages = [{"role": "user", "content": "<|image_1|>\n" + question}]
+        templater = processor.tokenizer  # Phi3VProcessor carries no chat_template of its own
+    else:
+        messages = [{"role": "user", "content": [{"type": "image"}, {"type": "text", "text": question}]}]
+        templater = processor
+    return templater.apply_chat_template(
+        messages, tokenize=False, add_generation_prompt=True, **(chat_template_kwargs or {})
+    )
 
 
 def downscale(img: Image.Image) -> Image.Image:
@@ -235,6 +251,14 @@ def partition_regions(regions: list, img_area: int, image: Image.Image) -> list:
     return parts
 
 
+def processor_inputs(processor, prompt_text: str, image: Image.Image, device) -> dict:
+    """processor(text, image) -> device tensors. Phi-3.5-vision's processor rejects a list for text
+    (it regex-scans a single string for <|image_N|> tags), so it gets the bare string."""
+    text = prompt_text if type(processor).__name__.startswith("Phi3V") else [prompt_text]
+    inputs = processor(text=text, images=[image], return_tensors="pt")
+    return {k: v.to(device) if isinstance(v, torch.Tensor) else v for k, v in inputs.items()}
+
+
 def _supports_cache_position(model) -> bool:
     """Whether model.forward() accepts cache_position -- most do, but a custom (trust_remote_code)
     forward() isn't guaranteed to: kimi-vl-a3b's forward() raised a hard TypeError on it ("unexpected
@@ -246,14 +270,29 @@ def _supports_cache_position(model) -> bool:
 
 
 @torch.no_grad()
-def score_options(model, processor, image: Image.Image, prompt_text: str, option_ids: list, device) -> np.ndarray:
-    """log P(option + <|im_end|> | prompt, image) for every option. The image+prompt prefix is run
-    once; each option's continuation reuses that KV cache, which is cropped back afterwards."""
-    inputs = processor(text=[prompt_text], images=[image], return_tensors="pt")
-    inputs = {k: v.to(device) if isinstance(v, torch.Tensor) else v for k, v in inputs.items()}
+def score_options(model, processor, image: Image.Image, prompt_text: str, option_ids: list, device,
+                  copy_cache: bool = False, continuation_mask: bool = True) -> np.ndarray:
+    """log P(option + <end-of-turn> | prompt, image) for every option. The image+prompt prefix is run
+    once; each option's continuation reuses that KV cache, which is cropped back afterwards.
+
+    copy_cache: instead of cropping, run each option on a deepcopy of the prefix cache. Needed for
+    hybrid models whose cache holds recurrent state (Qwen3.5's linear-attention layers) -- that state
+    has no notion of "the first prompt_len tokens", so crop() can't rewind it and every option after
+    the first would silently be scored on top of the previous option's tokens.
+
+    continuation_mask=False: omit attention_mask on the cached continuation forward. Qwen3.5's M-RoPE
+    derives continuation position ids from attention_mask.cumsum() when a mask is given, which yields
+    prompt_len+n positions for an n-token continuation (shape error); without a mask it uses
+    arange(past_len, past_len+n) + its stored rope_deltas, the correct positions. Safe here because
+    the batch is a single unpadded sequence."""
+    inputs = processor_inputs(processor, prompt_text, image, device)
     prompt_len = inputs["input_ids"].shape[1]
-    cache = DynamicCache()
+    # copy_cache models get whatever cache class the model builds for itself (hybrid architectures
+    # need their own, not a plain DynamicCache); the default path keeps the original behavior.
+    cache = None if copy_cache else DynamicCache()
     out = model(**inputs, past_key_values=cache, use_cache=True)
+    if copy_cache:
+        cache = out.past_key_values
     first_logp = F.log_softmax(out.logits[0, -1].float(), dim=-1)
     use_cache_position = _supports_cache_position(model)
 
@@ -263,24 +302,94 @@ def score_options(model, processor, image: Image.Image, prompt_text: str, option
         if len(ids) > 1:
             cont = torch.tensor([ids[:-1]], device=device)
             n = cont.shape[1]
-            kwargs = dict(
-                input_ids=cont,
-                attention_mask=torch.ones(1, prompt_len + n, dtype=torch.long, device=device),
-                past_key_values=cache,
-                use_cache=True,
-            )
+            opt_cache = copy.deepcopy(cache) if copy_cache else cache
+            kwargs = dict(input_ids=cont, past_key_values=opt_cache, use_cache=True)
+            if continuation_mask:
+                kwargs["attention_mask"] = torch.ones(1, prompt_len + n, dtype=torch.long, device=device)
             if use_cache_position:
                 kwargs["cache_position"] = torch.arange(prompt_len, prompt_len + n, device=device)
             o = model(**kwargs)
             logp = F.log_softmax(o.logits[0].float(), dim=-1)
             lp += sum(logp[j, ids[j + 1]].item() for j in range(n))
-            cache.crop(prompt_len)
+            if not copy_cache:
+                cache.crop(prompt_len)
         scores.append(lp)
     return np.array(scores)
 
 def softmax(x: np.ndarray) -> np.ndarray:
     e = np.exp(x - x.max())
     return e / e.sum()
+
+
+TOP_K = 10  # how many ranked responses both scoring modes record per part
+
+
+def topk_from_scores(options: list, scores: np.ndarray, k: int = TOP_K) -> list:
+    """Log-prob mode's top-k: the k highest-scoring options from score_options(), best first.
+    "logprob" is the raw sequence log P(option + end token); "prob" is that renormalized over the
+    full option list (softmax), so it sums to 1 across ALL options, not just the k kept here."""
+    probs = softmax(scores)
+    order = np.argsort(-scores)[:k]
+    return [{"option": options[j], "logprob": float(scores[j]), "prob": float(probs[j])} for j in order]
+
+
+def build_ranked_question(part_idx: int, n_parts: int, options: list, glosses: dict, k: int = TOP_K,
+                          answer_format: str = "lines") -> str:
+    """Direct-generation mode's question: same framing as build_per_part_question, but asks for the
+    k most plausible options ranked, instead of one. answer_format "lines" (open models: a numbered
+    plain-text list, parsed by parse_ranked) or "json" (API models whose structured output schema
+    already constrains the shape -- see label_gpt_api.py)."""
+    listed = ", ".join(f"{o} ({glosses[o]})" if o in glosses else o for o in options)
+    # "rank none first" alone let models stop at a bare "none" (qwen3.5-4b did on 2 of 5 shape_16
+    # parts), so the clause spells out that the rest of the list is still required.
+    none_clause = (f'If part {part_idx} offers none of these, rank "none" first, then still list the '
+                   f"{k - 1} next most plausible options. " if "none" in options else "")
+    if answer_format == "lines":
+        fmt = (f"Answer with exactly {k} different options from the list, one per line, numbered 1 to "
+               f"{k}, most likely first, and nothing else.")
+    else:
+        fmt = f"Give exactly {k} different options from the list, most likely first."
+    return (
+        f"The image shows an object with {n_parts} parts marked and numbered (1 to {n_parts}), each "
+        f"outlined and tinted a different color. Focusing specifically on part {part_idx}: consider "
+        "whether its affordance differs from the other numbered parts, then rank the "
+        f"{k} affordances part {part_idx} most plausibly offers, from this list: {listed}. "
+        f"{none_clause}{fmt}"
+    )
+
+
+def _normalize_option(text: str) -> str:
+    text = text.strip().strip("*`\"'").strip()
+    text = text.split("(")[0]  # an echoed gloss: "cut (has a blade...)" -> "cut"
+    return " ".join(text.replace("_", " ").lower().rstrip(".,;:").split())
+
+
+def match_ranked(items: list, options: list, k: int = TOP_K) -> dict:
+    """Map a model's ranked answers onto the vocabulary: exact match after normalization (case,
+    underscores, stray punctuation/quotes, an echoed gloss), duplicates dropped keeping the first
+    (highest-ranked) occurrence, truncated to k. Anything unmatched is kept in "invalid" rather
+    than fuzzily mapped, so a short list says the model really didn't produce k valid options."""
+    lookup = {_normalize_option(o): o for o in options}
+    ranked, invalid = [], []
+    for item in items:
+        opt = lookup.get(_normalize_option(item))
+        if opt is None:
+            if item.strip():
+                invalid.append(item.strip())
+        elif opt not in ranked:
+            ranked.append(opt)
+    return {"ranked": ranked[:k], "n_valid": len(ranked[:k]), "invalid": invalid}
+
+
+def parse_ranked(text: str, options: list, k: int = TOP_K) -> dict:
+    """Free-text numbered list -> match_ranked(). Accepts "1. x" / "1) x" / "- x" lines; a single
+    line holding a comma-separated list is split on commas instead."""
+    import re
+    lines = [l for l in text.strip().splitlines() if l.strip()]
+    if len(lines) == 1 and "," in lines[0]:
+        lines = lines[0].split(",")
+    items = [re.sub(r"^\s*(?:\d+\s*[.):-]|[-*•])\s*", "", l) for l in lines]
+    return match_ranked(items, options, k)
 
 def build_per_part_question(part_idx: int, n_parts: int, options: list, glosses: dict) -> str:
     listed = ", ".join(f"{o} ({glosses[o]})" if o in glosses else o for o in options)
