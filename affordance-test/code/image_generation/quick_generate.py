@@ -29,7 +29,7 @@ prompt, history = PROMPT, []
 for attempt in range(1, MAX_RETRIES + 2):
     r = requests.post("https://openrouter.ai/api/v1/images", timeout=300,
                       headers={"Authorization": f"Bearer {key}"},
-                      json={"model": "openai/gpt-image-2", "prompt": prompt, "quality": QUALITY, "aspect_ratio": "1:1"})
+                      json={"model": "openai/gpt-image-2.6-sunburst", "prompt": prompt, "quality": QUALITY, "aspect_ratio": "1:1"})
     r.raise_for_status()
     png = base64.b64decode(r.json()["data"][0]["b64_json"])
     with open(OUT, "wb") as f:

@@ -1,0 +1,1358 @@
+{
+  "object": "shape_32",
+  "model": "Qwen/Qwen3.5-4B",
+  "image_path": "/shared/nas/data/m1/adadt2/nvrd/regions_test/data/novel/shape_32.png",
+  "region_source": "sam_slic",
+  "method": "per_part_with_comparative_context",
+  "top_k": 10,
+  "modes": [
+    "logprob",
+    "generation"
+  ],
+  "regions": [
+    {
+      "region_id": "shape_32_region_48",
+      "area": 80894,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "[Un5e0an0a2cQOnLYl0a5jM?C7I4M4L3M2N2N3N1N2N3N1N2O0O2O0O2O1O1O1N101O0O2O001O1N101O001O001O0O101O001O001O001O0O2O001O001O001O001O0O101O001O001O001O0O101O1O001O001N10001O001O001N101O00001O001O000O2O1O001O00001N101O001O1O001N10001O000000001N10000000001O0O10000000000000000O100000000000O100000O010000000000000O1000aLeYOYM[f0c2lYOZMTf0c2RZOZMne0d2WZOYMie0d2\\ZOZMde0d2`ZOZM`e0e2cZOYM]e0e2gZOYMXe0f2lZOXMTe0g2oZOWMQe0h2Q[OWMod0h2S[OWMmd0g2U[OYMkd0f2W[OXMjd0g2W[OYMhd0g2Z[OXMfd0g2\\[OXMdd0h2][OWMcd0h2_[OWMad0h2a[OWM_d0i2a[OWM_d0h2b[OWM_d0h2b[OXM]d0i2d[OVM\\d0i2e[OWM[d0h2g[OWMYd0i2g[OWMYd0i2h[OVMXd0i2j[OVMVd0j2k[OUMUd0j2n[OSMSd0m2l[OTMTd0l2l[OTMSd0l2n[OTMRd0l2n[OTMRd0l2o[OSMQd0l2P\\OTMPd0l2P\\OTMPd0l2Q\\OSMoc0m2Q\\OSMoc0m2R\\OQMnc0P3R\\OPMnc0P3Q\\OQMoc0o2Q\\OQMoc0o2Q\\OQMoc0o2Q\\OQMoc0o2Q\\OQMoc0o2P\\ORMPd0n2P\\ORMPd0n2P\\OQMPd0P3o[OQMQd0o2o[OQMQd0o2n[ORMRd0o2m[OQMSd0o2m[OQMSd0o2m[OQMSd0P3l[OPMTd0P3k[OQMUd0P3i[OQMWd0o2h[ORMXd0n2g[ORMYd0P3f[OPMZd0P3e[OQM[d0o2e[OQM[d0P3d[OPM\\d0Q3c[OoL]d0R3a[OoL_d0R3_[OoLad0Q3^[OoLcd0R3[[OoLed0R3Z[OnLfd0R3Y[OoLgd0R3V[OPMjd0Q3T[OPMld0Q3R[OPMnd0Q3P[OoLQe0R3nZOnLRe0U3jZOlLVe0U3fZOmL[e0T3cZOmL]e0T3aZOmL_e0U3_ZOkLae0X3WZOmLie0U3TZOkLme0W3nYOlLRf0X3eYOmL[f0W3`YOkL_f0Z610000RKWYOe0if0VObYOd0_f0WOgYOg0Yf0WOlYOf0Tf0WOSZOd0ne0[OUZOc0ke0[OXZOd0he0ZO[ZOe0ee0ZO^ZOd0ce0ZO_ZO\\NjN6gf0]1aZOZNmN6bf0_1bZOZNoN5_f0`1dZOXNPO7]f0_1fZOVNQO9Yf0a1gZOTNRO:Wf0a1jZORNRO:Uf0d1iZOQNTO:Tf0c1iZORNUO:Rf0d1iZOQNVO;Qf0c1jZORNVO9Qf0d1kZOQNUO;Qf0c1jZORNVO:Pf0c1lZORNTO;Pf0c1lZORNUO:Pf0c1kZORNWO9oe0d1lZORNVO9ne0e1lZORNVO9oe0d1kZOSNVO8Pf0e1jZOSNVO8Pf0e1jZOSNVO8Pf0e1jZOSNVO7Rf0e1hZOTNVO7Rf0e1hZOUNUO6Tf0d1gZOVNUO5Uf0e1fZOVNTO6Vf0d1fZOVNSO7Wf0c1fZOVNRO7Zf0b1dZOWNQO8[f0a1dZOXNPO6]f0c1bZOWNPO7^f0b1`ZOZNQO3af0c1\\ZO\\NPO3df0a1\\ZO]NnN2gf0b1YZO^NnN1jf0`1XZO`NmN0kf0a1WZOaNkNNof0b1TZOdNeNOXg0\\1RZOiN`NM_g0[1oYOmN[NKgg0W1nYOe0Sf0[OlYOe0Uf0]OhYOd0Yf0\\OeYOd0\\f0]OcYOb0^f0_O`YOb0af0^O^YOa0cf0BWYO`0kf0@QYOb0Pg0_OnXOa0Sg0BhXO?Zg0BcXO?]g0E\\XO=eg0GlWOc0Vh0b31O2N1O2N1O2M2O1O2N1O2N1O2M2O1O2M2O1O1N3M2N3N1O2N1N3M2N2N3M2O2N2N1N3M3M3M3M3L5L3L4M4K5J6K6G8Ia0WOZkV?"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "button",
+          "justification": "Part 1 appears as a flat circular disc embedded into the surface of its housing unit in such a way that suggests pressability rather than protrusion like knobs; unlike most surrounding elements which are either raised handles/levers or decorative bumps, this element\u2019s recessed nature implies interaction through depression instead of rotation or pulling\u2014",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "button",
+                "logprob": -0.8055308429175057,
+                "prob": 0.48569712429575085
+              },
+              {
+                "option": "anchor",
+                "logprob": -2.180356927885441,
+                "prob": 0.12282482381623863
+              },
+              {
+                "option": "adjust",
+                "logprob": -2.3053086624422576,
+                "prob": 0.10839775831791741
+              },
+              {
+                "option": "none",
+                "logprob": -2.80623685719911,
+                "prob": 0.06568556656114512
+              },
+              {
+                "option": "control",
+                "logprob": -3.0557621464831755,
+                "prob": 0.05118026072668976
+              },
+              {
+                "option": "align",
+                "logprob": -3.555364435625961,
+                "prob": 0.03105474565663945
+              },
+              {
+                "option": "attach",
+                "logprob": -3.555665414140094,
+                "prob": 0.0310454002518885
+              },
+              {
+                "option": "block",
+                "logprob": -3.9302860186144244,
+                "prob": 0.021345267511850792
+              },
+              {
+                "option": "switch",
+                "logprob": -4.3053751608822495,
+                "prob": 0.014669065821741623
+              },
+              {
+                "option": "click",
+                "logprob": -4.3053875543701,
+                "prob": 0.014668884021979158
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "press",
+              "click",
+              "trigger",
+              "select",
+              "input",
+              "switch",
+              "indicate",
+              "display",
+              "control"
+            ],
+            "n_valid": 9,
+            "invalid": [
+              "Based on the visual analysis of part 1 (the large pink circular button on the grey box):",
+              "activate"
+            ],
+            "raw": "Based on the visual analysis of part 1 (the large pink circular button on the grey box):\n\n1. press\n2. click\n3. trigger\n4. select\n5. input\n6. switch\n7. indicate\n8. display\n9. control\n10. activate"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_32_region_61",
+      "area": 56560,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "iXh`0:Yo0>`MKdSONMk0]l0n1N100O101O01O001O01O01O0010O0001O010O00010O0010O010O00010O010O010O010O010O010O010O10O0100O10O10O010O100O010O100O10000O100O100000O0100O10000O10000O10000O100O101O0O1000000O101O00000O2O0O2O000000001N101O0O2O0O2O001O0O2O001O1N101O0O2O1N2O1N1O1O2M2O2N2M4M1N3N2M3N2M3N2M4L3M3M3M3M3M3M4L3L4L4M4K4L5K4L5K5J6K4L5J6K4K6I8I6K5J5L5J7J5J6K7I6I8J4K6J7I6J6K7H8I6I7I5L7I7I5J3M2O2N001O1N101O00H8L4O10000O1001O0000UFT^O\\3POcKmb0j0`^O]3cNiKlb0e0m^Ob5Sa0[JV_O`5i`0]J]_O`5c`0]Je_O_5[`0^Jl_O^5S`0aJR@[5n?cJW@[5h?dJ]@Y5c?dJc@Y5\\?eJi@Y5W?eJm@Y5R?fJSAW5l>hJWAW5h>hJ]AV5b>hJbAR3iKSMdb0JfAR3fKUMcb0HjAV5U>iJoAU5P>jJTBU5k=jJXBT5g=kJ]BS5c=lJ`BS5^=mJeBQ5[=nJhBP5X=nJlBP5S=PKPCn4P=QKRCm4n<SKUCk4j<UKYCQ4lJbJla0\\1[Cn3]=RLfBh3^=WLeBe3\\=[LgBb3Z=]LhBa3Y=_LiB]3Y=bLiB\\3W=dLlBY3U=gLmBW3S=hLPCU3P=kLSCS3m<mLTCR3l<mLXCo2i<QMXCn2h<QM[Cm2d<TM^Ci2c<VM`Ch2`<XMcCh0nHH_c0_OeCh0lHI_c0_OgCc2Y<\\MjCb2V<^MlC`2T<`MnC^2Q<cMPD\\2P<dMRDZ2n;eMVDX2j;hMXDV2h;jMZDU2e;kM^DR2b;nM`DQ2_;PNbDo0SHcN[c0?dDk1[;XNdDg1\\;ZNeDd1Z;]NhDb1V;`NjD_1U;cNkD\\1T;eNmDZ1R;gNoDX1P;iNREW1l:iNVEU1i:kNYES1g:nN[EQ1d:nN^EQ1a:oNbEQ1\\:nNgEV1R:jNPFV1o9iNTFU1l9jNVFT1j9lNZFQ1f9nN]Fo0d9oN`Fm0b9ROaFk0`9SOcFj0_9UOdFh0]9VOgFg0[9VOiFf0Y9WOlFf0V9WOnFe0T9YOQGc0Q9ZOSGb0P9[OTGb0o8XOWGd0P9lN]GQ1mc0K5L4L3M3L4M4Ke_h5"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 2 appears as a smooth, elongated surface without any protrusions, buttons, handles, or interactive features like the rounded knobs of part 4 or textured elements elsewhere; its continuous form suggests purely structural support rather than functional interaction",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.3613292945665307,
+                "prob": 0.3247375590994625
+              },
+              {
+                "option": "align",
+                "logprob": -1.736096575652482,
+                "prob": 0.22324058905259284
+              },
+              {
+                "option": "orient",
+                "logprob": -2.6110697612457443,
+                "prob": 0.0930630182228502
+              },
+              {
+                "option": "anchor",
+                "logprob": -3.236205494380556,
+                "prob": 0.04980628325446878
+              },
+              {
+                "option": "bend",
+                "logprob": -3.5691567682442837,
+                "prob": 0.035701398867324555
+              },
+              {
+                "option": "balance",
+                "logprob": -3.6736672430997714,
+                "prob": 0.032158583473577765
+              },
+              {
+                "option": "decorate",
+                "logprob": -3.9238817173754796,
+                "prob": 0.025039759031561495
+              },
+              {
+                "option": "channel water",
+                "logprob": -4.114350037823897,
+                "prob": 0.020697162268529013
+              },
+              {
+                "option": "aim",
+                "logprob": -4.2987015620747115,
+                "prob": 0.017212658598278755
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -4.298927681632875,
+                "prob": 0.017208766919530608
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "extend",
+              "bend",
+              "lean",
+              "support",
+              "balance",
+              "decorate",
+              "display",
+              "hold",
+              "carry",
+              "move"
+            ],
+            "n_valid": 10,
+            "invalid": [
+              "Based on the visual analysis of part 2, which is a long, curved, orange structure with a textured surface and dotted pattern, resembling a stylized horn or a flexible tube:"
+            ],
+            "raw": "Based on the visual analysis of part 2, which is a long, curved, orange structure with a textured surface and dotted pattern, resembling a stylized horn or a flexible tube:\n\n1. extend\n2. bend\n3. lean\n4. support\n5. balance\n6. decorate\n7. display\n8. hold\n9. carry\n10. move"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_32_region_21",
+      "area": 21256,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "PjP9a0Yo09J7J4L4L4L4L3M4M2N2M3N2M3N2N2N1O2N2O0O2N1O2N101N101N1TOm0ROm0D=D;C=J6M4N1N2O2M2O1N2O1O1N2O1O2N1N2O1O1O1N2O1O1N2O1O1O1O2N1N2O1O1O1O1O1O1O1O1N101O1O1O1O1O1O1O1O1O001O1O1O1O1O10O01O1O1O010O1O00jL^XOPNag0g1kXOVNUg0c1SYO]Nlf0\\1]YOPLhN]2lg0\\1hYOdNWf0W1nYOiNRf0S1SZOmNme0n0XZOQOhe0k0]ZOUObe0g0dZOWO]e0d0hZO[OXe0b0mZO\\OSe0a0S[O]Old0?Z[O_Ogd0=^[OAbd0=b[OA^d0<g[OBZd0:l[OCTd0:Q\\OCQd0:X\\O_Ohc0>\\\\OAec0<_\\OBac0<b\\OB`c0:e\\OC\\c0;h\\OBZc0;l\\O@Uc0>Q]O\\ORc0a0T]OYOnb0e0_]OiNib0T1R6N3M2O2M3M2N3M2O2M3N1O2N2M4M2M4MW]cb0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "anchor",
+          "justification": "Part three features a bulbous base designed for stability while its slender stem allows flexibility without compromising grip strength compared to rigid components like five which lacks such structural balance",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "anchor",
+                "logprob": -1.2911305789893959,
+                "prob": 0.3154525431471282
+              },
+              {
+                "option": "none",
+                "logprob": -2.041122595226625,
+                "prob": 0.14901042001888998
+              },
+              {
+                "option": "support",
+                "logprob": -2.166157747298712,
+                "prob": 0.13149661165988372
+              },
+              {
+                "option": "balance",
+                "logprob": -2.2910889910708647,
+                "prob": 0.11605333160521697
+              },
+              {
+                "option": "align",
+                "logprob": -2.6660450179479085,
+                "prob": 0.07976571805084888
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -2.790963874435846,
+                "prob": 0.07039871127923236
+              },
+              {
+                "option": "stand",
+                "logprob": -3.041242107283324,
+                "prob": 0.054811319040348014
+              },
+              {
+                "option": "lean",
+                "logprob": -4.1659481272654375,
+                "prob": 0.017799862000269392
+              },
+              {
+                "option": "orient",
+                "logprob": -5.103571235202253,
+                "prob": 0.006969668039106661
+              },
+              {
+                "option": "adjust",
+                "logprob": -5.416226737143006,
+                "prob": 0.005098325204872255
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "support",
+              "stand",
+              "hold",
+              "rest",
+              "attach",
+              "balance",
+              "plug",
+              "seal",
+              "contain",
+              "deposit"
+            ],
+            "n_valid": 10,
+            "invalid": [
+              "Based on the visual analysis of part 3, which is a green, bulbous structure attached to the leg of the object (resembling a foot or a plant stem), its primary function appears to be structural support or acting as a foot."
+            ],
+            "raw": "Based on the visual analysis of part 3, which is a green, bulbous structure attached to the leg of the object (resembling a foot or a plant stem), its primary function appears to be structural support or acting as a foot.\n\n1. support\n2. stand\n3. hold\n4. rest\n5. attach\n6. balance\n7. plug\n8. seal\n9. contain\n10. deposit"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_32_region_0",
+      "area": 11590,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "WjUj0:cn0KZRO9`m0K^RO9^m0HaRO;[m0HbRO=Ym0EdRO`0Xm0CfRO`0Wm0CdROb0Xm0E\\ROc0bm0P1L4M2N3M2N3M2N2N2N2O1N2N2N2O1N101N100O2O0O2O0O101O0O101O0O101O0O10001O00000O1000000000000000000000000001O000000000O2O00001O0O101O0O101O0O101O0O2O0O2O1N1O2O0O2O1N1O2O1N2N1O2N2O1N2N2N2N2M4M2N2N2M4M2M4M3K5L4M4J5L5I8H9E_VU2"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "anchor",
+          "justification": "Part four features a broad, flat circular base positioned at ground level which provides stability for standing upright while its rounded top allows easy gripping by hands; unlike most of these toy pieces designed primarily as handles or connectors due to their smaller size and lack of functional surfaces like holes or protrusions found elsewhere in similar components within playsets",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "anchor",
+                "logprob": -0.6171728888293728,
+                "prob": 0.6240987186452505
+              },
+              {
+                "option": "none",
+                "logprob": -1.9925012548919767,
+                "prob": 0.1577450611346013
+              },
+              {
+                "option": "align",
+                "logprob": -3.6795929255895317,
+                "prob": 0.02919181967922257
+              },
+              {
+                "option": "attach",
+                "logprob": -3.7424158376525156,
+                "prob": 0.02741432288896805
+              },
+              {
+                "option": "rotate",
+                "logprob": -3.9295634889567737,
+                "prob": 0.022735281265732914
+              },
+              {
+                "option": "stand",
+                "logprob": -4.3671428586822,
+                "prob": 0.014677835825111693
+              },
+              {
+                "option": "adjust",
+                "logprob": -4.429635112639517,
+                "prob": 0.013788657515057532
+              },
+              {
+                "option": "button",
+                "logprob": -4.617467779840808,
+                "prob": 0.011427396428221237
+              },
+              {
+                "option": "balance",
+                "logprob": -4.804808370769024,
+                "prob": 0.009475154689218756
+              },
+              {
+                "option": "control",
+                "logprob": -5.0551156096044,
+                "prob": 0.00737699104533513
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "rotate",
+              "stand",
+              "support",
+              "balance",
+              "anchor",
+              "hold",
+              "move"
+            ],
+            "n_valid": 7,
+            "invalid": [
+              "Based on the visual analysis of part 4, which is a rounded, protruding knob or joint at the base of the structure, its primary function appears to be a pivot point or a connection point. It allows the leg to move and connects the main body to the foot.",
+              "Here are the 10 most plausible affordances for part 4, ranked from most to least likely:",
+              "pivot",
+              "turn",
+              "connect"
+            ],
+            "raw": "Based on the visual analysis of part 4, which is a rounded, protruding knob or joint at the base of the structure, its primary function appears to be a pivot point or a connection point. It allows the leg to move and connects the main body to the foot.\n\nHere are the 10 most plausible affordances for part 4, ranked from most to least likely:\n\n1. rotate\n2. stand\n3. support\n4. pivot\n5. turn\n6. balance\n7. anchor\n8. connect\n9. hold\n10. move"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_32_region_30",
+      "area": 10069,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "mlc3321_o0a0E9I6J5L4L4L3N3L4L3M3N2M3N2N2N2N2N2N1O2N2N1O2N1O2O0O110O0100O00100O101N010O1O1O1O1O01O000010O0000001O00010O0000O1001O0000000000000000000000000000O11O0000001O0O100000O100000O1000O0100000O01000O10O010O010O0100O010O0100O010O1O2N1O2N3M2N2N2O1N3M2M4M3L3N3K5M3L4K7I8F^SXh0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "anchor",
+          "justification": "Part 5 features a rounded base positioned at the lowest point of structure where two legs converge; its bulbous form suggests stability for grounding rather than connection points like joints elsewhere in design",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "anchor",
+                "logprob": -0.42707823612727225,
+                "prob": 0.7493372651754351
+              },
+              {
+                "option": "none",
+                "logprob": -2.30211683944799,
+                "prob": 0.11491015545744175
+              },
+              {
+                "option": "stand",
+                "logprob": -3.051868870301405,
+                "prob": 0.0542931753716578
+              },
+              {
+                "option": "balance",
+                "logprob": -4.177326510718558,
+                "prob": 0.017618348631482327
+              },
+              {
+                "option": "align",
+                "logprob": -4.801968017680338,
+                "prob": 0.009433803803489448
+              },
+              {
+                "option": "support",
+                "logprob": -4.864768021623604,
+                "prob": 0.008859580217285107
+              },
+              {
+                "option": "walk",
+                "logprob": -5.678332321229391,
+                "prob": 0.003927232912383594
+              },
+              {
+                "option": "sit",
+                "logprob": -5.9268314491491765,
+                "prob": 0.003063125979429381
+              },
+              {
+                "option": "block",
+                "logprob": -5.989546422963031,
+                "prob": 0.0028769220287371755
+              },
+              {
+                "option": "button",
+                "logprob": -6.052461939747445,
+                "prob": 0.002701495384571676
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "stand",
+              "sit",
+              "rest",
+              "support",
+              "balance",
+              "hold",
+              "place",
+              "drop",
+              "lean"
+            ],
+            "n_valid": 9,
+            "invalid": [
+              "Based on the visual analysis of part 5, which is a rounded, bulbous object located at the base of the structure, its primary function appears to be a footrest or a stable base for the object to stand on. It is shaped like a small stool or a rounded end-cap.",
+              "Here are the 10 most plausible affordances for part 5, ranked from most to least likely:"
+            ],
+            "raw": "Based on the visual analysis of part 5, which is a rounded, bulbous object located at the base of the structure, its primary function appears to be a footrest or a stable base for the object to stand on. It is shaped like a small stool or a rounded end-cap.\n\nHere are the 10 most plausible affordances for part 5, ranked from most to least likely:\n\n1. stand\n2. sit\n3. rest\n4. support\n5. balance\n6. hold\n7. place\n8. drop\n9. lean\n10. place"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_32_region_20",
+      "area": 6013,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "mfXh0g0Ro0=F7J7I7I7J5K5L4L3K5M2L5M4L2M4M3M3M2N2N3M2N2N3M2O2M2N2N2N2O2M2N2O1N]MmTO<Rk0]O\\UO<cj0AfUO;Yj0BmUO;Rj0CUVO:ji0D[VO:di0DaVO:]i0FhVO6Xi0HlVO8Ri0GQWO8nh0GVWO7hh0I[WO6dh0J_WO4`h0KcWO4\\h0KfWO5Yh0KiWO3Wh0MjWO3Uh0LmWO4Rh0LoWO4Ph0LRXO2ng0NSXO2mg0MTXO2lg0NTXO3kg0MVXO2kg0MVXO2jg0NWXO0kg0OUXO1kg0OUXO0mg0NUXO0lg00TXOOng00RXONPh01RXOMPh02PXOKTh03nWOJUh04oWOEWh08j3N4L3K_Z^5"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "align",
+          "justification": "Part 6 features a curved groove designed for interlocking components into place while maintaining structural stability through its concave form",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "align",
+                "logprob": -1.6078883966547437,
+                "prob": 0.2526651338399198
+              },
+              {
+                "option": "none",
+                "logprob": -1.73305319075007,
+                "prob": 0.22293945587154843
+              },
+              {
+                "option": "anchor",
+                "logprob": -2.920462634821888,
+                "prob": 0.06799884992681263
+              },
+              {
+                "option": "adjust",
+                "logprob": -2.9206819805549458,
+                "prob": 0.06798393630490782
+              },
+              {
+                "option": "rotate",
+                "logprob": -3.3577567086467752,
+                "prob": 0.043912399035409666
+              },
+              {
+                "option": "orient",
+                "logprob": -3.420380174095044,
+                "prob": 0.04124678840573143
+              },
+              {
+                "option": "click",
+                "logprob": -3.7330066031427123,
+                "prob": 0.030172980059196844
+              },
+              {
+                "option": "control",
+                "logprob": -3.7956623236532323,
+                "prob": 0.028340478074275702
+              },
+              {
+                "option": "clip",
+                "logprob": -3.8580145863525104,
+                "prob": 0.026627348871427065
+              },
+              {
+                "option": "attach",
+                "logprob": -3.858201756258495,
+                "prob": 0.02662236549942536
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Based on the visual analysis of part 6, which appears to be a curved, segmented mechanical component (resembling a gear or a hinge mechanism) located near a joint, its primary function seems to be structural connection or movement facilitation.",
+              "**attach**: The part is physically connected to the main body and another segment, serving to join them.",
+              "**connect**: Similar to attach, it links the two adjacent structural elements.",
+              "**hold**: It secures the position of the adjacent part relative to the main body.",
+              "**support**: It provides structural backing to the joint area.",
+              "**reinforce**: As a thicker, segmented piece, it adds strength to the connection point.",
+              "**anchor**: It acts as a fixed point for the moving part.",
+              "**stabilize**: By connecting the segments, it helps maintain the structural integrity of the object.",
+              "**"
+            ],
+            "raw": "Based on the visual analysis of part 6, which appears to be a curved, segmented mechanical component (resembling a gear or a hinge mechanism) located near a joint, its primary function seems to be structural connection or movement facilitation.\n\n1.  **attach**: The part is physically connected to the main body and another segment, serving to join them.\n2.  **connect**: Similar to attach, it links the two adjacent structural elements.\n3.  **hold**: It secures the position of the adjacent part relative to the main body.\n4.  **support**: It provides structural backing to the joint area.\n5.  **reinforce**: As a thicker, segmented piece, it adds strength to the connection point.\n6.  **anchor**: It acts as a fixed point for the moving part.\n7.  **stabilize**: By connecting the segments, it helps maintain the structural integrity of the object.\n8.  **"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_32_region_64",
+      "area": 5675,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "nXa:?\\o09K4J5L5K4M2M4L3N3M2N2N2N2N2N2N1O2N2N101N2O0O2N101N100O2O000O2O0O1000001O000000O1001O000000O10000000000O2O001N100O2O0O2O1N101N101N2N2N101N2N2N2N2N2N2M4M2M4L3M4M3K7I6J9DUgib0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "button",
+          "justification": "Part seven features a distinct circular protrusion rising directly off its surface in a way typical of tactile push mechanisms designed for user interaction rather than structural support like legs or decorative elements such as antennae",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "button",
+                "logprob": -0.09366050059907138,
+                "prob": 0.929183120330989
+              },
+              {
+                "option": "adjust",
+                "logprob": -3.7188614009937737,
+                "prob": 0.024756917242913287
+              },
+              {
+                "option": "none",
+                "logprob": -4.34442574105924,
+                "prob": 0.013243946690065157
+              },
+              {
+                "option": "control",
+                "logprob": -5.094061702489853,
+                "prob": 0.006258275281616429
+              },
+              {
+                "option": "anchor",
+                "logprob": -5.218841142195743,
+                "prob": 0.00552412682022862
+              },
+              {
+                "option": "click",
+                "logprob": -5.343710761153488,
+                "prob": 0.0048756604605893735
+              },
+              {
+                "option": "attach",
+                "logprob": -5.594257675576955,
+                "prob": 0.00379509202644095
+              },
+              {
+                "option": "block",
+                "logprob": -6.093604203138966,
+                "prob": 0.0023033443508287317
+              },
+              {
+                "option": "press",
+                "logprob": -6.227445784956217,
+                "prob": 0.0020148012404654263
+              },
+              {
+                "option": "switch",
+                "logprob": -6.468906326364959,
+                "prob": 0.0015825856695651874
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "press",
+              "click",
+              "switch",
+              "trigger",
+              "start",
+              "lock"
+            ],
+            "n_valid": 6,
+            "invalid": [
+              "Based on the visual analysis of part 7 (the pink circular button on the grey box), here are the 10 most plausible affordances, ranked from most to least likely:",
+              "activate",
+              "stop",
+              "reset",
+              "unlock"
+            ],
+            "raw": "Based on the visual analysis of part 7 (the pink circular button on the grey box), here are the 10 most plausible affordances, ranked from most to least likely:\n\n1. press\n2. click\n3. switch\n4. trigger\n5. activate\n6. start\n7. stop\n8. reset\n9. lock\n10. unlock"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_32_region_31",
+      "area": 4881,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "n]d9a0\\o07H7J7J4L5K3N2N3L3N2N2N2N2M2O2N1O2N1O2N2O0O2N100O2O0O2O0O110O0O11O001Ob0_OO000O100O100O1000O10001O000O10000O100O2O0O101N101N1O2N101N2N2N1O2N2M3N3L3N2M4K6J7GSbmc0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "adjust",
+          "justification": "Part eight features a distinct circular knob-like protrusion positioned at a joint where two main structural elements meet; its rounded form suggests rotational capability for fine-tuning alignment rather than serving as a primary load-bearing point like the base feet do",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "adjust",
+                "logprob": -1.3806755173427518,
+                "prob": 0.2826550724757553
+              },
+              {
+                "option": "anchor",
+                "logprob": -1.6307390366273466,
+                "prob": 0.22011800960066222
+              },
+              {
+                "option": "align",
+                "logprob": -2.3806793309922796,
+                "prob": 0.10398259355272944
+              },
+              {
+                "option": "button",
+                "logprob": -2.506093264266383,
+                "prob": 0.09172634028932458
+              },
+              {
+                "option": "none",
+                "logprob": -2.6312458544853143,
+                "prob": 0.08093586022782386
+              },
+              {
+                "option": "orient",
+                "logprob": -3.2557650152011774,
+                "prob": 0.0433426800174406
+              },
+              {
+                "option": "attach",
+                "logprob": -3.3808574839204084,
+                "prob": 0.03824624412038075
+              },
+              {
+                "option": "click",
+                "logprob": -3.630752979341196,
+                "prob": 0.029789317827955294
+              },
+              {
+                "option": "rotate",
+                "logprob": -3.7557368915586267,
+                "prob": 0.026289403648086327
+              },
+              {
+                "option": "control",
+                "logprob": -4.631161998084281,
+                "prob": 0.01095439612565202
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "switch",
+              "press",
+              "click",
+              "button",
+              "engage",
+              "start",
+              "trigger",
+              "select",
+              "control",
+              "adjust"
+            ],
+            "n_valid": 10,
+            "invalid": [
+              "Based on the visual analysis of part 8, which appears to be a small, circular, button-like component located on the joint of the orange structure, its primary function is likely interactive or mechanical. It resembles a toggle switch, a pressure sensor, or a small actuator.",
+              "Here are the 10 most plausible affordances for part 8, ranked from most to least likely:"
+            ],
+            "raw": "Based on the visual analysis of part 8, which appears to be a small, circular, button-like component located on the joint of the orange structure, its primary function is likely interactive or mechanical. It resembles a toggle switch, a pressure sensor, or a small actuator.\n\nHere are the 10 most plausible affordances for part 8, ranked from most to least likely:\n\n1. switch\n2. press\n3. click\n4. button\n5. engage\n6. start\n7. trigger\n8. select\n9. control\n10. adjust"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_32_region_50",
+      "area": 4479,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "[Ra`0:ao06M2M4M2N2O1O2M2O2N2N102M2N2N2O3L3N<C3N1N101N101N101O0O101N10001O00000O1000000000000000000000O101O000O101N101N101O1N101^OZROgNgm0h12O1N2O1N2N2N2N3M2N2M4L4M3M3L5J8FimP="
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 9 appears as a small, isolated spherical element attached by a thin stem rather than being integrated into any functional surface area like buttons, joints, or handles found elsewhere in its design context; unlike most labeled components which suggest interaction points such as levers (part 6), connectors (parts 3/4 connection",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.599026559968479,
+                "prob": 0.24563441568762132
+              },
+              {
+                "option": "attach",
+                "logprob": -1.9737646848079748,
+                "prob": 0.16886611645574218
+              },
+              {
+                "option": "adjust",
+                "logprob": -2.098626332706772,
+                "prob": 0.14904444390928284
+              },
+              {
+                "option": "aim",
+                "logprob": -2.9735760397743434,
+                "prob": 0.062134092737032305
+              },
+              {
+                "option": "rotate",
+                "logprob": -3.0986232341383584,
+                "prob": 0.05483055663102299
+              },
+              {
+                "option": "anchor",
+                "logprob": -3.3486530274385586,
+                "prob": 0.04270080822353185
+              },
+              {
+                "option": "align",
+                "logprob": -3.5360999947879463,
+                "prob": 0.035402090804074915
+              },
+              {
+                "option": "button",
+                "logprob": -3.724382685730234,
+                "prob": 0.02932640162702553
+              },
+              {
+                "option": "click",
+                "logprob": -3.7864020645502023,
+                "prob": 0.02756284887974189
+              },
+              {
+                "option": "detach",
+                "logprob": -3.9117576392600313,
+                "prob": 0.024315481255261437
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "rotate",
+              "press",
+              "click",
+              "adjust",
+              "switch",
+              "screw",
+              "control",
+              "engage"
+            ],
+            "n_valid": 8,
+            "invalid": [
+              "Based on the visual analysis of part 9, which is a small, round, yellow object attached to the top of the grey block (part 1) via a blue stem, it functions as a knob or a small handle. Its primary affordance is to be manipulated by hand to change the state of the object it is attached to.",
+              "Here are the 10 most plausible affordances for part 9, ranked from most to least likely:",
+              "turn",
+              "operate"
+            ],
+            "raw": "Based on the visual analysis of part 9, which is a small, round, yellow object attached to the top of the grey block (part 1) via a blue stem, it functions as a knob or a small handle. Its primary affordance is to be manipulated by hand to change the state of the object it is attached to.\n\nHere are the 10 most plausible affordances for part 9, ranked from most to least likely:\n\n1. rotate\n2. press\n3. click\n4. adjust\n5. switch\n6. screw\n7. turn\n8. operate\n9. control\n10. engage"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_32_region_32",
+      "area": 3039,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "UW[=7do09I6J6K4M3L3N3L4M2O1N2N2N1O2O0O2O1N101N100O2O000O10001O0000000000O10001O0O10001N101N101N101N2O0O2N2N2N2N3M2N3L3M4M4J6JSih`0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "button",
+          "justification": "Part 12 appears as small protrusions rather than flat surfaces for pressing; unlike most labeled areas which are smooth contours designed for gripping or sliding, these raised bumps suggest tactile feedback without requiring full surface contact typical of buttons",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "button",
+                "logprob": -0.942816304625012,
+                "prob": 0.42773950900965607
+              },
+              {
+                "option": "adjust",
+                "logprob": -1.6925876026652986,
+                "prob": 0.20209605182025475
+              },
+              {
+                "option": "align",
+                "logprob": -2.4426084609294776,
+                "prob": 0.09546142414053338
+              },
+              {
+                "option": "click",
+                "logprob": -2.8176143011660315,
+                "prob": 0.06560923017536302
+              },
+              {
+                "option": "none",
+                "logprob": -3.318315596494358,
+                "prob": 0.03976611209179099
+              },
+              {
+                "option": "control",
+                "logprob": -3.6929983707377687,
+                "prob": 0.02733949391605928
+              },
+              {
+                "option": "switch",
+                "logprob": -3.817814517155057,
+                "prob": 0.024131454945778123
+              },
+              {
+                "option": "attach",
+                "logprob": -4.19281523214886,
+                "prob": 0.01658527840748517
+              },
+              {
+                "option": "anchor",
+                "logprob": -4.442669960466446,
+                "prob": 0.012918504367761915
+              },
+              {
+                "option": "aim",
+                "logprob": -4.505138138512848,
+                "prob": 0.012136197946471684
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "button",
+              "switch",
+              "press",
+              "click",
+              "trigger",
+              "control",
+              "engage",
+              "start"
+            ],
+            "n_valid": 8,
+            "invalid": [
+              "Based on the visual analysis of part 10, which is a teal-colored circular button located on the top surface of the grey box (likely a control panel or interface), its primary function is interactive. It is most plausibly a button used to activate or deactivate a function.",
+              "Here are the 10 most plausible affordances for part 10, ranked from most to least likely:",
+              "activate",
+              "operate"
+            ],
+            "raw": "Based on the visual analysis of part 10, which is a teal-colored circular button located on the top surface of the grey box (likely a control panel or interface), its primary function is interactive. It is most plausibly a button used to activate or deactivate a function.\n\nHere are the 10 most plausible affordances for part 10, ranked from most to least likely:\n\n1. button\n2. switch\n3. press\n4. click\n5. trigger\n6. control\n7. activate\n8. operate\n9. engage\n10. start"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_32_region_22",
+      "area": 2683,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "_bZ87eo09H5L4L5L3L4M3M3L5L3M4L3M4L5K7Ia0@1N1OnM]SOj0al0TOgSOf0Zl0XOlSOd0Sl0\\OQTO`0Pl0^OXTO8kk0HZTO1ik0N\\TOJgk06R200O1O01SQOBXn0=hQOFVn0:hQOJVn06iQOLVn04iQONVn02jQOOVn00iQO2Vn0NjQO3Un0MkQO4Tn0LlQO4Tn0LlQO5Sn0KmQO5Sn0LmQO3Tn0LlQO5Sn0LmQO3Sn0MoQO1Rn0OnQO0Rn01mQOOTn01lQONTn02lQONUn02jQOMWn05fQOL[n05bQOL_n0i0101N2N1O2N2N2N2N2N3L4L4M4Jm]be0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 12 appears as small protrusions rather than functional components like buttons or levers; its form suggests decorative detail instead of interactive utility compared to surrounding elements designed for manipulation such as knobs or switches",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.8812336689443327,
+                "prob": 0.4726422415167796
+              },
+              {
+                "option": "dangle",
+                "logprob": -1.3812094017266645,
+                "prob": 0.2866789673717206
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -2.5059900056321,
+                "prob": 0.09309145575850539
+              },
+              {
+                "option": "channel water",
+                "logprob": -2.882531148730777,
+                "prob": 0.06388223192596773
+              },
+              {
+                "option": "bend",
+                "logprob": -4.533907695978996,
+                "prob": 0.012251700146655952
+              },
+              {
+                "option": "adjust",
+                "logprob": -5.068741651717573,
+                "prob": 0.0071766360682673615
+              },
+              {
+                "option": "anchor",
+                "logprob": -5.381183269113535,
+                "prob": 0.005250845659900955
+              },
+              {
+                "option": "check",
+                "logprob": -5.569330291822553,
+                "prob": 0.004350288301012282
+              },
+              {
+                "option": "click",
+                "logprob": -6.068655268056318,
+                "prob": 0.0026403649408245538
+              },
+              {
+                "option": "slide",
+                "logprob": -6.068939650722314,
+                "prob": 0.002639614173561139
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "dangle",
+              "attach",
+              "hold",
+              "support",
+              "clip"
+            ],
+            "n_valid": 5,
+            "invalid": [
+              "Based on the visual analysis of part 11, which appears to be a small, curved, hook-like appendage attached to the orange leg structure, its primary function seems to be hanging or suspending something. It lacks the broad surface area for \"scoop\" or \"carry\" in the traditional sense, nor does it have the sharpness for \"prune\" or \"cut\". Its shape is specifically designed to hang.",
+              "Here are the 10 most plausible affordances for part 11, ranked from most to least likely:",
+              "hang",
+              "secure",
+              "fasten",
+              "suspend",
+              "connect"
+            ],
+            "raw": "Based on the visual analysis of part 11, which appears to be a small, curved, hook-like appendage attached to the orange leg structure, its primary function seems to be hanging or suspending something. It lacks the broad surface area for \"scoop\" or \"carry\" in the traditional sense, nor does it have the sharpness for \"prune\" or \"cut\". Its shape is specifically designed to hang.\n\nHere are the 10 most plausible affordances for part 11, ranked from most to least likely:\n\n1. dangle\n2. hang\n3. attach\n4. hold\n5. support\n6. clip\n7. secure\n8. fasten\n9. suspend\n10. connect"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_32_region_2",
+      "area": 2192,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "caXi07eo05M3M3M3N2M3M5L3L6K6K1N1O2N10O0100O100O100O10000000000O10O10000O2O0O101N101N1O2O0O2N2N1O2N2N2N3L3M4M3K7Ig^R5"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 13 appears as small protruding knobs rather than functional components like buttons or levers; its clustered arrangement suggests decorative detail instead of interactive utility compared to surrounding elements such as circular dials or elongated handles designed for manipulation",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.2319060863810591,
+                "prob": 0.3835795955488996
+              },
+              {
+                "option": "adjust",
+                "logprob": -2.794084354536608,
+                "prob": 0.08042852336084196
+              },
+              {
+                "option": "attach",
+                "logprob": -2.8564535357872956,
+                "prob": 0.07556549020432492
+              },
+              {
+                "option": "click",
+                "logprob": -2.918908614985412,
+                "prob": 0.07099039746980303
+              },
+              {
+                "option": "decorate",
+                "logprob": -3.356495595013257,
+                "prob": 0.04583085897414665
+              },
+              {
+                "option": "align",
+                "logprob": -3.4812610890658107,
+                "prob": 0.04045507693133376
+              },
+              {
+                "option": "button",
+                "logprob": -3.669395010336302,
+                "prob": 0.03351718276325655
+              },
+              {
+                "option": "anchor",
+                "logprob": -3.918799581384519,
+                "prob": 0.026118755416435102
+              },
+              {
+                "option": "aim",
+                "logprob": -4.043808638176415,
+                "prob": 0.0230495119987898
+              },
+              {
+                "option": "clip",
+                "logprob": -4.169042894674931,
+                "prob": 0.02033635846285873
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "button",
+              "click",
+              "switch",
+              "engage",
+              "press",
+              "control",
+              "indicate",
+              "select",
+              "trigger",
+              "adjust"
+            ],
+            "n_valid": 10,
+            "invalid": [
+              "Based on the visual analysis of part 12, which appears to be a cluster of small, colorful, rounded protrusions (resembling buttons, knobs, or a control interface) located on the side of the main structure, here are the 10 most plausible affordances:"
+            ],
+            "raw": "Based on the visual analysis of part 12, which appears to be a cluster of small, colorful, rounded protrusions (resembling buttons, knobs, or a control interface) located on the side of the main structure, here are the 10 most plausible affordances:\n\n1. button\n2. click\n3. switch\n4. engage\n5. press\n6. control\n7. indicate\n8. select\n9. trigger\n10. adjust"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_32_region_1",
+      "area": 1999,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "a`Ph0;bo07J5J5M4K4M4L2O2M3M3N1N3N1N2O001O001OO100O1000001N10001O001O001O1O1O1N2O1dN_QOR10nNfn0R15N2N3L4H;E^_c6"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 14 appears as small protruding knobs rather than functional components like buttons or levers; its clustered form suggests decorative detail instead of interactive utility compared to surrounding elements such as circular dials or elongated handles designed for manipulation",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.4088429663679563,
+                "prob": 0.3266861316565022
+              },
+              {
+                "option": "adjust",
+                "logprob": -2.2837193172308616,
+                "prob": 0.13619988059985266
+              },
+              {
+                "option": "align",
+                "logprob": -2.533358050364768,
+                "prob": 0.1061109010944619
+              },
+              {
+                "option": "click",
+                "logprob": -2.9710509726428427,
+                "prob": 0.0684971310322353
+              },
+              {
+                "option": "decorate",
+                "logprob": -3.5336808375432156,
+                "prob": 0.039023420703792146
+              },
+              {
+                "option": "attach",
+                "logprob": -3.5337045449996367,
+                "prob": 0.03902249556871275
+              },
+              {
+                "option": "control",
+                "logprob": -3.783916934102308,
+                "prob": 0.030384296127570966
+              },
+              {
+                "option": "button",
+                "logprob": -3.9715911713428795,
+                "prob": 0.025185077664422226
+              },
+              {
+                "option": "aim",
+                "logprob": -4.283512009860715,
+                "prob": 0.018436471037960853
+              },
+              {
+                "option": "clip",
+                "logprob": -4.346270422625821,
+                "prob": 0.017314986733470577
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Based on the visual analysis of part 13 in the provided image:",
+              "**Analyze Part 13:** Part 13 is a cluster of small, colorful, rounded protrusions located on the lower right section of the orange structure. It resembles a cluster of buttons, knobs, or perhaps a set of small wheels/cogs.",
+              "**Evaluate Affordances:**",
+              "The shape (small, distinct, protruding) strongly suggests interaction through **pressing** or **clicking**.",
+              "The arrangement (a group of similar items) suggests a function related to **control**, **selection**, or **adjustment**.",
+              "The texture/color implies they are distinct entities that can be manipulated individually.",
+              "**Filter the List:**",
+              "**High Probability:** `press`, `click`, `control`, `select`, `adjust`, `rotate` (if they are wheels), `input`."
+            ],
+            "raw": "Based on the visual analysis of part 13 in the provided image:\n\n1.  **Analyze Part 13:** Part 13 is a cluster of small, colorful, rounded protrusions located on the lower right section of the orange structure. It resembles a cluster of buttons, knobs, or perhaps a set of small wheels/cogs.\n2.  **Evaluate Affordances:**\n    *   The shape (small, distinct, protruding) strongly suggests interaction through **pressing** or **clicking**.\n    *   The arrangement (a group of similar items) suggests a function related to **control**, **selection**, or **adjustment**.\n    *   The texture/color implies they are distinct entities that can be manipulated individually.\n3.  **Filter the List:**\n    *   **High Probability:** `press`, `click`, `control`, `select`, `adjust`, `rotate` (if they are wheels), `input`."
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_32_region_6",
+      "area": 1950,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "gahf0:bo08J4L4M3N1N2O1L4N2O1N101N2O001O0010O0001N100001OO100001O00001O001O3M001O0O2O3M1N1000O10O101N101N2G9K5M3M3N2MX^`7"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 13 appears as small protruding knobs rather than functional components like buttons or levers; its clustered arrangement suggests decorative detail instead of interactive utility compared to surrounding elements such as circular dials or elongated handles designed for manipulation",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.4852866101427935,
+                "prob": 0.2872704464798976
+              },
+              {
+                "option": "button",
+                "logprob": -2.3600692380568944,
+                "prob": 0.11977817211508315
+              },
+              {
+                "option": "adjust",
+                "logprob": -2.484857776085846,
+                "prob": 0.10572622060013608
+              },
+              {
+                "option": "click",
+                "logprob": -2.6096855952055193,
+                "prob": 0.09331912858810537
+              },
+              {
+                "option": "align",
+                "logprob": -3.3596641450130846,
+                "prob": 0.04408178062849498
+              },
+              {
+                "option": "administer",
+                "logprob": -3.4849513878289144,
+                "prob": 0.03889086213974365
+              },
+              {
+                "option": "attach",
+                "logprob": -3.4849759620265104,
+                "prob": 0.03888990643975558
+              },
+              {
+                "option": "control",
+                "logprob": -3.860162028868217,
+                "prob": 0.026723642902767613
+              },
+              {
+                "option": "treat",
+                "logprob": -3.9311361514846794,
+                "prob": 0.024892699132342263
+              },
+              {
+                "option": "press",
+                "logprob": -4.131307661533356,
+                "prob": 0.020376923159965338
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Based on the visual analysis of part 14 in the provided image:",
+              "**Analyze Part 14:** Part 14 is a small, purple, spherical object located on the right side of the structure, near part 13 (another sphere) and part 15 (a cluster of spheres). It appears to be a button or a small knob integrated into the larger mechanical assembly.",
+              "**Evaluate Affordances:**",
+              "**Button:** The object is small, round, and protrudes slightly from the surface, which is the classic visual language for a button. It is designed to be pressed.",
+              "**Input:** Buttons are primary input devices.",
+              "**Control:** Pressing a button controls a function.",
+              "**Switch:** A button acts as a switch to turn something on or off.",
+              "**Click:** The action associated with pressing a button is a click."
+            ],
+            "raw": "Based on the visual analysis of part 14 in the provided image:\n\n1.  **Analyze Part 14:** Part 14 is a small, purple, spherical object located on the right side of the structure, near part 13 (another sphere) and part 15 (a cluster of spheres). It appears to be a button or a small knob integrated into the larger mechanical assembly.\n2.  **Evaluate Affordances:**\n    *   **Button:** The object is small, round, and protrudes slightly from the surface, which is the classic visual language for a button. It is designed to be pressed.\n    *   **Input:** Buttons are primary input devices.\n    *   **Control:** Pressing a button controls a function.\n    *   **Switch:** A button acts as a switch to turn something on or off.\n    *   **Click:** The action associated with pressing a button is a click."
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_32_region_7",
+      "area": 1880,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "]cVg0>_o06K4L4L3N2N2N2N1O2O1N1O2N1O101N1O1O100O100O01000O10O10O010O0100O2N1O2N3M3M2N2M4M2N2M3M3L4M3L4KP]Y7"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 14 appears as small protruding knobs rather than flat surfaces designed for gripping; its rounded form suggests tactile feedback instead of functional utility like holding tools against walls",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.2801336946431547,
+                "prob": 0.368242738298609
+              },
+              {
+                "option": "button",
+                "logprob": -2.717654659994878,
+                "prob": 0.08746348310473157
+              },
+              {
+                "option": "click",
+                "logprob": -3.029878383531468,
+                "prob": 0.06400733247840881
+              },
+              {
+                "option": "adjust",
+                "logprob": -3.1553765551070683,
+                "prob": 0.05645813980752414
+              },
+              {
+                "option": "control",
+                "logprob": -3.467738993058447,
+                "prob": 0.04131133994613763
+              },
+              {
+                "option": "treat",
+                "logprob": -3.5368716191733256,
+                "prob": 0.03855186243870148
+              },
+              {
+                "option": "align",
+                "logprob": -3.6548130858282093,
+                "prob": 0.03426289343328795
+              },
+              {
+                "option": "administer",
+                "logprob": -3.7175577927264385,
+                "prob": 0.032179134241343395
+              },
+              {
+                "option": "attach",
+                "logprob": -3.9052270820830017,
+                "prob": 0.02667292345962979
+              },
+              {
+                "option": "press",
+                "logprob": -4.011868126690388,
+                "prob": 0.02397491088134453
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "hold",
+              "press",
+              "click",
+              "button",
+              "engage",
+              "contain",
+              "seal",
+              "lock"
+            ],
+            "n_valid": 8,
+            "invalid": [
+              "Based on the visual analysis of part 15 in the provided image:",
+              "**stop** (not in list, but conceptually similar to 'stop' or 'halt' often associated with such knobs; however, sticking strictly to the list, 'stop' is not there. Let's re-evaluate the list for the best fit. 'stop' isn't there. 'halt' isn't there. 'stop' is a common function. Let's look for others. 'stop' is not in the list. 'stop' is not in the list. 'stop' is not in the list. Okay, let's look at the list again. 'stop' is not in"
+            ],
+            "raw": "Based on the visual analysis of part 15 in the provided image:\n\n1.  **hold**\n2.  **press**\n3.  **click**\n4.  **button**\n5.  **engage**\n6.  **contain**\n7.  **seal**\n8.  **lock**\n9.  **stop** (not in list, but conceptually similar to 'stop' or 'halt' often associated with such knobs; however, sticking strictly to the list, 'stop' is not there. Let's re-evaluate the list for the best fit. 'stop' isn't there. 'halt' isn't there. 'stop' is a common function. Let's look for others. 'stop' is not in the list. 'stop' is not in the list. 'stop' is not in the list. Okay, let's look at the list again. 'stop' is not in"
+          }
+        }
+      }
+    }
+  ],
+  "generation_option_order": "shuffled_per_part"
+}

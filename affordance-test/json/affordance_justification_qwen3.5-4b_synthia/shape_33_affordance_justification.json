@@ -1,0 +1,1363 @@
+{
+  "object": "shape_33",
+  "model": "Qwen/Qwen3.5-4B",
+  "image_path": "/shared/nas/data/m1/adadt2/nvrd/regions_test/data/novel/shape_33.png",
+  "region_source": "sam_slic",
+  "method": "per_part_with_comparative_context",
+  "top_k": 10,
+  "modes": [
+    "logprob",
+    "generation"
+  ],
+  "regions": [
+    {
+      "region_id": "shape_33_region_16",
+      "area": 156174,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "QkR56bo0?B8L4I7I7L4L3I8H7L4L4L4L4L4L5J5L4L4M2M4M2M4M2L5K5L4M2O2K4M4L3M4L3N2M3O1M3N3N1K6L3N2N2M3N1N2O2N2L4O0N3O001N2N1N1O3O1O1M2O1O101O1O1N10001N101OO01O2O10ON2001O01N011O1O1O0001OO101O00001O1O0100N2N10001000O010OO2O01O2O0N2000N2O02N10O1O1O0010O01N1100O1N10O200OO2O01000M201N010N3K4M4M2M3N3L4N1N2M3L5J6J6G9E:@`0G`K_ZOVOXe0o0nZOoNld0X1V[OdNfd0a1[[O^N`d0g1b[OVN[d0n1g[OoMXd0R2k[OlMSd0V2P\\OgMnc0Z2U\\OdMic0^2Y\\O_Mhc0a2Y\\O^Mgc0c2Y\\O\\Mfc0e2\\\\OYMcc0i2]\\OVMbc0l2_\\OQMbc0o2_\\OoLcc0Q3^\\OlLcc0U3\\\\OkLec0U3[\\OjLfc0U3[\\OjLfc0iN\\[OQ2m0UOhc0gN`[OR2g0WOjc0cNe[OU2?WOnc0cNf[OT2<XOoc0cNh[OS28ZORd0aNg[OV26XOTd0aNh[OV24XOUd0aNi[OV21YOWd0`Nj[OW2NXOYd0`Nj[OX2LXO\\d0^Nj[OZ2IVO_d0`Nh[O[2GUObd0_Nh[O]2BVOhd0\\Nf[O^2AVOjd0\\Ne[O_2]OWOod0ZNd[Ob2YOTOTe0ZNc[Of2SOPO\\e0ZNa[OT6ad0kI^[OU6cd0kI][OU6cd0kI][OT6dd0lI[[OT6fd0lIZ[OS6hd0mIW[OR6jd0nIU[OR6ld0oIR[OQ6od0oIP[OP6Re0QJmZOo5Te0QJiZOP6Xe0PJeZOR6\\e0oI`ZOS6be0oIYZOR6he0QJRZOQ6oe0o11O1O1O100O100O1\\KRZOUOoe0j0TZOSOme0k0XZOPOje0o0XZOPOhe0n0[ZOPOfe0o0[ZOQOee0n0]ZOPOde0o0]ZOQOce0o0^ZOoNce0P1^ZOPObe0o0`ZOoN`e0[O^YOgNR1m1ae0VOfYOiNk0o1`e0WOhYOhNh0Q2`e0UOkYOiNe0Q2ae0TOnYOhNb0T2_e0ROTZOhN=U2`e0ROUZOhN<U2_e0SOWZOfN:V2`e0SOXZOeN9X2^e0SOZZOeN8X2^e0SO[ZOdN7X2_e0SO[ZOeN6X2_e0SO[ZOfN4X2ae0QO]ZOgN1X2ae0QO_ZOgN0W2be0POaZOiNKX2de0oNbZOhNJX2de0QObZOgNJX2de0QObZOhNHX2fe0POcZOhNFX2ge0POcZOiNDW2ie0QOcZOiNBW2ke0POcZOiNBW2je0QOdZOiN@V2me0QOcZOjN^OV2oe0POcZOkN\\OV2Qf0oNcZOnNXOT2Tf0oNdZOnNVOS2Wf0POaZOQOPOT2^f0nN_ZOm2ae0TM]ZOl2ce0VM[ZOk2ee0VMZZOj2ee0WMZZOj2ee0XMZZOh2ee0YMZZOh2fe0YMXZOh2ge0ZMWZOf2ie0\\MUZOe2ke0\\MRZOf2me0^MnYOd2Qf0`MiYOc2Vf0hM^YOZ2af0b301O1O1O100O1O1N2O1O1O1O1O100N2O1O1O1O101N1O1O1O1ORH`ZO_5]e0_JjZO>A[2de0SMS[O=BY2Ze0YMW[O<CX2Ue0\\M[[O6E]2Pe0[M^[O5F_2id0]Mb[O3G_2fd0^Me[O1G`2cd0`Mg[OMIb2_d0bMh[OKKb2\\d0dMj[OHLd2Xd0dMm[OGMd2Ud0fMo[OEMd2Td0fMP\\OENd2Qd0hMR\\OCMf2oc0hMT\\OBNe2nc0hMU\\OBNf2lc0iMV\\OAOe2kc0jMV\\OAOf2jc0iMX\\O@Ng2jc0iMX\\O_O0g2ic0iMW\\O@0g2ic0jMV\\O_O1h2ic0hMV\\O@1h2ic0hMV\\O@1h2ic0iMT\\OA2g2ic0hMU\\OA2g2ic0iMT\\O@3g2jc0hMS\\OA3g2jc0hMR\\OB3h2jc0gMQ\\OC4f2kc0gMP\\OD4f2lc0gMo[OD4e2mc0hMm[OD5e2nc0hMl[OD5d2oc0iMj[OD6e2nc0iMj[OD7c2oc0kMf[OD:b2Pd0kMc[OF<`2Pd0lMa[OF>^2Qd0PNU[OLf0W2Td0e0g[O@Xd0b0e[O@Yd0c0d[O_O[d0e0`[O\\O`d0S6N101N101N1O2O0O2O0O2\\OjDZ\\OX;ec0b0O2O0O2O1N101O0O101N10001N2O001O1O1O1O001O01O01O1O1O1O1O010O1O00100O001O001O100O10O010000O100O010O1000O0100O01000O1000000O1000O10O10000O100000O1000O100000000000O1000000001O0000O3YHi]O`1Wb0[NU^O^1la0YN_^Od1ba0RNj^Ol1Va0oMP_Oo1Qa0jMW_OT2j`0cMa_OZ2a`0`Md_O_2^`0XMj_Og2X`0TMl_Ok2V`0mLQ@R3Q`0gLU@X3m?aLY@_3i?[L\\@c3i?QL^@n3f?kK_@T4h?[Kc@e4a?oJg@P5Ue0010O01O1O1O001O001O001O1O10O0001O01O01O10O0001O0010O0001O1O01O010O0010O1O0010O01O00005K003M2O00O000010O100O1O100O101OO02N0010O010O00001O10O101N2N0001O10O1O0010O1O01O01O001000O01N101N1010O1000O001001OO0100O2OO010O11N1O1O2O00O100001O0O011O00O010O0200N011N1001N11N1O1000000O1O1O1O2N101N1O1O1N2O1O1N3N1O2M2O1N2N2N2O2M3M2N2N2N2N2N2N3M2N2N2N2N3M2N3M2M3N3L2O2M4M2N3L3N2M3M4L3N3L3M4L4L3L5J7K5GYTd6"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "align",
+          "justification": "Part 1 has a smooth, flat surface positioned centrally between two legs, suggesting its function as a stable base for balancing upright objects like block 2; unlike jagged spikes at points 4-6 or coiled tendrils near point 9, its uniform geometry supports alignment rather than grasping or striking actions",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "align",
+                "logprob": -1.1265420671843458,
+                "prob": 0.3740984031685894
+              },
+              {
+                "option": "anchor",
+                "logprob": -1.7516414609272033,
+                "prob": 0.2002205440283906
+              },
+              {
+                "option": "none",
+                "logprob": -2.376771587500116,
+                "prob": 0.10715638961446461
+              },
+              {
+                "option": "stand",
+                "logprob": -3.0015361080440925,
+                "prob": 0.05737019009065017
+              },
+              {
+                "option": "balance",
+                "logprob": -3.2517010448209476,
+                "prob": 0.04467258020848734
+              },
+              {
+                "option": "orient",
+                "logprob": -3.3765035703399917,
+                "prob": 0.039431199551334555
+              },
+              {
+                "option": "support",
+                "logprob": -3.5018062612216454,
+                "prob": 0.03478738005270779
+              },
+              {
+                "option": "adjust",
+                "logprob": -4.18920080648968,
+                "prob": 0.017494037937189993
+              },
+              {
+                "option": "lean",
+                "logprob": -4.251554104630486,
+                "prob": 0.016436538853499005
+              },
+              {
+                "option": "control",
+                "logprob": -4.252005462883972,
+                "prob": 0.01642912176003784
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "support",
+              "stand",
+              "balance",
+              "carry",
+              "hold",
+              "extend",
+              "move",
+              "walk",
+              "lean",
+              "rest"
+            ],
+            "n_valid": 10,
+            "invalid": [
+              "Based on the visual analysis of part 1 (the central, grey, leg-like structure of the object):"
+            ],
+            "raw": "Based on the visual analysis of part 1 (the central, grey, leg-like structure of the object):\n\n1. support\n2. stand\n3. balance\n4. carry\n5. hold\n6. extend\n7. move\n8. walk\n9. lean\n10. rest\n\nsupport\nstand\nbalance\ncarry\nhold\nextend\nmove\nwalk\nlean\nrest"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_33_region_21",
+      "area": 36767,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "SUP9>2FRo0Z2\\NP1POd0]O?A4L3M3M2O1N2O1N2O001N10001N1000001O001N10001O00000000001O0000001O0O101O00001O00001O000O101O000000001O000O101O0000001O00000O101O00001O0000001O000000001O0O1000000000000000000000000000O10O10000000O1000000O10000O0100000O10000O1000O10O1000000O100O100O010O100O100O1O1O1O100O1O1O1O1O1O001O100O1O1N2O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1N3N1O1O1O1O1O1O1O1O1O2N100O1N2O1N2N2N3M2L4L4L4K5M3J7L3M3M3M3L4N200O1O1O2O01O001O2N6J5K4L7I5L1N1O001O01N101O001N10001N101O1N101N2O1N3N2M5Jd0ROPk^?"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "anchor",
+          "justification": "Part two\u2019s large rectangular blocky form suggests stability as its primary function since no similar shapes are present elsewhere in design; unlike any of these objects which have more delicate features like spikes or tendrils for interaction purposes rather than grounding themselves firmly into place through sheer mass alone",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "anchor",
+                "logprob": -0.5522283016180154,
+                "prob": 0.688108321008294
+              },
+              {
+                "option": "attach",
+                "logprob": -2.552242841484258,
+                "prob": 0.09312398050106341
+              },
+              {
+                "option": "block",
+                "logprob": -3.0522956361237448,
+                "prob": 0.05647956743126209
+              },
+              {
+                "option": "none",
+                "logprob": -3.0530799576081336,
+                "prob": 0.05643528666054666
+              },
+              {
+                "option": "align",
+                "logprob": -3.9272993304475676,
+                "prob": 0.023544099570275825
+              },
+              {
+                "option": "balance",
+                "logprob": -4.365038241201546,
+                "prob": 0.015197581894110202
+              },
+              {
+                "option": "place",
+                "logprob": -4.677859757095575,
+                "prob": 0.011115214143349757
+              },
+              {
+                "option": "aim",
+                "logprob": -4.989789558399934,
+                "prob": 0.008136702601095743
+              },
+              {
+                "option": "orient",
+                "logprob": -5.552208398396033,
+                "prob": 0.004636529677544627
+              },
+              {
+                "option": "cover",
+                "logprob": -5.61472019739449,
+                "prob": 0.004355565153598063
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "support",
+              "hold",
+              "carry",
+              "place",
+              "rest",
+              "stand",
+              "balance",
+              "attach",
+              "anchor"
+            ],
+            "n_valid": 9,
+            "invalid": [
+              "Based on the visual analysis of part 2 (the brown, blocky object on top of the creature):",
+              "secure"
+            ],
+            "raw": "Based on the visual analysis of part 2 (the brown, blocky object on top of the creature):\n\n1. support\n2. hold\n3. carry\n4. place\n5. rest\n6. stand\n7. balance\n8. attach\n9. secure\n10. anchor"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_33_region_6",
+      "area": 13519,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "Zlk4=\\o0;F9G8K5M2O1N2O100O10O10O0010O01O1O001O00001O001O0000000O101O000O1O100O100O100O100O1O1O1O1O1O100O1O1O1O001N2N2O1O1N2O1O1O0N3O001N1O2N2N101O000O1O2N1O1O1O1O100000O010O0000000O1O2N1O101M201O0N2O2N011N1N3N1O2N2O0O100N20001N1O2O0O2O0O2O1N010O2N1O2O000O20OO2O000O101O0O20O01O001N100000001O00001O1O10OO2O01O0001O1O00100O001O001O0010O01O00100O10O01O1O0010O01O10O0100O1O10O0100O1O1O10000O1O10O0100O100O1000001N10O0100O100O10001O000O10000O1000001O000O2O001O0000001O00001O001O1O00001O001O10O01O010O1O1O0010O0101N101Nh\\Vc0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "align",
+          "justification": "Part 3 features a smooth, rounded tip at its extremity which naturally facilitates sliding into place against another surface for alignment purposes; unlike most of these toy-like components designed primarily as handles or decorative elements like spikes or spirals, this piece\u2019s form suggests functional interlocking rather than just aesthetic display",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "align",
+                "logprob": -1.189519253995968,
+                "prob": 0.35507842367357995
+              },
+              {
+                "option": "balance",
+                "logprob": -2.189532006101217,
+                "prob": 0.13062438632652984
+              },
+              {
+                "option": "none",
+                "logprob": -2.3147026537917554,
+                "prob": 0.11525594649582721
+              },
+              {
+                "option": "walk",
+                "logprob": -2.814618644420989,
+                "prob": 0.06991213829196677
+              },
+              {
+                "option": "anchor",
+                "logprob": -2.9395545303996187,
+                "prob": 0.061701201281052054
+              },
+              {
+                "option": "stand",
+                "logprob": -2.939560131606413,
+                "prob": 0.061700855680832105
+              },
+              {
+                "option": "bend",
+                "logprob": -3.5154605926582008,
+                "prob": 0.03468812253055207
+              },
+              {
+                "option": "lean",
+                "logprob": -3.9394101992220385,
+                "prob": 0.02270187979947925
+              },
+              {
+                "option": "orient",
+                "logprob": -3.939454299310455,
+                "prob": 0.022700878666648057
+              },
+              {
+                "option": "support",
+                "logprob": -4.252275932813063,
+                "prob": 0.016602976690928938
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "stand",
+              "walk",
+              "support",
+              "balance",
+              "move",
+              "lean",
+              "cover",
+              "shade",
+              "prevent falling",
+              "anchor"
+            ],
+            "n_valid": 10,
+            "invalid": [
+              "Based on the visual analysis of part 3, which is a green, elongated appendage attached to the lower leg of the object, its primary function appears to be structural support and locomotion. It resembles a leg or a fin.",
+              "Here are the 10 most plausible affordances for part 3, ranked from most to least likely:"
+            ],
+            "raw": "Based on the visual analysis of part 3, which is a green, elongated appendage attached to the lower leg of the object, its primary function appears to be structural support and locomotion. It resembles a leg or a fin.\n\nHere are the 10 most plausible affordances for part 3, ranked from most to least likely:\n\n1. stand\n2. walk\n3. support\n4. balance\n5. move\n6. lean\n7. cover\n8. shade\n9. prevent falling\n10. anchor"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_33_region_7",
+      "area": 21804,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "cXib04ko03M3N2M3M3M3cTOCSg0`0eXOFYg0>aXOF]g0>\\XOFdg0=UXOHig0<QXOGng0>jWOFUh0>dWOF\\h0?^WOBah0c0SWOElh0c0gVODWi0c0[VOEei0[3O1O1O2N100O1O101N1O100O2N1O1O100O2N1O1O100O1O1O2N1O100O1O2N101N1O1O10[N\\VOnLci0P3cVOmL\\i0T3eVOkLZi0U3hVOkLVi0V3kVOiLUi0V3mVOiLRi0W3QWOhLmh0Y3TWOfLkh0Z3WWOeLhh0\\3YWOcLgh0\\3[WOcLdh0^3]WOaLbh0_3`WOaL^h0`3cWO_L\\h0b3eWO]L[h0b3gWO]LXh0d3iWO[LVh0e3lWO[LRh0e3PXOZLPh0f3QXOYLng0l1PWOmNS1VOlg0l1UWOkNQ1XOig0l1XWOlNP1XOfg0l1[WOkNQ1XOdg0l1]WOkNP1XObg0l1`WOlNo0WO`g0m1bWOkNP1XO\\g0m1eWOkNP1WOZg0m1iWOjNo0XOXg0l1kWOlNn0WOVg0m1mWOkNo0XORg0m1PXOkNo0WOPg0m1TXOjNn0XOmf0n1VXOjNn0WOkf0n1YXOjNn0WOif0n1ZXOkNn0WOff0n1]XOjNo0WOcf0n1`XOkNn0VOaf0o1cXOjNm0VO_f0o1fXOjNm0VO]f0o1gXOkNm0VOZf0o1jXOjNn0VOWf0o1mXOkNl0VOVf0o1oXOkNl0UOTf0P2QYOjNm0UOQf0P2UYOjNk0UOPf0P2VYOjNm0TOle0Q2YYOkNl0SOje0R2[YOjNm0SOge0S2]YOjNm0ROee0S2`YOkNl0POee0T2aYOjNl0QObe0U2cYOjNl0oNae0V2eYOjNQi0V1PWOjNPi0T1RWOkNnh0U1SWOkNlh0U1UWOjNkh0U1XWOjNgh0V1ZWOjNeh0U1]WOjNdh0U1]WOkNbh0U1_WOjNah0U1aWOkN^h0U1dWOiN\\h0W1eWOiN[h0U1gWOjNYh0V1hWOjNWh0U1kWOkNTh0U1nWOiNRh0W1oWOiNPh0V1RXOjNng0U1SXOjNmg0V1UXOiNjg0V1XXOiNhg0W1YXOiNfg0W1[XOhNeg0W1]XOiNcg0V1^XOiNbg0V1aXOiN^g0W1cXOiN]g0V1dXOiN\\g0V1fXOjNYg0V1iXOhNWg0W1kXOiNTg0W1mXOhNTg0W1mXOiNRg0V1QYOhNof0X1RYOhNmf0W1VYOgNjf0Y1WYOgNif0X1YYOfNgf0Y1[YOgNdf0Y1^YOeNbf0[1`YOcN`f0\\1cYOaN^f0_1Q401N10000O10001N100O10001O0O100O101O0O100O101O0O100O101N100O10001N100O101N10001N100O2O0O101N101N2O1N2O1N3N1N3MWli6"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "attack",
+          "justification": "Part 4\u2019s sharp, jagged spike-like protrusion suggests aggression or offense capability due to its pointed geometry designed for piercing rather than grasping like limb segments such as those at positions three through five which appear more suited for support or movement functions instead of combat actions indicated by their rounded ends; additionally compared against tail co",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "attack",
+                "logprob": -0.18804069471661933,
+                "prob": 0.8636242006518461
+              },
+              {
+                "option": "aim",
+                "logprob": -2.563042989189853,
+                "prob": 0.08032937957977625
+              },
+              {
+                "option": "none",
+                "logprob": -4.189096221118234,
+                "prob": 0.01580114166709754
+              },
+              {
+                "option": "align",
+                "logprob": -4.688169802655466,
+                "prob": 0.009592759674000651
+              },
+              {
+                "option": "orient",
+                "logprob": -5.063242736941902,
+                "prob": 0.006592520039679535
+              },
+              {
+                "option": "deflect",
+                "logprob": -5.120128806251159,
+                "prob": 0.006227964847579664
+              },
+              {
+                "option": "hit",
+                "logprob": -5.751739211147651,
+                "prob": 0.0033116256601041613
+              },
+              {
+                "option": "attach",
+                "logprob": -5.875693161273375,
+                "prob": 0.00292555806716532
+              },
+              {
+                "option": "decorate",
+                "logprob": -6.188469371409155,
+                "prob": 0.002139792891211957
+              },
+              {
+                "option": "defend",
+                "logprob": -6.24530431049061,
+                "prob": 0.0020215693292644317
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "attack",
+              "defend"
+            ],
+            "n_valid": 2,
+            "invalid": [
+              "Based on the visual characteristics of part 4 (a sharp, pointed, spike-like structure on the back of the creature), here are the 10 most plausible affordances ranked by likelihood:",
+              "poke",
+              "stab",
+              "pierce",
+              "thrust",
+              "spear",
+              "lance",
+              "dart",
+              "thrust"
+            ],
+            "raw": "Based on the visual characteristics of part 4 (a sharp, pointed, spike-like structure on the back of the creature), here are the 10 most plausible affordances ranked by likelihood:\n\n1. attack\n2. defend\n3. poke\n4. stab\n5. pierce\n6. thrust\n7. spear\n8. lance\n9. dart\n10. thrust"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_33_region_20",
+      "area": 19156,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "gim;<`o06J7I6J6J5L4L4L3M4L4L3K6L4L3M4L3M4K4L5K4M4K4M3L5K4M3L4aLSLfZOR4Ye0PLbZOT4^e0mK^ZOV4ae0kKZZO[4de0gKVZO^4je0bKRZOb4me0_KmYOg4Sf0ZKgYOk4Xf0WKaYOo4_f0SKYYOR5hf0PKPYOV5of0mJgXO[5Yg0kJVXO`5jg0[100O100000O10O0100O100O100O1O1O1O100O1O1O1O1O1N2N2O1N3M2N2M3M3M3N3M2M3N2M4L3M3M3N2M4L3M3N2M4L3N2M4L3M3M3N3L3L4N2M4L3M3M3N3L3M4M2M4L3M3N3L3M4L3N3L3L4M4M2L5M2L5L3N3K4M4L3M4L3M4L3M4L3M4L3N3L3N3L5KW\\h?"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "align",
+          "justification": "Part 5 has a smooth, cylindrical form positioned centrally between two angled legs like a stabilizing beam designed for structural alignment rather than interaction",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "align",
+                "logprob": -0.8194726403744426,
+                "prob": 0.4855791926338435
+              },
+              {
+                "option": "anchor",
+                "logprob": -1.8195051759830676,
+                "prob": 0.17862879013966715
+              },
+              {
+                "option": "balance",
+                "logprob": -2.8195546328497585,
+                "prob": 0.06571060957248899
+              },
+              {
+                "option": "none",
+                "logprob": -2.9446997716731858,
+                "prob": 0.05798099351076549
+              },
+              {
+                "option": "stand",
+                "logprob": -3.1944862267991994,
+                "prob": 0.04516528693522219
+              },
+              {
+                "option": "support",
+                "logprob": -3.1945746532583144,
+                "prob": 0.04516129330539747
+              },
+              {
+                "option": "orient",
+                "logprob": -3.569429853843758,
+                "prob": 0.0310433674411401
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -4.069592676181848,
+                "prob": 0.018825688641577076
+              },
+              {
+                "option": "lean",
+                "logprob": -4.194404109570314,
+                "prob": 0.016616744983104677
+              },
+              {
+                "option": "adjust",
+                "logprob": -4.8821006315993145,
+                "prob": 0.008353782237034299
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "support",
+              "stand",
+              "balance",
+              "hold",
+              "prevent falling",
+              "lean",
+              "walk",
+              "step on",
+              "ride",
+              "sit"
+            ],
+            "n_valid": 10,
+            "invalid": [
+              "Based on the visual analysis of part 5 (the central, blue, pillar-like leg of the object), here is the ranking of its most plausible affordances:"
+            ],
+            "raw": "Based on the visual analysis of part 5 (the central, blue, pillar-like leg of the object), here is the ranking of its most plausible affordances:\n\n1. support\n2. stand\n3. balance\n4. hold\n5. prevent falling\n6. lean\n7. walk\n8. step on\n9. ride\n10. sit"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_33_region_13",
+      "area": 14475,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "g]l33io07K3M2N3N2M2N3N1N2N2O1O2M2N2O1N101N3N1N101N2O1N2O1N2O1N2O1N2N2O1O1N2O1N2N2O1O1N2N2O1N2O1N2O1O0bTOeMWi0]2gVOfMWi0[2gVOhMVi0Z2hVOhMWi0Y2gVOjMVi0X2iVOiMVi0X2hVOkMVi0V2hVOlMVi0V2hVOlMWi0U2hVOlMWi0U2gVOmMXi0T2fVOnMYi0S2fVOnMYi0S2eVOoMZi0R2dVOPN[i0Q2dVOPN[i0f0dUO\\Oo00\\i0?lUO@f03^i0:PVOAb06]i06UVOD<7`i01XVOH78`i0N\\VOJ2:bi0H`VONM;ci0DcVO1H=ei0_OfVO4C?gi0YOjVO8^O`0hi0UOmVO;YOb0ki0nNPWO`0TOc0li0iNTWOd0nNe0oi0bNVWOj0jNe0Ql0[OmSOf0Tl0ZOjSOh0Vl0XOhSOj0Xl0WOeSOk0[l0VOaSOm0_l0Z10000O0100000000000000O10O10000000000O100000O1000000000O1000dNbSOVO^l0g0gSOVOZl0h0hSOXOXl0f0jSOZOVl0e0kSO[OUl0c0lSO^OTl0`0nSO@Ql0?QTOAok0=STOCmk0<TTODlk0:VTOFjk08WTOIik05YTOKgk03[TOLfk02\\TONck02^TOOak0OaTO1FjNPk0S1\\UO3\\OYOQk0b0dUOX1Zj0fNhUO[1Wj0dNjUO\\1Vj0bNlUO_1Sj0_NoUO`1Rj0^NPVOb1Pj0\\NRVOc1oi0[NRVOe1oi0YNSVOf1ni0XNTVOf1oi0WNSVOh1ni0VNTVOh1oi0TNTVOk1oi0oMUVOo1nk001N2O1N2O0O2O1N2O1N101N2O1N101N2O0O2N2O1N1O2N1O2N1N3N2N1N3L3M5K4K6Kdaaf0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "attack",
+          "justification": "Part 6 has jagged edges resembling sharp teeth designed for biting into prey while its pointed tip allows piercing through tough materials like wood; unlike smooth surfaces elsewhere which are meant primarily as supports rather than offensive tools due to their rounded shapes lacking any cutting capabilities whatsoever making them unsuitable functions compared those intended solely defense purposes instead being",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "attack",
+                "logprob": -0.12492505254340358,
+                "prob": 0.9414173165958553
+              },
+              {
+                "option": "none",
+                "logprob": -4.126240389305167,
+                "prob": 0.017219994619627612
+              },
+              {
+                "option": "hit",
+                "logprob": -4.5006254974287,
+                "prob": 0.011842397238468957
+              },
+              {
+                "option": "shock",
+                "logprob": -5.001631494058529,
+                "prob": 0.007175554793534765
+              },
+              {
+                "option": "attach",
+                "logprob": -5.249981146145728,
+                "prob": 0.005597557991627185
+              },
+              {
+                "option": "deflect",
+                "logprob": -5.8327795903605875,
+                "prob": 0.003125305334624191
+              },
+              {
+                "option": "block",
+                "logprob": -5.875198756461032,
+                "prob": 0.0029955049631066534
+              },
+              {
+                "option": "aim",
+                "logprob": -6.187539188133087,
+                "prob": 0.002191907978783492
+              },
+              {
+                "option": "shake",
+                "logprob": -6.750334589916747,
+                "prob": 0.0012485426434969795
+              },
+              {
+                "option": "bump",
+                "logprob": -6.9086582412419375,
+                "prob": 0.0010657228854807218
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "punch",
+              "attack",
+              "hit",
+              "clip",
+              "deflect",
+              "balance",
+              "support",
+              "lean",
+              "kick"
+            ],
+            "n_valid": 9,
+            "invalid": [
+              "Based on the visual analysis of part 6, which is a jagged, lightning-bolt-shaped appendage attached to the side of the object, its primary function appears to be related to interaction, impact, or manipulation. It resembles a claw, a spike, or a tool designed to strike or grab.",
+              "Here are the 10 most plausible affordances for part 6, ranked from most to least likely:",
+              "grasp (not in list, but \"hold\" is close) -> hold"
+            ],
+            "raw": "Based on the visual analysis of part 6, which is a jagged, lightning-bolt-shaped appendage attached to the side of the object, its primary function appears to be related to interaction, impact, or manipulation. It resembles a claw, a spike, or a tool designed to strike or grab.\n\nHere are the 10 most plausible affordances for part 6, ranked from most to least likely:\n\n1. punch\n2. attack\n3. hit\n4. clip\n5. grasp (not in list, but \"hold\" is close) -> hold\n6. deflect\n7. balance\n8. support\n9. lean\n10. kick"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_33_region_18",
+      "area": 3063,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "aaaf05jo02J5N3M3N2N2N2O1N3N1O2M2O2O0O2N2N2N101N2O0O3N1N2O2N1N2O1O1O2M2O2N1O1O2N3M102M3N00O00001O1N2O1N2O2N1N2O1N2M4M3L5K3K6M4K5K4J7H7Jc\\^7"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 7 appears as a small, smooth ring integrated into the larger spiral tail structure rather than being designed for grasping; unlike protruding limbs like number 3 which suggest walking support or hooks such as those at numbers 6-9 suggesting attachment points, its form suggests purely decorative function within the overall design of the",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.871660997159779,
+                "prob": 0.21548105744375853
+              },
+              {
+                "option": "align",
+                "logprob": -2.1212529922049725,
+                "prob": 0.16788530033676166
+              },
+              {
+                "option": "adjust",
+                "logprob": -2.3714803706097882,
+                "prob": 0.13071947720282726
+              },
+              {
+                "option": "attach",
+                "logprob": -2.8087471521430416,
+                "prob": 0.08441852349442493
+              },
+              {
+                "option": "clip",
+                "logprob": -2.933866568695521,
+                "prob": 0.07449018961181006
+              },
+              {
+                "option": "button",
+                "logprob": -3.1213626360404305,
+                "prob": 0.06175477906673843
+              },
+              {
+                "option": "rotate",
+                "logprob": -3.1836900607449934,
+                "prob": 0.058023258663478954
+              },
+              {
+                "option": "click",
+                "logprob": -3.2462343992228853,
+                "prob": 0.05450539039585338
+              },
+              {
+                "option": "detach",
+                "logprob": -4.246371097193332,
+                "prob": 0.020048671759591505
+              },
+              {
+                "option": "decorate",
+                "logprob": -4.371408158534905,
+                "prob": 0.01769223501865887
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "hold",
+              "carry",
+              "contain",
+              "support",
+              "anchor"
+            ],
+            "n_valid": 5,
+            "invalid": [
+              "Based on the visual analysis of part 7 (a small, purple, ring-like segment of the tail structure):",
+              "**connect** (not in list, but implied by structure; closest is **attach**) -> **attach**",
+              "**link** (not in list) -> **join** (not in list) -> **link** is not in list. Let's look for **connect** alternatives. **connect** is not in the list. **join** is not in the list.",
+              "Let's re-evaluate the list for structural/holding verbs.",
+              "**hold** (1)",
+              "**carry** (2)",
+              "**contain** (3)",
+              "**support** (4)"
+            ],
+            "raw": "Based on the visual analysis of part 7 (a small, purple, ring-like segment of the tail structure):\n\n1.  **hold**\n2.  **carry**\n3.  **contain**\n4.  **support**\n5.  **anchor**\n6.  **connect** (not in list, but implied by structure; closest is **attach**) -> **attach**\n7.  **link** (not in list) -> **join** (not in list) -> **link** is not in list. Let's look for **connect** alternatives. **connect** is not in the list. **join** is not in the list.\n    *   Let's re-evaluate the list for structural/holding verbs.\n    *   **hold** (1)\n    *   **carry** (2)\n    *   **contain** (3)\n    *   **support** (4)"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_33_region_19",
+      "area": 2693,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "mage07eo05M3M3N2O1N2O1N2O1O1O1O1O1O101N1O2N1O101N2N1O3N1N2O1O001N3N1O1O1O1O10002N1O2N3L10O1O001N2O1O1N2O1N2O1N2M3N3L3N2M4L3N3L4K6J4L4M4JU\\W8"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 8 appears as a small, smooth ring integrated into the larger spiral tail structure rather than being designed for grasping; unlike protruding limbs like those at positions corresponding to numbers three through five which suggest functional interaction points such as walking or striking",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.6547260386287235,
+                "prob": 0.2704439932852459
+              },
+              {
+                "option": "align",
+                "logprob": -2.4042924349487294,
+                "prob": 0.1278041011336099
+              },
+              {
+                "option": "button",
+                "logprob": -2.7168809821014293,
+                "prob": 0.09349519873264737
+              },
+              {
+                "option": "clip",
+                "logprob": -2.8418235405697487,
+                "prob": 0.08251396288037936
+              },
+              {
+                "option": "attach",
+                "logprob": -2.9042553691542707,
+                "prob": 0.07751997906090818
+              },
+              {
+                "option": "adjust",
+                "logprob": -2.904594154271763,
+                "prob": 0.07749372089388332
+              },
+              {
+                "option": "click",
+                "logprob": -3.0292463110527024,
+                "prob": 0.06841176108754803
+              },
+              {
+                "option": "rotate",
+                "logprob": -3.2792121041129576,
+                "prob": 0.053280955653543786
+              },
+              {
+                "option": "detach",
+                "logprob": -4.27939969158615,
+                "prob": 0.019597291639659297
+              },
+              {
+                "option": "anchor",
+                "logprob": -4.4042167525185505,
+                "prob": 0.01729771330915963
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "contain",
+              "hold"
+            ],
+            "n_valid": 2,
+            "invalid": [
+              "Based on the visual analysis of part 8 (a green, ring-like segment of a tail-like appendage):",
+              "grasp",
+              "grip",
+              "clutch",
+              "clutch",
+              "grasp",
+              "grip",
+              "clutch",
+              "Since \"grasp\", \"clutch\", \"hold\", and \"grip\" are not in the provided list, I will select the most plausible actions from the list that relate to the function of a grasping or holding appendage.",
+              "grasp",
+              "grip",
+              "clutch",
+              "grasp",
+              "grip",
+              "clutch",
+              "grasp",
+              "Wait, I need to strictly use the provided list. Let's re-evaluate based *only* on the provided list.",
+              "The object is a segmented tail. Segmented tails are often used for grasping, holding,"
+            ],
+            "raw": "Based on the visual analysis of part 8 (a green, ring-like segment of a tail-like appendage):\n\n1. contain\n2. grasp\n3. hold\n4. grip\n5. clutch\n6. clutch\n7. grasp\n8. hold\n9. grip\n10. clutch\n\nSince \"grasp\", \"clutch\", \"hold\", and \"grip\" are not in the provided list, I will select the most plausible actions from the list that relate to the function of a grasping or holding appendage.\n\n1. contain\n2. grasp\n3. hold\n4. grip\n5. clutch\n6. grasp\n7. hold\n8. grip\n9. clutch\n10. grasp\n\nWait, I need to strictly use the provided list. Let's re-evaluate based *only* on the provided list.\n\nThe object is a segmented tail. Segmented tails are often used for grasping, holding,"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_33_region_3",
+      "area": 2633,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "Yacg04jo04L3N2M4M2O1N3N1N2O3M1O2O1N2N3N1N2N3N1N3N2N2M3N2N3L3N3M3M2N3M1O10O0O2O0000001N2O1N2O1N3M2N3L3N2M5K3M4K5L4J7I7FU]d6"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 9 appears as a smooth, curved appendage integrated into the tail structure without any visible protrusions, handles, buttons, or functional features like eyes or limbs; unlike most of its neighbors which have distinct shapes suggesting utility such as spikes for defense or legs for support, part 6 serves purely decorative purposes by mim",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.6056274262955412,
+                "prob": 0.25342205584343347
+              },
+              {
+                "option": "align",
+                "logprob": -1.9801126585807651,
+                "prob": 0.17426394435798984
+              },
+              {
+                "option": "rotate",
+                "logprob": -2.230043287665467,
+                "prob": 0.13572631145899824
+              },
+              {
+                "option": "attach",
+                "logprob": -2.605175231292378,
+                "prob": 0.09327093139872146
+              },
+              {
+                "option": "decorate",
+                "logprob": -2.6051870302908355,
+                "prob": 0.09326983090163816
+              },
+              {
+                "option": "adjust",
+                "logprob": -3.480316809989745,
+                "prob": 0.038875604493083214
+              },
+              {
+                "option": "detach",
+                "logprob": -3.6051813095837133,
+                "prob": 0.03431224956001855
+              },
+              {
+                "option": "roll",
+                "logprob": -4.042746261548018,
+                "prob": 0.022152214490278793
+              },
+              {
+                "option": "button",
+                "logprob": -4.042810017592274,
+                "prob": 0.022150802197732963
+              },
+              {
+                "option": "click",
+                "logprob": -4.105224094964797,
+                "prob": 0.020810540955889172
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Based on the visual analysis of part 9 (a small, purple, ring-like segment of the tail structure):",
+              "**hold** - The part is a ring or loop, which is structurally designed to hold or encircle the adjacent green segment (part 8) and the tail itself.",
+              "**connect** - It serves as a connector between the tail segments.",
+              "**link** - It links the series of rings together.",
+              "**attach** - It attaches the tail to the main body.",
+              "**secure** - It helps secure the tail's position.",
+              "**bind** - It binds the tail segments together.",
+              "**join** - It joins the different parts of the tail.",
+              "**fasten** - It fastens the tail structure.",
+              "**fasten** - (Duplicate concept, but fits the mechanical nature)",
+              "10"
+            ],
+            "raw": "Based on the visual analysis of part 9 (a small, purple, ring-like segment of the tail structure):\n\n1.  **hold** - The part is a ring or loop, which is structurally designed to hold or encircle the adjacent green segment (part 8) and the tail itself.\n2.  **connect** - It serves as a connector between the tail segments.\n3.  **link** - It links the series of rings together.\n4.  **attach** - It attaches the tail to the main body.\n5.  **secure** - It helps secure the tail's position.\n6.  **bind** - It binds the tail segments together.\n7.  **join** - It joins the different parts of the tail.\n8.  **fasten** - It fastens the tail structure.\n9.  **fasten** - (Duplicate concept, but fits the mechanical nature)\n10"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_33_region_1",
+      "area": 1402,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "Q^Y>:bo06K4N2M2O2N1O2N2oPOTOkn0R1O1N101O0O2O0000001O00000000O10001O001N10001N101N2N2N2N2N2M4M4J9DRb\\`0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "align",
+          "justification": "Part 13\u2019s flat top surface provides a stable base for stacking objects like block 2 above it; unlike curved surfaces such as those of tail segments 8-9 which are designed for wrapping around items rather than supporting them vertically",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "align",
+                "logprob": -0.8512477128679166,
+                "prob": 0.5179176378456933
+              },
+              {
+                "option": "none",
+                "logprob": -2.226701301522553,
+                "prob": 0.13089070220859778
+              },
+              {
+                "option": "adjust",
+                "logprob": -2.7263533679943066,
+                "prob": 0.07941685093952547
+              },
+              {
+                "option": "orient",
+                "logprob": -3.1012543278047815,
+                "prob": 0.054587756320092586
+              },
+              {
+                "option": "aim",
+                "logprob": -3.226296876964625,
+                "prob": 0.048171476172078655
+              },
+              {
+                "option": "attack",
+                "logprob": -4.101682597363833,
+                "prob": 0.020073114744721874
+              },
+              {
+                "option": "anchor",
+                "logprob": -4.16381022540736,
+                "prob": 0.018863969308018678
+              },
+              {
+                "option": "attach",
+                "logprob": -4.539041052776156,
+                "prob": 0.012962011528484954
+              },
+              {
+                "option": "control",
+                "logprob": -4.601916792977136,
+                "prob": 0.012172108540347316
+              },
+              {
+                "option": "detect",
+                "logprob": -4.852418830269016,
+                "prob": 0.009474889720644128
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Based on the visual analysis of part 10 (a small, flat, greyish square located on the main body of the creature, near the center):",
+              "**hold** - The part is a flat surface on the body, likely serving as a grip or attachment point for other elements.",
+              "**lean** - It is positioned centrally and could be a surface for leaning or balancing.",
+              "**support** - As part of the main body structure, it contributes to the overall stability of the object.",
+              "**stand** - It is part of the base structure that allows the object to stand upright.",
+              "**balance** - Its central location suggests it plays a role in maintaining the creature's center of gravity.",
+              "**rest** - It is a flat surface where other parts could potentially rest.",
+              "**cover** - It acts as a surface covering part of the body."
+            ],
+            "raw": "Based on the visual analysis of part 10 (a small, flat, greyish square located on the main body of the creature, near the center):\n\n1.  **hold** - The part is a flat surface on the body, likely serving as a grip or attachment point for other elements.\n2.  **lean** - It is positioned centrally and could be a surface for leaning or balancing.\n3.  **support** - As part of the main body structure, it contributes to the overall stability of the object.\n4.  **stand** - It is part of the base structure that allows the object to stand upright.\n5.  **balance** - Its central location suggests it plays a role in maintaining the creature's center of gravity.\n6.  **rest** - It is a flat surface where other parts could potentially rest.\n7.  **cover** - It acts as a surface covering part of the body.\n8."
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_33_region_0",
+      "area": 1363,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "m\\S<7fo06K5K3M4M2N3M2N2N101N2O0O2O000O2O00001O00000001N10000O2O001N2O0O2N2O1N2N2M4M3L6IVccb0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "align",
+          "justification": "Part 12 appears as a small green dot positioned centrally near where limbs would connect; its compact spherical form suggests function in stabilizing posture rather than movement like legs do or striking force of spikes",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "align",
+                "logprob": -1.756951306713745,
+                "prob": 0.22367956511228537
+              },
+              {
+                "option": "none",
+                "logprob": -1.757377054891549,
+                "prob": 0.22358435421439812
+              },
+              {
+                "option": "detect",
+                "logprob": -2.132197269005701,
+                "prob": 0.15369475922160952
+              },
+              {
+                "option": "adjust",
+                "logprob": -3.00705034242128,
+                "prob": 0.06407892194864201
+              },
+              {
+                "option": "button",
+                "logprob": -3.3198632355197333,
+                "prob": 0.0468664742929212
+              },
+              {
+                "option": "anchor",
+                "logprob": -3.4445244820672087,
+                "prob": 0.041373531451566824
+              },
+              {
+                "option": "attack",
+                "logprob": -3.694761490507517,
+                "prob": 0.0322141027738024
+              },
+              {
+                "option": "label",
+                "logprob": -3.819550104060909,
+                "prob": 0.028434856025347396
+              },
+              {
+                "option": "attach",
+                "logprob": -3.944596460380126,
+                "prob": 0.025092509144482973
+              },
+              {
+                "option": "aim",
+                "logprob": -4.382012564688921,
+                "prob": 0.01620230079972029
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Based on the visual analysis of part 11 (a small, round, green dot located on the torso of the creature):",
+              "**detect** - The object is a small, distinct dot, which visually functions as a sensor or eye, implying the ability to detect.",
+              "**see** - As a potential eye, this is the primary function associated with vision.",
+              "**indicate** - A small marker or dot can serve to indicate a specific point or status.",
+              "**decorate** - It adds a small, colorful detail to the otherwise monochromatic body.",
+              "**label** - It could serve as a small identifier or tag on the body.",
+              "**mark** - Similar to label, it marks a specific location on the creature.",
+              "**signal** - It could act as a visual signal or indicator.",
+              "**display** - It displays a feature or"
+            ],
+            "raw": "Based on the visual analysis of part 11 (a small, round, green dot located on the torso of the creature):\n\n1.  **detect** - The object is a small, distinct dot, which visually functions as a sensor or eye, implying the ability to detect.\n2.  **see** - As a potential eye, this is the primary function associated with vision.\n3.  **indicate** - A small marker or dot can serve to indicate a specific point or status.\n4.  **decorate** - It adds a small, colorful detail to the otherwise monochromatic body.\n5.  **label** - It could serve as a small identifier or tag on the body.\n6.  **mark** - Similar to label, it marks a specific location on the creature.\n7.  **signal** - It could act as a visual signal or indicator.\n8.  **display** - It displays a feature or"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_33_region_8",
+      "area": 1352,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "P[W>=`o06J5L3N2N2N2N2N2N101N101N10001O000000000001O000O2O001O0O2O1N1O2O1N2N2M4M3L5ITea`0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "align",
+          "justification": "Part 13 appears as a small protrusion at the top of the main body where another component could be attached; its placement suggests alignment for securing additional elements like block number two above it\u2014unlike most others which serve structural support or decorative purposes without such functional attachment points nearby",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "align",
+                "logprob": -0.7540120965859387,
+                "prob": 0.5431913240966151
+              },
+              {
+                "option": "none",
+                "logprob": -2.25435161520727,
+                "prob": 0.12116122366120627
+              },
+              {
+                "option": "adjust",
+                "logprob": -2.7541196014208253,
+                "prob": 0.07350504912534174
+              },
+              {
+                "option": "aim",
+                "logprob": -3.1290772921347525,
+                "prob": 0.05052136967871573
+              },
+              {
+                "option": "orient",
+                "logprob": -3.254075504373759,
+                "prob": 0.04458503196310771
+              },
+              {
+                "option": "detect",
+                "logprob": -3.254388551285956,
+                "prob": 0.04457107694092373
+              },
+              {
+                "option": "anchor",
+                "logprob": -4.191588733694516,
+                "prob": 0.017459518403220846
+              },
+              {
+                "option": "indicate",
+                "logprob": -4.442290447943378,
+                "prob": 0.013587948401316843
+              },
+              {
+                "option": "control",
+                "logprob": -4.942190065688919,
+                "prob": 0.008242334650600208
+              },
+              {
+                "option": "balance",
+                "logprob": -5.004314201098168,
+                "prob": 0.007745867689165931
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "see",
+              "detect"
+            ],
+            "n_valid": 2,
+            "invalid": [
+              "Based on the visual analysis of part 12 (a small, light green dot located on the upper torso of the creature), here is the ranking of its most plausible affordances:",
+              "**blink**",
+              "**look**",
+              "**watch**",
+              "**observe**",
+              "**gaze**",
+              "**stare**",
+              "**glance**",
+              "**perceive**"
+            ],
+            "raw": "Based on the visual analysis of part 12 (a small, light green dot located on the upper torso of the creature), here is the ranking of its most plausible affordances:\n\n1. **see**\n2. **detect**\n3. **blink**\n4. **look**\n5. **watch**\n6. **observe**\n7. **gaze**\n8. **stare**\n9. **glance**\n10. **perceive**"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_33_region_14",
+      "area": 1325,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "VXk>3jo04M3L3L5L3K6J5M3K5L4L4L4N2M3N2N2O10O011O001O2M5L3M8G6K3L5L4K3M5L2M4KVhQ`0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "align",
+          "justification": "Part 12 appears as a small green dot positioned near where another similar element would fit if stacked vertically against its side; unlike most of these objects which are designed for grasping by their bulkier forms like legs or heads, they lack protrusions suitable for gripping but instead offer flat surfaces ideal for stacking alignment rather than",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "align",
+                "logprob": -0.9910332981089596,
+                "prob": 0.4225451826994068
+              },
+              {
+                "option": "anchor",
+                "logprob": -1.7411049268848728,
+                "prob": 0.19958191500876668
+              },
+              {
+                "option": "none",
+                "logprob": -2.4917969948146492,
+                "prob": 0.09421059848162071
+              },
+              {
+                "option": "orient",
+                "logprob": -2.9910897911177017,
+                "prob": 0.05718204150407108
+              },
+              {
+                "option": "adjust",
+                "logprob": -2.991320497414563,
+                "prob": 0.05716885076868007
+              },
+              {
+                "option": "attach",
+                "logprob": -3.2411821515415795,
+                "prob": 0.044529305765503326
+              },
+              {
+                "option": "decorate",
+                "logprob": -3.6164663297240622,
+                "prob": 0.030595818544995816
+              },
+              {
+                "option": "aim",
+                "logprob": -4.553693829948315,
+                "prob": 0.011984760094510327
+              },
+              {
+                "option": "balance",
+                "logprob": -4.553920699690934,
+                "prob": 0.011982041423476097
+              },
+              {
+                "option": "rotate",
+                "logprob": -5.178772000974277,
+                "prob": 0.006414478362691349
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "none",
+              "cover",
+              "shade",
+              "conceal",
+              "decorate",
+              "insulate",
+              "display"
+            ],
+            "n_valid": 7,
+            "invalid": [
+              "Based on the visual analysis of part 13:",
+              "**mark** (not in list, but close to label/labeling function) -> **label**",
+              "**identify** (not in list) -> **indicate**",
+              "**signal** (not in list) -> **flash**",
+              "Since \"mark\", \"label\", \"identify\", \"signal\", and \"flash\" are not in the provided list, I will select the best available synonyms or related actions from the list. \"Label\" is a direct synonym for marking. \"Indicate\" is a synonym for signaling. \"Flash\" is a synonym for signaling. \"Cover\", \"shade\", \"conceal\","
+            ],
+            "raw": "Based on the visual analysis of part 13:\n\n1.  **none**\n2.  **cover**\n3.  **shade**\n4.  **conceal**\n5.  **decorate**\n6.  **insulate**\n7.  **display**\n8.  **mark** (not in list, but close to label/labeling function) -> **label**\n9.  **identify** (not in list) -> **indicate**\n10. **signal** (not in list) -> **flash**\n\nSince \"mark\", \"label\", \"identify\", \"signal\", and \"flash\" are not in the provided list, I will select the best available synonyms or related actions from the list. \"Label\" is a direct synonym for marking. \"Indicate\" is a synonym for signaling. \"Flash\" is a synonym for signaling. \"Cover\", \"shade\", \"conceal\","
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_33_region_2",
+      "area": 1310,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "Z_g;5eo0:H6L4L3N2N2N2O1N1O2O0O2O000000001O00000000000000O2O001N101N2O1N2N2N2N3M3M3K6Kk`Pc0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "align",
+          "justification": "Part 13 appears as a small protrusion designed for precise positioning rather than broad interaction like buttons or levers found elsewhere; its compact form suggests alignment functions such as locking into place without requiring forceful manipulation seen in larger components",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "align",
+                "logprob": -0.7349356249760604,
+                "prob": 0.5498456031740865
+              },
+              {
+                "option": "none",
+                "logprob": -1.7353236250346527,
+                "prob": 0.20219842500365579
+              },
+              {
+                "option": "adjust",
+                "logprob": -2.7350260844104923,
+                "prob": 0.07440677934235278
+              },
+              {
+                "option": "orient",
+                "logprob": -3.9224620843160665,
+                "prob": 0.022694237961599122
+              },
+              {
+                "option": "aim",
+                "logprob": -4.047515000886051,
+                "prob": 0.020026534944051773
+              },
+              {
+                "option": "label",
+                "logprob": -4.235193037427962,
+                "prob": 0.016599625001948996
+              },
+              {
+                "option": "detect",
+                "logprob": -4.4231408486375585,
+                "prob": 0.013755411270705698
+              },
+              {
+                "option": "anchor",
+                "logprob": -4.672520483058179,
+                "prob": 0.010719372936830006
+              },
+              {
+                "option": "attach",
+                "logprob": -4.797702450770885,
+                "prob": 0.009458092190400322
+              },
+              {
+                "option": "click",
+                "logprob": -4.985227592376759,
+                "prob": 0.007840836694572488
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Based on the visual analysis of part 14:",
+              "**Input**: Part 14 is a small, flat, rectangular plate located on the torso of the creature. In the context of mechanical or biological systems, a flat surface like this is typically an interface for receiving data, signals, or physical inputs (e.g., a sensor, a key, or a docking port).",
+              "**None**: While it is a physical object, it does not inherently possess the complex functional properties of many other listed verbs (like \"ignite\" or \"drill\").",
+              "**Display**: It could serve as a display screen or indicator light, showing status or information.",
+              "**Press**: Being a flat surface, it could be used to press buttons or sensors.",
+              "**Hold**: It could be used to hold small items or act as a grip.",
+              "**Align**: It might be used to align other components or"
+            ],
+            "raw": "Based on the visual analysis of part 14:\n\n1.  **Input**: Part 14 is a small, flat, rectangular plate located on the torso of the creature. In the context of mechanical or biological systems, a flat surface like this is typically an interface for receiving data, signals, or physical inputs (e.g., a sensor, a key, or a docking port).\n2.  **None**: While it is a physical object, it does not inherently possess the complex functional properties of many other listed verbs (like \"ignite\" or \"drill\").\n3.  **Display**: It could serve as a display screen or indicator light, showing status or information.\n4.  **Press**: Being a flat surface, it could be used to press buttons or sensors.\n5.  **Hold**: It could be used to hold small items or act as a grip.\n6.  **Align**: It might be used to align other components or"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_33_region_5",
+      "area": 1053,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "n`l9<ao06K3M3N2N2N2N2N1O2N101N101O000000000000O101N101N101N1O2N2N3M2M4L4LW_Qe0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "align",
+          "justification": "Part 14 appears as a flat disc positioned centrally between two protruding limbs; its smooth surface suggests alignment of these components into a unified structure rather than serving another function like grasping or storage seen elsewhere in similar toy designs",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "align",
+                "logprob": -1.009299124678364,
+                "prob": 0.43275400371375883
+              },
+              {
+                "option": "none",
+                "logprob": -2.260140882455744,
+                "prob": 0.12388177557546369
+              },
+              {
+                "option": "anchor",
+                "logprob": -2.5094072133360896,
+                "prob": 0.09655003362596223
+              },
+              {
+                "option": "adjust",
+                "logprob": -3.009413171588676,
+                "prob": 0.05856020667288948
+              },
+              {
+                "option": "attach",
+                "logprob": -3.1344516609678976,
+                "prob": 0.05167721194145256
+              },
+              {
+                "option": "label",
+                "logprob": -3.446846079750685,
+                "prob": 0.03781184792693955
+              },
+              {
+                "option": "block",
+                "logprob": -3.759280294383643,
+                "prob": 0.02766555883178181
+              },
+              {
+                "option": "button",
+                "logprob": -3.8220985743100755,
+                "prob": 0.025981116772564934
+              },
+              {
+                "option": "click",
+                "logprob": -4.2594305694510695,
+                "prob": 0.01677748822193639
+              },
+              {
+                "option": "orient",
+                "logprob": -4.446826535277069,
+                "prob": 0.013910473355244776
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "attach"
+            ],
+            "n_valid": 1,
+            "invalid": [
+              "Based on the visual analysis of part 15, which is a small, flat, rectangular plate located on the lower left side of the object's body (near the leg joint), its primary function appears to be structural or decorative. It looks like a small plate or a flat piece of armor.",
+              "Here are the 10 most plausible affordances for part 15, ranked from most to least likely:",
+              "**decorate** - It is a small, distinct shape placed on the body, likely serving an aesthetic purpose.",
+              "**support** - It is positioned near a joint, potentially acting as a small brace or structural element.",
+              "**balance** - Its placement could help with the stability of the object's pose.",
+              "**cover** - It might be intended to cover a seam or a specific area of the body.",
+              "**seal** - It could be used to close a gap or joint."
+            ],
+            "raw": "Based on the visual analysis of part 15, which is a small, flat, rectangular plate located on the lower left side of the object's body (near the leg joint), its primary function appears to be structural or decorative. It looks like a small plate or a flat piece of armor.\n\nHere are the 10 most plausible affordances for part 15, ranked from most to least likely:\n\n1. **decorate** - It is a small, distinct shape placed on the body, likely serving an aesthetic purpose.\n2. **support** - It is positioned near a joint, potentially acting as a small brace or structural element.\n3. **balance** - Its placement could help with the stability of the object's pose.\n4. **cover** - It might be intended to cover a seam or a specific area of the body.\n5. **seal** - It could be used to close a gap or joint.\n6. **attach"
+          }
+        }
+      }
+    }
+  ],
+  "generation_option_order": "shuffled_per_part"
+}

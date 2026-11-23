@@ -1,0 +1,1264 @@
+{
+  "object": "shape_20",
+  "model": "Qwen/Qwen3.5-4B",
+  "image_path": "/shared/nas/data/m1/adadt2/nvrd/regions_test/data/novel/shape_20.png",
+  "region_source": "sam_slic",
+  "method": "per_part_with_comparative_context",
+  "top_k": 10,
+  "modes": [
+    "logprob",
+    "generation"
+  ],
+  "regions": [
+    {
+      "region_id": "shape_20_region_26",
+      "area": 141246,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "ncg93ho06N3L4H7I7L5dLQO^WOV1[`0jNdD2nJY1Y`0hNfD3nJW1X`0iNiD2hJ]1\\`0cNiD3hJ_1\\`0^NkD5fJa1\\`0[NmD6dJb1^`0XNlD8cJe1_`0SNlD;`Jh1a`0oMlD<_Jj1c`0jMlD?]Jk1f`0fMlDa0WJQ2j`0_MmDc0TJS2n`0ZMmDk0jIQ2Wa0TMnDn0fIS2Za0oLoDV1\\IP2da0jLoD[1TIR2ka0cLoDf5P;[JmDh5R;XJmDk5Q;UJmDn5Q;SJnDP6P;PJoDS6o:mIoDW6n:jIQE[6k:fIRE^6l:bISE`6l:`ITE`6k:aITEa6k:_ITEa6l:`ISEb6l:^ISEc6m:^IPEd6o:]IPEd6P;\\IoDe6Q;[InDg6Q;YInDh6R;XImDi6S;VIlDm6S;SIlDn6T;RIkDo6U;QIjDQ7U;oHjDR7V;QIfDQ7Y;PIdDR7\\;nHcDT7\\;mHaDV7^;jHaDW7_;jH]DZ7b;fH\\D]7d;cHZD_7e;aHZD`7f;`HYDb7g;^HXDc7g;]HXDd7h;\\HXDe7g;\\HWDe7i;[HWDf7i;ZHUDg7k;YHUDh7j;YHTDh7l;XHTDi7k;XHSDj7l;VHTDk7l;UHSDk7m;UHRDm7n;SHPDo7o;RHPDn7Q<QHnCR8P<oGoCR8P<nGoCS8R<lGmCV8R<kGmCU8S<mGjCU8V<kGiCU8W<lGgCV8Y<jGfCV8[<jGdCW8[<iGdCY8\\<gGcCZ8\\<gGbC\\8]<dGbC]8^<cG`C^8`<dG^C]8b<cG]C^8c<aG\\Ca8c<`G\\C`8e<`GYCb8f<`GXC`8i<bGSC`8m<aGQC`8o<`GPCa8P=_GnBc8R=^GlBc8S=_GjBb8W=_GgBc8W=`GeBb8[=_GdBa8\\=aGaB`8_=aG`B^8a=dGgBR8X=PHkBl7U=VHUC^7j<eHYCV7g<oHZCk6f<ZI[C`6e<eIXCZ6f<oITCP6k<PJUCQ6i<oIYCQ6f<oIZCQ6f<mI[CT6d<lI]CS6d<lI]CT6c<lI\\CT6d<QJXCn5h<SJWCm5j<RJVCn5j<SJUCm5l<RJTCo5k<QJVCn5k<RJTCo5k<QJUCo5l<PJTCo5m<RJSCm5m<SJSCm5m<TJRCl5o<TJPCl5P=TJPCl5Q=TJoBk5Q=WJmBj5R=WJmBi5T=WJkBi5U=YJiBg5W=[JgBe5Z=\\JdBd5\\=^JaBc5_=_J_Ba5b=aJ[B_5e=cJYB]5g=eJVB\\5j=gJSBY5n=hJoAY5Q>iJmAW5S>kJkAU5U>mJhAT5Y>nJcAS5]>oJaAQ5_>QK^AP5b>RK\\An4d>TKYAm4h>TKUAm4k>VKQAk4o>WKn@j4R?XKl@h4T?ZKi@g4W?[Ke@g4[?[Kb@f4^?[K_@h4`?[K\\@f4d?\\KX@f4h?\\KT@f4l?\\KQ@e4o?]Km_Oe4S`0]Kh_Of4X`0\\Kc_Og4]`0]KY_Oi4g`0X50000000001O000000000O2O000000000O101O0O10000O1000001N10000O01Bb_OZA]`0f>h_OUAY`0j>>01N2N101O1O001WGl^Oe2Ta0VMW_Od2j`0ZMZ_Oc2f`0[M__Ob2b`0\\Ma_Ob2_`0\\Me_Oc2[`0ZMi_Od2W`0ZMm_Oe2R`0YMR@f2n?WMV@g2j?WMZ@h2f?TM^@k2b?SMb@l2^?QMf@m2Z?QMi@o2V?nLo@Q3Q?mLQAS3n>jLWAU3h>iL[AV3f>gL^AX3a>eLcA[3]>bLfA^3Y>`LkA^3V>_LmAa3R>^LPBa3Q>]LQBc3n=[LUBe3k=YLXBf3h=YLYBg3f=XL\\Bg3e=WL]Bi3b=WL_Bh3b=VL`Bj3`=ULaBk3^=ULcBk3]=TLdBl3[=ULeBk3[=TLgBj3Y=VLhBj3X=VLhBj3W=WLiBi3W=VLiBk3W=ULiBj3W=WLiBi3W=WLiBh3X=XLhBh3W=XLjBh3V=XLjBh3V=XLjBh3U=YLkBf3V=[LiBe3V=\\LjBc3W=]LhBd3X=\\LhBd3W=]LiBc3W=^LhBa3Y=_LfBb3Y=_LgBa3Y=`LfBa3Y=_LfBb3Z=_LeBa3[=`LcBa3\\=`LcBa3]=`LbB`3^=bL_B_3a=bL^B^3b=dL[B]3d=gLXBZ3h=iLSBY3m=nLiAU3W>[7O0000000O10000000001O0000000010O01O001O4L3M_CX@k8\\O_Dn?]2YAX9f>bFfAX9Z>dFoAX9P>eFWBV9j=hF[BU9e=hF`BU9b=gFcBV9^=gFgBV9Z=hFjBU9W=iFmBT9T=jFPCT9Q=jFQCT9P=kFRCS9o<kFTCT9m<iFWClNbLi9X`0ZGYCjNcLh9U`0]GYCjNeLf9S`0_GZCiNfLf9P`0`GPD]8R<aGPD^8P<aGRD]8P<aGRD^8n;aGTD]8m;bGUD]8l;bGUD\\8l;cGVD\\8k;bGWD]8i;bGYD\\8h;cGYD]8h;aGZD]8g;bGZD^8g;`G[D^8f;bG[D]8f;aG[D_8e;aG\\D]8e;bG\\D^8e;aG\\D]8e;bG\\D]8f;aG\\D]8e;cG[D\\8g;cGZD\\8f;cG[D\\8g;cGZD\\8f;cG[D\\8g;bG[D?bJm6Ta0dHZD=hJk6o`0fHZD>kJh6l`0jHYD=nJf6k`0kHYD=oJf6i`0lHXD=RKd6h`0mHXD>SKa6cf0^I_YOa6af0^IbYO_6`f0_IbYO`6^f0`IdYO]6]f0bIeYO]6[f0bIgYO\\6Zf0dIgYO[6Yf0dIiYOZ6Xf0eIjYOY6Wf0gIjYOW6Wf0hIkYOW6Tf0iInYOU6Sf0jIoYOT6Qf0lIQZOR6Pf0nIQZOP6oe0PJRZOo5Pf0oIRZOP6ne0PJSZOn5oe0PJSZOn5Ph0N3N2N2N1O2N2N1O2N1N3N1O1O2N100O100O1M2O2M2O10O10N1001O01O010O101O0O3M2N3M3M4L4L4L4L4K4L4M3K5M3M4J5K4K6K7H8K4L5J=Db0^O?WOZ^c8"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "anchor",
+          "justification": "Part 1 forms the central body of the structure in direct contact with all peripheral limbs; its large spherical mass provides stability while allowing for attachment points elsewhere without compromising balance like slender appendages would alone provide support if isolated as primary base element due lack inherent weight distribution compared thinner components designed primarily functionality rather than structural integrity requirement",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "anchor",
+                "logprob": -1.2569257364084478,
+                "prob": 0.3468003139689006
+              },
+              {
+                "option": "none",
+                "logprob": -2.006957789941225,
+                "prob": 0.1638116179737718
+              },
+              {
+                "option": "contain",
+                "logprob": -2.6318899876787327,
+                "prob": 0.08768798588693202
+              },
+              {
+                "option": "control",
+                "logprob": -2.632073007465806,
+                "prob": 0.08767193871894555
+              },
+              {
+                "option": "support",
+                "logprob": -2.882097193156369,
+                "prob": 0.06827732317352277
+              },
+              {
+                "option": "stand",
+                "logprob": -3.694365558680147,
+                "prob": 0.030304897343875772
+              },
+              {
+                "option": "cover",
+                "logprob": -3.819261758530047,
+                "prob": 0.02674675421213033
+              },
+              {
+                "option": "align",
+                "logprob": -4.069490557390964,
+                "prob": 0.02082562769998874
+              },
+              {
+                "option": "balance",
+                "logprob": -4.194502353435382,
+                "prob": 0.018378335146683637
+              },
+              {
+                "option": "serve",
+                "logprob": -4.319850571278948,
+                "prob": 0.016213177140944637
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "stand",
+              "shade",
+              "support",
+              "contain",
+              "cover",
+              "display",
+              "decorate",
+              "rest",
+              "balance",
+              "prevent falling"
+            ],
+            "n_valid": 10,
+            "invalid": [
+              "Based on the visual analysis of part 1 (the central purple body of the object), which appears to be a stylized mushroom or a similar biological/organic form, here is the ranking of its most plausible affordances:"
+            ],
+            "raw": "Based on the visual analysis of part 1 (the central purple body of the object), which appears to be a stylized mushroom or a similar biological/organic form, here is the ranking of its most plausible affordances:\n\n1. stand\n2. shade\n3. support\n4. contain\n5. cover\n6. display\n7. decorate\n8. rest\n9. balance\n10. prevent falling"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_20_region_25",
+      "area": 89468,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "_UT6?^o06K3L6K4L4M2N2N3N1N2N3N1N3N1O2N1O1N2O2N2N1O1O1O2N1O100O1O100O1O1O2N100O1O1O1O001O1O010O1O1O001O00001O001O001O001O00001O001O001O00000O101O0000000O10000O2O0000000O100O10000O100O10O10O100O10000O1000O01O100O100O010O100O100O01000O010O001O010O1O1O010O01N1L50O1O100O1O010O10O0100O100O1O100O10O01O10O01O10O010O10O100O001O1O100O100O10000O100O100O100O101N10001N1O100O101O0O1000000O2N101N101N10001N100O2O001N101O0O2O1O1N101O1O0O2O0O2O1N2O1O1N101N101O1O1N2O001O0O2O1O1N101O001O1N101N101O001N101O001N101O000O101O001O000O2O00001O00001N1000001O00000O2O00000000001O0O100000000000000O1000000000000000000000000O100000O100000000O0100000O10000O10000O10000O100O10000O10000O100O2O0O10000O100O1O100O100O100O100O1O100O1O2O0O100O100O100O10000O101N10000O100O100O101N10000O10000O2O000O100O2O000O10000O2O0000000O10001O000O101O0000001O000O101O0000001O001O0000010O00001O00001O001O00001O01O01O000010O01O01O0001O00010O01O01O010O01O01O01O010O010O01O010O0010O10O010O010O010O0100O010O100O0010O010O0010O01O0100O01000O010O010O0100O0010O10O10O010O010O0100O010O0010O01O1O1O0010O01O1O010O10O01O1O001O001O010O001O1O001O1O1O1O0O101O001O1N101O001O0O2O001O0O2O001O0O101O001N101N100O101N101N2O0O100O2O0O1O100O1O1O101N1O1O101N1O1O1O1O1O1O1O100O1O1O1O1O1O1N2O1O1O1O001O100O10000000000000O1000000000000000O10000000000000000O10000O2O0O100O2O0O2O0O2O1N2O1N2N2N2N2M4M2N3L5L3K5K7HRjR5"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "cover",
+          "justification": "Part 2 has a broad, flat top surface positioned above all others like a cap designed for protection rather than interaction; unlike its leg-like counterparts below which invite grasping by their rounded ends, this uppermost element\u2019s expansive form suggests shielding instead of manipulation",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "cover",
+                "logprob": -1.7115239513514098,
+                "prob": 0.2320065591413744
+              },
+              {
+                "option": "none",
+                "logprob": -1.8371523680980317,
+                "prob": 0.2046164450101342
+              },
+              {
+                "option": "shade",
+                "logprob": -2.211548261460848,
+                "prob": 0.14071567051874542
+              },
+              {
+                "option": "decorate",
+                "logprob": -2.2118355286074802,
+                "prob": 0.1406752533351315
+              },
+              {
+                "option": "orient",
+                "logprob": -2.5866203540936112,
+                "prob": 0.09670539970723747
+              },
+              {
+                "option": "amplify",
+                "logprob": -3.838837602759668,
+                "prob": 0.02764519661828655
+              },
+              {
+                "option": "anchor",
+                "logprob": -4.336771195696201,
+                "prob": 0.01680234397642244
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -4.586607868195529,
+                "prob": 0.013087816072006249
+              },
+              {
+                "option": "align",
+                "logprob": -4.587242875481024,
+                "prob": 0.013079507851618714
+              },
+              {
+                "option": "attach",
+                "logprob": -4.899736206745729,
+                "prob": 0.009569236177664833
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "cover",
+              "shade",
+              "display",
+              "decorate",
+              "contain",
+              "hold_food",
+              "sit",
+              "rest",
+              "place"
+            ],
+            "n_valid": 9,
+            "invalid": [
+              "Based on the visual characteristics of part 2 (a large, orange, mushroom-like cap on top of the object), here are the 10 most plausible affordances ranked from most to least likely:",
+              "seat"
+            ],
+            "raw": "Based on the visual characteristics of part 2 (a large, orange, mushroom-like cap on top of the object), here are the 10 most plausible affordances ranked from most to least likely:\n\n1. cover\n2. shade\n3. display\n4. decorate\n5. contain\n6. hold_food\n7. seat\n8. sit\n9. rest\n10. place"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_20_region_20",
+      "area": 26747,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "P]_43lo02N1O2O0O1O2N1O1O101N1O1O2N1O2N1O2N1O2N2N2N1N3N2N2N2M3N2M4M2N3L4M4K5K5L8Hn0QO:F=D7H8H6K5J6J5J6L4J6J5L4K5K6J5K5K5K5I7M3M2O2M3N101N101O001N101O0000001O000000000000000000000001O0000000O101O000O2O1O000O2O1O1O1N2O1O1N2O2N2M3N2M3N3L6K3L9H5Jb0_Oe0ZO7J5J5L3L4M1N2O2M2N2O1N101N1O100O1O100O10O01O1O10O01O010O0010O00010O001O00010O00001O001O0O10O10O01O1N2M3N1I8M3F:K6K4M4M3E=K5YNhQO70d0gn0ZO]QO9LCmn03YQOMK4So0MZQOOjn0OP`ge0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "channel water",
+          "justification": "Part three features a long, curved tube-like structure extending outward like a spout designed for directing flow; unlike its bulbous neighbors which are meant for holding volume, such elongated openings typically function as conduits rather than containers",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "channel water",
+                "logprob": -0.34018802949867677,
+                "prob": 0.8110738229496881
+              },
+              {
+                "option": "none",
+                "logprob": -2.71375405654544,
+                "prob": 0.07554987619421283
+              },
+              {
+                "option": "bend",
+                "logprob": -3.385592622405966,
+                "prob": 0.0385885069270198
+              },
+              {
+                "option": "aim",
+                "logprob": -4.3384164465242065,
+                "prob": 0.014881676037819829
+              },
+              {
+                "option": "blow",
+                "logprob": -4.83950230613118,
+                "prob": 0.009016396926124893
+              },
+              {
+                "option": "absorb",
+                "logprob": -5.152260187693173,
+                "prob": 0.006594836002023432
+              },
+              {
+                "option": "attach",
+                "logprob": -5.338597655063495,
+                "prob": 0.00547367069874212
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -5.588546727387097,
+                "prob": 0.004263116131525784
+              },
+              {
+                "option": "anchor",
+                "logprob": -5.650760826392798,
+                "prob": 0.0040059721299540284
+              },
+              {
+                "option": "blend",
+                "logprob": -5.71361993154278,
+                "prob": 0.0037619113838033187
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "pour",
+              "channel water",
+              "dispense",
+              "drain",
+              "scoop",
+              "fill",
+              "release",
+              "direct",
+              "move",
+              "carry"
+            ],
+            "n_valid": 10,
+            "invalid": [
+              "Based on the visual characteristics of part 3 (a long, curved, tube-like structure with an open end at the top, resembling a spout or nozzle), its primary function is to direct or move a substance (liquid or gas).",
+              "Here are the 10 most plausible affordances for part 3, ranked by likelihood:"
+            ],
+            "raw": "Based on the visual characteristics of part 3 (a long, curved, tube-like structure with an open end at the top, resembling a spout or nozzle), its primary function is to direct or move a substance (liquid or gas).\n\nHere are the 10 most plausible affordances for part 3, ranked by likelihood:\n\n1. pour\n2. channel water\n3. dispense\n4. drain\n5. scoop\n6. fill\n7. release\n8. direct\n9. move\n10. carry"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_20_region_10",
+      "area": 29010,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "PlR6>^o07I7J5K5K4L4L4M3L4L4L4M3L3M4M3L4L3M4L3M3N3L3N3N100O1HiLhSOW3Ul0lLiSOU3Ul0<N3M2N2N2O2M2N2N2O1O1O2O0O1KgKdTOX4[k07O1O1N3N1O1O1O1O100O20OKVKTUOj4kj06O1O1O1O1O1O1O1O1O100O1O1O2N1O100O1O1O10O01O1O100O1O100O1O100O100O1O100O100O1O10O0100O1O100O10O01O100O10O0100O100O1O010O100O010O1O00100O010O1O010O001O010O000000001O0000O00100N1TNWWObLjh0[3kWOoKXh0n3n1N3M3O2L3N3N2N2N2N2N2N3N1N3N1N2O2M2O2N1O2M2O2O1N3L2O2N1O2N2O0O2N1O2O0O2N1O2O0O2N2N2O0O2N2O1N2N101N1O2O0O2O0O2O1N3M2O1N101N2O0O2O001N2O2N1N101N3N1O0O2O001O1N2O2M2O1O2N2M2O2MZXcb0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 4 appears as a solid, rounded appendage without any visible functional features like openings, textures for grip, or structural supports suggesting interaction; unlike others such as part 7 which has an opening implying use, its smooth form suggests purely decorative placement among similar limbs rather than serving a distinct purpose itself within the overall design",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.4316950817592442,
+                "prob": 0.2984284534861142
+              },
+              {
+                "option": "anchor",
+                "logprob": -1.5564882229373325,
+                "prob": 0.2634166702712045
+              },
+              {
+                "option": "balance",
+                "logprob": -3.4315001398790628,
+                "prob": 0.040395773338896615
+              },
+              {
+                "option": "channel water",
+                "logprob": -3.433414210943738,
+                "prob": 0.040318526909175215
+              },
+              {
+                "option": "bend",
+                "logprob": -3.4863226073939586,
+                "prob": 0.03824078788486973
+              },
+              {
+                "option": "carry",
+                "logprob": -3.5565279059228487,
+                "prob": 0.03564815502711061
+              },
+              {
+                "option": "stand",
+                "logprob": -3.743954139528796,
+                "prob": 0.029555538651983383
+              },
+              {
+                "option": "lean",
+                "logprob": -3.868897172389552,
+                "prob": 0.026084157212086526
+              },
+              {
+                "option": "walk",
+                "logprob": -4.057034232770093,
+                "prob": 0.021610754110527926
+              },
+              {
+                "option": "block",
+                "logprob": -4.4939078986644745,
+                "prob": 0.013961693493289391
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Based on the visual analysis of part 4 (the orange leg-like structure at the bottom left):",
+              "**stand** - This is the most plausible function. The object is a mushroom-like figure, and part 4 is one of the legs supporting the main body (part 1). Its primary affordance is to provide stability and allow the object to stand upright.",
+              "**support** - Closely related to standing, this is the mechanical function of the leg to bear the weight of the upper structure.",
+              "**balance** - Legs are essential for maintaining the center of gravity and keeping the object stable.",
+              "**prevent falling** - Similar to balance, the legs' purpose is to keep the object from tipping over.",
+              "**lift** - While primarily a support structure, legs are the mechanism used to raise the object from the ground.",
+              "**move** - In the context of a toy or figur"
+            ],
+            "raw": "Based on the visual analysis of part 4 (the orange leg-like structure at the bottom left):\n\n1.  **stand** - This is the most plausible function. The object is a mushroom-like figure, and part 4 is one of the legs supporting the main body (part 1). Its primary affordance is to provide stability and allow the object to stand upright.\n2.  **support** - Closely related to standing, this is the mechanical function of the leg to bear the weight of the upper structure.\n3.  **balance** - Legs are essential for maintaining the center of gravity and keeping the object stable.\n4.  **prevent falling** - Similar to balance, the legs' purpose is to keep the object from tipping over.\n5.  **lift** - While primarily a support structure, legs are the mechanism used to raise the object from the ground.\n6.  **move** - In the context of a toy or figur"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_20_region_8",
+      "area": 26991,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "egX`04ko02VPOMeo08HIdPO8[o0JdPO7Zo0:M2O1N3N1O2N2N2N1fUOZOXe0h0aZO@\\e0b0]ZOE`e0?YZOHce0<VZOJhe09PZOMne07kYONTf06cYO0\\f04[YO2df03RYO3mf01kXO4Sg05[XO6dg02gWO<Xh0f310JXIRWOi6lh0601N10001O00001O0O101O0000001O0000000O2O000O100O2O000O1O1O101N1000000000000O101O01O000000001O00001O001O1O0000O1000000001O001O1O1O001O9G6J2N3M3M4L3M2M3N3mIZVOf5hi0WJZVOh5oi00O11O001O2N2N1N3N3M1O2M3N2N2QKXUOb4jj0[KXUOd4jj0YKVUOg4Sk0O001O1O1N4M3M3L4M4L4K3N5J5eLdSOg2dl0TM\\SOl2fl0QM\\SOo2kl0O103K6K5J5L5J4L5K5L3L3M5K4D]QOSOin0h0YQOVOln0f0;K5KRSi:"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 5 appears as a smooth, rounded protrusion without any visible texture, handle-like structure, or functional indentation suggesting interaction; unlike surrounding elements such as tubes or knobs designed for grasping or pouring, its form suggests purely decorative integration into the base of the overall assembly",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.9226179411634803,
+                "prob": 0.5281019435900014
+              },
+              {
+                "option": "anchor",
+                "logprob": -2.42266696767183,
+                "prob": 0.11782969432783129
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -3.422467666248366,
+                "prob": 0.043355762106816555
+              },
+              {
+                "option": "support",
+                "logprob": -3.4852615589043126,
+                "prob": 0.040717001085190996
+              },
+              {
+                "option": "stand",
+                "logprob": -3.734954045066843,
+                "prob": 0.03172018522569786
+              },
+              {
+                "option": "align",
+                "logprob": -4.422609184111934,
+                "prob": 0.015947436528571127
+              },
+              {
+                "option": "balance",
+                "logprob": -4.547766681527719,
+                "prob": 0.014071346965312695
+              },
+              {
+                "option": "sit",
+                "logprob": -4.859795068317908,
+                "prob": 0.010299673677074902
+              },
+              {
+                "option": "attach",
+                "logprob": -4.923094701603986,
+                "prob": 0.009667914117304216
+              },
+              {
+                "option": "cool",
+                "logprob": -4.98616115830373,
+                "prob": 0.009077021615685004
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "stand",
+              "support",
+              "walk",
+              "descend",
+              "move",
+              "place",
+              "hold",
+              "carry",
+              "balance",
+              "none"
+            ],
+            "n_valid": 10,
+            "invalid": [
+              "Based on the visual analysis of part 5 (the purple, bulbous leg-like structure at the bottom center of the object), here is the ranking of its most plausible affordances:"
+            ],
+            "raw": "Based on the visual analysis of part 5 (the purple, bulbous leg-like structure at the bottom center of the object), here is the ranking of its most plausible affordances:\n\n1. stand\n2. support\n3. walk\n4. descend\n5. move\n6. place\n7. hold\n8. carry\n9. balance\n10. none"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_20_region_5",
+      "area": 26448,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "^g`c03lo02N2N1O2O0O100O2O0O2O0O1O2O0O2O0O101N101N100O101N2O001N101N1O2N1O2O0O2N101N1O2O1N101N101N2O001N2O001N2N101N2N101N2O1N2N1O2N2N2N2N2N2M3N2N2N2N2N2M4M2N2N2O2M3N1O2O0O2O1O10001O1O3WUOcLfh0a3jVOnLTi0Y3WVOVMhi0b4O1O1O0O1000000O10O10O10O0100O010O01O010O001O010O00010O0010O01O001O010O001O0010O01O001O001O001O001O1O001O001O10O01O1O001O1O001O1O001O1O1O1O001O1O1O001O1O1O1O1O1O1N2O1O1O1O1O1O1O1O1O2N1O1N3N1O1O1O2N1O2M2O1O2N2N2N1N3N2N1O3L3N2N2N2M4M2N2N3L3N3M2M4M2M4M2M3M4M2M4L3M3M4L4L3M4K5K5K6I8GfTX5"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 6 appears as a smooth, rounded appendage without any visible texture protrusions like knobs or ridges found in adjacent limbs such as number four; its uniform surface suggests no functional interaction point exists for grasping objects despite being positioned near others designed for manipulation tasks",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.7109966739080846,
+                "prob": 0.6086027895551716
+              },
+              {
+                "option": "anchor",
+                "logprob": -2.960856560850516,
+                "prob": 0.06415525044389346
+              },
+              {
+                "option": "balance",
+                "logprob": -3.1483084222709294,
+                "prob": 0.05318913108973663
+              },
+              {
+                "option": "walk",
+                "logprob": -3.9610810181475244,
+                "prob": 0.023596100770071692
+              },
+              {
+                "option": "bend",
+                "logprob": -4.108539096661843,
+                "prob": 0.02036104259260533
+              },
+              {
+                "option": "align",
+                "logprob": -4.39842900284566,
+                "prob": 0.015237103788527245
+              },
+              {
+                "option": "attach",
+                "logprob": -4.398623187851626,
+                "prob": 0.015234145258697521
+              },
+              {
+                "option": "support",
+                "logprob": -4.5234796375152655,
+                "prob": 0.013446016045918094
+              },
+              {
+                "option": "rotate",
+                "logprob": -4.648118228360545,
+                "prob": 0.011870356793101009
+              },
+              {
+                "option": "stand",
+                "logprob": -4.710743836738402,
+                "prob": 0.011149767639507872
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "stand",
+              "support",
+              "sit",
+              "balance",
+              "hold",
+              "place",
+              "rest",
+              "lean",
+              "cover",
+              "none"
+            ],
+            "n_valid": 10,
+            "invalid": [
+              "Based on the visual analysis of part 6 (a brown, leg-like appendage at the base of the object), here is the ranking of its most plausible affordances:"
+            ],
+            "raw": "Based on the visual analysis of part 6 (a brown, leg-like appendage at the base of the object), here is the ranking of its most plausible affordances:\n\n1. stand\n2. support\n3. sit\n4. balance\n5. hold\n6. place\n7. rest\n8. lean\n9. cover\n10. none"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_20_region_21",
+      "area": 16901,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "k[n14ao0d0_O=G8I5K6I6L3L5L3M3L4M3L4M3N2M3M2O2M3M2O2M3M2O2M2O1N3N1N2O2N1N2O2M2O1O1O1O1O1O1O1O1O1N2O1O1O1O1O100O1O1O1O001O1O1O010O1O1O010O00100O0010O0100O010O010O100O010O01O1O001O10O01O1O1O1O100O1O1O1O1O1O1O1O1N200O1O1N3N1O1O1N3N1N3N1O2M2O2M2N3N2N1N3M3N2M3M2O2M3M3L5M2L5K4M4K5K5K5K6J5K8F?VOofei0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 7 appears as a hollow tube-like structure positioned at arm\u2019s length rather than integrated into the body surface like most others; its open end suggests containment of something else instead of serving itself directly through touch or manipulation by another agent\u2014unlike many surrounding protrusions which seem designed for grasping or interacting externally via their",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.1157485422154423,
+                "prob": 0.4145192962849131
+              },
+              {
+                "option": "channel water",
+                "logprob": -1.6171596620115452,
+                "prob": 0.25106413059005395
+              },
+              {
+                "option": "aim",
+                "logprob": -2.240521286788862,
+                "prob": 0.13460529861551668
+              },
+              {
+                "option": "blow",
+                "logprob": -3.240908276900882,
+                "prob": 0.049499362562504645
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -3.6780158120960778,
+                "prob": 0.03197173581669851
+              },
+              {
+                "option": "drink",
+                "logprob": -4.490864950465038,
+                "prob": 0.014182419276046875
+              },
+              {
+                "option": "inject",
+                "logprob": -4.490915107890032,
+                "prob": 0.014181707940255342
+              },
+              {
+                "option": "administer",
+                "logprob": -4.616103361709975,
+                "prob": 0.012512957496846744
+              },
+              {
+                "option": "absorb",
+                "logprob": -4.741503925048164,
+                "prob": 0.011038223839685828
+              },
+              {
+                "option": "bend",
+                "logprob": -4.748141735675745,
+                "prob": 0.010965196838010892
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "channel water",
+              "hold_food",
+              "drain",
+              "scoop",
+              "carry",
+              "collect",
+              "fill",
+              "dispense",
+              "pour",
+              "deposit"
+            ],
+            "n_valid": 10,
+            "invalid": [
+              "Based on the visual characteristics of part 7 (a tube-like structure with an open end facing upwards/outwards, attached to a larger body), its primary function appears to be a conduit or receptacle."
+            ],
+            "raw": "Based on the visual characteristics of part 7 (a tube-like structure with an open end facing upwards/outwards, attached to a larger body), its primary function appears to be a conduit or receptacle.\n\n1. channel water\n2. hold_food\n3. drain\n4. scoop\n5. carry\n6. collect\n7. fill\n8. dispense\n9. pour\n10. deposit"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_20_region_4",
+      "area": 12288,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "kjk<8co08K5J4L5L3L4L4L4L3M4K5L3L5L3M4K4M3K6K4L4L5K4L4M3L5K4M3O101N10000000001O0000000000001O0000000000000001O00000000000000000000000000000000000000000000001O0000000O100000001O00000O100000001N1000000O2O00000O101O001N101N2mLbSOb2_m0_O7H5L5J6J4M3L5K3M4K5L4K5K7H[UZ?"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 8 appears as a small, flat-topped cylinder tucked between larger limbs without any protruding features like knobs or ridges typically associated with functional interaction points in similar designs; its smooth surface suggests no intended tactile engagement compared to more complexly shaped adjacent elements such as those resembling handles or grips elsewhere",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.3826421082194429,
+                "prob": 0.7734647731999682
+              },
+              {
+                "option": "anchor",
+                "logprob": -3.132789040042553,
+                "prob": 0.04943868401973889
+              },
+              {
+                "option": "align",
+                "logprob": -3.257800002436852,
+                "prob": 0.04362900723427638
+              },
+              {
+                "option": "stand",
+                "logprob": -4.570624411746394,
+                "prob": 0.011738779208757079
+              },
+              {
+                "option": "nail",
+                "logprob": -4.599081305554137,
+                "prob": 0.011409438250304703
+              },
+              {
+                "option": "clean",
+                "logprob": -5.070150331244804,
+                "prob": 0.007123305717692732
+              },
+              {
+                "option": "balance",
+                "logprob": -5.1953562425333075,
+                "prob": 0.006285000946134445
+              },
+              {
+                "option": "label",
+                "logprob": -5.382810845592758,
+                "prob": 0.005210685335940018
+              },
+              {
+                "option": "support",
+                "logprob": -5.383806007448584,
+                "prob": 0.005205502439988892
+              },
+              {
+                "option": "attach",
+                "logprob": -5.445693378336728,
+                "prob": 0.004893113736514989
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "stand",
+              "support",
+              "balance",
+              "hold",
+              "attach",
+              "plug",
+              "seal",
+              "anchor",
+              "click"
+            ],
+            "n_valid": 9,
+            "invalid": [
+              "Based on the visual analysis of part 8, which is a small, flat, greyish-green component located at the base of the central body (part 1), between the larger legs (parts 4, 5, and 6), its form suggests a structural or stabilizing role. It appears to be a small foot or a connector point.",
+              "Here are the 10 most plausible affordances for part 8, ranked from most to least likely:",
+              "depress"
+            ],
+            "raw": "Based on the visual analysis of part 8, which is a small, flat, greyish-green component located at the base of the central body (part 1), between the larger legs (parts 4, 5, and 6), its form suggests a structural or stabilizing role. It appears to be a small foot or a connector point.\n\nHere are the 10 most plausible affordances for part 8, ranked from most to least likely:\n\n1. stand\n2. support\n3. balance\n4. hold\n5. attach\n6. plug\n7. seal\n8. anchor\n9. depress\n10. click"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_20_region_1",
+      "area": 7329,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "i^gd05jo05J5L4L3M4M2M3M3N1N2N3M2O1N2N2O1N2N1O2N2O1N2N2O0O2N2O1N1O2N2O1N1O2N1O2N100O2N1O2N100O001O001O0001O000IhROeMZm0]23010O0000O10000O2O0M31O000001O000000000L410O01O0001O000000000O2O00001O0O101O001O1O001O1O1N2O001O1O1O1O2N1O1N2O2N1O1N3N1O2M3N5K1N3M2N3M3M4KWc^7"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "adjust",
+          "justification": "Part 9 has a tapered stem ending in a flat surface opposite its base, resembling a lever designed for manual manipulation rather than passive support like legs or structural caps; unlike cylindrical stems meant primarily for attachment or protrusion, its asymmetry suggests intentional engagement by hand during operation",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "adjust",
+                "logprob": -2.168410857237177,
+                "prob": 0.15591138063678564
+              },
+              {
+                "option": "align",
+                "logprob": -2.2933644968725275,
+                "prob": 0.13759768942084175
+              },
+              {
+                "option": "none",
+                "logprob": -2.418633452442009,
+                "prob": 0.12139687995856475
+              },
+              {
+                "option": "channel water",
+                "logprob": -2.7348866751417518,
+                "prob": 0.08848313377955337
+              },
+              {
+                "option": "bend",
+                "logprob": -3.261599193458096,
+                "prob": 0.05225311136737538
+              },
+              {
+                "option": "attach",
+                "logprob": -3.3560091722756624,
+                "prob": 0.04754560986191551
+              },
+              {
+                "option": "block",
+                "logprob": -3.5433615173387807,
+                "prob": 0.03942251551649017
+              },
+              {
+                "option": "aim",
+                "logprob": -3.6059137174743228,
+                "prob": 0.03703209291443386
+              },
+              {
+                "option": "orient",
+                "logprob": -3.6059467284649145,
+                "prob": 0.03703087046854025
+              },
+              {
+                "option": "blend",
+                "logprob": -3.6684228939120658,
+                "prob": 0.034788112594727395
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "hold",
+              "support",
+              "balance"
+            ],
+            "n_valid": 3,
+            "invalid": [
+              "Based on the visual characteristics of part 9 (a small, green, finger-like appendage attached to the main body), here are the 10 most plausible affordances it offers, ranked from most to least likely:",
+              "grasp",
+              "touch",
+              "feel",
+              "manipulate",
+              "interact",
+              "stabilize",
+              "guide"
+            ],
+            "raw": "Based on the visual characteristics of part 9 (a small, green, finger-like appendage attached to the main body), here are the 10 most plausible affordances it offers, ranked from most to least likely:\n\n1. grasp\n2. hold\n3. touch\n4. feel\n5. manipulate\n6. interact\n7. support\n8. balance\n9. stabilize\n10. guide"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_20_region_0",
+      "area": 6671,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "_^^`03go0;H4M4K4M4J5M3K5L3M4K5L4L3M4L4L3L5L3M4K4M3M4L3N2N2M3N2O2M2N2O1N2O1O1O100O2O0O100O010000000O10000001O000O10001O0O101O0O2O1N1O2O2M2N3M4L4L8Fnc[="
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 13 appears as a small protrusion without any visible functional features like openings for insertion or attachment points; its smooth surface suggests no clear purpose beyond being decorative rather than serving a mechanical role within the structure\u2019s design compared to more complexly shaped components such as those resembling tubes or sockets elsewhere in the assembly",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.6584444985492155,
+                "prob": 0.2579095311843724
+              },
+              {
+                "option": "align",
+                "logprob": -2.282838308427017,
+                "prob": 0.13813273341451227
+              },
+              {
+                "option": "amplify",
+                "logprob": -2.283564656840099,
+                "prob": 0.13803243735215442
+              },
+              {
+                "option": "aim",
+                "logprob": -2.5329455621831585,
+                "prob": 0.10756634343793792
+              },
+              {
+                "option": "inject",
+                "logprob": -3.5958159758592956,
+                "prob": 0.03716016639721011
+              },
+              {
+                "option": "block",
+                "logprob": -3.9079829791153315,
+                "prob": 0.027196013186624176
+              },
+              {
+                "option": "channel water",
+                "logprob": -4.037343370873714,
+                "prob": 0.02389597409353768
+              },
+              {
+                "option": "orient",
+                "logprob": -4.09557329834206,
+                "prob": 0.022544250558896084
+              },
+              {
+                "option": "adjust",
+                "logprob": -4.283204949577339,
+                "prob": 0.01868737978229477
+              },
+              {
+                "option": "anchor",
+                "logprob": -4.470506334211677,
+                "prob": 0.01549545931272287
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "press",
+              "click",
+              "select",
+              "input",
+              "button",
+              "switch",
+              "control",
+              "trigger",
+              "engage",
+              "align"
+            ],
+            "n_valid": 10,
+            "invalid": [
+              "Based on the visual analysis of part 10 (a small, teal, finger-like protrusion on the main body), here is the ranking of its most plausible affordances:"
+            ],
+            "raw": "Based on the visual analysis of part 10 (a small, teal, finger-like protrusion on the main body), here is the ranking of its most plausible affordances:\n\n1. **press**\n2. **click**\n3. **select**\n4. **input**\n5. **button**\n6. **switch**\n7. **control**\n8. **trigger**\n9. **engage**\n10. **align**"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_20_region_6",
+      "area": 6070,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "h[n<=`o09H:F>C>B9G>C6I8H7I5L2M3N1N2O1O1O001O001O0000010O0001O0010O01O1O1O1O1O1O2N2N2N2N2N3M2M3N3M2M3N2M3N3L3N3L3N2M3M3M3M3M3M3M3L4M3L4L4L4M3L4L5JZbk`0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "align",
+          "justification": "Part 13 has a smooth, rounded top surface designed for placing objects flatly without slipping; unlike the tubular stem of part 7 which guides insertion into holes, its broad face encourages horizontal alignment rather than vertical placement",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "align",
+                "logprob": -1.5802179178281222,
+                "prob": 0.2620337743867629
+              },
+              {
+                "option": "none",
+                "logprob": -1.7057020115898922,
+                "prob": 0.23113207758506643
+              },
+              {
+                "option": "aim",
+                "logprob": -2.955348287563538,
+                "prob": 0.06624387684347045
+              },
+              {
+                "option": "anchor",
+                "logprob": -3.0803598460333887,
+                "prob": 0.05845934042512923
+              },
+              {
+                "option": "adjust",
+                "logprob": -3.393097897002008,
+                "prob": 0.042759586940195986
+              },
+              {
+                "option": "attach",
+                "logprob": -3.5180905108572915,
+                "prob": 0.03773548174921948
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -3.705242848281557,
+                "prob": 0.03129469126057445
+              },
+              {
+                "option": "block",
+                "logprob": -3.7678360139834695,
+                "prob": 0.029395902949386786
+              },
+              {
+                "option": "inject",
+                "logprob": -3.955746679857839,
+                "prob": 0.024360053603134518
+              },
+              {
+                "option": "click",
+                "logprob": -4.01803070504684,
+                "prob": 0.02288909549990171
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "press",
+              "click",
+              "trigger",
+              "detect",
+              "indicate",
+              "support",
+              "balance",
+              "hold",
+              "adjust",
+              "input"
+            ],
+            "n_valid": 10,
+            "invalid": [
+              "Based on the visual analysis of part 11 (a small, blue, finger-like protrusion on the main body), here is the ranking of its most plausible affordances:"
+            ],
+            "raw": "Based on the visual analysis of part 11 (a small, blue, finger-like protrusion on the main body), here is the ranking of its most plausible affordances:\n\n1. press\n2. click\n3. trigger\n4. detect\n5. indicate\n6. support\n7. balance\n8. hold\n9. adjust\n10. input"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_20_region_13",
+      "area": 5913,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "P]ic04jo05L3M4K3N3M2N2N2M3N2M3N2N1N3N1O2M2O2N2M2N3N1O2N1N3N1N3N1N3N1O2M2O1O2M2O1N3N1O2N1N2O1N2O1O1N2O0O2O001N10O1M3N2N2N2O1O1O1O1O2N1O2O0O2M3N101M3O1N2N1O2N2N2N2N2N3M2N2N2N3M2N3N1N3M3M3M3M4K4M5JZeX9"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 13 appears as a small protrusion without any visible functional features like openings for insertion or attachment points; its smooth surface suggests no clear purpose beyond being decorative rather than serving a mechanical role within the structure\u2019s design compared to more complexly shaped components such as those resembling tubes or sockets elsewhere in the assembly",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.4115820142324083,
+                "prob": 0.32249304672955376
+              },
+              {
+                "option": "aim",
+                "logprob": -2.5361847534950357,
+                "prob": 0.10473976405884756
+              },
+              {
+                "option": "attach",
+                "logprob": -2.8488430094730575,
+                "prob": 0.07661712228053012
+              },
+              {
+                "option": "adjust",
+                "logprob": -2.8488968680030666,
+                "prob": 0.07661299590607179
+              },
+              {
+                "option": "orient",
+                "logprob": -2.9737710347108077,
+                "prob": 0.0676192398010792
+              },
+              {
+                "option": "attack",
+                "logprob": -3.098755661951145,
+                "prob": 0.05967468703714797
+              },
+              {
+                "option": "align",
+                "logprob": -3.7236966712225694,
+                "prob": 0.03194344254129723
+              },
+              {
+                "option": "deflect",
+                "logprob": -3.932133184571285,
+                "prob": 0.025933366077293307
+              },
+              {
+                "option": "block",
+                "logprob": -4.161183323361911,
+                "prob": 0.020624511897096267
+              },
+              {
+                "option": "bump",
+                "logprob": -4.456411214603577,
+                "prob": 0.015352101575282929
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "cover",
+              "hold",
+              "decorate",
+              "display",
+              "reinforce",
+              "attach",
+              "seal",
+              "block",
+              "plug",
+              "contain"
+            ],
+            "n_valid": 10,
+            "invalid": [
+              "Based on the visual analysis of part 12:"
+            ],
+            "raw": "Based on the visual analysis of part 12:\n\n1.  **cover**\n2.  **hold**\n3.  **decorate**\n4.  **display**\n5.  **reinforce**\n6.  **attach**\n7.  **seal**\n8.  **block**\n9.  **plug**\n10. **contain**"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_20_region_18",
+      "area": 5118,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "jZb:;bo06K5K5L3M3L5L3M3N3L4M3L4M2M4M3M3L4M3L4M3M3M3M3M3M2N3M3M2O2M10O010N2O1N2O1O1N2O2M2O2M2O1N3N2M3N2M2O2M3M3N1N3N2M3N2N1N3N2M2O2M3N1O2M3N2M2O2M3N1O2M3N1N3N2M4L^cob0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 12 appears as a small protrusion without any visible functional features like openings for insertion or attachment points; its smooth surface suggests no clear interaction purpose compared to more complexly shaped elements such as those designed for gripping or holding objects",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.2244572771596722,
+                "prob": 0.3915725342032016
+              },
+              {
+                "option": "adjust",
+                "logprob": -2.4741761371842586,
+                "prob": 0.11221895416747382
+              },
+              {
+                "option": "align",
+                "logprob": -2.8489695202733856,
+                "prob": 0.07714282144138125
+              },
+              {
+                "option": "attach",
+                "logprob": -2.849131457216572,
+                "prob": 0.07713033018011388
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -3.224006019872263,
+                "prob": 0.05301749895958621
+              },
+              {
+                "option": "block",
+                "logprob": -3.6614705927786417,
+                "prob": 0.03423188279278407
+              },
+              {
+                "option": "click",
+                "logprob": -4.224120137980208,
+                "prob": 0.0195018222515129
+              },
+              {
+                "option": "aim",
+                "logprob": -4.411511705053272,
+                "prob": 0.016169331696991515
+              },
+              {
+                "option": "anchor",
+                "logprob": -4.536522548849462,
+                "prob": 0.014269230405992674
+              },
+              {
+                "option": "clip",
+                "logprob": -4.536762989300769,
+                "prob": 0.014265799918224594
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Based on the visual analysis of part 13:",
+              "**shade** (Most plausible: It is a small, flat, leaf-like appendage positioned on the upper stem, similar to a sunshade or a small flag, suggesting a function to block light or provide shade.)",
+              "**decorate** (Plausible: Its distinct color and shape suggest an aesthetic purpose, adding visual interest to the object.)",
+              "**signal** (Plausible: Small protrusions like this often serve as indicators or flags to show direction or status.)",
+              "**balance** (Plausible: It acts as a counterweight or stabilizer on the upper structure.)",
+              "**cover** (Plausible: It could serve as a small protective cap or shield for the stem area.)",
+              "**indicate** (Plausible: Similar to signaling, it might point to a specific direction.)",
+              "**mark** (Plausible"
+            ],
+            "raw": "Based on the visual analysis of part 13:\n\n1.  **shade** (Most plausible: It is a small, flat, leaf-like appendage positioned on the upper stem, similar to a sunshade or a small flag, suggesting a function to block light or provide shade.)\n2.  **decorate** (Plausible: Its distinct color and shape suggest an aesthetic purpose, adding visual interest to the object.)\n3.  **signal** (Plausible: Small protrusions like this often serve as indicators or flags to show direction or status.)\n4.  **balance** (Plausible: It acts as a counterweight or stabilizer on the upper structure.)\n5.  **cover** (Plausible: It could serve as a small protective cap or shield for the stem area.)\n6.  **indicate** (Plausible: Similar to signaling, it might point to a specific direction.)\n7.  **mark** (Plausible"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_20_region_2",
+      "area": 4825,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "c`Vg03lo03N3L7Jd0\\O=[QOhNhm0i10O01OO100O10000O101O000O10000O1000001O0O100000000O100000000O1000000O101O000O10000000000O10001O00000O1000000O100000000O2O0000000O1000000O2O0000000O101O000O101N10001N101N2O0O2N2N2N3M2N3L4L7Hg^d5"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 13 appears as a small protrusion without any discernible functional features like openings for insertion or attachment points; its smooth surface suggests no clear purpose beyond being decorative rather than serving a practical role within the structure\u2019s design compared to more complexly shaped elements such as those resembling tubes or sockets elsewhere in the figure",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.9420675245346501,
+                "prob": 0.5124321407320546
+              },
+              {
+                "option": "attack",
+                "logprob": -3.3168416977132438,
+                "prob": 0.0476743787631859
+              },
+              {
+                "option": "attach",
+                "logprob": -3.6920321344514377,
+                "prob": 0.03275985012388181
+              },
+              {
+                "option": "block",
+                "logprob": -3.8793287066509947,
+                "prob": 0.027164395091035347
+              },
+              {
+                "option": "adjust",
+                "logprob": -4.004489235812798,
+                "prob": 0.023968646552834306
+              },
+              {
+                "option": "seal",
+                "logprob": -4.229796605941374,
+                "prob": 0.019133471052768334
+              },
+              {
+                "option": "cover",
+                "logprob": -4.254314404417528,
+                "prob": 0.018670064532622987
+              },
+              {
+                "option": "aim",
+                "logprob": -4.31689806986833,
+                "prob": 0.017537435166715545
+              },
+              {
+                "option": "treat",
+                "logprob": -4.39514252205845,
+                "prob": 0.016217538764562004
+              },
+              {
+                "option": "deflect",
+                "logprob": -4.530238617066061,
+                "prob": 0.014168160112143249
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "detect"
+            ],
+            "n_valid": 1,
+            "invalid": [
+              "Based on the visual analysis of part 14, which is a small, reddish-brown protrusion on the side of the main body (part 1), it appears to be a sensory organ or a small appendage similar to the other small protrusions (parts 9, 10, 11, 12, 13). Given its shape and position, it is most likely a mouth, a sensor, or a small valve.",
+              "Here are the 10 most plausible affordances for part 14, ranked from most to least likely:",
+              "**eat** - It resembles a small mouth or oral opening.",
+              "**drink** - Similar to eating, it could be an intake point for liquids.",
+              "**input** - It could function as a sensor or input mechanism.",
+              "**scan** - If it is a sensor, it might be used for scanning the environment."
+            ],
+            "raw": "Based on the visual analysis of part 14, which is a small, reddish-brown protrusion on the side of the main body (part 1), it appears to be a sensory organ or a small appendage similar to the other small protrusions (parts 9, 10, 11, 12, 13). Given its shape and position, it is most likely a mouth, a sensor, or a small valve.\n\nHere are the 10 most plausible affordances for part 14, ranked from most to least likely:\n\n1. **eat** - It resembles a small mouth or oral opening.\n2. **drink** - Similar to eating, it could be an intake point for liquids.\n3. **input** - It could function as a sensor or input mechanism.\n4. **scan** - If it is a sensor, it might be used for scanning the environment.\n5. **detect**"
+          }
+        }
+      }
+    }
+  ],
+  "generation_option_order": "shuffled_per_part"
+}

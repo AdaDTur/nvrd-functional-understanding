@@ -1,0 +1,470 @@
+{
+  "object": "shape_16",
+  "model": "Qwen/Qwen3.5-4B",
+  "image_path": "/shared/nas/data/m1/adadt2/nvrd/regions_test/data/novel/shape_16.png",
+  "region_source": "sam_slic",
+  "method": "per_part_with_comparative_context",
+  "top_k": 10,
+  "modes": [
+    "logprob",
+    "generation"
+  ],
+  "regions": [
+    {
+      "region_id": "shape_16_region_3",
+      "area": 49235,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "WUW9Y37jLQl0R5aN8H6J5L3M3M2N2O2M2O1N2O001O1N2O001O00001N101O00001N10001O001N10001O00001N10001O00001O0O101O00001O0000001N101O0000001O001O00000O2O0000000000000000000000000O1000000000000000000000O10000000000000O1000O10000O100000000000000000000000000000O10O100000000O10000000000000000000000000000O01000000000O10000000000O1000000O100O10000O100O100O100O1O100O1O1O001N2O1N2O1O1N2N2O1O1N2M3O1N2O1N2O1N2N2O1O1M3O1N2N2O1N2O2M2N2O1N2N2N2N2N2O1O1N3N1N2N2O1N2N3M2O1N2O2M2N2N2O2M2N3M2N3N1N3N2M3M3M3M3M3M3M4L4L4M4K5K8G=Cc0]OoiP?"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "anchor",
+          "justification": "Part 1\u2019s large, blocky top surface provides stability for placing objects while its elevated height prevents accidental contact during use; unlike the curved handle below which aids gripping motion rather than supporting weight at rest",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "anchor",
+                "logprob": -1.3216754134045914,
+                "prob": 0.3094124970752933
+              },
+              {
+                "option": "align",
+                "logprob": -1.5716146453050897,
+                "prob": 0.24098533879042153
+              },
+              {
+                "option": "none",
+                "logprob": -2.6968700847937725,
+                "prob": 0.07821650270003734
+              },
+              {
+                "option": "orient",
+                "logprob": -2.946744160261005,
+                "prob": 0.06092274473705631
+              },
+              {
+                "option": "block",
+                "logprob": -3.071491072012577,
+                "prob": 0.053777742319826925
+              },
+              {
+                "option": "adjust",
+                "logprob": -3.4467723963898607,
+                "prob": 0.036950469203931365
+              },
+              {
+                "option": "attach",
+                "logprob": -3.6969259534962475,
+                "prob": 0.028772635768942127
+              },
+              {
+                "option": "balance",
+                "logprob": -3.822120099735912,
+                "prob": 0.02538683270869789
+              },
+              {
+                "option": "control",
+                "logprob": -4.009642846940551,
+                "prob": 0.021045944792027153
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -4.0713833441745635,
+                "prob": 0.019785857164889224
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "balance"
+            ],
+            "n_valid": 1,
+            "invalid": [
+              "Based on the visual analysis of part 1 (the blue, blocky top section of the object, which resembles a stylized head or a control unit on a stand):",
+              "**stand** - The object is a vertical structure with a base, and part 1 is the topmost element that stands upright.",
+              "**support** - It serves as the upper support for the entire assembly.",
+              "**hold** - It is a solid object that can hold items or be held by a user.",
+              "**display** - Its flat, blocky surface is suitable for displaying information or serving as a screen.",
+              "**press** - The surface area suggests it could be pressed or pushed.",
+              "**click** - It has a shape that might be designed to be clicked or engaged.",
+              "**rotate** - The top surface is flat and could be rotated."
+            ],
+            "raw": "Based on the visual analysis of part 1 (the blue, blocky top section of the object, which resembles a stylized head or a control unit on a stand):\n\n1.  **stand** - The object is a vertical structure with a base, and part 1 is the topmost element that stands upright.\n2.  **support** - It serves as the upper support for the entire assembly.\n3.  **hold** - It is a solid object that can hold items or be held by a user.\n4.  **display** - Its flat, blocky surface is suitable for displaying information or serving as a screen.\n5.  **press** - The surface area suggests it could be pressed or pushed.\n6.  **click** - It has a shape that might be designed to be clicked or engaged.\n7.  **rotate** - The top surface is flat and could be rotated.\n8.  **balance**"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_16_region_5",
+      "area": 43738,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "a\\X=7ho07J1N2O0O2N1M4N1O001N1000000000000001O0000O10O10O100000O01001O0000O1O10O100O1O10000000O10O1000O1O1000O01O10O01O00100O01O01O10O01000O10O0O110O0000100O00000010O10N1010O100O10O00001O100O2N101N2O1M3O1O1O1N2N2N1N3N2N2N2O1M3O1N3M2N2N2O1N2N3L3L4A?O101N100010O0000010O00010O01O10O01O010O010O010O010O010O10O10O10O10O10O10O1000O0100O01000O100000O01000000O10000000O10O10001O00O100001O000O100000000000001O00000000001O00001O0000001O0000010O00001O001O010O001O001O010O001O1O010O1O010O002OO01O00100O10O0100O10000O1O10O01O2O0O100O10000O101N10001N10000O2O0O2O000O101O001N2O00001O1O001O1N2O001O1O1N110O1O1O1O1O010O2N002N1O1O100O1O1O101N1O10001N1O101O1N1O1O2O1O0O2OO11N2O1O0nWOUJle0l5oYOWJQf0j5lYOXJUf0i5fYOZJ\\f0f5`YO]J`f0d5[YO_Jef0c5VYO`Jjf0c5PYO_JRg0c5hXO`JYg0a5bXObJ`g0_5XXOeJig0i63M2O010N3N2N2N1O3L2O1N101N4L2N2N2O3M0O3L5L4L2O2O1M4L2N2O3L5K2N3M3L6K3N2M6J5K3N3L5K4L2M4M6J4K4M4L4K7J3L5L8G7I5K7J6J6I4M3L8H7I6I6K8GkVS6"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "align",
+          "justification": "Part 2 features a long, curved arm extending outward which naturally guides objects into alignment along its arc; unlike the blocky top section designed for stability or support legs meant primarily for standing upright, this elongated form suggests directional guidance rather than static holding functions",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "align",
+                "logprob": -1.661857201543171,
+                "prob": 0.2276999938214409
+              },
+              {
+                "option": "lever",
+                "logprob": -2.0366697245117393,
+                "prob": 0.15652510664601352
+              },
+              {
+                "option": "swing",
+                "logprob": -2.161877222446492,
+                "prob": 0.13810426246931518
+              },
+              {
+                "option": "orient",
+                "logprob": -2.162055247812532,
+                "prob": 0.13807967859577888
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -3.0370714009582045,
+                "prob": 0.05755924392563441
+              },
+              {
+                "option": "none",
+                "logprob": -3.0372518253861926,
+                "prob": 0.05754885976877965
+              },
+              {
+                "option": "anchor",
+                "logprob": -3.412119824846741,
+                "prob": 0.03955793564995637
+              },
+              {
+                "option": "aim",
+                "logprob": -3.849501629068982,
+                "prob": 0.025543541821298293
+              },
+              {
+                "option": "attach",
+                "logprob": -3.84971692081308,
+                "prob": 0.025538043099565078
+              },
+              {
+                "option": "balance",
+                "logprob": -3.9123815454076976,
+                "prob": 0.023986822140499582
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Based on the visual analysis of part 2 (the large, curved, brown handle-like structure), here is the ranking of its most plausible affordances:",
+              "**hold** - The shape is a handle, designed to be grasped and held.",
+              "**lift** - Handles are primarily used to lift the object they are attached to.",
+              "**carry** - Similar to holding, this is a function of a handle for transport.",
+              "**swing** - The curved shape suggests it could be used to swing or pivot the object.",
+              "**pull** - Handles are often used to pull objects or mechanisms.",
+              "**push** - While less intuitive for a curved handle than a straight one, it can be used to push.",
+              "**rotate** - The handle might be used to rotate the main body of the object.",
+              "**turn** - Related to rotation, used to change the orientation of the object."
+            ],
+            "raw": "Based on the visual analysis of part 2 (the large, curved, brown handle-like structure), here is the ranking of its most plausible affordances:\n\n1. **hold** - The shape is a handle, designed to be grasped and held.\n2. **lift** - Handles are primarily used to lift the object they are attached to.\n3. **carry** - Similar to holding, this is a function of a handle for transport.\n4. **swing** - The curved shape suggests it could be used to swing or pivot the object.\n5. **pull** - Handles are often used to pull objects or mechanisms.\n6. **push** - While less intuitive for a curved handle than a straight one, it can be used to push.\n7. **rotate** - The handle might be used to rotate the main body of the object.\n8. **turn** - Related to rotation, used to change the orientation of the object."
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_16_region_2",
+      "area": 11030,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "^eR;e1Wn0X2jM8H4L4L3M3M3N1N3M2O2N1N2N2O1M3O1O1N2O1O1O1O1N2O1O1N2N2O100O1N2O1O001O1O1N1010O0000O1000N3M2I7H8H8I7G:G7L5J6I8K4I8J5L4J6K6J5M4K4L5L3M4K4M3N3K4M4L4M2N3M2N3L4N2M3M3M3M2O2M4M2N3MY]Tb0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "anchor",
+          "justification": "Part three features a distinctively shaped protrusion at its base designed for stability; unlike the smooth surfaces of adjacent components like two which are meant primarily for gripping or structural support without direct ground contact",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "anchor",
+                "logprob": -0.6258225737838075,
+                "prob": 0.6039648837453622
+              },
+              {
+                "option": "none",
+                "logprob": -2.250956350355409,
+                "prob": 0.11891182834200643
+              },
+              {
+                "option": "align",
+                "logprob": -2.7507439433247782,
+                "prob": 0.07213899089353791
+              },
+              {
+                "option": "balance",
+                "logprob": -3.0010084028472193,
+                "prob": 0.05616704672321275
+              },
+              {
+                "option": "stand",
+                "logprob": -3.3756952132098377,
+                "prob": 0.03861510099005579
+              },
+              {
+                "option": "support",
+                "logprob": -3.5009193044388667,
+                "prob": 0.03407007135704184
+              },
+              {
+                "option": "lean",
+                "logprob": -4.250820548448246,
+                "prob": 0.01609515157272062
+              },
+              {
+                "option": "adjust",
+                "logprob": -4.938148148852633,
+                "prob": 0.008094545839137319
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -5.188155343515511,
+                "prob": 0.006303993282857912
+              },
+              {
+                "option": "orient",
+                "logprob": -5.5634325267747045,
+                "prob": 0.004331466220544591
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "stand",
+              "support",
+              "balance",
+              "hold",
+              "place",
+              "lean",
+              "rest",
+              "plug",
+              "anchor",
+              "cover"
+            ],
+            "n_valid": 10,
+            "invalid": [
+              "Based on the visual analysis of part 3 (the green vertical component attached to the base of the structure), here is the ranking of its most plausible affordances:"
+            ],
+            "raw": "Based on the visual analysis of part 3 (the green vertical component attached to the base of the structure), here is the ranking of its most plausible affordances:\n\n1. stand\n2. support\n3. balance\n4. hold\n5. place\n6. lean\n7. rest\n8. plug\n9. anchor\n10. cover"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_16_region_1",
+      "area": 4073,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "X]Q;8ao0:J4L3N3M2N3N2N2N2N2M3N2N2N3M2N2N2O1N2O1N2N2O1N2O1N101O0O2O001O000O100000000000000000O10001N100O101N101N101N1O2O0O2N1O2N2N2N2N2M4M3L4L5K4L6J5JTcfb0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "adjust",
+          "justification": "Part 4 appears as a small, rounded knob positioned at the junction of structural elements; its compact form suggests rotation for fine-tuning tension rather than supporting weight like leg supports or providing grip via surface texture seen elsewhere",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "adjust",
+                "logprob": -1.6591608559247106,
+                "prob": 0.23042651376961498
+              },
+              {
+                "option": "none",
+                "logprob": -2.1595027637085877,
+                "prob": 0.13971296829337979
+              },
+              {
+                "option": "align",
+                "logprob": -2.2839993920351844,
+                "prob": 0.12335834123863111
+              },
+              {
+                "option": "anchor",
+                "logprob": -2.2840837616822682,
+                "prob": 0.12334793397795059
+              },
+              {
+                "option": "attach",
+                "logprob": -2.6592327020480298,
+                "prob": 0.08476308699867514
+              },
+              {
+                "option": "button",
+                "logprob": -3.1593090700916946,
+                "prob": 0.05140748503761367
+              },
+              {
+                "option": "click",
+                "logprob": -3.7220476676593535,
+                "prob": 0.02928411408503142
+              },
+              {
+                "option": "block",
+                "logprob": -4.158987594011705,
+                "prob": 0.018917837522470293
+              },
+              {
+                "option": "orient",
+                "logprob": -4.159306210814975,
+                "prob": 0.01891181094169004
+              },
+              {
+                "option": "clip",
+                "logprob": -4.284306329966057,
+                "prob": 0.016689612589721407
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "hold",
+              "press",
+              "rotate",
+              "align"
+            ],
+            "n_valid": 4,
+            "invalid": [
+              "Based on the visual analysis of part 4 (the red circular component at the joint):",
+              "grasp",
+              "grip",
+              "turn",
+              "twist",
+              "spin",
+              "pivot",
+              "Since \"hold\" is not in the provided list, I will select the next most plausible options from the list provided:",
+              "grasp",
+              "grip",
+              "turn",
+              "twist",
+              "spin",
+              "pivot",
+              "Wait, I need to strictly use the provided list. Let me re-evaluate based *only* on the provided list.",
+              "Part 4 is a small, round, protruding element at a joint. It looks like a knob, a button, or a small wheel.",
+              "It could be used to **press** or **click** (to lock/un"
+            ],
+            "raw": "Based on the visual analysis of part 4 (the red circular component at the joint):\n\n1. hold\n2. grasp\n3. grip\n4. press\n5. rotate\n6. turn\n7. twist\n8. spin\n9. pivot\n10. align\n\nSince \"hold\" is not in the provided list, I will select the next most plausible options from the list provided:\n\n1. hold\n2. grasp\n3. grip\n4. press\n5. rotate\n6. turn\n7. twist\n8. spin\n9. pivot\n10. align\n\nWait, I need to strictly use the provided list. Let me re-evaluate based *only* on the provided list.\n\nPart 4 is a small, round, protruding element at a joint. It looks like a knob, a button, or a small wheel.\n- It could be used to **press** or **click** (to lock/un"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_16_region_6",
+      "area": 2910,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "d\\R::bo05L4L5L9G8H5L5J5L3M3L4M2N2N2N2N2N2N2N2N101N1O2O0O0100O1O1N3UOlRO\\N`m0\\1f0N2M4M2M3O1N2O2M2O1O1O1N2O101N1O1O1O100O1O1O100O100O10000O100O2O00001O00001O000O2O00010O0O2O1NUd^c0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "adjust",
+          "justification": "Part five\u2019s small size combined with its rounded form suggests functionality as either a knob for fine-tuning settings or serving as a pivot point within the structure; unlike larger components such as three which appear designed primarily for structural support through their elongated shapes",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "adjust",
+                "logprob": -1.2793621713644825,
+                "prob": 0.3307964871311832
+              },
+              {
+                "option": "align",
+                "logprob": -1.904337984859012,
+                "prob": 0.17706688282824054
+              },
+              {
+                "option": "none",
+                "logprob": -2.279514306806959,
+                "prob": 0.1216747143826213
+              },
+              {
+                "option": "anchor",
+                "logprob": -3.0293960076523945,
+                "prob": 0.05748186504249913
+              },
+              {
+                "option": "attach",
+                "logprob": -3.279427341010887,
+                "prob": 0.04476551883147832
+              },
+              {
+                "option": "orient",
+                "logprob": -3.3420904253725894,
+                "prob": 0.04204645547538547
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -3.6541111264468498,
+                "prob": 0.03077659162035328
+              },
+              {
+                "option": "button",
+                "logprob": -3.779592212114949,
+                "prob": 0.027147183514132544
+              },
+              {
+                "option": "block",
+                "logprob": -3.8418780173524283,
+                "prob": 0.025507881881371396
+              },
+              {
+                "option": "click",
+                "logprob": -4.029569103207905,
+                "prob": 0.021142736358873437
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "attach",
+              "tie"
+            ],
+            "n_valid": 2,
+            "invalid": [
+              "Based on the visual analysis of part 5 (the small purple component located at the junction of the blue top and the grey leg), here is the ranking of its most plausible affordances:",
+              "**connect**",
+              "**secure**",
+              "**fasten**",
+              "**join**",
+              "**link**",
+              "**bind**",
+              "**fast**",
+              "**securely**"
+            ],
+            "raw": "Based on the visual analysis of part 5 (the small purple component located at the junction of the blue top and the grey leg), here is the ranking of its most plausible affordances:\n\n1. **attach**\n2. **connect**\n3. **secure**\n4. **fasten**\n5. **join**\n6. **link**\n7. **bind**\n8. **fast**\n9. **tie**\n10. **securely**"
+          }
+        }
+      }
+    }
+  ],
+  "generation_option_order": "shuffled_per_part"
+}

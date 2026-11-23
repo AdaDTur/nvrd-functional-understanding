@@ -24,7 +24,9 @@ MAX_RETRIES=20
 RETRY_DELAY_S=15
 LOG_DIR="$PROJECT_ROOT/logs"
 mkdir -p "$LOG_DIR"
-LOG="$LOG_DIR/watchdog_${MODEL_KEY}.log"
+# AFF_VOCAB=synthia_filtered (see batch_final_labeling.py) logs separately from the AGD20K runs
+VOCAB_TAG="${AFF_VOCAB:+_${AFF_VOCAB%%_*}}"
+LOG="$LOG_DIR/watchdog_${MODEL_KEY}${VOCAB_TAG}.log"
 # Each MODELS entry names the venv that can load it ("venv": ...) -- Gemma-4/Qwen3.5 need
 # transformers 5.x, Phi-3.5 needs 4.46. Override with VENV=<name>; legacy entries default to venv_vlm.
 VENV="${VENV:-$(grep -A4 "^    \"$MODEL_KEY\": {" "$HERE/batch_final_labeling.py" | grep -o '"venv": "[^"]*"' | head -1 | cut -d'"' -f4)}"

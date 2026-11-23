@@ -1,0 +1,1863 @@
+[
+  {
+    "id": "dig_soil",
+    "task": "digging a small hole in garden soil",
+    "avoid": "trowels or small shovels",
+    "exclude": "any soil, dirt, or plants",
+    "image_model": "openai/gpt-image-2.6-sunburst",
+    "quality": "high",
+    "judge_model": "openai/gpt-6-astra",
+    "attempts": [
+      {
+        "attempt": 1,
+        "prompt": "Generate a realistic image of a single, entirely novel tool for digging a small hole in garden soil. Function comes first: it must clearly, plausibly and practically do the assigned task, digging a small hole in garden soil, so that a person can tell at a glance what it is for and could actually use it: a grip in line with the blade and behind it, so the hand can push the blade down into soil and lever it back. Keep the shape features that do the work (the kind of edge, point, blade, bowl or surface the task needs) clearly visible and fully effective. Its novelty should come from funky, unexpected textures, colours and shapes: a bold, playful, organic, irregular, slightly strange form with real character, not a sleek, minimalist, luxury or designer look, and not one of the ordinary trowels or small shovels, simply recoloured. Make it from crackle-glaze ceramic, with recessed oval vents, in a palette of pale fleshy beige offset by sharp graphite accents; the material and surface must not weaken, soften, perforate or make slippery anything that does the task, and the tool must be sturdy and comfortable to use. Show the whole tool in a three-quarter view on a plain white background, with nothing else in the image. Do not include any soil, dirt, or plants. Show no text, numbers, labels, arrows, icons, logos or screens anywhere on the object.",
+        "image": "/shared/nas/data/m1/adadt2/nvrd/affordance-test/data/dig_soil/dig_soil.png",
+        "blind": {
+          "guesses": [
+            "resting a cooking spoon",
+            "scooping dry ingredients",
+            "digging small planting holes"
+          ],
+          "why": "The broad, shallow, pointed bowl and long contoured handle resemble a scoop or trowel, while the glossy, apparently ceramic material and decorative openings suggest a spoon rest."
+        },
+        "pool": [
+          {
+            "model": "anthropic/claude-haiku-5.5",
+            "choice": "digging a small hole in garden soil",
+            "correct": true,
+            "options": [
+              "digging a small hole in garden soil",
+              "cutting food",
+              "scraping ice off a car windshield",
+              "cracking open walnut shells",
+              "hammering a nail into a wooden board",
+              "measuring the length of an object",
+              "carrying groceries or other items by hand",
+              "straining solid particles out of a liquid",
+              "opening a tightly sealed jar lid",
+              "sharpening a pencil",
+              "detangling and combing hair",
+              "rolling out dough flat",
+              "gripping and pulling a heavy door open",
+              "pouring liquid into a narrow-necked bottle without spilling",
+              "squeezing juice out of a citrus fruit"
+            ]
+          },
+          {
+            "model": "x-ai/grok-4.7",
+            "choice": "digging a small hole in garden soil",
+            "correct": true,
+            "options": [
+              "tearing off a strip of adhesive tape",
+              "watering a plant",
+              "picking up litter from the ground without bending down",
+              "opening a tightly sealed jar lid",
+              "supporting a human or item",
+              "digging a small hole in garden soil",
+              "measuring the length of an object",
+              "propping a book open to a page while reading",
+              "writing on paper",
+              "squeezing the last toothpaste out of a tube",
+              "crushing garlic cloves",
+              "pumping air into a bicycle tire",
+              "driving a screw into a piece of wood",
+              "peeling the skin off a potato",
+              "gripping and pulling a heavy door open"
+            ]
+          },
+          {
+            "model": "mistralai/mistral-medium-3-5",
+            "choice": "digging a small hole in garden soil",
+            "correct": true,
+            "options": [
+              "digging a small hole in garden soil",
+              "crushing garlic cloves",
+              "detangling and combing hair",
+              "hammering a nail into a wooden board",
+              "propping a book open to a page while reading",
+              "cutting food",
+              "scratching an itch in the middle of one's own back",
+              "driving a screw into a piece of wood",
+              "scooping and stirring soup",
+              "carrying groceries or other items by hand",
+              "measuring the length of an object",
+              "squeezing juice out of a citrus fruit",
+              "scraping ice off a car windshield",
+              "watering a plant",
+              "sharpening a pencil"
+            ]
+          }
+        ],
+        "pool_correct": 3,
+        "criteria": {
+          "evident": {
+            "ok": true,
+            "reason": "The blind guesses include digging small planting holes, and all three pool-test models selected the intended task."
+          },
+          "correct": {
+            "ok": false,
+            "reason": "The pointed blade and aligned grip support digging, but open holes through the blade's heel interrupt its soil-carrying surface and allow material to escape."
+          },
+          "specific": {
+            "ok": true,
+            "reason": "The pointed, concave working surface and substantial grip directly behind it are specialised for penetrating, levering and lifting soil."
+          },
+          "novel": {
+            "ok": true,
+            "reason": "Under the object-specific novelty rule, the irregular bone-like grip, sculpted lobes, crackled surface and graphite patches provide character beyond mere recolouring."
+          },
+          "practical": {
+            "ok": false,
+            "reason": "Through-holes perforate the soil-contacting blade and its force-transfer region, violating the requirement for a solid working surface and uninterrupted load path."
+          },
+          "no_text": {
+            "ok": true,
+            "reason": "The object displays no text, numbers, labels, arrows, icons, logos or screens."
+          }
+        },
+        "verdict": "fail",
+        "summary": "The intended digging function is recognisable, but perforations in the working surface prevent a practical pass.",
+        "revised_prompt": "Generate a realistic image of a single, entirely novel tool for digging a small hole in garden soil. Function comes first: show a pointed, shallowly concave digging blade with an uninterrupted floor, solid raised sides and a continuous tapered penetrating edge, capable of entering soil and lifting it out. Place a substantial comfortable grip directly in line with and behind the blade so the hand can push downward and lever backward. Join the grip and blade with a broad, thick, solid transition and a reinforced solid underside; there must be no holes, slots, hollow neck or openings anywhere in the working blade or force-bearing structure. Preserve a bold, playful, organic, irregular character: a gently twisting bone-like grip with rounded asymmetric finger lobes, an uneven rounded rear crest, flowing raised ridges and irregular sharp graphite patches against pale fleshy beige. Keep the digging point effective and the hand-contact surfaces rounded and nonslip. The whole object must not resemble existing trowels or small shovels and must not look sleek, minimalist, luxurious or like designer decor. Make it from dense, tough engineering ceramic with a crackle-glaze ceramic finish; the crackle is superficial glaze patterning, not structural cracking. Use a finely textured satin finish on the grip and a smooth soil-releasing working face. Retain recessed oval vents only as shallow, visibly closed-bottom decorative recesses in the small rear crest beyond the gripping area; these recesses must not penetrate the body, touch soil or interrupt any load-bearing section. Keep the form simple and integrated, with no mechanisms or extra attachments. Show the entire object in a three-quarter view that clearly reveals the continuous solid blade interior, thick blade-to-grip transition and closed bottoms of the decorative recesses. Use a plain white background with nothing else in the image. Do not include any soil, dirt or plants. Show no text, numbers, labels, arrows, icons, logos or screens anywhere."
+      },
+      {
+        "attempt": 2,
+        "prompt": "Generate a realistic image of a single, entirely novel tool for digging a small hole in garden soil. Function comes first: show a pointed, shallowly concave digging blade with an uninterrupted floor, solid raised sides and a continuous tapered penetrating edge, capable of entering soil and lifting it out. Place a substantial comfortable grip directly in line with and behind the blade so the hand can push downward and lever backward. Join the grip and blade with a broad, thick, solid transition and a reinforced solid underside; there must be no holes, slots, hollow neck or openings anywhere in the working blade or force-bearing structure. Preserve a bold, playful, organic, irregular character: a gently twisting bone-like grip with rounded asymmetric finger lobes, an uneven rounded rear crest, flowing raised ridges and irregular sharp graphite patches against pale fleshy beige. Keep the digging point effective and the hand-contact surfaces rounded and nonslip. The whole object must not resemble existing trowels or small shovels and must not look sleek, minimalist, luxurious or like designer decor. Make it from dense, tough engineering ceramic with a crackle-glaze ceramic finish; the crackle is superficial glaze patterning, not structural cracking. Use a finely textured satin finish on the grip and a smooth soil-releasing working face. Retain recessed oval vents only as shallow, visibly closed-bottom decorative recesses in the small rear crest beyond the gripping area; these recesses must not penetrate the body, touch soil or interrupt any load-bearing section. Keep the form simple and integrated, with no mechanisms or extra attachments. Show the entire object in a three-quarter view that clearly reveals the continuous solid blade interior, thick blade-to-grip transition and closed bottoms of the decorative recesses. Use a plain white background with nothing else in the image. Do not include any soil, dirt or plants. Show no text, numbers, labels, arrows, icons, logos or screens anywhere.",
+        "image": "/shared/nas/data/m1/adadt2/nvrd/affordance-test/data/dig_soil/dig_soil.png",
+        "blind": {
+          "guesses": [
+            "scooping and serving food",
+            "resting a cooking spoon",
+            "holding small trinkets"
+          ],
+          "why": "The glazed ceramic object has a deep, pointed spoon-like bowl, a long contoured handle, and three small recesses at the opposite end."
+        },
+        "pool": [
+          {
+            "model": "anthropic/claude-haiku-5.5",
+            "choice": "digging a small hole in garden soil",
+            "correct": true,
+            "options": [
+              "picking up litter from the ground without bending down",
+              "measuring the length of an object",
+              "detangling and combing hair",
+              "hanging and organizing a set of keys",
+              "peeling the skin off a potato",
+              "pumping air into a bicycle tire",
+              "sharpening a pencil",
+              "carrying groceries or other items by hand",
+              "hammering a nail into a wooden board",
+              "digging a small hole in garden soil",
+              "crushing garlic cloves",
+              "scraping ice off a car windshield",
+              "writing on paper",
+              "supporting a human or item",
+              "opening a tightly sealed jar lid"
+            ]
+          },
+          {
+            "model": "x-ai/grok-4.7",
+            "choice": "digging a small hole in garden soil",
+            "correct": true,
+            "options": [
+              "digging a small hole in garden soil",
+              "peeling the skin off a potato",
+              "pumping air into a bicycle tire",
+              "crushing garlic cloves",
+              "carrying groceries or other items by hand",
+              "opening a tightly sealed jar lid",
+              "picking up litter from the ground without bending down",
+              "detangling and combing hair",
+              "tearing off a strip of adhesive tape",
+              "measuring the length of an object",
+              "scraping ice off a car windshield",
+              "hanging and organizing a set of keys",
+              "squeezing the last toothpaste out of a tube",
+              "pouring liquid into a narrow-necked bottle without spilling",
+              "driving a screw into a piece of wood"
+            ]
+          },
+          {
+            "model": "mistralai/mistral-medium-3-5",
+            "choice": "scooping and stirring soup",
+            "correct": false,
+            "options": [
+              "digging a small hole in garden soil",
+              "supporting a human or item",
+              "hammering a nail into a wooden board",
+              "straining solid particles out of a liquid",
+              "scratching an itch in the middle of one's own back",
+              "watering a plant",
+              "cutting food",
+              "picking up litter from the ground without bending down",
+              "pouring liquid into a narrow-necked bottle without spilling",
+              "peeling the skin off a potato",
+              "writing on paper",
+              "detangling and combing hair",
+              "rolling out dough flat",
+              "sharpening a pencil",
+              "scooping and stirring soup"
+            ]
+          }
+        ],
+        "pool_correct": 2,
+        "criteria": {
+          "evident": {
+            "ok": false,
+            "reason": "None of the blind guesses identifies digging or a clear equivalent, despite two of three forced-choice models selecting it."
+          },
+          "correct": {
+            "ok": true,
+            "reason": "The pointed, continuous scoop could penetrate and lift garden soil, with an inline grip and a substantial solid transition for applying force."
+          },
+          "specific": {
+            "ok": false,
+            "reason": "The deep, smoothly rimmed cavity reads as a general-purpose serving scoop or receptacle rather than a working surface specialised for penetrating soil."
+          },
+          "novel": {
+            "ok": true,
+            "reason": "The irregular bone-like grip, lobed rear crest, recessed details and organic graphite markings give the whole object a distinctly unconventional character."
+          },
+          "practical": {
+            "ok": true,
+            "reason": "The working surface is unbroken, the grip and connection are substantial, and the closed-bottom recesses stay beyond the gripping and soil-contact areas."
+          },
+          "no_text": {
+            "ok": true,
+            "reason": "The image contains no visible text, numbers, labels, arrows, icons, logos or screens."
+          }
+        },
+        "verdict": "fail",
+        "summary": "The object is novel and plausibly usable for digging, but its bowl-like working surface communicates serving or holding more clearly than soil excavation.",
+        "revised_prompt": "Generate a realistic image of one entirely novel handheld tool whose shape clearly communicates digging a small hole in garden soil. Function comes first: make the working end a broad, shallowly concave penetrating blade, not a deep bowl. Its uninterrupted solid floor should extend forward into a conspicuous elongated triangular digging point, with straight converging front edges and a clearly visible broad cutting bevel. Keep the point stout rather than needle-like. The front third must be nearly flat, with no upturned lip or rounded enclosing rim, so it visibly enters soil instead of cradling liquid. Two low, solid side shoulders rise gradually only along the rear half to retain excavated earth when the blade is levered upward; they taper completely into the cutting edges toward the point. Make the blade visibly thick through its centre and underside, tapering only near the penetrating edge. Place a substantial full-hand grip directly behind and in line with the blade, allowing the hand to push the point into soil and lever it backward. Connect them through a broad, short, thick solid transition with an integrated reinforcing ridge underneath, never a narrow neck. All load-bearing sections and the entire working face must be solid, continuous and unperforated. Preserve a bold, playful, organic, irregular character through a gently twisting bone-like grip, rounded asymmetric finger lobes, flowing raised ridges and an uneven rounded rear crest. Keep every hand-contact surface comfortably rounded and finely textured for traction. Use pale fleshy beige with sharp, irregular graphite accents, including a graphite band that makes the front cutting bevel visually distinct. Make the entire object from dense, tough engineering ceramic with a superficial crackle-glaze finish, not structural cracks; use a satin grip and a smooth soil-releasing blade face rather than an overall glossy tableware finish. Retain recessed oval vents only as shallow decorative depressions with clearly visible solid bottoms in the small rear crest beyond the gripping area; they must not pierce the body or interrupt a load-bearing section. Keep the form integrated and simple, without mechanisms or extra attachments. The overall object must not resemble existing trowels or small shovels, and must not look sleek, minimalist, luxurious or like designer decor. Show the entire object in a three-quarter view revealing the shallow blade interior, nearly flat pointed front, cutting bevel, substantial blade-to-grip transition and closed bottoms of the rear recesses. Use a plain white background with nothing else in the image. Do not include any soil, dirt or plants. Show no text, numbers, labels, arrows, icons, logos or screens anywhere."
+      },
+      {
+        "attempt": 3,
+        "prompt": "Generate a realistic image of one entirely novel handheld tool whose shape clearly communicates digging a small hole in garden soil. Function comes first: make the working end a broad, shallowly concave penetrating blade, not a deep bowl. Its uninterrupted solid floor should extend forward into a conspicuous elongated triangular digging point, with straight converging front edges and a clearly visible broad cutting bevel. Keep the point stout rather than needle-like. The front third must be nearly flat, with no upturned lip or rounded enclosing rim, so it visibly enters soil instead of cradling liquid. Two low, solid side shoulders rise gradually only along the rear half to retain excavated earth when the blade is levered upward; they taper completely into the cutting edges toward the point. Make the blade visibly thick through its centre and underside, tapering only near the penetrating edge. Place a substantial full-hand grip directly behind and in line with the blade, allowing the hand to push the point into soil and lever it backward. Connect them through a broad, short, thick solid transition with an integrated reinforcing ridge underneath, never a narrow neck. All load-bearing sections and the entire working face must be solid, continuous and unperforated. Preserve a bold, playful, organic, irregular character through a gently twisting bone-like grip, rounded asymmetric finger lobes, flowing raised ridges and an uneven rounded rear crest. Keep every hand-contact surface comfortably rounded and finely textured for traction. Use pale fleshy beige with sharp, irregular graphite accents, including a graphite band that makes the front cutting bevel visually distinct. Make the entire object from dense, tough engineering ceramic with a superficial crackle-glaze finish, not structural cracks; use a satin grip and a smooth soil-releasing blade face rather than an overall glossy tableware finish. Retain recessed oval vents only as shallow decorative depressions with clearly visible solid bottoms in the small rear crest beyond the gripping area; they must not pierce the body or interrupt a load-bearing section. Keep the form integrated and simple, without mechanisms or extra attachments. The overall object must not resemble existing trowels or small shovels, and must not look sleek, minimalist, luxurious or like designer decor. Show the entire object in a three-quarter view revealing the shallow blade interior, nearly flat pointed front, cutting bevel, substantial blade-to-grip transition and closed bottoms of the rear recesses. Use a plain white background with nothing else in the image. Do not include any soil, dirt or plants. Show no text, numbers, labels, arrows, icons, logos or screens anywhere.",
+        "image": "/shared/nas/data/m1/adadt2/nvrd/affordance-test/data/dig_soil/dig_soil.png",
+        "blind": {
+          "guesses": [
+            "resting cooking spoons",
+            "burning incense sticks",
+            "serving small portions of food"
+          ],
+          "why": "The glazed ceramic body has a shallow, raised-edge basin, a long sculpted handle, and two small recesses at the far end."
+        },
+        "pool": [
+          {
+            "model": "anthropic/claude-haiku-5.5",
+            "choice": "digging a small hole in garden soil",
+            "correct": true,
+            "options": [
+              "picking up litter from the ground without bending down",
+              "carrying groceries or other items by hand",
+              "propping a book open to a page while reading",
+              "cracking open walnut shells",
+              "pouring liquid into a narrow-necked bottle without spilling",
+              "digging a small hole in garden soil",
+              "sharpening a pencil",
+              "hammering a nail into a wooden board",
+              "supporting a human or item",
+              "peeling the skin off a potato",
+              "cutting food",
+              "hanging and organizing a set of keys",
+              "squeezing juice out of a citrus fruit",
+              "squeezing the last toothpaste out of a tube",
+              "gripping and pulling a heavy door open"
+            ]
+          },
+          {
+            "model": "x-ai/grok-4.7",
+            "choice": "digging a small hole in garden soil",
+            "correct": true,
+            "options": [
+              "scraping ice off a car windshield",
+              "opening a tightly sealed jar lid",
+              "squeezing the last toothpaste out of a tube",
+              "carrying groceries or other items by hand",
+              "pumping air into a bicycle tire",
+              "digging a small hole in garden soil",
+              "gripping and pulling a heavy door open",
+              "straining solid particles out of a liquid",
+              "driving a screw into a piece of wood",
+              "watering a plant",
+              "rolling out dough flat",
+              "crushing garlic cloves",
+              "squeezing juice out of a citrus fruit",
+              "hammering a nail into a wooden board",
+              "supporting a human or item"
+            ]
+          },
+          {
+            "model": "mistralai/mistral-medium-3-5",
+            "choice": "digging a small hole in garden soil",
+            "correct": true,
+            "options": [
+              "detangling and combing hair",
+              "picking up litter from the ground without bending down",
+              "pouring liquid into a narrow-necked bottle without spilling",
+              "scraping ice off a car windshield",
+              "pumping air into a bicycle tire",
+              "supporting a human or item",
+              "scratching an itch in the middle of one's own back",
+              "driving a screw into a piece of wood",
+              "writing on paper",
+              "digging a small hole in garden soil",
+              "propping a book open to a page while reading",
+              "cracking open walnut shells",
+              "hammering a nail into a wooden board",
+              "cutting food",
+              "measuring the length of an object"
+            ]
+          }
+        ],
+        "pool_correct": 3,
+        "criteria": {
+          "evident": {
+            "ok": false,
+            "reason": "None of the blind guesses identifies digging or an equivalent task, despite all three forced-choice models selecting it."
+          },
+          "correct": {
+            "ok": true,
+            "reason": "The pointed, solid working end and substantial grip aligned behind it provide a plausible way to penetrate soil and lever out earth."
+          },
+          "specific": {
+            "ok": false,
+            "reason": "The broad dish-like interior and rounded raised sides communicate resting or serving objects strongly enough to obscure its digging specialisation."
+          },
+          "novel": {
+            "ok": true,
+            "reason": "The irregular bone-like grip, sculpted lobes, recessed rear details and branching graphite accents give the whole object a characterful unconventional form."
+          },
+          "practical": {
+            "ok": true,
+            "reason": "The working face is uninterrupted, the blade-to-grip transition is substantial, and the rounded grip and closed rear recesses present no obvious obstacle to ordinary small-hole digging."
+          },
+          "no_text": {
+            "ok": true,
+            "reason": "No text, numbers, labels, arrows, icons, logos or screens are visible."
+          }
+        },
+        "verdict": "fail",
+        "summary": "The object is novel and plausibly functional, but its dish-like working end still communicates holding or serving more readily than digging.",
+        "revised_prompt": "Generate a realistic image of one entirely novel handheld object unmistakably designed to dig a small hole in garden soil. Function comes first: emphasise a penetrating earth-cutting wedge and a powerful inline pushing grip, not a receptacle. It must not resemble existing trowels or small shovels.\n\nMake the working end a stout elongated triangular blade with a solid continuous floor, straight converging cutting edges and a robust pointed tip. The forward two-thirds must be nearly flat and completely rimless, with no rolled edges, upturned lip or enclosing walls. Show a broad, visibly sloping cutting bevel along both forward edges, sharply distinguished from the thicker central body. Use graphite on this bevel to make the soil-entry edges immediately readable. Give the underside a thick central reinforcing keel that gradually merges into the stout tip; the edge must look capable of penetrating compact garden soil rather than supporting a spoon. Keep the blade narrower and more elongated than a serving dish. Only the rearmost third may have a shallow concavity and two short, low earth-retaining shoulders; these must end well behind the forward cutting region, leaving most of the blade visibly open and flat. The working surface must have no holes, slots, teeth, decorative recesses or structural cracks.\n\nDirectly behind and in line with the blade, provide a substantial full-hand grip long enough for four fingers, with a broad rounded rear palm butt so the user can push forward and downward and then lever backward. Join the grip to the blade through a short, broad, solid transition at least as substantial as the grip core; continue the underside reinforcing keel through this transition. Keep the grip comfortably rounded and finely textured, with a gently twisting bone-like silhouette, several asymmetric finger lobes and flowing irregular raised ridges. Preserve a bold, playful, organic character without distracting from the exposed cutting wedge. Avoid a sleek, minimalist, luxurious or designer-decor appearance.\n\nMake the entire object from dense, tough engineering ceramic with a superficial crackle-glaze finish, not structural cracks. Use pale fleshy beige offset by sharp irregular graphite accents. Keep the grip satin and traction-textured and the working face smooth and low-sheen, not glossy tableware. Retain two recessed oval vents as shallow decorative blind depressions with clearly visible solid bottoms, confined to the small rear crest beyond the gripping area; they must not pierce the object or weaken any load-bearing region. Use one integrated solid form, with no mechanisms or attachments.\n\nShow the entire object in a three-quarter view from a moderately low angle that clearly reveals the nearly flat rimless forward blade, broad cutting bevel, thick reinforced underside, short rear shoulders and inline grip. Use a plain white background with nothing else in the image. Do not include any soil, dirt or plants. Show no text, numbers, labels, arrows, icons, logos or screens anywhere."
+      },
+      {
+        "attempt": 4,
+        "prompt": "Generate a realistic image of one entirely novel handheld object unmistakably designed to dig a small hole in garden soil. Function comes first: emphasise a penetrating earth-cutting wedge and a powerful inline pushing grip, not a receptacle. It must not resemble existing trowels or small shovels.\n\nMake the working end a stout elongated triangular blade with a solid continuous floor, straight converging cutting edges and a robust pointed tip. The forward two-thirds must be nearly flat and completely rimless, with no rolled edges, upturned lip or enclosing walls. Show a broad, visibly sloping cutting bevel along both forward edges, sharply distinguished from the thicker central body. Use graphite on this bevel to make the soil-entry edges immediately readable. Give the underside a thick central reinforcing keel that gradually merges into the stout tip; the edge must look capable of penetrating compact garden soil rather than supporting a spoon. Keep the blade narrower and more elongated than a serving dish. Only the rearmost third may have a shallow concavity and two short, low earth-retaining shoulders; these must end well behind the forward cutting region, leaving most of the blade visibly open and flat. The working surface must have no holes, slots, teeth, decorative recesses or structural cracks.\n\nDirectly behind and in line with the blade, provide a substantial full-hand grip long enough for four fingers, with a broad rounded rear palm butt so the user can push forward and downward and then lever backward. Join the grip to the blade through a short, broad, solid transition at least as substantial as the grip core; continue the underside reinforcing keel through this transition. Keep the grip comfortably rounded and finely textured, with a gently twisting bone-like silhouette, several asymmetric finger lobes and flowing irregular raised ridges. Preserve a bold, playful, organic character without distracting from the exposed cutting wedge. Avoid a sleek, minimalist, luxurious or designer-decor appearance.\n\nMake the entire object from dense, tough engineering ceramic with a superficial crackle-glaze finish, not structural cracks. Use pale fleshy beige offset by sharp irregular graphite accents. Keep the grip satin and traction-textured and the working face smooth and low-sheen, not glossy tableware. Retain two recessed oval vents as shallow decorative blind depressions with clearly visible solid bottoms, confined to the small rear crest beyond the gripping area; they must not pierce the object or weaken any load-bearing region. Use one integrated solid form, with no mechanisms or attachments.\n\nShow the entire object in a three-quarter view from a moderately low angle that clearly reveals the nearly flat rimless forward blade, broad cutting bevel, thick reinforced underside, short rear shoulders and inline grip. Use a plain white background with nothing else in the image. Do not include any soil, dirt or plants. Show no text, numbers, labels, arrows, icons, logos or screens anywhere.",
+        "image": "/shared/nas/data/m1/adadt2/nvrd/affordance-test/data/dig_soil/dig_soil.png",
+        "blind": {
+          "guesses": [
+            "scooping soil for planting",
+            "serving slices of cake",
+            "opening envelopes"
+          ],
+          "why": "The pointed, shallowly scooped triangular blade and thick ridged handle suggest a handheld scooping or lifting tool, though its glossy, ceramic-like surface makes the intended use uncertain."
+        },
+        "pool": [
+          {
+            "model": "anthropic/claude-haiku-5.5",
+            "choice": "digging a small hole in garden soil",
+            "correct": true,
+            "options": [
+              "gripping and pulling a heavy door open",
+              "tearing off a strip of adhesive tape",
+              "cracking open walnut shells",
+              "picking up litter from the ground without bending down",
+              "pumping air into a bicycle tire",
+              "supporting a human or item",
+              "pouring liquid into a narrow-necked bottle without spilling",
+              "propping a book open to a page while reading",
+              "hammering a nail into a wooden board",
+              "scraping ice off a car windshield",
+              "cutting food",
+              "digging a small hole in garden soil",
+              "driving a screw into a piece of wood",
+              "opening a tightly sealed jar lid",
+              "carrying groceries or other items by hand"
+            ]
+          },
+          {
+            "model": "x-ai/grok-4.7",
+            "choice": "digging a small hole in garden soil",
+            "correct": true,
+            "options": [
+              "scooping and stirring soup",
+              "measuring the length of an object",
+              "digging a small hole in garden soil",
+              "supporting a human or item",
+              "straining solid particles out of a liquid",
+              "squeezing the last toothpaste out of a tube",
+              "cracking open walnut shells",
+              "hammering a nail into a wooden board",
+              "sharpening a pencil",
+              "watering a plant",
+              "pumping air into a bicycle tire",
+              "gripping and pulling a heavy door open",
+              "hanging and organizing a set of keys",
+              "opening a tightly sealed jar lid",
+              "scratching an itch in the middle of one's own back"
+            ]
+          },
+          {
+            "model": "mistralai/mistral-medium-3-5",
+            "choice": "digging a small hole in garden soil",
+            "correct": true,
+            "options": [
+              "sharpening a pencil",
+              "hammering a nail into a wooden board",
+              "propping a book open to a page while reading",
+              "opening a tightly sealed jar lid",
+              "picking up litter from the ground without bending down",
+              "hanging and organizing a set of keys",
+              "crushing garlic cloves",
+              "cracking open walnut shells",
+              "supporting a human or item",
+              "pumping air into a bicycle tire",
+              "digging a small hole in garden soil",
+              "measuring the length of an object",
+              "detangling and combing hair",
+              "squeezing juice out of a citrus fruit",
+              "scraping ice off a car windshield"
+            ]
+          }
+        ],
+        "pool_correct": 3,
+        "criteria": {
+          "evident": {
+            "ok": true,
+            "reason": "The first blind guess, scooping soil for planting, clearly overlaps with excavating a small garden hole, and all three pool models selected the intended task."
+          },
+          "correct": {
+            "ok": true,
+            "reason": "The pointed, beveled blade can penetrate soil, while the substantial inline grip permits pushing and levering to loosen and lift earth."
+          },
+          "specific": {
+            "ok": true,
+            "reason": "The reinforced cutting wedge, short rear earth-retaining shoulders and force-oriented grip favour soil excavation over generic holding or serving."
+          },
+          "novel": {
+            "ok": true,
+            "reason": "The irregular, organically lobed grip, pronounced surface texture and asymmetric graphite accents give the integrated object distinctive character beyond a merely recoloured conventional tool."
+          },
+          "practical": {
+            "ok": true,
+            "reason": "The working face is continuous, the grip-to-blade transition is substantial, and the rounded textured grip and shallow rear depressions introduce no obvious weakness or hand hazard."
+          },
+          "no_text": {
+            "ok": true,
+            "reason": "The image contains no visible text, numbers, labels, arrows, icons, logos or screens."
+          }
+        },
+        "verdict": "pass",
+        "summary": "The object communicates planting-related excavation and combines a plausible solid digging wedge with a robust inline grip and sufficiently characterful organic styling.",
+        "revised_prompt": null
+      }
+    ],
+    "final_attempt": 4,
+    "final_verdict": "pass",
+    "strategy": {
+      "mode": "novel",
+      "body_needs": "a grip in line with the blade and behind it, so the hand can push the blade down into soil and lever it back",
+      "finish": {
+        "material": "crackle-glaze ceramic",
+        "surface": "recessed oval vents",
+        "palette": "pale fleshy beige offset by sharp graphite accents"
+      },
+      "finish_index": 0,
+      "judges": "single"
+    }
+  },
+  {
+    "id": "squeeze_juice",
+    "task": "squeezing juice out of a citrus fruit",
+    "avoid": "citrus juicers or reamers",
+    "exclude": "any fruit or juice",
+    "image_model": "openai/gpt-image-2.6-sunburst",
+    "quality": "high",
+    "judge_model": "openai/gpt-6-astra",
+    "attempts": [
+      {
+        "attempt": 1,
+        "prompt": "Generate a realistic image of a single, entirely novel tool for squeezing juice out of a citrus fruit. Function comes first: it must clearly, plausibly and practically do the assigned task, squeezing juice out of a citrus fruit, so that a person can tell at a glance what it is for and could actually use it: a stable base or a firm grip that holds the reamer steady while fruit is pressed and twisted onto it. Keep the shape features that do the work (the kind of edge, point, blade, bowl or surface the task needs) clearly visible and fully effective. Its novelty should come from funky, unexpected textures, colours and shapes: a bold, playful, organic, irregular, slightly strange form with real character, not a sleek, minimalist, luxury or designer look, and not one of the ordinary citrus juicers or reamers, simply recoloured. Make it from milky silicone infused with darker fibrous strands, with subtle surface sagging as if the material barely holds its shape, in a palette of sickly pastel green with oily black shadows; the material and surface must not weaken, soften, perforate or make slippery anything that does the task, and the tool must be sturdy and comfortable to use. Show the whole tool in a three-quarter view on a plain white background, with nothing else in the image. Do not include any fruit or juice. Show no text, numbers, labels, arrows, icons, logos or screens anywhere on the object.",
+        "image": "/shared/nas/data/m1/adadt2/nvrd/affordance-test/data/squeeze_juice/squeeze_juice.png",
+        "blind": {
+          "guesses": [
+            "squeezing juice from citrus fruit",
+            "straining seeds and pulp from juice",
+            "serving freshly squeezed juice"
+          ],
+          "why": "The rigid ridged cone suggests pressing and twisting citrus halves, while surrounding slots, a collecting bowl, a handle and a spout allow straining and pouring juice."
+        },
+        "pool": [
+          {
+            "model": "anthropic/claude-haiku-5.5",
+            "choice": "squeezing juice out of a citrus fruit",
+            "correct": true,
+            "options": [
+              "detangling and combing hair",
+              "hammering a nail into a wooden board",
+              "digging a small hole in garden soil",
+              "pumping air into a bicycle tire",
+              "driving a screw into a piece of wood",
+              "measuring the length of an object",
+              "peeling the skin off a potato",
+              "writing on paper",
+              "watering a plant",
+              "propping a book open to a page while reading",
+              "rolling out dough flat",
+              "crushing garlic cloves",
+              "sharpening a pencil",
+              "scratching an itch in the middle of one's own back",
+              "squeezing juice out of a citrus fruit"
+            ]
+          },
+          {
+            "model": "x-ai/grok-4.7",
+            "choice": "squeezing juice out of a citrus fruit",
+            "correct": true,
+            "options": [
+              "squeezing juice out of a citrus fruit",
+              "pouring liquid into a narrow-necked bottle without spilling",
+              "writing on paper",
+              "straining solid particles out of a liquid",
+              "sharpening a pencil",
+              "supporting a human or item",
+              "cracking open walnut shells",
+              "gripping and pulling a heavy door open",
+              "rolling out dough flat",
+              "hanging and organizing a set of keys",
+              "opening a tightly sealed jar lid",
+              "driving a screw into a piece of wood",
+              "cutting food",
+              "peeling the skin off a potato",
+              "scooping and stirring soup"
+            ]
+          },
+          {
+            "model": "mistralai/mistral-medium-3-5",
+            "choice": "squeezing juice out of a citrus fruit",
+            "correct": true,
+            "options": [
+              "squeezing juice out of a citrus fruit",
+              "watering a plant",
+              "driving a screw into a piece of wood",
+              "scraping ice off a car windshield",
+              "scratching an itch in the middle of one's own back",
+              "supporting a human or item",
+              "cutting food",
+              "crushing garlic cloves",
+              "writing on paper",
+              "pumping air into a bicycle tire",
+              "cracking open walnut shells",
+              "detangling and combing hair",
+              "sharpening a pencil",
+              "measuring the length of an object",
+              "tearing off a strip of adhesive tape"
+            ]
+          }
+        ],
+        "pool_correct": 3,
+        "criteria": {
+          "evident": {
+            "ok": true,
+            "reason": "The first blind guess names citrus squeezing directly, and all three pool-test models selected the intended task."
+          },
+          "correct": {
+            "ok": true,
+            "reason": "The prominent ribbed cone can extract juice from pressed and twisted citrus, while the broad stance and substantial loop handle stabilize it."
+          },
+          "specific": {
+            "ok": true,
+            "reason": "The tapered radial ribs and surrounding drainage channels clearly specialize the object for extracting citrus juice."
+          },
+          "novel": {
+            "ok": true,
+            "reason": "Under the object's novelty rules, its exaggerated lobed handle, irregular sagging rim, chunky organic feet and fibrous green-black material provide character beyond a merely recoloured conventional tool."
+          },
+          "practical": {
+            "ok": true,
+            "reason": "The working cone has a thick, continuous attachment, the handle offers a safe stabilizing grip, and the drainage slots appear to lead into a solid lower collection basin."
+          },
+          "no_text": {
+            "ok": true,
+            "reason": "No text, numbers, labels, arrows, icons, logos or screens are visible."
+          }
+        },
+        "verdict": "pass",
+        "summary": "The object clearly and plausibly squeezes citrus juice while meeting the supplied novelty rules through its strongly irregular organic form and material treatment.",
+        "revised_prompt": null
+      }
+    ],
+    "final_attempt": 1,
+    "final_verdict": "pass",
+    "strategy": {
+      "mode": "novel",
+      "body_needs": "a stable base or a firm grip that holds the reamer steady while fruit is pressed and twisted onto it",
+      "finish": {
+        "material": "milky silicone infused with darker fibrous strands",
+        "surface": "subtle surface sagging as if the material barely holds its shape",
+        "palette": "sickly pastel green with oily black shadows"
+      },
+      "finish_index": 1,
+      "judges": "single"
+    }
+  },
+  {
+    "id": "roll_dough",
+    "task": "rolling out dough flat",
+    "avoid": "rolling pins",
+    "exclude": "any dough or flour",
+    "image_model": "openai/gpt-image-2.6-sunburst",
+    "quality": "high",
+    "judge_model": "openai/gpt-6-astra",
+    "attempts": [
+      {
+        "attempt": 1,
+        "prompt": "Generate a realistic image of a single, entirely novel tool for rolling out dough flat. Function comes first: it must clearly, plausibly and practically do the assigned task, rolling out dough flat, so that a person can tell at a glance what it is for and could actually use it: a grip at each end of the roller, so both hands can press down and roll it. Keep the shape features that do the work (the kind of edge, point, blade, bowl or surface the task needs) clearly visible and fully effective. Its novelty should come from funky, unexpected textures, colours and shapes: a bold, playful, organic, irregular, slightly strange form with real character, not a sleek, minimalist, luxury or designer look, and not one of the ordinary rolling pins, simply recoloured. Make it from slimy translucent green elastomer with suspended cloudy streaks, with micro-ridges that abruptly stop and restart without pattern, in a palette of desaturated teal fading unevenly into off-black; the material and surface must not weaken, soften, perforate or make slippery anything that does the task, and the tool must be sturdy and comfortable to use. Show the whole tool in a three-quarter view on a plain white background, with nothing else in the image. Do not include any dough or flour. Show no text, numbers, labels, arrows, icons, logos or screens anywhere on the object.",
+        "image": "/shared/nas/data/m1/adadt2/nvrd/affordance-test/data/roll_dough/roll_dough.png",
+        "blind": {
+          "guesses": [
+            "massaging sore muscles",
+            "playing tug-of-war with a dog",
+            "exercising arms by pulling the handles"
+          ],
+          "why": "The two loop handles flank a thick, ridged, rubber-like barrel that looks suited to rolling pressure, gripping, or pulling."
+        },
+        "pool": [
+          {
+            "model": "anthropic/claude-haiku-5.5",
+            "choice": "rolling out dough flat",
+            "correct": true,
+            "options": [
+              "writing on paper",
+              "rolling out dough flat",
+              "hanging and organizing a set of keys",
+              "carrying groceries or other items by hand",
+              "digging a small hole in garden soil",
+              "sharpening a pencil",
+              "crushing garlic cloves",
+              "detangling and combing hair",
+              "gripping and pulling a heavy door open",
+              "supporting a human or item",
+              "squeezing juice out of a citrus fruit",
+              "pouring liquid into a narrow-necked bottle without spilling",
+              "measuring the length of an object",
+              "propping a book open to a page while reading",
+              "picking up litter from the ground without bending down"
+            ]
+          },
+          {
+            "model": "x-ai/grok-4.7",
+            "choice": "rolling out dough flat",
+            "correct": true,
+            "options": [
+              "cutting food",
+              "peeling the skin off a potato",
+              "rolling out dough flat",
+              "crushing garlic cloves",
+              "opening a tightly sealed jar lid",
+              "sharpening a pencil",
+              "pumping air into a bicycle tire",
+              "gripping and pulling a heavy door open",
+              "measuring the length of an object",
+              "squeezing the last toothpaste out of a tube",
+              "hammering a nail into a wooden board",
+              "scraping ice off a car windshield",
+              "hanging and organizing a set of keys",
+              "picking up litter from the ground without bending down",
+              "supporting a human or item"
+            ]
+          },
+          {
+            "model": "mistralai/mistral-medium-3-5",
+            "choice": "scratching an itch in the middle of one's own back",
+            "correct": false,
+            "options": [
+              "propping a book open to a page while reading",
+              "sharpening a pencil",
+              "supporting a human or item",
+              "squeezing juice out of a citrus fruit",
+              "watering a plant",
+              "scratching an itch in the middle of one's own back",
+              "driving a screw into a piece of wood",
+              "peeling the skin off a potato",
+              "detangling and combing hair",
+              "scooping and stirring soup",
+              "cutting food",
+              "gripping and pulling a heavy door open",
+              "rolling out dough flat",
+              "tearing off a strip of adhesive tape",
+              "carrying groceries or other items by hand"
+            ]
+          }
+        ],
+        "pool_correct": 2,
+        "criteria": {
+          "evident": {
+            "ok": false,
+            "reason": "None of the blind guesses identified rolling out dough flat, despite two of three forced-choice models selecting it."
+          },
+          "correct": {
+            "ok": false,
+            "reason": "The deeply lobed roller has an uneven contact profile that would press grooves and depressions into dough instead of rolling it flat."
+          },
+          "specific": {
+            "ok": false,
+            "reason": "The knobbly contact surface and loop handles suggest massage or pulling activities more strongly than a specialised dough-flattening tool."
+          },
+          "novel": {
+            "ok": true,
+            "reason": "The irregular organic body, sculpted loops, interrupted ridges and cloudy translucent colouring give the whole object character beyond a merely recoloured conventional tool."
+          },
+          "practical": {
+            "ok": false,
+            "reason": "Its pronounced surface bulges would repeatedly create uneven dough thickness, making everyday flattening impractical."
+          },
+          "no_text": {
+            "ok": true,
+            "reason": "The object contains no visible text, numbers, labels, arrows, icons, logos or screens."
+          }
+        },
+        "verdict": "fail",
+        "summary": "The object is visually novel and text-free, but its knobbly working surface obscures and undermines the intended flattening task.",
+        "revised_prompt": "Generate a realistic image of one entirely novel, practical tool for rolling out dough flat, with its function immediately understandable from its visible construction. It must not resemble existing rolling pins. Function comes first: provide a broad, straight rolling drum with a continuous smooth cylindrical contact surface, circular cross-sections and exactly the same diameter across its full working width, so it presses dough into a flat sheet rather than making grooves. Make the drum visibly much wider than its diameter. Provide one comfortable solid grip at each end, allowing both hands to press down and move the tool forward and backward while the drum rotates freely on a sturdy concealed straight axle. Clearly show the small rotational separation between each grip and the drum; use thick, strong end connections without exposed pinch points. Keep both grips entirely within the drum's radial clearance so hands remain above the work surface. Replace loop handles with compact, broad, solid palm grips shaped like two different quirky, gently lobed organic seed pods, with rounded thumb saddles and blunt finger contours; no handle holes, long pulling loops or spikes. Give these grips bold, playful, irregular character rather than a sleek or luxury appearance. Use slimy-looking translucent green elastomer with suspended cloudy streaks and a palette of desaturated teal fading unevenly into off-black. Use firm food-safe elastomer over a rigid load-bearing core so the working drum cannot sag or squash; the slimy appearance must be optical only, with a dry, nonsticky, washable surface. Preserve micro-ridges that abruptly stop and restart without pattern on the grips and recessed drum end faces only, never on the smooth dough-contacting circumference. Put strange swirling, lobed cloudy formations beneath the drum's smooth transparent skin to retain organic visual character without introducing physical bumps. Keep the construction simple: one drum, two solid end grips and a concealed axle, with no gears, linkages, screws, sliders or electronics. Show the whole single assembled tool in a clear three-quarter view on a plain white background, with nothing else in the image. Do not include any dough or flour. Show no text, numbers, labels, arrows, icons, logos or screens anywhere."
+      },
+      {
+        "attempt": 2,
+        "prompt": "Generate a realistic image of one entirely novel, practical tool for rolling out dough flat, with its function immediately understandable from its visible construction. It must not resemble existing rolling pins. Function comes first: provide a broad, straight rolling drum with a continuous smooth cylindrical contact surface, circular cross-sections and exactly the same diameter across its full working width, so it presses dough into a flat sheet rather than making grooves. Make the drum visibly much wider than its diameter. Provide one comfortable solid grip at each end, allowing both hands to press down and move the tool forward and backward while the drum rotates freely on a sturdy concealed straight axle. Clearly show the small rotational separation between each grip and the drum; use thick, strong end connections without exposed pinch points. Keep both grips entirely within the drum's radial clearance so hands remain above the work surface. Replace loop handles with compact, broad, solid palm grips shaped like two different quirky, gently lobed organic seed pods, with rounded thumb saddles and blunt finger contours; no handle holes, long pulling loops or spikes. Give these grips bold, playful, irregular character rather than a sleek or luxury appearance. Use slimy-looking translucent green elastomer with suspended cloudy streaks and a palette of desaturated teal fading unevenly into off-black. Use firm food-safe elastomer over a rigid load-bearing core so the working drum cannot sag or squash; the slimy appearance must be optical only, with a dry, nonsticky, washable surface. Preserve micro-ridges that abruptly stop and restart without pattern on the grips and recessed drum end faces only, never on the smooth dough-contacting circumference. Put strange swirling, lobed cloudy formations beneath the drum's smooth transparent skin to retain organic visual character without introducing physical bumps. Keep the construction simple: one drum, two solid end grips and a concealed axle, with no gears, linkages, screws, sliders or electronics. Show the whole single assembled tool in a clear three-quarter view on a plain white background, with nothing else in the image. Do not include any dough or flour. Show no text, numbers, labels, arrows, icons, logos or screens anywhere.",
+        "image": "/shared/nas/data/m1/adadt2/nvrd/affordance-test/data/roll_dough/roll_dough.png",
+        "blind": {
+          "guesses": [
+            "rolling out dough",
+            "massaging sore muscles",
+            "storing small items"
+          ],
+          "why": "The smooth, rigid cylinder could roll over a surface, while the enlarged, grooved ends suggest handgrips or removable caps on a tube."
+        },
+        "pool": [
+          {
+            "model": "anthropic/claude-haiku-5.5",
+            "choice": "rolling out dough flat",
+            "correct": true,
+            "options": [
+              "hanging and organizing a set of keys",
+              "propping a book open to a page while reading",
+              "sharpening a pencil",
+              "picking up litter from the ground without bending down",
+              "rolling out dough flat",
+              "detangling and combing hair",
+              "pouring liquid into a narrow-necked bottle without spilling",
+              "straining solid particles out of a liquid",
+              "watering a plant",
+              "digging a small hole in garden soil",
+              "opening a tightly sealed jar lid",
+              "carrying groceries or other items by hand",
+              "supporting a human or item",
+              "scratching an itch in the middle of one's own back",
+              "hammering a nail into a wooden board"
+            ]
+          },
+          {
+            "model": "x-ai/grok-4.7",
+            "choice": "rolling out dough flat",
+            "correct": true,
+            "options": [
+              "squeezing the last toothpaste out of a tube",
+              "measuring the length of an object",
+              "tearing off a strip of adhesive tape",
+              "cutting food",
+              "detangling and combing hair",
+              "gripping and pulling a heavy door open",
+              "propping a book open to a page while reading",
+              "crushing garlic cloves",
+              "supporting a human or item",
+              "peeling the skin off a potato",
+              "writing on paper",
+              "rolling out dough flat",
+              "pouring liquid into a narrow-necked bottle without spilling",
+              "carrying groceries or other items by hand",
+              "hanging and organizing a set of keys"
+            ]
+          },
+          {
+            "model": "mistralai/mistral-medium-3-5",
+            "choice": "pouring liquid into a narrow-necked bottle without spilling",
+            "correct": false,
+            "options": [
+              "pumping air into a bicycle tire",
+              "detangling and combing hair",
+              "tearing off a strip of adhesive tape",
+              "rolling out dough flat",
+              "propping a book open to a page while reading",
+              "squeezing juice out of a citrus fruit",
+              "measuring the length of an object",
+              "scooping and stirring soup",
+              "pouring liquid into a narrow-necked bottle without spilling",
+              "scraping ice off a car windshield",
+              "digging a small hole in garden soil",
+              "hammering a nail into a wooden board",
+              "picking up litter from the ground without bending down",
+              "watering a plant",
+              "cracking open walnut shells"
+            ]
+          }
+        ],
+        "pool_correct": 2,
+        "criteria": {
+          "evident": {
+            "ok": true,
+            "reason": "The first blind guess explicitly names rolling out dough, and two of three pool models selected the intended task."
+          },
+          "correct": {
+            "ok": false,
+            "reason": "The oversized end grips visibly project below the drum's contact line, so they would meet the worktop before the drum could flatten dough into a thin sheet."
+          },
+          "specific": {
+            "ok": true,
+            "reason": "The broad, smooth, constant-diameter drum with a grip at each end is specialised for applying even rolling pressure."
+          },
+          "novel": {
+            "ok": true,
+            "reason": "Under the object-specific novelty rule, the strongly lobed organic grips, interrupted ridges and cloudy translucent interior provide sufficiently playful, unconventional character."
+          },
+          "practical": {
+            "ok": false,
+            "reason": "The low-projecting grip lobes would drag against the work surface and leave insufficient clearance for comfortable two-handed operation."
+          },
+          "no_text": {
+            "ok": true,
+            "reason": "The image contains no visible text, numbers, labels, arrows, icons, logos or screens."
+          }
+        },
+        "verdict": "fail",
+        "summary": "The task is clear and the object has distinctive character, but its oversized end grips obstruct the drum's working clearance.",
+        "revised_prompt": "Generate a realistic image of one entirely novel, practical tool for rolling out dough flat, with its function immediately understandable from its visible construction. It must not resemble existing rolling pins. Show one assembled object consisting only of a broad rolling drum, two solid end grips and a concealed sturdy straight axle. The drum must have a continuous, smooth cylindrical contact surface, circular cross-sections and exactly the same diameter across its full working width; make it visibly much wider than its diameter. Give it a rigid load-bearing core covered with firm food-safe elastomer so it cannot sag or squash under two-handed pressure.\n\nProvide one comfortable solid palm grip at each end. Crucially, make each grip substantially smaller in height and radial extent than the drum, with its lowest lobe clearly above the drum's bottom contact tangent. Provide generous clearance beneath each grip for fingers while the drum touches a flat worktop. Obtain comfortable palm area through the grips' outward length and gently broadened upper thumb saddles, not through downward-projecting lobes. Both hands must be able to press down and move the tool forward and backward while the drum rotates freely. Use thick, strong concealed axle connections, with a narrow visible rotational separation recessed behind rounded protective shoulders; no exposed pinch points or thin necks.\n\nShape the two grips as different quirky organic seed pods with bold, irregular lobes, blunt finger contours and rounded thumb saddles. Keep them playful and characterful rather than sleek, minimalist or luxurious. Use slimy-looking translucent green elastomer with suspended cloudy streaks and desaturated teal fading unevenly into off-black. The slimy appearance must be optical only: all exposed surfaces are dry, nonsticky and washable. Put micro-ridges that abruptly stop and restart without pattern on the grips and recessed drum end faces only. Put strange swirling, lobed cloudy formations beneath the drum's transparent skin, keeping its entire dough-contacting circumference physically smooth and unbroken. No cavities, lids, openings, handle holes, loops or spikes. No gears, linkages, screws, sliders or electronics.\n\nShow the whole tool in a clear three-quarter product view on a plain white background with soft lighting and nothing else in the image. Make the drum's bottom contact line and the substantial clearance beneath both grips clearly visible. Do not include any dough or flour. Show no text, numbers, labels, arrows, icons, logos or screens anywhere."
+      },
+      {
+        "attempt": 3,
+        "prompt": "Generate a realistic image of one entirely novel, practical tool for rolling out dough flat, with its function immediately understandable from its visible construction. It must not resemble existing rolling pins. Show one assembled object consisting only of a broad rolling drum, two solid end grips and a concealed sturdy straight axle. The drum must have a continuous, smooth cylindrical contact surface, circular cross-sections and exactly the same diameter across its full working width; make it visibly much wider than its diameter. Give it a rigid load-bearing core covered with firm food-safe elastomer so it cannot sag or squash under two-handed pressure.\n\nProvide one comfortable solid palm grip at each end. Crucially, make each grip substantially smaller in height and radial extent than the drum, with its lowest lobe clearly above the drum's bottom contact tangent. Provide generous clearance beneath each grip for fingers while the drum touches a flat worktop. Obtain comfortable palm area through the grips' outward length and gently broadened upper thumb saddles, not through downward-projecting lobes. Both hands must be able to press down and move the tool forward and backward while the drum rotates freely. Use thick, strong concealed axle connections, with a narrow visible rotational separation recessed behind rounded protective shoulders; no exposed pinch points or thin necks.\n\nShape the two grips as different quirky organic seed pods with bold, irregular lobes, blunt finger contours and rounded thumb saddles. Keep them playful and characterful rather than sleek, minimalist or luxurious. Use slimy-looking translucent green elastomer with suspended cloudy streaks and desaturated teal fading unevenly into off-black. The slimy appearance must be optical only: all exposed surfaces are dry, nonsticky and washable. Put micro-ridges that abruptly stop and restart without pattern on the grips and recessed drum end faces only. Put strange swirling, lobed cloudy formations beneath the drum's transparent skin, keeping its entire dough-contacting circumference physically smooth and unbroken. No cavities, lids, openings, handle holes, loops or spikes. No gears, linkages, screws, sliders or electronics.\n\nShow the whole tool in a clear three-quarter product view on a plain white background with soft lighting and nothing else in the image. Make the drum's bottom contact line and the substantial clearance beneath both grips clearly visible. Do not include any dough or flour. Show no text, numbers, labels, arrows, icons, logos or screens anywhere.",
+        "image": "/shared/nas/data/m1/adadt2/nvrd/affordance-test/data/roll_dough/roll_dough.png",
+        "blind": {
+          "guesses": [
+            "rolling out dough",
+            "flattening craft clay",
+            "massaging sore muscles"
+          ],
+          "why": "The smooth, hard cylindrical barrel and two sculpted gripping handles suggest a tool for rolling back and forth while applying pressure."
+        },
+        "pool": [
+          {
+            "model": "anthropic/claude-haiku-5.5",
+            "choice": "rolling out dough flat",
+            "correct": true,
+            "options": [
+              "squeezing juice out of a citrus fruit",
+              "scraping ice off a car windshield",
+              "sharpening a pencil",
+              "scratching an itch in the middle of one's own back",
+              "propping a book open to a page while reading",
+              "measuring the length of an object",
+              "detangling and combing hair",
+              "straining solid particles out of a liquid",
+              "squeezing the last toothpaste out of a tube",
+              "gripping and pulling a heavy door open",
+              "cracking open walnut shells",
+              "scooping and stirring soup",
+              "rolling out dough flat",
+              "digging a small hole in garden soil",
+              "driving a screw into a piece of wood"
+            ]
+          },
+          {
+            "model": "x-ai/grok-4.7",
+            "choice": "rolling out dough flat",
+            "correct": true,
+            "options": [
+              "tearing off a strip of adhesive tape",
+              "peeling the skin off a potato",
+              "writing on paper",
+              "driving a screw into a piece of wood",
+              "measuring the length of an object",
+              "carrying groceries or other items by hand",
+              "straining solid particles out of a liquid",
+              "propping a book open to a page while reading",
+              "hanging and organizing a set of keys",
+              "rolling out dough flat",
+              "detangling and combing hair",
+              "picking up litter from the ground without bending down",
+              "squeezing juice out of a citrus fruit",
+              "hammering a nail into a wooden board",
+              "squeezing the last toothpaste out of a tube"
+            ]
+          },
+          {
+            "model": "mistralai/mistral-medium-3-5",
+            "choice": "supporting a human or item",
+            "correct": false,
+            "options": [
+              "sharpening a pencil",
+              "picking up litter from the ground without bending down",
+              "peeling the skin off a potato",
+              "hammering a nail into a wooden board",
+              "tearing off a strip of adhesive tape",
+              "squeezing the last toothpaste out of a tube",
+              "squeezing juice out of a citrus fruit",
+              "pouring liquid into a narrow-necked bottle without spilling",
+              "supporting a human or item",
+              "watering a plant",
+              "driving a screw into a piece of wood",
+              "rolling out dough flat",
+              "carrying groceries or other items by hand",
+              "crushing garlic cloves",
+              "hanging and organizing a set of keys"
+            ]
+          }
+        ],
+        "pool_correct": 2,
+        "criteria": {
+          "evident": {
+            "ok": true,
+            "reason": "The first blind guess was rolling out dough, and two of three pool models selected the intended task."
+          },
+          "correct": {
+            "ok": true,
+            "reason": "The broad, smooth cylindrical drum can flatten dough under pressure from the two end grips, which remain above its bottom contact line."
+          },
+          "specific": {
+            "ok": true,
+            "reason": "The wide uninterrupted rolling surface and paired pressure grips clearly specialise the object for rolling material flat rather than generic holding or support."
+          },
+          "novel": {
+            "ok": true,
+            "reason": "Under the overriding novelty rule, the boldly lobed organic grips, interrupted micro-ridges and cloudy translucent green body give the necessary familiar layout distinctive playful character."
+          },
+          "practical": {
+            "ok": true,
+            "reason": "The substantial grip connections, rounded hand-contact surfaces, visible clearance beneath both grips and unbroken drum present a plausible sturdy tool without an obvious operational hazard."
+          },
+          "no_text": {
+            "ok": true,
+            "reason": "The image contains no visible text, numbers, labels, arrows, icons, logos or screens."
+          }
+        },
+        "verdict": "pass",
+        "summary": "The object clearly affords dough flattening, appears mechanically usable, and meets the overriding novelty requirement through its characterful organic form and surface treatment.",
+        "revised_prompt": null
+      }
+    ],
+    "final_attempt": 3,
+    "final_verdict": "pass",
+    "strategy": {
+      "mode": "novel",
+      "body_needs": "a grip at each end of the roller, so both hands can press down and roll it",
+      "finish": {
+        "material": "slimy translucent green elastomer with suspended cloudy streaks",
+        "surface": "micro-ridges that abruptly stop and restart without pattern",
+        "palette": "desaturated teal fading unevenly into off-black"
+      },
+      "finish_index": 2,
+      "judges": "single"
+    }
+  },
+  {
+    "id": "scoop_stir_soup",
+    "task": "scooping and stirring soup",
+    "avoid": "ladles",
+    "exclude": "the soup or pot or anything else",
+    "image_model": "openai/gpt-image-2",
+    "quality": "high",
+    "judge_model": "openai/gpt-6-astra",
+    "attempts": [
+      {
+        "attempt": 1,
+        "prompt": "Generate a realistic image of a single, entirely novel tool for scooping and stirring soup. Function comes first: it must clearly, plausibly and practically do the assigned task, scooping and stirring soup, so that a person can tell at a glance what it is for and could actually use it: a long, rigid reach from the bowl to the grip, so the bowl can be lowered deep into a pot and swept around in the soup while the hand stays well above it. Keep the shape features that do the work (the kind of edge, point, blade, bowl or surface the task needs) clearly visible and fully effective. Its novelty should come from funky, unexpected textures, colours and shapes: a bold, playful, organic, irregular, slightly strange form with real character, not a sleek, minimalist, luxury or designer look, and not one of the ordinary ladles, simply recoloured. Make it from matte stone-like polymer that looks eroded but new, with fine wrinkles radiating outward from structural stress points, in a palette of mint green to blush pink; the material and surface must not weaken, soften, perforate or make slippery anything that does the task, and the tool must be sturdy and comfortable to use. Show the whole tool in a three-quarter view on a plain white background, with nothing else in the image. Do not include the soup or pot or anything else. Show no text, numbers, labels, arrows, icons, logos or screens anywhere on the object.",
+        "image": "/shared/nas/data/m1/adadt2/nvrd/affordance-test/data/scoop_stir_soup/scoop_stir_soup.png",
+        "blind": {
+          "guesses": [
+            "serving soup",
+            "scooping sauce",
+            "serving rice"
+          ],
+          "why": "The broad, concave bowl and long handle suggest a serving scoop or ladle, while the ceramic-like surface and hanging hole suggest a reusable kitchen utensil."
+        },
+        "pool": [
+          {
+            "model": "anthropic/claude-haiku-5.5",
+            "choice": "scooping and stirring soup",
+            "correct": true,
+            "options": [
+              "crushing garlic cloves",
+              "supporting a human or item",
+              "scooping and stirring soup",
+              "detangling and combing hair",
+              "propping a book open to a page while reading",
+              "hanging and organizing a set of keys",
+              "hammering a nail into a wooden board",
+              "scraping ice off a car windshield",
+              "writing on paper",
+              "tearing off a strip of adhesive tape",
+              "driving a screw into a piece of wood",
+              "straining solid particles out of a liquid",
+              "pouring liquid into a narrow-necked bottle without spilling",
+              "opening a tightly sealed jar lid",
+              "scratching an itch in the middle of one's own back"
+            ]
+          },
+          {
+            "model": "x-ai/grok-4.7",
+            "choice": "scooping and stirring soup",
+            "correct": true,
+            "options": [
+              "pouring liquid into a narrow-necked bottle without spilling",
+              "scooping and stirring soup",
+              "writing on paper",
+              "digging a small hole in garden soil",
+              "squeezing juice out of a citrus fruit",
+              "measuring the length of an object",
+              "driving a screw into a piece of wood",
+              "hammering a nail into a wooden board",
+              "peeling the skin off a potato",
+              "propping a book open to a page while reading",
+              "rolling out dough flat",
+              "sharpening a pencil",
+              "supporting a human or item",
+              "tearing off a strip of adhesive tape",
+              "opening a tightly sealed jar lid"
+            ]
+          },
+          {
+            "model": "mistralai/mistral-medium-3-5",
+            "choice": "scooping and stirring soup",
+            "correct": true,
+            "options": [
+              "scooping and stirring soup",
+              "tearing off a strip of adhesive tape",
+              "cracking open walnut shells",
+              "picking up litter from the ground without bending down",
+              "sanding a rough wooden surface smooth",
+              "detangling and combing hair",
+              "propping a book open to a page while reading",
+              "hammering a nail into a wooden board",
+              "squeezing juice out of a citrus fruit",
+              "peeling the skin off a potato",
+              "carrying groceries or other items by hand",
+              "pumping air into a bicycle tire",
+              "gripping and pulling a heavy door open",
+              "straining solid particles out of a liquid",
+              "cutting food"
+            ]
+          }
+        ],
+        "pool_correct": 3,
+        "criteria": {
+          "evident": {
+            "ok": true,
+            "reason": "The first blind guess, serving soup, is a clear equivalent of the scooping function, and all three pool-test models identified scooping and stirring soup."
+          },
+          "correct": {
+            "ok": true,
+            "reason": "The continuous concave bowl can retain soup, while the long, rigid shaft permits deep scooping and stirring with the hand above the pot."
+          },
+          "specific": {
+            "ok": true,
+            "reason": "The deep open bowl, raised retaining rim and extended reach specialise the form for handling liquid food rather than general-purpose holding or manipulation."
+          },
+          "novel": {
+            "ok": true,
+            "reason": "Under the object-specific novelty rule, the irregular shell-like bowl, knobbly organic shaft and radiating wrinkles provide characterful structural variation beyond merely recolouring a familiar layout."
+          },
+          "practical": {
+            "ok": true,
+            "reason": "The bowl is unperforated, its connection to the shaft is substantial, and the rounded upper grip provides usable purchase without obvious sharp or pinching features."
+          },
+          "no_text": {
+            "ok": true,
+            "reason": "No text, numbers, labels, arrows, icons, logos or screens are visible."
+          }
+        },
+        "verdict": "pass",
+        "summary": "The tool clearly supports scooping and stirring soup with a solid bowl, adequate rigid reach and the playful organic novelty required by the object-specific rules.",
+        "revised_prompt": null
+      }
+    ],
+    "final_attempt": 1,
+    "final_verdict": "pass",
+    "strategy": {
+      "mode": "novel",
+      "body_needs": "a long, rigid reach from the bowl to the grip, so the bowl can be lowered deep into a pot and swept around in the soup while the hand stays well above it",
+      "finish": {
+        "material": "matte stone-like polymer that looks eroded but new",
+        "surface": "fine wrinkles radiating outward from structural stress points",
+        "palette": "mint green to blush pink"
+      },
+      "judges": "single",
+      "finish_index": 3
+    },
+    "replaced_by_user": {
+      "date": "2026-11-23",
+      "note": "image replaced with the user's own purple-coral ladle (their perturbation test's level 0); attempts below describe the earlier generated image"
+    }
+  },
+  {
+    "id": "hammer_nail",
+    "task": "hammering a nail into a wooden board",
+    "avoid": "hammers or mallets",
+    "exclude": "any nail or wood",
+    "image_model": "openai/gpt-image-2.6-sunburst",
+    "quality": "high",
+    "judge_model": "openai/gpt-6-astra",
+    "attempts": [
+      {
+        "attempt": 1,
+        "prompt": "Generate a realistic image of a single, entirely novel tool for hammering a nail into a wooden board. Function comes first: it must clearly, plausibly and practically do the assigned task, hammering a nail into a wooden board, so that a person can tell at a glance what it is for and could actually use it: a long, rigid handle at a right angle to the striking face, so it can be swung. Keep the shape features that do the work (the kind of edge, point, blade, bowl or surface the task needs) clearly visible and fully effective. Its novelty should come from funky, unexpected textures, colours and shapes: a bold, playful, organic, irregular, slightly strange form with real character, not a sleek, minimalist, luxury or designer look, and not one of the ordinary hammers or mallets, simply recoloured. Make it from felted wool, with areas that appear stretched thin over an internal structure, in a palette of warm nicotine-yellow contrasted with deep asphalt gray; the material and surface must not weaken, soften, perforate or make slippery anything that does the task, and the tool must be sturdy and comfortable to use. Show the whole tool in a three-quarter view on a plain white background, with nothing else in the image. Do not include any nail or wood. Show no text, numbers, labels, arrows, icons, logos or screens anywhere on the object.",
+        "image": "/shared/nas/data/m1/adadt2/nvrd/affordance-test/data/hammer_nail/hammer_nail.png",
+        "blind": {
+          "guesses": [
+            "hammering nails",
+            "pulling out nails",
+            "tapping parts into place"
+          ],
+          "why": "The object has a long padded-looking handle, a perpendicular head with a flat metal striking face, and a curved claw-like end."
+        },
+        "pool": [
+          {
+            "model": "anthropic/claude-haiku-5.5",
+            "choice": "hammering a nail into a wooden board",
+            "correct": true,
+            "options": [
+              "cracking open walnut shells",
+              "peeling the skin off a potato",
+              "scooping and stirring soup",
+              "propping a book open to a page while reading",
+              "pouring liquid into a narrow-necked bottle without spilling",
+              "measuring the length of an object",
+              "hammering a nail into a wooden board",
+              "watering a plant",
+              "driving a screw into a piece of wood",
+              "rolling out dough flat",
+              "picking up litter from the ground without bending down",
+              "digging a small hole in garden soil",
+              "gripping and pulling a heavy door open",
+              "tearing off a strip of adhesive tape",
+              "sharpening a pencil"
+            ]
+          },
+          {
+            "model": "x-ai/grok-4.7",
+            "choice": "hammering a nail into a wooden board",
+            "correct": true,
+            "options": [
+              "propping a book open to a page while reading",
+              "squeezing juice out of a citrus fruit",
+              "picking up litter from the ground without bending down",
+              "straining solid particles out of a liquid",
+              "cutting food",
+              "digging a small hole in garden soil",
+              "rolling out dough flat",
+              "pumping air into a bicycle tire",
+              "scratching an itch in the middle of one's own back",
+              "sharpening a pencil",
+              "cracking open walnut shells",
+              "gripping and pulling a heavy door open",
+              "opening a tightly sealed jar lid",
+              "carrying groceries or other items by hand",
+              "hammering a nail into a wooden board"
+            ]
+          },
+          {
+            "model": "mistralai/mistral-medium-3-5",
+            "choice": "hammering a nail into a wooden board",
+            "correct": true,
+            "options": [
+              "rolling out dough flat",
+              "scooping and stirring soup",
+              "supporting a human or item",
+              "scratching an itch in the middle of one's own back",
+              "measuring the length of an object",
+              "opening a tightly sealed jar lid",
+              "straining solid particles out of a liquid",
+              "propping a book open to a page while reading",
+              "digging a small hole in garden soil",
+              "tearing off a strip of adhesive tape",
+              "hanging and organizing a set of keys",
+              "scraping ice off a car windshield",
+              "carrying groceries or other items by hand",
+              "hammering a nail into a wooden board",
+              "squeezing the last toothpaste out of a tube"
+            ]
+          }
+        ],
+        "pool_correct": 3,
+        "criteria": {
+          "evident": {
+            "ok": true,
+            "reason": "The first blind guess was hammering nails, and all three pool-test models selected the exact intended task."
+          },
+          "correct": {
+            "ok": true,
+            "reason": "The long, apparently rigid handle and transverse striking end provide a plausible swing mechanism, with an exposed solid metal face that can drive a nail."
+          },
+          "specific": {
+            "ok": true,
+            "reason": "The concentrated striking mass, flat impact face and long leverage handle specialise the object for driving nails rather than generic holding or manipulation."
+          },
+          "novel": {
+            "ok": true,
+            "reason": "Under the object-specific novelty rule, the irregular branching silhouette, knobbly grip and stretched yellow-and-gray felt surfaces substantially transform the necessary familiar layout rather than merely recolouring it."
+          },
+          "practical": {
+            "ok": true,
+            "reason": "The striking face is solid and uncovered, the head-to-handle junction appears substantial, and the rounded felt-covered grip has no evident sharp edges or load-breaking gaps."
+          },
+          "no_text": {
+            "ok": true,
+            "reason": "There are no visible text, numbers, labels, arrows, icons, logos or screens."
+          }
+        },
+        "verdict": "pass",
+        "summary": "The object clearly affords nail driving, has a plausible durable striking surface and grip, and satisfies the object-specific requirement for playful organic novelty.",
+        "revised_prompt": null
+      }
+    ],
+    "final_attempt": 1,
+    "final_verdict": "pass",
+    "strategy": {
+      "mode": "novel",
+      "body_needs": "a long, rigid handle at a right angle to the striking face, so it can be swung",
+      "finish": {
+        "material": "felted wool",
+        "surface": "areas that appear stretched thin over an internal structure",
+        "palette": "warm nicotine-yellow contrasted with deep asphalt gray"
+      },
+      "finish_index": 5,
+      "judges": "single"
+    }
+  },
+  {
+    "id": "peel_vegetable",
+    "task": "peeling the skin off a potato",
+    "avoid": "vegetable peelers",
+    "exclude": "any potato, vegetable, or peel",
+    "image_model": "openai/gpt-image-2.6-sunburst",
+    "quality": "high",
+    "judge_model": "openai/gpt-6-astra",
+    "attempts": [
+      {
+        "attempt": 1,
+        "prompt": "Generate a realistic image of a single, entirely novel tool for peeling the skin off a potato. Function comes first: it must clearly, plausibly and practically do the assigned task, peeling the skin off a potato, so that a person can tell at a glance what it is for and could actually use it: a grip behind the blade, so the hand draws the blade along a vegetable. Keep the shape features that do the work (the kind of edge, point, blade, bowl or surface the task needs) clearly visible and fully effective. Its novelty should come from funky, unexpected textures, colours and shapes: a bold, playful, organic, irregular, slightly strange form with real character, not a sleek, minimalist, luxury or designer look, and not one of the ordinary vegetable peelers, simply recoloured. Make it from matte coral ceramic, with polished seams that zigzag unpredictably across the object, in a palette of cotton-candy pink contrasted with industrial dark gray; the material and surface must not weaken, soften, perforate or make slippery anything that does the task, and the tool must be sturdy and comfortable to use. Show the whole tool in a three-quarter view on a plain white background, with nothing else in the image. Do not include any potato, vegetable, or peel. Show no text, numbers, labels, arrows, icons, logos or screens anywhere on the object.",
+        "image": "/shared/nas/data/m1/adadt2/nvrd/affordance-test/data/peel_vegetable/peel_vegetable.png",
+        "blind": {
+          "guesses": [
+            "peeling vegetables",
+            "peeling fruit",
+            "shaving vegetables into thin ribbons"
+          ],
+          "why": "A slotted metal blade mounted across a forked head and a thick, contoured grip suggest a handheld tool for removing thin layers of food."
+        },
+        "pool": [
+          {
+            "model": "anthropic/claude-haiku-5.5",
+            "choice": "peeling the skin off a potato",
+            "correct": true,
+            "options": [
+              "digging a small hole in garden soil",
+              "driving a screw into a piece of wood",
+              "opening a tightly sealed jar lid",
+              "squeezing the last toothpaste out of a tube",
+              "scooping and stirring soup",
+              "scratching an itch in the middle of one's own back",
+              "detangling and combing hair",
+              "carrying groceries or other items by hand",
+              "supporting a human or item",
+              "peeling the skin off a potato",
+              "sharpening a pencil",
+              "tearing off a strip of adhesive tape",
+              "writing on paper",
+              "hammering a nail into a wooden board",
+              "hanging and organizing a set of keys"
+            ]
+          },
+          {
+            "model": "x-ai/grok-4.7",
+            "choice": "peeling the skin off a potato",
+            "correct": true,
+            "options": [
+              "digging a small hole in garden soil",
+              "squeezing juice out of a citrus fruit",
+              "pumping air into a bicycle tire",
+              "rolling out dough flat",
+              "pouring liquid into a narrow-necked bottle without spilling",
+              "writing on paper",
+              "cracking open walnut shells",
+              "propping a book open to a page while reading",
+              "peeling the skin off a potato",
+              "supporting a human or item",
+              "gripping and pulling a heavy door open",
+              "opening a tightly sealed jar lid",
+              "detangling and combing hair",
+              "driving a screw into a piece of wood",
+              "picking up litter from the ground without bending down"
+            ]
+          },
+          {
+            "model": "mistralai/mistral-medium-3-5",
+            "choice": "peeling the skin off a potato",
+            "correct": true,
+            "options": [
+              "squeezing juice out of a citrus fruit",
+              "crushing garlic cloves",
+              "scooping and stirring soup",
+              "hammering a nail into a wooden board",
+              "scraping ice off a car windshield",
+              "rolling out dough flat",
+              "propping a book open to a page while reading",
+              "pouring liquid into a narrow-necked bottle without spilling",
+              "peeling the skin off a potato",
+              "scratching an itch in the middle of one's own back",
+              "gripping and pulling a heavy door open",
+              "measuring the length of an object",
+              "supporting a human or item",
+              "watering a plant",
+              "writing on paper"
+            ]
+          }
+        ],
+        "pool_correct": 3,
+        "criteria": {
+          "evident": {
+            "ok": true,
+            "reason": "The first blind guess, peeling vegetables, clearly includes peeling a potato, and all three pool-test models selected the intended task."
+          },
+          "correct": {
+            "ok": true,
+            "reason": "The exposed metal peeling blade and substantial grip behind it provide a plausible way to draw the cutting edge along a potato."
+          },
+          "specific": {
+            "ok": true,
+            "reason": "The narrow slotted blade and supporting head specialise the object for removing thin strips of skin rather than generic cutting or scraping."
+          },
+          "novel": {
+            "ok": false,
+            "reason": "Despite its undulating grip and colourful zigzag seams, the overall object remains immediately recognisable as an existing vegetable peeler with decorative restyling."
+          },
+          "practical": {
+            "ok": true,
+            "reason": "The rounded grip, substantial ceramic supports and unobstructed metal blade appear usable, with the hand safely behind the cutting edge and space for peel to escape."
+          },
+          "no_text": {
+            "ok": true,
+            "reason": "The object contains no visible text, numbers, labels, arrows, icons, logos or screens."
+          }
+        },
+        "verdict": "fail",
+        "summary": "The object clearly and plausibly peels potatoes, but its overall form is still a recognisable existing peeler.",
+        "revised_prompt": "Generate a realistic image of one entirely novel handheld tool for peeling the skin off a potato. Function comes first: show an unmistakably functional, sharp metal peeling blade with a comfortable grip behind it, so the hand draws the blade along the potato. It must not resemble existing vegetable peelers. Build the whole body as a squat, asymmetric, three-lobed organic palm grip, like a playful knobbly seed with a broad, downturned prow rather than a separate elongated handle and head. The rounded rear lobes fill the palm behind the blade; a shallow thumb saddle on top and rounded finger scallops along the sides keep the hand securely away from the cutting edge. The broad front prow extends beyond the fingers and contains a shallow underside recess. Across this recess, securely seat a short industrial-dark-gray stainless-steel peeling blade between two thick, solid ceramic cheeks. Clearly show its continuous sharp cutting edge beside a narrow depth-limiting runner, with an open clearance slot behind the edge through which thin skin strips can escape. The edge must project sufficiently below the ceramic body to contact the curved potato surface without the body blocking the stroke. Keep the blade exposed and effective, the cheeks stout, and the body-to-blade support broad and solid; use no thin neck, extra mechanisms or decorative holes. Make the ceramic body boldly irregular and characterful, with unequal rounded lobes, soft knuckle-like bumps and shallow tactile dimples away from the blade. Use matte coral ceramic in cotton-candy pink contrasted with irregular industrial-dark-gray patches, with flush polished seams zigzagging unpredictably across the body. Keep the grip predominantly matte, comfortable and non-slip; the polished seams are surface details, not cracks or separate loose parts. The appearance should be funky, playful and slightly strange, not sleek, minimalist, luxurious or designer decor. Show the entire single tool in a three-quarter view that clearly reveals the blade edge, clearance slot, thick supports and grip behind the blade, on a plain white background with nothing else in the image. Do not include any potato, vegetable or peel. Show no text, numbers, labels, arrows, icons, logos or screens anywhere."
+      },
+      {
+        "attempt": 2,
+        "prompt": "Generate a realistic image of one entirely novel handheld tool for peeling the skin off a potato. Function comes first: show an unmistakably functional, sharp metal peeling blade with a comfortable grip behind it, so the hand draws the blade along the potato. It must not resemble existing vegetable peelers. Build the whole body as a squat, asymmetric, three-lobed organic palm grip, like a playful knobbly seed with a broad, downturned prow rather than a separate elongated handle and head. The rounded rear lobes fill the palm behind the blade; a shallow thumb saddle on top and rounded finger scallops along the sides keep the hand securely away from the cutting edge. The broad front prow extends beyond the fingers and contains a shallow underside recess. Across this recess, securely seat a short industrial-dark-gray stainless-steel peeling blade between two thick, solid ceramic cheeks. Clearly show its continuous sharp cutting edge beside a narrow depth-limiting runner, with an open clearance slot behind the edge through which thin skin strips can escape. The edge must project sufficiently below the ceramic body to contact the curved potato surface without the body blocking the stroke. Keep the blade exposed and effective, the cheeks stout, and the body-to-blade support broad and solid; use no thin neck, extra mechanisms or decorative holes. Make the ceramic body boldly irregular and characterful, with unequal rounded lobes, soft knuckle-like bumps and shallow tactile dimples away from the blade. Use matte coral ceramic in cotton-candy pink contrasted with irregular industrial-dark-gray patches, with flush polished seams zigzagging unpredictably across the body. Keep the grip predominantly matte, comfortable and non-slip; the polished seams are surface details, not cracks or separate loose parts. The appearance should be funky, playful and slightly strange, not sleek, minimalist, luxurious or designer decor. Show the entire single tool in a three-quarter view that clearly reveals the blade edge, clearance slot, thick supports and grip behind the blade, on a plain white background with nothing else in the image. Do not include any potato, vegetable or peel. Show no text, numbers, labels, arrows, icons, logos or screens anywhere.",
+        "image": "/shared/nas/data/m1/adadt2/nvrd/affordance-test/data/peel_vegetable/peel_vegetable.png",
+        "blind": {
+          "guesses": [
+            "peeling vegetables",
+            "peeling fruit",
+            "shaving thin strips of cheese"
+          ],
+          "why": "The slotted metal blade spans an opening beneath a broad, finger-contoured grip, suggesting a handheld tool for removing thin layers."
+        },
+        "pool": [
+          {
+            "model": "anthropic/claude-haiku-5.5",
+            "choice": "peeling the skin off a potato",
+            "correct": true,
+            "options": [
+              "cutting food",
+              "hammering a nail into a wooden board",
+              "peeling the skin off a potato",
+              "squeezing the last toothpaste out of a tube",
+              "writing on paper",
+              "opening a tightly sealed jar lid",
+              "pumping air into a bicycle tire",
+              "picking up litter from the ground without bending down",
+              "propping a book open to a page while reading",
+              "straining solid particles out of a liquid",
+              "squeezing juice out of a citrus fruit",
+              "watering a plant",
+              "rolling out dough flat",
+              "gripping and pulling a heavy door open",
+              "digging a small hole in garden soil"
+            ]
+          },
+          {
+            "model": "x-ai/grok-4.7",
+            "choice": "peeling the skin off a potato",
+            "correct": true,
+            "options": [
+              "supporting a human or item",
+              "digging a small hole in garden soil",
+              "squeezing the last toothpaste out of a tube",
+              "pouring liquid into a narrow-necked bottle without spilling",
+              "hammering a nail into a wooden board",
+              "scratching an itch in the middle of one's own back",
+              "watering a plant",
+              "cracking open walnut shells",
+              "writing on paper",
+              "rolling out dough flat",
+              "squeezing juice out of a citrus fruit",
+              "peeling the skin off a potato",
+              "hanging and organizing a set of keys",
+              "scraping ice off a car windshield",
+              "opening a tightly sealed jar lid"
+            ]
+          },
+          {
+            "model": "mistralai/mistral-medium-3-5",
+            "choice": "peeling the skin off a potato",
+            "correct": true,
+            "options": [
+              "peeling the skin off a potato",
+              "watering a plant",
+              "supporting a human or item",
+              "propping a book open to a page while reading",
+              "gripping and pulling a heavy door open",
+              "scratching an itch in the middle of one's own back",
+              "measuring the length of an object",
+              "writing on paper",
+              "squeezing the last toothpaste out of a tube",
+              "opening a tightly sealed jar lid",
+              "hanging and organizing a set of keys",
+              "cracking open walnut shells",
+              "sharpening a pencil",
+              "pouring liquid into a narrow-necked bottle without spilling",
+              "squeezing juice out of a citrus fruit"
+            ]
+          }
+        ],
+        "pool_correct": 3,
+        "criteria": {
+          "evident": {
+            "ok": true,
+            "reason": "The first blind guess, peeling vegetables, clearly encompasses peeling a potato, and all three pool models selected the intended task."
+          },
+          "correct": {
+            "ok": true,
+            "reason": "An exposed metal cutting edge, adjacent runner and open clearance slot plausibly remove thin potato skin as the grip behind the blade is drawn along the surface."
+          },
+          "specific": {
+            "ok": true,
+            "reason": "The supported peeling blade and narrow clearance slot specialise the object for removing thin surface layers rather than unrelated general-purpose tasks."
+          },
+          "novel": {
+            "ok": true,
+            "reason": "The integrated, irregular lobed body, tactile dimples and contrasting patches with polished seams give the whole object a distinctly playful organic form beyond a merely recoloured ordinary tool."
+          },
+          "practical": {
+            "ok": true,
+            "reason": "The broad grip sits behind the cutting edge, while thick ceramic cheeks support the continuous blade without a fragile neck or an obvious obstruction to potato contact."
+          },
+          "no_text": {
+            "ok": true,
+            "reason": "The image contains no visible text, numbers, labels, arrows, icons, logos or screens."
+          }
+        },
+        "verdict": "pass",
+        "summary": "The tool clearly affords potato peeling through a plausible supported blade and safe rear grip while meeting the required playful, irregular novelty.",
+        "revised_prompt": null
+      }
+    ],
+    "final_attempt": 2,
+    "final_verdict": "pass",
+    "strategy": {
+      "mode": "novel",
+      "body_needs": "a grip behind the blade, so the hand draws the blade along a vegetable",
+      "finish": {
+        "material": "matte coral ceramic",
+        "surface": "polished seams that zigzag unpredictably across the object",
+        "palette": "cotton-candy pink contrasted with industrial dark gray"
+      },
+      "finish_index": 6,
+      "judges": "single"
+    }
+  },
+  {
+    "id": "cut_food",
+    "task": "cutting food",
+    "avoid": "knives",
+    "exclude": "any food or cutting board",
+    "image_model": "openai/gpt-image-2.6-sunburst",
+    "quality": "high",
+    "judge_model": "openai/gpt-6-astra",
+    "attempts": [
+      {
+        "attempt": 1,
+        "prompt": "Generate a realistic image of a single, entirely novel tool for cutting food. Function comes first: it must clearly, plausibly and practically do the assigned task, cutting food, so that a person can tell at a glance what it is for and could actually use it: a grip placed directly above the blade, so hand pressure pushes the edge straight down through the food, with room for the knuckles above the edge. Keep the shape features that do the work (the kind of edge, point, blade, bowl or surface the task needs) clearly visible and fully effective. Its novelty should come from funky, unexpected textures, colours and shapes: a bold, playful, organic, irregular, slightly strange form with real character, not a sleek, minimalist, luxury or designer look, and not one of the ordinary knives, simply recoloured. Make it from ceramic glaze that appears cracked but is perfectly smooth, with tiny vent-like holes that suggest pressure release but do nothing, in a palette of bone white smeared with muted bruise-purple undertones; the material and surface must not weaken, soften, perforate or make slippery anything that does the task, and the tool must be sturdy and comfortable to use. Show the whole tool in a three-quarter view on a plain white background, with nothing else in the image. Do not include any food or cutting board. Show no text, numbers, labels, arrows, icons, logos or screens anywhere on the object.",
+        "image": "/shared/nas/data/m1/adadt2/nvrd/affordance-test/data/cut_food/cut_food.png",
+        "blind": {
+          "guesses": [
+            "chopping herbs",
+            "slicing pizza",
+            "cutting pastry dough"
+          ],
+          "why": "The broad, curved metal blade and large finger-contoured handle suggest pressing down and rocking to cut food."
+        },
+        "pool": [
+          {
+            "model": "anthropic/claude-haiku-5.5",
+            "choice": "cutting food",
+            "correct": true,
+            "options": [
+              "scraping ice off a car windshield",
+              "pouring liquid into a narrow-necked bottle without spilling",
+              "tearing off a strip of adhesive tape",
+              "pumping air into a bicycle tire",
+              "rolling out dough flat",
+              "scratching an itch in the middle of one's own back",
+              "picking up litter from the ground without bending down",
+              "watering a plant",
+              "sharpening a pencil",
+              "hanging and organizing a set of keys",
+              "cracking open walnut shells",
+              "digging a small hole in garden soil",
+              "cutting food",
+              "scooping and stirring soup",
+              "straining solid particles out of a liquid"
+            ]
+          },
+          {
+            "model": "x-ai/grok-4.7",
+            "choice": "cutting food",
+            "correct": true,
+            "options": [
+              "opening a tightly sealed jar lid",
+              "cracking open walnut shells",
+              "hammering a nail into a wooden board",
+              "sharpening a pencil",
+              "scratching an itch in the middle of one's own back",
+              "cutting food",
+              "scraping ice off a car windshield",
+              "picking up litter from the ground without bending down",
+              "hanging and organizing a set of keys",
+              "digging a small hole in garden soil",
+              "crushing garlic cloves",
+              "gripping and pulling a heavy door open",
+              "straining solid particles out of a liquid",
+              "tearing off a strip of adhesive tape",
+              "supporting a human or item"
+            ]
+          },
+          {
+            "model": "mistralai/mistral-medium-3-5",
+            "choice": "cutting food",
+            "correct": true,
+            "options": [
+              "picking up litter from the ground without bending down",
+              "carrying groceries or other items by hand",
+              "squeezing the last toothpaste out of a tube",
+              "tearing off a strip of adhesive tape",
+              "opening a tightly sealed jar lid",
+              "peeling the skin off a potato",
+              "propping a book open to a page while reading",
+              "digging a small hole in garden soil",
+              "hanging and organizing a set of keys",
+              "gripping and pulling a heavy door open",
+              "sharpening a pencil",
+              "cutting food",
+              "scooping and stirring soup",
+              "writing on paper",
+              "measuring the length of an object"
+            ]
+          }
+        ],
+        "pool_correct": 3,
+        "criteria": {
+          "evident": {
+            "ok": true,
+            "reason": "All three blind guesses describe cutting food, and all three pool-test models selected the intended task."
+          },
+          "correct": {
+            "ok": true,
+            "reason": "The continuous exposed blade has a plausible cutting edge, with a substantial grip directly above it and ample clearance for the knuckles."
+          },
+          "specific": {
+            "ok": true,
+            "reason": "The broad cutting blade and overhead pressure grip clearly specialise the object for cutting rather than general holding or pressing."
+          },
+          "novel": {
+            "ok": true,
+            "reason": "Under the object-specific novelty rule, the swollen irregular grip, organic flares and bruise-purple crackle-glazed body provide character beyond merely recolouring a familiar tool."
+          },
+          "practical": {
+            "ok": false,
+            "reason": "The decorative openings occupy the force-bearing uprights and lower housing where food could contact them, contrary to the requirement that such holes remain outside load-bearing and material-contact areas."
+          },
+          "no_text": {
+            "ok": true,
+            "reason": "The visible object contains no text, numbers, labels, arrows, icons, logos or screens."
+          }
+        },
+        "verdict": "fail",
+        "summary": "The cutting function is clear and mechanically plausible, but the decorative holes must be moved away from structural and food-contact surfaces.",
+        "revised_prompt": "Generate a realistic image of a single, entirely novel tool for cutting food; it must not resemble existing knives. Preserve a clear, practical cutting layout: one broad, solid metal blade with an uninterrupted, visibly sharpened, gently curved lower edge, mounted beneath a substantial overhead grip. Place the grip directly above the blade so hand pressure drives the edge straight down through food. Leave a generous open space beneath the grip for curled fingers and knuckles, safely separated from the edge. Join the grip to the blade housing with two thick, solid, smoothly rounded uprights. Keep the blade, its mounting, both uprights and every food-contact surface completely unperforated, with no gaps, cavities or thin structural necks. Expose enough blade below the housing to cut food without the housing immediately obstructing the cut. Give the body a bold, playful, organic, irregular silhouette with softly swollen grip contours and chunky asymmetric rounded lobes, not a sleek, minimalist, luxury or designer-decor appearance. Use ceramic glaze that appears cracked but is perfectly smooth and sealed, in bone white smeared with muted bruise-purple undertones; the apparent cracks are only a visual surface pattern. Keep the hand-contact surfaces comfortable and secure rather than slippery. Preserve tiny vent-like holes that suggest pressure release but do nothing, locating them exclusively as shallow blind holes in a small outward-facing decorative lobe above and outside one grip-to-upright junction. This lobe must be outside the hand-contact area and food path, must carry no working load, and its holes must not penetrate the solid structural body. Leave the lower housing and uprights smooth and hole-free. Use the simplest sturdy fixed construction, with no moving mechanisms or unnecessary parts. Show the whole tool in a three-quarter view on a plain white background, with nothing else in the image. Do not include any food or cutting board. Show no text, numbers, labels, arrows, icons, logos or screens anywhere."
+      },
+      {
+        "attempt": 2,
+        "prompt": "Generate a realistic image of a single, entirely novel tool for cutting food; it must not resemble existing knives. Preserve a clear, practical cutting layout: one broad, solid metal blade with an uninterrupted, visibly sharpened, gently curved lower edge, mounted beneath a substantial overhead grip. Place the grip directly above the blade so hand pressure drives the edge straight down through food. Leave a generous open space beneath the grip for curled fingers and knuckles, safely separated from the edge. Join the grip to the blade housing with two thick, solid, smoothly rounded uprights. Keep the blade, its mounting, both uprights and every food-contact surface completely unperforated, with no gaps, cavities or thin structural necks. Expose enough blade below the housing to cut food without the housing immediately obstructing the cut. Give the body a bold, playful, organic, irregular silhouette with softly swollen grip contours and chunky asymmetric rounded lobes, not a sleek, minimalist, luxury or designer-decor appearance. Use ceramic glaze that appears cracked but is perfectly smooth and sealed, in bone white smeared with muted bruise-purple undertones; the apparent cracks are only a visual surface pattern. Keep the hand-contact surfaces comfortable and secure rather than slippery. Preserve tiny vent-like holes that suggest pressure release but do nothing, locating them exclusively as shallow blind holes in a small outward-facing decorative lobe above and outside one grip-to-upright junction. This lobe must be outside the hand-contact area and food path, must carry no working load, and its holes must not penetrate the solid structural body. Leave the lower housing and uprights smooth and hole-free. Use the simplest sturdy fixed construction, with no moving mechanisms or unnecessary parts. Show the whole tool in a three-quarter view on a plain white background, with nothing else in the image. Do not include any food or cutting board. Show no text, numbers, labels, arrows, icons, logos or screens anywhere.",
+        "image": "/shared/nas/data/m1/adadt2/nvrd/affordance-test/data/cut_food/cut_food.png",
+        "blind": {
+          "guesses": [
+            "chopping herbs",
+            "cutting pizza",
+            "chopping vegetables"
+          ],
+          "why": "The broad, curved metal blade and large loop handle suggest rocking it back and forth to cut food, while the glazed ceramic body provides a firm grip."
+        },
+        "pool": [
+          {
+            "model": "anthropic/claude-haiku-5.5",
+            "choice": "cutting food",
+            "correct": true,
+            "options": [
+              "peeling the skin off a potato",
+              "digging a small hole in garden soil",
+              "supporting a human or item",
+              "rolling out dough flat",
+              "cutting food",
+              "tearing off a strip of adhesive tape",
+              "opening a tightly sealed jar lid",
+              "propping a book open to a page while reading",
+              "cracking open walnut shells",
+              "straining solid particles out of a liquid",
+              "watering a plant",
+              "pumping air into a bicycle tire",
+              "detangling and combing hair",
+              "squeezing the last toothpaste out of a tube",
+              "picking up litter from the ground without bending down"
+            ]
+          },
+          {
+            "model": "x-ai/grok-4.7",
+            "choice": "cutting food",
+            "correct": true,
+            "options": [
+              "driving a screw into a piece of wood",
+              "squeezing juice out of a citrus fruit",
+              "propping a book open to a page while reading",
+              "carrying groceries or other items by hand",
+              "watering a plant",
+              "crushing garlic cloves",
+              "pumping air into a bicycle tire",
+              "peeling the skin off a potato",
+              "cutting food",
+              "scooping and stirring soup",
+              "supporting a human or item",
+              "pouring liquid into a narrow-necked bottle without spilling",
+              "detangling and combing hair",
+              "picking up litter from the ground without bending down",
+              "rolling out dough flat"
+            ]
+          },
+          {
+            "model": "mistralai/mistral-medium-3-5",
+            "choice": "cutting food",
+            "correct": true,
+            "options": [
+              "hanging and organizing a set of keys",
+              "carrying groceries or other items by hand",
+              "detangling and combing hair",
+              "watering a plant",
+              "scooping and stirring soup",
+              "digging a small hole in garden soil",
+              "cutting food",
+              "crushing garlic cloves",
+              "hammering a nail into a wooden board",
+              "squeezing the last toothpaste out of a tube",
+              "tearing off a strip of adhesive tape",
+              "propping a book open to a page while reading",
+              "supporting a human or item",
+              "peeling the skin off a potato",
+              "rolling out dough flat"
+            ]
+          }
+        ],
+        "pool_correct": 3,
+        "criteria": {
+          "evident": {
+            "ok": true,
+            "reason": "All three blind guesses describe cutting food, and all three pool models selected the intended task."
+          },
+          "correct": {
+            "ok": true,
+            "reason": "The exposed, continuous metal cutting edge sits directly beneath a substantial grip, allowing downward cutting pressure with ample knuckle clearance."
+          },
+          "specific": {
+            "ok": true,
+            "reason": "The broad sharpened blade and overhead pressure grip clearly specialise the object for cutting rather than general holding or pressing."
+          },
+          "novel": {
+            "ok": true,
+            "reason": "The irregular swollen grip, asymmetric organic lobes and bone-white, bruise-purple crackle finish give the whole object distinctive character beyond merely recolouring a conventional tool."
+          },
+          "practical": {
+            "ok": true,
+            "reason": "Thick solid uprights support the grip, the exposed blade and lower housing are uninterrupted, and the tiny decorative holes occupy an outward upper lobe away from the food path and main load-bearing structure."
+          },
+          "no_text": {
+            "ok": true,
+            "reason": "The image contains no visible text, numbers, labels, arrows, icons, logos or screens."
+          }
+        },
+        "verdict": "pass",
+        "summary": "The object clearly and plausibly affords cutting food while retaining a characterful organic form and safely positioned decorative holes.",
+        "revised_prompt": null
+      }
+    ],
+    "final_attempt": 2,
+    "final_verdict": "pass",
+    "strategy": {
+      "mode": "novel",
+      "body_needs": "a grip placed directly above the blade, so hand pressure pushes the edge straight down through the food, with room for the knuckles above the edge",
+      "finish": {
+        "material": "ceramic glaze that appears cracked but is perfectly smooth",
+        "surface": "tiny vent-like holes that suggest pressure release but do nothing",
+        "palette": "bone white smeared with muted bruise-purple undertones"
+      },
+      "finish_index": 7,
+      "judges": "single"
+    }
+  },
+  {
+    "id": "open_jar_lid",
+    "task": "opening a tightly sealed jar lid",
+    "avoid": "jar openers or bottle openers",
+    "exclude": "any jar or lid",
+    "image_model": "openai/gpt-image-2.6-sunburst",
+    "quality": "high",
+    "judge_model": "openai/gpt-6-astra",
+    "attempts": [
+      {
+        "attempt": 1,
+        "prompt": "Generate a realistic image of a single, entirely novel tool for opening a tightly sealed jar lid. Function comes first: it must clearly, plausibly and practically do the assigned task, opening a tightly sealed jar lid, so that a person can tell at a glance what it is for and could actually use it: a way to grip lids of many different sizes, such as a tapering V-shaped jaw, a stepped cone or an adjustable band, with grippy ridges wherever it touches the lid, and a handle that sticks out sideways from it, giving leverage to twist it. Keep the shape features that do the work (the kind of edge, point, blade, bowl or surface the task needs) clearly visible and fully effective. Its novelty should come from funky, unexpected textures, colours and shapes: a bold, playful, organic, irregular, slightly strange form with real character, not a sleek, minimalist, luxury or designer look, and not one of the ordinary jar openers or bottle openers, simply recoloured. Make it from bioplastic with faint organic veining like fat or cartilage, with puckered dimples scattered unevenly like pinched clay, in a palette of smoky translucent amber paired with dead matte charcoal; the material and surface must not weaken, soften, perforate or make slippery anything that does the task, and the tool must be sturdy and comfortable to use. Show the whole tool in a three-quarter view on a plain white background, with nothing else in the image. Do not include any jar or lid. Show no text, numbers, labels, arrows, icons, logos or screens anywhere on the object.",
+        "image": "/shared/nas/data/m1/adadt2/nvrd/affordance-test/data/open_jar_lid/open_jar_lid.png",
+        "blind": {
+          "guesses": [
+            "opening tight jar lids",
+            "loosening pipe fittings",
+            "removing oil filters"
+          ],
+          "why": "The adjustable circular jaw, ribbed gripping surfaces, tightening knob, and long handle suggest gripping round objects and twisting them with extra leverage."
+        },
+        "pool": [
+          {
+            "model": "anthropic/claude-haiku-5.5",
+            "choice": "opening a tightly sealed jar lid",
+            "correct": true,
+            "options": [
+              "opening a tightly sealed jar lid",
+              "straining solid particles out of a liquid",
+              "measuring the length of an object",
+              "tearing off a strip of adhesive tape",
+              "propping a book open to a page while reading",
+              "watering a plant",
+              "detangling and combing hair",
+              "pouring liquid into a narrow-necked bottle without spilling",
+              "squeezing juice out of a citrus fruit",
+              "rolling out dough flat",
+              "cutting food",
+              "pumping air into a bicycle tire",
+              "squeezing the last toothpaste out of a tube",
+              "supporting a human or item",
+              "hanging and organizing a set of keys"
+            ]
+          },
+          {
+            "model": "x-ai/grok-4.7",
+            "choice": "opening a tightly sealed jar lid",
+            "correct": true,
+            "options": [
+              "peeling the skin off a potato",
+              "rolling out dough flat",
+              "straining solid particles out of a liquid",
+              "measuring the length of an object",
+              "detangling and combing hair",
+              "pumping air into a bicycle tire",
+              "driving a screw into a piece of wood",
+              "digging a small hole in garden soil",
+              "hanging and organizing a set of keys",
+              "picking up litter from the ground without bending down",
+              "opening a tightly sealed jar lid",
+              "tearing off a strip of adhesive tape",
+              "squeezing the last toothpaste out of a tube",
+              "scooping and stirring soup",
+              "propping a book open to a page while reading"
+            ]
+          },
+          {
+            "model": "mistralai/mistral-medium-3-5",
+            "choice": "detangling and combing hair",
+            "correct": false,
+            "options": [
+              "scooping and stirring soup",
+              "detangling and combing hair",
+              "crushing garlic cloves",
+              "cutting food",
+              "gripping and pulling a heavy door open",
+              "pumping air into a bicycle tire",
+              "writing on paper",
+              "digging a small hole in garden soil",
+              "hammering a nail into a wooden board",
+              "carrying groceries or other items by hand",
+              "measuring the length of an object",
+              "opening a tightly sealed jar lid",
+              "supporting a human or item",
+              "propping a book open to a page while reading",
+              "sharpening a pencil"
+            ]
+          }
+        ],
+        "pool_correct": 2,
+        "criteria": {
+          "evident": {
+            "ok": true,
+            "reason": "The first blind guess names opening tight jar lids, and two of three pool-test models selected the intended task."
+          },
+          "correct": {
+            "ok": true,
+            "reason": "The ridged gripping loop and side adjustment knob plausibly accommodate different lid sizes, while the projecting handle supplies twisting leverage."
+          },
+          "specific": {
+            "ok": true,
+            "reason": "The inward-facing gripping ridges, adjustable circular opening and leverage handle specialise the object for gripping and twisting lids rather than general-purpose handling."
+          },
+          "novel": {
+            "ok": true,
+            "reason": "The irregular, cartilage-like amber body, deeply puckered charcoal surfaces and bulbous organic contours give the whole object a characterful form beyond simple recolouring."
+          },
+          "practical": {
+            "ok": true,
+            "reason": "The substantial handle-to-head connection, supported gripping surfaces and rounded hand-contact areas appear suitable for applying everyday lid-opening torque."
+          },
+          "no_text": {
+            "ok": true,
+            "reason": "The object has no visible text, numbers, labels, arrows, icons, logos or screens."
+          }
+        },
+        "verdict": "pass",
+        "summary": "The object clearly suggests lid opening, offers plausible adjustable grip and leverage, and meets the required organic novelty and pool-test threshold.",
+        "revised_prompt": null
+      }
+    ],
+    "final_attempt": 1,
+    "final_verdict": "pass",
+    "strategy": {
+      "mode": "novel",
+      "body_needs": "a way to grip lids of many different sizes, such as a tapering V-shaped jaw, a stepped cone or an adjustable band, with grippy ridges wherever it touches the lid, and a handle that sticks out sideways from it, giving leverage to twist it",
+      "finish": {
+        "material": "bioplastic with faint organic veining like fat or cartilage",
+        "surface": "puckered dimples scattered unevenly like pinched clay",
+        "palette": "smoky translucent amber paired with dead matte charcoal"
+      },
+      "finish_index": 8,
+      "judges": "single"
+    }
+  }
+]

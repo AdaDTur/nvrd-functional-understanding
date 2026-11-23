@@ -1,0 +1,643 @@
+{
+  "object": "shape_15",
+  "model": "Qwen/Qwen3.5-4B",
+  "image_path": "/shared/nas/data/m1/adadt2/nvrd/regions_test/data/novel/shape_15.png",
+  "region_source": "sam_slic",
+  "method": "per_part_with_comparative_context",
+  "top_k": 10,
+  "modes": [
+    "logprob",
+    "generation"
+  ],
+  "regions": [
+    {
+      "region_id": "shape_15_region_7",
+      "area": 150579,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "gg_8f0ln0f0C<E8J5H9I7G7L5G9J6K4K5L4J5L6K6G8L3L3N3K5L3N2K6K4N3H7N2J6K5M4L3N3J6M2M2N3M3M3K6M2L4M3M3N2O0K6M4M2N2N2L3M4N2M2L5M4K4M2N3M2M4M2N3L4M3M3N1N3L4N1N3L3N3M2O2M2M3O2M2N2M3N3DoDb[OV;]d07O100O2N1O2N1O1O1N2M3O1N2O1N3L3N1O2L4L4L5L3M3M3TOSCS^O04Q=ga0j0N2SOTBb_OP>]`0j000O1001N101O001N2O1O1O001O001O001O001N101O0O2O1N101O1N10001O00001N1000001O0O101O0O10001N100O100O1O1O100000O10O1000O0100O1O010O1O001000O10O01O1O010O001O010O0010O0O10000000O2O0O10O10O2O01N10O1000O1O001O10O1O101O0O100O0010O1O1O1O1001O1O001O0O2O00000000000O0100L400100O1O001O001O00O100000001O0N2001O010O1O001O001O0010O00001O00010O01O1O001O0010O010O10O010O00010O1O1O0010OO2O010O01O001O001O001M2O2O001O01O01L301N1O2O00000O2N1M4O001O00001M201O00001O0O2N1O2K5N1O2N2N10001O0L5O001O0O2O0O2O1N101O1O1O00001O001O0O2N2N1O2N2N2N1O2O1cIU\\Oc0mc0[Lo[O;`0R3ac0bLX\\O1?X3Zc0eLZ\\OkMBk1R1`3Sc0iLf\\O@=c3mb0mLh\\O\\Ob0k0gNhMNb1Wd0?c\\OkMQOX1e1o0TO]Odc0`0k\\OPOb0n0ROVNSOm0_d0o0o\\OiNb0P1]OTOUc0R1T]OaN>V1^OPOSc0X1X]OZN;[1\\OnNTc0i0[[OmNm1DSN3Y2b1[OlNTc0g0e[OlN_4\\1jLnNUc0h0m@7PLmNVc0i0o@7mKlNWc0k0PA7jKmNUc0l0SA6kKjNSc0o0TA5Sa0Jo^O5Pa0JU_O3k`0KX_O4h`0J\\_O4d`0K^_O4a`0Lb_O2^`0Me_O1[`0Ng_O1Y`0Mk_O1U`0Nn_O0R`0OQ@Oo?0S@Om?0V@Oi?0Z@Nf?1\\@Nd?0_@Ob?Oa@O_?0d@N]?0e@N\\?1g@MZ?2i@JY?4[8MRgb:"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 1 forms the central body of the structure but lacks any protrusions like spikes found in surrounding sections such as those at positions four through seven; its smooth surface suggests no functional interaction beyond structural support within the whole form",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.0056881050695665,
+                "prob": 0.44310707529556215
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -2.1304485721095645,
+                "prob": 0.14389026763277063
+              },
+              {
+                "option": "anchor",
+                "logprob": -2.5057752071879804,
+                "prob": 0.09886194121405814
+              },
+              {
+                "option": "align",
+                "logprob": -3.0056714224920142,
+                "prob": 0.0599690219687868
+              },
+              {
+                "option": "channel water",
+                "logprob": -3.382060138595989,
+                "prob": 0.04115886816919553
+              },
+              {
+                "option": "absorb",
+                "logprob": -3.8189367039885838,
+                "prob": 0.02659073500087063
+              },
+              {
+                "option": "contain",
+                "logprob": -3.8807065746514127,
+                "prob": 0.024997928869428226
+              },
+              {
+                "option": "orient",
+                "logprob": -4.005628523242194,
+                "prob": 0.022062316726011222
+              },
+              {
+                "option": "support",
+                "logprob": -4.068593286152463,
+                "prob": 0.02071599826297961
+              },
+              {
+                "option": "control",
+                "logprob": -4.131124254781753,
+                "prob": 0.019460276710037173
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "hold",
+              "support",
+              "carry",
+              "contain",
+              "store_fuel",
+              "balance",
+              "stand",
+              "place",
+              "fill",
+              "none"
+            ],
+            "n_valid": 10,
+            "invalid": [
+              "Based on the visual analysis of part 1 (the central blue body of the object), here is the ranking of its most plausible affordances:"
+            ],
+            "raw": "Based on the visual analysis of part 1 (the central blue body of the object), here is the ranking of its most plausible affordances:\n\n1. hold\n2. support\n3. carry\n4. contain\n5. store_fuel\n6. balance\n7. stand\n8. place\n9. fill\n10. none"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_15_region_4",
+      "area": 98345,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "TVS8P1mn07I7I7I8I6J5L3L4M4L3L4M4L3L3N2O2M3M2N3M3M2N3M2N3N2M2N2N3M2O2M2N2O2M2O2M2O1N3N1N2O2N2M2N3N1N3N1N2O1N3N1O1N2O1O1N2O2N1N2O1O2N1N2O1O2N1O1N3N1O2M2O1O1O2N1N3N1O1O1O1O2M2O1O1O2N1O1N2O1O2N1O2N1O1O2M2O2N1O1O1O2N1O2N1N3N2N1O2N2N2N2N1O1O2M2O1O2N1O1O1O1O001O1O1N2O1O001O001O001O1N101O1O001O1O001O001O0O2O001O001O1O001O00001O1O001O00001O0000000000001O000000001O00O01000000000O10001O0O10000O100O100O1O100O1O100O100O1O1O100O1O1O1O1O1N2O1O1O1N2O1O1N2O1O1O1N2O1O1N2N2O1O1O1O1N2N2N2O1N2O1O1N2O1O1O1O1O1O1O1O1N2O1O1O1O1N2O1O1O1O1O1O1O1O1O1O1O1O100O1N200O1O1O1O100O1N2O100O1O1O100O1O100O1O100O1O100O1O1O100O1O1O1O1O1O2N100O1O100O1O1O100O1O100O100O100O10000O100O1O100O100O100O1O100O100O1O100O100O100O100O100O1O100O10000O10000O100O100O10000O100O100O2O000O100O10000O100O100O101O000O1000000O2O0000000O10000O2O00000O1000001O0O100000000O2O00000O2O0000001O0000001O00001O01O01O001O0001O100O010O0001N100O2O0O2O0O1O2N101N2N1O101N1O2O0O2N1O2N1O2O0O2N1O2N1O2N1O2N1O1O2N1O2N2N2M3N1O2M4M2N2N2M4L3M3M4M3L5J4L5K7J5J7G;Bni_8"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part two lacks any protruding features like spikes found in others; its smooth surface suggests no functional interaction beyond being attached above them all without direct contact capability itself due solely lack thereof present within context provided here regarding possible uses involving these particular elements depicted together forming single cohesive unit known today called vase-like structure made out clay which could",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.4955296789994463,
+                "prob": 0.29280209035624655
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -1.7452711984276164,
+                "prob": 0.22809344736003664
+              },
+              {
+                "option": "anchor",
+                "logprob": -2.1206008138833568,
+                "prob": 0.15671451689195423
+              },
+              {
+                "option": "orient",
+                "logprob": -2.8704941691830754,
+                "prob": 0.07403459108451645
+              },
+              {
+                "option": "cover",
+                "logprob": -3.4954075343266595,
+                "prob": 0.03963129428648367
+              },
+              {
+                "option": "support",
+                "logprob": -4.120917582768016,
+                "prob": 0.021202286242438504
+              },
+              {
+                "option": "align",
+                "logprob": -4.495677066792268,
+                "prob": 0.014575609265619294
+              },
+              {
+                "option": "inflate",
+                "logprob": -4.495721862651408,
+                "prob": 0.014574956353303753
+              },
+              {
+                "option": "control",
+                "logprob": -4.808693289058283,
+                "prob": 0.010658240098913732
+              },
+              {
+                "option": "aim",
+                "logprob": -4.933200418076012,
+                "prob": 0.009410500894293562
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "inflate",
+              "contain",
+              "hold",
+              "vent",
+              "store_fuel",
+              "fill",
+              "dispense",
+              "pressurize",
+              "seal",
+              "balance"
+            ],
+            "n_valid": 10,
+            "invalid": [
+              "Based on the visual characteristics of part 2 (a large, bulbous, orange structure resembling a bladder or a container with an opening), here are the 10 most plausible affordances from the provided list:"
+            ],
+            "raw": "Based on the visual characteristics of part 2 (a large, bulbous, orange structure resembling a bladder or a container with an opening), here are the 10 most plausible affordances from the provided list:\n\n1. inflate\n2. contain\n3. hold\n4. vent\n5. store_fuel\n6. fill\n7. dispense\n8. pressurize\n9. seal\n10. balance"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_15_region_5",
+      "area": 61421,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "[lg;3lo02O0O2O001O001N10001O0000001O000O2O001O001O000O10001O000O10001O0O10000O2O0O1000001O00000O10001N1O100O2O0O1000001N100O100O101O0O100O1000001N10000O100O100O2O0O1O1O100O101N1O100O100O100O1O1O1O1O2N1O1O1O1O1O1N2O1O1O1N2O1O1N2N2O1N2O2N1O1O1O1N2O1O1O1O1O1O100O1O1O2N1O100N2O100O1O100N2O1N2O1O2N1O1O1O1O1O1O1O1O1O001O1O100O1O1O100O1O100O1O100O100O10000O100O100O100O100O100O100O1O10O0100O1O100O1O1O1O1O100O00100O1O1N2O1N2O0O2O1M3O1O1N2N2N2O1O001N2O1O1M3N2O0O2N2O1O1O1O1N1O2N2M3M2O2O1N2N2M3O1N2N2O1N101O1O0O2M3O1O1O1O1O001M3O001O1O1N2N101O1N1O2O1O1N2N2O1N2M3M2N3O1O1L3N3N2L4N2O001M3N2O1O1N2O0O2O1O010O1O1O001O1O1O100O00100O001O1O010O1O0010O010O10O1O0010O0010O1O010O01O010O001O010O101N1O2O1N3M2N3N2M3M3N2M3M2N2O2M3M3M3M2N4M2M2N3M4L3M3M3M3M3M2N3M3M4K3N3M4L4L2M5L3M4L3L4M4L3L4L4M4L4K5J5M4K5K4L4L6J7H6J8I7I6I5J7J9G9C=E=A[Xd7"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part three appears as a smooth, rounded base without any protrusions or functional features like handles or grips seen in other sections; its form suggests structural support rather than interactive use",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.253942415525671,
+                "prob": 0.3418969120273027
+              },
+              {
+                "option": "anchor",
+                "logprob": -1.5039556425763294,
+                "prob": 0.2662660608785904
+              },
+              {
+                "option": "balance",
+                "logprob": -2.628871391614666,
+                "prob": 0.08645121692936972
+              },
+              {
+                "option": "support",
+                "logprob": -3.4416449727723375,
+                "prob": 0.03835200114538107
+              },
+              {
+                "option": "defend",
+                "logprob": -3.728235524293268,
+                "prob": 0.02879541450923789
+              },
+              {
+                "option": "cover",
+                "logprob": -3.7537789099587826,
+                "prob": 0.028069196648004936
+              },
+              {
+                "option": "block",
+                "logprob": -3.9412741426203866,
+                "prob": 0.02327029228222123
+              },
+              {
+                "option": "align",
+                "logprob": -3.9414300224452745,
+                "prob": 0.023266665195837324
+              },
+              {
+                "option": "decorate",
+                "logprob": -4.12910708563868,
+                "prob": 0.01928532790623008
+              },
+              {
+                "option": "contain",
+                "logprob": -4.1913529197336175,
+                "prob": 0.01812149423646002
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "stand",
+              "support",
+              "balance",
+              "anchor",
+              "sit",
+              "hold",
+              "rest",
+              "contain",
+              "prevent falling"
+            ],
+            "n_valid": 9,
+            "invalid": [
+              "Based on the visual characteristics of part 3 (a solid, green, rounded base) and its position at the bottom of the object, the most plausible affordances are those related to stability, support, and being a foundation.",
+              "base (not in list, so replacing with next most logical: **place**)",
+              "Wait, I must strictly use the provided list. Let's re-evaluate the top candidates from the list:",
+              "**stand**: Very high probability as it is the base.",
+              "**support**: High probability.",
+              "**balance**: High probability.",
+              "**anchor**: High probability.",
+              "**sit**: Possible, as one could sit on a large base.",
+              "**hold**: Possible.",
+              "**rest**: Possible.",
+              "**place**: Possible"
+            ],
+            "raw": "Based on the visual characteristics of part 3 (a solid, green, rounded base) and its position at the bottom of the object, the most plausible affordances are those related to stability, support, and being a foundation.\n\n1. stand\n2. support\n3. balance\n4. anchor\n5. sit\n6. hold\n7. rest\n8. contain\n9. prevent falling\n10. base (not in list, so replacing with next most logical: **place**)\n\nWait, I must strictly use the provided list. Let's re-evaluate the top candidates from the list:\n- **stand**: Very high probability as it is the base.\n- **support**: High probability.\n- **balance**: High probability.\n- **anchor**: High probability.\n- **sit**: Possible, as one could sit on a large base.\n- **hold**: Possible.\n- **rest**: Possible.\n- **place**: Possible"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_15_region_3",
+      "area": 7023,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "b\\\\65jo02O1N2O100O00100O10O01O100O10O01O10O0100O1O010O100O00100O100O00100O100O00100O00100O100O010O1O100O1O010O100O010O1O100O100O00100O10O01O100O10O01O100O10O01O100O100O1O010O100O100O1O010O100O100O1O100O010O100O1O010O100O100O10O0100O1O100O10O0100O010O1O100O10O0100O100O010O100O100O00100O100O100O1O100O101N1O010OO101N100O2N1O1N2N2N2N2N2O1N2N2L3O2O0O2L5UOWQO9mn0CXQO9ln0EUQO8\\o0LUaSd0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "attack",
+          "justification": "Part 4 features sharp protrusions designed for piercing or striking surfaces like those of adjacent components such as number five; unlike smooth rounded elements which suggest containment rather than aggression its angular form implies offensive capability against external threats while maintaining structural integrity within internal systems requiring protection through physical barriers capable of resisting penetration attempts without compromising overall functionality under",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "attack",
+                "logprob": -0.6943064033985138,
+                "prob": 0.5649285374045456
+              },
+              {
+                "option": "none",
+                "logprob": -2.319624266005121,
+                "prob": 0.1112056709280348
+              },
+              {
+                "option": "defend",
+                "logprob": -2.6149320452386746,
+                "prob": 0.08277065570153483
+              },
+              {
+                "option": "deflect",
+                "logprob": -2.989872568337887,
+                "prob": 0.05689076784809517
+              },
+              {
+                "option": "block",
+                "logprob": -3.3193882172345184,
+                "prob": 0.04091993803724781
+              },
+              {
+                "option": "aim",
+                "logprob": -3.4442813156492775,
+                "prob": 0.036115579178134655
+              },
+              {
+                "option": "anchor",
+                "logprob": -4.0067910886136815,
+                "prob": 0.020577835613473202
+              },
+              {
+                "option": "adjust",
+                "logprob": -4.1318177850334905,
+                "prob": 0.018159391393577813
+              },
+              {
+                "option": "attach",
+                "logprob": -4.444479259313084,
+                "prob": 0.013283549430939281
+              },
+              {
+                "option": "hit",
+                "logprob": -4.882387774065137,
+                "prob": 0.008573001202910172
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Based on the visual analysis of part 4 (the reddish-brown spike-like protrusion on the left side of the object):",
+              "**attack** - The object is a sharp, pointed spike. Its primary physical affordance is to pierce, stab, or attack.",
+              "**prune** - Spikes are commonly used in gardening tools (like hedge shears) to cut or prune branches.",
+              "**cut** - Similar to pruning, the sharp edge allows for cutting actions.",
+              "**deflect** - A sharp point can be used to redirect or deflect an object or force.",
+              "**point** - While not explicitly in the list, \"attack\" is the closest action, but the object's form is fundamentally a \"point\". If forced to choose from the list, \"attack\" covers this best.",
+              "**stab** - Not in the list, but \"attack\" covers this"
+            ],
+            "raw": "Based on the visual analysis of part 4 (the reddish-brown spike-like protrusion on the left side of the object):\n\n1.  **attack** - The object is a sharp, pointed spike. Its primary physical affordance is to pierce, stab, or attack.\n2.  **prune** - Spikes are commonly used in gardening tools (like hedge shears) to cut or prune branches.\n3.  **cut** - Similar to pruning, the sharp edge allows for cutting actions.\n4.  **deflect** - A sharp point can be used to redirect or deflect an object or force.\n5.  **point** - While not explicitly in the list, \"attack\" is the closest action, but the object's form is fundamentally a \"point\". If forced to choose from the list, \"attack\" covers this best.\n6.  **stab** - Not in the list, but \"attack\" covers this"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_15_region_8",
+      "area": 6606,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "^[Ud05io09G3ePOBQo0a0lPODon0h0O1N9H5J8H7H3N4L2O0O2OO101N1O1O1O1O1O1N2O1O1O001O1O001O1O001O001O001O00001O00001O001O001O001O000010O0001O001O00001O001O001O000010O0001O001O00001O001O010O00001O00001O001O010O00001O00001O010O00001O001O000010O01O001O00001O00010O001O00000010O01O001O001O01O01O00001O0010O01O001O001O000010O01O00001O010O00001O001O000010O01O001O001O010O001O001O001O00001O010O001O001O2O0O2Migo5"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "attack",
+          "justification": "Part 5 features sharp protrusions resembling spikes designed for piercing rather than grasping like claws; its pointed form suggests offensive capability distinct from smoother surfaces meant for holding objects securely against skin contact as seen elsewhere in similar structures within nature\u2019s design patterns observed across various species including humans who utilize tools shaped similarly but adapted differently depending upon",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "attack",
+                "logprob": -0.7330544578435365,
+                "prob": 0.5409152917133718
+              },
+              {
+                "option": "aim",
+                "logprob": -2.482978664309485,
+                "prob": 0.0940041079472332
+              },
+              {
+                "option": "none",
+                "logprob": -2.48324129532557,
+                "prob": 0.09397942279453213
+              },
+              {
+                "option": "deflect",
+                "logprob": -2.9207646170980297,
+                "prob": 0.060676260747385455
+              },
+              {
+                "option": "align",
+                "logprob": -3.3579433873674134,
+                "prob": 0.03918812470978164
+              },
+              {
+                "option": "anchor",
+                "logprob": -3.4829839080630336,
+                "prob": 0.034581997359501265
+              },
+              {
+                "option": "attach",
+                "logprob": -3.795622381119756,
+                "prob": 0.025297226521573915
+              },
+              {
+                "option": "defend",
+                "logprob": -4.045924622565508,
+                "prob": 0.019695546114520315
+              },
+              {
+                "option": "adjust",
+                "logprob": -4.48303455664427,
+                "prob": 0.012721361527975634
+              },
+              {
+                "option": "orient",
+                "logprob": -4.545683388976613,
+                "prob": 0.011948834690871026
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "defend",
+              "block",
+              "seal",
+              "cover",
+              "plug"
+            ],
+            "n_valid": 5,
+            "invalid": [
+              "Based on the visual analysis of part 5 (a purple, pointed protrusion on the side of the object), here is the ranking of its most plausible affordances:",
+              "**stop** (not in list, but conceptually similar to block/defend)",
+              "**shield** (not in list)",
+              "**protect** (not in list)",
+              "**barrier** (not in list)",
+              "**obstruct** (not in list)",
+              "Since \"defend\", \"block\", \"seal\", \"cover\", and \"plug\" are the most direct interpretations of a sharp, protruding object's function (to stop something from entering or exiting, or to protect the object), they are ranked highest. The remaining options are less plausible or not applicable to this specific"
+            ],
+            "raw": "Based on the visual analysis of part 5 (a purple, pointed protrusion on the side of the object), here is the ranking of its most plausible affordances:\n\n1. **defend**\n2. **block**\n3. **seal**\n4. **cover**\n5. **plug**\n6. **stop** (not in list, but conceptually similar to block/defend)\n7. **shield** (not in list)\n8. **protect** (not in list)\n9. **barrier** (not in list)\n10. **obstruct** (not in list)\n\nSince \"defend\", \"block\", \"seal\", \"cover\", and \"plug\" are the most direct interpretations of a sharp, protruding object's function (to stop something from entering or exiting, or to protect the object), they are ranked highest. The remaining options are less plausible or not applicable to this specific"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_15_region_9",
+      "area": 4838,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "oaYd098Nnn0d0M3M`0A5K2N2M3N2O0O3N1N101O00O100O1O1O1O1O100O1O2N100O1O100O1O1O10O01O100O1O1O100O100O1O1O010O100O1O010O100O100O00100O100O10O01O1O100O10O01O100O1O010O100O10O0100O100O00100O10O01O100O100O010O100O100O010O100O010O1O10000O010O1O100O010O100O10O0100O1O10O10O100O1O100O1O010O100O1O1O2O0O2No^X7"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 6 appears as a small, flat-topped protrusion lacking any discernible functional form like grip points or attachment surfaces seen in larger elements such as those at positions four through seven; its minimal size suggests no practical utility beyond structural decoration rather than interactional purpose",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.5331538105092477,
+                "prob": 0.2757530347044563
+              },
+              {
+                "option": "attack",
+                "logprob": -2.1581485673377756,
+                "prob": 0.14760073716829952
+              },
+              {
+                "option": "align",
+                "logprob": -2.84547648273292,
+                "prob": 0.07423108450781206
+              },
+              {
+                "option": "block",
+                "logprob": -2.845498173701344,
+                "prob": 0.07422947438116458
+              },
+              {
+                "option": "anchor",
+                "logprob": -2.845571347454097,
+                "prob": 0.07422404293068145
+              },
+              {
+                "option": "deflect",
+                "logprob": -3.140430438579642,
+                "prob": 0.05526993198655042
+              },
+              {
+                "option": "attach",
+                "logprob": -3.470727449428523,
+                "prob": 0.03972306591650403
+              },
+              {
+                "option": "aim",
+                "logprob": -3.5955273723229766,
+                "prob": 0.035062497133674306
+              },
+              {
+                "option": "adjust",
+                "logprob": -3.7205933938676026,
+                "prob": 0.030940502310160902
+              },
+              {
+                "option": "wedge",
+                "logprob": -3.9080134444884607,
+                "prob": 0.02565262817596499
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Based on the visual analysis of part 6, which is a small, grey, wedge-shaped protrusion located on the side of the object (likely a valve or a small lever mechanism), here is the ranking of its most plausible affordances:",
+              "**open** - The shape and position suggest it acts as a valve or lever to open a passage.",
+              "**close** - Conversely, it could be used to seal or close the opening.",
+              "**press** - It is a small, solid object that can be pressed to activate a mechanism.",
+              "**leverage** - Its position on the side suggests it might be used as a fulcrum or handle to apply force.",
+              "**rotate** - It could be a small knob or pin that is turned to adjust a setting.",
+              "**adjust** - Similar to rotate, it implies fine-tuning a parameter.",
+              "**control** - It serves as a manual control"
+            ],
+            "raw": "Based on the visual analysis of part 6, which is a small, grey, wedge-shaped protrusion located on the side of the object (likely a valve or a small lever mechanism), here is the ranking of its most plausible affordances:\n\n1. **open** - The shape and position suggest it acts as a valve or lever to open a passage.\n2. **close** - Conversely, it could be used to seal or close the opening.\n3. **press** - It is a small, solid object that can be pressed to activate a mechanism.\n4. **leverage** - Its position on the side suggests it might be used as a fulcrum or handle to apply force.\n5. **rotate** - It could be a small knob or pin that is turned to adjust a setting.\n6. **adjust** - Similar to rotate, it implies fine-tuning a parameter.\n7. **control** - It serves as a manual control"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_15_region_2",
+      "area": 3078,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "kbV66io02O0O2O001O001O001O010O00001O0010O01O001O0010O01O001O001O0010O0001O0010O01O001O001O1O010O001O00010O001O001O010O001O001O010O001O001O010O001O00001O010O001O001O1O0010O01O001O1O001O10O01O1O001O2N10O01O00O100O1L4N3M2O1L4O1N2N2N3M2L4O1M4M2N3Lh\\Rf0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 7 appears as a small, slender protrusion lacking any discernible functional surface like buttons for pressing or handles for gripping; unlike larger components such as those at positions two through six which suggest structural support or interaction points due to their size and placement along primary axes of force application",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.9266938323271461,
+                "prob": 0.46489976867804733
+              },
+              {
+                "option": "dangle",
+                "logprob": -2.052119589803624,
+                "prob": 0.15086661071249943
+              },
+              {
+                "option": "align",
+                "logprob": -2.926778984896373,
+                "prob": 0.06291198452546913
+              },
+              {
+                "option": "deflect",
+                "logprob": -3.0595777993876254,
+                "prob": 0.055088328185875494
+              },
+              {
+                "option": "attack",
+                "logprob": -3.302120237611234,
+                "prob": 0.043223979654337996
+              },
+              {
+                "option": "detach",
+                "logprob": -3.80206209939206,
+                "prob": 0.026218193129901025
+              },
+              {
+                "option": "aim",
+                "logprob": -3.9892885186709464,
+                "prob": 0.021741592797835173
+              },
+              {
+                "option": "anchor",
+                "logprob": -3.9893740802945103,
+                "prob": 0.021739732631437084
+              },
+              {
+                "option": "adjust",
+                "logprob": -4.301824150461471,
+                "prob": 0.01590592232250027
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -4.4266633898982874,
+                "prob": 0.014039183948071464
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Based on the visual analysis of part 7:",
+              "**Analyze Part 7:** Part 7 is a small, thin, pointed projection (a thorn or spike) located on the side of the main body (part 1).",
+              "**Evaluate Affordances:**",
+              "**Pointed nature:** The shape strongly suggests functions related to piercing, pricking, or holding things in place.",
+              "**Context:** It is attached to a larger object that resembles a stylized fruit or a biological specimen.",
+              "**Comparison:** Unlike the large orange part (2) which might afford \"hold\" or \"carry,\" or the green part (3) which might afford \"rest\" or \"support,\" part 7 is a small, sharp appendage.",
+              "**Candidate Selection from List:**",
+              "*Prick/Pierce:* Not in the list.",
+              "*Hold:* Pl"
+            ],
+            "raw": "Based on the visual analysis of part 7:\n\n1.  **Analyze Part 7:** Part 7 is a small, thin, pointed projection (a thorn or spike) located on the side of the main body (part 1).\n2.  **Evaluate Affordances:**\n    *   **Pointed nature:** The shape strongly suggests functions related to piercing, pricking, or holding things in place.\n    *   **Context:** It is attached to a larger object that resembles a stylized fruit or a biological specimen.\n    *   **Comparison:** Unlike the large orange part (2) which might afford \"hold\" or \"carry,\" or the green part (3) which might afford \"rest\" or \"support,\" part 7 is a small, sharp appendage.\n    *   **Candidate Selection from List:**\n        *   *Prick/Pierce:* Not in the list.\n        *   *Hold:* Pl"
+          }
+        }
+      }
+    }
+  ],
+  "generation_option_order": "shuffled_per_part"
+}

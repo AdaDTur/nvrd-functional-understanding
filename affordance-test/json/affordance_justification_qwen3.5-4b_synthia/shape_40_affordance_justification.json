@@ -1,0 +1,1017 @@
+{
+  "object": "shape_40",
+  "model": "Qwen/Qwen3.5-4B",
+  "image_path": "/shared/nas/data/m1/adadt2/nvrd/regions_test/data/novel/shape_40.png",
+  "region_source": "sam_slic",
+  "method": "per_part_with_comparative_context",
+  "top_k": 10,
+  "modes": [
+    "logprob",
+    "generation"
+  ],
+  "regions": [
+    {
+      "region_id": "shape_40_region_16",
+      "area": 123419,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "d]a56bo0d0^O;F:I4M4I8H7K4L3M3L4M2O2hRO\\MPm0m2L4L3M4M2N2N2O1M3M4M2N2N2N2M3N2M4M2N2N2O0O2N1O2N1O2N1O005L1N1O2N1O2N101N2N101N100O2N2O0O2O0O100O2N100O101N10000O2O0O101N100O10001N100O10001N1000000O101O0O1000000O10000000000O100000000000O10O1000000000O100000000O10000O1000000O1000000O2O000000000000001O00`A\\Jd2d5WMeJe2\\5VMmJe2S5WMTKg2k4WMXKh2i4TM\\Kj2e4SM^Km2a4QMcKm2^4PMeKP3[4lLhKT3X4kLjKT3W4iLlKV3U4hLmKW3S4hLnKY3R4dLQL[3o3cLTL\\3m3bLTL_3k3`LWL_3j3_LWLb3i3[LYLe3h3YLZLg3f3WL[Li3e3VL]Li3d3UL]Ll3c3RL_Lm3b3RL^Lo3a3oKaLQ4`3mKaLT4_3jKcLU4^3iKcLX4]3fKdLZ4]3dKdL]4[3cKeL]4\\3aKfL_4Z3_KgLb4Y3\\KhLd4Y3ZKhLg4X3WKjLh4W3VKjLk4W3RKjLn4W3PKjLQ5V3nJjLS5V3kJkLU5V3jJjLW5V3gJlLX5U3gJkLZ5V3cJkL]5V3aJkL`5U3_JkLb5U3\\JlLe5T3YJmLh5T3UJmLl5S3RJnLo5R3PJnLP6T3mImLT6S3kImLU6T3jIlLW6T3gImLZ6S3dInL]6S3`InLa6S3]ImLd6S3ZInLg6Q3YIoLh6Q3VIPMk6Q3SIoLn6Q3PIPMQ7P3nHPMS7Q3jHPMW7P3hHPMY7P3eHQM\\7o2cHQM^7o2aHQM`7o2^HQMc7P3[HQMf7P3WHQMj7o2THRMm7m2SHSMn7m2PHTMP8m2oGSMR8m2lGTMU8l2iGUMY8j2fGUM\\8l2aGUMa8j2^GVMc8j2[GWMg8g2XGZMj8f2TGZMm8f2QGZMR9e2lF\\MW9b2hF^MY9b2eF_M]9`2aFaMa9^2^FbMe9[2ZFfMg9Z2XFeMk9Z2SFgMQ:V2nEjMV:S2hEnM[:P2cEQNb:k1\\EVNh:g1VEYNn:e1PE\\NS;b1lD^NX;_1fDbNa;X1]DiNh;S1WDmNP<m0nCSOZ<g0eCYOi<:UCF[=KdB6_=H_B9e=DYB<R>[OmAe0X>WOfAi0_>TO_Am0e>POYAP1j>oNTAQ1P?mNn@T1U?jNi@W1Z?gNd@[1]?dNa@]1a?bN]@`1e?^NX@g1g?XNW@k1i?TNV@m1k?RNS@Q2l?oMQ@T2P`0kMm_OY2R`0gMl_O[2U`0dMi_O^2Y`0aMc_Oa2^`0_M__Od2a`0]M[_Of2f`0YMX_Oi2h`0XMT_Ok2l`0VMP_Ol2Ra0TMj^Oo2Va0QMg^OQ3Za0QMa^OR3_a0oL\\^OU3ea0kLW^OW3ja0jLR^OY3na0kLj]OX3Wb0iLd]OZ3^b0fL[]O_3fb0dLQ]Ob3ob0fLa\\Oa3`c0`40O010O1O100O1O1O00100O1O1O1O1O010O1O001O1O00100O1O001O001O001O1O001O001O1O001O1O001O00001O001O001O001O001O1O001O1O001O1O1O1N2O001O0O2O1O1O000O2O001N3N1O1N2O2M2N2O1N2O1N2O1N1O101N1O2N101N3M5K3M2N2M4L3N2M3M4L4L4K5K5L3M3L3[IoWOZ5Sh0WJiXO_5Sg0YJZYOc5ff0YJdYOa5`h0N2M2O2M2N3N2N0O101N2O1N101N1O2O0O2N10O01O100O10O0100O100O1O1O1O1O100O10O01O10O0001O0010O01O1O001O1O1O000010O0001O0010O01O1O1O100O0000001O001O001O0010O01O001O001O1O00001O001O001O1O001O001O2N001O1O001O0O2O1O001O1O1O001O1N3N1N2O2N1N101O1O1N101O1O2N1N2O2M3M3N1N2N2N3M3M3N3L2N2M5L3L5L3L6I:B\\T^9"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "anchor",
+          "justification": "Part 1 forms the broad base of the sculpture where all weight rests; unlike any single digit button above which could be pressed independently without affecting others, its large surface area provides stability for holding up everything else in place as if anchoring them together into unity rather than allowing separation like individual keys would allow when pushed down alone",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "anchor",
+                "logprob": -0.7694137788785156,
+                "prob": 0.5165383873603396
+              },
+              {
+                "option": "none",
+                "logprob": -2.019498506357195,
+                "prob": 0.14797818739128318
+              },
+              {
+                "option": "stand",
+                "logprob": -2.644297818202176,
+                "prob": 0.0792229134777763
+              },
+              {
+                "option": "attach",
+                "logprob": -3.1444705030007754,
+                "prob": 0.04804282899342291
+              },
+              {
+                "option": "align",
+                "logprob": -3.3944097270723432,
+                "prob": 0.0374180668896943
+              },
+              {
+                "option": "lean",
+                "logprob": -3.8943763583374675,
+                "prob": 0.022695962118684892
+              },
+              {
+                "option": "support",
+                "logprob": -4.01957691158168,
+                "prob": 0.020025099769444547
+              },
+              {
+                "option": "adjust",
+                "logprob": -4.082008515892085,
+                "prob": 0.018813127000351343
+              },
+              {
+                "option": "orient",
+                "logprob": -4.20679400426161,
+                "prob": 0.01660608812274045
+              },
+              {
+                "option": "detach",
+                "logprob": -4.3321943887276575,
+                "prob": 0.014648954944034856
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "hold",
+              "carry",
+              "lift",
+              "shake",
+              "stroke",
+              "rotate",
+              "balance",
+              "rest"
+            ],
+            "n_valid": 8,
+            "invalid": [
+              "Based on the visual analysis of part 1, which is the grey, curved, handle-like structure of the object (resembling a stylized gourd or abstract sculpture), here is the ranking of its most plausible affordances.",
+              "grasp",
+              "turn",
+              "(Note: \"hold\" and \"grasp\" are the most direct physical interactions with a handle. \"Carry\" and \"lift\" are functional outcomes of holding. \"Shake\" and \"stroke\" are common manipulations of curved handles. \"Turn\" and \"rotate\" are possible if the object is a knob or handle for a mechanism. \"Balance\" and \"rest\" are passive affordances of a stable, curved form.)",
+              "Since the specific list provided in the prompt does not contain \"grasp\", \"turn\", or \"rest\","
+            ],
+            "raw": "Based on the visual analysis of part 1, which is the grey, curved, handle-like structure of the object (resembling a stylized gourd or abstract sculpture), here is the ranking of its most plausible affordances.\n\n1. hold\n2. grasp\n3. carry\n4. lift\n5. shake\n6. stroke\n7. turn\n8. rotate\n9. balance\n10. rest\n\n(Note: \"hold\" and \"grasp\" are the most direct physical interactions with a handle. \"Carry\" and \"lift\" are functional outcomes of holding. \"Shake\" and \"stroke\" are common manipulations of curved handles. \"Turn\" and \"rotate\" are possible if the object is a knob or handle for a mechanism. \"Balance\" and \"rest\" are passive affordances of a stable, curved form.)\n\nSince the specific list provided in the prompt does not contain \"grasp\", \"turn\", or \"rest\","
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_40_region_12",
+      "area": 96176,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "k[`<4io05M3K5M4L3L4L3N3M3M3L4L5L4K4M5K3M2N9F4M6J6J5J9H9H9F?A<E7G8I6J6J4M4J5L4L3N4K3N1M5L3N3L2N2N4M1N3M3M2O1N2O1N2O1N3M3N1N2O1N2O1N2O1N2O1N3M2O1N2O0O2O0O2O1N2O1O1N3N1O001N101N10001NbMYYOfKff0W4`YOhK]f0T2^YO_M8=Yf0R2dYO]M6?Vf0O_YOF9H6b0Qf0NfYOC5K6c0ne0NkYO@5L4f0ke0LPZO_O3M4h0he0KSZO^O3M4i0ee0LVZO\\O3M3l0ce0JYZO[O3N2l0be0JZZO[O3N2n0_e0I^ZOZO2N2n0^e0J^ZOYO4M1Q1\\e0HaZOXO3O0Q1\\e0HbZOWO2O2Q1Ye0IdZOWO1O2R1Xe0HeZOVO3O0S1Xe0GgZOVO100T1We0FhZOVO100T1We0FhZOVO100U1Ve0EiZOVO100U1Ue0FjZOUO100V1Te0EkZOUO100W1Se0DlZOUO100W1Se0DlZOUO11OW1Se0CmZOUO11NX1Se0CnZOUOO10X1Re0CmZOUO11OW1Se0CmZOUO11NY1Se0AnZOVO00OY1Se0BlZOVO11OW1Te0BlZOWO01NX1Te0BlZOVO11OX1Se0AmZOWOO2OX1Te0@lZOXO01OW1Ue0AjZOYO01OW1Ve0_OkZOZON2OW1We0^OjZO[OO1NX1We0^OjZO[ON2OW1Xe0]OiZO\\ON3MV1\\e0]OfZO]OM4MU1_e0\\OcZO_ON5HT1ge0ZO_ZO@N^3ae0VMZZOS5ee0e2O0O2O001O001O002N1O1O1O1O1O1N101O001O1O2N1O1O1O001NPLX[OkLgd0n0W[OVM8i1ad0n0^[OSM6m1[d0kNZ[O[O8J6o1Xd0iN`[OYO6L5Q2Td0hNe[OXO4M5R2Rd0gNh[OXO4L4W2mc0dNn[OVO3M3Z2kc0bNQ\\OVO2L4[2ic0bNR\\OVO2M3]2fc0aNV\\OSO3M3_2cc0`NY\\OSO2M2a2bc0^N[\\OSO2M2b2ac0^N\\\\OQO3N1c2_c0]N^\\ORO2M2d2^c0]N_\\OQO1N2d2]c0]Na\\OPO1O1d2]c0]Na\\OPO2N0e2]c0]Na\\OPO2N0f2\\c0\\Nb\\OPO2N0f2\\c0\\Nc\\OoN1O0h2Zc0ZNe\\OoN1O0j2Xc0XNg\\OoN1O0k2Wc0WNh\\OoN000k2Xc0VNh\\OoN01Ok2Xc0UNh\\OPO10Ok2Xc0UNh\\OQO0OOk2Yc0WNg\\OoN1OOk2Yc0WNg\\OoN01Oh2[c0XNe\\OQO0OOg2^c0ZNb\\OPO01Oc2ac0\\N`\\OQOO1Nb2dc0\\N^\\OROO1O_2fc0_N[\\OROO1N^2hc0aNY\\OROO1N\\2kc0aNX\\ORON3MZ2nc0bNU\\OSON3MW2Rd0dNQ\\OTOO3KU2Vd0eNo[OUOM4JS2[d0eNl[OVOL6IP2`d0eNi[OXOK8Em1hd0dNe[O[OIU4bd0cLa[O]OFS4jd0bL\\[Oa5ed0l21O00100O1O1O1O010O00100O1O00100O1O1O010O1O010O1O0hLkZOgKUe0V4S[OdKnd0Z4V[OcKjd0]2eZOgLe0j0fd0Z2Q[OdL<o0dd0[2U[ObL9Q1bd0\\2X[O`L9R1`d0<nZOgN=H6T1`d0;R[OeN:K5T1^d0;W[OcN8L5T1]d0;Y[OcN7L4U1]d0;[[OaN6N3U1[d0<^[O`N5M3V1[d0<_[O_N4O2V1[d0;`[O`N4N1V1[d0<b[O^N3O2U1Yd0?c[O\\N202T1Zd0?c[O]N2O1U1Yd0?e[O\\N200T1Zd0`0e[O[N110S1Zd0b0e[OZN110S1Zd0a0f[O[N010R1Zd0c0f[OZN01OR1\\d0c0f[OYNO2OQ1\\d0e0f[OXNO2OP1]d0f0e[OXNN30n0]d0h0e[OWNN4Nn0j?WN_C`2kLXNM3Om0i?`NYCY2RMWNL40k0i?dNWCV2SMXNM4Nj0l?fNSCU2VMXNL3Nk0g?UNX_Ob0P4S2WMXNK5Nh0f?ROWCk1YMVNK6Ng0g?VOTCg1[MWNL6Me0i?XOQCg1]MWNJ7Mc0k?ZOPCf1\\MWNK7Mb0m?[OmBg1]MVNK7La0P`0\\OjBg1^MWNJ8K>S`0^OhBg1^MWNJ8K=U`0]OhBh1\\MXNJ8K;U`0AhBf1\\MYNH8L9X`0AhBf1ZMZNG;I5_`0BdBh1ZMYNFd2[`0\\MdBj1VM\\NE`2b`0[MbBk1SMk2[`0\\K`BP2kLg2f`0ZK]B_8d=cG[B\\8f=eGXB[8i=eGVB[8j=gGTBX8n=iGPBW8P>kGnAU8S>lGkAS8W>nGgAR8Z>oGdAQ8]>oGbAP8`>QH^An7c>TH[Al7f>UHXAk7i>UHUAk7m>VHQAi7Q?XHm@g7T?ZHk@e7X?[He@f7\\?[Hb@d7`?]H^@b7d?_HY@a7i?`HT@_7o?cHn_O\\7S`0gHi_OX7Z`0iHb_OV7b`0kH\\_OS7g`0oHV_On6n`0TIm^Ok6Wa0YIa^Od6ga0]IT^Oa6Qb0dIe]OY6cb0l2f0WOi0_Oa0B>G9H8I7I8J5L4L4L4M4L3L4M3M4L3M4L3N3M2M4M2N3M2N3M2N3M3L4M2N2N2O2M2N3N1N3M3M3M3M3M2O2M3M3M3N2M3M3M3N3L2N3N2L5L3M3M3N3L4K4M4L3M4L4L3L6K4L3M5J6J5K6J5L6H9G6I9H:E?[OZj[7"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "align",
+          "justification": "Part 2 appears as a small protrusion at the top of its surface area where others are flat; unlike surrounding elements which sit flush against their base surfaces without any raised features designed for alignment purposes like tabs or slots found elsewhere in similar designs across various objects shown here today including those labeled numbers three through eleven plus number two",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "align",
+                "logprob": -1.2064141181472223,
+                "prob": 0.33046182368961785
+              },
+              {
+                "option": "orient",
+                "logprob": -1.9563657401304226,
+                "prob": 0.15610666441693188
+              },
+              {
+                "option": "adjust",
+                "logprob": -2.3315916431020014,
+                "prob": 0.1072662023105068
+              },
+              {
+                "option": "none",
+                "logprob": -2.456765563110821,
+                "prob": 0.0946456290908771
+              },
+              {
+                "option": "button",
+                "logprob": -2.457221185322851,
+                "prob": 0.09460251626231873
+              },
+              {
+                "option": "label",
+                "logprob": -2.9564240080071613,
+                "prob": 0.05742508633350144
+              },
+              {
+                "option": "click",
+                "logprob": -3.2069190878537484,
+                "prob": 0.044700566375881046
+              },
+              {
+                "option": "anchor",
+                "logprob": -4.331527189700864,
+                "prob": 0.014517837565261826
+              },
+              {
+                "option": "rotate",
+                "logprob": -4.643840239499696,
+                "prob": 0.010623462734114015
+              },
+              {
+                "option": "clip",
+                "logprob": -4.706915515009314,
+                "prob": 0.00997408016994902
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "button",
+              "press",
+              "click",
+              "switch",
+              "control",
+              "select",
+              "engage",
+              "start"
+            ],
+            "n_valid": 8,
+            "invalid": [
+              "Based on the visual evidence, part 2 is a small, white, rectangular button located on the orange surface of the object. It is positioned between the numbers 9 and 10. Given its appearance as a small, distinct, pressable element on a control panel, its primary function is to be pressed to activate or deactivate a function.",
+              "Here are the 10 most plausible affordances for part 2, ranked from most to least likely:",
+              "stop",
+              "activate"
+            ],
+            "raw": "Based on the visual evidence, part 2 is a small, white, rectangular button located on the orange surface of the object. It is positioned between the numbers 9 and 10. Given its appearance as a small, distinct, pressable element on a control panel, its primary function is to be pressed to activate or deactivate a function.\n\nHere are the 10 most plausible affordances for part 2, ranked from most to least likely:\n\n1. button\n2. press\n3. click\n4. switch\n5. control\n6. select\n7. engage\n8. start\n9. stop\n10. activate"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_40_region_1",
+      "area": 1379,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "Q`W?:co06K3N2M2O2N1O1mPOXOmn0o0N101N101N100O2O000000000000000001O0O101O0O2O001N101N2O1N2N2N2N3L4L6HQ`]?"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "button",
+          "justification": "Part 3 appears as a small circular element embedded within the larger orange surface of the figure\u2019s head-like structure; its round form suggests interactivity similar to buttons found in devices like phones or game controllers\u2014unlike surrounding elements which may serve decorative purposes such as eyes or ears due to their placement near facial features rather than",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "button",
+                "logprob": -1.1084820050746202,
+                "prob": 0.38247642827724737
+              },
+              {
+                "option": "align",
+                "logprob": -1.9833309402456507,
+                "prob": 0.15946398395109898
+              },
+              {
+                "option": "none",
+                "logprob": -2.233823603950441,
+                "prob": 0.12412950640362573
+              },
+              {
+                "option": "click",
+                "logprob": -2.858393966103904,
+                "prob": 0.06647028893680643
+              },
+              {
+                "option": "label",
+                "logprob": -3.2332856639986858,
+                "prob": 0.04568926492003901
+              },
+              {
+                "option": "orient",
+                "logprob": -3.6082805404730607,
+                "prob": 0.031401902823424914
+              },
+              {
+                "option": "anchor",
+                "logprob": -3.7958800268825144,
+                "prob": 0.02603050199688732
+              },
+              {
+                "option": "adjust",
+                "logprob": -3.9211537719820626,
+                "prob": 0.022965549817698057
+              },
+              {
+                "option": "rotate",
+                "logprob": -4.170644460391486,
+                "prob": 0.017894699839193246
+              },
+              {
+                "option": "display",
+                "logprob": -4.358869808493182,
+                "prob": 0.01482447042556608
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "press",
+              "click",
+              "select",
+              "input",
+              "trigger",
+              "engage"
+            ],
+            "n_valid": 6,
+            "invalid": [
+              "Based on the visual analysis of part 3 (the bottom-left button on the keypad):",
+              "activate",
+              "operate",
+              "interact",
+              "touch"
+            ],
+            "raw": "Based on the visual analysis of part 3 (the bottom-left button on the keypad):\n\n1. press\n2. click\n3. select\n4. input\n5. trigger\n6. activate\n7. operate\n8. engage\n9. interact\n10. touch"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_40_region_5",
+      "area": 1296,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "T`cc07fo08I4L4M3M2M3N101N2N101N10000O2O00000000O100O1O11O01O000O2O0O2O0O2O1YOoPO<Ro0CnPO=To0AmPO>Zo001O2N1N3LQ`R;"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "button",
+          "justification": "Part 4 appears as a small circular element embedded within the larger orange surface of the figure\u2019s head-like structure; its round form suggests interactivity similar to those found in control panels where users press for response\u2014unlike surrounding elements which may serve decorative purposes due to their irregular shapes or placement along edges rather than centers like",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "button",
+                "logprob": -1.650990185327828,
+                "prob": 0.22643624586064187
+              },
+              {
+                "option": "none",
+                "logprob": -1.6511413592961617,
+                "prob": 0.2264020171820883
+              },
+              {
+                "option": "align",
+                "logprob": -1.900766300939722,
+                "prob": 0.17638821173854044
+              },
+              {
+                "option": "orient",
+                "logprob": -2.9006953957432415,
+                "prob": 0.06489419793633396
+              },
+              {
+                "option": "click",
+                "logprob": -3.3386577976634726,
+                "prob": 0.04187947364435134
+              },
+              {
+                "option": "adjust",
+                "logprob": -3.5885168717359193,
+                "prob": 0.032620363599929626
+              },
+              {
+                "option": "rotate",
+                "logprob": -3.838129610317992,
+                "prob": 0.025414604906145125
+              },
+              {
+                "option": "anchor",
+                "logprob": -3.900840537447948,
+                "prob": 0.023869776520598452
+              },
+              {
+                "option": "aim",
+                "logprob": -4.1507925167970825,
+                "prob": 0.018590693361742214
+              },
+              {
+                "option": "detach",
+                "logprob": -4.40166070475243,
+                "prob": 0.014465881990048248
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "press",
+              "click",
+              "select",
+              "input",
+              "engage"
+            ],
+            "n_valid": 5,
+            "invalid": [
+              "Based on the visual analysis of part 4 (the bottom-right circle in the grid of numbers on the orange object), here is the ranking of its most plausible affordances:",
+              "activate",
+              "operate",
+              "interact",
+              "touch",
+              "manipulate"
+            ],
+            "raw": "Based on the visual analysis of part 4 (the bottom-right circle in the grid of numbers on the orange object), here is the ranking of its most plausible affordances:\n\n1. press\n2. click\n3. select\n4. input\n5. engage\n6. activate\n7. operate\n8. interact\n9. touch\n10. manipulate"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_40_region_18",
+      "area": 1303,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "i]Y?;co05K3N3L3N2O1N2N2N2N1O2O0O2O0O101O00000000000000O2O0O101O0O2O0O2O1N2N2N2N3M3K5M3KYb]?"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "align",
+          "justification": "Part 5 appears as a flat rectangular surface positioned within the orange body section; its planar geometry suggests functionality for alignment rather than manipulation like buttons or structural support of limbs seen elsewhere in the figure\u2019s design",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "align",
+                "logprob": -1.2587927238200791,
+                "prob": 0.3339297410083311
+              },
+              {
+                "option": "button",
+                "logprob": -2.0090709660435095,
+                "prob": 0.15769335756260047
+              },
+              {
+                "option": "adjust",
+                "logprob": -2.1339427578495815,
+                "prob": 0.13918174270317973
+              },
+              {
+                "option": "none",
+                "logprob": -2.634349250001833,
+                "prob": 0.08438368594304912
+              },
+              {
+                "option": "orient",
+                "logprob": -3.38383860635804,
+                "prob": 0.03988039030566092
+              },
+              {
+                "option": "label",
+                "logprob": -3.633896165090846,
+                "prob": 0.031057091540961083
+              },
+              {
+                "option": "click",
+                "logprob": -3.6340738255530596,
+                "prob": 0.03105157441382509
+              },
+              {
+                "option": "anchor",
+                "logprob": -4.008848021010635,
+                "prob": 0.021346233716582275
+              },
+              {
+                "option": "block",
+                "logprob": -4.383836103806971,
+                "prob": 0.014671212414757925
+              },
+              {
+                "option": "rotate",
+                "logprob": -4.57135624383227,
+                "prob": 0.012162617332956595
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "press",
+              "click",
+              "input",
+              "select",
+              "indicate",
+              "display",
+              "control"
+            ],
+            "n_valid": 7,
+            "invalid": [
+              "Based on the visual analysis of part 5 (the number '5' on the keypad):",
+              "operate",
+              "activate",
+              "interact"
+            ],
+            "raw": "Based on the visual analysis of part 5 (the number '5' on the keypad):\n\n1. press\n2. click\n3. input\n4. select\n5. indicate\n6. display\n7. control\n8. operate\n9. activate\n10. interact"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_40_region_3",
+      "area": 1277,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "j]_a09do07J3M4M2N3M2O1N101N2O010O0000001M2O100O1000O10001O000O2O0O2O0O2O1N1O2N2O2M2M4M3K6IXbV="
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "align",
+          "justification": "Part 6 appears as a flat, rectangular surface positioned centrally within the orange section of the figure; its smooth geometry suggests functionality for alignment rather than manipulation like buttons or handles found elsewhere in similar shapes across all sections",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "align",
+                "logprob": -0.8797420002520084,
+                "prob": 0.45949598853572643
+              },
+              {
+                "option": "button",
+                "logprob": -2.0050462258514017,
+                "prob": 0.14913113000998937
+              },
+              {
+                "option": "adjust",
+                "logprob": -2.629887391842203,
+                "prob": 0.07983682148121768
+              },
+              {
+                "option": "none",
+                "logprob": -2.7551119921845384,
+                "prob": 0.07043992506127597
+              },
+              {
+                "option": "orient",
+                "logprob": -3.0047796611033846,
+                "prob": 0.05487690306766443
+              },
+              {
+                "option": "click",
+                "logprob": -3.2550421748892404,
+                "prob": 0.042726957193978884
+              },
+              {
+                "option": "anchor",
+                "logprob": -4.3172906253894325,
+                "prob": 0.014769756149508168
+              },
+              {
+                "option": "press",
+                "logprob": -4.467630734667182,
+                "prob": 0.012708124041760192
+              },
+              {
+                "option": "attach",
+                "logprob": -4.692506072926335,
+                "prob": 0.010148908259066221
+              },
+              {
+                "option": "rotate",
+                "logprob": -4.754775609064382,
+                "prob": 0.009536214491450649
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "press",
+              "click",
+              "select",
+              "input",
+              "engage",
+              "control"
+            ],
+            "n_valid": 6,
+            "invalid": [
+              "Based on the visual analysis of part 6 (the central button on the keypad-like surface of the object):",
+              "activate",
+              "operate",
+              "interact",
+              "touch"
+            ],
+            "raw": "Based on the visual analysis of part 6 (the central button on the keypad-like surface of the object):\n\n1. press\n2. click\n3. select\n4. input\n5. engage\n6. activate\n7. operate\n8. control\n9. interact\n10. touch"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_40_region_7",
+      "area": 1290,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "b[[?;co06J4L4M2N2N2N1O2O0O2O0O2O0O2O000000000000000001N10001N101N101N2N101N2N2N3M3L4L6I]d[?"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "button",
+          "justification": "Part 7 appears as a small circular element embedded within the larger orange surface of its parent component, suggesting tactile interaction similar to how buttons are used for input; unlike surrounding elements which may serve structural roles like legs or antennae due to their elongated forms extending outward rather than being flat surfaces designed for pressing actions",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "button",
+                "logprob": -1.5655069397762418,
+                "prob": 0.23646310672797524
+              },
+              {
+                "option": "align",
+                "logprob": -1.690395764540881,
+                "prob": 0.208701160373875
+              },
+              {
+                "option": "none",
+                "logprob": -1.9406098820036277,
+                "prob": 0.16250182892246542
+              },
+              {
+                "option": "orient",
+                "logprob": -2.8153542940563057,
+                "prob": 0.06775815656125123
+              },
+              {
+                "option": "label",
+                "logprob": -2.94040136525291,
+                "prob": 0.05979354867001791
+              },
+              {
+                "option": "click",
+                "logprob": -3.0655036034295335,
+                "prob": 0.05276222690619677
+              },
+              {
+                "option": "adjust",
+                "logprob": -3.065507178020198,
+                "prob": 0.05276203830317013
+              },
+              {
+                "option": "rotate",
+                "logprob": -3.627714854941587,
+                "prob": 0.030071692587968078
+              },
+              {
+                "option": "anchor",
+                "logprob": -4.502929249429144,
+                "prob": 0.012533059200505195
+              },
+              {
+                "option": "display",
+                "logprob": -4.5033420588006265,
+                "prob": 0.012527886503956143
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "press",
+              "click",
+              "input",
+              "select",
+              "trigger",
+              "engage",
+              "control"
+            ],
+            "n_valid": 7,
+            "invalid": [
+              "Based on the visual analysis of part 7 (the top-left button on the keypad):",
+              "activate",
+              "operate",
+              "interact",
+              "(Note: \"activate\", \"operate\", \"interact\", \"engage\", \"control\" are not in the provided list, so I have selected the most plausible ones from the list. \"Press\" and \"click\" are the primary physical actions, \"input\" and \"select\" are the functional outcomes, and \"trigger\" and \"activate\" describe the mechanism.)",
+              "Wait, I need to strictly use the provided list. Let me re-evaluate based *only* on the provided list.",
+              "activate (Not in list) -> operate (Not in list) -> engage (In"
+            ],
+            "raw": "Based on the visual analysis of part 7 (the top-left button on the keypad):\n\n1. press\n2. click\n3. input\n4. select\n5. trigger\n6. activate\n7. operate\n8. interact\n9. engage\n10. control\n\n(Note: \"activate\", \"operate\", \"interact\", \"engage\", \"control\" are not in the provided list, so I have selected the most plausible ones from the list. \"Press\" and \"click\" are the primary physical actions, \"input\" and \"select\" are the functional outcomes, and \"trigger\" and \"activate\" describe the mechanism.)\n\nWait, I need to strictly use the provided list. Let me re-evaluate based *only* on the provided list.\n\n1. press\n2. click\n3. input\n4. select\n5. trigger\n6. activate (Not in list) -> operate (Not in list) -> engage (In"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_40_region_2",
+      "area": 1282,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "R`^a0:co06K4L4L3N2N2N2N2O0O2O0O101O000O100000000001O0O10001N10001N101N2O1N1O2N3M3L3N3L6Io_X="
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "align",
+          "justification": "Part 8 appears as a small circular element positioned centrally within the orange section of the figure; its round form suggests rotational symmetry suitable for alignment tasks like dialing numbers into place rather than gripping or pressing down due to lack of protrusion features seen elsewhere in similar positions across all elements shown here without explicit functional context provided beyond",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "align",
+                "logprob": -1.2505512862990145,
+                "prob": 0.3244211044855555
+              },
+              {
+                "option": "button",
+                "logprob": -1.625636131153442,
+                "prob": 0.2229522297744684
+              },
+              {
+                "option": "none",
+                "logprob": -2.1256437572592404,
+                "prob": 0.13522633175526605
+              },
+              {
+                "option": "click",
+                "logprob": -2.875633271294646,
+                "prob": 0.06387706598018829
+              },
+              {
+                "option": "orient",
+                "logprob": -3.0005158924032003,
+                "prob": 0.0563779300642741
+              },
+              {
+                "option": "adjust",
+                "logprob": -3.5007700569112785,
+                "prob": 0.034186253078617466
+              },
+              {
+                "option": "rotate",
+                "logprob": -4.06291709280049,
+                "prob": 0.0194856163556991
+              },
+              {
+                "option": "anchor",
+                "logprob": -4.188070472329855,
+                "prob": 0.017193358767330615
+              },
+              {
+                "option": "display",
+                "logprob": -4.188343208108563,
+                "prob": 0.017188670162642788
+              },
+              {
+                "option": "label",
+                "logprob": -4.625603123509791,
+                "prob": 0.01110050430199256
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "input",
+              "select",
+              "press",
+              "click",
+              "scan",
+              "display",
+              "control",
+              "indicate",
+              "charge",
+              "none"
+            ],
+            "n_valid": 10,
+            "invalid": [
+              "Based on the visual analysis of part 8 (the number '8' on the keypad):"
+            ],
+            "raw": "Based on the visual analysis of part 8 (the number '8' on the keypad):\n\n1. input\n2. select\n3. press\n4. click\n5. scan\n6. display\n7. control\n8. indicate\n9. charge\n10. none"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_40_region_8",
+      "area": 1269,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "b[aa0;bo06K4L3N3M2N101N2N101N101N100000001O00000000O101O000O2O001N101N101N2N2O1N2N2M4L4L`dU="
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "align",
+          "justification": "Part 9 has a flat top edge positioned directly above another surface element in its immediate vicinity, suggesting it functions as a connector designed for horizontal alignment rather than being shaped like any of the surrounding rounded protrusions meant primarily for grasping or pressing",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "align",
+                "logprob": -1.4010199605836533,
+                "prob": 0.2755338956897912
+              },
+              {
+                "option": "orient",
+                "logprob": -2.0258855403517373,
+                "prob": 0.14750249259904671
+              },
+              {
+                "option": "button",
+                "logprob": -2.026495172525756,
+                "prob": 0.14741259773799428
+              },
+              {
+                "option": "none",
+                "logprob": -2.276178786822129,
+                "prob": 0.1148413749749672
+              },
+              {
+                "option": "adjust",
+                "logprob": -2.401024012011476,
+                "prob": 0.10136284490506896
+              },
+              {
+                "option": "click",
+                "logprob": -3.0262042824178934,
+                "prob": 0.05424584136128951
+              },
+              {
+                "option": "label",
+                "logprob": -3.588589904422406,
+                "prob": 0.030911884157895825
+              },
+              {
+                "option": "rotate",
+                "logprob": -4.213368974917103,
+                "prob": 0.01654959516257925
+              },
+              {
+                "option": "display",
+                "logprob": -4.776683574542403,
+                "prob": 0.009421996797888252
+              },
+              {
+                "option": "aim",
+                "logprob": -4.838551179767819,
+                "prob": 0.008856746059014875
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "input",
+              "select",
+              "click",
+              "press",
+              "button",
+              "engage",
+              "control",
+              "adjust"
+            ],
+            "n_valid": 8,
+            "invalid": [
+              "Based on the visual analysis of part 9 (the number '2' located on the orange surface of the object, which resembles a stylized phone or control panel), here is the ranking of its most plausible affordances:",
+              "**operate**",
+              "**interact**"
+            ],
+            "raw": "Based on the visual analysis of part 9 (the number '2' located on the orange surface of the object, which resembles a stylized phone or control panel), here is the ranking of its most plausible affordances:\n\n1. **input**\n2. **select**\n3. **click**\n4. **press**\n5. **button**\n6. **engage**\n7. **control**\n8. **adjust**\n9. **operate**\n10. **interact**"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_40_region_9",
+      "area": 1263,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "c[jc0=ao05K4L3N3M2N2N1O2O0O2O0O2O0O10001O0000000000O10001O0O2O0O2O0O2N2N2N2N3M3K5L8F\\dn:"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "button",
+          "justification": "Part 12 stands out as having a distinct circular button-like appearance compared to its surrounding rectangular counterparts in both form and function within the interface layout of the device shown here; thus we can infer that while all these elements may serve similar purposes like navigation controls they are designed differently for user interaction needs making them unique among themselves",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "button",
+                "logprob": -1.4412704946880694,
+                "prob": 0.273233708271658
+              },
+              {
+                "option": "align",
+                "logprob": -1.9410619476548163,
+                "prob": 0.16575918631594105
+              },
+              {
+                "option": "none",
+                "logprob": -2.191400248557329,
+                "prob": 0.12904971908215754
+              },
+              {
+                "option": "adjust",
+                "logprob": -2.6910812549758703,
+                "prob": 0.07829758369403683
+              },
+              {
+                "option": "click",
+                "logprob": -2.6912657283828594,
+                "prob": 0.0782831412041824
+              },
+              {
+                "option": "orient",
+                "logprob": -2.941069932829123,
+                "prob": 0.06097890990177268
+              },
+              {
+                "option": "aim",
+                "logprob": -3.1910485991684254,
+                "prob": 0.04749143593771435
+              },
+              {
+                "option": "label",
+                "logprob": -4.191165630676551,
+                "prob": 0.017469078360973382
+              },
+              {
+                "option": "rotate",
+                "logprob": -4.441028814413585,
+                "prob": 0.013606793410342292
+              },
+              {
+                "option": "attach",
+                "logprob": -4.441186485171784,
+                "prob": 0.013604648186032643
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "press",
+              "click",
+              "select",
+              "input",
+              "engage",
+              "trigger",
+              "control"
+            ],
+            "n_valid": 7,
+            "invalid": [
+              "Based on the visual analysis of part 10 (the top-right button on the keypad-like surface of the object):",
+              "activate",
+              "operate",
+              "interact",
+              "(Note: \"activate\", \"operate\", \"interact\", \"engage\", \"trigger\", and \"control\" are not in the provided list, so I have selected the most plausible options from the list that fit the function of a button on a keypad.)",
+              "Corrected list based strictly on the provided options:",
+              "operate",
+              "activate",
+              "interact",
+              "Wait, I need to stick to the provided list. Let me re-evaluate the top 10 from the provided list."
+            ],
+            "raw": "Based on the visual analysis of part 10 (the top-right button on the keypad-like surface of the object):\n\n1. press\n2. click\n3. select\n4. input\n5. activate\n6. operate\n7. interact\n8. engage\n9. trigger\n10. control\n\n(Note: \"activate\", \"operate\", \"interact\", \"engage\", \"trigger\", and \"control\" are not in the provided list, so I have selected the most plausible options from the list that fit the function of a button on a keypad.)\n\nCorrected list based strictly on the provided options:\n\n1. press\n2. click\n3. select\n4. input\n5. operate\n6. engage\n7. trigger\n8. control\n9. activate\n10. interact\n\nWait, I need to stick to the provided list. Let me re-evaluate the top 10 from the provided list.\n\n1. press"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_40_region_4",
+      "area": 1227,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "i]gc0>`o04L4L3N2N3M2O0O2N2O0O2O000O2O0000000000O10001N10001N101N1O2O0O2N2N2N2N2M4L6JWbQ;"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "button",
+          "justification": "Part 10 has rounded corners like button buttons do while others are square shaped; its placement in center of orange area suggests interactive function similar to keypad layout found on devices such as phones or calculators where users press circular elements for input purposes rather than sliding them across surfaces which would be more appropriate if they were rectangular sliders",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "button",
+                "logprob": -1.266411155636888,
+                "prob": 0.32271460180589273
+              },
+              {
+                "option": "align",
+                "logprob": -1.7661891652096529,
+                "prob": 0.19577975674043893
+              },
+              {
+                "option": "adjust",
+                "logprob": -2.3913304916932248,
+                "prob": 0.1047785432384887
+              },
+              {
+                "option": "click",
+                "logprob": -2.7663366876658984,
+                "prob": 0.07201272322490206
+              },
+              {
+                "option": "none",
+                "logprob": -2.766965856542811,
+                "prob": 0.07196742931096185
+              },
+              {
+                "option": "orient",
+                "logprob": -3.7037113307160325,
+                "prob": 0.028204122968423926
+              },
+              {
+                "option": "label",
+                "logprob": -3.9538009410898667,
+                "prob": 0.021963424814756428
+              },
+              {
+                "option": "aim",
+                "logprob": -4.016205014690058,
+                "prob": 0.020634707493368817
+              },
+              {
+                "option": "attach",
+                "logprob": -4.266433554352261,
+                "prob": 0.016066654066976153
+              },
+              {
+                "option": "anchor",
+                "logprob": -4.328768172184937,
+                "prob": 0.015095721062857231
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "press",
+              "input",
+              "click",
+              "select",
+              "indicate",
+              "display",
+              "scan",
+              "detect",
+              "control",
+              "none"
+            ],
+            "n_valid": 10,
+            "invalid": [
+              "Based on the visual analysis of part 11 (the number \"11\" on the keypad-like surface of the object):"
+            ],
+            "raw": "Based on the visual analysis of part 11 (the number \"11\" on the keypad-like surface of the object):\n\n1. press\n2. input\n3. click\n4. select\n5. indicate\n6. display\n7. scan\n8. detect\n9. control\n10. none"
+          }
+        }
+      }
+    }
+  ],
+  "generation_option_order": "shuffled_per_part"
+}

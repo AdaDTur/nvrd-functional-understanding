@@ -1,0 +1,634 @@
+{
+  "object": "shape_27",
+  "model": "Qwen/Qwen3.5-4B",
+  "image_path": "/shared/nas/data/m1/adadt2/nvrd/regions_test/data/novel/shape_27.png",
+  "region_source": "sam_slic",
+  "method": "per_part_with_comparative_context",
+  "top_k": 10,
+  "modes": [
+    "logprob",
+    "generation"
+  ],
+  "regions": [
+    {
+      "region_id": "shape_27_region_24",
+      "area": 50869,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "Ykf4340Zo0e0E9F9H7J6I8H6L5G8K5K6J5J6K4L5K5K5K4K6K5K4L5K4J7L3L4L5K4L4L4M3L5L2M4M3M3L4M3M3M3M3L4M2N3M3N2M3M2O2M3M2O2M2N3N1N3M2O1O2M2O1N2N2O1O1N2N2O1N2O1O000N12O00O0100O001O1O1O10OO3N1N110O100O002N1O10O01O2N10O0101N1O01000O1000001N10O02O0000O10O2N10O20O000000000000000001OO020O0O1001O001O0O110O000O101O001N2O0O1O101N2N2O0O2N1O2N101N1N3N1N3N1N3N1O2N2O1001N101N101O001N2O1O1O2M2O2N1O1O2M2O1O2M2O2N2M3N1O2N2N2M3M3M3@mWOPIVh0g6g0J5K5K6K5L4J5L6I7J6I7G:G8J8F9F=B<F;Aa0A`0\\Of0VOn`Zd0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "anchor",
+          "justification": "Part 1\u2019s thick, elongated form positioned at the base suggests stability for gripping or holding onto something firmly; unlike its thinner counterparts designed more like claws or spikes, it appears built primarily as a support point rather than offensive tooling",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "anchor",
+                "logprob": -1.0096097258501686,
+                "prob": 0.43962790913359967
+              },
+              {
+                "option": "align",
+                "logprob": -2.134408849524334,
+                "prob": 0.14275495863141893
+              },
+              {
+                "option": "attack",
+                "logprob": -3.259682036121376,
+                "prob": 0.046333090238978525
+              },
+              {
+                "option": "lean",
+                "logprob": -3.321970689401496,
+                "prob": 0.04353511024152874
+              },
+              {
+                "option": "attach",
+                "logprob": -3.3847982935258187,
+                "prob": 0.04088405527262127
+              },
+              {
+                "option": "none",
+                "logprob": -3.385110906441696,
+                "prob": 0.04087127638641612
+              },
+              {
+                "option": "balance",
+                "logprob": -3.5721166353905573,
+                "prob": 0.03390022998354923
+              },
+              {
+                "option": "extend",
+                "logprob": -4.134722894523293,
+                "prob": 0.01931371643125725
+              },
+              {
+                "option": "block",
+                "logprob": -4.384308753767982,
+                "prob": 0.015047768084459913
+              },
+              {
+                "option": "orient",
+                "logprob": -4.384430297301151,
+                "prob": 0.015045939236705186
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Based on the visual analysis of part 1 (the large blue leg-like structure):",
+              "**support** - The primary function of a leg or limb in a standing object is to provide structural support and bear weight.",
+              "**stand** - This is the action of being upright on legs, which is the state of the object.",
+              "**balance** - The legs are positioned to keep the object stable and upright.",
+              "**hold** - In a broader sense, the legs hold the object in place.",
+              "**place** - The legs are positioned to place the object on a surface.",
+              "**align** - The legs are arranged to align the object vertically.",
+              "**orient** - The legs help orient the object in space.",
+              "**lift** - The legs are capable of lifting the object off the ground.",
+              "**move** - The legs allow the"
+            ],
+            "raw": "Based on the visual analysis of part 1 (the large blue leg-like structure):\n\n1.  **support** - The primary function of a leg or limb in a standing object is to provide structural support and bear weight.\n2.  **stand** - This is the action of being upright on legs, which is the state of the object.\n3.  **balance** - The legs are positioned to keep the object stable and upright.\n4.  **hold** - In a broader sense, the legs hold the object in place.\n5.  **place** - The legs are positioned to place the object on a surface.\n6.  **align** - The legs are arranged to align the object vertically.\n7.  **orient** - The legs help orient the object in space.\n8.  **lift** - The legs are capable of lifting the object off the ground.\n9.  **move** - The legs allow the"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_27_region_6",
+      "area": 24409,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "Yii;a0Qo0e0B;C<F9E<D;F9H8F;H7F:H8F:H7I8D<G9H7E<H7FYOVWOmJ_h0_6G9O2M2O1O2O0O1O1O101N1O1O100O100O1O100O10O010000O]I\\XO80d2cg0UM^XO60d2bg0VM]XO70c2cg0j30000O010O010O010O0100O010O1cI\\XO]4eg0n11O010O0hIZXOZO0b3gg0TMYXOU4hg0Q21N2N2N2O1N2L3N3L3N3K5J6L4L4L4L5I6K4K6L3SLSVOVO0ZO0U1Qj0o36M3K5K6L3L4J7J4L5K4L5K5K5K5K6L3M4I6K4L5iMPSOL1h0Rm0]OmROK0e0Xm0Z14L4K5L5L3L4K5K6K4L4M3K5L4L4M4L3L5Jj]R`0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 2 appears as a smooth, rounded appendage lacking distinct functional features like spikes or protrusions seen in others; its simple cylindrical form suggests no specialized interaction purpose compared to more complexly shaped elements such as those at positions three through seven which exhibit pointed tips for grasping or piercing actions",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.553094252187293,
+                "prob": 0.2686941593679018
+              },
+              {
+                "option": "align",
+                "logprob": -2.5529114987584762,
+                "prob": 0.09886512348371276
+              },
+              {
+                "option": "anchor",
+                "logprob": -2.5532118210103363,
+                "prob": 0.09883543654524496
+              },
+              {
+                "option": "stand",
+                "logprob": -3.052761005877983,
+                "prob": 0.059973753512955516
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -3.053213897913082,
+                "prob": 0.05994659802739021
+              },
+              {
+                "option": "walk",
+                "logprob": -3.115883325226605,
+                "prob": 0.05630507683207198
+              },
+              {
+                "option": "orient",
+                "logprob": -3.3029168603243306,
+                "prob": 0.046700327178765315
+              },
+              {
+                "option": "balance",
+                "logprob": -3.4907315931632183,
+                "prob": 0.03870374780219157
+              },
+              {
+                "option": "extend",
+                "logprob": -3.803242670139298,
+                "prob": 0.028315953134019873
+              },
+              {
+                "option": "lean",
+                "logprob": -3.990340723452391,
+                "prob": 0.02348418715154243
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Based on the visual analysis of part 2 (the orange leg-like structure at the bottom):",
+              "**stand** - This is the primary function of the object. It is a leg or foot designed to support the main body of the figure, allowing it to stand upright.",
+              "**support** - Closely related to standing, the part provides structural support for the upper body.",
+              "**balance** - The positioning of the legs (including part 2) is crucial for maintaining the center of gravity and keeping the object stable.",
+              "**propel** - While static in this image, legs are the primary mechanism for locomotion (walking/running), which involves propulsion.",
+              "**walk** - The shape is characteristic of a foot or leg used for walking.",
+              "**run** - Similar to walking, this is a mode of locomotion facilitated by leg structures.",
+              "**jump** -"
+            ],
+            "raw": "Based on the visual analysis of part 2 (the orange leg-like structure at the bottom):\n\n1.  **stand** - This is the primary function of the object. It is a leg or foot designed to support the main body of the figure, allowing it to stand upright.\n2.  **support** - Closely related to standing, the part provides structural support for the upper body.\n3.  **balance** - The positioning of the legs (including part 2) is crucial for maintaining the center of gravity and keeping the object stable.\n4.  **propel** - While static in this image, legs are the primary mechanism for locomotion (walking/running), which involves propulsion.\n5.  **walk** - The shape is characteristic of a foot or leg used for walking.\n6.  **run** - Similar to walking, this is a mode of locomotion facilitated by leg structures.\n7.  **jump** -"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_27_region_8",
+      "area": 19377,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "X[Ra04do0<I8J3N1K6K6L3M3M2N2N2N1O2O1N2O2M2N2N2N101N101N1O2N101N1O2N101N1O1O2O0O1O1O1O100O1O1O100O1O0010O0000001O01O01O0000001O0000001O000001O01O0000001O0000001O0000010O00001O0000001O0000001O01O0001N11O01O0000001O00001O000001O01O00001O0000001O00001O000001O01O00001O000000001O00001O00000010O000001O00001O0000001O0000001O00001O00000010O0001O0000001O00001O0000001O0000001O0000001O00001O01O0001O0000001O0000001O0000001O0000001O00001O00001O001O1O1ON2001O01O00O2O000000010O00001O0000001O00001O0000001O00001O0000001O0000001O00001O000000001O00001O0000001O001O001O001O1O1O1O1O1O1O1O1O2N1O2N1O2N2M3N3L4L6HWkg5"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "attack",
+          "justification": "Part three\u2019s long, sharp-tipped conical form suggests a weapon designed for striking or piercing targets more effectively than the broader limbs of adjacent sections like two or four which appear suited primarily for support rather than offense",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "attack",
+                "logprob": -1.366112783725839,
+                "prob": 0.3024558964858115
+              },
+              {
+                "option": "aim",
+                "logprob": -1.6159774303087033,
+                "prob": 0.23558477407398618
+              },
+              {
+                "option": "align",
+                "logprob": -1.9908731622854248,
+                "prob": 0.16193177289309366
+              },
+              {
+                "option": "orient",
+                "logprob": -2.990989822515985,
+                "prob": 0.05956442091539501
+              },
+              {
+                "option": "deflect",
+                "logprob": -3.111837997479597,
+                "prob": 0.052784113056081244
+              },
+              {
+                "option": "extend",
+                "logprob": -3.3041928325546905,
+                "prob": 0.04354763608188542
+              },
+              {
+                "option": "none",
+                "logprob": -4.179333089501597,
+                "prob": 0.01815080957364495
+              },
+              {
+                "option": "decorate",
+                "logprob": -4.4287376357242465,
+                "prob": 0.014144284469912272
+              },
+              {
+                "option": "attach",
+                "logprob": -4.553815183928236,
+                "prob": 0.012481319292547841
+              },
+              {
+                "option": "propel",
+                "logprob": -4.683261970989406,
+                "prob": 0.010965854217374688
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "propel",
+              "steer",
+              "direct",
+              "aim",
+              "push",
+              "pull",
+              "drag",
+              "move",
+              "ride",
+              "attach"
+            ],
+            "n_valid": 10,
+            "invalid": [
+              "Based on the visual characteristics of part 3 (a long, green, pointed appendage attached to the side of the object), here are the 10 most plausible affordances it offers, ranked from most to least likely:"
+            ],
+            "raw": "Based on the visual characteristics of part 3 (a long, green, pointed appendage attached to the side of the object), here are the 10 most plausible affordances it offers, ranked from most to least likely:\n\n1. propel\n2. steer\n3. direct\n4. aim\n5. push\n6. pull\n7. drag\n8. move\n9. ride\n10. attach"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_27_region_0",
+      "area": 13905,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "]_\\c0=^o0:H6K5K4L4M3L4M2N2O2M2O0O2O1O1O001O1O001O001O000000000000000000000000000000000O010001OO10000000O2O00000000000O010000000000000O2OO100000000001O000O100000O1001O000000O01000000000001O00000O100000000000000000000O1000000000000000000O1000000000000O1000000000000000000O2O0000000000000000000O100000000000000O2O000000000000000O1000000000000O100000001O000000000O100000000000000000000O1000001O00000O1000000000000000000O10000000001O00000O1000000000000O1000000000001O0O10000000000000000O1000000000000O1000001O0000000O100000000000000O101O0000000O10001O00000O2O0O2O0O2O1N2N3M2M5Jg`h3"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "attack",
+          "justification": "Part 4 has a blunt but solid conical tip positioned at eye level for striking; unlike slender spikes like those in positions five through seven which are designed more as piercing weapons than heavy blows",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "attack",
+                "logprob": -0.6183212610485498,
+                "prob": 0.6016601313217639
+              },
+              {
+                "option": "aim",
+                "logprob": -1.9932930158975068,
+                "prob": 0.15212780122726663
+              },
+              {
+                "option": "align",
+                "logprob": -3.118286937737139,
+                "prob": 0.04938896621537745
+              },
+              {
+                "option": "none",
+                "logprob": -3.619070003274828,
+                "prob": 0.029932473992729098
+              },
+              {
+                "option": "attach",
+                "logprob": -3.806027891318081,
+                "prob": 0.02482834861611598
+              },
+              {
+                "option": "deflect",
+                "logprob": -4.053331358518335,
+                "prob": 0.019388548775758914
+              },
+              {
+                "option": "orient",
+                "logprob": -4.118483565951465,
+                "prob": 0.018165613068100158
+              },
+              {
+                "option": "hit",
+                "logprob": -4.369090962456539,
+                "prob": 0.014138803214104257
+              },
+              {
+                "option": "defend",
+                "logprob": -4.428475565073313,
+                "prob": 0.013323620212981644
+              },
+              {
+                "option": "extend",
+                "logprob": -4.556651931838132,
+                "prob": 0.011720764931140371
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "push",
+              "attack",
+              "hit",
+              "defend",
+              "bump",
+              "press",
+              "paddle",
+              "propel",
+              "extend",
+              "lift"
+            ],
+            "n_valid": 10,
+            "invalid": [
+              "Based on the visual analysis of part 4 (the brown, blunt, protruding appendage on the right side of the object), here is the ranking of its most plausible affordances."
+            ],
+            "raw": "Based on the visual analysis of part 4 (the brown, blunt, protruding appendage on the right side of the object), here is the ranking of its most plausible affordances.\n\n1. **push**\n2. **attack**\n3. **hit**\n4. **defend**\n5. **bump**\n6. **press**\n7. **paddle**\n8. **propel**\n9. **extend**\n10. **lift**"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_27_region_26",
+      "area": 4937,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "UZb59fo02N2N2O1N2O001O00001O0000001O0000001O00001O00000010O0001O0000001O00001O000000001O01O01O0000001O00001O0000001O00010O00001O0000001O00001O0000001O0000010O0000001O00001O0000001O00001O0000001O00001O01O0001O00001O0000001O0000001O001O00001O0000001O00001O0000001O00001O0000001O0000001O01O0O10O02I6E<A?DRfie0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "attack",
+          "justification": "Part 5 has a sharp, pointed tip similar to spikes found elsewhere on the creature\u2019s body; its slender form suggests use for piercing rather than grasping like limbs or striking as broad appendages do",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "attack",
+                "logprob": -1.6868113478412852,
+                "prob": 0.22583045909704816
+              },
+              {
+                "option": "aim",
+                "logprob": -1.93664562352933,
+                "prob": 0.17590608788608253
+              },
+              {
+                "option": "align",
+                "logprob": -2.1865821144310758,
+                "prob": 0.13700449974865272
+              },
+              {
+                "option": "none",
+                "logprob": -2.1870368364616297,
+                "prob": 0.13694221494654105
+              },
+              {
+                "option": "deflect",
+                "logprob": -3.0492612344096415,
+                "prob": 0.057819995004505714
+              },
+              {
+                "option": "adjust",
+                "logprob": -3.1868343397509307,
+                "prob": 0.05038842796521637
+              },
+              {
+                "option": "orient",
+                "logprob": -3.2493371987948194,
+                "prob": 0.047335412110945926
+              },
+              {
+                "option": "block",
+                "logprob": -3.749473709554877,
+                "prob": 0.028706459727298163
+              },
+              {
+                "option": "attach",
+                "logprob": -4.187055416696239,
+                "prob": 0.01853276910044237
+              },
+              {
+                "option": "wedge",
+                "logprob": -4.749484480329556,
+                "prob": 0.010560402618159286
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Based on the visual analysis of part 5 (the purple, flat, pointed appendage on the left side of the object), here is the ranking of its most plausible affordances:",
+              "**deflect** - The shape is flat and pointed, suggesting it could be used to redirect or block something.",
+              "**balance** - It is positioned on the side, potentially acting as a counterweight or stabilizer.",
+              "**cover** - It has a broad surface area that could shield or hide something underneath.",
+              "**seal** - Its pointed tip could be used to close off an opening or gap.",
+              "**plug** - Similar to sealing, it could block a hole or channel.",
+              "**stop** - The rigid structure suggests it can halt motion or flow.",
+              "**block** - Directly related to stopping or obstructing a path.",
+              "**shield** - It could protect the main body from impact"
+            ],
+            "raw": "Based on the visual analysis of part 5 (the purple, flat, pointed appendage on the left side of the object), here is the ranking of its most plausible affordances:\n\n1. **deflect** - The shape is flat and pointed, suggesting it could be used to redirect or block something.\n2. **balance** - It is positioned on the side, potentially acting as a counterweight or stabilizer.\n3. **cover** - It has a broad surface area that could shield or hide something underneath.\n4. **seal** - Its pointed tip could be used to close off an opening or gap.\n5. **plug** - Similar to sealing, it could block a hole or channel.\n6. **stop** - The rigid structure suggests it can halt motion or flow.\n7. **block** - Directly related to stopping or obstructing a path.\n8. **shield** - It could protect the main body from impact"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_27_region_7",
+      "area": 4061,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "]Vb?4jo04L3M3N2L4M2N3M3M3L3N3M3M2N3L4N1M4M2N3M2M4N1M3O2O0O2IlM`ROT2^m08N3L3N2N3M2N2N2N2N1O2MG_SOXM`l0k2`SOSM^l0o282N1ON1O2O2EVSO]Mml0e2600N3K4M4K5K5@WROeNmm0[1TRO_NQn0`18M3J7I6J7J6I9Enl\\>"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "attack",
+          "justification": "Part 6 appears as a sharp, pointed spike protruding directly upward like a horn; its conical tip suggests piercing capability rather than grasping or balancing functions seen in broader limbs such as those of parts 3-5",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "attack",
+                "logprob": -0.8690703085449059,
+                "prob": 0.46090712293860303
+              },
+              {
+                "option": "hit",
+                "logprob": -1.869350284570828,
+                "prob": 0.16951078921716942
+              },
+              {
+                "option": "none",
+                "logprob": -2.119399599847384,
+                "prob": 0.13200862517900003
+              },
+              {
+                "option": "aim",
+                "logprob": -2.494121782365255,
+                "prob": 0.09075332215095526
+              },
+              {
+                "option": "align",
+                "logprob": -3.2441247610840946,
+                "prob": 0.04286870624022841
+              },
+              {
+                "option": "deflect",
+                "logprob": -3.6250780867703725,
+                "prob": 0.029288319240233607
+              },
+              {
+                "option": "orient",
+                "logprob": -4.431760462350212,
+                "prob": 0.01307244265281782
+              },
+              {
+                "option": "defend",
+                "logprob": -4.625316512887366,
+                "prob": 0.010772001882164527
+              },
+              {
+                "option": "attach",
+                "logprob": -4.681993577920366,
+                "prob": 0.010178455541618949
+              },
+              {
+                "option": "anchor",
+                "logprob": -4.994205898081418,
+                "prob": 0.007448859731351736
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Based on the visual analysis of part 6 (the small, dark grey, horn-like protrusion on the top of the object), here is the ranking of its most plausible affordances:",
+              "**hit** - The object is a spiky, protruding horn. Its primary physical function is to strike or hit something.",
+              "**poke** - Similar to hitting, the sharp tip allows for poking.",
+              "**stab** - Given the sharpness and orientation, stabbing is a very plausible action.",
+              "**prick** - A smaller, sharper version of stabbing/poking.",
+              "**touch** - Any protrusion can be used to touch surfaces.",
+              "**point** - Horns are naturally used to point in a direction.",
+              "**balance** - It is located on the top, potentially helping to balance the object.",
+              "**lean** - One could lean against it or use it to lean.",
+              "9"
+            ],
+            "raw": "Based on the visual analysis of part 6 (the small, dark grey, horn-like protrusion on the top of the object), here is the ranking of its most plausible affordances:\n\n1. **hit** - The object is a spiky, protruding horn. Its primary physical function is to strike or hit something.\n2. **poke** - Similar to hitting, the sharp tip allows for poking.\n3. **stab** - Given the sharpness and orientation, stabbing is a very plausible action.\n4. **prick** - A smaller, sharper version of stabbing/poking.\n5. **touch** - Any protrusion can be used to touch surfaces.\n6. **point** - Horns are naturally used to point in a direction.\n7. **balance** - It is located on the top, potentially helping to balance the object.\n8. **lean** - One could lean against it or use it to lean.\n9"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_27_region_25",
+      "area": 3376,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "aTa98go04K4M3N2M3N2N2N2N3M2O1N2O1O001O2N1O1O002N001O1O1O100O1O1O1O001O1O1O001O1O1O001O1O00100O100O001N10O2O0N2O1N2N2N2N2O1N3M2N2N2N2N2N2N3M2O0O2N3M2N2O2M2N2N2N2O1N101N2N2NYikc0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "attack",
+          "justification": "Part 7 features sharp spikes protruding outward like claws designed for piercing; unlike its smooth counterparts which are likely meant for grasping or balancing, these jagged points suggest offensive capability through stabbing motion rather than holding onto surfaces",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "attack",
+                "logprob": -0.7389283291704487,
+                "prob": 0.528543177290664
+              },
+              {
+                "option": "none",
+                "logprob": -2.239213884458877,
+                "prob": 0.11790025194641715
+              },
+              {
+                "option": "aim",
+                "logprob": -2.613896092545474,
+                "prob": 0.08105733440229658
+              },
+              {
+                "option": "hit",
+                "logprob": -2.61427380918758,
+                "prob": 0.08102672347961948
+              },
+              {
+                "option": "deflect",
+                "logprob": -3.2580830381193664,
+                "prob": 0.042562338557378045
+              },
+              {
+                "option": "align",
+                "logprob": -3.4889722431253176,
+                "prob": 0.03378715111958174
+              },
+              {
+                "option": "defend",
+                "logprob": -3.7581976373912767,
+                "prob": 0.025812405031792517
+              },
+              {
+                "option": "decorate",
+                "logprob": -4.17650811173371,
+                "prob": 0.01698863714290057
+              },
+              {
+                "option": "orient",
+                "logprob": -4.426613326824736,
+                "prob": 0.013229371907408903
+              },
+              {
+                "option": "adjust",
+                "logprob": -4.739076866215328,
+                "prob": 0.009679168150543782
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "attack"
+            ],
+            "n_valid": 1,
+            "invalid": [
+              "Based on the visual characteristics of part 7 (a small, sharp, pointed protrusion on the top of the object), here are the 10 most plausible affordances it offers, ranked from most to least likely:",
+              "puncture",
+              "prick",
+              "stab",
+              "poke",
+              "jab",
+              "thrust",
+              "spear",
+              "impale",
+              "lacerate"
+            ],
+            "raw": "Based on the visual characteristics of part 7 (a small, sharp, pointed protrusion on the top of the object), here are the 10 most plausible affordances it offers, ranked from most to least likely:\n\n1. attack\n2. puncture\n3. prick\n4. stab\n5. poke\n6. jab\n7. thrust\n8. spear\n9. impale\n10. lacerate"
+          }
+        }
+      }
+    }
+  ],
+  "generation_option_order": "shuffled_per_part"
+}

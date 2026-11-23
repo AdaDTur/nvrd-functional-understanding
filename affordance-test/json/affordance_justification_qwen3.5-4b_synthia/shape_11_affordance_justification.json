@@ -1,0 +1,992 @@
+{
+  "object": "shape_11",
+  "model": "Qwen/Qwen3.5-4B",
+  "image_path": "/shared/nas/data/m1/adadt2/nvrd/regions_test/data/novel/shape_11.png",
+  "region_source": "sam_slic",
+  "method": "per_part_with_comparative_context",
+  "top_k": 10,
+  "modes": [
+    "logprob",
+    "generation"
+  ],
+  "regions": [
+    {
+      "region_id": "shape_11_region_7",
+      "area": 216410,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "fhR63eo09J5M4M2L5K4N2M4L3M3L5L3L4L5L3M3N2M4L3N2N3L3N2N3N1N2O1O2M2N2O1N2N2PLkLS[OW3ld0kLQ[OX3md0iLR[OX3nd0iLP[OX3od0hLP[OZ3od0gLnZO\\3Qe0eLmZO]3Qe0dLnZO_3Pe0bLnZO`3Qe0`LoZOa3Pe0`LnZOc3Pe0]LP[Od3nd0]LQ[Oe3nd0ZLR[Oh3md0XLS[Oi3ld0XLR[Oj3md0WLR[Ok3ld0VLR[Ol3md0ULR[Ol3md0ULQ[Om3nd0TLP[On3od0SLoZOP4od0QLP[OP4od0QLoZOQ4Pe0PLoZOQ4od0QLP[OP4od0RLoZOo3Pe0RLnZOQ4Pe0RLmZOo3Re0SLjZOQ4Te0QLjZOP4Te0RLkZOo3Se0TLjZOn3Ue0SLjZOn3Te0TLkZOm3Te0TLjZOn3Te0TLjZOn3Ue0SLjZOo3Te0SLiZOo3We0QLgZOQ4Xe0QLfZOP4[e0PLbZOR4^e0oK`ZOR4ae0oKZZOT4oe0eKlYO_4Xf0aKaYOa4_f0bKZYOb4ff0_KWYOc4hf0`KSYOc4lf0`KPYOb4Pg0aKkXOb4Sg0eKeXO]4Zg0U200O1000001N1O1O100O100O2O0O2N101N100O2O0O100N2O2N1O100O2N1O1kKfFcA[9\\>gFbAZ9^>fFaA\\9]>fFaA[9^>fFaA[9^>fFaA[9^>fFbA[9\\>fFcA[9\\>fFcA[9\\>fFcA\\9[>eFdA\\9Z>fFeA[9Z>fFeA\\9Y>fFfAZ9Y>gFfAZ9Y>gFfA[9X>gFfAZ9Y>hFeAY9Y>kFdAW9Z>kFeAU9Z>mFdAT9[>oFbAR9\\>RGaAo8^>TG_An8_>UG^Al8a>WG]Aj8a>YG\\Ah8c>[GZAf8f>\\GVAf8i>\\GUAf8i>\\GUAe8j>]GUAc8j>^GUAc8j>_GTAc8j>_GTAb8k>_GTAb8k>`GTAa8j>aGSAa8l>aGRAa8l>aGRA`8m>bGRA_8j>fGSA[8l>gGRA[8l>gGRAZ8m>iGo@Z8o>hGo@Y8P?iGn@X8Q?jGm@X8R?jGk@W8T?mGh@T8W?nGg@T8W?PHe@Q8Z?THa@m7^?VH^@m7`?UH^@l7`?WH^@k7`?XH]@i7b?ZHZ@i7d?Z4O2M2O100O2O010O001O0I7O2N1O1O2N1O2M2O2N1O2N1O2M2O2N1O2N1O2N1N2N2O2N1O2N2M2O2N1N3N1O1O2M2O2N1O1N3N1O1N3N1O2O1M2O2N1N3N101N1N2O1N2O1O2N1O2N1O1O1N2O2N1O1O2M2N2O1O1O1O1N3M2O1O1N2N2O1N2O1O1N2O1N2O1N2O1O1N2O1O10O01O1O1O1O1O00100O100O1000O0100O100O01000O100O100000O0100000O100000O01d]O[E]?e:l_OmFY?S9i_OlGV`0U8b_OSH\\`0n7^_OXHb`0i7V_O^Hj`0g7m^O^HRa0c7j^O`HVa0a7h^OaHWa0T;01N101O1O1N101O1O0O101O001O0O101O0000000O0100O1O1O001N2O10O01N2O1O1N1O2O1O1O1O1N101N2O001N2O1O001N2O1N2O001O1N2O0O2OHWBZ^Oh=ha061OO12M2O2M2M2N4O01O002UGZBYOg=f0ZBYOh=e0ZBYOh=e0[BXOh=e0YBZOj=d0WB[Ok=b0VB]Om=`0UB^Om=`0UB^Om=`0UB^Om=>VBAl==VBAl==UBBn=;TBCn=;SBDP>9RBEP>9QBFQ>8QBER>9PBER>9oAFT>7nAGT>7nAGV>5lAIV>5lAIV>6jAIX>5iAJY>4iAJY>4hAKZ>3hAK[>3eAL]>2eAL^>1cAO^>OdAO_>OcAN_>0cAN_>1bAN`>ObAO`>OaA1a>LaA2a>L`A3b>K`A3b>K`A4a>KaA2a>LbA2_>LcA2_>MbA1a>LaA2b>LaA0a>NbA0_>NbA1_>NcA1^>NcA0`>MbA1a>LdAO^>OdA0]>NeA0]>OcA0_>NcA1^>MdA1^>MdA2]>MeA0^>MdA1^>MdA2]>LdA3^>LcA3]>LeA2]>LdA4]>JeA4]>IgA5Z>HjA5Y>GjA8W>FkA8W>FjA:W>ClA;U>DmA;T>CmA<T>CnA<S>AoA>[>XOgAf0a>ROaAm0d>lN_AR1g>gN\\AX1g>dNZA[1k>`NWA_1k>\\NXAc1k>YNXAe1k>VNXAi1k>TNWAk1k>QNWAn1k>oMXAP2j>mMWAR2l>jMWAU2j>gM[AV2g>gM\\AW2g>fM[AY2h>cMYA]2h>aMZA]2i>`MXA`2i>]MZAa2h>\\M[Ac2g>ZM[Ad2g>XM^Af2c>XM_Af2e>UM^Aj2d>SM]Al2g>PM[Ao2h>mLYAR3k>jLWAU3k>hLXAU3i>kLYAS3h>kLZAS3g>lL[AS3f>kL[AT3je0O0O2O1O4K3N1N101O0O2O1N2O1N100O100O101N100O101N101iMcROh1lm0O2M3N3L2N2O1N3N1O4L2N3M2N6I4M6J2N3M2M2O1N2NXYc8"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 1 forms the central structural base of the entire assembly without any protruding features like handles or loops found in surrounding sections such as those at positions six through ten; its smooth surface suggests purely decorative function rather than functional utility for grasping objects compared to adjacent elements designed clearly for manipulation purposes indicated by their curled shapes resembling",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.2032205867872108,
+                "prob": 0.36502610202514374
+              },
+              {
+                "option": "align",
+                "logprob": -2.0781891211809125,
+                "prob": 0.15217030618118935
+              },
+              {
+                "option": "balance",
+                "logprob": -2.828266591532156,
+                "prob": 0.07187459459457558
+              },
+              {
+                "option": "anchor",
+                "logprob": -2.8283677706785966,
+                "prob": 0.07186732275232932
+              },
+              {
+                "option": "control",
+                "logprob": -2.828433072892949,
+                "prob": 0.07186262981024544
+              },
+              {
+                "option": "orient",
+                "logprob": -3.078173626388889,
+                "prob": 0.055981194611070755
+              },
+              {
+                "option": "cover",
+                "logprob": -3.453191028223955,
+                "prob": 0.038474605335538044
+              },
+              {
+                "option": "contain",
+                "logprob": -3.8282509787677554,
+                "prob": 0.026441598517101785
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -4.0157921071849785,
+                "prob": 0.021919953550378377
+              },
+              {
+                "option": "support",
+                "logprob": -4.4534082871396095,
+                "prob": 0.014150941557914595
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Based on the visual evidence of part 1 being the large, central, blue surface of a stylized, multi-faceted object (resembling a stylized creature or abstract sculpture), here is the ranking of its most plausible affordances:",
+              "**display** - The object is clearly designed to be viewed and admired; part 1 is the primary face.",
+              "**sit** - The large, flat, and stable surface area makes it a plausible place to sit.",
+              "**rest** - Similar to sitting, the surface offers a place to lean or rest.",
+              "**lean** - The geometry suggests a surface suitable for leaning against.",
+              "**stand** - While less stable than sitting, one could stand on it if the object were large enough.",
+              "**cover** - The surface could serve as a lid or cover for something underneath.",
+              "**hold** - One could place small items on this surface.",
+              "8"
+            ],
+            "raw": "Based on the visual evidence of part 1 being the large, central, blue surface of a stylized, multi-faceted object (resembling a stylized creature or abstract sculpture), here is the ranking of its most plausible affordances:\n\n1. **display** - The object is clearly designed to be viewed and admired; part 1 is the primary face.\n2. **sit** - The large, flat, and stable surface area makes it a plausible place to sit.\n3. **rest** - Similar to sitting, the surface offers a place to lean or rest.\n4. **lean** - The geometry suggests a surface suitable for leaning against.\n5. **stand** - While less stable than sitting, one could stand on it if the object were large enough.\n6. **cover** - The surface could serve as a lid or cover for something underneath.\n7. **hold** - One could place small items on this surface.\n8"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_11_region_12",
+      "area": 26802,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "Ta\\b03lo02N2N2O0O2N2N2N2L3O2N1O2N1O2N1O2N2N1O2N2N2N101N1O2N1O2O0O1O2N2O2M2O1N2N1O2N1O2N2O2M3M2O1N2O3L2N2N2O1N2N5K2N2O0O2N2N2O2M2N2N101N2N1O2M4L4L3N2N1N3N2N1O2M2O2N2M3M3N1O2L3N3L3O2M2N3N1N3L5L3N2N1O2N1N3M3N2L5M2M3N1O2N1O2N3N2M2N1O2O0O2O002N4L2N1O001O001O1O1O010O0000000010O00001N100O101N1O1N2O2N1O2N1O2N1N2N3N1M3N2M4N1N3N2M2O2N1N3N1O2N2N2M2O2N1O2N2N2N2fLdUOm0^j0POkUOi0Vj0SOPVOi0Qj0UOTVOg0ni0UOXVOg0ii0UO]VOi0di0TO`VOi0bi0SOcVOk0`i0nNgVOn0Qj0WNUVOf1Ul0N2N2M2O2M3N2M3N2M2N3M2N3M4L4L5J7Hj]\\7"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 2 appears as a flat, diamond-shaped surface without any protrusions or indentations suggesting functional interaction like grasping; unlike surrounding elements such as curled tendrils which imply manipulation capabilities, its smooth geometry indicates no inherent utility for physical engagement",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.8540958999656141,
+                "prob": 0.5042499592361217
+              },
+              {
+                "option": "orient",
+                "logprob": -1.8539726629678626,
+                "prob": 0.18552605547982162
+              },
+              {
+                "option": "align",
+                "logprob": -2.103969206364127,
+                "prob": 0.14448833672589528
+              },
+              {
+                "option": "blend",
+                "logprob": -4.041559073433746,
+                "prob": 0.020813647940617904
+              },
+              {
+                "option": "block",
+                "logprob": -4.2915628872433444,
+                "prob": 0.0162096234941902
+              },
+              {
+                "option": "anchor",
+                "logprob": -4.354070633999072,
+                "prob": 0.015227414090216251
+              },
+              {
+                "option": "rotate",
+                "logprob": -4.6665578816173365,
+                "prob": 0.011140756207114624
+              },
+              {
+                "option": "balance",
+                "logprob": -4.729049777219188,
+                "prob": 0.010465856729709984
+              },
+              {
+                "option": "adjust",
+                "logprob": -4.729217453423189,
+                "prob": 0.01046410200169911
+              },
+              {
+                "option": "decorate",
+                "logprob": -4.9168812889256515,
+                "prob": 0.008673624091041872
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "fill"
+            ],
+            "n_valid": 1,
+            "invalid": [
+              "Based on the visual analysis of part 2 (the orange diamond-shaped section on the right side of the object), here is the ranking of its most plausible affordances.",
+              "The object appears to be a stylized, segmented container or vessel (resembling a stylized octahedron or a segmented fruit/organ). Part 2 is a distinct, flat, diamond-shaped segment. Its primary function in this context is to act as a container or a segment of a larger vessel.",
+              "**contain** - This is the most direct affordance. The shape is a closed or semi-closed volume designed to hold something.",
+              "**hold** - Synonymous with contain in this context; the object holds its contents.",
+              "**store** - To keep something for later use; a container stores items.",
+              "**deposit** - To put something into a place; one could deposit items into this segment."
+            ],
+            "raw": "Based on the visual analysis of part 2 (the orange diamond-shaped section on the right side of the object), here is the ranking of its most plausible affordances.\n\nThe object appears to be a stylized, segmented container or vessel (resembling a stylized octahedron or a segmented fruit/organ). Part 2 is a distinct, flat, diamond-shaped segment. Its primary function in this context is to act as a container or a segment of a larger vessel.\n\n1.  **contain** - This is the most direct affordance. The shape is a closed or semi-closed volume designed to hold something.\n2.  **hold** - Synonymous with contain in this context; the object holds its contents.\n3.  **store** - To keep something for later use; a container stores items.\n4.  **deposit** - To put something into a place; one could deposit items into this segment.\n5.  **fill"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_11_region_18",
+      "area": 25924,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "odef08eo04M4M3M4L2N2N2M4M2M6K3M4K4K5hQOZNPn0o1K8G5M4K4L3N2N2M3N2N2N1N3N1O2N1O2N1O1O2N1O1O2N100O2O0O2N2N101N2O1N101N101N101N2O1N2O1N2N2M3N2N2N2N2N2L4M3M4M2N3N1N2O2N101N2N1O100O002O0O10000000O10000000000O10O10O101N010O100O100O1000001N10O010O01O1O100O001O10O01O1N2O0O2O1N101N2O0O2N3N1N101N2N2O1N1O2O1N1O2N2O1N2N2O1N2N2O1N2N2O1N2N2N1O2N1O2O1N2N1O2N1O2N101N2N1O100O1O0O20O02N1O2N1O2M4M4L2N2N3M3M4K3N3L4L4M2K6M4K5K4K7H9DVZR3"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 3 appears as a smooth, rounded segment integrated into the main body without protruding appendages like the spiral structures of adjacent sections; its form suggests structural continuity rather than functional interaction such as gripping or grasping seen elsewhere in similar components across comparable objects",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.6685384958982468,
+                "prob": 0.6159192268443352
+              },
+              {
+                "option": "decorate",
+                "logprob": -2.793637358059641,
+                "prob": 0.07355378942850116
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -3.16851293446868,
+                "prob": 0.050559021232293104
+              },
+              {
+                "option": "balance",
+                "logprob": -3.6685117376910057,
+                "prob": 0.030665633202371
+              },
+              {
+                "option": "align",
+                "logprob": -3.6685573871509405,
+                "prob": 0.030664233364727914
+              },
+              {
+                "option": "channel water",
+                "logprob": -3.732581306088832,
+                "prob": 0.028762516225824767
+              },
+              {
+                "option": "blend",
+                "logprob": -3.9810516661818838,
+                "prob": 0.02243456072636259
+              },
+              {
+                "option": "contain",
+                "logprob": -4.230983846391609,
+                "prob": 0.01747323845273807
+              },
+              {
+                "option": "orient",
+                "logprob": -4.3560378403781215,
+                "prob": 0.015419246243613034
+              },
+              {
+                "option": "block",
+                "logprob": -4.48100625484949,
+                "prob": 0.013607866855057982
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "contain",
+              "hold",
+              "store_fuel",
+              "cover",
+              "seal",
+              "block",
+              "support",
+              "place",
+              "deposit"
+            ],
+            "n_valid": 9,
+            "invalid": [
+              "Based on the visual analysis of part 3 (the green section on the right side of the object), here is the ranking of its most plausible affordances:",
+              "**accumulate** (Note: \"accumulate\" is not in the provided list, so the next most plausible from the list is **collect** or **store_fuel** again, but since we need unique options, let's look at the remaining list. The next best fit for a container-like shape is **store_fuel** or **contain**. Let's re-evaluate the list for the 10th option.",
+              "Re-evaluating the list for the 10th option:"
+            ],
+            "raw": "Based on the visual analysis of part 3 (the green section on the right side of the object), here is the ranking of its most plausible affordances:\n\n1. **contain**\n2. **hold**\n3. **store_fuel**\n4. **cover**\n5. **seal**\n6. **block**\n7. **support**\n8. **place**\n9. **deposit**\n10. **accumulate** (Note: \"accumulate\" is not in the provided list, so the next most plausible from the list is **collect** or **store_fuel** again, but since we need unique options, let's look at the remaining list. The next best fit for a container-like shape is **store_fuel** or **contain**. Let's re-evaluate the list for the 10th option.\n\nRe-evaluating the list for the 10th option:\n- **store_fuel**"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_11_region_11",
+      "area": 21268,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "_eS3=^o0:G9H5L5J6K4L3M3M5K4M2M4L3N3L3N2M3M4M2N2M3N2M3N2M3N2N2N2N2N2N2N2O1N200N2O1O1O1O0O2O1O1N2O1O1O001N2O1N2O1N2O0O2O1O1O1O0O2O0O2O1N1O2O1N2N1O2O1N101O001N1O2N101N101N101N1O2O1N101O00000O1O1O0010O0I7L4N3N1M4L3N2O2L3N2M3M3N3L3O2M2O2M3M2O1O1N2O1O101N101N10O0101N1O1O1O2O001N2M2O2N2N2O1N2O0O2N1O2O2M2O1N2OO01O2O0O3N1O2N2M3M3M3N1N2N2O1O1N2N2O2M2O2M3M3N4J7H7I5M4L3M6J5I[]Xg0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 4 appears as a flat, solid-colored panel without any protrusions, handles, buttons, or textured surfaces typically associated with functional interaction like gripping or pressing; unlike adjacent spiral elements designed for manipulation, its smooth integration into the base suggests purely decorative placement rather than interactive utility",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.5353273004147923,
+                "prob": 0.7039384383651727
+              },
+              {
+                "option": "anchor",
+                "logprob": -2.4103942822257522,
+                "prob": 0.10794522526753195
+              },
+              {
+                "option": "block",
+                "logprob": -3.34783182956744,
+                "prob": 0.04227459766622261
+              },
+              {
+                "option": "cover",
+                "logprob": -3.8477612676942954,
+                "prob": 0.02564264894108623
+              },
+              {
+                "option": "decorate",
+                "logprob": -4.4105331180326175,
+                "prob": 0.01460676955220288
+              },
+              {
+                "option": "absorb",
+                "logprob": -4.5984567275081645,
+                "prob": 0.012104308695286675
+              },
+              {
+                "option": "defend",
+                "logprob": -5.167766825703438,
+                "prob": 0.00685001869550902
+              },
+              {
+                "option": "wedge",
+                "logprob": -5.285522664649761,
+                "prob": 0.006089071107568676
+              },
+              {
+                "option": "support",
+                "logprob": -5.410598179529188,
+                "prob": 0.005373180621639267
+              },
+              {
+                "option": "rotate",
+                "logprob": -5.535348515724763,
+                "prob": 0.004742999263056573
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "rest",
+              "sit",
+              "stand",
+              "hold",
+              "support",
+              "balance",
+              "lean",
+              "place",
+              "cover",
+              "contain"
+            ],
+            "n_valid": 10,
+            "invalid": [
+              "Based on the visual analysis of part 4 (the red section at the bottom left of the object), here is the ranking of its most plausible affordances:"
+            ],
+            "raw": "Based on the visual analysis of part 4 (the red section at the bottom left of the object), here is the ranking of its most plausible affordances:\n\n1. **rest**\n2. **sit**\n3. **stand**\n4. **hold**\n5. **support**\n6. **balance**\n7. **lean**\n8. **place**\n9. **cover**\n10. **contain**"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_11_region_0",
+      "area": 16501,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "P`kg08eo09G8H6I6K5K5J6K5K5L3M3M4L4L3M4L4M2N2M4M3M2N3M2N3M2M4M2O1N2N2N2N2N1O2N2N2O1N2N1O3N1N2N2O1N3M2O1N2O1N2O1N2O1O1N2O1O0O2O1O1O1NQMbUO?]j0[ORVO=mi0@YVO>ei0A`VO=_i0AfVO=Yi0BkVO<Ti0CoVO<Pi0CSWO<lh0CXWO;gh0D\\WO;ch0D_WO;`h0FbWO9]h0FfWO9Yh0FiWO9Wh0GlWO7Sh0HoWO8Ph0HRXO7mg0IUXO6jg0JWXO5ig0JZXO5eg0K]XO4bg0L`XO3_g0MYWO`NKb1kh0NWWOeNN[1lh00SWOhN1X1kh00RWOkN4S1jh02QWOnN4P1jh02RWOoN6l0hh06PWOPO9h0hh07nVORO<f0eh09nVORO>d0ch0;mVOROa0d0`h0;nVOROc0b0^h0=mVOROg0`0\\h0>kVOTOi0>[h0`0jVOROm0=Xh0c0gVOSOQ19Yh0f0aVOSOW17Wh0S2lWOkMSh0U2PXOiMPh0V2QXOjMng0V2RXOjMng0W2RXOiMng0U2UXOjMjg0V2WXOjMig0U2XXOkMgg0U2[XOjMeg0U2]XOiMcg0W2_XOhMag0V2bXOiM^g0V2dXOiM[g0W2fXOiMZg0U2hXOkMXg0T2jXOkMUg0U2lXOjMUg0T2mXOlMRg0T2PYOkMPg0S2SYOlMmf0S2TYOmMlf0Q2WYOnMif0Q2ZYOmMff0Q2]YOnMcf0P2`YOnMaf0P2`YOQN`f0n1aYORN_f0l1cYOSN^f0k1dYOUN\\f0i1gYOUNZf0i1iYOVNWf0h1kYOWNWf0f1mYOWN]f0Y1kYOdNVf0T1TZOjNme0T1VZOiNke0W1VZOgNke0X1`4M210N3N3L5J6Gn`c3"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "decorate",
+          "justification": "Part 5 features a distinct spiral curl at its tip resembling decorative finials found atop architectural spires; unlike most flat surfaces of adjacent sections which serve structural purposes like enclosing volume or providing grip points for climbing hands/feet along edges , such ornamental protrusions enhance aesthetic appeal without contributing directly toward stability",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "decorate",
+                "logprob": -1.09388694021618,
+                "prob": 0.4038815527020395
+              },
+              {
+                "option": "none",
+                "logprob": -1.4688498746982077,
+                "prob": 0.2775937500390097
+              },
+              {
+                "option": "dangle",
+                "logprob": -2.5943483632217976,
+                "prob": 0.09007658253732119
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -3.093765254567387,
+                "prob": 0.05466607600118386
+              },
+              {
+                "option": "bend",
+                "logprob": -4.045667049300391,
+                "prob": 0.02110144537895785
+              },
+              {
+                "option": "rotate",
+                "logprob": -4.1563483253266895,
+                "prob": 0.018890521030572392
+              },
+              {
+                "option": "adjust",
+                "logprob": -4.281628487922717,
+                "prob": 0.0166661564099103
+              },
+              {
+                "option": "fold",
+                "logprob": -4.281818753457628,
+                "prob": 0.016662985716392468
+              },
+              {
+                "option": "orient",
+                "logprob": -4.343866679511848,
+                "prob": 0.015660504553505646
+              },
+              {
+                "option": "align",
+                "logprob": -4.406370254961075,
+                "prob": 0.014711629947033162
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "display",
+              "decorate",
+              "rest",
+              "float",
+              "stand",
+              "sit",
+              "none",
+              "balance",
+              "shade",
+              "cover"
+            ],
+            "n_valid": 10,
+            "invalid": [
+              "Based on the visual analysis of part 5, which is a purple, spiral-shaped appendage attached to the side of the object (resembling a stylized snail shell or a decorative fin), its primary function appears to be aesthetic or structural rather than mechanical or utilitarian. It does not look like a functional component for moving, processing, or interacting with the environment in a physical sense (like a wheel, a nozzle, or a handle).",
+              "Therefore, the most plausible affordances are related to its visual nature (display, decoration) or its passive physical state (rest, sit, float)."
+            ],
+            "raw": "Based on the visual analysis of part 5, which is a purple, spiral-shaped appendage attached to the side of the object (resembling a stylized snail shell or a decorative fin), its primary function appears to be aesthetic or structural rather than mechanical or utilitarian. It does not look like a functional component for moving, processing, or interacting with the environment in a physical sense (like a wheel, a nozzle, or a handle).\n\nTherefore, the most plausible affordances are related to its visual nature (display, decoration) or its passive physical state (rest, sit, float).\n\n1. display\n2. decorate\n3. rest\n4. float\n5. stand\n6. sit\n7. none\n8. balance\n9. shade\n10. cover"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_11_region_2",
+      "area": 16268,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "m^S4c0Xo0:G7J6J6K4K5L4L4SUOVN^g0m1`XOUN^g0m1`XOTN^g0P2_XORN_g0P2`XOoM`g0S2^XOnM`g0U2`XOjM_g0X2YXOaMaM6Vj0[2WXOaMcM3Uj0^2VXO`MfM0Tj0b2SXOaMhMMTj0d2RXOcMhMGVj0g2QXOdMSh0^2kWOcMTh0_2iWOdMUh0]2jWOdMUh0^2iWOcMVh0^2iWOcMVh0_2gWObMZh0^2eWOcMZh0_2cWOcM\\h0^2cWOcM\\h0_2aWObM_h0_2`WObM`h0^2_WOcM`h0_2^WOaMch0_2\\WObMch0_2]WOaMbh0`2]WO`Mdh0a2[WO_Mdh0b2XWOaLhNl0Qj0c2UWOdLjNh0Pj0e2TWOcMmh0]2RWOdMmh0]2RWOcMoh0]2oVOdMQi0]2nVOdMRi0k0UVOVOh0OSi0g0^VOVO=4Vi0c0cVOVO57Zi0`0fVOWOO:Zi0>jVOWOK<[i0;lVOYOG>]i08nVOXOE`0^i07nVOYOCa0^i06QWOWOAc0_i06QWOVO^Of0ai03SWOUO\\Oh0bi02SWOUOZOj0di01SWOSOYOm0ci00UWOROXOn0di00UWOoNXOQ1di0OWWOlNUOW1di0MZWOeNUO^1bi0MUXO4lg0LSXO3og0MoWO5Qh0KnWO5Sh0KlWO6Th0JjWO7Wh0IgWO9Yh0GfWO9[h0GdWO9^h0F_WO=ah0D\\WO=eh0CXWO?ih0BTWO`0lh0APWOa0Qi0_OmVOb0Ti0_OgVOd0Zi0]OaVOf0ai0ZOYVOj0hi0ZOhUOR1Xj0Z21O1O2N1O1O2N1O1O2N1O2O0O1N2O2N1O2N1O2N1O2N1N3N2N1O2O1N1O2N2N2N2N2N2M3N2N2N2M3N2N2N2N2N3L3N4L3M3L4M3M3L4M2N3K5M3K6L3K6L3L5K5I9Cl`[g0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 6 appears as a smooth, curved appendage without any visible texture or functional surface features like ridges or protrusions found in adjacent sections such as those labeled for grasping purposes; its rounded form suggests purely decorative intent rather than utility compared to more angularly defined areas designed for interaction",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.2229536231898237,
+                "prob": 0.39487657289336137
+              },
+              {
+                "option": "bend",
+                "logprob": -1.8528805904861656,
+                "prob": 0.21032338505726467
+              },
+              {
+                "option": "dangle",
+                "logprob": -2.786090526962653,
+                "prob": 0.08271792605778477
+              },
+              {
+                "option": "anchor",
+                "logprob": -3.347902497887844,
+                "prob": 0.047163692396022944
+              },
+              {
+                "option": "attach",
+                "logprob": -3.598037872900022,
+                "prob": 0.036726148431226284
+              },
+              {
+                "option": "rotate",
+                "logprob": -3.9728348035132512,
+                "prob": 0.025246614362049946
+              },
+              {
+                "option": "adjust",
+                "logprob": -3.9730617046297994,
+                "prob": 0.02524088652691281
+              },
+              {
+                "option": "align",
+                "logprob": -4.097898445819737,
+                "prob": 0.022278641066034992
+              },
+              {
+                "option": "stroke",
+                "logprob": -4.222889388358453,
+                "prob": 0.019661009812598565
+              },
+              {
+                "option": "fold",
+                "logprob": -4.3485340513288975,
+                "prob": 0.01733959846039454
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "hold",
+              "attach",
+              "carry",
+              "support",
+              "lift",
+              "orient"
+            ],
+            "n_valid": 6,
+            "invalid": [
+              "Based on the visual analysis of part 6, which is a brown, spiral-shaped appendage attached to the side of the object (resembling a stylized snail shell or a spiral horn), its primary function in this context is structural attachment and potentially serving as a handle or grip. It does not appear to be a functional tool for tasks like cooking, cleaning, or mechanical operation.",
+              "Here are the 10 most plausible affordances for part 6, ranked from most to least likely:",
+              "grasp",
+              "manipulate",
+              "grip",
+              "secure"
+            ],
+            "raw": "Based on the visual analysis of part 6, which is a brown, spiral-shaped appendage attached to the side of the object (resembling a stylized snail shell or a spiral horn), its primary function in this context is structural attachment and potentially serving as a handle or grip. It does not appear to be a functional tool for tasks like cooking, cleaning, or mechanical operation.\n\nHere are the 10 most plausible affordances for part 6, ranked from most to least likely:\n\n1. hold\n2. attach\n3. grasp\n4. carry\n5. support\n6. lift\n7. manipulate\n8. grip\n9. secure\n10. orient"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_11_region_15",
+      "area": 14548,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "VjRb03lo05L1N1O2N1O1O100N2O1O1O1O100O001O1O001O1O1O1O1O1O0O2O1O1O001O1O001O1O1O1O001O100O001O100O100O1O1O10O0100O1O1O1O100O010O1O1O10O01O100O10O01O100O010O100O100O100O100O010O100O1O10O0100O100O1O1O100O100O100O010O100O100O100O100O010O1000O01O100O100O100O01000O100O01000O100O100O100O010O100O10O0100O100O100O10O01O100O1000000000O10O100000000O1000O101O00001O00001O000O101O00001O0O2O001O001O1O001O1O001O1O1O1N101O1O001O1O1O2N1O1O1O1O1O1N2O2N1N2O1O1O1O2N2N3M1O2N1O001O1N101O0O2O001O1O1O1O1N3N1O001N101O2M2O001N2O0O2O0O2O1N2NmVm5"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 7 appears as a flat, smooth surface without any protrusions or functional features like handles or grips seen in other sections such as those forming spirals; its uniformity suggests no interactive purpose beyond structural support within the overall form",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.5523677988676354,
+                "prob": 0.6521033263524573
+              },
+              {
+                "option": "align",
+                "logprob": -2.302479001242318,
+                "prob": 0.11330596596434317
+              },
+              {
+                "option": "decorate",
+                "logprob": -3.177719122846611,
+                "prob": 0.047221613522454166
+              },
+              {
+                "option": "orient",
+                "logprob": -3.4899115423177136,
+                "prob": 0.03455869842528646
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -3.6774066607492557,
+                "prob": 0.028650307139071896
+              },
+              {
+                "option": "balance",
+                "logprob": -3.802464818567387,
+                "prob": 0.02528233690001945
+              },
+              {
+                "option": "anchor",
+                "logprob": -3.9900158276141156,
+                "prob": 0.02095872435394602
+              },
+              {
+                "option": "rotate",
+                "logprob": -4.677452542629908,
+                "prob": 0.010539375402253963
+              },
+              {
+                "option": "support",
+                "logprob": -5.4277475999551825,
+                "prob": 0.004976979715816942
+              },
+              {
+                "option": "cover",
+                "logprob": -5.489954330390901,
+                "prob": 0.00467681112365692
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "stand",
+              "support",
+              "lean",
+              "rest",
+              "cover",
+              "hold",
+              "balance",
+              "prevent falling",
+              "contain",
+              "store_fuel"
+            ],
+            "n_valid": 10,
+            "invalid": [
+              "Based on the visual analysis of part 7 (the purple section at the bottom right of the object), which appears to be a segment of a stylized, possibly organic or mechanical, structure with a curved, somewhat concave surface:"
+            ],
+            "raw": "Based on the visual analysis of part 7 (the purple section at the bottom right of the object), which appears to be a segment of a stylized, possibly organic or mechanical, structure with a curved, somewhat concave surface:\n\n1.  **stand**\n2.  **support**\n3.  **lean**\n4.  **rest**\n5.  **cover**\n6.  **hold**\n7.  **balance**\n8.  **prevent falling**\n9.  **contain**\n10. **store_fuel**"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_11_region_8",
+      "area": 13144,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "\\Zid0`0nn0g0D>E9I5I7K4L5K4L4M3L3N3M3L3N2N3M2N2N3L4M2O1N2N3M3N2M3M4M3L4L2O1N2O0O2N100O10000O100O101N10000O10001O00fLYUO[1fj0_NiUOY1Wj0eNPVOV1Pj0hNWVOT1hi0kN\\VOR1di0mN`VOP1_i0QOdVOl0\\i0TOgVOi0Yi0VOjVOi0Ui0WOmVOg0Si0YOoVOe0Qi0[ORWOc0mh0\\OVWOb0jh0^OYWO?gh0A[WO>dh0B_WO;ah0EaWO9_h0GdWO6\\h0JfWO5Yh0LiWO1Wh0OkWO0Th00nWONRh02QXOLng05SXOIng06TXOIkg08VXOFjg0:VVOnNl0f0nh0<UVOPOn0c0lh0>TVOROP1>mh0?SVOTOR1;jh0b0RVOUOU17ih0e0QVOUOX14gh0f0PVOWO[11eh0i0oUOWO^1Nbh0m0nUOUOb1Lah0o0kUOVOg1H^h0S1iUOWOj1E\\h0W1fUOUOP2B[h0[2gWOcMYh0]2iWO`MYh0_2iWO_MWh0a2kWO\\MVh0d2d2O001O001O001N2O001N2O1N2O0O2O1N2N2O1N2N2N2N2N3M2N3L4M2M4L5K4L5J6KdfV7"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 8 appears as a smooth, curved appendage without any visible texture or functional surface features like ridges or protrusions found in other sections such as those resembling tentacles; its form suggests purely decorative placement rather than interactive utility compared to more defined structural elements elsewhere",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.126884678087663,
+                "prob": 0.3952268019905191
+              },
+              {
+                "option": "bend",
+                "logprob": -2.129988673452317,
+                "prob": 0.1449452068210095
+              },
+              {
+                "option": "align",
+                "logprob": -2.751857622730313,
+                "prob": 0.07782687727104134
+              },
+              {
+                "option": "dangle",
+                "logprob": -2.877462877309881,
+                "prob": 0.06864042062543221
+              },
+              {
+                "option": "orient",
+                "logprob": -3.064350352229667,
+                "prob": 0.056939773742762864
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -3.376834267479552,
+                "prob": 0.041658698443256585
+              },
+              {
+                "option": "anchor",
+                "logprob": -3.501871210100944,
+                "prob": 0.036762314220537766
+              },
+              {
+                "option": "attach",
+                "logprob": -3.8770489015441854,
+                "prob": 0.02526185521297308
+              },
+              {
+                "option": "rotate",
+                "logprob": -3.9393907565099653,
+                "prob": 0.02373507006464756
+              },
+              {
+                "option": "adjust",
+                "logprob": -4.4396059801511,
+                "prob": 0.014392949668228613
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "hold",
+              "catch",
+              "pull",
+              "lift",
+              "carry",
+              "steer",
+              "direct",
+              "aim",
+              "plug"
+            ],
+            "n_valid": 9,
+            "invalid": [
+              "Based on the visual analysis of part 8, which is a gray, curved, hook-like appendage attached to the top right of the object, its form suggests a function related to grasping, holding, or manipulating something. It resembles a claw, a hook, or a stylized hand.",
+              "Here are the 10 most plausible affordances for part 8, ranked from most to least likely:",
+              "grasp"
+            ],
+            "raw": "Based on the visual analysis of part 8, which is a gray, curved, hook-like appendage attached to the top right of the object, its form suggests a function related to grasping, holding, or manipulating something. It resembles a claw, a hook, or a stylized hand.\n\nHere are the 10 most plausible affordances for part 8, ranked from most to least likely:\n\n1. hold\n2. grasp\n3. catch\n4. pull\n5. lift\n6. carry\n7. steer\n8. direct\n9. aim\n10. plug"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_11_region_14",
+      "area": 9293,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "m]T88go03M2N3M4L3M2N2N3L4M3M3M3iROSOUk0S1bTOSO\\k0o0bTOSO\\k0o0cTOQO\\k0R1_TORO^k0T1]TOlNck0W1ZTOjNek0[1VTOeNjk0h201O1O1N2O0010O00010O01N101O00001O001O0O2O00000001O0001O0001O001O001O1O1O100O1O1O1O1O1O2N1O2O0O2N3M2O1N3M3M3M3M3N2M3M3L3N2N2O0O2N2N1O2N2N2N2N2N3M2O1N3L3N2N2N3M4L2N4L5K3L3N2N3M3Lla^d0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 9 appears as a flat, angular surface without protrusions like tendrils or functional features seen in surrounding sections such as those labeled 5 through 8; its smooth geometry suggests no interactive purpose beyond structural continuity within the overall form",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.022044764002203,
+                "prob": 0.40501434037293726
+              },
+              {
+                "option": "align",
+                "logprob": -2.022026527847629,
+                "prob": 0.14899916634987023
+              },
+              {
+                "option": "blend",
+                "logprob": -2.1470597817678936,
+                "prob": 0.1314869302628511
+              },
+              {
+                "option": "decorate",
+                "logprob": -2.2721445205970667,
+                "prob": 0.11602697628061283
+              },
+              {
+                "option": "orient",
+                "logprob": -2.89703940047184,
+                "prob": 0.06211129387452956
+              },
+              {
+                "option": "adjust",
+                "logprob": -3.022098040266428,
+                "prob": 0.054809810329537696
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -4.334584822015557,
+                "prob": 0.014752055319813506
+              },
+              {
+                "option": "rotate",
+                "logprob": -4.39709553742432,
+                "prob": 0.013858124974510447
+              },
+              {
+                "option": "attach",
+                "logprob": -5.147223413019674,
+                "prob": 0.0065452776868656784
+              },
+              {
+                "option": "clip",
+                "logprob": -5.27226249940577,
+                "prob": 0.005775961519340851
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Based on the visual analysis of part 9 (the small, olive-green, diamond-shaped section located between the brown spiral arm (6) and the large blue central surface (1)):",
+              "**hold** - As a small, raised surface on a larger object, its primary function is to provide a place to rest or hold something small.",
+              "**support** - It acts as a structural element supporting the adjacent spiral arm (6) or the main body.",
+              "**decorate** - Its distinct color and shape serve an aesthetic purpose, adding visual interest to the object.",
+              "**align** - It helps define the geometry and alignment of the object's surface.",
+              "**cover** - It covers a specific area of the underlying structure.",
+              "**seal** - In the context of a container or vessel, it could act as a small seal or closure point.",
+              "**indicate** -"
+            ],
+            "raw": "Based on the visual analysis of part 9 (the small, olive-green, diamond-shaped section located between the brown spiral arm (6) and the large blue central surface (1)):\n\n1.  **hold** - As a small, raised surface on a larger object, its primary function is to provide a place to rest or hold something small.\n2.  **support** - It acts as a structural element supporting the adjacent spiral arm (6) or the main body.\n3.  **decorate** - Its distinct color and shape serve an aesthetic purpose, adding visual interest to the object.\n4.  **align** - It helps define the geometry and alignment of the object's surface.\n5.  **cover** - It covers a specific area of the underlying structure.\n6.  **seal** - In the context of a container or vessel, it could act as a small seal or closure point.\n7.  **indicate** -"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_11_region_6",
+      "area": 9186,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "UYl7`0[o0:I4K6K4L4L3N3L3N2N2M3N2N2N2N2N1O2N2N101N1O2N101N100O2O0O100O100O2O000O1000kNjRO@i1PO_i0]1oTO_O`1WO_i0Y1TUO^O]1ZO_i0W1WUO]OX1_O`i0T1XUO]OV1@ci0R1YUO\\OS1Ddi0P1ZUO[Oo0Ggi0n0\\UOYOl0Jii0m0[UOYOk0Jki0m0[UOWOh0Nni0k0[UOUOf00Qj0k0[UOROc04Sj0k0ZUOnNc08Tj0j0[UOiNb0>Tj0i0kVOXOVi0i0gVOXOZi0h0dVOYO]i0h0`VOYOai0h0\\VOYOei0g0YVOZOhi0g0UVOYOmi0h0oUOZOSj0f0jUO[OWj0f0eUO]O[j0e0aUO\\O`j0f0ZUO]Ogj0f0SUO\\Onj0h0jTO[OWk0m0YTOZOik0]21O1O2M2O1O2N1O1O2N1N3N1O2N1N3N1O2N1O2N2O0O2N2N1O2N2N2N2N2N2N2N2N2L4N2N2N3M2N2N3N1N3M3M3M3M3M4K4M4L4L5K5JZf[d0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 1 appears as a smooth, solid surface without any discernible function like grip or attachment points; unlike surrounding elements such as curved protrusions labeled elsewhere which suggest handles or hooks for interaction, its flat geometry implies no practical utility beyond structural support within the assembly",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.2185601800738368,
+                "prob": 0.3642200451327909
+              },
+              {
+                "option": "dangle",
+                "logprob": -1.4687413347091933,
+                "prob": 0.28360347562171895
+              },
+              {
+                "option": "decorate",
+                "logprob": -2.0934526774217375,
+                "prob": 0.1518458265731235
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -3.2809073873300747,
+                "prob": 0.046312458053463755
+              },
+              {
+                "option": "bend",
+                "logprob": -3.9792417142234626,
+                "prob": 0.023036425266681586
+              },
+              {
+                "option": "rotate",
+                "logprob": -4.218471270723967,
+                "prob": 0.01813506059274436
+              },
+              {
+                "option": "orient",
+                "logprob": -4.218481043979409,
+                "prob": 0.018134883355030818
+              },
+              {
+                "option": "anchor",
+                "logprob": -4.468499160022475,
+                "prob": 0.014123205498889976
+              },
+              {
+                "option": "stroke",
+                "logprob": -5.155932176712668,
+                "prob": 0.0071020694111980625
+              },
+              {
+                "option": "attach",
+                "logprob": -5.156159567966824,
+                "prob": 0.0071004546463262035
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Based on the visual analysis of part 10, which is a small, curved, tube-like structure attached to the top of the object (resembling a snorkel or a breathing apparatus), its primary function relates to respiration or air management.",
+              "**assist_breathing**: This is the most direct function of a snorkel-like object, allowing the user to breathe while submerged or in a specific position.",
+              "**intake**: This is the mechanical action of drawing air in, which is what the object facilitates.",
+              "**inflate**: While not the primary purpose, such tubes are often used to transfer air to inflate something, or the object itself might be part of an inflation system.",
+              "**float**: Snorkels are buoyant and often used in conjunction with flotation devices; the object itself contributes to the floating capability of the head.",
+              "**cool**: Breathing through a tube can help cool the air before"
+            ],
+            "raw": "Based on the visual analysis of part 10, which is a small, curved, tube-like structure attached to the top of the object (resembling a snorkel or a breathing apparatus), its primary function relates to respiration or air management.\n\n1.  **assist_breathing**: This is the most direct function of a snorkel-like object, allowing the user to breathe while submerged or in a specific position.\n2.  **intake**: This is the mechanical action of drawing air in, which is what the object facilitates.\n3.  **inflate**: While not the primary purpose, such tubes are often used to transfer air to inflate something, or the object itself might be part of an inflation system.\n4.  **float**: Snorkels are buoyant and often used in conjunction with flotation devices; the object itself contributes to the floating capability of the head.\n5.  **cool**: Breathing through a tube can help cool the air before"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_11_region_19",
+      "area": 7032,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "nWl?d1^m0o0H7J7H7L5M2O2K4O2O0O2N2O1N1010O01N101N101O00001O01O001O0O2O0O2N1O2N1N3N101N2M3N1O2M3M3N2N2N3M2M3N3L3N2N3L3N2N3M2M3N2M4M2N3M2M3N3L3N4K3M4L3M4K5L3L4Kbhh="
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "align",
+          "justification": "Part 12\u2019s flat top surface provides a stable base for stacking objects vertically while its smooth texture allows easy sliding of items across horizontal planes without friction resistance compared to irregularly shaped surfaces elsewhere in the structure which may cause uneven distribution when placed upon them due to their varying angles creating potential instability points during alignment processes requiring careful",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "align",
+                "logprob": -1.051892266885261,
+                "prob": 0.38963501193513966
+              },
+              {
+                "option": "none",
+                "logprob": -1.5518783216102747,
+                "prob": 0.23632887648435044
+              },
+              {
+                "option": "orient",
+                "logprob": -1.6769163428980391,
+                "prob": 0.20855157193866136
+              },
+              {
+                "option": "anchor",
+                "logprob": -3.427026942023076,
+                "prob": 0.03623682108622854
+              },
+              {
+                "option": "adjust",
+                "logprob": -3.6770643618074246,
+                "prob": 0.028220208624094415
+              },
+              {
+                "option": "aim",
+                "logprob": -3.8019520982634276,
+                "prob": 0.024907042696990917
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -4.426875106223605,
+                "prob": 0.013332805734568989
+              },
+              {
+                "option": "rotate",
+                "logprob": -4.677050657279324,
+                "prob": 0.010381776854751095
+              },
+              {
+                "option": "ascend",
+                "logprob": -4.9893860724587284,
+                "prob": 0.007596720405152449
+              },
+              {
+                "option": "stand",
+                "logprob": -5.239451621528133,
+                "prob": 0.005915944002973467
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "none",
+              "decorate",
+              "stand",
+              "support",
+              "balance",
+              "display",
+              "orient",
+              "cover",
+              "seal"
+            ],
+            "n_valid": 9,
+            "invalid": [
+              "Based on the visual analysis of part 11, which is a small, pointed, white structure located at the apex of the object (resembling a finial or a decorative cap), its primary function is aesthetic and structural. It does not appear to be a functional component like a valve, button, or tool. Therefore, it offers none of the specific functional affordances listed (e.g., \"plug\", \"charge\", \"brake\").",
+              "Following the instructions to rank \"none\" first if no listed affordance applies, and then listing the 9 next most plausible options based on its visual characteristics (a small, elevated, pointed object on top of a larger form):"
+            ],
+            "raw": "Based on the visual analysis of part 11, which is a small, pointed, white structure located at the apex of the object (resembling a finial or a decorative cap), its primary function is aesthetic and structural. It does not appear to be a functional component like a valve, button, or tool. Therefore, it offers none of the specific functional affordances listed (e.g., \"plug\", \"charge\", \"brake\").\n\nFollowing the instructions to rank \"none\" first if no listed affordance applies, and then listing the 9 next most plausible options based on its visual characteristics (a small, elevated, pointed object on top of a larger form):\n\n1. none\n2. decorate\n3. stand\n4. support\n5. balance\n6. display\n7. orient\n8. cover\n9. seal"
+          }
+        }
+      }
+    }
+  ],
+  "generation_option_order": "shuffled_per_part"
+}

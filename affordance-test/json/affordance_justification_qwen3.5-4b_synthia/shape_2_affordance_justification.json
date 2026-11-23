@@ -1,0 +1,722 @@
+{
+  "object": "shape_2",
+  "model": "Qwen/Qwen3.5-4B",
+  "image_path": "/shared/nas/data/m1/adadt2/nvrd/regions_test/data/novel/shape_2.png",
+  "region_source": "sam_slic",
+  "method": "per_part_with_comparative_context",
+  "top_k": 10,
+  "modes": [
+    "logprob",
+    "generation"
+  ],
+  "regions": [
+    {
+      "region_id": "shape_2_region_21",
+      "area": 116321,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "Y\\a:5go05J5M4L3L5H7L4F:^OfNTROd1bm0c0D;M4G8J7M3M3M3K4O2K5FTL[TOP4bk09K6LbLfTO\\2Uk0fMmTOZ2Pk0gMRUOZ2jj0hMXUOX2ej0hM]UOY2_j0iMaUOX2]j0jMcUOW2Yj0kMgUOX2Sj0kMnUOV2mi0nMSVOS2ii0oMZVOGDi0ni0A^VOEEP1fi0\\OeVOCFU1`i0ZOiVOAHX1[i0XOkVO@K]1Ti0VOnVO^ONd1lh0c0VWOEbh0:^WOm0McK68KLKKPf0`3YZOX3od0fLS[Ok3MkHPd0X3S\\O^4lc0bKT\\O^4lc0bKT\\O_4jc0cKU\\O\\4lc0dKS\\O]4mc0dKR\\O[4mc0gKR\\OY4mc0UIm[Oa13\\5hc0WHT\\Ok04d9gc0eFZ\\OY9fc0hFZ\\OX9ec0iF\\\\OU9ec0lF[\\OR9ec0oF\\\\Oo8dc0RG^\\Ok8cc0UG^\\Oj8ac0WG`\\Og8`c0ZGa\\Od8_c0^G`\\Oa8`c0`Ga\\O^8_c0cGa\\O]8^c0dGb\\O[8^c0gG`\\OY8`c0iG^\\OW8cc0jGZ\\OX8ec0Q21UGV\\O`5ic0`JY\\O^5hc0bJX\\O]5hc0dJY\\OZ5hc0fJY\\OY5gc0gJY\\OY5gc0hJY\\OV5gc0kJY\\OU5gc0kJY\\OT5hc0lJX\\OT5hc0lJX\\OS5hc0nJX\\OQ5ic0oJX\\OP5gc0[H\\\\Od1MP6hc0WHb\\Og1GP6gc0^H^\\Ob1KP6fc0aH]\\O_1MZOJo4mc0YJZ\\O_1OYOLl4kc0^JY\\O]10YOOi4hc0dJS\\O]16VO0g4hc0WMU\\OTN3d4ic0[MP\\ORN8a4hc0WOW\\Oi0ic0WOW\\Oh0jc0YOT\\Og0mc0ZOQ\\Og0nc0[OP\\Oe0Qd0e50O1O010O010O1O2O0O2O1N2O1N2eFc[OQ7^d0mHd[OQ7]d0oHc[OQ7]d0oHc[OP7]d0QIc[Oo6]d0QIc[Oo6[d0SId[Om6Yd0XIe[Oi6Zd0_2O010O1000O1000000O1bHh[OT3Xd0kLi[OU3Vd0kLk[OT3Vd0lLj[OT3Vd0lLj[OT3Vd0lLj[OT3Vd0mLi[OS3Wd0kIj[Oi1M]4Yd0aIU\\O]9kc0bFW\\O]9ic0cFW\\O]9ic0dFV\\O[9lc0fFR\\OZ9nc0jFm[OW9Sd0lFi[OU9Wd0lFg[OU9Yd0lFc[OX9\\d0V1000000001O01O000000000001O0QGh[OW6Wd0hIj[OX6Wd0gIi[OY6Wd0gIi[OY6Xd0fIh[OZ6Yd0YGi[OP2Mh6gd0XIW[Oj6id0V22N010O10O01O010N2O1O010O0010O0001O01O001O010O001N1010O00100O101N100O2O1N2O1O2M3N3L6K4K3WH\\ZOQ5fe0jJ_ZOS5je0cJ[ZOZ5je0^JZZOa5me0VJVZOi5ne0PJVZOo5ne0kIUZOS6oe0iIRZOW6Qf0dIQZO[6Sf0`IoYO`6Wf0XIkYOh6fg01000O01000O01O1O1O1O1O001O10O01O2N1O001O001N2O1O1N2O100O10O107I4L2N3M3M002N3L101O2O0O6JO100002N002N3N1N0O2SKcVOT3]i0hLkVOT3Vi0iLoVOT3Ri0hLSWOV3nh0gLVWOX3jh0eL[WOX3gh0dL\\WO[3eh0cL\\WO]3dh0bL\\WO_3eh0^L]WOb3dh0\\L]WOd3ch0[L^WOf3bh0WL`WOj3`h0TLbWOk3`h0QLbWOn3_h0PLcWOP4Vj02O0O10001O00O01O1O2O0O2N101N1O1O2N1O1O1O101N1O1O1O1O1O3M1O1O1O1O1O2N1O2N1O1O101N2O000010O11OO001O1O01O10O1O0010O1O0010000000O1O001O01O2OO1O10O2OO001O10010O0O01O001O10O2M100O2N2O0O[UOnJ]j0T5_UOoJaj0X5100O11N01O011O00O1O01O1N100N3OZUOlJ`j0\\5O1OO1000O10O01O110OO1O0O101N2N_UOhJ\\j0`5O10O0O10O1O02O000001OO1N100O2O_UOeJ]j0a50O2NO10O0001O03N0O1O3MO3N000002M4M2M2O1O000O2O3L2O2M2O0O1O1N4N3L4L3N1N1O2M3N2N2N4L1O2N2^LeSO[3`l001O1N6K5J4M2M3N2N2\\MfRO]2_m001N4L3N3L3N2M2N6J5J<C5K5J:I4BaPO2QTk5"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "anchor",
+          "justification": "Part 1 has multiple long limbs extending outward in various directions while remaining connected at its base; unlike most of which are thin rods meant for grasping objects like sticks or pencils, these thicker arms suggest stability rather than manipulation\u2014making them ideal as anchors holding something upright against gravity without needing external support structures such as legs alone",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "anchor",
+                "logprob": -1.5456620837794617,
+                "prob": 0.2583504442185537
+              },
+              {
+                "option": "align",
+                "logprob": -1.9205417235789355,
+                "prob": 0.177582863105078
+              },
+              {
+                "option": "none",
+                "logprob": -2.4207445400825236,
+                "prob": 0.10768760807364244
+              },
+              {
+                "option": "orient",
+                "logprob": -2.795543749583885,
+                "prob": 0.07402740099424215
+              },
+              {
+                "option": "control",
+                "logprob": -3.0459728083806112,
+                "prob": 0.05762786681470574
+              },
+              {
+                "option": "attack",
+                "logprob": -3.295915984432213,
+                "prob": 0.04488317816896603
+              },
+              {
+                "option": "adjust",
+                "logprob": -3.608175310655497,
+                "prob": 0.03284513863759253
+              },
+              {
+                "option": "support",
+                "logprob": -3.6083520089741796,
+                "prob": 0.03283933546953849
+              },
+              {
+                "option": "defend",
+                "logprob": -3.7948639964160975,
+                "prob": 0.027251677028335468
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -3.795664151234604,
+                "prob": 0.02722988018923473
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Based on the visual analysis of part 1 (the central blue body of the object, which resembles a stylized starfish or a multi-limbed tool):",
+              "**support** - The central body acts as the main structural core that supports the other limbs and protrusions.",
+              "**hold** - The shape and surface texture suggest it could be used to grasp or hold other objects.",
+              "**balance** - The central mass provides a pivot point for the surrounding limbs, suggesting a balancing function.",
+              "**carry** - The overall form is ergonomic enough to be held and transported.",
+              "**control** - As the central hub, it likely serves as the primary interface for controlling the other parts.",
+              "**direct** - The limbs radiate from it, implying it directs the action or flow of the other components.",
+              "**align** - The symmetrical arrangement suggests it helps in positioning or"
+            ],
+            "raw": "Based on the visual analysis of part 1 (the central blue body of the object, which resembles a stylized starfish or a multi-limbed tool):\n\n1.  **support** - The central body acts as the main structural core that supports the other limbs and protrusions.\n2.  **hold** - The shape and surface texture suggest it could be used to grasp or hold other objects.\n3.  **balance** - The central mass provides a pivot point for the surrounding limbs, suggesting a balancing function.\n4.  **carry** - The overall form is ergonomic enough to be held and transported.\n5.  **control** - As the central hub, it likely serves as the primary interface for controlling the other parts.\n6.  **direct** - The limbs radiate from it, implying it directs the action or flow of the other components.\n7.  **align** - The symmetrical arrangement suggests it helps in positioning or"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_2_region_18",
+      "area": 47744,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "akR58]o0d0A<D:G8G9G8H7J7H7J6K5J6J6K5J6K4J7K5K4L5J5M3L4L5K4M3M3L4M3L4M3L4L4M3M3M3M3M3M2N3M3M2N3N1M3O2M2N2O2M2N101O1N2O1N2O0O10010M20O1000O01O1O10000O001O101N001O1O1O100O100O100O10000O011N100O10000O10001O0O1O10001O0O11OO101N1000001O000O10001O0000000000O1001O00O1010O00O1001O00O101O000000001O0O2O00001O01O01O0O2O001O001O010M2O101O1N100N3O0N3M2N3M3L3O2M2O2O1O0100O2O0O2O002N1O1N2O2N1N3N1O2M3N2N2M2O2N2N3M2N3L3N2N3M3M3M3M4L3L6K5K5K5K5K5K:E8oJQUOd4mm0UMR1lNf]Td0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "anchor",
+          "justification": "Part two has a thick, elongated form positioned at ground level which suggests stability for holding weight rather than grasping like the others do in mid-air positions above surface contact points indicated by their thinner shapes extending outwardly away from central body structure shown here visually represented through distinct outlines around individual components labeled numerically throughout entire diagram",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "anchor",
+                "logprob": -1.2099048074742313,
+                "prob": 0.37316784569795675
+              },
+              {
+                "option": "attack",
+                "logprob": -2.0849555665045045,
+                "prob": 0.15555160598765974
+              },
+              {
+                "option": "none",
+                "logprob": -2.5852613765746355,
+                "prob": 0.09431797040316287
+              },
+              {
+                "option": "bend",
+                "logprob": -3.104658587682934,
+                "prob": 0.056107782404037826
+              },
+              {
+                "option": "attach",
+                "logprob": -3.3352053918642923,
+                "prob": 0.044555148878152304
+              },
+              {
+                "option": "extend",
+                "logprob": -3.647563033620827,
+                "prob": 0.0326018840859157
+              },
+              {
+                "option": "align",
+                "logprob": -3.7098720392095856,
+                "prob": 0.030632485857557616
+              },
+              {
+                "option": "lean",
+                "logprob": -3.959739763464313,
+                "prob": 0.023859759832077033
+              },
+              {
+                "option": "orient",
+                "logprob": -4.0847923183464445,
+                "prob": 0.021055057573073594
+              },
+              {
+                "option": "carry",
+                "logprob": -4.272806876746472,
+                "prob": 0.017446276374960303
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "hold",
+              "carry",
+              "lift",
+              "support",
+              "extend",
+              "pull",
+              "push",
+              "balance"
+            ],
+            "n_valid": 8,
+            "invalid": [
+              "Based on the visual analysis of part 2 (the large brown arm-like structure), here is the ranking of its most plausible affordances:",
+              "grasp",
+              "reach",
+              "(Note: \"hold\", \"grasp\", \"carry\", \"lift\", \"support\", \"extend\", \"reach\", \"pull\", \"push\", and \"balance\" are the most semantically relevant actions for a large, limb-like object in a 3D model context, though \"grasp\", \"reach\", and \"pull\" were not in the provided list. From the specific list provided, \"hold\", \"carry\", \"lift\", \"support\", \"extend\", \"pull\", \"push\", and \"balance\" are the strongest candidates. \"Extend\" is particularly relevant as it is a long, articulated limb.)",
+              "Since the prompt"
+            ],
+            "raw": "Based on the visual analysis of part 2 (the large brown arm-like structure), here is the ranking of its most plausible affordances:\n\n1. hold\n2. grasp\n3. carry\n4. lift\n5. support\n6. extend\n7. reach\n8. pull\n9. push\n10. balance\n\n(Note: \"hold\", \"grasp\", \"carry\", \"lift\", \"support\", \"extend\", \"reach\", \"pull\", \"push\", and \"balance\" are the most semantically relevant actions for a large, limb-like object in a 3D model context, though \"grasp\", \"reach\", and \"pull\" were not in the provided list. From the specific list provided, \"hold\", \"carry\", \"lift\", \"support\", \"extend\", \"pull\", \"push\", and \"balance\" are the strongest candidates. \"Extend\" is particularly relevant as it is a long, articulated limb.)\n\nSince the prompt"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_2_region_0",
+      "area": 20922,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "ah]<V1Vn0k0[Ob0^Ob0A=C=C=E:G:F9G9F:H8G8H9G8I7H9G8J6N2N3N1O1O100O1O2O0O1O1O100O00100O100O1O100O100O00100O010O010O01O001O001O1N101N2N2M2O2M3M2M4L4J6K4J7J6J5J7K5I7K5I7J6J6J6J5L5J6J6J7J5L4J6J6K5K5L4L5J5M3K5L4L4L4L4K6L3K5M3L4M3L5K4L4L5K4L5K4L5LQ^P`0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "anchor",
+          "justification": "Part 3 has a thick, sturdy base positioned at ground level which provides stability for standing upright while its tapered top allows easy insertion into soil without damaging surrounding plants like those labeled as anchors themselves due their thinness making them less effective when used alone compared together they form strong support system ideal for holding tall stems in place during",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "anchor",
+                "logprob": -1.761377677496057,
+                "prob": 0.21446760736215398
+              },
+              {
+                "option": "none",
+                "logprob": -1.8863818476675078,
+                "prob": 0.18926620992763912
+              },
+              {
+                "option": "align",
+                "logprob": -2.011277469340712,
+                "prob": 0.1670442789174733
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -2.7612984881352247,
+                "prob": 0.07890447169304904
+              },
+              {
+                "option": "balance",
+                "logprob": -2.7615289835375734,
+                "prob": 0.07888628667096154
+              },
+              {
+                "option": "support",
+                "logprob": -3.324056740384549,
+                "prob": 0.044946803653048165
+              },
+              {
+                "option": "orient",
+                "logprob": -3.6362890277523547,
+                "prob": 0.03289258860664
+              },
+              {
+                "option": "lean",
+                "logprob": -3.9487258719454985,
+                "prob": 0.02406625177668404
+              },
+              {
+                "option": "stand",
+                "logprob": -4.136238146020332,
+                "prob": 0.019951378602114992
+              },
+              {
+                "option": "bend",
+                "logprob": -4.555197064997628,
+                "prob": 0.013122644488570687
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Based on the visual characteristics of part 3 (a green, elongated, somewhat cylindrical or tubular appendage attached to the base of the object), here is the ranking of its most plausible affordances from the provided list:",
+              "**drink** - The shape resembles a straw or tube, suggesting the ability to hold liquid for consumption.",
+              "**intake** - Similar to drinking, it implies the capacity to take in substances (liquid or gas).",
+              "**float** - Its tubular structure and potential buoyancy (if filled with air) suggest it could float.",
+              "**lean** - The long, slender shape allows it to lean against other surfaces or lean forward/backward.",
+              "**drop** - Being a detached or semi-detached appendage, it can easily be dropped.",
+              "**sweep** - The length and flexibility allow it to be used for sweeping motions.",
+              "**lean** (re-evalu"
+            ],
+            "raw": "Based on the visual characteristics of part 3 (a green, elongated, somewhat cylindrical or tubular appendage attached to the base of the object), here is the ranking of its most plausible affordances from the provided list:\n\n1. **drink** - The shape resembles a straw or tube, suggesting the ability to hold liquid for consumption.\n2. **intake** - Similar to drinking, it implies the capacity to take in substances (liquid or gas).\n3. **float** - Its tubular structure and potential buoyancy (if filled with air) suggest it could float.\n4. **lean** - The long, slender shape allows it to lean against other surfaces or lean forward/backward.\n5. **drop** - Being a detached or semi-detached appendage, it can easily be dropped.\n6. **sweep** - The length and flexibility allow it to be used for sweeping motions.\n7. **lean** (re-evalu"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_2_region_7",
+      "area": 13461,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "nZTa04ho05M4M9F4L5L2O2M2N2O0O2N1O2O1N101N1O1O101N100O1O002N101N1O10O01O100O1O001O00010O000010O00001O00000010O000001O01O0001O001O000000010O000000010O00001O0000010O0000000010O000001O0001O01O0000001O01O0001O0000010O000000001O01O0001O00000010O000001O0001O0001O000000001O01O01O0001O01O0000001O0001O01O00001O0001O0001O000001O01O001O001O101NM300000010O000001O000010O000001O01O0001O000000010O001O2N1OMgNaQOY1^n04001O000001O01O001O1O2N1OLiNaQOV1_n060O0000001O0001O01O00000010O00000001O0001O01O001O2N100O1O1O00K50001O01O001O1O101N1OK5001O01O0001O002N1O2O2M4HQQOXOQo0f07O2M1O1N2O1N2N2N1O2N2N2O1NdjV6"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "attack",
+          "justification": "Part 4 appears as a thick, blunt club-like appendage positioned at eye level for striking; unlike slender spikes meant for piercing or thin tendrils designed for grasping, its robust form suggests delivering forceful blows rather than delicate manipulation",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "attack",
+                "logprob": -0.4412551034329226,
+                "prob": 0.6885472716816962
+              },
+              {
+                "option": "aim",
+                "logprob": -1.5662754542427137,
+                "prob": 0.22353402149968002
+              },
+              {
+                "option": "hit",
+                "logprob": -4.566828194190748,
+                "prob": 0.011122953810573299
+              },
+              {
+                "option": "none",
+                "logprob": -4.566933965194039,
+                "prob": 0.011121777386806052
+              },
+              {
+                "option": "defend",
+                "logprob": -4.729297845915426,
+                "prob": 0.009454976647701624
+              },
+              {
+                "option": "attach",
+                "logprob": -4.8164875785587355,
+                "prob": 0.008665516245408962
+              },
+              {
+                "option": "deflect",
+                "logprob": -4.854158634130727,
+                "prob": 0.00834514926786911
+              },
+              {
+                "option": "orient",
+                "logprob": -5.003907381760655,
+                "prob": 0.007184541445625776
+              },
+              {
+                "option": "extend",
+                "logprob": -5.504591886186972,
+                "prob": 0.00435466285633446
+              },
+              {
+                "option": "align",
+                "logprob": -5.691284631306189,
+                "prob": 0.0036130577893682156
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "extend",
+              "insert",
+              "press",
+              "push",
+              "pull",
+              "lever",
+              "rotate",
+              "switch",
+              "click",
+              "none"
+            ],
+            "n_valid": 10,
+            "invalid": [
+              "Based on the visual characteristics of part 4 (a long, rigid, reddish rod or tube attached to the main body), its most plausible affordances from the provided list are:"
+            ],
+            "raw": "Based on the visual characteristics of part 4 (a long, rigid, reddish rod or tube attached to the main body), its most plausible affordances from the provided list are:\n\n1. extend\n2. insert\n3. press\n4. push\n5. pull\n6. lever\n7. rotate\n8. switch\n9. click\n10. none"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_2_region_2",
+      "area": 12111,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "\\_Tc0<ao08J3L5L4L3N2M3N2M2O1O2N1O1O1O1O1O1O010O001O001O010O00000000001O00000000000000000000O2O00O1001O000000000000000000000000000O1000000000000000000000000O1000001OO100001O000000000O1000000000000000000000000000000O100000000000000000000O10000000000000000000001N010000001O00000000000O10000000000000000000000000000O10001O000000000000000O10000000000000000000000O1000000000000000000O100000000000000000000O2O0000000000000000000O100000000000000000000000000O1000000000000000000000000O1000000000000000000000000O100000000000000000000O1000000000000000000000001N101[OUQO2mn0G]QO5Zo0Ln_W4"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "align",
+          "justification": "Part 5 features a flat, elongated surface extending outward like a handle or lever arm; its broad face suggests it would be used for pushing against another object\u2019s edge rather than gripping around something round as some of the spiky protrusions do",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "align",
+                "logprob": -1.873785813950235,
+                "prob": 0.19658494482045522
+              },
+              {
+                "option": "none",
+                "logprob": -1.8740129372454248,
+                "prob": 0.19654030087003538
+              },
+              {
+                "option": "aim",
+                "logprob": -2.2488531460694503,
+                "prob": 0.1351016279616374
+              },
+              {
+                "option": "attack",
+                "logprob": -2.9364136814838275,
+                "prob": 0.06792925252447612
+              },
+              {
+                "option": "adjust",
+                "logprob": -2.9988468301598914,
+                "prob": 0.06381789333670744
+              },
+              {
+                "option": "attach",
+                "logprob": -3.1239711152447853,
+                "prob": 0.05631209401079538
+              },
+              {
+                "option": "extend",
+                "logprob": -3.186729407228995,
+                "prob": 0.05288665474481756
+              },
+              {
+                "option": "orient",
+                "logprob": -3.248825379589107,
+                "prob": 0.049702491439971304
+              },
+              {
+                "option": "decorate",
+                "logprob": -4.24906107224524,
+                "prob": 0.01828021575537668
+              },
+              {
+                "option": "deflect",
+                "logprob": -4.351590562131605,
+                "prob": 0.016498836757576824
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "paddle",
+              "hold",
+              "carry",
+              "direct",
+              "balance",
+              "support",
+              "deflect",
+              "steer",
+              "propel",
+              "drag"
+            ],
+            "n_valid": 10,
+            "invalid": [
+              "Based on the visual analysis of part 5 (a purple, flat, paddle-like appendage attached to the blue central body), here is the ranking of its most plausible affordances:"
+            ],
+            "raw": "Based on the visual analysis of part 5 (a purple, flat, paddle-like appendage attached to the blue central body), here is the ranking of its most plausible affordances:\n\n1. paddle\n2. hold\n3. carry\n4. direct\n5. balance\n6. support\n7. deflect\n8. steer\n9. propel\n10. drag"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_2_region_15",
+      "area": 4681,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "\\Zd5;co03N2N101N1000001O000000001O0000000010O000001O00000000001O0001O0001O000000001O0000000010O00000001O000000001O01O00000001O0000001O0000000010O00000001O0000000010O00000001O000000001O0000010O0000000000001O0000001O000001O0001O0000001O0000000010O00000001O0000001O0000000010O00000001O000000001O01O0001O00000000001O000001O0001OO100O2K4I8DfeVe0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 6 appears as a flat, thin disc positioned horizontally against the main body without any protruding features like spikes or handles; unlike most of its counterparts which are elongated rods designed for grasping or piercing, this piece lacks clear functional morphology suggesting interaction purposes such as holding objects or applying force through contact points typically seen",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.5166124413954094,
+                "prob": 0.2790729882393723
+              },
+              {
+                "option": "attack",
+                "logprob": -1.8915510725346394,
+                "prob": 0.19181564396343295
+              },
+              {
+                "option": "align",
+                "logprob": -2.7665760971431155,
+                "prob": 0.07995865578943843
+              },
+              {
+                "option": "orient",
+                "logprob": -3.2040733563771937,
+                "prob": 0.05162532977835663
+              },
+              {
+                "option": "aim",
+                "logprob": -3.266558579955017,
+                "prob": 0.04849822579080624
+              },
+              {
+                "option": "adjust",
+                "logprob": -3.266625548771117,
+                "prob": 0.048494978030792626
+              },
+              {
+                "option": "deflect",
+                "logprob": -3.3380598923540674,
+                "prob": 0.045151608424228835
+              },
+              {
+                "option": "block",
+                "logprob": -3.4540436841198243,
+                "prob": 0.040207040273650886
+              },
+              {
+                "option": "attach",
+                "logprob": -3.5792643577442504,
+                "prob": 0.03547475929606346
+              },
+              {
+                "option": "anchor",
+                "logprob": -3.641528430598555,
+                "prob": 0.03333331558926914
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Based on the visual analysis of part 6 (the brown, horizontal protrusion on the left side of the object), here is the ranking of its most plausible affordances:",
+              "**defend** - The object appears to be a stylized creature or monster (resembling a cactus or a mythical beast). The protrusions (spikes/arms) are typically used for defense or attacking.",
+              "**attack** - Similar to defend, the sharp, rigid nature of the part suggests an offensive capability.",
+              "**hit** - A direct physical interaction with the environment.",
+              "**push** - The rigid structure could be used to exert force against something.",
+              "**block** - It could serve as a barrier or shield.",
+              "**stand** - While primarily an arm-like structure, it supports the main body.",
+              "**lean** - The object could lean against something, or the part itself could be leaned upon."
+            ],
+            "raw": "Based on the visual analysis of part 6 (the brown, horizontal protrusion on the left side of the object), here is the ranking of its most plausible affordances:\n\n1. **defend** - The object appears to be a stylized creature or monster (resembling a cactus or a mythical beast). The protrusions (spikes/arms) are typically used for defense or attacking.\n2. **attack** - Similar to defend, the sharp, rigid nature of the part suggests an offensive capability.\n3. **hit** - A direct physical interaction with the environment.\n4. **push** - The rigid structure could be used to exert force against something.\n5. **block** - It could serve as a barrier or shield.\n6. **stand** - While primarily an arm-like structure, it supports the main body.\n7. **lean** - The object could lean against something, or the part itself could be leaned upon."
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_2_region_16",
+      "area": 2982,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "eTQ:6ho04M3N2M3M3N2M3N2N2N2O1N2O1O001O2N1O1O100O1O1O100O1O1O1O101N1O1O1O1O100O1O2N1O101N1O1O1O00O100N3N1N2N2N2N2N2N3M2N2N2O1N2N2N3N1N2O1N2N2N3M2O1N2N2N3N1N2N2NWiac0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "attack",
+          "justification": "Part 7 appears as a sharp spike protruding directly upward from the main body\u2019s surface, suggesting its primary function involves piercing or striking rather than grasping, balancing, or supporting like the broader limbs seen elsewhere; unlike any of these functional appendages which are more robustly shaped for interaction\u2014such as gripping or stabil",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "attack",
+                "logprob": -1.260010788886575,
+                "prob": 0.3432262748033179
+              },
+              {
+                "option": "aim",
+                "logprob": -1.7599688395566773,
+                "prob": 0.20818599196684845
+              },
+              {
+                "option": "none",
+                "logprob": -1.7600771653524134,
+                "prob": 0.20816344127504038
+              },
+              {
+                "option": "hit",
+                "logprob": -3.5104568683891557,
+                "prob": 0.03615964953686447
+              },
+              {
+                "option": "defend",
+                "logprob": -3.5932443442288786,
+                "prob": 0.03328664839966268
+              },
+              {
+                "option": "deflect",
+                "logprob": -3.968127302316134,
+                "prob": 0.0228802343616567
+              },
+              {
+                "option": "adjust",
+                "logprob": -4.197472414904041,
+                "prob": 0.018191024206244116
+              },
+              {
+                "option": "align",
+                "logprob": -4.384980161354179,
+                "prob": 0.01508077193360058
+              },
+              {
+                "option": "orient",
+                "logprob": -4.38509110751329,
+                "prob": 0.01507909887268967
+              },
+              {
+                "option": "attach",
+                "logprob": -4.510124829830602,
+                "prob": 0.013306809304903407
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Based on the visual analysis of part 7 (the small pink spike-like protrusion on the blue object), here is the ranking of its most plausible affordances:",
+              "**defend** - The object is a spiky, thorn-like structure, which is evolutionarily and functionally designed for defense against predators or physical contact.",
+              "**poke** - While not explicitly in the list, \"defend\" implies the action of poking. However, looking at the list, \"poke\" is not available. The closest action is \"press\" or \"hit\". Let's re-evaluate based strictly on the provided list.",
+              "**hit** - A sharp object can be used to strike or hit something.",
+              "**stab** - Not in the list.",
+              "**prick** - Not in the list.",
+              "**cut** - Sharp objects can cut.",
+              "**scratch** - Not in the list.",
+              "8"
+            ],
+            "raw": "Based on the visual analysis of part 7 (the small pink spike-like protrusion on the blue object), here is the ranking of its most plausible affordances:\n\n1. **defend** - The object is a spiky, thorn-like structure, which is evolutionarily and functionally designed for defense against predators or physical contact.\n2. **poke** - While not explicitly in the list, \"defend\" implies the action of poking. However, looking at the list, \"poke\" is not available. The closest action is \"press\" or \"hit\". Let's re-evaluate based strictly on the provided list.\n3. **hit** - A sharp object can be used to strike or hit something.\n4. **stab** - Not in the list.\n5. **prick** - Not in the list.\n6. **cut** - Sharp objects can cut.\n7. **scratch** - Not in the list.\n8"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_2_region_5",
+      "area": 2898,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "eVf?5io03M3M3M3M3M3M2N3L3N3M3M2M4M3L3N3M2N2M4M2N2N2N2M4M2N1N3O0N10N2N101N2N101N2O1N101N2N101N2N2O0O3M3M4L3N3L4L4L5K4L5L3L5K5Kel]>"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 8 appears as a small, blunt-tipped protrusion lacking any discernible functional surface like hooks, grips, or attachment points seen in larger limbs such as those of parts 2 through 5; its minimal size suggests no practical interaction capability compared to more substantial appendages designed for grasping or support",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.6673596153559629,
+                "prob": 0.2258153149148569
+              },
+              {
+                "option": "aim",
+                "logprob": -1.917267859855201,
+                "prob": 0.17588128141990184
+              },
+              {
+                "option": "align",
+                "logprob": -2.042223170690704,
+                "prob": 0.15522162264530487
+              },
+              {
+                "option": "anchor",
+                "logprob": -2.7922825174755417,
+                "prob": 0.07331715153349679
+              },
+              {
+                "option": "attack",
+                "logprob": -2.792374629090773,
+                "prob": 0.07331039848326683
+              },
+              {
+                "option": "orient",
+                "logprob": -2.9173119512270205,
+                "prob": 0.06470025473539115
+              },
+              {
+                "option": "attach",
+                "logprob": -3.542464587604627,
+                "prob": 0.03462626514414686
+              },
+              {
+                "option": "adjust",
+                "logprob": -3.6673384050955065,
+                "prob": 0.030561427812136503
+              },
+              {
+                "option": "detect",
+                "logprob": -3.9182980170007795,
+                "prob": 0.023778434890913743
+              },
+              {
+                "option": "deflect",
+                "logprob": -4.229527446907014,
+                "prob": 0.017418792340653574
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "indicate",
+              "direct",
+              "aim",
+              "label"
+            ],
+            "n_valid": 4,
+            "invalid": [
+              "Based on the visual characteristics of part 8 (a small, pointed, stick-like appendage on the top of the object), here are the 10 most plausible affordances from the provided list:",
+              "point",
+              "signal",
+              "flag",
+              "mark",
+              "identify",
+              "show"
+            ],
+            "raw": "Based on the visual characteristics of part 8 (a small, pointed, stick-like appendage on the top of the object), here are the 10 most plausible affordances from the provided list:\n\n1. indicate\n2. point\n3. signal\n4. direct\n5. aim\n6. flag\n7. mark\n8. label\n9. identify\n10. show"
+          }
+        }
+      }
+    }
+  ],
+  "generation_option_order": "shuffled_per_part"
+}

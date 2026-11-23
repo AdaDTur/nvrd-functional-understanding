@@ -1,0 +1,446 @@
+{
+  "object": "shape_28",
+  "model": "Qwen/Qwen3.5-4B",
+  "image_path": "/shared/nas/data/m1/adadt2/nvrd/regions_test/data/novel/shape_28.png",
+  "region_source": "sam_slic",
+  "method": "per_part_with_comparative_context",
+  "top_k": 10,
+  "modes": [
+    "logprob",
+    "generation"
+  ],
+  "regions": [
+    {
+      "region_id": "shape_28_region_25",
+      "area": 95642,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "h`f9h0Qo0?D9H7J6I6K5K5K4L5J7J4M3L5L3L5L4L4K6K4L3M5J4M4L4L5K6J5L3L4L5K6J5K4L5K4M2M4L3M3N2M3M3N2M2N3M3M3M2N2N3M2N2N2N2N2N2N3M2N2N2N1N3N2N2M2N3M3N2M2O2M2N3M2N3N1O2M2M3N3M2N3M2N2M4L3N2M4L3N3K4M3N3L3N2O2M2L4N2N2N2O1N2N2O1M3N3N1O1O1O1N2O1O1N101O1O1O1O1O1O001O1O1O001O1O0010O01O010O0010O01O010O10O010O0010O0001O00100O01OQIb\\O]1_c0`Ng\\O]1Xc0aNl\\O]1Uc0cNk\\O\\1Uc0eNk\\OZ1Vc0fNj\\OZ1Vc0fNj\\OY1Wc0gNi\\OX1Wc0jNg\\OW1Yc0jNf\\OU1[c0lNc\\OT1]c0PO^\\OR1bc0e51O1O001O1O00100O100O10O0100O1O1dJU\\OcNkc0[1X\\OcNhc0]1Z\\ObNfc0^1[\\O`Nfc0_1[\\O`Nfc0_1\\\\O`Ndc0_1]\\O`Ndc0_1]\\OaNcc0^1_\\OaNac0^1`\\OaNac0_1_\\OaNac0^1`\\OaNac0^1a\\OaN_c0^1b\\OaN_c0]1d\\ObN\\c0Z1h\\OeNYc0[1h\\OcNYc0]1g\\OcNYc0]1g\\ObNZc0^1f\\ObNZc0^1d\\OdN\\c0\\1c\\OdN^c0\\1h[OQJc0d4ec0b1Y\\O_Ngc0b1W\\O_Nic0a1V\\O_Nkc0b1T\\O^Nmc0a1R\\O`Nnc0`1R\\O`Nnc0a1Q\\O^NPd0b1P\\O^NPd0c1n[O^NSd0cMd[O_17n0Vd0`Mj[Oa1KQ1[d0]Ml[Ob6Td0]In[Ob6Sd0]Im[Oc6Sd0\\Io[Ob6Rd0]IP\\Ob6Qd0\\IQ\\Oc6oc0]IR\\Ob6nc0^IS\\Oa6mc0^IV\\O`6kc0_IV\\O`6jc0`IX\\O]6ic0cIX\\O\\6hc0dIY\\O[6gc0eIZ\\OZ6gc0dI[\\O[6ec0eI[\\O[6fc0dI[\\O[6ec0dI\\\\O\\6ec0cI[\\O]6ec0cI[\\O\\6fc0cIY\\O_6hc0`IV\\Ob6jc0]IS\\Og6nc0XIQ\\Oi6Pd0UIo[Om6Qd0SIm[Oo6Td0PIk[OQ7Vd0oHh[OR7Xd0oHg[OQ7Zd0nHe[OS7[d0oHc[OQ7^d0UIZ[Ol6fd0VIX[Oj6id0XIS[Oi6nd0T21O001O1O1O1O001O1O2N1O1O1O2M2O2N1O1O1N3N1O3M1O2N3M2M3N2N3M3M3`HlYOn4Xf0cJ]ZOR5ie0cJdZOV5de0XJkZOb5mg0M4K4M3L3N3L4M2M3M2O3M2M2O2M2N3M3M2N2O1N2N3M2N3M2N2N2N3M2N2N2N3L3N3M3L3N2N3M4K3M4L4M4K3L5L4M4J6J6J6I8I8F<_Ol]h;"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "contain",
+          "justification": "Part 1\u2019s large central placement within the structure suggests its role as a core component designed for holding space rather than interacting externally like the protruding appendages of the surrounding elements",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "contain",
+                "logprob": -0.9584018876776099,
+                "prob": 0.4326503574785905
+              },
+              {
+                "option": "anchor",
+                "logprob": -1.2086178180470597,
+                "prob": 0.3368756876546201
+              },
+              {
+                "option": "none",
+                "logprob": -2.583769846998621,
+                "prob": 0.08516256454341775
+              },
+              {
+                "option": "align",
+                "logprob": -3.708563601510832,
+                "prob": 0.02765393961773086
+              },
+              {
+                "option": "control",
+                "logprob": -3.8336827548919246,
+                "prob": 0.02440160834954183
+              },
+              {
+                "option": "cover",
+                "logprob": -4.583318935096031,
+                "prob": 0.011530697950547335
+              },
+              {
+                "option": "balance",
+                "logprob": -4.833619724406162,
+                "prob": 0.008977415876364874
+              },
+              {
+                "option": "blend",
+                "logprob": -5.083539292390924,
+                "prob": 0.006992180887053599
+              },
+              {
+                "option": "orient",
+                "logprob": -5.396033453347627,
+                "prob": 0.005115618687622207
+              },
+              {
+                "option": "absorb",
+                "logprob": -5.396751166364993,
+                "prob": 0.005111948458741291
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Based on the visual analysis of part 1 (the large blue central area):",
+              "**contain** - The most obvious function of a large central cavity or chamber in an object like this is to hold or contain something.",
+              "**display** - The blue color and texture suggest it is a surface meant to be seen or viewed.",
+              "**cover** - It acts as a cap or covering for the internal structure of the object.",
+              "**seal** - The smooth, continuous surface suggests it could function as a seal to keep things in or out.",
+              "**hold** - Similar to contain, it is a space designed to hold a substance or object.",
+              "**store** - It serves as a reservoir for storage.",
+              "**fill** - The shape implies it can be filled with a liquid or material.",
+              "**deposit** - It is a location where things can be"
+            ],
+            "raw": "Based on the visual analysis of part 1 (the large blue central area):\n\n1.  **contain** - The most obvious function of a large central cavity or chamber in an object like this is to hold or contain something.\n2.  **display** - The blue color and texture suggest it is a surface meant to be seen or viewed.\n3.  **cover** - It acts as a cap or covering for the internal structure of the object.\n4.  **seal** - The smooth, continuous surface suggests it could function as a seal to keep things in or out.\n5.  **hold** - Similar to contain, it is a space designed to hold a substance or object.\n6.  **store** - It serves as a reservoir for storage.\n7.  **fill** - The shape implies it can be filled with a liquid or material.\n8.  **deposit** - It is a location where things can be"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_28_region_17",
+      "area": 15935,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "RXlg07ao0b0A:G8J5J6K5K4L4M3L4M2M4M2M3N2N3M2N2N2N2N2N2N2N2N2O1N2N101N1O2N101N2O1N101N101N101N100O2O001N101O0O101O000O101O0O101O00000O2O00000000000000000000000000000000000000O10001O00000O101O000O2O00001N101O0O2O001N101N101N101N2O0O2O0O2N2N2N101N2N2N2N2N2N2N2N2N2N2N2M4M2N3L3N2M4M3L4L4L4L5K5J7H9G:DShc3"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part two appears as a detached sphere floating away without any visible connection points like tendrils or attachment mechanisms seen in adjacent components such as three which has clear structural integration into the main body through its stem-like extension four leading back toward five indicating functional linkage absent here suggesting no interactive purpose within system design context compared others designed for engagement",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.0645495771314017,
+                "prob": 0.4404591859021524
+              },
+              {
+                "option": "attach",
+                "logprob": -1.9393442100845277,
+                "prob": 0.1836484172817649
+              },
+              {
+                "option": "anchor",
+                "logprob": -2.6891026949160732,
+                "prob": 0.08677032360661897
+              },
+              {
+                "option": "detach",
+                "logprob": -3.0019439207972027,
+                "prob": 0.06346086669424869
+              },
+              {
+                "option": "attack",
+                "logprob": -4.1891342726303264,
+                "prob": 0.019360464833596883
+              },
+              {
+                "option": "rotate",
+                "logprob": -4.43902618897846,
+                "prob": 0.015079574940482619
+              },
+              {
+                "option": "dangle",
+                "logprob": -4.441367653256748,
+                "prob": 0.015044307958729169
+              },
+              {
+                "option": "align",
+                "logprob": -4.501629506237805,
+                "prob": 0.014164486169271375
+              },
+              {
+                "option": "aim",
+                "logprob": -4.689013437455287,
+                "prob": 0.011744134526680553
+              },
+              {
+                "option": "orient",
+                "logprob": -4.689286666223779,
+                "prob": 0.011740926129599974
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Based on the visual analysis of part 2 (the brown sphere attached to a stalk), here is the ranking of its most plausible affordances:",
+              "**drink** - The shape resembles a cup or vessel, suggesting it can hold liquid.",
+              "**contain** - As a closed sphere, it can hold items inside.",
+              "**store_fuel** - Spherical containers are often used for storing liquids or gases.",
+              "**carry** - The object is attached to a structure, implying it can be transported.",
+              "**hold** - It can physically grip or contain something.",
+              "**collect** - Its open or closed nature allows gathering things.",
+              "**fill** - It can be filled with substances.",
+              "**pour** - If opened, it can dispense contents.",
+              "**dispense** - It can release stored items.",
+              "**intake** - It can receive substances into itself"
+            ],
+            "raw": "Based on the visual analysis of part 2 (the brown sphere attached to a stalk), here is the ranking of its most plausible affordances:\n\n1. **drink** - The shape resembles a cup or vessel, suggesting it can hold liquid.\n2. **contain** - As a closed sphere, it can hold items inside.\n3. **store_fuel** - Spherical containers are often used for storing liquids or gases.\n4. **carry** - The object is attached to a structure, implying it can be transported.\n5. **hold** - It can physically grip or contain something.\n6. **collect** - Its open or closed nature allows gathering things.\n7. **fill** - It can be filled with substances.\n8. **pour** - If opened, it can dispense contents.\n9. **dispense** - It can release stored items.\n10. **intake** - It can receive substances into itself"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_28_region_1",
+      "area": 13281,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "Pjlh05ho09I5L4K3N2M4M3M2M2O2M3N1N3N1N2O1N2O1N2O1N2O1N2N2N2O1N101N2N2N101N2N1O2N2N1O2N1N3N1O2M2O2N1N2N3N1N2O2M2M3N2O2K4M3N2N2O100O101O01O00000000001O000000000000000O2O00001O000O101O00001N1000001N1000000O10001N100O100O2O0O101N1O1O101N1O2O0O2N1O2N2N101N2N2N2N1O2N2N2N2N2M4M2N3L3N2N4K4L3N4K4L5K5J7I7H\\Vb2"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part three appears as a detached green appendage lacking any visible functional attachment points like suction cups or sensory organs found in its neighbors; unlike the central mass which anchors tentacles for movement, nor does it connect via stalks suggesting transport roles seen elsewhere among these components",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.1290596392937005,
+                "prob": 0.3802645411397698
+              },
+              {
+                "option": "decorate",
+                "logprob": -1.2537511861592066,
+                "prob": 0.33568580709050944
+              },
+              {
+                "option": "detach",
+                "logprob": -2.754050347779412,
+                "prob": 0.07487922355472959
+              },
+              {
+                "option": "dangle",
+                "logprob": -3.8172192020283546,
+                "prob": 0.025860264686952312
+              },
+              {
+                "option": "anchor",
+                "logprob": -3.8787832392263226,
+                "prob": 0.024316218883595867
+              },
+              {
+                "option": "attach",
+                "logprob": -4.0667827287106775,
+                "prob": 0.020148786877504873
+              },
+              {
+                "option": "cool",
+                "logprob": -4.629229610960465,
+                "prob": 0.011481042532918958
+              },
+              {
+                "option": "align",
+                "logprob": -4.816329589113593,
+                "prob": 0.00952192678385955
+              },
+              {
+                "option": "float",
+                "logprob": -4.816641233977862,
+                "prob": 0.009518959786628157
+              },
+              {
+                "option": "cover",
+                "logprob": -5.19110854351311,
+                "prob": 0.006545764944617033
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Based on the visual analysis of part 3 (the green, rounded object attached to the bottom right of the main structure), here is the ranking of its most plausible affordances.",
+              "Part 3 appears to be a container or a receptacle attached to the main body. Its shape and connection suggest it is designed to hold something or receive something. Therefore, \"contain\" is the most direct function. \"Store_fuel\" is a strong secondary option given the context of a mechanical or biological-looking object holding a substance. \"Cover\" fits the action of placing it over a gap or area. \"Drain\" is plausible if the object is designed to let liquid out. \"Fill\" is the inverse of draining, fitting a container. \"Remove\" is a general action applicable to any detachable part. \"Place\" describes the act of setting it down. \"Hold\" is a basic function of a container. \"Support\" implies it bears weight or holds the structure together. \"Detach"
+            ],
+            "raw": "Based on the visual analysis of part 3 (the green, rounded object attached to the bottom right of the main structure), here is the ranking of its most plausible affordances.\n\nPart 3 appears to be a container or a receptacle attached to the main body. Its shape and connection suggest it is designed to hold something or receive something. Therefore, \"contain\" is the most direct function. \"Store_fuel\" is a strong secondary option given the context of a mechanical or biological-looking object holding a substance. \"Cover\" fits the action of placing it over a gap or area. \"Drain\" is plausible if the object is designed to let liquid out. \"Fill\" is the inverse of draining, fitting a container. \"Remove\" is a general action applicable to any detachable part. \"Place\" describes the act of setting it down. \"Hold\" is a basic function of a container. \"Support\" implies it bears weight or holds the structure together. \"Detach"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_28_region_26",
+      "area": 4225,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "X]ne03lo02N2N101N10O01O0001O000100O1O100O001O0010O01O0000010O001O001O001O010O001O0000010O001O001O001O1O00100O001O001O001O1O001O001O1O001O1N101O1O1O1N2O1O1N2N101N2N2N2N2N2M3N2M3M3L4M3M3O100O10O2O001O1O1O001O1O1O0000001O001O001O001O0SO`ROZOam0`0iROZOXm0c0mRO[OSm0c0RSOYOPm0d0W1M3N3N1N2N2N3M2O2MaeS6"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "attach",
+          "justification": "Part four features a tapered stem design resembling a hook or peg which provides mechanical interlocking capability unlike the smooth surfaces of surrounding components designed for contact rather than connection",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "attach",
+                "logprob": -0.7722483155957889,
+                "prob": 0.558374446225528
+              },
+              {
+                "option": "anchor",
+                "logprob": -2.5222101823892444,
+                "prob": 0.0970346296135914
+              },
+              {
+                "option": "extend",
+                "logprob": -2.5223654471337795,
+                "prob": 0.0970195647261666
+              },
+              {
+                "option": "detach",
+                "logprob": -2.6474289521574974,
+                "prob": 0.08561402826741245
+              },
+              {
+                "option": "none",
+                "logprob": -3.399018361698836,
+                "prob": 0.04037697681909419
+              },
+              {
+                "option": "align",
+                "logprob": -3.647209944028873,
+                "prob": 0.031502539432212144
+              },
+              {
+                "option": "clip",
+                "logprob": -4.460084540362004,
+                "prob": 0.013973931569691525
+              },
+              {
+                "option": "adjust",
+                "logprob": -4.95982100313995,
+                "prob": 0.008477851868899247
+              },
+              {
+                "option": "treat",
+                "logprob": -5.069160662184004,
+                "prob": 0.007599765878237442
+              },
+              {
+                "option": "administer",
+                "logprob": -5.085353962669615,
+                "prob": 0.007477691645659793
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "extend",
+              "attach",
+              "hold",
+              "pull",
+              "drag",
+              "steer",
+              "propel"
+            ],
+            "n_valid": 7,
+            "invalid": [
+              "Based on the visual analysis of part 4, which appears to be a flexible, tube-like appendage connecting the main body to a spherical component (part 2), its primary function seems to be extension and connection. It resembles a tentacle or a hose.",
+              "Here are the 10 most plausible affordances for part 4, ranked from most to least likely:",
+              "grasp",
+              "reach",
+              "connect"
+            ],
+            "raw": "Based on the visual analysis of part 4, which appears to be a flexible, tube-like appendage connecting the main body to a spherical component (part 2), its primary function seems to be extension and connection. It resembles a tentacle or a hose.\n\nHere are the 10 most plausible affordances for part 4, ranked from most to least likely:\n\n1. extend\n2. attach\n3. hold\n4. grasp\n5. pull\n6. drag\n7. steer\n8. propel\n9. reach\n10. connect"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_28_region_3",
+      "area": 2148,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "UgXg04ko02N2O1N1O2O0O2N2O1N2O1N2O001N2O1O2N2M7J3M1O1O2N1O1O001O1O001O010O0010O00001O00001O001O001O001N101N2O0O2O1N2N101N2N2N2M3M3N2K6IeXg6"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "detach",
+          "justification": "Part five appears as a small, rounded protrusion at the end of a tentacle-like appendage rather than being integrated into the central mass; its isolated placement suggests it can be pulled off without damaging the main body structure like the others are connected by thicker limbs or embedded within the core form itself",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "detach",
+                "logprob": -1.7513422823976725,
+                "prob": 0.22067680667203446
+              },
+              {
+                "option": "none",
+                "logprob": -1.7515082092140801,
+                "prob": 0.22064019350968508
+              },
+              {
+                "option": "align",
+                "logprob": -2.813607221964048,
+                "prob": 0.07628179241802596
+              },
+              {
+                "option": "label",
+                "logprob": -3.1261508308234625,
+                "prob": 0.05580651782543567
+              },
+              {
+                "option": "decorate",
+                "logprob": -3.1887516244896688,
+                "prob": 0.05242008795621309
+              },
+              {
+                "option": "dangle",
+                "logprob": -3.314686913974583,
+                "prob": 0.046217318461609244
+              },
+              {
+                "option": "rotate",
+                "logprob": -3.3760378727456555,
+                "prob": 0.04346706946225279
+              },
+              {
+                "option": "attach",
+                "logprob": -3.5014217353309505,
+                "prob": 0.038344832193022906
+              },
+              {
+                "option": "anchor",
+                "logprob": -3.751257700379938,
+                "prob": 0.029867884313795563
+              },
+              {
+                "option": "button",
+                "logprob": -3.8138084504171275,
+                "prob": 0.02805685676032549
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Based on the visual analysis of part 5, which appears to be a small, circular, purple-tinted component attached to the edge of the larger orange structure (likely a toy or model of a cell or organism), here is the ranking of its most plausible affordances.",
+              "Part 5 is small, distinct, and attached via a joint or hinge mechanism. It resembles a knob, a cap, or a small appendage. Its primary function in such models is often to be manipulated (pressed, turned, or pulled) to demonstrate a mechanism or to be removed.",
+              "**press** - The most likely action for a small, protruding knob-like object is to press it.",
+              "**detach** - Given its separate appearance and connection point, it can likely be pulled off.",
+              "**rotate** - Small circular parts often function as dials or wheels that can be turned.",
+              "**pull** - Similar to detach, a pulling motion is"
+            ],
+            "raw": "Based on the visual analysis of part 5, which appears to be a small, circular, purple-tinted component attached to the edge of the larger orange structure (likely a toy or model of a cell or organism), here is the ranking of its most plausible affordances.\n\nPart 5 is small, distinct, and attached via a joint or hinge mechanism. It resembles a knob, a cap, or a small appendage. Its primary function in such models is often to be manipulated (pressed, turned, or pulled) to demonstrate a mechanism or to be removed.\n\n1. **press** - The most likely action for a small, protruding knob-like object is to press it.\n2. **detach** - Given its separate appearance and connection point, it can likely be pulled off.\n3. **rotate** - Small circular parts often function as dials or wheels that can be turned.\n4. **pull** - Similar to detach, a pulling motion is"
+          }
+        }
+      }
+    }
+  ],
+  "generation_option_order": "shuffled_per_part"
+}

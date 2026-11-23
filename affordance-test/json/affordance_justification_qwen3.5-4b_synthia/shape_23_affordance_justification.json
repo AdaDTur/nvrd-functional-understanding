@@ -1,0 +1,541 @@
+{
+  "object": "shape_23",
+  "model": "Qwen/Qwen3.5-4B",
+  "image_path": "/shared/nas/data/m1/adadt2/nvrd/regions_test/data/novel/shape_23.png",
+  "region_source": "sam_slic",
+  "method": "per_part_with_comparative_context",
+  "top_k": 10,
+  "modes": [
+    "logprob",
+    "generation"
+  ],
+  "regions": [
+    {
+      "region_id": "shape_23_region_8",
+      "area": 225650,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "Za[4T1en0:C`0H6C=G8H7J6H8J7I6K5I7I6K6K5H8L3K6L3M3J6N2L4K5N2M3K5M3L4M3L4L3M4M2O2L3M4N1N3L4M2O2N1L5M2O2M2N2M4N100O2N1N2N3N1O1OoIfXOcM6_5Sg0^LhXORNi0\\5[f0eLRZOV3le0jL\\ZOP3ce0kLeZOT3Ze0jLjZOT3Ue0hLS[OU3md0jLW[OT3hd0hL^[OV3ad0hLe[OU3Yd0kLk[OS3Sd0lLR\\OS3lc0lLY\\OQ3gc0nL[\\OQ3dc0oL_\\Oo2ac0oLb\\OP3^c0mLh\\OQ3Vc0oLl\\OP3Rc0PMR]On2lb0SMV]Ol2ib0RM[]Om2db0RM_]Om2ab0RMa]Om2^b0TMc]Ok2]b0TMf]Oj2Yb0VMi]Oi2Wb0UMl]Oj2Sb0VMo]Oi2Pb0VMS^Oi2ma0VMU^Oj2ia0VMZ^Oh2fa0WM\\^Oh2ca0XM_^Og2`a0YMa^Og2^a0YMd^Of2\\a0XMg^Og2Xa0ZMi^Oe2Wa0ZMk^Oe2Ta0[Mn^Od2Ra0[MP_Od2o`0]MR_Ob2n`0]MS_Oc2l`0]MV_Ob2j`0]MX_Oc2f`0\\M]_Oc2c`0]M^_Ob2a`0^Ma_Oa2_`0_Ma_Oa2^`0_Md_O`2\\`0`Md_O`2[`0`Mg_O`2X`0_Mi_Oa2W`0^Mk_Oa2T`0_Mn_O`2R`0_Mo_Oa2Q`0^MP@c2n?^MS@a2m?^MT@b2l?^MU@b2i?^MY@a2g?_MZ@a2d?`M]@_2c?`M^@a2a?_M`@`2`?_Ma@a2^?`Mb@a2]?^Md@b2\\?^Me@b2Y?^Mh@b2X?]Mi@d2U?]Mk@d2T?[Mn@d2R?\\Mn@e2P?[MQAf2n>ZMRAf2n>ZMSAf2l>YMUAh2i>YMWAg2i>YMWAh2ULeLi?c0RDi2RLlLf?;XDj2oKnLg?8\\Dj2kKTMc?3bDi2iKXMc?OeDj2bK]Mf?IiDl2]K_Mh?EkDm2ZKaMj?BlDo2SKgMm?[OQEP3lJiMR`0WORER3eJnMW`0POTEU3_JPN[`0jNWEZ3RJUNf`0aNXE_3_I`NVa0RN[E\\6d:dI\\E]6c:cI]E]6b:dI^E]6a:cI_E^6`:bI`E^6_:cIaE^6^:bIbE`6\\:`IdEa6Z:`IfE`6Z:`IfEa6Y:_IgEb6X:^IiEb6V:^IjEc6U:]IkEd6S:]ImEd6R:\\InEe6Q:[IoEe6Q:[InEg6P:ZIPFf6P:[IoEe6Q:[IoEf6o9[IQFf6n9YISFh6l9XITFh6k9YITFi6k9XITFh6l9XITFi6k9WITFj6k9XITFi6k9WIUFi6j9XIVFi6i9XIUFi6k9WIUFj6i9WIWFi6i9WIWFi6i9WIWFi6h9XIWFi6i9WIWFi6h9XIXFh6g9YIYFg6f9ZIZFf6f9[IYFe6f9\\IZFd6e9]I[Fc6e9^IZFb6e9`IYFb6f9_IXFb6h9^IXFb6g9`IWFa6i9_IVFc6h9_IVFb6j9^IVFb6j9^IUFc6k9^ITFb6l9^ITFb6l9_IRFb6n9^IRFa6o9_IPFb6P:_IoEa6Q:_InEb6R:_IlEb6T:_IkEa6U:`IiEa6W:_IiEa6W:`IgEa6Y:_IfEb6Z:_IdEb6\\:^IcEc6]:^IbEa6_:_I`Eb6_:`I_Ea6a:_I^Ea6c:`I[Ea6e:_I[E`6f:aIXE_6i:bIUE_6k:bISE^6n:cIoD_6Q;bImD^6U;bIiD]6Y;dIdD^6\\;bIcD^6];dIaD]6_;cI`D^6`;cI^D]6c;dI\\D\\6d;eIZD[6g;fIWDZ6j;gISDY6o;iInCW6T<iIiCX6X<hIfCZ6Z<gIcCZ6^<hI^CY6c<iIYCX6h<iIUCV6n<lInBT6T=mIiBT6W=nIgBR6Z=PJcBP6^=QJ_BP6b=UJTBn5n=TJoAk5S>YJhAg5Y>[JbAg5_>[J[Af5h>^JPAd5R?`Jg@b5Z?bJ_@`5c?fJo_O`5R`0hJZ_Oc5g`0i42O1O1O1N2O1N3M2O1O100O100O1N2N2O1O100O001O2N1N2O1O100O100O100O1O1N200O1O100O100O1O1O100O100O2O0O10O10O10000O10000O100000001N1000000O1000000000000O1000001O0000000000000001O000000000000001O00010O00001O0000001O0000010O001N101O00001O001O001O1O001O001O010O1O1O001O010O1O001O1O1O1O1O001O100O2N1O001O1O2N1O100O1O1O1O100O101O10O1N101O1O1O01O0001cF_^OX4aa0dKe^OZ4[a0cKi^O\\4Xa0`Km^O^4Sa0`KQ_O]4Pa0`KS_O`4m`0^KV_Oa4j`0^KW_Ob4i`0\\KZ_Oc4g`0ZK[_Oe4f`0YK\\_Og4d`0WK^_Oh4c`0VK__Oj4b`0SK`_Ol4a`0RKa_On4_`0QKb_Oo4^`0oJd_OQ5\\`0mJe_OT5\\`0iJf_OW5Z`0gJh_OY5X`0eJj_O[5W`0_Jn_Oa5R`0_Jn_Oa5R`0]JP@b5Q`0]JP@c5P`0[JQ@e5P`0YJQ@g5Q`0VJP@k5Q`0QJR@n5P`0oIQ@R6o?lIS@T6n?iIS@X6n?^IZ@c6f?\\I[@d6f?YI[@g6h?VIX@k6k?PIV@P7m?jHW@V7j?fHX@[7j?^HZ@c7i?VHZ@j7j?lG\\@U8i?aG\\@^8cc01O001O0010O01O00001O1O001O001O00000000000O10001O0000001N1000001N100000000O010000O010000O10O10000O010O01O10O0100O010O10O010O001iM^YOnJdf0d4nYOWKRf0f4WZOTKhe0k4^ZOQKbe0m4fZOmJZe0R5kZOjJVe0T5P[OfJQe0Y5S[OcJnd0]5T[OaJmd0^5[[OYJfd0g5j2O00O1010O0001O01O01N100O2O01O010O01N1O2O0010O01O0O2N1O1O2O1N101O001L4M2O2N1O2O1O0LQIYWOo6dh07M4M2O2O001K4N2L5N1L5M201M2N2K6M2L5K4L5O000L5M2L5I6O2H7O1O2M2H9K4O1M3L401O001K4O1O1O1K5N3O01OO2M2N2N2M3001O0010O0N2O1O100O1001O001OJ5101O002N1O2N1NKdDh[O];Xd05001N101N3N1NN2101O0O3M2O2N1OO000001O1N3N1O1O2M2N3N1N4L3N3L3N1N3K4nIhZOY1]e0]N\\[OP1id0iNf[Oj0^d0ROn[O?Zd0WLbYOn2_2a0Sd0aL^YOk2o20ic0WMVYOg2h3UO[c0TNmXOd2\\4[NRc0g1g5ZMkRO\\2Xm0dMhROY2\\m0eMfROX2dm0M2M2M3N^OTNTSOk1ll0WNRSOh1Pm0XNPSOf1Qm0\\NmROd1Um0[NkROd1Um0]NjROc1Vm0^NhROb1Xm0`NgRO`1Ym0aNgRO^1Zm0bNeRO^1[m0cNdRO]1]m0cNbRO]1_m0dN_RO]1am0cN^RO]1bm0dN^ROZ1dm0`0010O2M20KmM^ROQ2bm0QN^RO9NV1dm0aN]ROn1cm0TN\\ROk1em081kM[ROl1fm0TNZROl1gm0RN[ROl1nm0N1O01FXN\\ROg1dm0[NZROf1fm0ZNZROe1fm0]NYROc1gm0]NZROa1gm0^NZRO5Nn0hm0mN[RO4Mo0gm0oN[RO2No0gm0oN\\RO]1em0dN[RO[1em0gNYROY1gm0`0O010001N101O000O101VNSRO_1mm0aNTRO^1lm0;001O001O2N000000O100O11O0XNoQOa1Rn0]NPRO9Oi0Yn0WOgQOi0Yn0?O1N2O100O11N101O000O2O0O2O0O2N101N101N2O1N1QOZQOc0hn0\\OXQOc0jn082M4M2UOoPOd0Wo0L5K5N5KXhT2"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 1 forms the main body of the figure but lacks any protrusions like legs for standing or appendages for grasping; its smooth surface offers no tactile cues suggesting manipulation functions found in distinct limbs such as those at positions two through six",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.8287977922300342,
+                "prob": 0.5471526930187692
+              },
+              {
+                "option": "control",
+                "logprob": -3.1415393462521024,
+                "prob": 0.05416236831305441
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -3.5163229543665864,
+                "prob": 0.037233271161571324
+              },
+              {
+                "option": "align",
+                "logprob": -3.5163429614331108,
+                "prob": 0.03723252624049014
+              },
+              {
+                "option": "anchor",
+                "logprob": -3.5163435573049355,
+                "prob": 0.0372325040546834
+              },
+              {
+                "option": "support",
+                "logprob": -4.016425905341748,
+                "prob": 0.02258079568628145
+              },
+              {
+                "option": "absorb",
+                "logprob": -4.141919419969781,
+                "prob": 0.019917650173384843
+              },
+              {
+                "option": "stand",
+                "logprob": -4.266276577487588,
+                "prob": 0.01758856762982102
+              },
+              {
+                "option": "contain",
+                "logprob": -4.328769903106149,
+                "prob": 0.016523040468338707
+              },
+              {
+                "option": "adjust",
+                "logprob": -4.3289332936983556,
+                "prob": 0.01652034097951308
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Based on the visual analysis of part 1 (the main body of the object, which resembles a stylized creature or mascot):",
+              "**stand** - The object has a wide base (part 2) and a vertical body (part 1), giving it a stable posture suitable for standing.",
+              "**sit** - The shape of the body (part 1) is somewhat concave and broad, suggesting it could function as a seat or a place to sit.",
+              "**hold** - The body is large and solid, capable of holding other objects or being held by a person.",
+              "**cover** - The body is a large, continuous surface that could be used to cover something underneath it.",
+              "**contain** - As a solid mass, it can contain things inside it or keep things away.",
+              "**support** - The base (part 2) supports the body (part 1"
+            ],
+            "raw": "Based on the visual analysis of part 1 (the main body of the object, which resembles a stylized creature or mascot):\n\n1.  **stand** - The object has a wide base (part 2) and a vertical body (part 1), giving it a stable posture suitable for standing.\n2.  **sit** - The shape of the body (part 1) is somewhat concave and broad, suggesting it could function as a seat or a place to sit.\n3.  **hold** - The body is large and solid, capable of holding other objects or being held by a person.\n4.  **cover** - The body is a large, continuous surface that could be used to cover something underneath it.\n5.  **contain** - As a solid mass, it can contain things inside it or keep things away.\n6.  **support** - The base (part 2) supports the body (part 1"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_23_region_7",
+      "area": 71228,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "Ski4`0]o07H6K5L3M3L5M2M3N2N2M3N2N2N2N1O2N1O2N1O2N1O2N101N1O1O101N1O1O1O2O0O100O1O1O2O0O1O100O1O101N100O1O100O100O100O1O100O100O100O100O100O10O0100O100O100O100O010O1O100O10O0100O1O010O100O010O1O10O01O10O01O100O1O00100O1O1O1O00100O001O10O0100O02O001O2N3M3L3N2N1O2N3L3N2N2N1O2N1O1N2O001O1O1O1O1O1O1O1O001O1O001O1O001O010O001O100O010O1O010O1O01O01O01O010O0010O0001O00001O001O001O0010O01O001O001O001N101O00001O00001O000O2O00001N100O1O2O0O100O100O1O100O2N1O100O1O1O1O1O1N2O1O1O1O1N2O1O1O1N2O1N2O1N2N2O1O1N2O1N2O1O1O1O1N2N2O1O1O001O1O1O1O1O1O001O1O1O1O001O1O1O001O1O1O00100O1O00100N2O00100O010O10O0100O010O010O010O010O0100O010O10000O010O100O10O0100O100O1O1O100O100O100O100O100O100O100O100O101O000O101O0O1000001N10001O0O2O001O00001O001O001O001O001O001O0010O01O001O1O001O010O1O00100O1O1O100O1O1O1O1O2O0O1O1O100O100O1O100O1O10001N100O1O100O1O2O0O100O100O1O100O1O10O01O10O010O01O100O1O1O1O10O0100O1O10O01O10O01O00100O00100O1O100O1O00010O001O010O001O01O0001O001O000010O0001O0001O000001O000000010O00000000000000O10001O00000O1000000O1000000O100O100O100O100O100O100O1O1O1O010N2O1ZNPM[VOQ3di0TMWVOm2ii0VMTVOj2ki0YMRVOh2oi0ZMlUOh2Tj0[MgUOg2Zj0\\M_UOg2bj0bMmTOe2Tk0S12M2O1O1O2N1O1O1O1O1O001O2M2O001O1O1O1O1O1O1O0O2O1O1O001O1O001O1N101O1O001O1O0O2O001O1O001O0O2O001O001O1O001N101O001O0O2O1O0O101O001O1N101O001N101O1N2O001O1N101O1O0O2O001N2O1N2O1N2O1N101N2O1N2O1N2N2O1N2N2N3M2O2M3L3N3M4K5K5J8ETUl6"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "anchor",
+          "justification": "Part two has a wide base at its bottom which provides stability for standing upright while supporting all of the upper sections above; unlike any other section in view here since they are more rounded shapes meant primarily as decorative elements rather than structural supports themselves",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "anchor",
+                "logprob": -0.5662867066566832,
+                "prob": 0.640118160735791
+              },
+              {
+                "option": "none",
+                "logprob": -1.9415087910019793,
+                "prob": 0.16181127728545833
+              },
+              {
+                "option": "stand",
+                "logprob": -2.6911333395983092,
+                "prob": 0.07646293797476668
+              },
+              {
+                "option": "support",
+                "logprob": -3.066278365586186,
+                "prob": 0.05254453661898637
+              },
+              {
+                "option": "balance",
+                "logprob": -3.566289685550146,
+                "prob": 0.0318695116960427
+              },
+              {
+                "option": "align",
+                "logprob": -5.128846045117825,
+                "prob": 0.0066798360711533885
+              },
+              {
+                "option": "cover",
+                "logprob": -6.0661313136224635,
+                "prob": 0.0026164231588829004
+              },
+              {
+                "option": "walk",
+                "logprob": -6.068521740147844,
+                "prob": 0.002610176260912229
+              },
+              {
+                "option": "absorb",
+                "logprob": -6.4425535564587335,
+                "prob": 0.001795683870366554
+              },
+              {
+                "option": "sit",
+                "logprob": -6.503705557290232,
+                "prob": 0.0016891643426327394
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Based on the visual analysis of part 2, which is the base or stand of the object, its primary function is to provide stability and a surface for the object to rest upon.",
+              "**stand**: This is the most direct description of the object's function as a base.",
+              "**support**: It supports the weight of the main body (part 1).",
+              "**prevent falling**: By providing a stable base, it prevents the object from tipping over.",
+              "**hold**: It holds the object in place.",
+              "**place**: The object is placed upon it.",
+              "**rest**: The object rests on it.",
+              "**balance**: It helps the object maintain its balance.",
+              "**align**: It keeps the object aligned in a specific position.",
+              "**cover**: It covers the bottom of the object.",
+              "**decorate**: It adds to the"
+            ],
+            "raw": "Based on the visual analysis of part 2, which is the base or stand of the object, its primary function is to provide stability and a surface for the object to rest upon.\n\n1.  **stand**: This is the most direct description of the object's function as a base.\n2.  **support**: It supports the weight of the main body (part 1).\n3.  **prevent falling**: By providing a stable base, it prevents the object from tipping over.\n4.  **hold**: It holds the object in place.\n5.  **place**: The object is placed upon it.\n6.  **rest**: The object rests on it.\n7.  **balance**: It helps the object maintain its balance.\n8.  **align**: It keeps the object aligned in a specific position.\n9.  **cover**: It covers the bottom of the object.\n10. **decorate**: It adds to the"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_23_region_4",
+      "area": 50896,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "UVd8a0Yo0<G6J7J4L4M3L4M3L3M4M2N3M2N3M2N2O1N1O2N10OgRO^MUm0h2OJlROaMRm0h2O1N2O1O1N101N2O1O1O1O1O001O1O1O0O2O010O1O1O1O1O1O100N2O10O0101N101O0N3N2N1O4L5L3L2O0003L100O00O100O1001O001O1hK[TOS4ik000000O11O001O1O1N2O1O2N1O1O2N1O1O2N1O1O2N2N100O2N1O1O1O1O2N1O1O1O1O1O1O1O001OjMgMeVOY2Vi0PNgVOo1Ti0ZNhVOf1Ti0bNiVO]1Ui0iNgVOW1Wi0oNdVOR1Zi0TOaVOm0]i0ZOYVOk0ei0i2N2O1N2O1N2O1O1O1O1O100O1O1O100O1O2O0O1O100O100O100O100O100O10000O100O1000000O1000000O10000000000000000O100000000001O000001O0000000001O00001O0000001O00001O00001O001O001O001O1O1O00100O1O1O1O1O1O1O1O1O1O2N100O2N1N4M2[LUVOQ1mi0iNYVOU1ii0fN[VOY1hi0`N\\VO`1hi0XN[VOj1ki0jMYVOW2mi0_MWVOa2ck01O1O1O1O1O1O1O1O1O2N1O1N2O1O1N2N2O1O1N3M2O1O1N2N2N2NYNcTOoN\\k0R1bTOPO]k0j2O2N1N3N1O1O1O100N2O100O010O01N1N4M2N3M1O1O10O01O2O0O2N2O1O001N101O1N3N1O1N101O1O0`LPTOQ3Ql0=2O2N1O1O2M2O1O1O1O1N3N1O2N1O2M2O2N1N3N2N1N3N1O2M3M3N2M2O2M3M3M4L3M3N3L3M4L5J4L6J8F:FWjY<"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "decorate",
+          "justification": "Part three features multiple rounded protrusions resembling stylized leaves or fins positioned atop the main body like a crown; its distinct multi-lobbed form suggests decorative function rather than structural support compared to the smoother surfaces of adjacent sections",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "decorate",
+                "logprob": -0.07827298957272433,
+                "prob": 0.9462027588923303
+              },
+              {
+                "option": "none",
+                "logprob": -3.4533126790774986,
+                "prob": 0.032375992937975696
+              },
+              {
+                "option": "align",
+                "logprob": -4.953617213119287,
+                "prob": 0.007221860851825278
+              },
+              {
+                "option": "orient",
+                "logprob": -5.640703996497905,
+                "prob": 0.0036328805445235766
+              },
+              {
+                "option": "adjust",
+                "logprob": -6.016176179051399,
+                "prob": 0.0024956611634629794
+              },
+              {
+                "option": "attack",
+                "logprob": -7.266638613655232,
+                "prob": 0.0007146883216306342
+              },
+              {
+                "option": "rotate",
+                "logprob": -7.328197799331974,
+                "prob": 0.0006720194934253861
+              },
+              {
+                "option": "anchor",
+                "logprob": -7.453372496995144,
+                "prob": 0.0005929515251298075
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -7.578217359623466,
+                "prob": 0.0005233590705628441
+              },
+              {
+                "option": "attach",
+                "logprob": -7.578799341164995,
+                "prob": 0.0005230545738585097
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "shade",
+              "decorate",
+              "balance",
+              "support",
+              "indicate",
+              "cover",
+              "display",
+              "orient",
+              "none"
+            ],
+            "n_valid": 9,
+            "invalid": [
+              "Based on the visual analysis of part 3, which appears to be a crown-like structure on top of the object, here is the ranking of its most plausible affordances:",
+              "protect",
+              "(Note: \"protect\" and \"display\" were not in the provided list, so \"orient\" and \"none\" were selected to complete the top 10 from the available options, with \"none\" being the final fallback as the object is primarily decorative.)"
+            ],
+            "raw": "Based on the visual analysis of part 3, which appears to be a crown-like structure on top of the object, here is the ranking of its most plausible affordances:\n\n1. shade\n2. decorate\n3. balance\n4. support\n5. indicate\n6. cover\n7. protect\n8. display\n9. orient\n10. none\n\n(Note: \"protect\" and \"display\" were not in the provided list, so \"orient\" and \"none\" were selected to complete the top 10 from the available options, with \"none\" being the final fallback as the object is primarily decorative.)\n\nshade\ndecorate\nbalance\nsupport\nindicate\ncover\norient\nnone"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_23_region_0",
+      "area": 23095,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "^^W6?Wo0c0A=F5J8I5L5I7K4K5K5L5K4L3M4M2M3M4M2N3L3M3N3L3N2N2N2N2M3N2N2N2N2N2N2N2N2O1N\\MeUOFYj06PVOGni07XVOGfi07_VOGai07cVOH[i06kVOHSi08QWOEnh0;SWOFkh08YWOHfh07]WOGbh08bWOG\\h08gWOHXh07jWOHUh08mWOHRh07PXOHog07UXOHig07YXOJeg06]XOIbg07`XOI_g06cXOI\\g07fXOIYg06iXOIVg08kXOHTg07nXOHQg09PYOGnf09TYOFlf09VYOFif0:XYOGgf08[YOGdf0:\\YOFdf09^YOGaf09`YOF`f09bYOG\\f0:dYOF\\f09eYOGZf0:gYOEYf0:hYOGVf09lYOFTf0:lYOFTf0:mYOERf0<nYOEQf0;PZODoe0<RZODne0<RZODne0;SZOEme0;SZOFle0:TZOFle0:TZOFke0:VZOFje0:VZOFje0:VZOFje0:VZOFje0:VZOFje09WZOGie09WZOGie09WZOGie09WZOHhe08XZOHhe08XZOHhe08XZOHhe08XZOHhe08XZOHhe08WZOIie07WZOIie07VZOJje06VZOJje06UZOKke06TZOJle06TZOJle06SZOKme05SZOJne06RZOJne07PZOJPf06PZOJQf05nYOLRf04nYOLRf04nYOLRf05mYOKSf05lYOLTf04lYOKUf05kYOKVf05hYOLXf04hYOLXf04gYOMYf04eYOM[f04dYOK]f05bYOL^f05`YOLaf04]YOMcf03]YOLdf05ZYOLff05XYOLif03WYOMif04UYOLlf05SYOKnf05PYOLPg05nXOLRg05lXOKVg05hXOLXg06eXOK\\g05bXOK_g06_XOKbg05\\XOKeg06XXOLhg05VXOKlg05RXOLng06nWOKTh06fWONZh06_WOLbh06YWOMhh04TWOMmh08gVOOZi04`VOMbi0W3101N1O2O1N1O2O0O2N1O2N2N1O2N2N1O2N2N2N2N2M2O2N2N2N2N2N2M3N2M3M4M2M3M4L3M4L4L3M4K6K5K5K5J7I7H8G;E;DYb_c0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 5 appears as a small protrusion at the tip of the creature\u2019s long neck without any visible functional features like eyes, mouthparts, or attachment points for tools; unlike its larger body sections which suggest structural support or sensory input areas through their size and placement near potential interaction zones such as limbs or face regions where",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.3779659739811905,
+                "prob": 0.7834819907717457
+              },
+              {
+                "option": "attack",
+                "logprob": -3.3779716624412686,
+                "prob": 0.03900704954886782
+              },
+              {
+                "option": "aim",
+                "logprob": -3.5027327796269674,
+                "prob": 0.0344318245946526
+              },
+              {
+                "option": "detect",
+                "logprob": -3.5030454008374363,
+                "prob": 0.034421062158339746
+              },
+              {
+                "option": "align",
+                "logprob": -4.690233017929131,
+                "prob": 0.010501110694212995
+              },
+              {
+                "option": "hit",
+                "logprob": -4.753722490975633,
+                "prob": 0.009855124354320064
+              },
+              {
+                "option": "block",
+                "logprob": -5.127803080249578,
+                "prob": 0.0067795516378155885
+              },
+              {
+                "option": "adjust",
+                "logprob": -5.127962727739941,
+                "prob": 0.0067784693858025285
+              },
+              {
+                "option": "anchor",
+                "logprob": -5.502817735541612,
+                "prob": 0.004659444869654774
+              },
+              {
+                "option": "button",
+                "logprob": -5.503273967013229,
+                "prob": 0.004657319569116335
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Based on the visual analysis of part 4 (the central eye-like structure with concentric circles), here is the ranking of its most plausible affordances:",
+              "**see** - The most direct interpretation of an eye-like feature.",
+              "**detect** - Eyes are sensory organs used to detect light and objects.",
+              "**check** - To look or verify something.",
+              "**look** - To direct one's gaze.",
+              "**observe** - To watch or notice.",
+              "**watch** - To keep one's eyes on.",
+              "**view** - To see or regard.",
+              "**inspect** - To examine closely.",
+              "**perceive** - To become aware of through the senses.",
+              "**recognize** - To identify something from memory.",
+              "Note: While \"see\" is the primary function, the other terms are semantically very close to the core function of an eye."
+            ],
+            "raw": "Based on the visual analysis of part 4 (the central eye-like structure with concentric circles), here is the ranking of its most plausible affordances:\n\n1. **see** - The most direct interpretation of an eye-like feature.\n2. **detect** - Eyes are sensory organs used to detect light and objects.\n3. **check** - To look or verify something.\n4. **look** - To direct one's gaze.\n5. **observe** - To watch or notice.\n6. **watch** - To keep one's eyes on.\n7. **view** - To see or regard.\n8. **inspect** - To examine closely.\n9. **perceive** - To become aware of through the senses.\n10. **recognize** - To identify something from memory.\n\nNote: While \"see\" is the primary function, the other terms are semantically very close to the core function of an eye."
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_23_region_2",
+      "area": 8389,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "^^]7c0Xo09I6J5L4K6L3M2L3O4K4L3N2N2N2M3M3N2O1M3N2N2O1N2O1N1O2NZN[SO4cl0IgSO2Xl0KnSO2Ql0NQTO2nk0LVTO3hk0MZTO2fk0M\\TO3bk0MaTO1_k0NcTO2[k0OfTO0Zk0OhTO1Vk00kTOOUk00lTO1Sk0NoTO1Qk0OoTO2oj0OQUO1oj0ORUO0mj00TUO0lj00UUOOkj01UUOOkj00WUOOhj02ZUOLfj04ZUOLfj03[UOMej03[UOMej03ZUONej03[UOMej03[UOMej03[UOMej04WUOQO_Nj0Zl05VUO0jj00VUO0jj00UUO1kj00TUO0lj01RUO0nj01QUONPk03nTONRk02mTONTk03jTONVk03hTOMZk02fTONZk03cTOO]k02aTON`k03_TOMak04\\TONek02YTONhk03TTO0lk03oSONRl07fSOLZl0m11O0O10001N101N1O2O0O2N2N101N2N101N2O1N2N2N2N3M2N2N2N2M3N2N3L4J8I5K5L7D;JkaQe0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 3 lacks any discernible functional features like protrusions for gripping or attachment points due to its smooth, rounded crown-like form which suggests purely decorative value rather than utility compared to more structured elements elsewhere in the design",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.34106937114847824,
+                "prob": 0.8345675965772874
+              },
+              {
+                "option": "attack",
+                "logprob": -3.6536830499535426,
+                "prob": 0.03039566694367379
+              },
+              {
+                "option": "detect",
+                "logprob": -4.466204962343909,
+                "prob": 0.013487699893392333
+              },
+              {
+                "option": "anchor",
+                "logprob": -4.528212887351401,
+                "prob": 0.012676757848174437
+              },
+              {
+                "option": "hit",
+                "logprob": -4.77954489691183,
+                "prob": 0.00985952720395258
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -4.840708783922757,
+                "prob": 0.00927455222348159
+              },
+              {
+                "option": "align",
+                "logprob": -4.8407749609905295,
+                "prob": 0.009273938481118595
+              },
+              {
+                "option": "adjust",
+                "logprob": -4.84116304240888,
+                "prob": 0.009270340136189714
+              },
+              {
+                "option": "orient",
+                "logprob": -5.403080625488656,
+                "prob": 0.005285157858163478
+              },
+              {
+                "option": "aim",
+                "logprob": -5.403215508616995,
+                "prob": 0.005284445027613289
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Based on the visual analysis of the object, specifically part 5 (the small, orange-tipped appendage at the end of the long neck), here is the ranking of its most plausible affordances.",
+              "**drink** - The object resembles a stylized creature or a drinking vessel (like a snail or a stylized elephant). The long neck and the small opening at the tip (part 5) strongly suggest an action of drinking or sipping.",
+              "**scoop** - The shape of the tip is somewhat concave or cup-like, which could afford the action of scooping up small items or liquid.",
+              "**paddle** - The appendage is thin and flat, which could be used for paddling or stirring.",
+              "**clean** - The shape is suitable for wiping or cleaning a surface.",
+              "**seal** - The tip could be pressed against a surface to create a seal or"
+            ],
+            "raw": "Based on the visual analysis of the object, specifically part 5 (the small, orange-tipped appendage at the end of the long neck), here is the ranking of its most plausible affordances.\n\n1.  **drink** - The object resembles a stylized creature or a drinking vessel (like a snail or a stylized elephant). The long neck and the small opening at the tip (part 5) strongly suggest an action of drinking or sipping.\n2.  **scoop** - The shape of the tip is somewhat concave or cup-like, which could afford the action of scooping up small items or liquid.\n3.  **paddle** - The appendage is thin and flat, which could be used for paddling or stirring.\n4.  **clean** - The shape is suitable for wiping or cleaning a surface.\n5.  **seal** - The tip could be pressed against a surface to create a seal or"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_23_region_1",
+      "area": 1948,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "_^X89co0:G6L2M4M2N2N3M2O1N2O1N101N10001N10000O10001N100000O10001N10001N101N2O1N1O2N2N1O2N2N2N2N2N2L6K7HcaVf0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 6 appears as a flat, two-dimensional circular disc embedded within another layer rather than protruding like the crown-like structure above; its smooth surface suggests no tactile function compared to raised elements such as those at positions three and five which may offer grip points for manipulation by fingers due to their textured surfaces designed for interaction purposes",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.066853413300123,
+                "prob": 0.41252133451720663
+              },
+              {
+                "option": "aim",
+                "logprob": -1.5665871673845686,
+                "prob": 0.2502734625876767
+              },
+              {
+                "option": "attack",
+                "logprob": -2.81683495111065,
+                "prob": 0.07168678253923995
+              },
+              {
+                "option": "detect",
+                "logprob": -2.9417439453536645,
+                "prob": 0.0632691211394068
+              },
+              {
+                "option": "align",
+                "logprob": -3.691745255724527,
+                "prob": 0.029886177485573432
+              },
+              {
+                "option": "button",
+                "logprob": -3.942146618734114,
+                "prob": 0.02326603842733106
+              },
+              {
+                "option": "adjust",
+                "logprob": -4.25399387528887,
+                "prob": 0.017032911830808434
+              },
+              {
+                "option": "click",
+                "logprob": -4.2544760891469195,
+                "prob": 0.017024700304695647
+              },
+              {
+                "option": "focus",
+                "logprob": -4.504051662690472,
+                "prob": 0.013264478529923941
+              },
+              {
+                "option": "indicate",
+                "logprob": -4.692502775113098,
+                "prob": 0.010986184871168744
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Based on the visual analysis of part 6, which is a circular, concentric target-like structure located on the side of the object (resembling a snail or slug), its primary function appears to be a button or a control interface.",
+              "**button**: The concentric circles strongly resemble a target or a multi-level button interface, making this the most plausible function.",
+              "**control**: As a button, it serves as a control mechanism for the object.",
+              "**press**: The action required to interact with a button is pressing.",
+              "**click**: This is the specific motion associated with operating a button.",
+              "**trigger**: Buttons often act as triggers to initiate an action.",
+              "**start**: Pressing a button is a common way to start a process.",
+              "**stop**: Buttons are frequently used to halt operations.",
+              "**switch**: It functions as a switch to"
+            ],
+            "raw": "Based on the visual analysis of part 6, which is a circular, concentric target-like structure located on the side of the object (resembling a snail or slug), its primary function appears to be a button or a control interface.\n\n1.  **button**: The concentric circles strongly resemble a target or a multi-level button interface, making this the most plausible function.\n2.  **control**: As a button, it serves as a control mechanism for the object.\n3.  **press**: The action required to interact with a button is pressing.\n4.  **click**: This is the specific motion associated with operating a button.\n5.  **trigger**: Buttons often act as triggers to initiate an action.\n6.  **start**: Pressing a button is a common way to start a process.\n7.  **stop**: Buttons are frequently used to halt operations.\n8.  **switch**: It functions as a switch to"
+          }
+        }
+      }
+    }
+  ],
+  "generation_option_order": "shuffled_per_part"
+}

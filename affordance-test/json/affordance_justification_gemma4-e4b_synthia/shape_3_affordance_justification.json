@@ -1,0 +1,722 @@
+{
+  "object": "shape_3",
+  "model": "google/gemma-4-E4B-it",
+  "image_path": "/shared/nas/data/m1/adadt2/nvrd/regions_test/data/novel/shape_3.png",
+  "region_source": "sam_slic",
+  "method": "per_part_with_comparative_context",
+  "top_k": 10,
+  "modes": [
+    "logprob",
+    "generation"
+  ],
+  "regions": [
+    {
+      "region_id": "shape_3_region_5",
+      "area": 131617,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "gjn9a0Xo0:H7I6I7J6K4J7J6G9K4iMaMhVOe2Vi0_M^VOk2ai0[MRVOl2mi0ZMiUOl2Vj0ZMWUOT3hj0R1010O01O1O010O0101N2O0O101N3N2M2O3L5K4L2O0O1O1O2N10O01O00001O001O1N2O1O001O001O00000O2O000O2O000O2O001N100O010O100O100O1000000O010O10O0100O010O10O010O01O010O0010O000001O001O0000O1O1000000O100N2N200O1O100O1O101O0O1O00100O10000O1O10000000000N3O000000000000000O10000000000000001N100001O000000000001O00000000000001O00001O01O0XDSL]Km3d4ULZKk3g4VLWKk3h4VLXKi3i4XLUKh3l4XLSKh3o4XLoJh3R5YLlJg3V5XLiJh3X5YLfJg3\\5XLcJh3_5XL`Jh3`5XL_Jh3b5YL]Jf3e5YLZJg3g5ZLXJe3j5^LQJb3P6_LnI`3U6`LiI`3X6`LgIa3Y6`LeI`3]6_LbIa3_6`L`I_3a6aL^I_3c6bLZI_3g6bLWI^3k6aLTI_3m6bLQI^3P7cLnH^3R7bLmH^3T7cLkH\\3V7eLhH[3Z7eLdH[3]7fL`H[3a7fL]HZ3d7fL[HZ3f7gLXHY3i7gLVHY3k7hLSHY3m7hLQHX3o7iLnGY3S8hLjGZ3V8gLhGY3Y8hLeGX3\\8iLbGX3]8jLaGV3`8kL^GV3b8kL[GV3e8lLXGV3h8kLUGV3k8lLRGV3n8kLPGV3o8lLmFV3T9lLiFU3V9mLgFU3X9mLeFU3Z9nLbFS3_9nL^FT3a9oLZFT3f9mLWFU3h9lLVFU3j9mLTFT3k9nLRFT3m9nLPFT3o9nLmEU3Q:oLjET3U:nLgEU3Y:lLbEX3]:iL`EZ3_:hL]E[3a:iLZEZ3e:iLUE[3j:hLPE\\3n:gLlD^3S;eLeDa3Z;bLaDa3^;bL[Dc3c;aLSDg3l;\\LnCh3P<\\LkCh3S<\\LgCg3X<_L]Ch3`<hJk_OoNZ3a6j<PJ]_OeNi0g0i2i6o<nI__O]NQ1j0Y2R7U=gIl@XOg1V7\\=cIo@WO`1Z7_=_IUAVOU1`7d=YI]AWOh0e7h=SIeAZO8l7P>hHnA\\OJR8V>`HVB]O[O[8\\>XH^BH^N[8R?lGdB[:Y=eElBY:Q=gESCX:k<fE\\CW:b<hEbCW:[<jEiCT:U<jEPDU:m;kEXDS:e;lE`DS:^;mEeDR:Y;mEkDR:R;nEQER:l:nEWER:g:mE]ER:`:nEcER:[:nEgER:V:nEmER:Q:lESFT:j9lEYFT:e9jE_FW:]9jEeFV:X9jEkFV:S9iEoFX:n8iETGW:j8gEZGY:c8hE_GX:_8hEbGY:\\8gEfGY:V8fEnG[:P8dESH]:i7cEYH^:e7aE^H^:a7aEaH`:[7aEhH_:V7`ElHa:R7^EPId:l6]EVIc:g6]E[Id:c6\\E^Ie:_6YEfIg:X6YEiIh:U6XElIi:R6VEPJk:m5UEVJl:f5TE\\Jm:a5REbJo:\\5QEeJP;X5PEjJQ;T5oDnJQ;o4PERKQ;l4lDXKU;f4jD\\KW;a4jD`KW;]4jDdKW;Y4iDiKX;U4hDlKY;R4dDRL];k3dDUL^;i3bDXL`;e3^D^Lc;_3^DbLc;\\3\\DfLe;Y3XDjLi;T3WDmLj;R3VDnLk;P3UDQMl;m2QDWMP<h2mCZMV<c2jC^MW<a2hC`MY<`2eCaM\\<^2^ChMc<X2XClMi<e:1O1N2O2N1O1N2O1O1O1O1O2N1O1O1N2O1O1O2N1N2O1O1O1O1O1O1N2O2N1O1O1N2O1O1O1O1N2O1O1O1O1N2O1N2O100O1O1O1O2N1O1N2O1O001O1O1O1O1N101OcGb_OY1]`0bNn_OY1Q`0cNV@Z1j?dN[@Z1d?bNd@Z1\\?dNi@Z1V?eNm@Y1R?fNSAW1m>gNXAV1h>iNZAW1e>hN^AV1b>hNcAU1]>jNgAS1Y>lNkAQ1U>nNnAP1R>oNQBo0n=QOUBm0k=ROXBl0h=SO[Bk0e=TO^Bj0b=VOaBg0_=XOeBe0[=ZOhBd0X=[OkBc0U=\\OoB`0R=_OQC?o<ASC=l<CWC;i<D[C8f<G]C7c<I_C5a<JcC3\\<MgC1Y<NjCOW<0lCNT<2oCJR<5QDIo;5WDGi;9YDDh;;[DCe;<^DAc;?_D_Oa;`0bD]O_;b0dD\\O[;d0iDYOW;f0nDUOS;k0nDTOR;k0QEROP;m0SEPOn:P1UEmNj:S1XElNh:S1[EjNf:U1_EgNa:X1cEdN^:\\1cEcN]:\\1gE`NZ:_1jE^NU:b1mE\\NT:d1nEYNS:f1QFWNo9h1VFSNk9m1XFPNh9o1[FnMf9Q2]FlMd9S2^FlMb9S2aFjM`9V2bFhM^9W2fFeM[9Z2iFcMV9]2nF_MS9`2PG^MP9b2SGZMn8e2VGWMk8h2WGVMj8i2XGVMh8j2[GRMf8m2^GoLc8P3bGkL_8T3eGiL[8V3hGgLY8Y3hGeLY8Z3jGcLW8]3kG_LW8`3mG\\LT8c3QHWLQ8h3SHSLo7l3WHkKm7T4P:O100O1O101N1O1O2N101N2N3M2N2O1N2N2N3N2M3M2N3M3N2M2O1N3M3M3N2M3M3M3N1N3M4M1N3N2M3M3M2N3M4L3N1N3M4L3L4M4K5J8Dd`m4"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "anchor",
+          "justification": "Its large, foundational base suggests stability for holding or connecting other elements together compared to the more varied shapes of the others",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "anchor",
+                "logprob": -0.022296503029792802,
+                "prob": 0.978269075959255
+              },
+              {
+                "option": "support",
+                "logprob": -4.1473003623541445,
+                "prob": 0.015812185890565635
+              },
+              {
+                "option": "balance",
+                "logprob": -5.3972967861463985,
+                "prob": 0.004530283307697358
+              },
+              {
+                "option": "none",
+                "logprob": -7.647285103777904,
+                "prob": 0.00047749392590427226
+              },
+              {
+                "option": "block",
+                "logprob": -7.647305726641207,
+                "prob": 0.00047748407871384916
+              },
+              {
+                "option": "absorb",
+                "logprob": -8.147343514919157,
+                "prob": 0.00028959778965605186
+              },
+              {
+                "option": "align",
+                "logprob": -10.272305369024252,
+                "prob": 3.458884301930913e-05
+              },
+              {
+                "option": "control",
+                "logprob": -10.397300600767267,
+                "prob": 3.052469237775577e-05
+              },
+              {
+                "option": "hold",
+                "logprob": -10.647636230482021,
+                "prob": 2.3764676856432208e-05
+              },
+              {
+                "option": "stand",
+                "logprob": -11.272303819343506,
+                "prob": 1.2724543959675689e-05
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "stand",
+              "support",
+              "block",
+              "defend",
+              "contain",
+              "hold",
+              "anchor",
+              "rest",
+              "control",
+              "align"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "stand\nsupport\nblock\ndefend\ncontain\nhold\nanchor\nrest\ncontrol\nalign"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_3_region_0",
+      "area": 74704,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "bam8>\\o0:G9H8F8J6L4K5M2N3J6M2O1N2N3M3M2N3M2O2L4M2N3M3N1N2N4L3M3M3L3M5L2N3M3M2M3N3M3M3L3N4L3L4M2N4L3M3L4M4L2N4L4K6K6J4L5K7I9F<E7I2N4L8H3M4K4M2N4L4L3M3M3M2N2M4M2N2N2N2M4M2N2O0O2N2N1O2N101N2N1O2O0O2O0O2O000000^GfZO_6Ye0]InZO`6Qe0_IS[O_6md0_IV[O`6jd0^IY[Oa6gd0^I\\[O`6cd0`I^[O`6bd0_I`[O`6_d0_Ic[Oa6]d0^Id[Ob6\\d0\\If[Od6Zd0ZIh[Of6Wd0ZIj[Of6Vd0XIl[Oh6Sd0VIP\\Oj6Pd0TIR\\Ok6nc0UIS\\Ok6mc0SIU\\Om6kc0QIV\\OP7ic0oHX\\OQ7ic0mHX\\OT7hc0jHY\\OW7fc0iHZ\\OW7fc0iHZ\\OX7ec0hH[\\OX7fc0hHX\\OZ7gc0fHX\\O[7ic0eHV\\O\\7ic0eHU\\O\\7lc0dHS\\O\\7nc0dHQ\\O]7oc0cHo[O^7Qd0dHl[O]7Td0dHj[O]7Vd0dHi[O\\7Xd0dHg[O[7Zd0fHe[OZ7\\d0gHb[OY7^d0jH_[OU7bd0nHZ[OS7fd0PIV[OQ7kd0PIR[OP7od0SIlZOo6Te0m12N1O2M3O0O2O1N1O2O1O1N2N2N2O1N10001O0O2O1N10000O2N101O001O1N101O1O1O1O1O1O001O1O1O1O00O10O20O01OO100001O001O1N2O100O00O2O0001O000001O01O001O00100O1O0000001O001O010O001O0001O0010O0O200O001O1O1OO10O2O001O1O000O2O001O0O2O1O1N1O2O1O1N2N2N2N2N2N2N2N2M3N2O1L4M4L3M4K6J5M2M4M3K7I4L5K5K6I8E<E9H9H7M4H7K5G:K4I8E<G9H7I8F9I<C;Bfbd="
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "contain",
+          "justification": "Its central cavity suggests its function is to hold something within its boundaries unlike the surrounding structural elements",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "contain",
+                "logprob": -0.16166537941171555,
+                "prob": 0.8548671128562151
+              },
+              {
+                "option": "absorb",
+                "logprob": -2.911667227406724,
+                "prob": 0.054649725148338324
+              },
+              {
+                "option": "support",
+                "logprob": -3.4116516111171222,
+                "prob": 0.0331472514803726
+              },
+              {
+                "option": "none",
+                "logprob": -4.28663599489937,
+                "prob": 0.013818045982829654
+              },
+              {
+                "option": "anchor",
+                "logprob": -4.536652207152656,
+                "prob": 0.010761330565113355
+              },
+              {
+                "option": "control",
+                "logprob": -4.661644816304943,
+                "prob": 0.009496911081365637
+              },
+              {
+                "option": "hold",
+                "logprob": -5.0750416330993176,
+                "prob": 0.006281254863889915
+              },
+              {
+                "option": "block",
+                "logprob": -5.661667107888206,
+                "prob": 0.0034936404618223934
+              },
+              {
+                "option": "amplify",
+                "logprob": -5.911649226984025,
+                "prob": 0.0027208985791290358
+              },
+              {
+                "option": "form",
+                "logprob": -6.036648869356213,
+                "prob": 0.002401185427058737
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "contain",
+              "hold",
+              "support",
+              "absorb",
+              "fill",
+              "store_fuel",
+              "pack",
+              "immerse",
+              "collect"
+            ],
+            "n_valid": 9,
+            "invalid": [
+              "cradle"
+            ],
+            "raw": "1. contain\n2. hold\n3. support\n4. absorb\n5. fill\n6. store_fuel\n7. pack\n8. immerse\n9. collect\n10. cradle"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_3_region_7",
+      "area": 36394,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "aUb97ho07I5K7I4L6J4L8H5L2M7J5J6J5K8H6K5J5L5J5L5J5L5J5L3bVOmKif0V4SYOlKkf0Z4oXOhKPg0\\4jXOgKUg0^4eXOcKZg0a4bXOaK]g0d4\\XO^Kcg0g4WXO\\Khg0g4SXO[Klg0j4nWOYKQh0l4hWOWKWh0P5^WOTKah0W6N100O2O001N101O0O2O1O0O2O001N10001N10001N101O0O2O001N101O001O1N101O00001O0000001O1O001O001O01O010O010O100O1O00100O1O101N100O1O100O2O1O0O2O1N1O1O2N3M1N3N2N2M2O1O3L3N2WNmVOaLUi0T52XNiVObLZi0]3gVOaLZi0^3hVO_L[i0^3fVObL]i0_3_VO`Ldi0m42gN[VORLhi0n3WVOQLki0n3UVOPLoi0o41N2J8M3N0BcUOWK_j0S54M2M2O2N3M3M2N2N2N2N1O3M2N2N1O3M2N2M3N1O3M2M2O2M3N2N0O2O2M3M2O1N2N2O0O2O1N2N2O1N3M1O2O1N2N2O1N2O1N101N1O2O0O2O2M1O2O0O2O1N101N2O0O2N2O0O2N3N1N1O2O0O2O0O2O1N2N2O0O2N2N101N2O1N3N1N101O0O2O001N101O1N2O1N3N2MYen>"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "align",
+          "justification": "Its relatively flat surface suggests it can be positioned against another component for proper orientation within the structure",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "align",
+                "logprob": -0.4793655572266289,
+                "prob": 0.6223450250620552
+              },
+              {
+                "option": "none",
+                "logprob": -1.4793502092243216,
+                "prob": 0.2289514539561338
+              },
+              {
+                "option": "anchor",
+                "logprob": -3.2293742890924477,
+                "prob": 0.03978483898745964
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -3.2310158847853927,
+                "prob": 0.03971958194462829
+              },
+              {
+                "option": "attach",
+                "logprob": -3.854365706236422,
+                "prob": 0.02129547252501598
+              },
+              {
+                "option": "adjust",
+                "logprob": -4.35436236843816,
+                "prob": 0.012916400111756094
+              },
+              {
+                "option": "block",
+                "logprob": -4.8543804877772345,
+                "prob": 0.00783405073178821
+              },
+              {
+                "option": "ascend",
+                "logprob": -4.979429122429792,
+                "prob": 0.006913189276759022
+              },
+              {
+                "option": "orient",
+                "logprob": -5.479362964473694,
+                "prob": 0.0041933386662896845
+              },
+              {
+                "option": "bend",
+                "logprob": -5.479369044021951,
+                "prob": 0.0041933131727624005
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "control",
+              "adjust",
+              "select",
+              "input",
+              "direct"
+            ],
+            "n_valid": 5,
+            "invalid": [
+              "operate",
+              "guide",
+              "regulate",
+              "manage",
+              "monitor"
+            ],
+            "raw": "1. control\n2. adjust\n3. select\n4. input\n5. operate\n6. guide\n7. direct\n8. regulate\n9. manage\n10. monitor"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_3_region_1",
+      "area": 28950,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "bZQb0a0Zo0:G8H6L4L5I7J5K6J6K5K4L5K4K7J4M4J5L5J5M3L4L3M3M4L3N2M3L4M3L4N2M3M2O2L4N2N1O2K4N3M2N3M2N3M2N2O2M2O1L5N1O1N2N3M2M3O1N2O2N1L4N2O100M3O1L4O001M3O1N2M3O100O1L4M201O1O1J6L4O1O10O0100001N101O001O001O001O0O2O001O001N101O001O001O0O2O1O001O0O2O0`NfXOZJZg0b5mXO[JTg0_5SYO_Jmf0]5YYO`Jif0[5]YOcJcf0X5dYOfJ]f0V5gYOiJYf0S5mYOjJUf0Q5QZOmJoe0P5UZOnJme0m4e2M4L3L5L3M4K4M4L3L5L4K4N2M4J5M4L4L3M4K4L5M2L5K4M3M4L3L5M2M4J5N3L3K6L4M3L4L5J6Jiif8"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "The piece appears as a solid block integrated into the structure without any visible features suggesting interaction like gripping or attachment points seen in others",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.05088210104167956,
+                "prob": 0.9531179174483733
+              },
+              {
+                "option": "block",
+                "logprob": -3.4259088034050365,
+                "prob": 0.03261303080759147
+              },
+              {
+                "option": "anchor",
+                "logprob": -4.925905942473037,
+                "prob": 0.007276971605914708
+              },
+              {
+                "option": "align",
+                "logprob": -6.050898432482427,
+                "prob": 0.0023625045290770696
+              },
+              {
+                "option": "brake",
+                "logprob": -7.675898909308671,
+                "prob": 0.00046520450267629256
+              },
+              {
+                "option": "reinforce",
+                "logprob": -7.675903677563831,
+                "prob": 0.0004652022844678109
+              },
+              {
+                "option": "control",
+                "logprob": -7.8008996245480375,
+                "prob": 0.00041054123904487466
+              },
+              {
+                "option": "bend",
+                "logprob": -7.92590618088434,
+                "prob": 0.0003622989964784941
+              },
+              {
+                "option": "cover",
+                "logprob": -8.050904273604829,
+                "prob": 0.00031972835201253167
+              },
+              {
+                "option": "orient",
+                "logprob": -8.175892114519229,
+                "prob": 0.00028216271113923634
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "support",
+              "hold",
+              "contain",
+              "anchor",
+              "block",
+              "seal",
+              "cover",
+              "rest",
+              "lean",
+              "stand"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. support\n2. hold\n3. contain\n4. anchor\n5. block\n6. seal\n7. cover\n8. rest\n9. lean\n10. stand"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_3_region_2",
+      "area": 27520,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "Q\\W47go03K7I6L3K5M3M3J6M3L4L4M3L3N3M3M3N101GnMaROT2]m0nMbROS2\\m0oMdROP2\\m0PNdROQ2Zm0<O0I^MQSOb2ml0`MRSOa2ml0_MTSOa2jl0<0ON3N2OnLXSOm2fl0701O1N101O1O1O1O00100O001O010O1O1O00100O00100O1O010O1O100O010O1002M01N2O0O200O1O010O010O100O1O010O100O010O1O100O00100O10O01O100O010O1000O3NN2O0O200O10O0100O1O00100O010O10O010O01O100O10O0100O100O010O1O1O010O100O00100O100O100O010O1O100O100O1O100O100O101N100O010O01N101N1O2N1O1O2O0O2N1O2N1O2N4L0O2O1O1N2O2N1N3N1O1O2M2O2N1O2M2O2N1O2N2N1O1N3N1N3N1O2N1O2N1O1N3N1O2N1O2M2O2N1O2N2N1N3N1O2N1O2N1O2M2O1N3N1O2N1O2N1O2N1O2N1O2N101N100O2O001N101O0O101O00001O00001O001N101O001N100O2O0O2O0O2N1O2N2N2NobTc0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "The piece appears as a flat attachment without any obvious functional interface for interaction compared to the others which seem integrated into the main structure",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.8082759380245079,
+                "prob": 0.4472891093977632
+              },
+              {
+                "option": "attach",
+                "logprob": -1.1832901237667102,
+                "prob": 0.30741264850153227
+              },
+              {
+                "option": "anchor",
+                "logprob": -2.058301448370912,
+                "prob": 0.12814720630445992
+              },
+              {
+                "option": "align",
+                "logprob": -2.683296799337768,
+                "prob": 0.0685925755956591
+              },
+              {
+                "option": "support",
+                "logprob": -4.05829787219227,
+                "prob": 0.017342900482394116
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -4.319756299604705,
+                "prob": 0.013352782647477376
+              },
+              {
+                "option": "block",
+                "logprob": -5.558305978178396,
+                "prob": 0.0038696927942716455
+              },
+              {
+                "option": "hold",
+                "logprob": -5.683747774135554,
+                "prob": 0.0034134835085075908
+              },
+              {
+                "option": "detach",
+                "logprob": -5.808298349016695,
+                "prob": 0.003013742770667746
+              },
+              {
+                "option": "orient",
+                "logprob": -6.183287739620937,
+                "prob": 0.002071335070810682
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "support",
+              "hold",
+              "attach",
+              "stand",
+              "carry",
+              "block",
+              "contain",
+              "rest",
+              "place",
+              "lean"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. support\n2. hold\n3. attach\n4. stand\n5. carry\n6. block\n7. contain\n8. rest\n9. place\n10. lean"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_3_region_11",
+      "area": 9200,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "ndT49do06K4M4K3M3N1O3M2N1O2N1O1O010O00000001O01O001O01O000001O1O010O001O010O001O00010O001O001O001O01O01O0010O01O001O0001O01O1O0010O01O00100O001O010O001O010O1O1O0010O0001O001O0010O01O01O01O001O001O001O10O01O000010O01O0000100O1O001O001O00010O001O0000001O001O000O101O001O0O2N100O100O1N3N1N2N3M2N2I8G9O010O02N1O2O1YNhSODYl05STOEmk07ZTOFgk06_TOFck05dTOH]k0^OTSO>f1C[N9Pm02nTONSk0NoTO2Sk0HSUO7[m0O2O2M3M2NT]ef0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "The small protrusion lacks any discernible feature suggesting interaction like gripping or pushing compared to the more substantial components of the structure",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.52225959299858,
+                "prob": 0.5968963336618242
+              },
+              {
+                "option": "attach",
+                "logprob": -1.6472712753857195,
+                "prob": 0.1937816036355263
+              },
+              {
+                "option": "support",
+                "logprob": -2.5222834344622242,
+                "prob": 0.08077920846149866
+              },
+              {
+                "option": "anchor",
+                "logprob": -2.647286295399681,
+                "prob": 0.07128719731200318
+              },
+              {
+                "option": "hold",
+                "logprob": -3.773817866924219,
+                "prob": 0.023108145604249692
+              },
+              {
+                "option": "tie",
+                "logprob": -4.522270083312833,
+                "prob": 0.010932423016204834
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -5.035029818211115,
+                "prob": 0.006546779357937947
+              },
+              {
+                "option": "detach",
+                "logprob": -5.5222786662143335,
+                "prob": 0.004021779151168802
+              },
+              {
+                "option": "align",
+                "logprob": -5.772276758909356,
+                "prob": 0.003132170726269631
+              },
+              {
+                "option": "wedge",
+                "logprob": -6.272287845069513,
+                "prob": 0.0018997365160369024
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "hold",
+              "support",
+              "carry",
+              "attach",
+              "cover",
+              "block",
+              "contain",
+              "pack"
+            ],
+            "n_valid": 8,
+            "invalid": [
+              "secure",
+              "stabilize"
+            ],
+            "raw": "1. hold\n2. support\n3. carry\n4. attach\n5. cover\n6. block\n7. contain\n8. pack\n9. secure\n10. stabilize"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_3_region_9",
+      "area": 16702,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "ie_47ho04L5K3M2M6K3M2N3M4M2M2O2M4M2M2N3N3L3N2M2N2O2M2O001N1O2O0O101N10000O1O1O100O100O10O0100O100O1O10O0100O100O01000O10O01000O01000O01000O01O1O010O010O10O0100O10O01O100O010O10O10O010O1O010O100O010O10O01O10O0100O00100O010O10O01O1O010O1O10O0100O10O010O01N2O1O010O1O10O0100O10O0100O010O10O10O10000O0100000O10O0100O1000O2O001O2N2N2M2O1O2N2N1O2M3N2N2N2N1O2N2N1O3N0O2N2N2O1N2N1O2N2N2O1N3M2N4L3M4L3M3M4K5L5J8HoYYe0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "The small protrusion at its end lacks any discernible feature suggesting interaction like gripping or pushing compared to the more substantial components of the structure",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.1757184415919255,
+                "prob": 0.8453739273898447
+              },
+              {
+                "option": "attach",
+                "logprob": -3.1757320163887925,
+                "prob": 0.04208811817783516
+              },
+              {
+                "option": "support",
+                "logprob": -3.5507372614847554,
+                "prob": 0.028926560665129063
+              },
+              {
+                "option": "anchor",
+                "logprob": -3.5507441754343745,
+                "prob": 0.028926360669037355
+              },
+              {
+                "option": "tie",
+                "logprob": -3.800728082547721,
+                "prob": 0.02252823488186546
+              },
+              {
+                "option": "hold",
+                "logprob": -4.681035159621388,
+                "prob": 0.009341457871322135
+              },
+              {
+                "option": "align",
+                "logprob": -5.050734996555548,
+                "prob": 0.0064544027325022305
+              },
+              {
+                "option": "wedge",
+                "logprob": -5.675740122429488,
+                "prob": 0.0034547751180488842
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -6.058663854370025,
+                "prob": 0.002355689896663992
+              },
+              {
+                "option": "bend",
+                "logprob": -6.550735115761199,
+                "prob": 0.0014401717436890646
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "none",
+              "absorb",
+              "listen",
+              "focus",
+              "see",
+              "rest",
+              "track",
+              "shade",
+              "conceal",
+              "detect"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. none\n2. absorb\n3. listen\n4. focus\n5. see\n6. rest\n7. track\n8. shade\n9. conceal\n10. detect"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_3_region_6",
+      "area": 1388,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "d_Q<3io07K4L3M3N2N2N1N3N1N2N2O1N2M3N2O1N1O2N1O1O011O0001N1O2O1N2O1O1N3M2N2O2N1O2N2N3L4L3M4K_acb0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "support",
+          "justification": "It occupies a central cavity within the structure, suggesting its function is to hold weight for surrounding components",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "support",
+                "logprob": -1.1069709060793684,
+                "prob": 0.3325623162652947
+              },
+              {
+                "option": "contain",
+                "logprob": -1.1069951048157236,
+                "prob": 0.33255426877485167
+              },
+              {
+                "option": "none",
+                "logprob": -1.8569571971761434,
+                "prob": 0.15709346847019937
+              },
+              {
+                "option": "anchor",
+                "logprob": -2.7319738862552185,
+                "prob": 0.06548520764786099
+              },
+              {
+                "option": "absorb",
+                "logprob": -3.2320002311425924,
+                "prob": 0.03971773982291031
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -3.7325861956253448,
+                "prob": 0.02407591517181124
+              },
+              {
+                "option": "hold",
+                "logprob": -3.9830352161079645,
+                "prob": 0.018741924191471117
+              },
+              {
+                "option": "control",
+                "logprob": -4.481967687486758,
+                "prob": 0.011379693310505404
+              },
+              {
+                "option": "attach",
+                "logprob": -5.356972455772848,
+                "prob": 0.004743739317179168
+              },
+              {
+                "option": "block",
+                "logprob": -5.981999515366624,
+                "prob": 0.0025390719762491843
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "hold",
+              "contain",
+              "support",
+              "block",
+              "align",
+              "load",
+              "place",
+              "attach",
+              "cover",
+              "seal"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. hold\n2. contain\n3. support\n4. block\n5. align\n6. load\n7. place\n8. attach\n9. cover\n10. seal"
+          }
+        }
+      }
+    }
+  ],
+  "generation_option_order": "shuffled_per_part"
+}

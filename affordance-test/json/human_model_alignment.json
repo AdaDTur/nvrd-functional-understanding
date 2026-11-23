@@ -1,0 +1,584 @@
+{
+  "part": {
+    "humans split-half": {
+      "rho": 0.3227070701511938,
+      "n": 51,
+      "rho_spearman_brown": 0.4879494143995259
+    },
+    "molmo2-4b|generation": {
+      "rho": 0.12301232826149318,
+      "n": 92
+    },
+    "molmo2-4b|logprob": {
+      "rho": 0.28634726558128254,
+      "n": 92
+    },
+    "phi3.5-vision|generation": {
+      "rho": 0.046756692210746575,
+      "n": 57
+    },
+    "phi3.5-vision|logprob": {
+      "rho": 0.20252123925165796,
+      "n": 92
+    },
+    "gemma4-e4b|generation": {
+      "rho": -0.08630013280556258,
+      "n": 92
+    },
+    "gemma4-e4b|logprob": {
+      "rho": 0.2628184416416984,
+      "n": 92
+    },
+    "qwen3.5-4b|generation": {
+      "rho": 0.09334943843106736,
+      "n": 57
+    },
+    "qwen3.5-4b|logprob": {
+      "rho": 0.3172474678773427,
+      "n": 92
+    },
+    "gpt-5.4|generation": {
+      "rho": 0.3225664235219788,
+      "n": 92
+    }
+  },
+  "object": {
+    "humans split-half": {
+      "rho": 0.1679166613804943,
+      "n": 10,
+      "rho_spearman_brown": 0.2875490468335547
+    },
+    "molmo2-4b|generation": {
+      "rho": -0.07758266943144142,
+      "n": 14
+    },
+    "molmo2-4b|logprob": {
+      "rho": 0.006853890181269235,
+      "n": 14
+    },
+    "phi3.5-vision|generation": {
+      "rho": -0.03602479422169607,
+      "n": 12
+    },
+    "phi3.5-vision|logprob": {
+      "rho": 0.007556045743303597,
+      "n": 14
+    },
+    "gemma4-e4b|generation": {
+      "rho": -0.03392665398679278,
+      "n": 14
+    },
+    "gemma4-e4b|logprob": {
+      "rho": 0.0714610527263048,
+      "n": 14
+    },
+    "qwen3.5-4b|generation": {
+      "rho": 0.07529831942999421,
+      "n": 11
+    },
+    "qwen3.5-4b|logprob": {
+      "rho": 0.14881360358874499,
+      "n": 14
+    },
+    "gpt-5.4|generation": {
+      "rho": 0.09663238383879418,
+      "n": 14
+    }
+  },
+  "grouped": {
+    "humans split-half": {
+      "rho": 0.24010750839830167,
+      "n": 51,
+      "rho_spearman_brown": 0.38723660129825316
+    },
+    "molmo2-4b|generation": {
+      "rho": 0.12268053214887367,
+      "n": 92
+    },
+    "molmo2-4b|logprob": {
+      "rho": 0.2584212155921533,
+      "n": 92
+    },
+    "phi3.5-vision|generation": {
+      "rho": -0.061787772615597675,
+      "n": 90
+    },
+    "phi3.5-vision|logprob": {
+      "rho": 0.17490310144724633,
+      "n": 92
+    },
+    "gemma4-e4b|generation": {
+      "rho": 0.005536306516747478,
+      "n": 92
+    },
+    "gemma4-e4b|logprob": {
+      "rho": 0.24896033543520507,
+      "n": 92
+    },
+    "qwen3.5-4b|generation": {
+      "rho": 0.15919039531165732,
+      "n": 57
+    },
+    "qwen3.5-4b|logprob": {
+      "rho": 0.2873028576414535,
+      "n": 92
+    },
+    "gpt-5.4|generation": {
+      "rho": 0.2783614298490485,
+      "n": 92
+    }
+  },
+  "per_object": {
+    "shape_28": {
+      "humans split-half": 0.2551496168212587,
+      "molmo2-4b|generation": 0.17120964207170025,
+      "molmo2-4b|logprob": 0.13289305429568873,
+      "phi3.5-vision|generation": -0.0021972943516332575,
+      "phi3.5-vision|logprob": -0.026477046685495786,
+      "gemma4-e4b|generation": -0.11452577748448503,
+      "gemma4-e4b|logprob": 0.2852171772800972,
+      "qwen3.5-4b|generation": 0.4603621024911657,
+      "qwen3.5-4b|logprob": 0.17326620837993362,
+      "gpt-5.4|generation": 0.3669252356339328
+    },
+    "shape_14": {
+      "humans split-half": -0.11421790756300237,
+      "molmo2-4b|generation": 0.18626404923510745,
+      "molmo2-4b|logprob": 0.2518644249701621,
+      "phi3.5-vision|generation": NaN,
+      "phi3.5-vision|logprob": 0.3600562481092027,
+      "gemma4-e4b|generation": 0.18455302923688766,
+      "gemma4-e4b|logprob": 0.4291544604323713,
+      "qwen3.5-4b|generation": 0.04913036844405175,
+      "qwen3.5-4b|logprob": 0.4362000680767831,
+      "gpt-5.4|generation": 0.30426756686549683
+    },
+    "shape_20": {
+      "humans split-half": 0.35723659713142947,
+      "molmo2-4b|generation": -0.034210147062822036,
+      "molmo2-4b|logprob": 0.20098825488628985,
+      "phi3.5-vision|generation": 0.059955235537758673,
+      "phi3.5-vision|logprob": 0.029981055119010978,
+      "gemma4-e4b|generation": -0.14693806441875454,
+      "gemma4-e4b|logprob": 0.09012465343606994,
+      "qwen3.5-4b|generation": 0.28561170537767994,
+      "qwen3.5-4b|logprob": 0.30969501601321875,
+      "gpt-5.4|generation": 0.4395065952136991
+    },
+    "shape_38": {
+      "humans split-half": 0.4475481611577888,
+      "molmo2-4b|generation": -0.1908350358600712,
+      "molmo2-4b|logprob": -0.06637868199395558,
+      "phi3.5-vision|generation": -0.10708823421952983,
+      "phi3.5-vision|logprob": -0.15963771420352524,
+      "gemma4-e4b|generation": 0.1907981002721363,
+      "gemma4-e4b|logprob": 0.36557109234177587,
+      "qwen3.5-4b|generation": NaN,
+      "qwen3.5-4b|logprob": 0.3318273436997277,
+      "gpt-5.4|generation": 0.7038185451240326
+    },
+    "shape_21": {
+      "humans split-half": 0.50736494442592,
+      "molmo2-4b|generation": -0.36298586076615014,
+      "molmo2-4b|logprob": 0.08872987707617003,
+      "phi3.5-vision|generation": 0.3138514904811289,
+      "phi3.5-vision|logprob": -0.20165881153675005,
+      "gemma4-e4b|generation": 0.2867413326183439,
+      "gemma4-e4b|logprob": 0.13288012974996424,
+      "qwen3.5-4b|generation": NaN,
+      "qwen3.5-4b|logprob": -0.33237724313079486,
+      "gpt-5.4|generation": 0.4274466091826928
+    },
+    "shape_13": {
+      "humans split-half": 0.4010444971968248,
+      "molmo2-4b|generation": 0.23544865805366796,
+      "molmo2-4b|logprob": 0.36480317562507214,
+      "phi3.5-vision|generation": NaN,
+      "phi3.5-vision|logprob": 0.35396194669115677,
+      "gemma4-e4b|generation": 0.003946497803189219,
+      "gemma4-e4b|logprob": 0.3007478142430262,
+      "qwen3.5-4b|generation": -0.3729900287241657,
+      "qwen3.5-4b|logprob": 0.3030791545291698,
+      "gpt-5.4|generation": 0.3157022930451606
+    },
+    "shape_25": {
+      "humans split-half": 0.46024968027548446,
+      "molmo2-4b|generation": 0.44889262980847533,
+      "molmo2-4b|logprob": 0.28486833220724783,
+      "phi3.5-vision|generation": 0.10269246010854727,
+      "phi3.5-vision|logprob": 0.11842196219529344,
+      "gemma4-e4b|generation": -0.08451623414601381,
+      "gemma4-e4b|logprob": 0.2154296643605514,
+      "qwen3.5-4b|generation": 0.001970128149066136,
+      "qwen3.5-4b|logprob": 0.438060244156227,
+      "gpt-5.4|generation": 0.2853379414679588
+    },
+    "shape_18": {
+      "humans split-half": 0.27155608045364027,
+      "molmo2-4b|generation": -0.2896080750216441,
+      "molmo2-4b|logprob": 0.1091690058088365,
+      "phi3.5-vision|generation": -0.14814814814814814,
+      "phi3.5-vision|logprob": 0.3110742568349481,
+      "gemma4-e4b|generation": -0.21614218408733682,
+      "gemma4-e4b|logprob": 0.2444072421080244,
+      "qwen3.5-4b|generation": NaN,
+      "qwen3.5-4b|logprob": 0.21940956136780054,
+      "gpt-5.4|generation": 0.5084458572749867
+    },
+    "shape_2": {
+      "humans split-half": 0.406267112108323,
+      "molmo2-4b|generation": 0.13495226898898877,
+      "molmo2-4b|logprob": 0.3386765384151666,
+      "phi3.5-vision|generation": 0.09623361085008249,
+      "phi3.5-vision|logprob": 0.0797757570502953,
+      "gemma4-e4b|generation": 0.13873868626797992,
+      "gemma4-e4b|logprob": 0.40331459086315724,
+      "qwen3.5-4b|generation": -0.1848162616198816,
+      "qwen3.5-4b|logprob": 0.18581418672427447,
+      "gpt-5.4|generation": 0.4568534699060074
+    },
+    "shape_19": {
+      "humans split-half": 0.17093805216114524,
+      "molmo2-4b|generation": -0.28156843548962524,
+      "molmo2-4b|logprob": 0.010772684684081338,
+      "phi3.5-vision|generation": 0.021826787402047847,
+      "phi3.5-vision|logprob": 0.008316674369804544,
+      "gemma4-e4b|generation": -0.21009705165940834,
+      "gemma4-e4b|logprob": 0.013615971082998453,
+      "qwen3.5-4b|generation": 0.020960277997897087,
+      "qwen3.5-4b|logprob": 0.3044581808386519,
+      "gpt-5.4|generation": 0.456662934532748
+    },
+    "shape_15": {
+      "molmo2-4b|generation": 0.13386834248899268,
+      "molmo2-4b|logprob": 0.33186520031068245,
+      "phi3.5-vision|generation": 0.23315165254131487,
+      "phi3.5-vision|logprob": 0.2844305312541544,
+      "gemma4-e4b|generation": 0.01984302089158,
+      "gemma4-e4b|logprob": 0.31276200070079874,
+      "qwen3.5-4b|generation": 0.11561981644980611,
+      "qwen3.5-4b|logprob": 0.39128165019661637,
+      "gpt-5.4|generation": 0.2879303655625532
+    },
+    "shape_30": {
+      "molmo2-4b|generation": 0.3094150923735392,
+      "molmo2-4b|logprob": 0.40977791043041717,
+      "phi3.5-vision|generation": 0.05852675719235498,
+      "phi3.5-vision|logprob": 0.4249454914695055,
+      "gemma4-e4b|generation": -0.21070170620105155,
+      "gemma4-e4b|logprob": 0.27801795406762625,
+      "qwen3.5-4b|generation": 0.0640950125259172,
+      "qwen3.5-4b|logprob": 0.42884609974609395,
+      "gpt-5.4|generation": 0.0765262673969945
+    },
+    "shape_31": {
+      "molmo2-4b|generation": 0.24379485490051764,
+      "molmo2-4b|logprob": 0.39398583212687255,
+      "phi3.5-vision|generation": 0.03493524216422142,
+      "phi3.5-vision|logprob": 0.33754233501374614,
+      "gemma4-e4b|generation": -0.15428820896298792,
+      "gemma4-e4b|logprob": 0.36009181564797327,
+      "qwen3.5-4b|generation": 0.05105628700466105,
+      "qwen3.5-4b|logprob": 0.279804142200019,
+      "gpt-5.4|generation": 0.3209436390127037
+    },
+    "shape_27": {
+      "molmo2-4b|generation": 0.2268063590440496,
+      "molmo2-4b|logprob": 0.46156716900619915,
+      "phi3.5-vision|generation": -0.21821789023599233,
+      "phi3.5-vision|logprob": 0.30847665119785467,
+      "gemma4-e4b|generation": -0.021818189608340154,
+      "gemma4-e4b|logprob": 0.4141017927277484,
+      "qwen3.5-4b|generation": 0.29369349017538626,
+      "qwen3.5-4b|logprob": 0.3747258045329795,
+      "gpt-5.4|generation": 0.16930817149942187
+    }
+  },
+  "participants": {
+    "a person vs the other people": {
+      "rho": 0.2019601960788443,
+      "n": 419
+    },
+    "google/gemini-3.8-flash": {
+      "rho": 0.3709635490086897,
+      "n": 92,
+      "object_rho": 0.33322846402040224
+    },
+    "google/gemini-3.8-flash pick1": {
+      "rho": 0.2843319330624482,
+      "n": 92,
+      "object_rho": 0.17797246302437214
+    }
+  },
+  "overlap": {
+    "two people": {
+      "labels": {
+        "any": 0.3286290322580645,
+        "jaccard": 0.1767809139784946,
+        "n": 992
+      },
+      "groups": {
+        "any": 0.4344758064516129,
+        "jaccard": 0.2785282258064516,
+        "n": 992
+      }
+    },
+    "molmo2-4b|generation": {
+      "labels": {
+        "any": 0.44630071599045346,
+        "jaccard": 0.13806682577565632,
+        "n": 419
+      },
+      "groups": {
+        "any": 0.5656324582338902,
+        "jaccard": 0.19892601431980905,
+        "n": 419
+      }
+    },
+    "molmo2-4b|logprob": {
+      "labels": {
+        "any": 0.27684964200477324,
+        "jaccard": 0.08504375497215592,
+        "n": 419
+      },
+      "groups": {
+        "any": 0.4701670644391408,
+        "jaccard": 0.14494828957836117,
+        "n": 419
+      }
+    },
+    "phi3.5-vision|generation": {
+      "labels": {
+        "any": 0.011933174224343675,
+        "jaccard": 0.004534606205250596,
+        "n": 419
+      },
+      "groups": {
+        "any": 0.1288782816229117,
+        "jaccard": 0.03464598249801114,
+        "n": 419
+      }
+    },
+    "phi3.5-vision|logprob": {
+      "labels": {
+        "any": 0.24821002386634844,
+        "jaccard": 0.07677008750994431,
+        "n": 419
+      },
+      "groups": {
+        "any": 0.3937947494033413,
+        "jaccard": 0.12382657120127286,
+        "n": 419
+      }
+    },
+    "gemma4-e4b|generation": {
+      "labels": {
+        "any": 0.33651551312649164,
+        "jaccard": 0.10898965791567224,
+        "n": 419
+      },
+      "groups": {
+        "any": 0.4200477326968974,
+        "jaccard": 0.18221957040572792,
+        "n": 419
+      }
+    },
+    "gemma4-e4b|logprob": {
+      "labels": {
+        "any": 0.3937947494033413,
+        "jaccard": 0.11897374701670643,
+        "n": 419
+      },
+      "groups": {
+        "any": 0.5346062052505967,
+        "jaccard": 0.18257756563245822,
+        "n": 419
+      }
+    },
+    "qwen3.5-4b|generation": {
+      "labels": {
+        "any": 0.2315035799522673,
+        "jaccard": 0.08794749403341288,
+        "n": 419
+      },
+      "groups": {
+        "any": 0.26730310262529833,
+        "jaccard": 0.13579952267303103,
+        "n": 419
+      }
+    },
+    "qwen3.5-4b|logprob": {
+      "labels": {
+        "any": 0.31742243436754175,
+        "jaccard": 0.10425616547334925,
+        "n": 419
+      },
+      "groups": {
+        "any": 0.42482100238663484,
+        "jaccard": 0.14888623707239457,
+        "n": 419
+      }
+    },
+    "gpt-5.4|generation": {
+      "labels": {
+        "any": 0.5250596658711217,
+        "jaccard": 0.2175019888623707,
+        "n": 419
+      },
+      "groups": {
+        "any": 0.6085918854415274,
+        "jaccard": 0.32824184566428005,
+        "n": 419
+      }
+    },
+    "participant google/gemini-3.8-flash": {
+      "labels": {
+        "any": 0.5775656324582339,
+        "jaccard": 0.26316626889419253,
+        "n": 419
+      },
+      "groups": {
+        "any": 0.6443914081145584,
+        "jaccard": 0.3667064439140811,
+        "n": 419
+      }
+    },
+    "participant google/gemini-3.8-flash pick1": {
+      "labels": {
+        "any": 0.360381861575179,
+        "jaccard": 0.2328957836117741,
+        "n": 419
+      },
+      "groups": {
+        "any": 0.4677804295942721,
+        "jaccard": 0.3701272871917263,
+        "n": 419
+      }
+    }
+  },
+  "like_for_like": {
+    "a person": {
+      "rho": 0.2019601960788443,
+      "jaccard": 0.16605940068947228,
+      "mean_picks": 1.6014319809069213,
+      "n": 419
+    },
+    "molmo2-4b|generation (top-n)": {
+      "rho": 0.1242825558351482,
+      "jaccard": 0.19397374701670644,
+      "mean_picks": 1.4868735083532219,
+      "n": 419
+    },
+    "molmo2-4b|logprob (top-n)": {
+      "rho": 0.1557812827357512,
+      "jaccard": 0.17935560859188546,
+      "mean_picks": 1.4868735083532219,
+      "n": 419
+    },
+    "phi3.5-vision|generation (top-n)": {
+      "rho": -0.007413286317991482,
+      "jaccard": 0.005814107663749668,
+      "mean_picks": 1.4653937947494033,
+      "n": 419
+    },
+    "phi3.5-vision|logprob (top-n)": {
+      "rho": 0.1410787628133222,
+      "jaccard": 0.17601034208432778,
+      "mean_picks": 1.4868735083532219,
+      "n": 419
+    },
+    "gemma4-e4b|generation (top-n)": {
+      "rho": -0.006451092728755072,
+      "jaccard": 0.09317024661893396,
+      "mean_picks": 1.4868735083532219,
+      "n": 419
+    },
+    "gemma4-e4b|logprob (top-n)": {
+      "rho": 0.15543110819428926,
+      "jaccard": 0.1371797931583134,
+      "mean_picks": 1.4868735083532219,
+      "n": 419
+    },
+    "qwen3.5-4b|generation (top-n)": {
+      "rho": 0.13987409121618813,
+      "jaccard": 0.08876557942190401,
+      "mean_picks": 0.8233890214797136,
+      "n": 419
+    },
+    "qwen3.5-4b|logprob (top-n)": {
+      "rho": 0.16400482684841747,
+      "jaccard": 0.13692654468310791,
+      "mean_picks": 1.4868735083532219,
+      "n": 419
+    },
+    "gpt-5.4|generation (top-n)": {
+      "rho": 0.2597557409510159,
+      "jaccard": 0.19882922301776715,
+      "mean_picks": 1.4868735083532219,
+      "n": 419
+    },
+    "participant google/gemini-3.8-flash": {
+      "rho": 0.43068844496443837,
+      "jaccard": 0.2631662688941925,
+      "mean_picks": 2.8090692124105012,
+      "n": 419
+    },
+    "participant google/gemini-3.8-flash pick1": {
+      "rho": 0.3276244200012667,
+      "jaccard": 0.2328957836117741,
+      "mean_picks": 1.0,
+      "n": 419
+    }
+  },
+  "notes": {
+    "min_people": 2,
+    "min_people_for_split_half": 4,
+    "n_splits": 200,
+    "n_parts": 92,
+    "n_objects_overall": 14
+  },
+  "answer_typicality": {
+    "A person": {
+      "mean_share_of_others": 0.25243697478991595,
+      "n": 595,
+      "nobody else": 0.36470588235294116,
+      "some (under half)": 0.41008403361344536,
+      "most (half or more)": 0.22521008403361345
+    },
+    "Gemini 3.8 Flash (participant, 1 pick)": {
+      "mean_share_of_others": 0.360381861575179,
+      "n": 419,
+      "nobody else": 0.2052505966587112,
+      "some (under half)": 0.4510739856801909,
+      "most (half or more)": 0.3436754176610978
+    },
+    "GPT-5.4 (top-1, generated)": {
+      "mean_share_of_others": 0.27684964200477324,
+      "n": 419,
+      "nobody else": 0.33890214797136037,
+      "some (under half)": 0.431980906921241,
+      "most (half or more)": 0.22911694510739858
+    },
+    "Qwen3.5-4B (top-1, log-prob)": {
+      "mean_share_of_others": 0.1718377088305489,
+      "n": 419,
+      "nobody else": 0.5274463007159904,
+      "some (under half)": 0.35083532219570407,
+      "most (half or more)": 0.12171837708830549
+    },
+    "Gemma-4-E4B (top-1, log-prob)": {
+      "mean_share_of_others": 0.1718377088305489,
+      "n": 419,
+      "nobody else": 0.5632458233890215,
+      "some (under half)": 0.30787589498806683,
+      "most (half or more)": 0.1288782816229117
+    },
+    "Molmo2-4B (top-1, log-prob)": {
+      "mean_share_of_others": 0.20763723150358,
+      "n": 419,
+      "nobody else": 0.4009546539379475,
+      "some (under half)": 0.4797136038186158,
+      "most (half or more)": 0.11933174224343675
+    }
+  }
+}

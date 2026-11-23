@@ -1,0 +1,2581 @@
+{
+  "model": "google/gemini-3.8-flash",
+  "parts": [
+    {
+      "object": "shape_1",
+      "region_id": "shape_1_region_16",
+      "part": 1,
+      "selected": [
+        "contain",
+        "cover"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_1",
+      "region_id": "shape_1_region_0",
+      "part": 2,
+      "selected": [
+        "hold"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_1",
+      "region_id": "shape_1_region_11",
+      "part": 3,
+      "selected": [
+        "cover",
+        "decorate",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_1",
+      "region_id": "shape_1_region_10",
+      "part": 4,
+      "selected": [
+        "attach",
+        "carry",
+        "hold"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_1",
+      "region_id": "shape_1_region_9",
+      "part": 5,
+      "selected": [
+        "carry",
+        "hold",
+        "lift"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_1",
+      "region_id": "shape_1_region_13",
+      "part": 6,
+      "selected": [
+        "cover",
+        "decorate"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_1",
+      "region_id": "shape_1_region_15",
+      "part": 7,
+      "selected": [
+        "attach",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_1",
+      "region_id": "shape_1_region_3",
+      "part": 8,
+      "selected": [
+        "detect",
+        "display",
+        "indicate"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_1",
+      "region_id": "shape_1_region_1",
+      "part": 9,
+      "selected": [
+        "indicate",
+        "decorate"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_1",
+      "region_id": "shape_1_region_6",
+      "part": 10,
+      "selected": [
+        "indicate",
+        "button",
+        "input"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_10",
+      "region_id": "shape_10_region_13",
+      "part": 1,
+      "selected": [
+        "stand",
+        "support",
+        "hold"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_10",
+      "region_id": "shape_10_region_11",
+      "part": 2,
+      "selected": [
+        "cover",
+        "display",
+        "indicate"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_10",
+      "region_id": "shape_10_region_0",
+      "part": 3,
+      "selected": [
+        "stand",
+        "support",
+        "balance"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_10",
+      "region_id": "shape_10_region_1",
+      "part": 4,
+      "selected": [
+        "balance",
+        "stand",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_10",
+      "region_id": "shape_10_region_4",
+      "part": 5,
+      "selected": [
+        "indicate",
+        "orient",
+        "decorate"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_11",
+      "region_id": "shape_11_region_7",
+      "part": 1,
+      "selected": [
+        "support",
+        "cover",
+        "contain"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_11",
+      "region_id": "shape_11_region_12",
+      "part": 2,
+      "selected": [
+        "cover",
+        "decorate"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_11",
+      "region_id": "shape_11_region_18",
+      "part": 3,
+      "selected": [
+        "hold",
+        "press",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_11",
+      "region_id": "shape_11_region_11",
+      "part": 4,
+      "selected": [
+        "balance",
+        "rest",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_11",
+      "region_id": "shape_11_region_0",
+      "part": 5,
+      "selected": [
+        "attach",
+        "hold",
+        "pull"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_11",
+      "region_id": "shape_11_region_2",
+      "part": 6,
+      "selected": [
+        "attach",
+        "carry",
+        "hold"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_11",
+      "region_id": "shape_11_region_15",
+      "part": 7,
+      "selected": [
+        "balance",
+        "stand",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_11",
+      "region_id": "shape_11_region_8",
+      "part": 8,
+      "selected": [
+        "attach",
+        "catch",
+        "hold"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_11",
+      "region_id": "shape_11_region_14",
+      "part": 9,
+      "selected": [
+        "decorate",
+        "cover"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_11",
+      "region_id": "shape_11_region_6",
+      "part": 10,
+      "selected": [
+        "attach",
+        "hold",
+        "pull"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_11",
+      "region_id": "shape_11_region_19",
+      "part": 11,
+      "selected": [
+        "decorate",
+        "indicate",
+        "press"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_12",
+      "region_id": "shape_12_region_5",
+      "part": 1,
+      "selected": [
+        "contain",
+        "hold",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_12",
+      "region_id": "shape_12_region_1",
+      "part": 2,
+      "selected": [
+        "press",
+        "hold"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_12",
+      "region_id": "shape_12_region_3",
+      "part": 3,
+      "selected": [
+        "cover",
+        "decorate",
+        "fill"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_12",
+      "region_id": "shape_12_region_0",
+      "part": 4,
+      "selected": [
+        "control",
+        "hold"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_12",
+      "region_id": "shape_12_region_2",
+      "part": 5,
+      "selected": [
+        "decorate"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_12",
+      "region_id": "shape_12_region_6",
+      "part": 6,
+      "selected": [
+        "none",
+        "hold"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_12",
+      "region_id": "shape_12_region_7",
+      "part": 7,
+      "selected": [
+        "place",
+        "stack",
+        "hold"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_13",
+      "region_id": "shape_13_region_8",
+      "part": 1,
+      "selected": [
+        "hold",
+        "support",
+        "cover"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_13",
+      "region_id": "shape_13_region_12",
+      "part": 2,
+      "selected": [
+        "hold",
+        "direct",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_13",
+      "region_id": "shape_13_region_13",
+      "part": 3,
+      "selected": [
+        "contain",
+        "hold",
+        "place"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_13",
+      "region_id": "shape_13_region_7",
+      "part": 4,
+      "selected": [
+        "attach",
+        "hold",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_13",
+      "region_id": "shape_13_region_4",
+      "part": 5,
+      "selected": [
+        "button",
+        "click",
+        "press"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_14",
+      "region_id": "shape_14_region_2",
+      "part": 1,
+      "selected": [
+        "hold",
+        "place",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_14",
+      "region_id": "shape_14_region_0",
+      "part": 2,
+      "selected": [
+        "contain",
+        "hold",
+        "carry"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_15",
+      "region_id": "shape_15_region_7",
+      "part": 1,
+      "selected": [
+        "support",
+        "hold"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_15",
+      "region_id": "shape_15_region_4",
+      "part": 2,
+      "selected": [
+        "cover",
+        "hold",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_15",
+      "region_id": "shape_15_region_5",
+      "part": 3,
+      "selected": [
+        "stand",
+        "support",
+        "balance"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_15",
+      "region_id": "shape_15_region_3",
+      "part": 4,
+      "selected": [
+        "attack",
+        "defend",
+        "penetrate"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_15",
+      "region_id": "shape_15_region_8",
+      "part": 5,
+      "selected": [
+        "defend",
+        "penetrate",
+        "hold"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_15",
+      "region_id": "shape_15_region_9",
+      "part": 6,
+      "selected": [
+        "cut",
+        "hold_food",
+        "penetrate"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_15",
+      "region_id": "shape_15_region_2",
+      "part": 7,
+      "selected": [
+        "indicate",
+        "hold",
+        "wedge"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_16",
+      "region_id": "shape_16_region_3",
+      "part": 1,
+      "selected": [
+        "balance",
+        "support",
+        "rest"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_16",
+      "region_id": "shape_16_region_5",
+      "part": 2,
+      "selected": [
+        "hold",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_16",
+      "region_id": "shape_16_region_2",
+      "part": 3,
+      "selected": [
+        "balance",
+        "stand",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_16",
+      "region_id": "shape_16_region_1",
+      "part": 4,
+      "selected": [
+        "attach",
+        "rotate",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_16",
+      "region_id": "shape_16_region_6",
+      "part": 5,
+      "selected": [
+        "adjust",
+        "attach",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_17",
+      "region_id": "shape_17_region_3",
+      "part": 1,
+      "selected": [
+        "circulate",
+        "contain",
+        "hold"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_17",
+      "region_id": "shape_17_region_2",
+      "part": 2,
+      "selected": [
+        "absorb",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_17",
+      "region_id": "shape_17_region_0",
+      "part": 3,
+      "selected": [
+        "attach",
+        "contain",
+        "hold"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_17",
+      "region_id": "shape_17_region_4",
+      "part": 4,
+      "selected": [
+        "contain",
+        "direct",
+        "vent"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_18",
+      "region_id": "shape_18_region_1",
+      "part": 1,
+      "selected": [
+        "hold",
+        "support",
+        "decorate"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_18",
+      "region_id": "shape_18_region_2",
+      "part": 2,
+      "selected": [
+        "display",
+        "indicate"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_19",
+      "region_id": "shape_19_region_12",
+      "part": 1,
+      "selected": [
+        "cover",
+        "block",
+        "contain"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_19",
+      "region_id": "shape_19_region_2",
+      "part": 2,
+      "selected": [
+        "place",
+        "rest",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_19",
+      "region_id": "shape_19_region_1",
+      "part": 3,
+      "selected": [
+        "balance",
+        "stand",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_19",
+      "region_id": "shape_19_region_5",
+      "part": 4,
+      "selected": [
+        "penetrate",
+        "pop",
+        "defend"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_19",
+      "region_id": "shape_19_region_0",
+      "part": 5,
+      "selected": [
+        "decorate",
+        "hold",
+        "none"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_19",
+      "region_id": "shape_19_region_6",
+      "part": 6,
+      "selected": [
+        "defend",
+        "attack",
+        "penetrate"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_19",
+      "region_id": "shape_19_region_3",
+      "part": 7,
+      "selected": [
+        "deflect",
+        "hold",
+        "attach"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_19",
+      "region_id": "shape_19_region_8",
+      "part": 8,
+      "selected": [
+        "defend",
+        "decorate"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_2",
+      "region_id": "shape_2_region_21",
+      "part": 1,
+      "selected": [
+        "stand",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_2",
+      "region_id": "shape_2_region_18",
+      "part": 2,
+      "selected": [
+        "stand",
+        "support",
+        "balance"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_2",
+      "region_id": "shape_2_region_0",
+      "part": 3,
+      "selected": [
+        "balance",
+        "stand",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_2",
+      "region_id": "shape_2_region_7",
+      "part": 4,
+      "selected": [
+        "hold",
+        "lever",
+        "pull"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_2",
+      "region_id": "shape_2_region_2",
+      "part": 5,
+      "selected": [
+        "carry",
+        "hold",
+        "push"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_2",
+      "region_id": "shape_2_region_15",
+      "part": 6,
+      "selected": [
+        "attach",
+        "carry",
+        "hold"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_2",
+      "region_id": "shape_2_region_16",
+      "part": 7,
+      "selected": [
+        "indicate",
+        "press",
+        "push"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_2",
+      "region_id": "shape_2_region_5",
+      "part": 8,
+      "selected": [
+        "attack",
+        "decorate"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_20",
+      "region_id": "shape_20_region_26",
+      "part": 1,
+      "selected": [
+        "contain",
+        "support",
+        "hold"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_20",
+      "region_id": "shape_20_region_25",
+      "part": 2,
+      "selected": [
+        "cover",
+        "shade",
+        "decorate"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_20",
+      "region_id": "shape_20_region_20",
+      "part": 3,
+      "selected": [
+        "channel water",
+        "pour",
+        "hold"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_20",
+      "region_id": "shape_20_region_10",
+      "part": 4,
+      "selected": [
+        "stand",
+        "support",
+        "walk"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_20",
+      "region_id": "shape_20_region_8",
+      "part": 5,
+      "selected": [
+        "balance",
+        "stand",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_20",
+      "region_id": "shape_20_region_5",
+      "part": 6,
+      "selected": [
+        "balance",
+        "stand",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_20",
+      "region_id": "shape_20_region_21",
+      "part": 7,
+      "selected": [
+        "channel water",
+        "dispense",
+        "drain"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_20",
+      "region_id": "shape_20_region_4",
+      "part": 8,
+      "selected": [
+        "balance",
+        "stand",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_20",
+      "region_id": "shape_20_region_1",
+      "part": 9,
+      "selected": [
+        "attach",
+        "hold",
+        "decorate"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_20",
+      "region_id": "shape_20_region_0",
+      "part": 10,
+      "selected": [
+        "click",
+        "hold",
+        "press"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_20",
+      "region_id": "shape_20_region_6",
+      "part": 11,
+      "selected": [
+        "attach",
+        "decorate",
+        "press"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_20",
+      "region_id": "shape_20_region_13",
+      "part": 12,
+      "selected": [
+        "attach",
+        "decorate",
+        "hold"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_20",
+      "region_id": "shape_20_region_18",
+      "part": 13,
+      "selected": [
+        "attach",
+        "hold"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_20",
+      "region_id": "shape_20_region_2",
+      "part": 14,
+      "selected": [
+        "attach",
+        "hold"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_21",
+      "region_id": "shape_21_region_3",
+      "part": 1,
+      "selected": [
+        "decorate",
+        "hold",
+        "stand"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_22",
+      "region_id": "shape_22_region_9",
+      "part": 1,
+      "selected": [
+        "support",
+        "stack",
+        "place"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_22",
+      "region_id": "shape_22_region_2",
+      "part": 2,
+      "selected": [
+        "close",
+        "cover",
+        "seal"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_22",
+      "region_id": "shape_22_region_5",
+      "part": 3,
+      "selected": [
+        "contain",
+        "stand",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_22",
+      "region_id": "shape_22_region_4",
+      "part": 4,
+      "selected": [
+        "support",
+        "stack"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_22",
+      "region_id": "shape_22_region_6",
+      "part": 5,
+      "selected": [
+        "support",
+        "stack"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_22",
+      "region_id": "shape_22_region_0",
+      "part": 6,
+      "selected": [
+        "carry",
+        "hold",
+        "lift"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_22",
+      "region_id": "shape_22_region_1",
+      "part": 7,
+      "selected": [
+        "carry",
+        "hold",
+        "lift"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_23",
+      "region_id": "shape_23_region_8",
+      "part": 1,
+      "selected": [
+        "support",
+        "hold",
+        "carry"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_23",
+      "region_id": "shape_23_region_7",
+      "part": 2,
+      "selected": [
+        "balance",
+        "stand",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_23",
+      "region_id": "shape_23_region_4",
+      "part": 3,
+      "selected": [
+        "decorate",
+        "hold"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_23",
+      "region_id": "shape_23_region_0",
+      "part": 4,
+      "selected": [
+        "decorate",
+        "display",
+        "indicate"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_23",
+      "region_id": "shape_23_region_2",
+      "part": 5,
+      "selected": [
+        "decorate",
+        "indicate"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_23",
+      "region_id": "shape_23_region_1",
+      "part": 6,
+      "selected": [
+        "press",
+        "switch",
+        "control"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_24",
+      "region_id": "shape_24_region_2",
+      "part": 1,
+      "selected": [
+        "stand",
+        "hold",
+        "contain"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_25",
+      "region_id": "shape_25_region_4",
+      "part": 1,
+      "selected": [
+        "balance",
+        "stand",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_25",
+      "region_id": "shape_25_region_0",
+      "part": 2,
+      "selected": [
+        "decorate",
+        "hold",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_25",
+      "region_id": "shape_25_region_2",
+      "part": 3,
+      "selected": [
+        "decorate",
+        "hold"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_25",
+      "region_id": "shape_25_region_5",
+      "part": 4,
+      "selected": [
+        "hold",
+        "pull",
+        "push"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_26",
+      "region_id": "shape_26_region_61",
+      "part": 1,
+      "selected": [
+        "contain",
+        "cover",
+        "hold"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_26",
+      "region_id": "shape_26_region_60",
+      "part": 2,
+      "selected": [
+        "block",
+        "cover",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_26",
+      "region_id": "shape_26_region_59",
+      "part": 3,
+      "selected": [
+        "attack",
+        "hit",
+        "bump"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_27",
+      "region_id": "shape_27_region_24",
+      "part": 1,
+      "selected": [
+        "stand",
+        "support",
+        "balance"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_27",
+      "region_id": "shape_27_region_6",
+      "part": 2,
+      "selected": [
+        "balance",
+        "stand",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_27",
+      "region_id": "shape_27_region_8",
+      "part": 3,
+      "selected": [
+        "push",
+        "pull",
+        "steer"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_27",
+      "region_id": "shape_27_region_0",
+      "part": 4,
+      "selected": [
+        "hold",
+        "indicate",
+        "push"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_27",
+      "region_id": "shape_27_region_26",
+      "part": 5,
+      "selected": [
+        "defend",
+        "hold",
+        "indicate"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_27",
+      "region_id": "shape_27_region_7",
+      "part": 6,
+      "selected": [
+        "attack",
+        "defend",
+        "penetrate"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_27",
+      "region_id": "shape_27_region_25",
+      "part": 7,
+      "selected": [
+        "attack",
+        "decorate"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_28",
+      "region_id": "shape_28_region_25",
+      "part": 1,
+      "selected": [
+        "cover",
+        "display",
+        "block"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_28",
+      "region_id": "shape_28_region_17",
+      "part": 2,
+      "selected": [
+        "hold",
+        "lift",
+        "press"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_28",
+      "region_id": "shape_28_region_1",
+      "part": 3,
+      "selected": [
+        "dangle",
+        "hold",
+        "orient"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_28",
+      "region_id": "shape_28_region_26",
+      "part": 4,
+      "selected": [
+        "attach",
+        "hold",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_28",
+      "region_id": "shape_28_region_3",
+      "part": 5,
+      "selected": [
+        "none"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_29",
+      "region_id": "shape_29_region_42",
+      "part": 1,
+      "selected": [
+        "contain",
+        "hold",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_29",
+      "region_id": "shape_29_region_43",
+      "part": 2,
+      "selected": [
+        "contain",
+        "hold"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_29",
+      "region_id": "shape_29_region_7",
+      "part": 3,
+      "selected": [
+        "contain",
+        "hold",
+        "intake"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_29",
+      "region_id": "shape_29_region_23",
+      "part": 4,
+      "selected": [
+        "decorate",
+        "hold"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_29",
+      "region_id": "shape_29_region_0",
+      "part": 5,
+      "selected": [
+        "balance",
+        "stand",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_29",
+      "region_id": "shape_29_region_19",
+      "part": 6,
+      "selected": [
+        "balance",
+        "stand",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_29",
+      "region_id": "shape_29_region_1",
+      "part": 7,
+      "selected": [
+        "balance",
+        "stand",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_29",
+      "region_id": "shape_29_region_39",
+      "part": 8,
+      "selected": [
+        "hold",
+        "press",
+        "decorate"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_29",
+      "region_id": "shape_29_region_2",
+      "part": 9,
+      "selected": [
+        "balance",
+        "stand",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_29",
+      "region_id": "shape_29_region_25",
+      "part": 10,
+      "selected": [
+        "decorate",
+        "detect",
+        "indicate"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_29",
+      "region_id": "shape_29_region_45",
+      "part": 11,
+      "selected": [
+        "detect",
+        "indicate",
+        "decorate"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_29",
+      "region_id": "shape_29_region_26",
+      "part": 12,
+      "selected": [
+        "button",
+        "indicate",
+        "switch"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_29",
+      "region_id": "shape_29_region_44",
+      "part": 13,
+      "selected": [
+        "attach",
+        "hold",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_3",
+      "region_id": "shape_3_region_5",
+      "part": 1,
+      "selected": [
+        "balance",
+        "stand",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_3",
+      "region_id": "shape_3_region_0",
+      "part": 2,
+      "selected": [
+        "hold",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_3",
+      "region_id": "shape_3_region_7",
+      "part": 3,
+      "selected": [
+        "adjust",
+        "control",
+        "hold"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_3",
+      "region_id": "shape_3_region_1",
+      "part": 4,
+      "selected": [
+        "hold",
+        "support",
+        "push"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_3",
+      "region_id": "shape_3_region_2",
+      "part": 5,
+      "selected": [
+        "hold",
+        "rotate",
+        "push"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_3",
+      "region_id": "shape_3_region_11",
+      "part": 6,
+      "selected": [
+        "align",
+        "attach",
+        "indicate"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_3",
+      "region_id": "shape_3_region_9",
+      "part": 7,
+      "selected": [
+        "balance",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_3",
+      "region_id": "shape_3_region_6",
+      "part": 8,
+      "selected": [
+        "button",
+        "press",
+        "switch"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_30",
+      "region_id": "shape_30_region_43",
+      "part": 1,
+      "selected": [
+        "hold",
+        "display",
+        "carry"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_30",
+      "region_id": "shape_30_region_0",
+      "part": 2,
+      "selected": [
+        "stand",
+        "support",
+        "balance"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_30",
+      "region_id": "shape_30_region_33",
+      "part": 3,
+      "selected": [
+        "dangle",
+        "decorate",
+        "stroke"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_30",
+      "region_id": "shape_30_region_16",
+      "part": 4,
+      "selected": [
+        "hold",
+        "support",
+        "attach"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_30",
+      "region_id": "shape_30_region_20",
+      "part": 5,
+      "selected": [
+        "balance",
+        "stand",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_30",
+      "region_id": "shape_30_region_37",
+      "part": 6,
+      "selected": [
+        "attach",
+        "decorate",
+        "hold"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_30",
+      "region_id": "shape_30_region_2",
+      "part": 7,
+      "selected": [
+        "pull",
+        "hold",
+        "decorate"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_30",
+      "region_id": "shape_30_region_15",
+      "part": 8,
+      "selected": [
+        "decorate",
+        "cover",
+        "channel water"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_30",
+      "region_id": "shape_30_region_45",
+      "part": 9,
+      "selected": [
+        "decorate",
+        "cover"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_30",
+      "region_id": "shape_30_region_3",
+      "part": 10,
+      "selected": [
+        "balance",
+        "stand",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_30",
+      "region_id": "shape_30_region_21",
+      "part": 11,
+      "selected": [
+        "attack",
+        "penetrate"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_30",
+      "region_id": "shape_30_region_36",
+      "part": 12,
+      "selected": [
+        "press",
+        "decorate",
+        "indicate"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_30",
+      "region_id": "shape_30_region_41",
+      "part": 13,
+      "selected": [
+        "decorate",
+        "detect",
+        "indicate"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_30",
+      "region_id": "shape_30_region_8",
+      "part": 14,
+      "selected": [
+        "attach",
+        "hold",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_30",
+      "region_id": "shape_30_region_23",
+      "part": 15,
+      "selected": [
+        "press",
+        "click",
+        "select"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_31",
+      "region_id": "shape_31_region_47",
+      "part": 1,
+      "selected": [
+        "balance",
+        "stand",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_31",
+      "region_id": "shape_31_region_50",
+      "part": 2,
+      "selected": [
+        "contain",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_31",
+      "region_id": "shape_31_region_46",
+      "part": 3,
+      "selected": [
+        "stack",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_31",
+      "region_id": "shape_31_region_45",
+      "part": 4,
+      "selected": [
+        "cover",
+        "decorate"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_31",
+      "region_id": "shape_31_region_51",
+      "part": 5,
+      "selected": [
+        "hold",
+        "carry",
+        "pull"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_31",
+      "region_id": "shape_31_region_3",
+      "part": 6,
+      "selected": [
+        "hold",
+        "lift",
+        "carry"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_31",
+      "region_id": "shape_31_region_2",
+      "part": 7,
+      "selected": [
+        "support",
+        "hold",
+        "pull"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_31",
+      "region_id": "shape_31_region_31",
+      "part": 8,
+      "selected": [
+        "attack",
+        "defend",
+        "penetrate"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_31",
+      "region_id": "shape_31_region_29",
+      "part": 9,
+      "selected": [
+        "defend",
+        "deflate",
+        "wedge"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_31",
+      "region_id": "shape_31_region_48",
+      "part": 10,
+      "selected": [
+        "defend",
+        "decorate"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_31",
+      "region_id": "shape_31_region_37",
+      "part": 11,
+      "selected": [
+        "attack",
+        "defend"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_31",
+      "region_id": "shape_31_region_32",
+      "part": 12,
+      "selected": [
+        "decorate",
+        "none"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_32",
+      "region_id": "shape_32_region_48",
+      "part": 1,
+      "selected": [
+        "hold",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_32",
+      "region_id": "shape_32_region_61",
+      "part": 2,
+      "selected": [
+        "decorate",
+        "extend"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_32",
+      "region_id": "shape_32_region_21",
+      "part": 3,
+      "selected": [
+        "balance",
+        "stand",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_32",
+      "region_id": "shape_32_region_0",
+      "part": 4,
+      "selected": [
+        "balance",
+        "stand",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_32",
+      "region_id": "shape_32_region_30",
+      "part": 5,
+      "selected": [
+        "stand",
+        "support",
+        "balance"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_32",
+      "region_id": "shape_32_region_20",
+      "part": 6,
+      "selected": [
+        "attach",
+        "carry",
+        "hold"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_32",
+      "region_id": "shape_32_region_64",
+      "part": 7,
+      "selected": [
+        "button",
+        "click",
+        "press"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_32",
+      "region_id": "shape_32_region_31",
+      "part": 8,
+      "selected": [
+        "adjust",
+        "rotate",
+        "switch"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_32",
+      "region_id": "shape_32_region_50",
+      "part": 9,
+      "selected": [
+        "control",
+        "indicate",
+        "switch"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_32",
+      "region_id": "shape_32_region_32",
+      "part": 10,
+      "selected": [
+        "button",
+        "indicate",
+        "press"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_32",
+      "region_id": "shape_32_region_22",
+      "part": 11,
+      "selected": [
+        "none"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_32",
+      "region_id": "shape_32_region_2",
+      "part": 12,
+      "selected": [
+        "button",
+        "none"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_32",
+      "region_id": "shape_32_region_1",
+      "part": 13,
+      "selected": [
+        "button",
+        "press",
+        "none"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_32",
+      "region_id": "shape_32_region_6",
+      "part": 14,
+      "selected": [
+        "none"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_32",
+      "region_id": "shape_32_region_7",
+      "part": 15,
+      "selected": [
+        "click",
+        "none",
+        "press"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_33",
+      "region_id": "shape_33_region_16",
+      "part": 1,
+      "selected": [
+        "support",
+        "stand",
+        "balance"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_33",
+      "region_id": "shape_33_region_21",
+      "part": 2,
+      "selected": [
+        "cover",
+        "place",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_33",
+      "region_id": "shape_33_region_6",
+      "part": 3,
+      "selected": [
+        "balance",
+        "stand",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_33",
+      "region_id": "shape_33_region_7",
+      "part": 4,
+      "selected": [
+        "attack",
+        "decorate",
+        "defend"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_33",
+      "region_id": "shape_33_region_20",
+      "part": 5,
+      "selected": [
+        "balance",
+        "stand",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_33",
+      "region_id": "shape_33_region_13",
+      "part": 6,
+      "selected": [
+        "hold",
+        "pull",
+        "attack"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_33",
+      "region_id": "shape_33_region_18",
+      "part": 7,
+      "selected": [
+        "decorate",
+        "hold",
+        "stroke"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_33",
+      "region_id": "shape_33_region_19",
+      "part": 8,
+      "selected": [
+        "adjust",
+        "hold",
+        "rotate"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_33",
+      "region_id": "shape_33_region_3",
+      "part": 9,
+      "selected": [
+        "decorate"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_33",
+      "region_id": "shape_33_region_1",
+      "part": 10,
+      "selected": [
+        "button",
+        "decorate",
+        "indicate"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_33",
+      "region_id": "shape_33_region_0",
+      "part": 11,
+      "selected": [
+        "decorate",
+        "indicate"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_33",
+      "region_id": "shape_33_region_8",
+      "part": 12,
+      "selected": [
+        "detect",
+        "see"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_33",
+      "region_id": "shape_33_region_14",
+      "part": 13,
+      "selected": [
+        "attach",
+        "none",
+        "plug"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_33",
+      "region_id": "shape_33_region_2",
+      "part": 14,
+      "selected": [
+        "none",
+        "attach"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_33",
+      "region_id": "shape_33_region_5",
+      "part": 15,
+      "selected": [
+        "none"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_38",
+      "region_id": "shape_38_region_3",
+      "part": 1,
+      "selected": [
+        "stand",
+        "hold",
+        "carry"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_38",
+      "region_id": "shape_38_region_1",
+      "part": 2,
+      "selected": [
+        "balance",
+        "stand",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_39",
+      "region_id": "shape_39_region_3",
+      "part": 1,
+      "selected": [
+        "stand",
+        "support",
+        "hold"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_39",
+      "region_id": "shape_39_region_4",
+      "part": 2,
+      "selected": [
+        "hit",
+        "press",
+        "push"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_40",
+      "region_id": "shape_40_region_16",
+      "part": 1,
+      "selected": [
+        "balance",
+        "stand",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_40",
+      "region_id": "shape_40_region_12",
+      "part": 2,
+      "selected": [
+        "decorate",
+        "hold",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_40",
+      "region_id": "shape_40_region_1",
+      "part": 3,
+      "selected": [
+        "attach",
+        "hold",
+        "indicate"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_40",
+      "region_id": "shape_40_region_5",
+      "part": 4,
+      "selected": [
+        "press",
+        "push",
+        "click"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_40",
+      "region_id": "shape_40_region_18",
+      "part": 5,
+      "selected": [
+        "contain",
+        "hold"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_40",
+      "region_id": "shape_40_region_3",
+      "part": 6,
+      "selected": [
+        "hold"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_40",
+      "region_id": "shape_40_region_7",
+      "part": 7,
+      "selected": [
+        "contain",
+        "hold"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_40",
+      "region_id": "shape_40_region_2",
+      "part": 8,
+      "selected": [
+        "contain",
+        "hold",
+        "place"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_40",
+      "region_id": "shape_40_region_8",
+      "part": 9,
+      "selected": [
+        "button",
+        "input",
+        "press"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_40",
+      "region_id": "shape_40_region_9",
+      "part": 10,
+      "selected": [
+        "hold",
+        "attach"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_40",
+      "region_id": "shape_40_region_4",
+      "part": 11,
+      "selected": [
+        "input",
+        "press",
+        "select"
+      ],
+      "other": ""
+    }
+  ],
+  "objects": [
+    {
+      "object": "shape_1",
+      "selected": [
+        "decorate",
+        "hold",
+        "carry"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_10",
+      "selected": [
+        "decorate",
+        "stand",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_11",
+      "selected": [
+        "decorate",
+        "hold",
+        "stand"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_12",
+      "selected": [
+        "decorate",
+        "block",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_13",
+      "selected": [
+        "hold",
+        "support",
+        "block"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_14",
+      "selected": [
+        "contain",
+        "hold",
+        "display"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_15",
+      "selected": [
+        "defend",
+        "hold",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_16",
+      "selected": [
+        "hold",
+        "stand",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_17",
+      "selected": [
+        "contain",
+        "hold",
+        "attach"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_18",
+      "selected": [
+        "decorate",
+        "contain",
+        "hold"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_19",
+      "selected": [
+        "defend",
+        "decorate",
+        "block"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_2",
+      "selected": [
+        "hold",
+        "stand",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_20",
+      "selected": [
+        "contain",
+        "decorate",
+        "stand"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_21",
+      "selected": [
+        "decorate",
+        "stand",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_22",
+      "selected": [
+        "contain",
+        "carry",
+        "hold"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_23",
+      "selected": [
+        "decorate",
+        "stand",
+        "hold"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_24",
+      "selected": [
+        "stand",
+        "hold",
+        "carry"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_25",
+      "selected": [
+        "stand",
+        "support",
+        "hold"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_26",
+      "selected": [
+        "contain",
+        "hit",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_27",
+      "selected": [
+        "stand",
+        "support",
+        "hold"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_28",
+      "selected": [
+        "contain",
+        "display",
+        "hold"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_29",
+      "selected": [
+        "contain",
+        "hold",
+        "stand"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_3",
+      "selected": [
+        "stand",
+        "support",
+        "hold"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_30",
+      "selected": [
+        "decorate",
+        "stand",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_31",
+      "selected": [
+        "decorate",
+        "contain",
+        "hold"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_32",
+      "selected": [
+        "stand",
+        "support",
+        "hold"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_33",
+      "selected": [
+        "decorate",
+        "stand",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_38",
+      "selected": [
+        "hold",
+        "stand",
+        "support"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_39",
+      "selected": [
+        "stand",
+        "support",
+        "press"
+      ],
+      "other": ""
+    },
+    {
+      "object": "shape_40",
+      "selected": [
+        "input",
+        "select",
+        "decorate"
+      ],
+      "other": ""
+    }
+  ]
+}

@@ -1,0 +1,721 @@
+{
+  "object": "shape_19",
+  "model": "Qwen/Qwen3.5-4B",
+  "image_path": "/shared/nas/data/m1/adadt2/nvrd/regions_test/data/novel/shape_19.png",
+  "region_source": "sam_slic",
+  "method": "per_part_with_comparative_context",
+  "top_k": 10,
+  "modes": [
+    "logprob",
+    "generation"
+  ],
+  "regions": [
+    {
+      "region_id": "shape_19_region_12",
+      "area": 219869,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "ddW4<Ro0k0A:I6I8G8I6K5K6K4K4M3K4N3L3L4M2M4M2O2M2L4M3O10O010O1O2M20O101O01O001M200001O000O00O2001N101O000O1O10O11N1O2O0O1O1O010O101N2N101O0O2N1O2N1O1N3L3O10000N3L3O2M3M2O2N1O2N1N3M3N101L300O2M20100N2O1O1O001O1N2O001O1N2O0O2O1N2N1O2N2N2N1O2O1M3L4N1N3M3M3O1O100O1O0O2O1O1O1O1O1O100O100O1O1O1O100N2O1O1O2O0O100O100O2O0O1O1O1O100O1O2N100O2O0O100O101O0O1O1O2O0O1O101N1O100O101N1O101N100O2N1O100O101N101N100O2O0O2O0O101O0O1000001O0O101O0O2O0O2N100O2O0O2N1O2N100O2O0O2O0O2N101N101O0O101O1O001N10001N101O1O1O0O2O001N101O0O2O001N101N2O1O001N101N101O0O2O0O2O0O2O0O3N1N101O1N101O0OlDn[O]:Qd0`EU\\O^:ic0`E\\\\O^:dc0_Ea\\O`:]c0aEc\\O_:]c0`Ee\\O`:[c0^Eg\\Ob:Xc0[El\\Oe:Tc0XEo\\Oh:Td000100O010O00100O1N2O1O001O10O01O1O10O0100O1O001O1O1O001O1O1O1N2O1N101O1O001O1O1O1O1O1O001O0O2O2M2O1N2O1O0O2O1N2O1N2N2O1N2O0O2O1N2N2O1N2O1N2N2N101N2O1N101N2O1N2O1N101O1N2O1N2O1N2O0O2O0O2N102M2O1N2O0O2O0O2O1N2N2N2N1O2N1O2N2NnGX_On0g`0jNe_OT1Z`0hNl_OV1S`0gNR@X1l?gNY@W1d?jN`@U1\\?kNi@S1U?nNm@R1o>POSAP1k>oNXAP1g>PO[AP1d>oN^AP1a>oNbAP1_>nNcAR1\\>mNfAR1Z>mNhAS1X>lNiAS1W>lNkAT1T>lNnAR1R>mNPBS1o=mNSBQ1m=nNTBR1l=nNUBQ1l=mNWBR1h=mNZBR1f=mN[BT1d=lN]BS1c=lN_BT1`=kNbBT1^=lNbBT1^=kNdBU1[=kNfBT1[=jNgBU1Y=kNgBU1Y=jNiBV1V=jNkBU1U=kNmBS1S=mNmBT1S=jNoBU1Q=kNoBU1Q=jNQCV1n<jNRCV1n<jNRCV1o<iNRCV1n<iNSCX1l<hNUCW1k<iNVCV1j<jNWCU1j<jNVCV1j<iNXCV1h<jNXCV1h<jNYCV1f<jNZCV1g<iNZCV1f<iN\\CV1d<jN\\CV1d<jN]CU1d<jN\\CV1d<iN]CW1c<iN^CV1b<jN^CV1b<jN^CW1b<hN^CX1b<hN_CV1b<jN^CV1c<iN]CW1c<hN_CW1a<iN_CW1a<iN_CW1b<hN_CW1a<iN_CW1b<hN_CW1a<iN_CW1a<iN_CW1b<hN_CW1a<iN_CW1a<iN_CW1b<gN_CY1a<gN`CX1`<hN`CX1a<gN_CX1b<hN_CW1a<iN_CW1b<hN^CX1b<hN^CX1b<hN_CW1b<gN_CY1a<gN_CX1c<gN]CY1c<gN]CX1e<fN\\CZ1d<fN\\CZ1d<fN]CX1d<gN]CY1d<fN\\CZ1d<fN\\CZ1e<dN\\C\\1d<dN\\C\\1d<cN]C\\1e<cN[C]1e<cN[C]1f<aN[C^1f<bNZC^1f<aN[C^1g<aNYC^1h<aNYC_1g<aNXC_1j<_NWCa1i<_NWCa1i<^NXCb1i<]NWCc1i<\\NXCd1i<[NVCe1k<aKi^OW1]4X3j<YKY_OW1l3`3m<WK[_OU1i3d3l<WK^_OR1f3f3n<VK__OQ1d3h3n<UKc_OP1^3l3o<SKf_On0\\3n3P=RKh_Om0X3Q4P=RKi_Ok0W3S4R=PKi_Ol0U3S4S=QKl_Og0Q3Y4S=oJo_Of0m2\\4U=mJQ@d0i2`4V=lJR@b0i2b4U=kJT@b0f2c4X=jJT@`0e2f4W=iJW@?a2h4Z=hJW@>_2j4Z=gJZ@=Z2m4^=eJY@<Y2P5_=cJY@<V2R5b=aJ[@;P2V5g=^J[@:l1Z5i=\\J\\@9i1\\5l=[J\\@80@QOn5d`0ZJ\\@8^O7WOZ5Qa0UJ\\@9VOc0VOQ5Xa0SJ^@7oNn0SOl4aa0nI]@7jNW8k`0aG\\@;`NY8Ua0[G[@=ZN]8[a0UG]@?QN`8da0PG\\@a0jMc8ja0kF^@]:d?bE\\@]:f?aE\\@^:e?`E\\@_:db0O1N2N2N2N101O0O2O0O2O1N2N002N1O2N2O0O2N1O2O0O2N1N3O0O101N100O1O1O1O1O1N3N1O1O1O101N1N3N2OO0101N1O2N1O1M3O1O2N1O1O2N1O2N2O0O1O2M200O1N3M2O2N2M3M20O02O0O2N1O0O3M2O2O0O1O2N1N2N2O1O1O001O1M210OO00010O0jNbIlXO_6Tg0hIcXOY6_g0T1O01N3M201N1O2N2O1N1N3N30O1O00O100O100001O8IO0O100O1O00101N100O3M10O01O3N00000O100O2O0O2O0O2O1N2O0O010000001O0O2O0O100O2O1O1O000O2O001N101O1N102N001N2O1O0O2O1N2O1N100O2O1N2N2O1N3M101N2N2N2N3M2N2N2N1O3L3N3M2M4M3L3N3L3M5K3M4L4K7J4L4L4L5I7I8H9F7K5I;D<@W\\_3"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 5 appears as a smooth, integrated patch of skin rather than having any protruding features like spikes or functional appendages seen in surrounding sections such as those labeled for horns or limbs; its flat surface suggests no distinct interactive purpose beyond being structural body coverage",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.894851048302371,
+                "prob": 0.5053579089457667
+              },
+              {
+                "option": "align",
+                "logprob": -2.5196179793856572,
+                "prob": 0.09953406802241858
+              },
+              {
+                "option": "detect",
+                "logprob": -3.1448755912133493,
+                "prob": 0.053263024483378996
+              },
+              {
+                "option": "decorate",
+                "logprob": -3.207306011579931,
+                "prob": 0.05003946257097651
+              },
+              {
+                "option": "attack",
+                "logprob": -3.270547786145471,
+                "prob": 0.046972868590025744
+              },
+              {
+                "option": "block",
+                "logprob": -3.7697293969104066,
+                "prob": 0.028513810824218302
+              },
+              {
+                "option": "defend",
+                "logprob": -3.8491880325891543,
+                "prob": 0.026335818283508807
+              },
+              {
+                "option": "cover",
+                "logprob": -4.019602725456934,
+                "prob": 0.022209391315955226
+              },
+              {
+                "option": "adjust",
+                "logprob": -4.270012710709125,
+                "prob": 0.017289601413524334
+              },
+              {
+                "option": "deflect",
+                "logprob": -4.348990788232186,
+                "prob": 0.015976632227351142
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Based on the visual analysis of part 1 (the purple, eye-like shape on the blue body):",
+              "**see** - This is the most plausible affordance. The shape is clearly stylized to represent an eye, which is the primary organ for seeing.",
+              "**detect** - Eyes are sensory organs used to detect light, movement, and objects in the environment.",
+              "**focus** - The shape resembles a pupil or a lens, which is the mechanism used to focus vision.",
+              "**orient** - Visual input is crucial for an entity to orient itself within its surroundings.",
+              "**indicate** - An eye can be used to indicate direction, intent, or emotion (e.g., looking at something).",
+              "**watch** - To \"watch\" is to observe or keep a close eye on something, a direct function of an eye.",
+              "**observe** - Similar to watch"
+            ],
+            "raw": "Based on the visual analysis of part 1 (the purple, eye-like shape on the blue body):\n\n1.  **see** - This is the most plausible affordance. The shape is clearly stylized to represent an eye, which is the primary organ for seeing.\n2.  **detect** - Eyes are sensory organs used to detect light, movement, and objects in the environment.\n3.  **focus** - The shape resembles a pupil or a lens, which is the mechanism used to focus vision.\n4.  **orient** - Visual input is crucial for an entity to orient itself within its surroundings.\n5.  **indicate** - An eye can be used to indicate direction, intent, or emotion (e.g., looking at something).\n6.  **watch** - To \"watch\" is to observe or keep a close eye on something, a direct function of an eye.\n7.  **observe** - Similar to watch"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_19_region_2",
+      "area": 77805,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "Rgd4>Yo0`0D:G9I6J6J4K7I5L5K4M4K3M5K3N3L4M3M2M4M2N3M2N2N3L3N2N2N2N2N2N2N2N2N2N2N2N1O2N2N2N2O0O2N1O2N2N2O0O2N2N1O2O1N101N2N101N101N1O2N2O0O2O0O2O1N101N101N101O0O2O001N101O0O2O0O2O001O1N101O00001N101O0O2O00001O0O101O00001O00001O001O0O10001O001O00001O000000001O00001O0000001O0000001O000001O01O000000010O000000010O00000010O000001O01O01O01O0000010O00001O01O01O0001O01O000010O01O0000010O00001O00010O00001O001O01O01O001O010O00001O0010O0001O0010O0001O00100O001O001O00100O001O010O001O0010O01O1O001O10O01O001O1O010O1O001O010O001O001O1O10O01O10O01O1O001O001O10O01O1O001O100O001O1O001O10O01O1O001O1O1O1O001O100O001O1O1O1O001O1O100O1O1O1O001O1O1O1O1O1O1O001O1O1O1O1O001O1O1O1O001O1O1O1O2N001O1O1O1O1O1N2O1O1O1O1O001O1O001O1N2O1O1O1O1O1N101O1O001O1N2O1O1O001O1N101N2O0O2O001N2O1O1O0O2O001N2O0O2O1O0O2O0O2O000O2O0O2N101N2O001N100O2O0O2N1O1O2O0O1O2O0O2N1O1O1O2N1O1N201N1O1N2O1O2N1N2O2N1N2N3M2O1N2N2M4M2N3K4M4J6HoV_="
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 2 appears as a smooth, rounded protrusion at the base of the structure rather than having any visible functional features like spikes for defense or openings for interaction; unlike its spiky counterparts above which serve defensive purposes, this lower section seems purely structural without distinct interactive qualities suggested by form alone",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.8175860336632468,
+                "prob": 0.5407829930162715
+              },
+              {
+                "option": "anchor",
+                "logprob": -1.8174891648523044,
+                "prob": 0.19896221756582655
+              },
+              {
+                "option": "cover",
+                "logprob": -3.5672600024117855,
+                "prob": 0.034582373217119836
+              },
+              {
+                "option": "absorb",
+                "logprob": -3.9431662286515348,
+                "prob": 0.02374656483328686
+              },
+              {
+                "option": "carry",
+                "logprob": -4.192470457259333,
+                "prob": 0.01850671525196402
+              },
+              {
+                "option": "contain",
+                "logprob": -4.3798797740309965,
+                "prob": 0.015343997205865332
+              },
+              {
+                "option": "block",
+                "logprob": -4.442353675782215,
+                "prob": 0.014414727605201499
+              },
+              {
+                "option": "attack",
+                "logprob": -4.443241825676523,
+                "prob": 0.014401930849962047
+              },
+              {
+                "option": "hit",
+                "logprob": -4.56836064637173,
+                "prob": 0.012708149285483496
+              },
+              {
+                "option": "defend",
+                "logprob": -4.692836108646588,
+                "prob": 0.011220786564507904
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "suck",
+              "eat",
+              "drink",
+              "hold",
+              "press",
+              "clean",
+              "fill",
+              "scoop",
+              "absorb"
+            ],
+            "n_valid": 9,
+            "invalid": [
+              "Based on the visual characteristics of part 2 (a large, rounded, orange, fleshy-looking structure at the base of the object, resembling a snout or mouth), the most plausible affordances relate to ingestion, manipulation, or interaction with objects via a mouth-like function.",
+              "spit (not in list, so replacing with next most logical: **chew** - not in list either. Let's re-evaluate the list for mouth-related actions).",
+              "Re-evaluating the list for mouth/ingestion actions:"
+            ],
+            "raw": "Based on the visual characteristics of part 2 (a large, rounded, orange, fleshy-looking structure at the base of the object, resembling a snout or mouth), the most plausible affordances relate to ingestion, manipulation, or interaction with objects via a mouth-like function.\n\n1. suck\n2. eat\n3. drink\n4. hold\n5. press\n6. clean\n7. fill\n8. scoop\n9. absorb\n10. spit (not in list, so replacing with next most logical: **chew** - not in list either. Let's re-evaluate the list for mouth-related actions).\n\nRe-evaluating the list for mouth/ingestion actions:\n- suck (1)\n- eat (2)\n- drink (3)\n- hold (4) - plausible for a mouth holding something.\n- press (5) - plausible for biting/pressing.\n- clean (6) - plausible for"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_19_region_1",
+      "area": 28682,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "_kca03jo04N101N1O001O1O001O1N2N10100N1O2O1O1N1O2N2M2O2N1N3L4M2L5L3I8H7O2O010O100000O10000O1000O1000000000000000O0100000000O10000O100000000O01000O101O0O10O10O10000O100O101N1000O02O000O10O02O0O100O10000O100O100O1O2O0O100O100O100O100O2O0O100O100O00101N1O101N1O100O100O100O1O101N1O100O1O1O1O100O1O1O101N1O1O100O1O1O1O1O1O1O1O100O1O1O1O1O1O1O1O1O1O1O100O1O1O1O1N2O1O1O1O1O1O001O1O1O1N2O1O1O1O1O001N2O1O1O1O1N2O1O001O1N1O2O1O1O001N2O1O001O1N101N2O001N1O2O1O001N101O1O0O2O010O010O02O0O2O1O0O2O=B7I5L4K5K4M4K4M3L4L4L4M4K3M5K4L4L4L4L4L5J5L4K6K4K6J6I7J7I7G:D`Wm5"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part three appears as a smooth green appendage lacking any discernible texture for grasping; unlike its spiky counterparts which offer clear tactile points of interaction through their sharp protrusions",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.3907139012007974,
+                "prob": 0.31739790045841365
+              },
+              {
+                "option": "anchor",
+                "logprob": -1.8904658117389772,
+                "prob": 0.19255932397013129
+              },
+              {
+                "option": "cover",
+                "logprob": -2.8903640319622355,
+                "prob": 0.07084582679997954
+              },
+              {
+                "option": "block",
+                "logprob": -2.9528817905375035,
+                "prob": 0.0665523132569633
+              },
+              {
+                "option": "defend",
+                "logprob": -3.185240980848903,
+                "prob": 0.05275344686372355
+              },
+              {
+                "option": "align",
+                "logprob": -3.2029901229252573,
+                "prob": 0.05182537900856234
+              },
+              {
+                "option": "support",
+                "logprob": -3.4529493655718397,
+                "prob": 0.04036329082222531
+              },
+              {
+                "option": "balance",
+                "logprob": -3.765380837066914,
+                "prob": 0.029532438145748647
+              },
+              {
+                "option": "deflect",
+                "logprob": -3.9351212884503184,
+                "prob": 0.02492194662928069
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -4.1404530775159785,
+                "prob": 0.020295861878994185
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Based on the visual analysis of part 3 (the green section at the bottom right of the object, resembling a spiky shell or pod), here is the ranking of its most plausible affordances:",
+              "**contain** - The object appears to be a container or shell, and part 3 is a structural component holding the contents.",
+              "**cover** - It acts as a protective layer or cap over the lower section of the object.",
+              "**seal** - Like a cap or lid, it likely helps to close or seal the object.",
+              "**hold** - It provides structural support and holds the shape of the object.",
+              "**support** - It supports the weight of the upper parts of the object.",
+              "**deflect** - As a hard, spiky surface, it could deflect impacts or projectiles.",
+              "**block** - It can obstruct access to the interior or protect against external elements."
+            ],
+            "raw": "Based on the visual analysis of part 3 (the green section at the bottom right of the object, resembling a spiky shell or pod), here is the ranking of its most plausible affordances:\n\n1. **contain** - The object appears to be a container or shell, and part 3 is a structural component holding the contents.\n2. **cover** - It acts as a protective layer or cap over the lower section of the object.\n3. **seal** - Like a cap or lid, it likely helps to close or seal the object.\n4. **hold** - It provides structural support and holds the shape of the object.\n5. **support** - It supports the weight of the upper parts of the object.\n6. **deflect** - As a hard, spiky surface, it could deflect impacts or projectiles.\n7. **block** - It can obstruct access to the interior or protect against external elements.\n8."
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_19_region_5",
+      "area": 18438,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "a[Yd03eo0`0G4M3L3L5L3M4M1N2O4K3N3M1O1N3M3N2M3N1O1N3N2N1O002M2O1O1O1O0O2O0O2O1O001N2O1N2O1O1O0O2O001N100O10001N2O1N2O1O0O2O0O101N2O0O2O0O101O0O100O1O100O101N100O100O101N1O2O0O011N2N101N100O1O2O0O101N1O101N2O0O2N1O100O2N101N2N101N00101N1O2OO01O2N101N1O2O0O1O1O100O001O010O0000O2O0O1YNTVOZMni0`2^VOWMdi0f2l1N2N3L3O1N3N1M3O1N3M2O2M2O2M2N3M3N3MO02N2N3N1N3N1O2M2O2N2M3N2N2N2N2M4M2N3L4M3M3L5L5J[gQ6"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "attack",
+          "justification": "Part 4 has a sharp, pointed tip positioned prominently at the front of the head like a horn designed for striking; unlike its rounded counterparts such as part 2 which appears soft enough to be used in combat but lacks offensive capability due to lack of pointiness",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "attack",
+                "logprob": -0.1157961599092232,
+                "prob": 0.9224346642245019
+              },
+              {
+                "option": "none",
+                "logprob": -3.492137035704218,
+                "prob": 0.03152168346300087
+              },
+              {
+                "option": "defend",
+                "logprob": -4.356056098476984,
+                "prob": 0.013286607993318787
+              },
+              {
+                "option": "hit",
+                "logprob": -4.366819765884429,
+                "prob": 0.013144362280018295
+              },
+              {
+                "option": "deflect",
+                "logprob": -5.230837577051716,
+                "prob": 0.005539892695759418
+              },
+              {
+                "option": "block",
+                "logprob": -5.616584814211819,
+                "prob": 0.0037668077587166347
+              },
+              {
+                "option": "aim",
+                "logprob": -5.740917407500092,
+                "prob": 0.003326415511056424
+              },
+              {
+                "option": "attach",
+                "logprob": -5.9284098993230145,
+                "prob": 0.0027577160231752143
+              },
+              {
+                "option": "anchor",
+                "logprob": -7.178373311035102,
+                "prob": 0.000790127777911665
+              },
+              {
+                "option": "dangle",
+                "logprob": -8.123415099689737,
+                "prob": 0.0003070936923758691
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Based on the visual analysis of part 4 (the red spike on the right side of the object), here is the ranking of its most plausible affordances:",
+              "**attack** - The object is a spiky, defensive creature (resembling a Spiky Shell from Mario games). The primary function of its spikes is to attack enemies or defend itself.",
+              "**defend** - Closely related to attack; the spikes serve as a protective barrier against external threats.",
+              "**hit** - A direct physical interaction with the spikes allows one to strike or hit something.",
+              "**punch** - Similar to hitting, but implies a more forceful, fist-like or blunt impact using the spike.",
+              "**shock** - Spikes can deliver an electric shock (common in video game logic for such creatures).",
+              "**stab** - The pointed nature of the spike affords the ability to pierce or stab.",
+              "**"
+            ],
+            "raw": "Based on the visual analysis of part 4 (the red spike on the right side of the object), here is the ranking of its most plausible affordances:\n\n1. **attack** - The object is a spiky, defensive creature (resembling a Spiky Shell from Mario games). The primary function of its spikes is to attack enemies or defend itself.\n2. **defend** - Closely related to attack; the spikes serve as a protective barrier against external threats.\n3. **hit** - A direct physical interaction with the spikes allows one to strike or hit something.\n4. **punch** - Similar to hitting, but implies a more forceful, fist-like or blunt impact using the spike.\n5. **shock** - Spikes can deliver an electric shock (common in video game logic for such creatures).\n6. **stab** - The pointed nature of the spike affords the ability to pierce or stab.\n7. **"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_19_region_0",
+      "area": 16358,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "]`h`0`0Wo0<I6J5L5L4K5M2N2M3N2N2M3N2N2N2O1N2O2M2O1N2O1N3M2N101N2N2O0O2O1N2O0O2O1O1O1N2O0O2O00001N101O1O1O0O2O001O001N2O001O0O101O0000001O000O2O00001O001O00001O000O101O00001O0000001N1000000O10001N10000O100O10000O100O100O10O0100O100O010O010O100O10O0100O010O01O1O010O010O1O1O001N2M3N2N2XN]TOQOfk0>QUOWOSk0c0XUOVOkj0d0^UOTOgj0e0^2J6J7I7Jiae:"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 5 appears as a smooth, integrated patch of skin rather than having any protruding features like spikes or distinct functional appendages seen in surrounding areas such as those labeled for defensive structures; its form suggests purely decorative patterning without clear utility beyond visual design within the creature\u2019s overall aesthetic composition compared to more utilitarian elements",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.8903866878536064,
+                "prob": 0.5224169193874446
+              },
+              {
+                "option": "decorate",
+                "logprob": -2.3904260707786307,
+                "prob": 0.11656238022929248
+              },
+              {
+                "option": "align",
+                "logprob": -2.8902817585039884,
+                "prob": 0.07070886079842967
+              },
+              {
+                "option": "attack",
+                "logprob": -3.2035143062239513,
+                "prob": 0.05169382559754894
+              },
+              {
+                "option": "adjust",
+                "logprob": -4.015488865639782,
+                "prob": 0.022951052303344373
+              },
+              {
+                "option": "block",
+                "logprob": -4.077931671170518,
+                "prob": 0.02156175151674561
+              },
+              {
+                "option": "detect",
+                "logprob": -4.078075008641463,
+                "prob": 0.02155866113130336
+              },
+              {
+                "option": "defend",
+                "logprob": -4.193361719255336,
+                "prob": 0.019211151809593034
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -4.390297987972616,
+                "prob": 0.015777023379082863
+              },
+              {
+                "option": "button",
+                "logprob": -4.640471707622055,
+                "prob": 0.012285023826750431
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Based on the visual analysis of part 5 (the purple, teardrop-shaped protrusion on the side of the object), here is the ranking of its most plausible affordances:",
+              "**hold** - The shape is concave and cup-like, suggesting it can grip or hold small objects.",
+              "**contain** - Similar to holding, the indentation allows it to enclose items.",
+              "**catch** - The open, bowl-like structure is well-suited for catching falling items.",
+              "**collect** - It could be used to gather small particles or debris.",
+              "**store** - The space inside could be used for temporary storage.",
+              "**deflect** - The protrusion could redirect the path of incoming objects.",
+              "**block** - Depending on orientation, it could obstruct movement.",
+              "**shield** - It could offer protection to the area behind it.",
+              "**cover** - It could"
+            ],
+            "raw": "Based on the visual analysis of part 5 (the purple, teardrop-shaped protrusion on the side of the object), here is the ranking of its most plausible affordances:\n\n1. **hold** - The shape is concave and cup-like, suggesting it can grip or hold small objects.\n2. **contain** - Similar to holding, the indentation allows it to enclose items.\n3. **catch** - The open, bowl-like structure is well-suited for catching falling items.\n4. **collect** - It could be used to gather small particles or debris.\n5. **store** - The space inside could be used for temporary storage.\n6. **deflect** - The protrusion could redirect the path of incoming objects.\n7. **block** - Depending on orientation, it could obstruct movement.\n8. **shield** - It could offer protection to the area behind it.\n9. **cover** - It could"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_19_region_6",
+      "area": 13829,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "XZQ=;bo06K3N2N101L4M3M2N3N1M4M2N3N1N2O1M3N1N3N2L5L3M3L4L5K4K5L4K6J5K6J5J6J6J6I7I6J7J5I7K6J7I5M4L4O1N2O1O1O2N100O010O0100O101N1O2N101O0O2O1N2O2N1N3N2M2M5M2N3L3N3L3M4M3L4L3N3L4M2N3L4M3L3N3L3N3L3M3N3M2M4M3L3M4M3L3N2M4M2M4M3L3N3L3N3L3M3M3M3M4L3M2N3M3N1N2M4K4M3M4Lnfo>"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "attack",
+          "justification": "Part 6 features a sharp, pointed tip positioned prominently atop the head like a weaponized spike designed for striking enemies during combat encounters unlike its rounded counterparts which serve defensive functions such as protection against projectiles while maintaining structural integrity under pressure conditions typical in battle scenarios involving physical confrontations between characters within game environments where strategic positioning plays crucial",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "attack",
+                "logprob": -0.6513646353851072,
+                "prob": 0.5688369375236763
+              },
+              {
+                "option": "none",
+                "logprob": -2.026843473315239,
+                "prob": 0.1437556492215854
+              },
+              {
+                "option": "hit",
+                "logprob": -2.152032371959649,
+                "prob": 0.12683995300876796
+              },
+              {
+                "option": "defend",
+                "logprob": -2.927712146512931,
+                "prob": 0.05839593636606643
+              },
+              {
+                "option": "deflect",
+                "logprob": -3.677589649472793,
+                "prob": 0.02758766635582011
+              },
+              {
+                "option": "anchor",
+                "logprob": -3.776369283092208,
+                "prob": 0.0249928346068753
+              },
+              {
+                "option": "align",
+                "logprob": -4.651451865531271,
+                "prob": 0.010417703156852217
+              },
+              {
+                "option": "aim",
+                "logprob": -5.088914686406497,
+                "prob": 0.006726424769921772
+              },
+              {
+                "option": "block",
+                "logprob": -5.464116176008247,
+                "prob": 0.00462206823644324
+              },
+              {
+                "option": "attach",
+                "logprob": -5.52652026200667,
+                "prob": 0.004342447760097808
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "attack",
+              "hit",
+              "defend",
+              "block"
+            ],
+            "n_valid": 4,
+            "invalid": [
+              "Based on the visual analysis of part 6 (the brown spike on top of the blue object, resembling a Spiky Shell from Mario games), here is the ranking of its most plausible affordances:",
+              "**shield** (not in list, but \"defend\" covers this)",
+              "**stop** (not in list)",
+              "**stopper** (not in list)",
+              "**barrier** (not in list)",
+              "**obstacle** (not in list)",
+              "**spike** (not in list)",
+              "Since \"shield\", \"stopper\", \"barrier\", \"obstacle\", and \"spike\" are not in the provided list, I will select the next most plausible actions from the list that relate to the function of a spike or defensive object.",
+              "**"
+            ],
+            "raw": "Based on the visual analysis of part 6 (the brown spike on top of the blue object, resembling a Spiky Shell from Mario games), here is the ranking of its most plausible affordances:\n\n1. **attack**\n2. **hit**\n3. **defend**\n4. **shield** (not in list, but \"defend\" covers this)\n5. **block**\n6. **stop** (not in list)\n7. **stopper** (not in list)\n8. **barrier** (not in list)\n9. **obstacle** (not in list)\n10. **spike** (not in list)\n\nSince \"shield\", \"stopper\", \"barrier\", \"obstacle\", and \"spike\" are not in the provided list, I will select the next most plausible actions from the list that relate to the function of a spike or defensive object.\n\n1. **"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_19_region_3",
+      "area": 8243,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "Y^\\29fo03M2N3M2O1N101OO14K2O1O1O1O1O001O100O1O1O1O1O1O1O010O1O1O1O1O00100O1O1O1O1O100O1O1O001O100O1O1O1O100O1O1O1O1O1O1O100O1O1O1O1O1O100O1O2N1O1O1O101N1O1O2N1O2N2O0O3M2N3M4L1O001OO100O1O2N100O1O1O1O1O1O1O1O1N2O1O1N2O1O1O1N2N2O1O1N2N2O1N2N2N2N2N101N2N2O1M3O1O1N1N3N2M3N1N3N2M2O2M2M4N2K4O2N1O2O2N1L5NhaPi0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 7 appears as a small, isolated protrusion lacking any discernible function like attachment points for limbs or sensory organs; unlike larger structural elements such as those forming the main body base or head dome, its minimal size suggests no significant interactive role within the overall design context of similar components shown elsewhere in the figure set",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.9826908072864171,
+                "prob": 0.4249270771021642
+              },
+              {
+                "option": "attack",
+                "logprob": -1.1075900466821622,
+                "prob": 0.3750346161777851
+              },
+              {
+                "option": "defend",
+                "logprob": -3.099308302276768,
+                "prob": 0.051177504789718054
+              },
+              {
+                "option": "hit",
+                "logprob": -3.108103575592395,
+                "prob": 0.05072935832174518
+              },
+              {
+                "option": "decorate",
+                "logprob": -3.482517940879916,
+                "prob": 0.03488616866458406
+              },
+              {
+                "option": "deflect",
+                "logprob": -4.474237678092322,
+                "prob": 0.012940613513331714
+              },
+              {
+                "option": "block",
+                "logprob": -4.545336120703723,
+                "prob": 0.01205250181026573
+              },
+              {
+                "option": "aim",
+                "logprob": -5.545041897275951,
+                "prob": 0.004435172370344018
+              },
+              {
+                "option": "attach",
+                "logprob": -5.9201228203310166,
+                "prob": 0.0030479997562950227
+              },
+              {
+                "option": "dangle",
+                "logprob": -6.108546646108152,
+                "prob": 0.00252454723074361
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Based on the visual analysis of part 7 (a purple, pointed protrusion on the side of the object, similar in function to the other spikes like parts 4, 6, and 8), here is the ranking of its most plausible affordances:",
+              "**attack** - The object appears to be a spiky creature or toy (resembling a Spiky Shell from Mario games), and the spikes are primarily designed for defense or offense.",
+              "**defend** - Similar to attack, the spikes serve a protective function against external forces.",
+              "**push** - A spike can be used to push against surfaces or other objects.",
+              "**hit** - The sharp nature of the spike allows it to deliver a strike.",
+              "**poke** - A common action associated with sharp, pointed objects.",
+              "**stab** - Another potential action for a sharp protrusion.",
+              "**prick** - Similar to stab,"
+            ],
+            "raw": "Based on the visual analysis of part 7 (a purple, pointed protrusion on the side of the object, similar in function to the other spikes like parts 4, 6, and 8), here is the ranking of its most plausible affordances:\n\n1. **attack** - The object appears to be a spiky creature or toy (resembling a Spiky Shell from Mario games), and the spikes are primarily designed for defense or offense.\n2. **defend** - Similar to attack, the spikes serve a protective function against external forces.\n3. **push** - A spike can be used to push against surfaces or other objects.\n4. **hit** - The sharp nature of the spike allows it to deliver a strike.\n5. **poke** - A common action associated with sharp, pointed objects.\n6. **stab** - Another potential action for a sharp protrusion.\n7. **prick** - Similar to stab,"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_19_region_8",
+      "area": 7902,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "RXl6;co06K4L3N4K3N3M3M2N3M3M2N3N2M2O2M3N2M3N1O2N2M2O2N2N2M3N2N2N1O3L3N2N3M4L3L8I;E00O100N101N2N2N2N1O2N2N2N101N2N2N101N2N2N1O2M3O1N2O0O2N2O1N101N2N2N101N2N1O2N2O1O0O2O1N2O0O2O1N1O2N2N1O2O1N101N2O0O2O0O2N2O0O2O0O2N101N101N101N101N101N101N10001N101O000O101O0O101N100O101N101N1O2Neekd0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 8 appears as a small, flat-topped spike positioned laterally among others; unlike larger protrusions like those at positions four through six which suggest functional roles such as defense or balance due to their size and prominence, its minimal volume implies no significant interaction capability beyond mere decoration",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.3260680575622246,
+                "prob": 0.30415398595629556
+              },
+              {
+                "option": "attack",
+                "logprob": -1.450968081888277,
+                "prob": 0.2684417868222313
+              },
+              {
+                "option": "deflect",
+                "logprob": -2.412255404422467,
+                "prob": 0.10265221886404804
+              },
+              {
+                "option": "defend",
+                "logprob": -2.662347900768509,
+                "prob": 0.07993823409880539
+              },
+              {
+                "option": "block",
+                "logprob": -2.950969750236254,
+                "prob": 0.059897358954454125
+              },
+              {
+                "option": "align",
+                "logprob": -3.2009475850791205,
+                "prob": 0.046649144031786376
+              },
+              {
+                "option": "hit",
+                "logprob": -3.3265492073260248,
+                "prob": 0.041142965145811096
+              },
+              {
+                "option": "anchor",
+                "logprob": -4.138364997575991,
+                "prob": 0.018269576058870005
+              },
+              {
+                "option": "attach",
+                "logprob": -4.576000375527656,
+                "prob": 0.011794128087888014
+              },
+              {
+                "option": "orient",
+                "logprob": -4.763409211940598,
+                "prob": 0.00977856701702143
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "defend",
+              "block",
+              "attack",
+              "hit",
+              "push"
+            ],
+            "n_valid": 5,
+            "invalid": [
+              "Based on the visual analysis of part 8 (the grey spike on the left side of the object), here is the ranking of its most plausible affordances:",
+              "**stop** (not in list, but conceptually similar to block/defend) -> **prevent falling**",
+              "**shield** (not in list) -> **cover**",
+              "**stopper** (not in list) -> **plug**",
+              "**barrier** (not in list) -> **seal**",
+              "**stopper** (duplicate concept) -> **seal**",
+              "Since \"stop\", \"shield\", \"barrier\", and \"stopper\" are not in the provided list, I will select the closest functional equivalents from the remaining options."
+            ],
+            "raw": "Based on the visual analysis of part 8 (the grey spike on the left side of the object), here is the ranking of its most plausible affordances:\n\n1. **defend**\n2. **block**\n3. **attack**\n4. **hit**\n5. **push**\n6. **stop** (not in list, but conceptually similar to block/defend) -> **prevent falling**\n7. **shield** (not in list) -> **cover**\n8. **stopper** (not in list) -> **plug**\n9. **barrier** (not in list) -> **seal**\n10. **stopper** (duplicate concept) -> **seal**\n\nSince \"stop\", \"shield\", \"barrier\", and \"stopper\" are not in the provided list, I will select the closest functional equivalents from the remaining options.\n\n1. **defend**\n2."
+          }
+        }
+      }
+    }
+  ],
+  "generation_option_order": "shuffled_per_part"
+}

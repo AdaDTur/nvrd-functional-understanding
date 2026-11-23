@@ -1,0 +1,462 @@
+{
+  "object": "shape_10",
+  "model": "Qwen/Qwen3.5-4B",
+  "image_path": "/shared/nas/data/m1/adadt2/nvrd/regions_test/data/novel/shape_10.png",
+  "region_source": "sam_slic",
+  "method": "per_part_with_comparative_context",
+  "top_k": 10,
+  "modes": [
+    "logprob",
+    "generation"
+  ],
+  "regions": [
+    {
+      "region_id": "shape_10_region_13",
+      "area": 226266,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "bce3e0So0a0A;G8H6K6J5J6K5K5K5L4J6K5L3L4L4N2O2M3N1N200O0102N1O01O00O1000_XOVLjb0j3U]OXLkb0h3S]O[Llb0e3R]O]Lnb0c3P]O_LPc0a3n\\O`LRc0a3l\\OaLSc0_3m\\OaLSc0`3k\\ObLUc0]3j\\OdLVc0]3i\\OcLWc0^3g\\OcLZc0\\3f\\OdLZc0]3d\\OdL\\c0\\3d\\OdL\\c0]3b\\OdL^c0\\3b\\OdL^c0]3`\\OdL`c0\\3`\\OdL`c0]3_\\ObLbc0_3\\\\ObLdc0^3[\\OcLec0^3Y\\OcLgc0]3Y\\OcLgc0]3X\\OdLhc0\\3X\\OcLhc0_3V\\ObLjc0^3V\\ObLjc0^3U\\OcLkc0^3T\\OaLlc0`3S\\OaLmc0`3Q\\OaLnc0`3R\\O_Loc0b3o[O_LQd0a3n[O`LQd0a3n[O`LRd0a3l[O`LSd0a3m[O^LTd0b3k[O_LUd0b3j[O^LUd0c3j[O^LVd0b3i[O_LVd0c3h[O]LYd0c3f[O^LZd0b3e[O_L[d0b3c[O_L]d0a3b[O`L]d0b3a[O^L`d0b3`[O^L_d0c3`[O^L`d0c3^[O]Lbd0d3][O]Lcd0d3Z[O^Led0c3Z[O^Led0d3Y[O\\Lhd0d3W[O]Lhd0e3V[O\\Ljd0e3T[O\\Lkd0e3S[O]Lmd0d3P[O]LQe0d3mZO]LRe0d3mZO]LSe0d3kZO\\LVe0e3gZO]LXe0e3fZO\\LZe0e3bZO^L]e0d3aZO\\L`e0e3]ZO]Lbe0e3[ZO]Lee0d3XZO]Lhe0e3UZO]Lje0f3RZO[Lne0h3mYO[LSf0g3hYO\\LWf0i3aYOZL`f0c600O01000O010O010O0000100O010O010O010O010O0010O010O000010O010O010O01O01O01O01O01O010O010O010O001O0000010O01O01O010O001O0000010O0010O000001O010O001O0001O000010O001O0010O010O00010O001O00010O010O001O001O00100O0100O010O0100O001O10OO2O100O1O010O100O001O2N100O101N100O2O1W\\OlFc`0W9V_OPGg`0R9V_OQGh`0R9S_ORGl`0P9l^OWGRa0l8j^OVGUa0l8g^OXGWa0k8e^OWG[a0k8`^OXG_a0l8Y^OZGea0k8U^OWGka0P9g]OWGXb0X;10N2O1O010O0100O001O0000001O0N30N1010O00000O2O001O0O100O2O0O2O001O0O1O2J52N0010O0O1O2N1O2N1O1K60O0000O1O2N1O2O0O2Ho[O_DRd0a;70O0001O0O2N100O1O2J`[OjDad0W;3010O01N1O2O0O2O000O2O001O001O0000001O0000001O001O0010O010O0001O00001O001O010O00010O010O010O010O01O01O010O0010O10O0100O010O100O100O010O100O100O10O0100O100O100O100O100O10000O100O100O2O0O100O100O2O000O2O0O2O001N2O001N101N2O1O1N101N2O1N2O001N2O1O1N2O1O1N2O1O0O3N1O1N2O2N1N2O1N3N1O2M2O2N2N1N3N2N4K3N1O0O2O2N1O1N2O2N1N2O2N1O1N3N2N2M3N2N1O2M2O1O2M3N2N1O2M3N2N1O3M3L2O2N1O2M[KS@[Ik?a6d@VIZ?e6PAWIn>g6[AVIb>i6cATI\\>k6iASIU>l6RBPIk=o6\\BnHb=P7cBnH\\=Q7iBmHU=R7RCjHk<V7ZCiHc<V7aCiH]<V7hCgHW<X7PDdHn;\\7UDbHi;^7[DaHc;]7cDaH[;^7jD_HU;`7PE^Hn:a7XE[Hf:f7^EWHa:h7eETHZ:k7kEQHU:n7PFoGo9P8UFmGk9S8[FgGd9Y8aFcG_9]8dF_G]9`8jFZGV9f8QGRGP9m8WGlFj8S9]GfFd8Z9aG^Fb8a9n610O100O100O100O010O100O100O1O10O10O100O100O100O100O1O1O100O1000O010000O100O10000O10000O1000000O100O1000000001O00000000001O00010O001O001O001O00001O001O1O0010N1001O0000001O100O001O1O1O001O00010O2N1O10O01O1O010O1O100O1O1O00100O1O10O0100O100O1O1O100O001O100O10000O100O00100O101N1OhKnZOcMRe0T2[[OhMdd0T2e[OgM\\d0U2j[OiMUd0U2P\\OiMPd0R2V\\OmMic0Q2\\\\OnMcc0o1b\\OoM^c0n1g\\OPNYc0l1l\\OSNSc0k1Q]OSNPc0k1S]OTNmb0h1X]OWNgb0g1]]OYNbb0d1a]O\\N_b0b1c]O]KTMm2Ze0c1i]O\\NWb0`1n]O_NSb0]1Q^ObNoa0[1V^OcNja0[1Y^OdNha0X1]^OfNea0U1_^OjNba0R1b^OmN_a0P1d^OoN]a0m0g^OROZa0j0i^OVOXa0f0l^OXOUa0e0o^O[OQa0a0S_O^Oo`0<V_ODj`08Y_OHh`05[_OJg`00^_OOd`0K`_O5b`0Ec_O:_`0_Og_O`0[`0[Oh_Oe0\\`0QOj_Oo0[`0fNm_OX1\\`0WNm_Oh1Xg0N1O001O011N1O1O1O2N001O1O1O1O1O1O1O1O1O0\\NgQO`1\\n01001O1N3N1O1O1N2O5J100O2N2N2N3M2M4M5J6EiXd4"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 1 forms the smooth central body of the structure without any protrusions like legs or appendages found in adjacent sections such as those at positions three through five; its uniform surface suggests no functional interaction beyond structural support for upper components labeled two",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.5063269360689446,
+                "prob": 0.270211233800696
+              },
+              {
+                "option": "anchor",
+                "logprob": -2.0063918604282662,
+                "prob": 0.16388075770030164
+              },
+              {
+                "option": "align",
+                "logprob": -2.1311086644418538,
+                "prob": 0.14466522387398184
+              },
+              {
+                "option": "balance",
+                "logprob": -2.1313971018535085,
+                "prob": 0.1446235030284668
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -3.256147047510005,
+                "prob": 0.04696411921005232
+              },
+              {
+                "option": "orient",
+                "logprob": -3.3811087835929357,
+                "prob": 0.041447275640261065
+              },
+              {
+                "option": "support",
+                "logprob": -3.569048971578013,
+                "prob": 0.03434587640488462
+              },
+              {
+                "option": "control",
+                "logprob": -4.007062656455673,
+                "prob": 0.022163976265522998
+              },
+              {
+                "option": "adjust",
+                "logprob": -4.318862674816046,
+                "prob": 0.016226865969260013
+              },
+              {
+                "option": "absorb",
+                "logprob": -4.320524656999623,
+                "prob": 0.0161999196055146
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Based on the visual analysis of part 1 (the large blue body of the object, resembling a stylized sea urchin or a mechanical component with legs/spikes):",
+              "**stand** - The object is depicted in a standing position, supported by its lower appendages.",
+              "**hold** - The spikes/legs suggest a grasping or holding capability.",
+              "**paddle** - The shape and arrangement of the legs are consistent with a paddling motion.",
+              "**walk** - The leg-like structure implies locomotion.",
+              "**support** - Similar to stand, it provides structural support.",
+              "**balance** - The wide base and distribution of weight suggest stability.",
+              "**move** - The appendages allow for movement.",
+              "**propel** - The spikes could be used to push against a surface to move.",
+              "**lift** - The"
+            ],
+            "raw": "Based on the visual analysis of part 1 (the large blue body of the object, resembling a stylized sea urchin or a mechanical component with legs/spikes):\n\n1.  **stand** - The object is depicted in a standing position, supported by its lower appendages.\n2.  **hold** - The spikes/legs suggest a grasping or holding capability.\n3.  **paddle** - The shape and arrangement of the legs are consistent with a paddling motion.\n4.  **walk** - The leg-like structure implies locomotion.\n5.  **support** - Similar to stand, it provides structural support.\n6.  **balance** - The wide base and distribution of weight suggest stability.\n7.  **move** - The appendages allow for movement.\n8.  **propel** - The spikes could be used to push against a surface to move.\n9.  **lift** - The"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_10_region_11",
+      "area": 88036,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "Za\\49co08G8H7K4L4K5L4M3L3M4L4L4L3N3L3N2O2K4N2N3L3N2N2N2N2N2N2N2N2N2O1O1N2M2O2O1N2N1O2O0O2N2N1O2O0O2O1N1O2O0O2N2N2O1O0O2O0O2O0O2O0O101N101N101N2O001O0O2O0O2O1N101O00000O2N101O1N101O1N101O001N1000001O00001N2N101O010O000O2O001O0000001O1O0O2O001O00001O00001O001OoK[VOh1ei0VN`VOh1_i0WNcVOh1]i0XNeVOg1Zi0YNgVOf1Yi0ZNhVOf1Wi0YNkVOf1Ui0[NkVOd1Vi0[NkVOd1Ui0\\NlVOd1Si0]NlVOc1Ti0]NmVOb1Si0_NlVOb1Si0_NlVOa1Ti0`NlVO`1Si0aNkVO`1Ui0aNjVO`1Vi0aNhVO_1Xi0cNfVO]1Zi0eNbVO]1^i0c2O001O0001O0]KaVOg2^i0WMgVOf2Zi0YMgVOg2Wi0ZMjVOe2Vi0ZMmVOe2Ri0\\MnVOc2Si0\\MnVOc2Ri0]MnVOc2Ri0]MoVOb2Qi0_MoVO`2Ri0_MnVOb2Qi0_MoVO`2Qi0`MoVOa2Pi0`MoVO`2Qi0`MoVOa2Qi0_MnVOa2Ri0`MmVOa2Ri0`MmVO`2Si0aMkVOgNKR3[i0XNgVOfN3o2Ui0]NeVOdN9m2Si0TOnVOj0Si0VOoVOi0Pi0WOQWOh0Pi0XOPWOh0oh0XORWOg0nh0ZORWOf0mh0ZOSWOf0nh0ZORWOe0nh0\\OQWOd0oh0\\ORWOc0oh0]OPWOc0Pi0^OoVOb0Ri0_OlVOb0Si0_OlVOa0Ti0@kVOa0Ti0AiVOa0Vi0BfVO?[i0S3O0010O00001iKaVOl1_i0RNfVOk1[i0TNgVOj1Yi0UNiVOk1Wi0SNlVOk1Ti0UNmVOj1Si0VNnVOj1Ri0UNoVOj1Qi0VNPWOj1oh0WNQWOh1Pi0WNPWOi1Pi0XNPWOg1Qi0XNoVOh1Qi0YNoVOg1Qi0XNoVOh1Qi0YNoVOg1Pi0YNPWOg1Qi0YNnVOh1Qi0YNnVOg1Si0YNlVOh1Si0YNlVOg1Ui0ZNiVOf1Wi0\\NfVOe1Zi0]NbVOe1_i0]2010O10O01O010O001O001O010O0100O010O01O1O010O001O00100O001O00100O010O001O10O10O010O1O10O01O1O010O00100O010O00100O001O1O10O0100O010O100O001O100O010O00100O1O010O10O0100O100O001O10O10O100O001O100O1O1O010O100O100O010O1O100O00100O10O0100O1O100O010O100O100O00100O100O100O010O100O100O100O100O010O100O100O100O100O100O100O010O100O10000O100O1O10000O100O100O10O10O100O10000O10000O100O10000O100O100O10000O10000O10000O10000O10000O10000O101N10000O1000000O10000O2O000O1000000O10000O10001O0O10000O1000001N10000O101O000O1000001O0O1000001N10000O2O00000O101O000O10001O000O10001O000O101O00001O0O101O0000001O000O2O00001O001O000O10001O00001O000O2O001O001O00001O00001O001O00000O2O001O00001O001O001O001O001O001O001O001O001O001O1O001O001O1O01O01O001O001O001O1O001O001O1O010O1O001O1O1O00100O001O001O1O001O100O1O1O100O001O100O1O100O1O001O100O1O100O2O0O100O1O1O100O1O1O1O1000000O2O0O1O100O101N1O100O2N2O0O2O1M3N1NTel6"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part two appears as a smooth, solid cap resting passively atop the main body without any protrusions, handles, or textured surfaces suggesting interaction; unlike the spiky appendages below which invite grasping or manipulation, its flat top surface offers no functional leverage points for use",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.1373956798634026,
+                "prob": 0.36634321996752517
+              },
+              {
+                "option": "decorate",
+                "logprob": -1.3876666314317845,
+                "prob": 0.28523109230076765
+              },
+              {
+                "option": "orient",
+                "logprob": -2.2623204819392413,
+                "prob": 0.11894317420596592
+              },
+              {
+                "option": "align",
+                "logprob": -2.637447278306354,
+                "prob": 0.08173800367811414
+              },
+              {
+                "option": "cover",
+                "logprob": -3.137370773416478,
+                "prob": 0.04958039829229828
+              },
+              {
+                "option": "anchor",
+                "logprob": -4.450116593099665,
+                "prob": 0.01334110326001744
+              },
+              {
+                "option": "adjust",
+                "logprob": -4.637520441086963,
+                "prob": 0.011061226579274434
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -4.887389133512869,
+                "prob": 0.008615623143972856
+              },
+              {
+                "option": "balance",
+                "logprob": -4.950206422014162,
+                "prob": 0.008091061317692135
+              },
+              {
+                "option": "aim",
+                "logprob": -5.0750778712681495,
+                "prob": 0.007141254506076427
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "cover",
+              "shade",
+              "conceal",
+              "store_fuel",
+              "hold_food",
+              "contain",
+              "decorate",
+              "display",
+              "seal"
+            ],
+            "n_valid": 9,
+            "invalid": [
+              "Based on the visual analysis of part 2 (the orange upper section of the object, which resembles a snail shell or a protective cap):",
+              "protect",
+              "(Note: \"protect\" and \"shade\" are not in the provided list, so the top 10 from the available list are selected. \"Cover\" is the most direct functional description of a shell-like structure.)",
+              "protect"
+            ],
+            "raw": "Based on the visual analysis of part 2 (the orange upper section of the object, which resembles a snail shell or a protective cap):\n\n1. cover\n2. protect\n3. shade\n4. conceal\n5. store_fuel\n6. hold_food\n7. contain\n8. decorate\n9. display\n10. seal\n\n(Note: \"protect\" and \"shade\" are not in the provided list, so the top 10 from the available list are selected. \"Cover\" is the most direct functional description of a shell-like structure.)\n\ncover\nshade\nconceal\nstore_fuel\nhold_food\ncontain\ndecorate\ndisplay\nseal\nprotect"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_10_region_0",
+      "area": 13215,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "de]c0d0Xo05K4O2N1O1O1N2O1O2N100N3N1O1O2N1O2N1O1O2N1O2N101N101N101N2O001N1O2O1N1O2O1N101N101O1N1O2O1N2O001N2O1N2O1O001N2N2O1N2N2N1O2N2N2O1N2O1N2O1O1O1N2O1O2M2O1N2O1O1O1N3N1N2O1O1O1O1O1O2N1O1O1O1O100O2N100O100O100O100O1OWL^UOU2bj0`MQVOY2mi0cM\\VOY2di0bMdVO[2\\i0`MlVO]2Ti0_MSWO^2\\k0L1O2N1O2N2N1O2N1O1O1O2N1O1O100O2N1O1O002N1O1O1O1O001O2N001O1O1O1O1O002N001O1O1O001O1N2O001N2O1N2N1O3M2M4M3L5KmU\\7"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "align",
+          "justification": "Part 3 features sharp, pointed projections extending outward which are structurally designed for interlocking or securing against adjacent surfaces rather than supporting weight like base elements do",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "align",
+                "logprob": -1.377125089900801,
+                "prob": 0.3123587884806169
+              },
+              {
+                "option": "none",
+                "logprob": -1.877360661397688,
+                "prob": 0.18941055705975385
+              },
+              {
+                "option": "balance",
+                "logprob": -2.5022494957665913,
+                "prob": 0.10139543640957145
+              },
+              {
+                "option": "anchor",
+                "logprob": -2.7521934912365396,
+                "prob": 0.07897126790054276
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -2.877128799878612,
+                "prob": 0.069696407924843
+              },
+              {
+                "option": "orient",
+                "logprob": -3.314633789297659,
+                "prob": 0.04499915855377324
+              },
+              {
+                "option": "adjust",
+                "logprob": -3.377218634064775,
+                "prob": 0.042269210887530814
+              },
+              {
+                "option": "block",
+                "logprob": -4.00200102616509,
+                "prob": 0.02263000213350172
+              },
+              {
+                "option": "bend",
+                "logprob": -4.129041086489451,
+                "prob": 0.01993020646339245
+              },
+              {
+                "option": "deflect",
+                "logprob": -4.153142507755547,
+                "prob": 0.01945560245083534
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "swim",
+              "float",
+              "propel",
+              "move",
+              "walk",
+              "stand",
+              "support",
+              "balance",
+              "steer",
+              "orient"
+            ],
+            "n_valid": 10,
+            "invalid": [
+              "Based on the visual analysis of part 3 (the green, spiky structure resembling a fin or appendage on a sea creature):"
+            ],
+            "raw": "Based on the visual analysis of part 3 (the green, spiky structure resembling a fin or appendage on a sea creature):\n\n1. swim\n2. float\n3. propel\n4. move\n5. walk\n6. stand\n7. support\n8. balance\n9. steer\n10. orient"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_10_region_1",
+      "area": 7232,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "RhR>3lo02N1O2M2O1O1O2N100O1O1O1O2N100O2N1O100O2N1O1O2O0O101N101N1O2O0O2O0O101N2O0O2O0O2O1O0O2O1N2O1O001N2O001N2O1O001O1O1N101O1O1O001O1O0O200O001O001O001O1O001O001O001O010O1O010O1O010O0100O0010O01O100O1O10O01O1O1O1O1O1O100O001O1O1O1O1O1O1N2O1O2N1O1N3N1O2M2O2M2N3L3N3L4K7VOSXh="
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 4 appears as a flat, recessed panel integrated into the lower body structure rather than protruding like legs or appendages; its smooth surface suggests it serves no functional purpose such as support or interaction compared to the spiky projections of adjacent sections",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.7740730151126627,
+                "prob": 0.5883131479081599
+              },
+              {
+                "option": "anchor",
+                "logprob": -2.1492528019007295,
+                "prob": 0.1487221178480967
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -3.9613820025130906,
+                "prob": 0.02428722235908344
+              },
+              {
+                "option": "cover",
+                "logprob": -4.148863520909799,
+                "prob": 0.020135186662495575
+              },
+              {
+                "option": "contain",
+                "logprob": -4.2113941493444145,
+                "prob": 0.01891467803708446
+              },
+              {
+                "option": "adjust",
+                "logprob": -4.274353344284464,
+                "prob": 0.017760538204891933
+              },
+              {
+                "option": "align",
+                "logprob": -4.33664307493018,
+                "prob": 0.016687990196307276
+              },
+              {
+                "option": "release",
+                "logprob": -4.713275819318369,
+                "prob": 0.011450765302357075
+              },
+              {
+                "option": "support",
+                "logprob": -4.774366447411012,
+                "prob": 0.01077216980423564
+              },
+              {
+                "option": "block",
+                "logprob": -4.898944916611072,
+                "prob": 0.009510414574190896
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "plug",
+              "seal",
+              "close",
+              "cover",
+              "block",
+              "vent",
+              "drain",
+              "release",
+              "deflate",
+              "hold"
+            ],
+            "n_valid": 10,
+            "invalid": [
+              "Based on the visual analysis of part 4 (the red, curved structure located at the base of the object, resembling a valve or a cap):",
+              "depressurize (not in list, but conceptually similar to vent/release) -> **deflate**",
+              "**stop** (not in list) -> **prevent falling** (as a cap) or **hold** (as a stopper). Let's re-evaluate the list for the best fit.",
+              "Re-evaluating the list for the top 10:",
+              "Wait, looking at the list again:"
+            ],
+            "raw": "Based on the visual analysis of part 4 (the red, curved structure located at the base of the object, resembling a valve or a cap):\n\n1. plug\n2. seal\n3. close\n4. cover\n5. block\n6. vent\n7. drain\n8. release\n9. depressurize (not in list, but conceptually similar to vent/release) -> **deflate**\n10. **stop** (not in list) -> **prevent falling** (as a cap) or **hold** (as a stopper). Let's re-evaluate the list for the best fit.\n\nRe-evaluating the list for the top 10:\n1. plug\n2. seal\n3. close\n4. cover\n5. block\n6. vent\n7. drain\n8. release\n9. deflate\n10. hold\n\nWait, looking at the list again:\n- plug\n- seal"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_10_region_4",
+      "area": 4118,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "mbYi04ko03N3L4M2M3M3N2M3N2M3N1N3N2M3N2M3N2M2O1N1O2O0O010O0001O0000001N10001O00001N1000000O2O0000000O101O000O1000001O00000O100000000O101O0000000O100000000O1000001O0O1000000O100O10000000000O100000001N10000O2O0O2O1O0O2O2M2N3N1N3L4M`_W3"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "aim",
+          "justification": "Part 5 extends outward as a sharp spike positioned at the rear of the body like a dart ready for projection; unlike its rounded neighbors which serve structural functions such as support or protection, this pointed form suggests purposeful thrusting toward external targets rather than internal stability",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "aim",
+                "logprob": -1.3156890200916678,
+                "prob": 0.3300472367961154
+              },
+              {
+                "option": "none",
+                "logprob": -1.6908614380517974,
+                "prob": 0.22679881978336244
+              },
+              {
+                "option": "attack",
+                "logprob": -2.69076027860865,
+                "prob": 0.08344306370717341
+              },
+              {
+                "option": "anchor",
+                "logprob": -2.690767785476055,
+                "prob": 0.08344243731350942
+              },
+              {
+                "option": "align",
+                "logprob": -3.065685445064446,
+                "prob": 0.05735381490406688
+              },
+              {
+                "option": "adjust",
+                "logprob": -3.628258848708356,
+                "prob": 0.0326768199794408
+              },
+              {
+                "option": "orient",
+                "logprob": -3.8157987656304613,
+                "prob": 0.0270889539232503
+              },
+              {
+                "option": "attach",
+                "logprob": -3.8159028996014968,
+                "prob": 0.02708613318977671
+              },
+              {
+                "option": "deflect",
+                "logprob": -4.361623335265904,
+                "prob": 0.01569436092132185
+              },
+              {
+                "option": "detach",
+                "logprob": -4.441418405622244,
+                "prob": 0.014490690380323962
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Based on the visual analysis of part 5, which appears to be a small, pointed, horn-like or spike-like appendage protruding from the side of the object (resembling a conch shell or similar marine organism), here is the ranking of its most plausible affordances.",
+              "The object as a whole resembles a sea snail or a similar marine creature. Part 5 is a distinct, rigid, pointed structure. Its primary function in a biological context would be defense (to deter predators) or potentially for digging/anchoring. In a mechanical context, it could be a spike or a lever.",
+              "**defend**: This is the most plausible affordance. The sharp, rigid nature of the spike suggests a defensive mechanism to protect the organism or object from being touched or eaten.",
+              "**anchor**: Spikes are commonly used to anchor objects or organisms to a surface (like a sea anemone or a barnacle).",
+              "**"
+            ],
+            "raw": "Based on the visual analysis of part 5, which appears to be a small, pointed, horn-like or spike-like appendage protruding from the side of the object (resembling a conch shell or similar marine organism), here is the ranking of its most plausible affordances.\n\nThe object as a whole resembles a sea snail or a similar marine creature. Part 5 is a distinct, rigid, pointed structure. Its primary function in a biological context would be defense (to deter predators) or potentially for digging/anchoring. In a mechanical context, it could be a spike or a lever.\n\n1.  **defend**: This is the most plausible affordance. The sharp, rigid nature of the spike suggests a defensive mechanism to protect the organism or object from being touched or eaten.\n2.  **anchor**: Spikes are commonly used to anchor objects or organisms to a surface (like a sea anemone or a barnacle).\n3.  **"
+          }
+        }
+      }
+    }
+  ],
+  "generation_option_order": "shuffled_per_part"
+}

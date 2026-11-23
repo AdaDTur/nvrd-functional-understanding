@@ -1,0 +1,451 @@
+{
+  "object": "shape_28",
+  "model": "allenai/Molmo2-4B",
+  "image_path": "/shared/nas/data/m1/adadt2/nvrd/regions_test/data/novel/shape_28.png",
+  "region_source": "sam_slic",
+  "method": "per_part_with_comparative_context",
+  "top_k": 10,
+  "modes": [
+    "logprob",
+    "generation"
+  ],
+  "regions": [
+    {
+      "region_id": "shape_28_region_25",
+      "area": 95642,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "h`f9h0Qo0?D9H7J6I6K5K5K4L5J7J4M3L5L3L5L4L4K6K4L3M5J4M4L4L5K6J5L3L4L5K6J5K4L5K4M2M4L3M3N2M3M3N2M2N3M3M3M2N2N3M2N2N2N2N2N2N3M2N2N2N1N3N2N2M2N3M3N2M2O2M2N3M2N3N1O2M2M3N3M2N3M2N2M4L3N2M4L3N3K4M3N3L3N2O2M2L4N2N2N2O1N2N2O1M3N3N1O1O1O1N2O1O1N101O1O1O1O1O1O001O1O1O001O1O0010O01O010O0010O01O010O10O010O0010O0001O00100O01OQIb\\O]1_c0`Ng\\O]1Xc0aNl\\O]1Uc0cNk\\O\\1Uc0eNk\\OZ1Vc0fNj\\OZ1Vc0fNj\\OY1Wc0gNi\\OX1Wc0jNg\\OW1Yc0jNf\\OU1[c0lNc\\OT1]c0PO^\\OR1bc0e51O1O001O1O00100O100O10O0100O1O1dJU\\OcNkc0[1X\\OcNhc0]1Z\\ObNfc0^1[\\O`Nfc0_1[\\O`Nfc0_1\\\\O`Ndc0_1]\\O`Ndc0_1]\\OaNcc0^1_\\OaNac0^1`\\OaNac0_1_\\OaNac0^1`\\OaNac0^1a\\OaN_c0^1b\\OaN_c0]1d\\ObN\\c0Z1h\\OeNYc0[1h\\OcNYc0]1g\\OcNYc0]1g\\ObNZc0^1f\\ObNZc0^1d\\OdN\\c0\\1c\\OdN^c0\\1h[OQJc0d4ec0b1Y\\O_Ngc0b1W\\O_Nic0a1V\\O_Nkc0b1T\\O^Nmc0a1R\\O`Nnc0`1R\\O`Nnc0a1Q\\O^NPd0b1P\\O^NPd0c1n[O^NSd0cMd[O_17n0Vd0`Mj[Oa1KQ1[d0]Ml[Ob6Td0]In[Ob6Sd0]Im[Oc6Sd0\\Io[Ob6Rd0]IP\\Ob6Qd0\\IQ\\Oc6oc0]IR\\Ob6nc0^IS\\Oa6mc0^IV\\O`6kc0_IV\\O`6jc0`IX\\O]6ic0cIX\\O\\6hc0dIY\\O[6gc0eIZ\\OZ6gc0dI[\\O[6ec0eI[\\O[6fc0dI[\\O[6ec0dI\\\\O\\6ec0cI[\\O]6ec0cI[\\O\\6fc0cIY\\O_6hc0`IV\\Ob6jc0]IS\\Og6nc0XIQ\\Oi6Pd0UIo[Om6Qd0SIm[Oo6Td0PIk[OQ7Vd0oHh[OR7Xd0oHg[OQ7Zd0nHe[OS7[d0oHc[OQ7^d0UIZ[Ol6fd0VIX[Oj6id0XIS[Oi6nd0T21O001O1O1O1O001O1O2N1O1O1O2M2O2N1O1O1N3N1O3M1O2N3M2M3N2N3M3M3`HlYOn4Xf0cJ]ZOR5ie0cJdZOV5de0XJkZOb5mg0M4K4M3L3N3L4M2M3M2O3M2M2O2M2N3M3M2N2O1N2N3M2N3M2N2N2N3M2N2N2N3L3N3M3L3N2N3M4K3M4L4M4K3L5L4M4J6J6J6I8I8F<_Ol]h;"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "The central blue blob lacks any protrusions or extensions that could serve as handles or grips, unlike the other numbered parts which have distinct features",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.9599626898416318,
+                "prob": 0.4258650810935313
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -2.179797167831566,
+                "prob": 0.12574903148829608
+              },
+              {
+                "option": "contain",
+                "logprob": -2.585189101228025,
+                "prob": 0.08383882231606316
+              },
+              {
+                "option": "channel water",
+                "logprob": -3.011980138369836,
+                "prob": 0.054713207656739045
+              },
+              {
+                "option": "absorb",
+                "logprob": -3.038348842790583,
+                "prob": 0.05328934644479733
+              },
+              {
+                "option": "bake",
+                "logprob": -3.3671695185475983,
+                "prob": 0.0383561836129276
+              },
+              {
+                "option": "hold_food",
+                "logprob": -3.4579352583095897,
+                "prob": 0.035028079686333424
+              },
+              {
+                "option": "control",
+                "logprob": -3.9522894984984305,
+                "prob": 0.021365891095153765
+              },
+              {
+                "option": "apply",
+                "logprob": -4.163441464770585,
+                "prob": 0.017298915473209806
+              },
+              {
+                "option": "adjust",
+                "logprob": -4.382203020853922,
+                "prob": 0.013899908453634481
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "none",
+              "display",
+              "adjust",
+              "conceal",
+              "walk",
+              "exercise",
+              "block",
+              "drink",
+              "insert",
+              "label"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "none\ndisplay\nadjust\nconceal\nwalk\nexercise\nblock\ndrink\ninsert\nlabel"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_28_region_17",
+      "area": 15935,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "RXlg07ao0b0A:G8J5J6K5K4L4M3L4M2M4M2M3N2N3M2N2N2N2N2N2N2N2N2O1N2N101N1O2N101N2O1N101N101N101N100O2O001N101O0O101O000O101O0O101O00000O2O00000000000000000000000000000000000000O10001O00000O101O000O2O00001N101O0O2O001N101N101N101N2O0O2O0O2N2N2N101N2N2N2N2N2N2N2N2N2N2N2M4M2N3L3N2M4M3L4L4L4L5K5J7H9G:DShc3"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 2 appears to be a smooth, flat surface without any protrusions or features that could potentially be grasped or manipulated, unlike the other numbered parts which have distinct shapes or textures",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.5347509616112802,
+                "prob": 0.637531983685472
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -2.8169954113836866,
+                "prob": 0.06506325798992528
+              },
+              {
+                "option": "attach",
+                "logprob": -2.9255766952992417,
+                "prob": 0.058368637272381285
+              },
+              {
+                "option": "channel water",
+                "logprob": -3.837922793230973,
+                "prob": 0.02343973395592983
+              },
+              {
+                "option": "bake",
+                "logprob": -3.8809590684249997,
+                "prob": 0.022452373657542737
+              },
+              {
+                "option": "apply",
+                "logprob": -4.035225352738053,
+                "prob": 0.019242667039248536
+              },
+              {
+                "option": "hold_food",
+                "logprob": -4.3276052143773995,
+                "prob": 0.014364360787002695
+              },
+              {
+                "option": "absorb",
+                "logprob": -4.36311739073426,
+                "prob": 0.013863202353891445
+              },
+              {
+                "option": "prevent falling",
+                "logprob": -4.547392106644111,
+                "prob": 0.011530126449595765
+              },
+              {
+                "option": "contain",
+                "logprob": -4.617120319511741,
+                "prob": 0.010753540921250387
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "none",
+              "hold",
+              "press",
+              "lift",
+              "carry",
+              "support",
+              "hold_food",
+              "cook",
+              "boil",
+              "burn"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. none\n2. hold\n3. press\n4. lift\n5. carry\n6. support\n7. hold_food\n8. cook\n9. boil\n10. burn"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_28_region_1",
+      "area": 13281,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "Pjlh05ho09I5L4K3N2M4M3M2M2O2M3N1N3N1N2O1N2O1N2O1N2O1N2N2N2O1N101N2N2N101N2N1O2N2N1O2N1N3N1O2M2O2N1N2N3N1N2O2M2M3N2O2K4M3N2N2O100O101O01O00000000001O000000000000000O2O00001O000O101O00001N1000001N1000000O10001N100O100O2O0O101N1O1O101N1O2O0O2N1O2N2N101N2N2N2N1O2N2N2N2N2M4M2N3L3N2N4K4L3N4K4L5K5J7I7H\\Vb2"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "The green circular object in the bottom right appears to be a solid, flat piece without any protrusions or features that would allow it to be grasped or manipulated, unlike the other numbered parts which have distinct shapes or textures",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.6335474488441832,
+                "prob": 0.5812122714666871
+              },
+              {
+                "option": "hold_food",
+                "logprob": -2.7440425149397925,
+                "prob": 0.07043011766308427
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -2.9001925204356667,
+                "prob": 0.060248096222140016
+              },
+              {
+                "option": "prevent falling",
+                "logprob": -3.656928860291373,
+                "prob": 0.02826811904286056
+              },
+              {
+                "option": "bake",
+                "logprob": -3.7398186160135083,
+                "prob": 0.0260194641297733
+              },
+              {
+                "option": "attach",
+                "logprob": -3.7432248155237176,
+                "prob": 0.02593098741401516
+              },
+              {
+                "option": "carry",
+                "logprob": -3.813473096350208,
+                "prob": 0.02417189024691829
+              },
+              {
+                "option": "contain",
+                "logprob": -4.110496187349781,
+                "prob": 0.01796036358790644
+              },
+              {
+                "option": "support",
+                "logprob": -4.165044532332104,
+                "prob": 0.017006896903743192
+              },
+              {
+                "option": "apply",
+                "logprob": -4.290336282807402,
+                "prob": 0.015004155731936147
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "none",
+              "conceal",
+              "orient",
+              "label",
+              "plug",
+              "attach",
+              "support",
+              "hold",
+              "hold_food"
+            ],
+            "n_valid": 9,
+            "invalid": [],
+            "raw": "1. none\n2. conceal\n3. orient\n4. label\n5. plug\n6. attach\n7. support\n8. hold\n9. hold_food\n10. hold"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_28_region_26",
+      "area": 4225,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "X]ne03lo02N2N101N10O01O0001O000100O1O100O001O0010O01O0000010O001O001O001O010O001O0000010O001O001O001O1O00100O001O001O001O1O001O001O1O001O1N101O1O1O1N2O1O1N2N101N2N2N2N2N2M3N2M3M3L4M3M3O100O10O2O001O1O1O001O1O1O0000001O001O001O001O0SO`ROZOam0`0iROZOXm0c0mRO[OSm0c0RSOYOPm0d0W1M3N3N1N2N2N3M2O2MaeS6"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 4 appears to be a solid, flat surface without any protrusions or features that could potentially serve as an affordance for interaction or manipulation",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.7893196532968432,
+                "prob": 0.492418260821125
+              },
+              {
+                "option": "attach",
+                "logprob": -1.664462474611355,
+                "prob": 0.2052411558274587
+              },
+              {
+                "option": "channel water",
+                "logprob": -2.8582727009779774,
+                "prob": 0.06220127085450917
+              },
+              {
+                "option": "dangle",
+                "logprob": -3.354746483033523,
+                "prob": 0.03786024622119831
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -3.9153030226007104,
+                "prob": 0.02161408336054363
+              },
+              {
+                "option": "apply",
+                "logprob": -3.945991742541082,
+                "prob": 0.020960849531569792
+              },
+              {
+                "option": "prevent falling",
+                "logprob": -4.104632300441153,
+                "prob": 0.01788595614168163
+              },
+              {
+                "option": "anchor",
+                "logprob": -4.562810721196001,
+                "prob": 0.011311697995222572
+              },
+              {
+                "option": "bake",
+                "logprob": -4.667254735832103,
+                "prob": 0.010189862937190021
+              },
+              {
+                "option": "hold_food",
+                "logprob": -4.958733914085315,
+                "prob": 0.007613433236559098
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "none",
+              "hold_food",
+              "contain",
+              "support",
+              "attach",
+              "deposit",
+              "float",
+              "carry",
+              "stand",
+              "move"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. none\n2. hold_food\n3. contain\n4. support\n5. attach\n6. deposit\n7. float\n8. carry\n9. stand\n10. move"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_28_region_3",
+      "area": 2148,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "UgXg04ko02N2O1N1O2O0O2N2O1N2O1N2O001N2O1O2N2M7J3M1O1O2N1O1O001O1O001O010O0010O00001O00001O001O001O001N101N2O0O2O1N2N101N2N2N2M3M3N2K6IeXg6"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 5 appears to be a small, solid, non-interactive element positioned separately from the main object, lacking any visible features or protrusions that would suggest it could be manipulated or engaged with",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.6721874654467683,
+                "prob": 0.5596447600152094
+              },
+              {
+                "option": "hold_food",
+                "logprob": -2.344517953781178,
+                "prob": 0.10510624933788931
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -2.735716234194115,
+                "prob": 0.07107768661750659
+              },
+              {
+                "option": "attach",
+                "logprob": -3.4226120549137704,
+                "prob": 0.03576170527598255
+              },
+              {
+                "option": "carry",
+                "logprob": -3.664671249804087,
+                "prob": 0.028073285802438192
+              },
+              {
+                "option": "prevent falling",
+                "logprob": -3.8861394829291385,
+                "prob": 0.022496285525841625
+              },
+              {
+                "option": "bake",
+                "logprob": -3.972634647449013,
+                "prob": 0.020632242937919654
+              },
+              {
+                "option": "support",
+                "logprob": -4.172416672110558,
+                "prob": 0.01689593429388586
+              },
+              {
+                "option": "apply",
+                "logprob": -4.5675581289688125,
+                "prob": 0.01138084366599108
+              },
+              {
+                "option": "serve",
+                "logprob": -4.781918556254823,
+                "prob": 0.009184994634572317
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "none",
+              "hold_food",
+              "hold",
+              "serve",
+              "contain",
+              "store_fuel",
+              "eat"
+            ],
+            "n_valid": 7,
+            "invalid": [],
+            "raw": "1. none\n2. hold_food\n3. hold\n4. serve\n5. contain\n6. store_fuel\n7. eat\n8. hold_food\n9. hold\n10. serve"
+          }
+        }
+      }
+    }
+  ],
+  "generation_option_order": "shuffled_per_part"
+}

@@ -1,0 +1,612 @@
+{
+  "object": "shape_22",
+  "model": "microsoft/Phi-3.5-vision-instruct",
+  "image_path": "/shared/nas/data/m1/adadt2/nvrd/regions_test/data/novel/shape_22.png",
+  "region_source": "sam_slic",
+  "method": "per_part_with_comparative_context",
+  "top_k": 10,
+  "modes": [
+    "logprob",
+    "generation"
+  ],
+  "regions": [
+    {
+      "region_id": "shape_22_region_9",
+      "area": 93524,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "T_m6=Yo0h0]O9G;F9I3M3L4M4M2N3M2O1N20O0100O10O01O1O001N101O00001O001O0000001O0000000O101N100O2O0O2O0O101N1O100O2N1N2\\OgL^TO\\3`k0d0N1O1O101N110O000001O0001O01O001O0000010O0000000001O000001O00000000001O0001O00000001O000000O10000000001O01N11O00000O10000000000000000000000000001O00000000O0101O0000000000O11O000000000O10000000000000000O011O0000000000000O100000000000O1000O10000000000000000O1000000000000O100000O1000000000O100000O010000000000O100000000O1000O1000000000O100000000O100000000O01000000000O100000000O10O1000O10000O100000000O010000000O100000O10O1000000O100000O10O1000000O10000O10O10O100000O10O100000000O1000O10O1000000O10O1000O100000O0100O10000O10O10O100000O10O10000000O010000O010O100000O10O100O10O10O1000000O01000O1000O10O100O10O1000O100000O0100O1000O010000O01000O1000O10O1000O0100000O0100O10000O01000O010O10O10O10000O010O10O1000O10O10O10O0100O1000O010000O0100000O010O100O010O10O10O100O010O10O10O100O010O01000O10O10O10O01O10O010O10O010O10O10O10O0100O010O010O100O010O00100O010O10O0100O00100O010O010O1O010O010O1O010O001O10O01O1O0O2O001O10OO2N1O1M4L30100O010000O010O1O100O2O000O101N10000000000O101N10000O100O1O2M2H8N201O00001O001O2ON100O02O0O2N2B]UO\\Kej0^3VUO_M7QOdj0`3UUO_MWk0e30000001kNhTO`MXk0X2jTOjLNn0Yk0W2iTOkLNn0Zk0b31O001O001O010O1O0O2O1O1N2O0O2N3M2O1N2N2N3M1K6M4N100N3N1N4L2N3L4L4L3N3L5K6J5K5I8I9F9F7Iddh5"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 1 appears to be a smooth, untextured surface with no distinct features or edges that suggest a specific function or interaction",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.1476221652701497,
+                "prob": 0.9057067967573192
+              },
+              {
+                "option": "absorb",
+                "logprob": -2.89996596192816,
+                "prob": 0.05776435171768929
+              },
+              {
+                "option": "apply",
+                "logprob": -4.213532478548586,
+                "prob": 0.015530491987916175
+              },
+              {
+                "option": "administer",
+                "logprob": -5.8392104417143855,
+                "prob": 0.003056062593721002
+              },
+              {
+                "option": "block",
+                "logprob": -6.58853732701391,
+                "prob": 0.001444553775560457
+              },
+              {
+                "option": "anchor",
+                "logprob": -6.646701565477997,
+                "prob": 0.0013629292305907433
+              },
+              {
+                "option": "adjust",
+                "logprob": -6.708603317849338,
+                "prob": 0.0012811197205312925
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -7.0672640359243815,
+                "prob": 0.0008950047612608273
+              },
+              {
+                "option": "align",
+                "logprob": -7.209790433291346,
+                "prob": 0.0007761165022951727
+              },
+              {
+                "option": "hold_food",
+                "logprob": -7.2920086103258654,
+                "prob": 0.0007148583875476337
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "absorb",
+              "adjust",
+              "apply",
+              "anchor",
+              "attach",
+              "aim",
+              "bend"
+            ],
+            "n_valid": 7,
+            "invalid": [],
+            "raw": "1. absorb\n2. adjust\n3. apply\n4. anchor\n5. attach\n6. aim\n7. bend"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_22_region_2",
+      "area": 81052,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "^[Z8g0Ro0:H8I5J7K5K4L4M3K5M4L3K5L3N3L3N2N2N3L3N2N3M3M2N3N1N2N2N3N1N2N3N1N2O1O1N3N1N2O1O1N2O2M2O1O1O1N2O1O1O1O1O1O1N2O1O1O1O1O2N1O1O1N101O100O1O1O1O1O1O1O1O1O100O1O1O1O1O1O100O1O100O1O1O1O100O1O1O1O010O1O100O1O100O1O1O100O10O01O100O100O100O010O1O100O1000O0100O1O100O100O10000O010O100O100O10O010000O100O10O10O100O10000O01000O10000O10O1000O1000O010000O10O10O10000O0100000O1000O10O10000O010000000O01000000000O01000000000O01000000O10O1000O100000000O1000O10O100000000O1000000O0100000O1000000O1000000O10000O1000000O10000O1000001N10000O1000000O100000000O10000O2O00000O1000000O101O0O10000O1000001N10000O1000000O2O000O10000O2O000O101O0O10001O0O10000O2O000O10001N10001O0O2O000O101O0O101O0O101O0O101O0O2O001N10001N101O0O101N101O0O101O0O10001N101O0O101N101O0O2O001N101O0O2O1N101N101O0O101N101O1O0O2O0O2O1N101N101N101O0O2O1N101O1N2O0O2O1O1N101N101N2O0O2O1N2O0O2O1N2O1N2O1O0O2O1N2O0O2N2O1N2O1N2N2O1N2O1N2O1N2O1N2N2O1N2O1N2O1N2N2N2N2O2M2N2N2N3N1N2N2N3M2N3L4L4K6JYgo8"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 2 is flat and lacks any features that suggest a specific function or interaction, unlike the other parts which have distinct shapes and edges",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.10644590016454458,
+                "prob": 0.9288289234135166
+              },
+              {
+                "option": "absorb",
+                "logprob": -2.858420650008725,
+                "prob": 0.059260905412919604
+              },
+              {
+                "option": "apply",
+                "logprob": -6.549488162621856,
+                "prob": 0.0014782845210126907
+              },
+              {
+                "option": "block",
+                "logprob": -6.797870356589556,
+                "prob": 0.0011531532125320352
+              },
+              {
+                "option": "bake",
+                "logprob": -7.392490212805569,
+                "prob": 0.0006362779758921067
+              },
+              {
+                "option": "aim",
+                "logprob": -7.417310977820307,
+                "prob": 0.0006206794541965977
+              },
+              {
+                "option": "anchor",
+                "logprob": -7.4191529378294945,
+                "prob": 0.0006195372397430597
+              },
+              {
+                "option": "cover",
+                "logprob": -7.420954419765621,
+                "prob": 0.0006184221592971126
+              },
+              {
+                "option": "administer",
+                "logprob": -7.61288192140637,
+                "prob": 0.0005104250593333192
+              },
+              {
+                "option": "align",
+                "logprob": -7.7938704651314765,
+                "prob": 0.00042592159691906496
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "absorb",
+              "adjust",
+              "apply",
+              "anchor",
+              "aim",
+              "attach",
+              "bend"
+            ],
+            "n_valid": 7,
+            "invalid": [],
+            "raw": "1. absorb\n2. adjust\n3. apply\n4. anchor\n5. aim\n6. attach\n7. bend"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_22_region_5",
+      "area": 73716,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "^ei6;ao08J5K5L4K4L4M4L3M3M2N4M2M3M3H9L3N1N3O1N2O1000000O00010O1O1N101O001O00000010O01O1O0O2O1O0O2O0O2N2O0O100O101N101N100O100O100O2O0O100O1O100O1O100O100O1O010O1O2N1O1O100O010O1O1O2O0O00100O001O100O2N10O010O01O1O1O1O100O1O001O10O01O1O00100O001O1O10O01O001O010O1O001O010O001O001O010O001O0010O01O001O00010O001O000010O0001O0000001O000010O0001O0010O0001O01O01O0000001O01O000001O000000001O01O01O000001O0001O00001O000000001O0000010O0000000000001O000001O000001O0000000001O0000000001O00000000000000010O00000000000000000000001O000001O00000000000000000000001O000000000000000001O00000000000000000000000000O10000000000000000000000000000000000000000000000O1000000000000000001O0O01000000000000000000000O100000000000000000000O100000000000000O1000O10000000O1000000O100000000O10000000O11N10000O10O10000001N1000O100000O10O1000O100000000O100O10O10O10000O1000O01000000O100O1000000O10O0100O1O100O10O010000O100O1O010O100O100O1O10O0100O1O100O1O001O100O001O001O100O1O1O1O1O1O1O1O001O1O1O1N101O1O1O001O1O1O1O10O01N2O001O1N2_O\\SOdMel0S2fSOjM\\l0S2gSOkM[l0T2gSOiM[l0R2k0N3M3N1N3O1N1O2N101N2O1M201O1O1O002N1O1N20O0100O001O010O0010000O11N101N2O0O2N100O10000O1O010O10000M201O000001N1O101N1N3M101O1O2M2N3N2N3L3N3J6KjZZ7"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 3 is flat and lacks any features that suggest a specific function or interaction, unlike the other parts which have distinct edges and contours",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.37247029272839427,
+                "prob": 0.7566013059479155
+              },
+              {
+                "option": "absorb",
+                "logprob": -2.1246139272109303,
+                "prob": 0.1311960545183763
+              },
+              {
+                "option": "balance",
+                "logprob": -2.808176235528663,
+                "prob": 0.0662297988581208
+              },
+              {
+                "option": "align",
+                "logprob": -4.559291135054082,
+                "prob": 0.011496189078215013
+              },
+              {
+                "option": "bend",
+                "logprob": -5.61780271329917,
+                "prob": 0.003988854183883935
+              },
+              {
+                "option": "adjust",
+                "logprob": -5.746182287344709,
+                "prob": 0.0035082749297356995
+              },
+              {
+                "option": "bake",
+                "logprob": -5.80724838282913,
+                "prob": 0.003300448433471528
+              },
+              {
+                "option": "blend",
+                "logprob": -5.810208763228729,
+                "prob": 0.003290692298679406
+              },
+              {
+                "option": "aim",
+                "logprob": -5.99518003477715,
+                "prob": 0.0027349870370857047
+              },
+              {
+                "option": "beat",
+                "logprob": -6.684330548159778,
+                "prob": 0.0013729698712936123
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "absorb",
+              "adjust",
+              "apply",
+              "administer",
+              "aim",
+              "anchor",
+              "balance"
+            ],
+            "n_valid": 7,
+            "invalid": [],
+            "raw": "1. absorb\n2. adjust\n3. apply\n4. administer\n5. aim\n6. anchor\n7. balance"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_22_region_4",
+      "area": 52803,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "YcT7>\\o0:I7J7H6K5L5J3M2N3M3N3L4M2M4M3M2N2N3L3N1O2N2N101N2N2N2N2N2N2O1N1O2O0O2O1N2O0O2O0O2O0O2O0O1000100O01XLTTO[3_l0I3N2M100O2O0O1O100O1O010O10O01O1O010O0010O01O1O01O010O0001O010O001O01O01O000010O0001O01O0001O01O00010O000001O0001O010O00000001O01O0001O01O0001O000001O0001O000001O0001O0000001O0001O000000010O000000000010O000000000010O00000000000010O000000000000010O000001O0000000000000001O0001O000000000000010O00000000000000000000001O0001O000001O00000000000000000000000010O0000000000000000000000000000000000000001O00000000000000000000001O0000000000O1000000001O00000000000000000000O11O000000000O100000000000000000000000O1001O00000000O10000000O1000000000000000000O1000000000000000000O100000000000O100000O10000000000000000000000O1000000000O100000O100000000000000O10000000O100000O1000000000000O10O10000000O100000O10O10000000000O10000000O10O1000000000O010000O10000000O0100000000O100000O01000000O1000O01000000O10O10O10000O10O1000O1000O100000O1000O100000O100O10O01000O0100O100O010O1000O10O10O10O010O100O0100000000O01O100O010O1O1O00100OPMcSO_2]l0_MmSOX2Tl0fMoSOY2Rl0eMQTOX2ok0hMSTOW2mk0hMUTOW2lk0gMWTOV2jk0hMYTOW2hk0gMZTOW2hl001O1N2O1O1N2O1O1O1N2O000O101N101N2N2N1O2O0O2O001N2O2M100O2N1O1O00100O100O100O00001O00O2N1N2O1O1M3N2O1O1L3L5J6N1101N102N1N3L4N3L4L6I5L4L7Eo\\c6"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 4 is flat and lacks the three-dimensional shape that suggests a specific function or interaction, unlike the other parts which have distinct outlines and suggest a hollow space within",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.463068132288754,
+                "prob": 0.7141847333769832
+              },
+              {
+                "option": "absorb",
+                "logprob": -2.4630824187767075,
+                "prob": 0.0966530123328787
+              },
+              {
+                "option": "amplify",
+                "logprob": -3.400124867373961,
+                "prob": 0.03786718568554043
+              },
+              {
+                "option": "apply",
+                "logprob": -3.5908100493252277,
+                "prob": 0.031293166219348766
+              },
+              {
+                "option": "adjust",
+                "logprob": -3.897764597320929,
+                "prob": 0.023021882900495116
+              },
+              {
+                "option": "accelerate",
+                "logprob": -4.026813166157808,
+                "prob": 0.020234652909951287
+              },
+              {
+                "option": "align",
+                "logprob": -4.086305245291442,
+                "prob": 0.019065959999964497
+              },
+              {
+                "option": "administer",
+                "logprob": -4.216627830785001,
+                "prob": 0.016736332593076355
+              },
+              {
+                "option": "bake",
+                "logprob": -5.351935720536858,
+                "prob": 0.005377771509766788
+              },
+              {
+                "option": "aim",
+                "logprob": -5.522270385408774,
+                "prob": 0.0045355184817542065
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "adjust",
+              "align",
+              "apply",
+              "administer",
+              "aim",
+              "attach",
+              "bend",
+              "block",
+              "bake",
+              "balance"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. adjust\n2. align\n3. apply\n4. administer\n5. aim\n5. attach\n6. bend\n7. block\n8. bake\n9. balance\n10. beat"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_22_region_6",
+      "area": 36496,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "_ai87ho02gPOLdn04[QOObn03\\QO0cn0O]QO2bn0O\\QO3bn0g0O1N3N1O10O01O001O001O1O010O001O001O001O00010O00001O001O000010OO101O0000010O0000000O20O0001O0000001O000000001O0000001O00010O0000001O0000000000001O0O11O0001O0000000000001O000000001N11O0000000001O000000000000001N1000000001O00O1000001O0000000000001O00000000000O10001O0000000000000O11O000000O10000000001O000000O01000001O000000000000000000000O1000000000001O000000000O10000000000000000O100000000000000O1000000000000000000O10000000000000000O1000000000000O0100000000000O10000000000O1000000000000O10000000000O10000000O0100000000000O010000O1000000000000O10O100000O1000000O10000000O10O10000000O10O1000000O10000000O10O10000O01000000000O1000O10O10000000O0100000000O01000O100O10O100000O1000O01000000O1000O010000000O01000000O0100000O10O1000O10O10O1000000O01000O1000O10O01000O10O10O10O100O0100O010O100O01000O01000O10O100O01000O0100O10O010O1O01000O01000O10O010O10O10O010O010O0100O010O010O10O0100O010O010O10O01O01000O01O01O001O1O010O001O001N2N2N1O2N1N3L4L3mNT1H8M2M4L3N4L3O2MPaR8"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 5 is a flat, circular shape with no distinct function or interaction potential, unlike the other parts which have protrusions or distinct shapes suggesting movement or interaction",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.25330800050869584,
+                "prob": 0.8409676356022802
+              },
+              {
+                "option": "absorb",
+                "logprob": -2.7553738849231877,
+                "prob": 0.06888836470730249
+              },
+              {
+                "option": "apply",
+                "logprob": -3.5687618139199913,
+                "prob": 0.030541895456703615
+              },
+              {
+                "option": "accelerate",
+                "logprob": -4.8804169921641005,
+                "prob": 0.008227187217047934
+              },
+              {
+                "option": "adjust",
+                "logprob": -5.001688596792519,
+                "prob": 0.0072875876548721685
+              },
+              {
+                "option": "align",
+                "logprob": -5.252246395684779,
+                "prob": 0.005672414023436809
+              },
+              {
+                "option": "amplify",
+                "logprob": -5.3162041217510705,
+                "prob": 0.005320977647293818
+              },
+              {
+                "option": "administer",
+                "logprob": -5.3198981788009405,
+                "prob": 0.0053013579128238465
+              },
+              {
+                "option": "aim",
+                "logprob": -5.875768630299717,
+                "prob": 0.0030407145775775404
+              },
+              {
+                "option": "bend",
+                "logprob": -5.901591493515298,
+                "prob": 0.0029631997556088772
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "adjust",
+              "apply",
+              "attach",
+              "anchor",
+              "absorb",
+              "amplify",
+              "bend"
+            ],
+            "n_valid": 7,
+            "invalid": [],
+            "raw": "1. adjust\n2. apply\n3. attach\n4. anchor\n5. absorb\n6. amplify\n7. bend"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_22_region_0",
+      "area": 34287,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "jhZf06eo06K5L3L5L3N2N2N1O2N2N2O1O1N2N2O1O1O1O1O2N1O100O2M2eK]NXZOd1ce0fNXZOZ1ge0iNVZOX1he0kNWZOU1he0mNWZOT1de0QO[ZOo0ce0UO[ZOk0be0YO]ZOg0ae0[O_ZOe0]e0@bZO`0Ye0EgZO;Te0KkZO5Pe00P[O0md04R[OLjd08V[OHfd0=Y[OCad0c0_[O]O]d0h0b[OXOYd0m0g[OSOUd0R1j[OnNRd0V1n[OjNmc0\\1R\\OdNgc0c1X\\O^Ndc0g1[\\OYN`c0l1`\\OTN[c0R2d\\OnMWc0X2h\\OhMTc0\\2k\\OdMSc0`2l\\O`MQc0c2o\\O]Mnb0f2R]OZMlb0h2S]OYMkb0j2T]OUMjb0n2V]ORMhb0P3X]OPMfb0R3Y]OoLeb0S3[]OmLcb0U3]]OjLbb0X3]]OiLab0Y3_]OgL`b0Y3a]OgL^b0Z3a]OgL]b0[3c]OdL]b0\\3d]OdL[b0]3d]OdL\\b0[3e]OdL[b0[3f]OfLYb0Y3i]OgLUb0X3m]OiLRb0T3R^OlLna0Q3T^OoLla0P3V^OPMia0m2Z^OTMea0i2_^OWM`a0d2e^O\\M\\a0_2h^ObMWa0^2j^OaMWa0X2o^OiMPa0T2S_OmMm`0l1Y_OUNf`0g1__OXNb`0b1c_O_N\\`0^1h_ObNX`0[1j_OeNW`0W1l_OjNS`0S1P@mNQ`0n0T@ROl?j0W@WOh?g0Z@YOg?c0]@]Oc?`0_@@a?>a@C_?:c@F^?6e@K[?3f@M[?1f@0Z?Of@1Z?0d@2\\?Nc@3]?Mb@3_?M_@5a?K]@6d?KZ@5g?KW@7i?JT@7m?JP@8P`0Jl_O7U`0Kg_O7Y`0Lb_O5_`0M]_O5d`0MV_O5k`0MP_O6Pa0Mk^O4Va0Od^O3]a01\\^O2ea00U^O2la02l]O1Ub01e]O2]b01[]O3eb02R]O1ob03h\\O1Zc07U\\O0lc08e[OO[d0>cZO6_e0T51O2N2N1O2N1O2N2N2N2N1O2N2N2N2N2N2M3N2N2N2M3N2N3L3N2N3L3N3L3M4M2M4L3N3L4L3M5K3M5K4L4L5J5L4L4K5L5J5K7I7I6J6K6I6I8H8H8H9F;E<B?@b0[Om]c3"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 6 lacks a distinct shape or feature that suggests a specific function or interaction, unlike the other parts which have clear outlines and color distinctions",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.282948981737718,
+                "prob": 0.8171017950066638
+              },
+              {
+                "option": "absorb",
+                "logprob": -2.8505172394203555,
+                "prob": 0.06268959127641369
+              },
+              {
+                "option": "anchor",
+                "logprob": -3.5339833181351423,
+                "prob": 0.03164972142432982
+              },
+              {
+                "option": "apply",
+                "logprob": -3.913728573359549,
+                "prob": 0.021649537498579806
+              },
+              {
+                "option": "attach",
+                "logprob": -4.0968210976570845,
+                "prob": 0.018027377367659674
+              },
+              {
+                "option": "bend",
+                "logprob": -4.961193546652794,
+                "prob": 0.00759522012320487
+              },
+              {
+                "option": "administer",
+                "logprob": -5.544188752042828,
+                "prob": 0.004239833132321368
+              },
+              {
+                "option": "aim",
+                "logprob": -5.658171682385728,
+                "prob": 0.0037830894194156002
+              },
+              {
+                "option": "adjust",
+                "logprob": -5.722019535955042,
+                "prob": 0.003549096730407214
+              },
+              {
+                "option": "hold_food",
+                "logprob": -6.323495047414326,
+                "prob": 0.0019449137225751164
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "absorb",
+              "adjust",
+              "apply",
+              "attach",
+              "anchor",
+              "aim",
+              "bend"
+            ],
+            "n_valid": 7,
+            "invalid": [],
+            "raw": "1. absorb\n2. adjust\n3. apply\n4. attach\n5. anchor\n6. aim\n7. bend"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_22_region_1",
+      "area": 24295,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "`ac3410Vo0R1WOf0]O=A`0F9E9H:F:G7K5K6I6J6I7K6J4L5J6L4K4N2M4K5K4K6L3M3L4M3N3L3N2M3L4M3M3N2M3N2M3M3N101N2L4M3N2N1O2N1N3N1O2N2N2N2N1O2N1O2O0O2NbK[ZOcNde0S1oZOfNPe0S1^[OfNad0T1j[OiNTd0Q1X\\OjNgc0R1a\\OlN]c0P1j\\OnNUc0o0Q]OPOnb0n0V]OPOib0m0\\]OROdb0j0b]OTO]b0j0h]OUOWb0f0P^OXOoa0e0W^OYOha0f0[^OZOca0b0c^O]O\\a0a0i^O]OWa0b0j^O_OTa0`0o^O_OQa0>S_OAl`0?V_OAi`0<[_OCd`0<^_ODb`0:a_OE^`0:d_OF\\`08g_OGX`07l_OHT`07n_OIQ`06P@Jo?6R@Jn?5T@Jl?4V@Li?4X@Lh?3Z@Lf?3[@Me?2\\@Nc?2_@Lb?3_@Ma?2`@Ma?3`@Ic?7]@Ge?9[@Eg?;Y@Dh?<Y@Ai??W@@j?`0V@_Ok?b0U@[Om?f0R@YOo?i0P@UOQ`0l0P@ROP`0o0S@lNn?V1T@eNm?]1V@]Nl?d1V@VNl?JaYOg1e6SNQ`0[2i61O3N0O010O0001O001O1O001O1O1O1O1O001N2O1O2N1O2N2N3M1O2N2N3M2N2M5L3L9G;D8J1N2Neb^g0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 7 lacks a distinct shape or material that suggests a specific function, differentiating it from the other parts which have clear outlines and colors indicating their respective affordances",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.1837162219453603,
+                "prob": 0.8904413502610758
+              },
+              {
+                "option": "absorb",
+                "logprob": -2.9388596676217276,
+                "prob": 0.056631977167699264
+              },
+              {
+                "option": "apply",
+                "logprob": -5.001238674856722,
+                "prob": 0.007200819118916083
+              },
+              {
+                "option": "attach",
+                "logprob": -5.246668455656618,
+                "prob": 0.005633692030388743
+              },
+              {
+                "option": "bend",
+                "logprob": -5.54802185553126,
+                "prob": 0.004167897055595947
+              },
+              {
+                "option": "anchor",
+                "logprob": -5.559252674458548,
+                "prob": 0.004121350028326441
+              },
+              {
+                "option": "aim",
+                "logprob": -5.80904324259609,
+                "prob": 0.0032103829154436565
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -6.115086863932447,
+                "prob": 0.002363979900051663
+              },
+              {
+                "option": "adjust",
+                "logprob": -6.497134361881763,
+                "prob": 0.0016133279560728382
+              },
+              {
+                "option": "administer",
+                "logprob": -6.502752159634838,
+                "prob": 0.0016042900163345227
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "absorb",
+              "accelerate",
+              "adjust",
+              "administer",
+              "aim",
+              "align",
+              "none"
+            ],
+            "n_valid": 7,
+            "invalid": [],
+            "raw": "1. absorb\n2. accelerate\n3. adjust\n4. administer\n5. aim\n6. align\n7. none"
+          }
+        }
+      }
+    }
+  ]
+}

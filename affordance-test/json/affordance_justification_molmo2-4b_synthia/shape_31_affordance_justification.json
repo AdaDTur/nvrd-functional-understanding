@@ -1,0 +1,1067 @@
+{
+  "object": "shape_31",
+  "model": "allenai/Molmo2-4B",
+  "image_path": "/shared/nas/data/m1/adadt2/nvrd/regions_test/data/novel/shape_31.png",
+  "region_source": "sam_slic",
+  "method": "per_part_with_comparative_context",
+  "top_k": 10,
+  "modes": [
+    "logprob",
+    "generation"
+  ],
+  "regions": [
+    {
+      "region_id": "shape_31_region_47",
+      "area": 90803,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "okk3d0Uo0<E:H6H9H7H8G8I7J6H8K5H8H8K5I7G9I6J7J5J7H7K6J5L5K4L5K4M3L5K4M4L3N2L4N2N2M3M3N2N2N2N2O1N2N2N2O0O2O1N101N101N101N101O01OO2O0000000000000000O10001O0O1O2O0O1O1O2O0N3N1O1N2N3M2O2N2M2M4L3N2N3N1M4M2M4M2O2L3L5M3N1O2L4M2N3M2O2L3M4M3M3N1N3M3L3O2N2N1O2M3M2O2M3N101O1N1O2O1N2O002N1O2N2O2M4L3M2N3N2M3N1N2O1N2O1N2O2N1O1O1N2O1O1O001O1O1O1O001O1O001O1O00100O001O10O100O2O1N101N2N2O0O2O1O1N1O3N1N2N100O2O0O101N2O1N2N100O1O2O0O2N2O0O101N1O1O2O0O2O0O1O2O0O1O1O001OO2OWTOnKdk0X4O100O1O2N1O100O1O1O100O1O2N1O010O1O1O1O2N100O001O1O1O100O1O1O1O010O1O1O1O1O100O1O1O001O1O100O1O1O1O00100O1O0010O01O1O1O001O10O01O001O001O1O10O01O001O00001O001O01O01O1O001O010O00001O00001O0000001O01O00000001O00001O000000001O000000000001O0001O000000000000000000001O000000000000000000000000000000000000000001O00O10O10000000000000000000000O10000000000O100000000O1000000000000O0100000O1000000O10000O100O1000O0100O100O100O100O100O100O00100O100O1O1O100O00100O1O1O100O1O1O010O1O1O1O1O100O001O100O001O1O1O100O001O1O1O001O1O100O001O1O001O1O1O0lNSUOVMnj0d2ZUOYMgj0d2^UOYMcj0c2bUO[M_j0d2cUOZM]j0d2hUOYMYj0d2kUOZMVj0d2mUOZMTj0e2nUOYMSj0e2QVOXMoi0g2f1N2O1O1M201O001O1O1N2N2O001O1O1O1O1O1N2O1O001O1O1O1O1O1O1O1O100O100O1O1O1O1O1O100O100O1000000O101O000O2O0O0N3M3L4N3J5K6K5GYZ`:"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 1 appears to be a solid, unadorned base without any protrusions or features that would allow it to be grasped or manipulated, unlike the other numbered parts which have handles, spikes, or other interactive elements",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.9991608462878503,
+                "prob": 0.3935126282306355
+              },
+              {
+                "option": "hold_food",
+                "logprob": -1.4891260632721242,
+                "prob": 0.24108460800284096
+              },
+              {
+                "option": "hold",
+                "logprob": -2.395426630973816,
+                "prob": 0.09740206140328707
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -2.640898327692412,
+                "prob": 0.07620108321494043
+              },
+              {
+                "option": "support",
+                "logprob": -3.1086688376090024,
+                "prob": 0.047732149668060365
+              },
+              {
+                "option": "carry",
+                "logprob": -4.061867713899119,
+                "prob": 0.018401023568747957
+              },
+              {
+                "option": "prevent falling",
+                "logprob": -4.0922863957239315,
+                "prob": 0.017849716218556872
+              },
+              {
+                "option": "balance",
+                "logprob": -4.3977430151135195,
+                "prob": 0.013151436478804159
+              },
+              {
+                "option": "absorb",
+                "logprob": -4.538499635091284,
+                "prob": 0.011424662211519464
+              },
+              {
+                "option": "stand",
+                "logprob": -5.1595127636392135,
+                "prob": 0.006139610121794717
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "none",
+              "hold",
+              "stand",
+              "support",
+              "carry",
+              "place",
+              "rest",
+              "drink",
+              "hold_food",
+              "serve"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. none\n2. hold\n3. stand\n4. support\n5. carry\n6. place\n7. rest\n8. drink\n9. hold_food\n10. serve"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_31_region_50",
+      "area": 83841,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "e]X7j0Qo09I6J5L5K4L4K5M3L4M2N3L4M5K2N2N2N2N2N2N2N3M2N2N2N1O2O1N2N2N2N2O1N2N2O1N1O2N101N2O1N101O010N101N2O10O01000O010O010O1O0100O0010O010O01O10O010O0001O0000010O001O0010O01O0000001O0010O0001O0000001O0000001O01O000001O0000001O000000001O000000000000001O0000001O00000000001O0000000000001O0000000000000000000000001O000O1000000000001O0000000000000000000O100000001O000000000000000O100000000000001O00dLSUOe1mj0[NSUOe1lj0h100000000000lLTUOT1lj0lNSUOU1lj0P2000hLTUO\\1lj0dNTUO\\1lj0l1000000O1000000000000O100000000000000O1000000000000O100000000O10000000000000000O100000000OQNdUO\\N\\j0c1eUO]N[j0c1eUO]N[j0c1dUO^N\\j0b1dUO^N\\j0c1bUO]N^j0c1dUO\\N\\j0d1dUO\\N\\j0c1fUO\\NZj0d1gUO[NYj0e1hUOZNWj0h1iUOWNWj0i1jUOVNVj0j1kUOUNUj0l1jUOTNUj0T2bUOnM^j0T2]UOoMcj0g300000000O1000000000O1000O10000000000O100000O1000O1000000O1000000O1000O1000O10000O10000000000O100000O10O1000000O1000O1000O10000O1000O100000O1000O01000000O1000000O10O100000O1000O10O10000O1000O10O100000O010000O100000O01000000O10O100000O01000O1000O10O10000O01000O10O10O100000O0100000O010hLkUOe0Uj0ZOmUOe0Sj0ZOPVOd0oi0]ORVOb0ni0]OSVOb0mi0^OTVOb0li0ZOXVOf0hi0YOYVOg0fi0YO\\VOe0ei0ZO\\VOf0di0YO]VOg0bi0ZO^VOe0ci0[O]VOe0ci0^OYVOc0fi0_OnUOeM4m2ni0EPVO;Pj0FoUO;Qj0j20O10O10O01000O01000O0100O010O100OfNoUOfLRj0Z3nUOfLQj0e40O10O010O01000O001O10O01O010O010O10YLRVOmM0V3ni0nNSVOjM1W3ki0PO]VOn0ci0TO^VOj0ai0XO_VOf0bi0ZO^VOe0bi0]O[VOe0ei0\\OYVOe0fi0^OWVOaNLoN2c1li0n0UVO`NMoN3b1ki0Z2RVORL1f1ni0Y2TVOgMmi0Y2RVOgMoi0Z2PVOfMQj0S4101N1O1O2O0O101N1O2N101N100O1O2N101N1gN[UOUL0j0fj0o2kUOhLWj0R3oUOlLRj0P3TVOnLmi0n2WVOPMji0l2ZVOSMhi0j2[VOSMii0b2`VO]M`i0a2dVO]M]i0b2dVO\\M^i0c2dVO[M^i0b2Q2N3M2O1O2N1N3L4M2N300O100O1N101N1N3O2N1O1O2N1O1N2O2M6K1N3N2M2O1O4K4[OiPO;_o0N2GWde7"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 2 appears to be a smooth, flat surface without any protrusions or features that would allow it to be grasped or manipulated, unlike the other numbered parts which have handles, spikes, or other interactive elements",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.5580906509712804,
+                "prob": 0.6098577192067594
+              },
+              {
+                "option": "hold_food",
+                "logprob": -2.3639910883211996,
+                "prob": 0.10021573832305232
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -2.7311079271603376,
+                "prob": 0.06942231839849218
+              },
+              {
+                "option": "drink",
+                "logprob": -3.636446113465354,
+                "prob": 0.028074739455112747
+              },
+              {
+                "option": "carry",
+                "logprob": -3.8941867634712253,
+                "prob": 0.02169603598286827
+              },
+              {
+                "option": "bake",
+                "logprob": -3.9219091690902133,
+                "prob": 0.021102830209529508
+              },
+              {
+                "option": "hold",
+                "logprob": -3.993523597717285,
+                "prob": 0.019644408360494064
+              },
+              {
+                "option": "absorb",
+                "logprob": -4.128697673237184,
+                "prob": 0.01716064465210303
+              },
+              {
+                "option": "bump",
+                "logprob": -4.671875919011654,
+                "prob": 0.009968602610463896
+              },
+              {
+                "option": "apply",
+                "logprob": -4.8357445716974325,
+                "prob": 0.008461883307581639
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "none",
+              "drink",
+              "serve",
+              "hold",
+              "pour",
+              "contain",
+              "store_fuel",
+              "assist_breathing",
+              "dispense",
+              "open"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. none\n2. drink\n3. serve\n4. hold\n5. pour\n6. contain\n7. store_fuel\n8. assist_breathing\n9. dispense\n10. open"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_31_region_46",
+      "area": 73339,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "lbQ8b0So0c0D8F:H6L3M4K7J3M3M5L2M3N2N3L3N3M2N2N2N2N2N2N2N2N101N2M2O2O1N1OaMVTOk0hk0UOZTOk0ek0TO\\TOm0bk0QOaTOo0^k0QOdTOo0Zk0ROeTOo0Zk0QOgTOP1Xk0POgTOR1Wk0oN`TOcN3^2]k0nN`TOfN1^2^k0lN`TOgN2]2^k0kN_TOkN1\\2_k0hN`TOd1ak0^1O010O010O0010O01O01O01O010O00010O001O0010O01O0010O000]NcTOdN]k0T1dTO^M0]1\\k0U1eTO\\M1^1Zk0V1mTOjNSk0U1QUO]MCU1\\k0^1VUObNjj0^1UUOdNjj0[1fTO_M1O1X1Yk0Y1dTObM0O2V1Zk0Z1cTOaM1O1X1Zk0g1eTOYN[k0V30010O00000001O01O00001O000010O000001O0001O000001O0001O0001O000000010O000000000001O01O000000000000dLfTOS2Yk0lMiTOS2Wk0nMgTOS2Zk0kMgTOU2Yk0kMhTOT2Xk0kMiTOU2Wk0jMkTOU2Uk0jMnTOT2Rk0kMPUOT2Pk0mMoTOS2Qk0nMnTOS2Qk0SNiTOm1Wk0TNhTOl1Xk0^101O000000010O000000000000001O000000001O00000001O0000000001O00000000001O00000000hMmTOCSk06UUOIkj06WUOIij06YUOIgj07XUOJhj07UUOKkj06kTO3Uk0\\200000000000000000000000001O000000000000000000000000000000000000000000000O1000000000000000001O000000000000000000000O1000000000000000O10000000000000000000O10000000000000000000O0100000000000000O1000000000000000O010000000000000000O100000000000O100000O10000000O100000O1000000000O10O10000000O1000O100000O10O1000O100000O10O1000O10O100000O1000O1000O01000000O1000O10O1000O10O10000000O01000000O010000O10000O1000000O1000000O10O11O0O10000O100000O010000O101O0O100O10000O10000O10001O0O100O100O01000O010O00010O01O10O01O10O010O010O01O010O002O0O2N2O0O2N101N2N2N1O2N1O2N2O1N2N1O2YOfTOeL\\k0S3lTOkLUk0m2TUOQMnj0g2ZUOWMhj0c2]UO\\Mej0a2^UO]Mdj0_2`UO_Mbj0]2d1J4O2N2M3M3N3M2O1N2O1O1N2O2N2N2M2O2O1N2N1N4M4K5H<^OV^T8"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 3 appears to be a smooth, flat surface without any protrusions or features that would allow it to be grasped or manipulated, unlike the other numbered parts which have handles, spikes, or other interactive elements",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.7862286232411861,
+                "prob": 0.4881911133600869
+              },
+              {
+                "option": "hold_food",
+                "logprob": -1.8231093344948022,
+                "prob": 0.17309251903756206
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -2.2404914911312517,
+                "prob": 0.11402800624465541
+              },
+              {
+                "option": "hold",
+                "logprob": -3.2977391481399536,
+                "prob": 0.03961454821765496
+              },
+              {
+                "option": "bump",
+                "logprob": -4.156078424741281,
+                "prob": 0.01679123717200212
+              },
+              {
+                "option": "adjust",
+                "logprob": -4.29439061251469,
+                "prob": 0.014622259130178759
+              },
+              {
+                "option": "carry",
+                "logprob": -4.302046197059099,
+                "prob": 0.014510744588315257
+              },
+              {
+                "option": "drink",
+                "logprob": -4.317770686931908,
+                "prob": 0.014284355126119924
+              },
+              {
+                "option": "absorb",
+                "logprob": -4.38806586273131,
+                "prob": 0.013314713679577624
+              },
+              {
+                "option": "apply",
+                "logprob": -4.684962237835862,
+                "prob": 0.009894443533478415
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "none",
+              "hold",
+              "move",
+              "control",
+              "organize",
+              "support",
+              "adjust",
+              "assist_breathing",
+              "hold_food",
+              "decorate"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. none\n2. hold\n3. move\n4. control\n5. organize\n6. support\n7. adjust\n8. assist_breathing\n9. hold_food\n10. decorate"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_31_region_45",
+      "area": 66184,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "R[d87fo0`0\\O9I8J4L5K4L4L3M4M3J6L4L3M4M2M4L3M4L3M4L3N2N2N3M2N3M2N2M3O1N2O2M2O1N2M3O1O2N1N2N2N2O1O1N2O1O1O1O2N1M3O1O1O1O1O1N2N2O1O1O100O100O1N2O1O1O100O2O0O100O100O1001O0RMoUOMRj00SVOMmi01VVONki01WVOMii02YVOMgi02[VOMfi02[VOMei03[VOMei03\\VOLdi04^VOJai07`VOH`i08`VOGai09`VOF`i0:`VOF_i0;bVOD^i0<bVOD]i0=dVOB\\i0>dVOB\\i0>dVOB[i0?eVOA[i0?eVOAZi0`0fVO@Zi0`0fVO@Yi0a0gVO_OXi0b0hVO^OXi0c0gVO]OXi0d0gVO]OYi0d0dVO^O[i0d0bVO^O]i0c0bVO^O^i0d0_VO]O`i0f0]VO[Obi0i0YVOXOgi0a300O1O1O1O1O1O1O1O1O1O1O1N101EhIlVOZ6Si0:00O100O10000O10000O010O10000O10000O10O0100O1000XK`WOP2`h0kMgWOS2Xh0lMkWOS2Uh0kMnWOT2Rh0kMPXOT2Ph0kMQXOU2og0kMRXOS2ng0nMSXOQ2mg0oMSXOQ2mg0oMSXOQ2lg0PNTXOP2lg0PNUXOn1kg0TNTXOl1lg0TNTXOl1lg0TNTXOl1lg0UNSXOk1mg0VNRXOj1mg0WNRXOj1ng0WNQXOh1Ph0XNPXOh1Ph0YNnWOh1Rh0YNlWOh1Th0YNkWOg1Th0[NjWOf1Vh0[NiWOd1Xh0^NeWOc1[h0^NcWOc1]h0_N`WOb1_h0`N^WOb1bh0aNZWO`1fh0m200O10O100000O10O1000000000000O1000000000000O10O10000000000O1000O10000000000O10001O001N2TISWOc6Wi0N1O001O0O2O1O001O0O101O001cLcVO4^i0JfVO4Zi0KhVO4Yi0HlVO6Ti0InVO6Ri0IPWO5Ri0JnVO6Ri0IPWO6Pi0JQWO5oh0JRWO6oh0HRWO8nh0GTWO7mh0ISWO7nh0GSWO9mh0GSWO9mh0GSWO9mh0FTWO:lh0FTWO9mh0GRWO:nh0FRWO:oh0EPWO;Qi0EoVO;Qi0EnVO<Ri0DnVO<Ri0DnVO;Si0FlVO:Ti0GeVO?[i0AcVOa0]i0@]VOe0ci0k2100000000O100000O01000O10O0100O1N2O1O1N10100O1000O2O00001N101O001N101O0O101O001O0O2O001O1N2O001N2O001O001N2O1O0O2O1O001N2O1O0YLbUOk1`j0QNgUOk1Yj0TNjUOj1Wj0RNoUOk1Rj0SNRVOi1oi0VNTVOh1mi0VNUVOi1li0UNWVOi1ji0TNZVOi1hi0UNZVOj1gi0TN[VOk1fi0SN]VOj1ei0SN^VOl1di0QN^VOn1ci0QN_VOm1ci0PN_VOn1ci0nMbVOP2_i0nMcVOQ2_i0lMcVOR2gk0O1O001O1N101O1N101O1N2O001O1N10001N100O10000O1000000O010O10O10O010O01O1O00100O0010OO2N2O0O2O001N2O1O0010O010O101N101N3N3L5L2M3M2O2M2O5J4L5K2N3M3M8GXfQ:"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 4 appears to be a small, solid protrusion without any visible openings or features that could serve as a handle, grip, or other interactive element, unlike the other numbered parts which have distinct shapes or textures that suggest specific functions",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.5806862325116526,
+                "prob": 0.5952985788458836
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -2.206761954148533,
+                "prob": 0.11709521078116197
+              },
+              {
+                "option": "hold_food",
+                "logprob": -2.6910983670532005,
+                "prob": 0.07214305034920912
+              },
+              {
+                "option": "hold",
+                "logprob": -3.201724648475647,
+                "prob": 0.043294459768451365
+              },
+              {
+                "option": "bump",
+                "logprob": -3.8123584889108315,
+                "prob": 0.023509176551155784
+              },
+              {
+                "option": "attack",
+                "logprob": -4.057208033031202,
+                "prob": 0.018403507884596593
+              },
+              {
+                "option": "adjust",
+                "logprob": -4.166939201590139,
+                "prob": 0.01649092325503458
+              },
+              {
+                "option": "support",
+                "logprob": -4.448000110802241,
+                "prob": 0.012450355971312563
+              },
+              {
+                "option": "attach",
+                "logprob": -4.510581851965981,
+                "prob": 0.011695071028340843
+              },
+              {
+                "option": "press",
+                "logprob": -4.747224420309067,
+                "prob": 0.00923060787600658
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "none",
+              "hold_food",
+              "serve",
+              "drink",
+              "hold",
+              "support",
+              "prevent falling",
+              "catch"
+            ],
+            "n_valid": 8,
+            "invalid": [],
+            "raw": "1. none\n2. hold_food\n3. serve\n4. drink\n5. hold\n6. support\n7. prevent falling\n8. catch\n9. hold\n10. prevent falling"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_31_region_51",
+      "area": 31500,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "U]i2n0gn0d0^Ob0A:H7H8H;F8H7J5J8I6J5L4J6L5J5L3L6K4L3M4M3K4M3M4L3N3L3M4L3N2M3M3M4L3N2N2N2N1N3N2N2M3M3N2M3N2N2N2N1O2N2N1O2N2N1O2N1O2N2N1O2N1O2O0O2N1O2O0OdK_YO_KEg3kf0:]ZO_Obe0=hZO^OWe0?Q[O^Ond0=[[O_Odd0?c[O^O\\d0<n[O@Qd0>T\\OAjc0=\\\\O@cc0>b\\O@^c0<i\\OAVc0>n\\OAQc0=S]OAlb0=Y]OAgb0=\\]OBcb0=a]OA_b0=d]OB\\b0<g]ODWb0;m]OCSb0;P^ODPb0;R^ODma0;V^ODja0:Y^OFfa08]^OGba09`^OF`a09b^OF^a08e^OG[a08f^OHYa08i^OGWa07k^OIUa07l^OHTa07m^OIRa07P_OHPa07Q_OIo`06S_OJl`05U_OKk`04V_OLj`04V_OLi`04Y_OKg`04Z_OKg`05Y_OKg`04Z_OLf`04Z_OLf`03\\_OLd`04\\_OLd`03]_OMc`03]_OMc`02^_ONb`02^_ONb`02^_OMc`03]_OMc`02^_ONb`02^_ONb`02^_ONb`02]_OOc`01]_OOc`00^_OOc`01]_OOc`01]_OOc`01\\_O0d`00\\_O0e`0O[_O1e`0OZ_O1g`00X_O0h`00W_O1i`0OW_O1i`0OW_O1i`0OV_O2k`0NT_O1m`0OS_O1m`0OR_O2o`0NP_O1Qa0On^O2Ra0Nm^O3Sa0Nl^O2Ta0Nk^O2Va0Oi^O1Xa0Ng^O2Za0Oe^O1[a0Od^O2\\a0Oc^O0_a0O`^O2`a0O_^O1aa0O^^O1da0O[^O1ea00Z^OOga01Y^OOha01X^OMia04V^OLja05V^OIla07U^OGka09V^OEla0;T^ODla0=T^OAna0?R^O_Ooa0b0Q^O]OPb0b0Q^O\\OPb0e0P^OZOQb0f0o]OXORb0h0o]OVOSb0j0m]OTOTb0m0l]OROUb0m0m]OPOTb0Q1k]OnNWb0Q1j]OmNWb0T1i]OkNXb0U1g]OjNZb0W1f]OgN\\b0Y1d]OeN]b0\\1c]ObN_b0]1b]OaN`b0_1`]O_Nab0a1_]O^Ncb0a1^]O^Nbb0a1_]O^Ncb0a1^]O]Ncb0b1^]O]Ndb0_1`]O_Nab0_1b]O_N`b0\\1d]OcN^b0W1h]OgNYb0T1m]OjNUb0R1o]OkNTb0Q1P^OmNRb0o0b6M3L3L5K5L4L3N3Lnfkf0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 5 appears to be a solid, unbroken handle without any protrusions or openings that could potentially serve as grips or attachment points, unlike the other numbered parts which have various shapes or features that could provide different types of affordances",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.6754040955856908,
+                "prob": 0.5425159514124648
+              },
+              {
+                "option": "hold_food",
+                "logprob": -1.9502876781334635,
+                "prob": 0.1516134069979391
+              },
+              {
+                "option": "hold",
+                "logprob": -2.7522597312927246,
+                "prob": 0.06799008276170859
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -2.770279387215851,
+                "prob": 0.0667758973205619
+              },
+              {
+                "option": "carry",
+                "logprob": -3.019251160818385,
+                "prob": 0.05205862166251158
+              },
+              {
+                "option": "drink",
+                "logprob": -4.402258239802904,
+                "prob": 0.013057508656630358
+              },
+              {
+                "option": "support",
+                "logprob": -4.640410211664857,
+                "prob": 0.010290399492128486
+              },
+              {
+                "option": "bump",
+                "logprob": -4.714738634967944,
+                "prob": 0.00955326469663867
+              },
+              {
+                "option": "press",
+                "logprob": -4.919260933995247,
+                "prob": 0.0077862600638268645
+              },
+              {
+                "option": "absorb",
+                "logprob": -5.023373519448796,
+                "prob": 0.0070163845545141625
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "none",
+              "drink",
+              "hold",
+              "place",
+              "carry",
+              "support",
+              "hold_food",
+              "scoop",
+              "pull",
+              "attach"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. none\n2. drink\n3. hold\n4. place\n5. carry\n6. support\n7. hold_food\n8. scoop\n9. pull\n10. attach"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_31_region_3",
+      "area": 31132,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "oclf0`0li0MU[O:dd00S[O5gd02S[O4id00R[O4kd0OS[O4hd01T[O2id01T[O2jd01S[O1jd02T[O0jd02U[O0hd02X[ONfd04Y[OMed04[[ONbd04][OMbd03^[ONad03_[ON_d03`[OO]d03c[OM\\d04d[OM[d02f[OOXd02h[ONXd01i[O0Ud01k[O0Sd00n[O1Qd0OP\\O0oc01Q\\O0nc0OR\\O2nc0NR\\O3lc0MU\\O4jc0LV\\O5ic0KW\\O5ic0JX\\O7gc0IZ\\O7dc0J\\\\O6dc0I^\\O7ac0I`\\O7^c0Ic\\O7]c0Ic\\O8\\c0He\\O7[c0Hf\\O9Xc0Hh\\O9Wc0Fj\\O:Vc0Fk\\O:Tc0Fl\\O;Rc0Fo\\O:Pc0EQ]O;ob0ER]O;mb0ET]O:lb0FT]O;jb0EX]O:hb0FX]O;gb0D[]O<db0D\\]O<db0D]]O<bb0D_]O;`b0Fa]O:^b0Ee]O9[b0Ge]O9[b0Ge]O:Zb0Ff]O:Zb0Fg]O:Wb0Fj]O:Vb0Fk]O:Tb0Fl]O:Tb0Fm]O9Sb0Gn]O8Rb0Ho]O8Pb0HQ^O7oa0IQ^O7oa0IR^O7ma0IS^O7la0JU^O5ka0KV^O4ja0LV^O4ja0LW^O3ia0MX^O2ha0NX^O3ga0MZ^O2fa0NZ^O2fa0NZ^O2fa0N[^O1ea0O[^O1ea0O[^O1ea00Z^O0fa00[^OOea01[^OOea01[^OOea02Z^ONfa02Z^OOfa00Z^O0fa00Z^OOga01X^O0ha01W^OOia01W^OOia02U^OOka01U^OOka01T^O0la01S^OOma01R^O0oa0OP^O2Pb0On]O1Sb0Ol]O2Tb0Oj]O2Vb0Ni]O3Wb0Ng]O3Zb0Mc]O5]b0Kb]O5_b0L_]O5ab0K]]O7cb0JZ]O7hb0HW]O9ib0HU]O8lb0IP]O:Qc0Fm\\O;Sc0Fj\\O;Wc0Ff\\O<Zc0Ec\\O<_c0D_\\O=ac0D\\\\O=ec0DW\\O?jc0AS\\O`0nc0Ao[Oa0Qd0Aj[Oa0Xd0_Oe[Oc0[d0_Oa[Ob0`d0@[[Oc0fd0]OW[Od0jd0^OQ[Od0Qe0]OjZOf0Ve0\\OdZOg0^e0[O[ZOh0fe0ZOUZOi0ke0ZOnYOi0Tf0ZOcYOj0^f0ZOYYOj0if0^OcXOm0]g0j32N1O2N101N1O2N2N1O2N1O2N2N1O2N2N1O2M3N1O2N2N1N3N2N2N2M3N2M3N2M2O2M4L3N2M3M3N2M4K4N2M4L3M3M4L4K5L3M4K5K5L4L4K5K6I6L6H7J6I8G9H8H9E<Ce0ROV`g2"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 6 appears to be a simple, flat, circular element without any protrusions or features that would allow it to serve as a handle or grip, unlike the other numbered parts which have distinct shapes or textures designed for interaction",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.6904041416710243,
+                "prob": 0.5364320361921311
+              },
+              {
+                "option": "hold_food",
+                "logprob": -1.881772349428502,
+                "prob": 0.16297090147486235
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -2.8633926996553782,
+                "prob": 0.06106575998682792
+              },
+              {
+                "option": "carry",
+                "logprob": -2.9561374683107715,
+                "prob": 0.05565692717032362
+              },
+              {
+                "option": "hold",
+                "logprob": -3.4578914642333984,
+                "prob": 0.03369847390134618
+              },
+              {
+                "option": "drink",
+                "logprob": -3.50313913251739,
+                "prob": 0.032207678382984654
+              },
+              {
+                "option": "bake",
+                "logprob": -4.679098623397294,
+                "prob": 0.00993680352850526
+              },
+              {
+                "option": "absorb",
+                "logprob": -4.721966063632863,
+                "prob": 0.009519839144809868
+              },
+              {
+                "option": "move",
+                "logprob": -4.967996346298605,
+                "prob": 0.007443548391141468
+              },
+              {
+                "option": "attach",
+                "logprob": -5.018794038624037,
+                "prob": 0.007074876426203435
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "none",
+              "hold",
+              "carry",
+              "place",
+              "contain",
+              "support",
+              "anchor",
+              "wear",
+              "load"
+            ],
+            "n_valid": 9,
+            "invalid": [
+              "store"
+            ],
+            "raw": "1. none\n2. hold\n3. carry\n4. place\n5. store\n6. contain\n7. support\n8. anchor\n9. wear\n10. load"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_31_region_2",
+      "area": 29145,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "giXc03ho0<F5K4M2N3L5L3M3M3M3M4M2N2M3M3N2N2N2M3N2N3L3N2N2N2N2N3L3N2O1N2M3N2N2O1N2N3M2N2N2N2O1N2N2N2N2N2O1N2O1N2O1N2O1N2O1O1O1O100O100O1000O101O0000001N101O000O101O0O2O001N101N101O0O101O0O2O0O2O001N101N101N1O101N100O2O1N1O100O2O0O101N1O2O0O100O1O101N2N1O100O100O1O1O100O1O1O10O01O1O1O001O10O01O001O001O001O001O001O000000001O000O10000000000O100000000O10000000O0100000O010000O01000O0100O010O10O10O010O10O01O0010O01O010O1O001O01O01N101O01O01O001N1000001N101O0O101O0O100O2N1O1O10001N1O1O100O100N2O1O1O1O1O1O1O1O100N2O100O001O100O01000O010000O100O100O100O2O0O1O101O0O2N2O0O2N2N2N1O2N2N2N2N2N2N2N2N3L3M3N3L3N3M2M4L4L5J5L6J5I:E]XU3"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 7 appears to be a simple, curved protrusion without any distinct features or attachments that would suggest it serves a specific function or purpose, unlike the other numbered parts which have more defined characteristics or connections",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.6977782507892698,
+                "prob": 0.5310323718235542
+              },
+              {
+                "option": "hold_food",
+                "logprob": -1.9880848886386957,
+                "prob": 0.1461328800948919
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -2.7302125324786175,
+                "prob": 0.06957384465887172
+              },
+              {
+                "option": "support",
+                "logprob": -2.8073154988815077,
+                "prob": 0.06441108432692694
+              },
+              {
+                "option": "hold",
+                "logprob": -3.395082712173462,
+                "prob": 0.03578463179911949
+              },
+              {
+                "option": "carry",
+                "logprob": -3.549633826885838,
+                "prob": 0.03066026164526736
+              },
+              {
+                "option": "prevent falling",
+                "logprob": -3.8498884690343402,
+                "prob": 0.022707897353630477
+              },
+              {
+                "option": "balance",
+                "logprob": -4.903114303946495,
+                "prob": 0.007920758172634866
+              },
+              {
+                "option": "press",
+                "logprob": -5.038048222661018,
+                "prob": 0.006920949778211537
+              },
+              {
+                "option": "drink",
+                "logprob": -5.0673327559488826,
+                "prob": 0.00672121188368774
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "none",
+              "hold_food",
+              "serve",
+              "drink",
+              "hold",
+              "dispense",
+              "attach",
+              "steer",
+              "control"
+            ],
+            "n_valid": 9,
+            "invalid": [],
+            "raw": "1. none\n2. hold_food\n3. serve\n4. drink\n5. hold\n6. dispense\n7. attach\n8. steer\n9. control\n10. drink"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_31_region_31",
+      "area": 10578,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "bWQc07eo08J6J4L5L2N4L2M4M3M2N2N3M2N3M2O1N2M3N2N2N2O1N1O2N2N2O0O2N101N2N1O2O0O2N1O100O1O1O100O100O1O1O010O0010O01O010O000001O001N100O101O0000001O000O2O00001N100O2O000O101N100O2O000O2O0O101O0O101N100O2O0O100O2O0O1O101N100O2O000O1O2O0O101N100O2O0O101N100O101N100O2O0O1O2O000O100O2N10001N1O100O2O0O101O0O1O2O0O2N101N2N101N3M2N3L4MUln7"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 8 appears to be a solid, unadorned protrusion without any visible features or attachments that would suggest it serves a specific function or purpose",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.6775563009432517,
+                "prob": 0.5431438374807182
+              },
+              {
+                "option": "attack",
+                "logprob": -2.552544561884133,
+                "prob": 0.08329478298552526
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -2.5536747988371644,
+                "prob": 0.08320069332562167
+              },
+              {
+                "option": "hold",
+                "logprob": -2.9704118967056274,
+                "prob": 0.054845414536602834
+              },
+              {
+                "option": "hold_food",
+                "logprob": -2.970823918483802,
+                "prob": 0.05482282168607358
+              },
+              {
+                "option": "attach",
+                "logprob": -3.5371651599998586,
+                "prob": 0.031117343105257184
+              },
+              {
+                "option": "support",
+                "logprob": -3.857379952300107,
+                "prob": 0.02259097584334499
+              },
+              {
+                "option": "bump",
+                "logprob": -4.498246761824703,
+                "prob": 0.011901729408997992
+              },
+              {
+                "option": "prevent falling",
+                "logprob": -4.604575011355337,
+                "prob": 0.010701195546189658
+              },
+              {
+                "option": "carry",
+                "logprob": -4.681741685955785,
+                "prob": 0.009906477081955831
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "none",
+              "drink",
+              "hold_food",
+              "serve",
+              "sit",
+              "walk",
+              "stand",
+              "bend"
+            ],
+            "n_valid": 8,
+            "invalid": [],
+            "raw": "1. none\n2. drink\n3. hold_food\n4. serve\n5. sit\n6. walk\n7. stand\n8. bend\n9. sit\n10. walk"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_31_region_29",
+      "area": 5505,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "SUg?5go06L3M2N3L3N3L4L3N3L3N2M4L3N3L3N2M4M2M3N2N3L3M3N2M4M2N2N3L3N2N2N2M3M3N3M2N2N2M3N2N2M3N2N2M3N2N2N2N2M3O1N101O10O011N1O2M3I7iNZ1bNnoY>"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 9 appears to be a small, solid protrusion without any visible openings or features that could serve as a handle, grip, or other interactive element, unlike the other numbered parts which have distinct shapes or textures designed for interaction",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.584568166086683,
+                "prob": 0.6010191736860736
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -2.2888049918110482,
+                "prob": 0.10933209695063874
+              },
+              {
+                "option": "hold_food",
+                "logprob": -3.011516516111442,
+                "prob": 0.05307353936340875
+              },
+              {
+                "option": "hold",
+                "logprob": -3.7398838996887207,
+                "prob": 0.02561840666303107
+              },
+              {
+                "option": "support",
+                "logprob": -3.8034800551249646,
+                "prob": 0.024039899952768697
+              },
+              {
+                "option": "attack",
+                "logprob": -4.022044032375561,
+                "prob": 0.01932019594298278
+              },
+              {
+                "option": "bump",
+                "logprob": -4.098042315948987,
+                "prob": 0.017906301448684533
+              },
+              {
+                "option": "attach",
+                "logprob": -4.147350397193804,
+                "prob": 0.01704479035292269
+              },
+              {
+                "option": "prevent falling",
+                "logprob": -4.425046548480168,
+                "prob": 0.012911888222295043
+              },
+              {
+                "option": "adjust",
+                "logprob": -4.6396426188293844,
+                "prob": 0.010418180284346202
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "none",
+              "bump",
+              "deflate",
+              "loosen",
+              "pluck",
+              "push",
+              "detect",
+              "slide",
+              "wedge",
+              "drill"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "none\nbump\ndeflate\nloosen\npluck\npush\ndetect\nslide\nwedge\ndrill"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_31_region_48",
+      "area": 3818,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "cSR:7ho06J3N3L3N4L2O2M2O2M3N1O2N1O1O2N2N1N3N1O1O2N1O2N1O1O2N1O2N1O2N2N1O1O1N3N01O00O0100O1O1O1N2O1O1O1N2O1N101N2N2O1N2O1N2O1N2O1N2N2O1N2N2N2O1N2N2N2O1N2N2M3O1N2M3N2N2N2M\\j[c0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 10 appears to be a small, solid protrusion without any visible openings or features that could serve as a handle, grip, or other interactive element, unlike the other numbered parts which have distinct shapes or textures that suggest specific functions",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.5745827151986305,
+                "prob": 0.5997050678148882
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -2.0131432977796067,
+                "prob": 0.14229144703741123
+              },
+              {
+                "option": "hold_food",
+                "logprob": -2.69283721280226,
+                "prob": 0.0721093331434971
+              },
+              {
+                "option": "hold",
+                "logprob": -3.6470221281051636,
+                "prob": 0.027771173765425754
+              },
+              {
+                "option": "attack",
+                "logprob": -3.715170472190948,
+                "prob": 0.025941661376391343
+              },
+              {
+                "option": "support",
+                "logprob": -4.316934842412593,
+                "prob": 0.014211988280071268
+              },
+              {
+                "option": "prevent falling",
+                "logprob": -4.36820384915336,
+                "prob": 0.013501716787013764
+              },
+              {
+                "option": "bump",
+                "logprob": -4.483844057860551,
+                "prob": 0.012027270799754929
+              },
+              {
+                "option": "attach",
+                "logprob": -4.703763090597931,
+                "prob": 0.00965289244162604
+              },
+              {
+                "option": "adjust",
+                "logprob": -4.723417050030548,
+                "prob": 0.009465027081571162
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "none",
+              "hold",
+              "vent",
+              "ring",
+              "hold_food",
+              "serve",
+              "move",
+              "lift",
+              "stack",
+              "assist_breathing"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. none\n2. hold\n3. vent\n4. ring\n5. hold_food\n6. serve\n7. move\n8. lift\n9. stack\n10. assist_breathing"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_31_region_37",
+      "area": 1107,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "VYie04ko04M3L3N3M3M3M2N1O001O000000O10000O10000O1000000O10000O1000000O100O10000O10000O100O10000O100O100O100O2O0O100O2O0O2N2Mjf[8"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 11 appears to be a small, solid protrusion without any visible handle or grip, making it impossible to interact with or manipulate like the other numbered parts",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.3096041910466738,
+                "prob": 0.7743135261516177
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -2.9981839643151034,
+                "prob": 0.05263583127878202
+              },
+              {
+                "option": "hold_food",
+                "logprob": -3.5440890843892703,
+                "prob": 0.030492842098479384
+              },
+              {
+                "option": "attack",
+                "logprob": -3.7002063683758024,
+                "prob": 0.026085371722084475
+              },
+              {
+                "option": "attach",
+                "logprob": -4.177115263941232,
+                "prob": 0.016191166102995418
+              },
+              {
+                "option": "bump",
+                "logprob": -4.640300756931538,
+                "prob": 0.010188710547258818
+              },
+              {
+                "option": "support",
+                "logprob": -4.88698827335611,
+                "prob": 0.007961303811101973
+              },
+              {
+                "option": "prevent falling",
+                "logprob": -5.1295908117317595,
+                "prob": 0.0062463059651262426
+              },
+              {
+                "option": "carry",
+                "logprob": -5.153926550934557,
+                "prob": 0.0060961321983449765
+              },
+              {
+                "option": "adjust",
+                "logprob": -5.241793058929034,
+                "prob": 0.0055833446487066635
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "none",
+              "hold",
+              "support",
+              "attach",
+              "serve",
+              "anchor",
+              "block",
+              "bump",
+              "screw",
+              "wedge"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. none\n2. hold\n3. support\n4. attach\n5. serve\n6. anchor\n7. block\n8. bump\n9. screw\n10. wedge"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_31_region_32",
+      "area": 1095,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "_U_b04ko02N1O2N1O2N2N2N1O2N2N2N1O2N2O0O2N2N2N1O2N1O1O001O00N200N2O1O1O1O1O1N2O2N1O2M3N3M2M4KfkU<"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 12 appears to be a small, solid protrusion without any visible handle or grip, making it impossible to interact with or manipulate like the other numbered parts",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -0.3073398101842031,
+                "prob": 0.7830307546290592
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -2.933379542111652,
+                "prob": 0.05666361201064004
+              },
+              {
+                "option": "hold_food",
+                "logprob": -3.91925317478308,
+                "prob": 0.021141937107225044
+              },
+              {
+                "option": "prevent falling",
+                "logprob": -4.385240684467135,
+                "prob": 0.013266885240207868
+              },
+              {
+                "option": "attach",
+                "logprob": -4.608509084617253,
+                "prob": 0.01061218319073776
+              },
+              {
+                "option": "attack",
+                "logprob": -4.858097284159157,
+                "prob": 0.008268180718690106
+              },
+              {
+                "option": "bump",
+                "logprob": -5.0137029351026285,
+                "prob": 0.007076708144522607
+              },
+              {
+                "option": "support",
+                "logprob": -5.036155418143608,
+                "prob": 0.006919588933575324
+              },
+              {
+                "option": "bake",
+                "logprob": -5.35745841692551,
+                "prob": 0.005018109988120516
+              },
+              {
+                "option": "block",
+                "logprob": -5.504465908044949,
+                "prob": 0.004332071678569207
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "none",
+              "hold_food",
+              "cook",
+              "serve",
+              "eat",
+              "drink",
+              "hold",
+              "sit",
+              "collect",
+              "store_fuel"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. none\n2. hold_food\n3. cook\n4. serve\n5. eat\n6. drink\n7. hold\n8. sit\n9. collect\n10. store_fuel"
+          }
+        }
+      }
+    }
+  ],
+  "generation_option_order": "shuffled_per_part"
+}

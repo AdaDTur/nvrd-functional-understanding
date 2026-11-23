@@ -1,0 +1,432 @@
+{
+  "groups": {
+    "none": [
+      "none"
+    ],
+    "support/rest": [
+      "balance",
+      "lean",
+      "level",
+      "place",
+      "prevent falling",
+      "prop",
+      "rest",
+      "stand",
+      "support",
+      "wedge"
+    ],
+    "attach/fasten": [
+      "anchor",
+      "attach",
+      "button",
+      "clamp",
+      "clip",
+      "engage",
+      "insert",
+      "lock",
+      "nail",
+      "plug",
+      "screw",
+      "seal",
+      "tie",
+      "sew"
+    ],
+    "detach/open": [
+      "close",
+      "detach",
+      "disassemble",
+      "disconnect",
+      "eject",
+      "empty",
+      "extract",
+      "loosen",
+      "open",
+      "release",
+      "remove",
+      "replace",
+      "unload"
+    ],
+    "hold/contain/store": [
+      "collect",
+      "contain",
+      "deposit",
+      "fill",
+      "hold",
+      "hold_food",
+      "load",
+      "organize",
+      "pack",
+      "stack",
+      "store_fuel",
+      "scoop"
+    ],
+    "carry/move": [
+      "carry",
+      "drag",
+      "drop",
+      "lift",
+      "move",
+      "pull",
+      "push",
+      "slide",
+      "throw"
+    ],
+    "travel/locomotion": [
+      "accelerate",
+      "ascend",
+      "brake",
+      "cycle",
+      "descend",
+      "drive",
+      "fly",
+      "jump",
+      "navigate",
+      "paddle",
+      "ride",
+      "roll",
+      "run",
+      "steer",
+      "swim",
+      "walk"
+    ],
+    "sit/step/use body support": [
+      "dangle",
+      "exercise",
+      "sit",
+      "sleep",
+      "step on",
+      "wear"
+    ],
+    "cut/pierce/break": [
+      "break",
+      "carve",
+      "chop",
+      "crush",
+      "cut",
+      "dig",
+      "drill",
+      "flatten",
+      "grate",
+      "grind",
+      "mow",
+      "peel",
+      "penetrate",
+      "pluck",
+      "punch",
+      "prune",
+      "rip",
+      "sharpen",
+      "shred"
+    ],
+    "hit/attack/defend": [
+      "attack",
+      "bat",
+      "beat",
+      "block",
+      "bump",
+      "cock",
+      "defend",
+      "deflect",
+      "detonate",
+      "fire",
+      "hit",
+      "kick",
+      "shock",
+      "stroke",
+      "trigger"
+    ],
+    "lever/press/shape": [
+      "adjust",
+      "bend",
+      "click",
+      "compress",
+      "control",
+      "deploy",
+      "divide",
+      "extend",
+      "flip",
+      "fold",
+      "form",
+      "inflate",
+      "knead",
+      "lever",
+      "pop",
+      "press",
+      "pressurize",
+      "pump",
+      "rotate",
+      "shake",
+      "spring",
+      "squeeze",
+      "stretch",
+      "switch"
+    ],
+    "clean/protect/maintain": [
+      "absorb",
+      "clean",
+      "conceal",
+      "cool",
+      "cover",
+      "dry",
+      "erase",
+      "extinguish",
+      "filter",
+      "humidify",
+      "insulate",
+      "polish",
+      "reduce noise",
+      "reinforce",
+      "shade",
+      "wash",
+      "sweep",
+      "treat"
+    ],
+    "cook/heat/prepare food": [
+      "apply",
+      "bake",
+      "blend",
+      "boil",
+      "brew",
+      "brown",
+      "burn",
+      "cook",
+      "drink",
+      "eat",
+      "fry",
+      "fuel",
+      "grill",
+      "heat",
+      "ignite",
+      "immerse",
+      "season",
+      "serve",
+      "steam",
+      "stir"
+    ],
+    "dispense/flow": [
+      "administer",
+      "blow",
+      "channel water",
+      "circulate",
+      "deflate",
+      "direct",
+      "dispense",
+      "drain",
+      "inject",
+      "intake",
+      "irrigate",
+      "pour",
+      "spray",
+      "spread",
+      "suck",
+      "vent"
+    ],
+    "tool use/operate": [
+      "aim",
+      "align",
+      "call",
+      "charge",
+      "check",
+      "focus",
+      "input",
+      "measure",
+      "orient",
+      "scan",
+      "scroll",
+      "select",
+      "start",
+      "time",
+      "track"
+    ],
+    "sense/perceive": [
+      "detect",
+      "listen",
+      "see",
+      "smell"
+    ],
+    "signal/display/communicate": [
+      "amplify",
+      "display",
+      "flash",
+      "illuminate",
+      "indicate",
+      "ink",
+      "label",
+      "print",
+      "ring",
+      "speak",
+      "write"
+    ],
+    "art/play/media": [
+      "decorate",
+      "draw",
+      "paint",
+      "photograph",
+      "play"
+    ],
+    "plant/farm": [
+      "cultivate",
+      "fish",
+      "plant"
+    ],
+    "propel/project": [
+      "bounce",
+      "catch",
+      "launch",
+      "propel",
+      "swing"
+    ],
+    "air/breathing": [
+      "assist_breathing"
+    ],
+    "water/float": [
+      "float"
+    ],
+    "dispose": [
+      "dispose"
+    ]
+  },
+  "typed": {
+    "art, rest it, lie in, sit in": [
+      "art/play/media",
+      "support/rest",
+      "sit/step/use body support"
+    ],
+    "as a lis of a jar, paper weight, or under the pots to protect the table from heat or water": [
+      "clean/protect/maintain",
+      "support/rest"
+    ],
+    "attack, block, penetrate, protection": [
+      "hit/attack/defend",
+      "cut/pierce/break",
+      "clean/protect/maintain"
+    ],
+    "attack, penetrate": [
+      "hit/attack/defend",
+      "cut/pierce/break"
+    ],
+    "carry and hold": [
+      "carry/move",
+      "hold/contain/store"
+    ],
+    "climb": [
+      "travel/locomotion"
+    ],
+    "compose": [],
+    "cut or scratch": [
+      "cut/pierce/break"
+    ],
+    "cut or scratch, like massage": [
+      "cut/pierce/break",
+      "hit/attack/defend"
+    ],
+    "for decoration": [
+      "art/play/media"
+    ],
+    "for decoration and for shade": [
+      "art/play/media",
+      "clean/protect/maintain"
+    ],
+    "grab": [
+      "hold/contain/store"
+    ],
+    "hang": [
+      "sit/step/use body support"
+    ],
+    "hang on": [
+      "sit/step/use body support"
+    ],
+    "hang ot hold": [
+      "sit/step/use body support",
+      "hold/contain/store"
+    ],
+    "hang rings and jewelry": [
+      "hold/contain/store"
+    ],
+    "hit and pinprick": [
+      "hit/attack/defend",
+      "cut/pierce/break"
+    ],
+    "hold something": [
+      "hold/contain/store"
+    ],
+    "hold, but if i press more than once, it doesn\u2019t let you pick again.": [
+      "hold/contain/store"
+    ],
+    "penetrate, attack": [
+      "cut/pierce/break",
+      "hit/attack/defend"
+    ],
+    "pinprick": [
+      "cut/pierce/break"
+    ],
+    "pinprick or penetrate": [
+      "cut/pierce/break"
+    ],
+    "poke into something": [
+      "cut/pierce/break"
+    ],
+    "poke into things": [
+      "cut/pierce/break"
+    ],
+    "poke something": [
+      "cut/pierce/break"
+    ],
+    "provide shade": [
+      "clean/protect/maintain"
+    ],
+    "pry as lever": [
+      "lever/press/shape"
+    ],
+    "pry as lever or poke": [
+      "lever/press/shape",
+      "cut/pierce/break"
+    ],
+    "pry as lever or poke, or just as art decoration": [
+      "lever/press/shape",
+      "cut/pierce/break",
+      "art/play/media"
+    ],
+    "pry open things": [
+      "detach/open",
+      "lever/press/shape"
+    ],
+    "pry open things with the tip": [
+      "detach/open",
+      "lever/press/shape"
+    ],
+    "rest, step on": [
+      "support/rest",
+      "sit/step/use body support"
+    ],
+    "scratch or cut": [
+      "cut/pierce/break"
+    ],
+    "sit on": [
+      "sit/step/use body support"
+    ],
+    "sit on, rest in": [
+      "sit/step/use body support",
+      "support/rest"
+    ],
+    "sit on, step on,": [
+      "sit/step/use body support"
+    ],
+    "step": [
+      "sit/step/use body support"
+    ],
+    "store": [
+      "hold/contain/store"
+    ],
+    "the middle image didn\u2019t show on this one": [],
+    "tips can pry open things": [
+      "detach/open",
+      "lever/press/shape"
+    ],
+    "under the pot as a protective layer": [
+      "clean/protect/maintain"
+    ]
+  },
+  "model": "openai/gpt-5.4",
+  "hand_edits": "2026-11-23: duplicates kept in their first group (charge, drink, drive, eat, eject, play); added scoop->hold/contain/store, sew->attach/fasten, sweep and treat->clean/protect/maintain"
+}

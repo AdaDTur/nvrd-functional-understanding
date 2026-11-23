@@ -1,0 +1,457 @@
+{
+  "object": "shape_16",
+  "model": "google/gemma-4-E4B-it",
+  "image_path": "/shared/nas/data/m1/adadt2/nvrd/regions_test/data/novel/shape_16.png",
+  "region_source": "sam_slic",
+  "method": "per_part_with_comparative_context",
+  "top_k": 10,
+  "modes": [
+    "logprob",
+    "generation"
+  ],
+  "regions": [
+    {
+      "region_id": "shape_16_region_3",
+      "area": 49235,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "WUW9Y37jLQl0R5aN8H6J5L3M3M2N2O2M2O1N2O001O1N2O001O00001N101O00001N10001O001N10001O00001N10001O00001O0O101O00001O0000001N101O0000001O001O00000O2O0000000000000000000000000O1000000000000000000000O10000000000000O1000O10000O100000000000000000000000000000O10O100000000O10000000000000000000000000000O01000000000O10000000000O1000000O100O10000O100O100O100O1O100O1O1O001N2O1N2O1O1N2N2O1O1N2M3O1N2O1N2O1N2N2O1O1M3O1N2N2O1N2O2M2N2O1N2N2N2N2N2O1O1N3N1N2N2O1N2N3M2O1N2O2M2N2N2O2M2N3M2N3N1N3N2M3M3M3M3M3M3M4L4L4M4K5K8G=Cc0]OoiP?"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "anchor",
+          "justification": "Its blocky top structure suggests a point of stable connection for supporting weight above the main frame",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "anchor",
+                "logprob": -0.053282756151020294,
+                "prob": 0.9487839722391902
+              },
+              {
+                "option": "align",
+                "logprob": -4.05328130703856,
+                "prob": 0.01737760980104445
+              },
+              {
+                "option": "support",
+                "logprob": -4.803283214348994,
+                "prob": 0.008208585980261217
+              },
+              {
+                "option": "block",
+                "logprob": -4.803301691230445,
+                "prob": 0.008208434312592359
+              },
+              {
+                "option": "none",
+                "logprob": -5.0532660484241205,
+                "prob": 0.00639296292951586
+              },
+              {
+                "option": "attach",
+                "logprob": -5.178278565274013,
+                "prob": 0.005641699366889825
+              },
+              {
+                "option": "absorb",
+                "logprob": -6.178292155009331,
+                "prob": 0.0020754370055174882
+              },
+              {
+                "option": "balance",
+                "logprob": -7.17827796923666,
+                "prob": 0.0007635214368410134
+              },
+              {
+                "option": "hold",
+                "logprob": -7.178349491128756,
+                "prob": 0.0007634668302959997
+              },
+              {
+                "option": "orient",
+                "logprob": -8.053274512220923,
+                "prob": 0.0003182841885409282
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "contain",
+              "block",
+              "support",
+              "hold",
+              "cover",
+              "seal",
+              "plug",
+              "attach",
+              "place",
+              "rest"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. contain\n2. block\n3. support\n4. hold\n5. cover\n6. seal\n7. plug\n8. attach\n9. place\n10. rest"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_16_region_5",
+      "area": 43738,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "a\\X=7ho07J1N2O0O2N1M4N1O001N1000000000000001O0000O10O10O100000O01001O0000O1O10O100O1O10000000O10O1000O1O1000O01O10O01O00100O01O01O10O01000O10O0O110O0000100O00000010O10N1010O100O10O00001O100O2N101N2O1M3O1O1O1N2N2N1N3N2N2N2O1M3O1N3M2N2N2O1N2N3L3L4A?O101N100010O0000010O00010O01O10O01O010O010O010O010O010O10O10O10O10O10O10O1000O0100O01000O100000O01000000O10000000O10O10001O00O100001O000O100000000000001O00000000001O00001O0000001O0000010O00001O001O010O001O001O010O001O1O010O1O010O002OO01O00100O10O0100O10000O1O10O01O2O0O100O10000O101N10001N10000O2O0O2O000O101O001N2O00001O1O001O1N2O001O1O1N110O1O1O1O1O010O2N002N1O1O100O1O1O101N1O10001N1O101O1N1O1O2O1O0O2OO11N2O1O0nWOUJle0l5oYOWJQf0j5lYOXJUf0i5fYOZJ\\f0f5`YO]J`f0d5[YO_Jef0c5VYO`Jjf0c5PYO_JRg0c5hXO`JYg0a5bXObJ`g0_5XXOeJig0i63M2O010N3N2N2N1O3L2O1N101N4L2N2N2O3M0O3L5L4L2O2O1M4L2N2O3L5K2N3M3L6K3N2M6J5K3N3L5K4L2M4M6J4K4M4L4K7J3L5L8G7I5K7J6J6I4M3L8H7I6I6K8GkVS6"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "propel",
+          "justification": "Its curved structure suggests movement through pushing against something else during use",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "propel",
+                "logprob": -0.8855831620894605,
+                "prob": 0.41789221623763756
+              },
+              {
+                "option": "ascend",
+                "logprob": -1.2605925794171071,
+                "prob": 0.28721013514564503
+              },
+              {
+                "option": "accelerate",
+                "logprob": -2.635581612403257,
+                "prob": 0.07261889088926653
+              },
+              {
+                "option": "swing",
+                "logprob": -2.885575652035186,
+                "prob": 0.05655598618382736
+              },
+              {
+                "option": "support",
+                "logprob": -3.010582208436972,
+                "prob": 0.0499101553977401
+              },
+              {
+                "option": "bend",
+                "logprob": -3.0105829236781574,
+                "prob": 0.04991011969995415
+              },
+              {
+                "option": "none",
+                "logprob": -4.135567665086455,
+                "prob": 0.01620369075035562
+              },
+              {
+                "option": "align",
+                "logprob": -4.635577916978946,
+                "prob": 0.00982793448514848
+              },
+              {
+                "option": "balance",
+                "logprob": -4.63557875143124,
+                "prob": 0.009827926284209426
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -5.042247708308395,
+                "prob": 0.0065440680439758404
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "support",
+              "hold",
+              "rest",
+              "stand",
+              "lean",
+              "block",
+              "cover",
+              "contain"
+            ],
+            "n_valid": 8,
+            "invalid": [
+              "cushion",
+              "shield"
+            ],
+            "raw": "1. support\n2. hold\n3. rest\n4. stand\n5. lean\n6. block\n7. cover\n8. contain\n9. cushion\n10. shield"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_16_region_2",
+      "area": 11030,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "^eR;e1Wn0X2jM8H4L4L3M3M3N1N3M2O2N1N2N2O1M3O1O1N2O1O1O1O1N2O1O1N2N2O100O1N2O1O001O1O1N1010O0000O1000N3M2I7H8H8I7G:G7L5J6I8K4I8J5L4J6K6J5M4K4L5L3M4K4M3N3K4M4L4M2N3M2N3L4N2M3M3M3M2O2M4M2N3MY]Tb0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "support",
+          "justification": "The lower section of the structure has a broad base designed for stability against gravity",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "support",
+                "logprob": -0.041719797807672876,
+                "prob": 0.9596528898169665
+              },
+              {
+                "option": "balance",
+                "logprob": -4.041717767564478,
+                "prob": 0.017576691473339796
+              },
+              {
+                "option": "anchor",
+                "logprob": -4.04172646965344,
+                "prob": 0.01757653852007244
+              },
+              {
+                "option": "stand",
+                "logprob": -6.4167242047333275,
+                "prob": 0.0016348764553964614
+              },
+              {
+                "option": "absorb",
+                "logprob": -6.416777609221754,
+                "prob": 0.0016347891479870458
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -7.294619481005611,
+                "prob": 0.0006795475722128023
+              },
+              {
+                "option": "block",
+                "logprob": -7.541751502638363,
+                "prob": 0.0005307521864499978
+              },
+              {
+                "option": "none",
+                "logprob": -9.166705012310558,
+                "prob": 0.00010451616102979864
+              },
+              {
+                "option": "hold",
+                "logprob": -9.170425976393744,
+                "prob": 0.00010412798279500814
+              },
+              {
+                "option": "align",
+                "logprob": -9.416722655047124,
+                "prob": 8.139583199573483e-05
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "support",
+              "hold",
+              "stand",
+              "contain",
+              "rest",
+              "balance",
+              "level",
+              "absorb",
+              "cover"
+            ],
+            "n_valid": 9,
+            "invalid": [
+              "cushion"
+            ],
+            "raw": "1. support\n2. hold\n3. stand\n4. contain\n5. rest\n6. balance\n7. level\n8. cushion\n9. absorb\n10. cover"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_16_region_1",
+      "area": 4073,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "X]Q;8ao0:J4L3N3M2N3N2N2N2N2M3N2N2N3M2N2N2O1N2O1N2N2O1N2O1N101O0O2O001O000O100000000000000000O10001N100O101N101N101N1O2O0O2N1O2N2N2N2N2M4M3L4L5K4L6J5JTcfb0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "attach",
+          "justification": "The small circular component appears designed as a connection point between two larger structural elements of the device",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "attach",
+                "logprob": -1.141706585734937,
+                "prob": 0.32276178237845476
+              },
+              {
+                "option": "anchor",
+                "logprob": -1.2667095659107872,
+                "prob": 0.28483542436075177
+              },
+              {
+                "option": "align",
+                "logprob": -1.7667078970134753,
+                "prob": 0.17276170616836112
+              },
+              {
+                "option": "adjust",
+                "logprob": -2.141700506147572,
+                "prob": 0.1187381460096225
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -3.4102033344352094,
+                "prob": 0.033395387330480114
+              },
+              {
+                "option": "control",
+                "logprob": -4.01669979090002,
+                "prob": 0.01820909746854166
+              },
+              {
+                "option": "clamp",
+                "logprob": -4.266705989697584,
+                "prob": 0.014181171461040216
+              },
+              {
+                "option": "support",
+                "logprob": -4.891710519565095,
+                "prob": 0.007590599709820233
+              },
+              {
+                "option": "clip",
+                "logprob": -5.016708612254661,
+                "prob": 0.006698693509151725
+              },
+              {
+                "option": "click",
+                "logprob": -5.516709804323909,
+                "prob": 0.004062958149988175
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "hold",
+              "support",
+              "clamp",
+              "stand",
+              "attach",
+              "align",
+              "control",
+              "direct",
+              "place",
+              "anchor"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. hold\n2. support\n3. clamp\n4. stand\n5. attach\n6. align\n7. control\n8. direct\n9. place\n10. anchor"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_16_region_6",
+      "area": 2910,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "d\\R::bo05L4L5L9G8H5L5J5L3M3L4M2N2N2N2N2N2N2N2N101N1O2O0O0100O1O1N3UOlRO\\N`m0\\1f0N2M4M2M3O1N2O2M2O1O1O1N2O101N1O1O1O100O1O1O100O100O10000O100O2O00001O00001O000O2O00010O0O2O1NUd^c0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "attach",
+          "justification": "The small circular component appears designed as a connection point between two larger structural elements of the device",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "attach",
+                "logprob": -0.20592763999229646,
+                "prob": 0.8178540660871283
+              },
+              {
+                "option": "anchor",
+                "logprob": -2.7059340473424527,
+                "prob": 0.06713311974252864
+              },
+              {
+                "option": "clip",
+                "logprob": -3.330932616867358,
+                "prob": 0.035933820976721514
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -3.482567411254422,
+                "prob": 0.03087800586338238
+              },
+              {
+                "option": "clamp",
+                "logprob": -4.330931305597915,
+                "prob": 0.013219331314164808
+              },
+              {
+                "option": "support",
+                "logprob": -4.580932974486132,
+                "prob": 0.010295208397585574
+              },
+              {
+                "option": "button",
+                "logprob": -5.3309236763579975,
+                "prob": 0.004863157318567506
+              },
+              {
+                "option": "align",
+                "logprob": -5.330931305597915,
+                "prob": 0.004863120216515099
+              },
+              {
+                "option": "adjust",
+                "logprob": -5.4559247492234135,
+                "prob": 0.004291716665980574
+              },
+              {
+                "option": "click",
+                "logprob": -5.580938934781443,
+                "prob": 0.0037873729381188814
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "input",
+              "detach",
+              "switch",
+              "press",
+              "adjust",
+              "engage",
+              "control",
+              "select",
+              "insert",
+              "lock"
+            ],
+            "n_valid": 10,
+            "invalid": [],
+            "raw": "1. input\n2. detach\n3. switch\n4. press\n5. adjust\n6. engage\n7. control\n8. select\n9. insert\n10. lock"
+          }
+        }
+      }
+    }
+  ],
+  "generation_option_order": "shuffled_per_part"
+}

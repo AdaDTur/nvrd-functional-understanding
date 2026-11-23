@@ -57,12 +57,20 @@ for _sub in os.listdir(_CODE_ROOT):
 from affordance_labeling import (
     AFFORDANCE_JUSTIFICATION_DIR, JSON_DIR, MODEL_NAME, TOP_K, VOCABULARIES, build_per_part_question, build_prompt_text,
     build_ranked_question, downscale, first_sentence, load_regions, numbered_overlay, parse_ranked, partition_regions,
-    processor_inputs, resolve_image_path, score_options, topk_from_scores,
+    processor_inputs, resolve_image_path, score_options, shuffled_options, topk_from_scores,
 )
+# SHUFFLE_OPTIONS=1: list the vocabulary in a per-part random order (shuffled_options, seeded by
+# region_id) in the top-K generation prompt, instead of the vocabulary's own (alphabetical) order.
+SHUFFLE_OPTIONS = os.environ.get("SHUFFLE_OPTIONS") == "1"
+# GENERATION_ONLY=1: redo just the generation top-K of existing outputs in place (label, justification
+# and log-prob top-K kept), e.g. after turning SHUFFLE_OPTIONS on.
+GENERATION_ONLY = os.environ.get("GENERATION_ONLY") == "1"
 from gpu_contention import contention_blockers, wait_for_gpu_headroom
 
 HERE = os.path.dirname(_CODE_ROOT)  # affordance-test (scripts moved under code/<category>/)
-VOCAB = "agd20k"
+# AFF_VOCAB=synthia_filtered labels on the 230-verb synthia list instead of AGD20K; outputs then go to
+# affordance_justification_<model>_synthia/ so the AGD20K results are never overwritten.
+VOCAB = os.environ.get("AFF_VOCAB", "agd20k")
 MAX_NEW_TOKENS = 64
 RANKED_MAX_NEW_TOKENS = 200
 YIELD_EXIT_CODE = 75  # "yielded the GPU to another user" -- labeling_watchdog.sh restarts without counting a retry  # TOP_K numbered options, some multi-word (synthia_filtered)
@@ -202,6 +210,14 @@ def generate_ranked(model, processor, image: Image.Image, prompt_text: str, opti
     return {**parse_ranked(raw, options), "raw": raw.strip()}
 
 
+def _order_of(path: str) -> "str | None":
+    try:
+        with open(path) as f:
+            return json.load(f).get("generation_option_order")
+    except (OSError, ValueError):
+        return None
+
+
 def has_topk_fields(path: str, vocab: str, modes: tuple = ("logprob", "generation")) -> bool:
     """--resume's "done" test: an output counts as done only if every part already carries both
     top-K modes -- outputs from before top-K collection existed get redone, not skipped."""
@@ -236,7 +252,7 @@ def compute_parts(object_name: str) -> tuple:
 
 def process_object(
     model, processor, option_ids, device, object_name: str, repo_id: str, safe_generate: bool = False,
-    cfg: "dict | None" = None, get_model=None,
+    cfg: "dict | None" = None, get_model=None, out_path: "str | None" = None,
 ) -> dict:
     """get_model: optional callable run before every part that returns the model to use -- main()
     passes one that unloads the model under GPU contention and reloads it once clear. When given,
@@ -258,9 +274,24 @@ def process_object(
     results = []
     if get_model is not None:
         model = None
+    existing = None
+    if GENERATION_ONLY:
+        with open(out_path) as f:
+            existing = json.load(f)
+        assert [p["region_id"] for p in parts] == [r["region_id"] for r in existing["regions"]], \
+            f"{object_name}: recomputed parts differ from the saved output"
     for i, part in enumerate(parts, start=1):
         if get_model is not None:
             model = get_model()
+        rank_opts = shuffled_options(options, part["region_id"]) if SHUFFLE_OPTIONS else options
+        if existing is not None:
+            rank_prompt = build_prompt_text(processor, build_ranked_question(i, len(parts), rank_opts, glosses), **prompt_kw)
+            generation = generate_ranked(model, processor, overlay, rank_prompt, options, device, stop_ids=stop_ids)
+            existing["regions"][i - 1]["vocabularies"][VOCAB]["generation"] = generation
+            print(f"    {part['region_id']:>28s}  generation {generation['ranked'][:5]} ({generation['n_valid']}/{TOP_K} valid)")
+            if get_model is not None:
+                model = None
+            continue
         fc_prompt = build_prompt_text(processor, build_per_part_question(i, len(parts), options, glosses), **prompt_kw)
         fc = score_options(model, processor, overlay, fc_prompt, option_ids, device,
                            copy_cache=cfg.get("copy_cache", False),
@@ -274,7 +305,7 @@ def process_object(
             model, processor, overlay, just_prompt, label, device, safe_generate=safe_generate,
         )
 
-        rank_prompt = build_prompt_text(processor, build_ranked_question(i, len(parts), options, glosses), **prompt_kw)
+        rank_prompt = build_prompt_text(processor, build_ranked_question(i, len(parts), rank_opts, glosses), **prompt_kw)
         generation = generate_ranked(model, processor, overlay, rank_prompt, options, device, stop_ids=stop_ids)
 
         results.append({**part, "vocabularies": {VOCAB: {
@@ -288,8 +319,12 @@ def process_object(
         if get_model is not None:
             model = None  # drop our reference so get_model() can really free it next part
 
+    if existing is not None:
+        existing["generation_option_order"] = "shuffled_per_part" if SHUFFLE_OPTIONS else "vocabulary"
+        return existing
     return {
         "object": object_name, "model": repo_id, "image_path": img_path,
+        "generation_option_order": "shuffled_per_part" if SHUFFLE_OPTIONS else "vocabulary",
         "region_source": REGION_SOURCE, "method": "per_part_with_comparative_context",
         "top_k": TOP_K, "modes": ["logprob", "generation"],
         "regions": results,
@@ -319,8 +354,9 @@ def main():
     # The default model's outputs stay at the original path (everything downstream -- rise/loo scripts,
     # visualize_affordance_*.py -- reads from there); every other model gets its own sibling directory
     # so multi-model runs don't clobber each other or the default.
-    out_dir = AFFORDANCE_JUSTIFICATION_DIR if model_key == "qwen2-vl-7b" else os.path.join(
-        JSON_DIR, f"affordance_justification_{model_key}"
+    suffix = "" if VOCAB == "agd20k" else f"_{VOCAB.split('_')[0]}"
+    out_dir = AFFORDANCE_JUSTIFICATION_DIR if (model_key == "qwen2-vl-7b" and not suffix) else os.path.join(
+        JSON_DIR, f"affordance_justification_{model_key}{suffix}"
     )
     os.makedirs(out_dir, exist_ok=True)
 
@@ -328,7 +364,10 @@ def main():
     todo = [
         (category, name) for category, names in OBJECTS for name in names
         if (not requested or name in requested) and (split is None or category == split)
-        and not (resume and has_topk_fields(os.path.join(out_dir, f"{name}_affordance_justification.json"), VOCAB))
+        and not (resume and not GENERATION_ONLY
+                 and has_topk_fields(os.path.join(out_dir, f"{name}_affordance_justification.json"), VOCAB))
+        and not (resume and GENERATION_ONLY and SHUFFLE_OPTIONS
+                 and _order_of(os.path.join(out_dir, f"{name}_affordance_justification.json")) == "shuffled_per_part")
     ]
     if not todo:
         print(f"Nothing to do (--resume and every requested object already has an output in {out_dir}).")
@@ -396,7 +435,8 @@ def main():
         print(f"  {name}:")
         try:
             data = process_object(None, processor, option_ids, device, name, repo_id, safe_generate=safe_generate,
-                                  cfg=cfg, get_model=get_model)
+                                  cfg=cfg, get_model=get_model,
+                                  out_path=os.path.join(out_dir, f"{name}_affordance_justification.json"))
         except Exception as e:
             import traceback
             traceback.print_exc()

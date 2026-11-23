@@ -1,0 +1,648 @@
+{
+  "object": "shape_22",
+  "model": "Qwen/Qwen3.5-4B",
+  "image_path": "/shared/nas/data/m1/adadt2/nvrd/regions_test/data/novel/shape_22.png",
+  "region_source": "sam_slic",
+  "method": "per_part_with_comparative_context",
+  "top_k": 10,
+  "modes": [
+    "logprob",
+    "generation"
+  ],
+  "regions": [
+    {
+      "region_id": "shape_22_region_9",
+      "area": 93524,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "T_m6=Yo0h0]O9G;F9I3M3L4M4M2N3M2O1N20O0100O10O01O1O001N101O00001O001O0000001O0000000O101N100O2O0O2O0O101N1O100O2N1N2\\OgL^TO\\3`k0d0N1O1O101N110O000001O0001O01O001O0000010O0000000001O000001O00000000001O0001O00000001O000000O10000000001O01N11O00000O10000000000000000000000000001O00000000O0101O0000000000O11O000000000O10000000000000000O011O0000000000000O100000000000O1000O10000000000000000O1000000000000O100000O1000000000O100000O010000000000O100000000O1000O1000000000O100000000O100000000O01000000000O100000000O10O1000O10000O100000000O010000000O100000O10O1000000O100000O10O1000000O10000O10O10O100000O10O100000000O1000O10O1000000O10O1000O100000O0100O10000O10O10O100000O10O10000000O010000O010O100000O10O100O10O10O1000000O01000O1000O10O100O10O1000O100000O0100O1000O010000O01000O1000O10O1000O0100000O0100O10000O01000O010O10O10O10000O010O10O1000O10O10O10O0100O1000O010000O0100000O010O100O010O10O10O100O010O10O10O100O010O01000O10O10O10O01O10O010O10O010O10O10O10O0100O010O010O100O010O00100O010O10O0100O00100O010O010O1O010O010O1O010O001O10O01O1O0O2O001O10OO2N1O1M4L30100O010000O010O1O100O2O000O101N10000000000O101N10000O100O1O2M2H8N201O00001O001O2ON100O02O0O2N2B]UO\\Kej0^3VUO_M7QOdj0`3UUO_MWk0e30000001kNhTO`MXk0X2jTOjLNn0Yk0W2iTOkLNn0Zk0b31O001O001O010O1O0O2O1O1N2O0O2N3M2O1N2N2N3M1K6M4N100N3N1N4L2N3L4L4L3N3L5K6J5K5I8I9F9F7Iddh5"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "cover",
+          "justification": "Part 1 sits atop all others in its flat disc form which suggests cover; unlike any of these objects' bowl-like shapes they are designed for holding liquid contents rather than covering them up completely like lids do when placed over bowls",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "cover",
+                "logprob": -1.8103612030972727,
+                "prob": 0.1909280269032191
+              },
+              {
+                "option": "align",
+                "logprob": -2.185759022482671,
+                "prob": 0.13117059332555484
+              },
+              {
+                "option": "balance",
+                "logprob": -2.1859443553257734,
+                "prob": 0.13114628535916423
+              },
+              {
+                "option": "stack",
+                "logprob": -2.5607659313827753,
+                "prob": 0.09015151963530948
+              },
+              {
+                "option": "contain",
+                "logprob": -2.6859414969803765,
+                "prob": 0.07954447034300086
+              },
+              {
+                "option": "anchor",
+                "logprob": -2.8106564552290365,
+                "prob": 0.07021776083667114
+              },
+              {
+                "option": "none",
+                "logprob": -3.1868149363435805,
+                "prob": 0.04820403837635267
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -3.560659855293096,
+                "prob": 0.0331684088527048
+              },
+              {
+                "option": "carry",
+                "logprob": -3.7485898819286376,
+                "prob": 0.02748575459429419
+              },
+              {
+                "option": "adjust",
+                "logprob": -3.87376420001965,
+                "prob": 0.024251865387297466
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "hold",
+              "contain",
+              "support",
+              "stack",
+              "balance",
+              "attach",
+              "lift",
+              "carry",
+              "place",
+              "move"
+            ],
+            "n_valid": 10,
+            "invalid": [
+              "Based on the visual analysis of part 1 (the blue ring), which appears to be a structural component of a toy or container stack:"
+            ],
+            "raw": "Based on the visual analysis of part 1 (the blue ring), which appears to be a structural component of a toy or container stack:\n\n1. hold\n2. contain\n3. support\n4. stack\n5. balance\n6. attach\n7. lift\n8. carry\n9. place\n10. move"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_22_region_2",
+      "area": 81052,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "^[Z8g0Ro0:H8I5J7K5K4L4M3K5M4L3K5L3N3L3N2N2N3L3N2N3M3M2N3N1N2N2N3N1N2N3N1N2O1O1N3N1N2O1O1N2O2M2O1O1O1N2O1O1O1O1O1O1N2O1O1O1O1O2N1O1O1N101O100O1O1O1O1O1O1O1O1O100O1O1O1O1O1O100O1O100O1O1O1O100O1O1O1O010O1O100O1O100O1O1O100O10O01O100O100O100O010O1O100O1000O0100O1O100O100O10000O010O100O100O10O010000O100O10O10O100O10000O01000O10000O10O1000O1000O010000O10O10O10000O0100000O1000O10O10000O010000000O01000000000O01000000000O01000000O10O1000O100000000O1000O10O100000000O1000000O0100000O1000000O1000000O10000O1000000O10000O1000001N10000O1000000O100000000O10000O2O00000O1000000O101O0O10000O1000001N10000O1000000O2O000O10000O2O000O101O0O10001O0O10000O2O000O10001N10001O0O2O000O101O0O101O0O101O0O101O0O2O001N10001N101O0O101N101O0O101O0O10001N101O0O101N101O0O2O001N101O0O2O1N101N101O0O101N101O1O0O2O0O2O1N101N101N101O0O2O1N101O1N2O0O2O1O1N101N101N2O0O2O1N2O0O2O1N2O1N2O1O0O2O1N2O0O2N2O1N2O1N2N2O1N2O1N2O1N2O1N2N2O1N2O1N2O1N2N2N2N2O2M2N2N2N3N1N2N2N3M2N3L4L4K6JYgo8"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "cover",
+          "justification": "Part two has a smooth dome-shaped top surface without any handles like its neighbors do; therefore we can assume it was designed for covering rather than holding onto as well since there are no protrusions which would make gripping easier compared to others around them who have distinct features such as curved edges making their use more functional towards carrying things",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "cover",
+                "logprob": -0.221537409350276,
+                "prob": 0.8481194106482596
+              },
+              {
+                "option": "none",
+                "logprob": -2.848139373585582,
+                "prob": 0.06133922205429649
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -4.096735863480205,
+                "prob": 0.017598663931722408
+              },
+              {
+                "option": "orient",
+                "logprob": -4.472102144500241,
+                "prob": 0.012090943547012276
+              },
+              {
+                "option": "align",
+                "logprob": -4.472785339341499,
+                "prob": 0.012082685897867852
+              },
+              {
+                "option": "anchor",
+                "logprob": -4.5968225644901395,
+                "prob": 0.01067320382690075
+              },
+              {
+                "option": "contain",
+                "logprob": -4.847072129428852,
+                "prob": 0.008310225298590695
+              },
+              {
+                "option": "balance",
+                "logprob": -5.222849610378034,
+                "prob": 0.0057070898730589865
+              },
+              {
+                "option": "adjust",
+                "logprob": -5.536191655788571,
+                "prob": 0.0041718817536174
+              },
+              {
+                "option": "control",
+                "logprob": -6.222347829258069,
+                "prob": 0.0021005747975889988
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "cover",
+              "close",
+              "seal",
+              "contain",
+              "hold",
+              "prevent falling",
+              "place",
+              "stack",
+              "align",
+              "balance"
+            ],
+            "n_valid": 10,
+            "invalid": [
+              "Based on the visual analysis of part 2 (the orange dome-shaped lid on top of the stack):"
+            ],
+            "raw": "Based on the visual analysis of part 2 (the orange dome-shaped lid on top of the stack):\n\n1. cover\n2. close\n3. seal\n4. contain\n5. hold\n6. prevent falling\n7. place\n8. stack\n9. align\n10. balance"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_22_region_5",
+      "area": 73716,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "^ei6;ao08J5K5L4K4L4M4L3M3M2N4M2M3M3H9L3N1N3O1N2O1000000O00010O1O1N101O001O00000010O01O1O0O2O1O0O2O0O2N2O0O100O101N101N100O100O100O2O0O100O1O100O1O100O100O1O010O1O2N1O1O100O010O1O1O2O0O00100O001O100O2N10O010O01O1O1O1O100O1O001O10O01O1O00100O001O1O10O01O001O010O1O001O010O001O001O010O001O0010O01O001O00010O001O000010O0001O0000001O000010O0001O0010O0001O01O01O0000001O01O000001O000000001O01O01O000001O0001O00001O000000001O0000010O0000000000001O000001O000001O0000000001O0000000001O00000000000000010O00000000000000000000001O000001O00000000000000000000001O000000000000000001O00000000000000000000000000O10000000000000000000000000000000000000000000000O1000000000000000001O0O01000000000000000000000O100000000000000000000O100000000000000O1000O10000000O1000000O100000000O10000000O11N10000O10O10000001N1000O100000O10O1000O100000000O100O10O10O10000O1000O01000000O100O1000000O10O0100O1O100O10O010000O100O1O010O100O100O1O10O0100O1O100O1O001O100O001O001O100O1O1O1O1O1O1O1O001O1O1O1N101O1O1O001O1O1O1O10O01N2O001O1N2_O\\SOdMel0S2fSOjM\\l0S2gSOkM[l0T2gSOiM[l0R2k0N3M3N1N3O1N1O2N101N2O1M201O1O1O002N1O1N20O0100O001O010O0010000O11N101N2O0O2N100O10000O1O010O10000M201O000001N1O101N1N3M101O1O2M2N3N2N3L3N3J6KjZZ7"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "contain",
+          "justification": "Part three forms the wide base of the stack which provides structural support for all upper layers while its open top allows items placed above it to be held securely within those subsequent components rather than resting directly upon itself as if being contained by something else below like in case two where no such lower layer exists beneath them either way they both",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "contain",
+                "logprob": -1.7723671882704366,
+                "prob": 0.20726259556665524
+              },
+              {
+                "option": "carry",
+                "logprob": -2.022378151974408,
+                "prob": 0.1614145020182049
+              },
+              {
+                "option": "none",
+                "logprob": -2.147825058840681,
+                "prob": 0.14238415138738836
+              },
+              {
+                "option": "hold_food",
+                "logprob": -2.4108644538064254,
+                "prob": 0.10945235072803869
+              },
+              {
+                "option": "anchor",
+                "logprob": -3.147469551215181,
+                "prob": 0.05239882691576016
+              },
+              {
+                "option": "hold",
+                "logprob": -3.16070294380188,
+                "prob": 0.051709980607603546
+              },
+              {
+                "option": "serve",
+                "logprob": -3.397679725836497,
+                "prob": 0.04079967147732181
+              },
+              {
+                "option": "support",
+                "logprob": -3.460002438601805,
+                "prob": 0.038334539966472
+              },
+              {
+                "option": "cover",
+                "logprob": -3.584727032968658,
+                "prob": 0.03383943106914262
+              },
+              {
+                "option": "balance",
+                "logprob": -3.585251441982109,
+                "prob": 0.033821690018669866
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "hold",
+              "drink",
+              "contain",
+              "support",
+              "carry",
+              "place",
+              "rest",
+              "sit",
+              "balance",
+              "stand"
+            ],
+            "n_valid": 10,
+            "invalid": [
+              "Based on the visual analysis of part 3 (the green base of the cup):"
+            ],
+            "raw": "Based on the visual analysis of part 3 (the green base of the cup):\n\n1. hold\n2. drink\n3. contain\n4. support\n5. carry\n6. place\n7. rest\n8. sit\n9. balance\n10. stand"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_22_region_4",
+      "area": 52803,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "YcT7>\\o0:I7J7H6K5L5J3M2N3M3N3L4M2M4M3M2N2N3L3N1O2N2N101N2N2N2N2N2N2O1N1O2O0O2O1N2O0O2O0O2O0O2O0O1000100O01XLTTO[3_l0I3N2M100O2O0O1O100O1O010O10O01O1O010O0010O01O1O01O010O0001O010O001O01O01O000010O0001O01O0001O01O00010O000001O0001O010O00000001O01O0001O01O0001O000001O0001O000001O0001O0000001O0001O000000010O000000000010O000000000010O00000000000010O000000000000010O000001O0000000000000001O0001O000000000000010O00000000000000000000001O0001O000001O00000000000000000000000010O0000000000000000000000000000000000000001O00000000000000000000001O0000000000O1000000001O00000000000000000000O11O000000000O100000000000000000000000O1001O00000000O10000000O1000000000000000000O1000000000000000000O100000000000O100000O10000000000000000000000O1000000000O100000O100000000000000O10000000O100000O1000000000000O10O10000000O100000O10O10000000000O10000000O10O1000000000O010000O10000000O0100000000O100000O01000000O1000O01000000O10O10O10000O10O1000O1000O100000O1000O100000O100O10O01000O0100O100O010O1000O10O10O10O010O100O0100000000O01O100O010O1O1O00100OPMcSO_2]l0_MmSOX2Tl0fMoSOY2Rl0eMQTOX2ok0hMSTOW2mk0hMUTOW2lk0gMWTOV2jk0hMYTOW2hk0gMZTOW2hl001O1N2O1O1N2O1O1O1N2O000O101N101N2N2N1O2O0O2O001N2O2M100O2N1O1O00100O100O100O00001O00O2N1N2O1O1M3N2O1O1L3L5J6N1101N102N1N3L4N3L4L6I5L4L7Eo\\c6"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part four appears as a solid red ring without any visible functional features like handles or openings for interaction; unlike surrounding components such as three which has two distinct grips allowing manipulation of its form through physical engagement by users interacting directly via tactile means rather than purely visual cues alone indicating utility beyond mere presence within overall structure design scheme presented here",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.4207770403008908,
+                "prob": 0.3203162362700207
+              },
+              {
+                "option": "contain",
+                "logprob": -1.5453821270930348,
+                "prob": 0.2827897417113583
+              },
+              {
+                "option": "hold_food",
+                "logprob": -2.5816726423072396,
+                "prob": 0.10032482222347666
+              },
+              {
+                "option": "drink",
+                "logprob": -3.671057579340413,
+                "prob": 0.03375161294407094
+              },
+              {
+                "option": "carry",
+                "logprob": -3.732897263907944,
+                "prob": 0.03172764943187381
+              },
+              {
+                "option": "serve",
+                "logprob": -3.9831868459878024,
+                "prob": 0.02470236382482183
+              },
+              {
+                "option": "hold",
+                "logprob": -4.331519842147827,
+                "prob": 0.017436504080799123
+              },
+              {
+                "option": "cover",
+                "logprob": -4.4203349272575,
+                "prob": 0.015954658558113306
+              },
+              {
+                "option": "anchor",
+                "logprob": -4.483012272597989,
+                "prob": 0.014985356843339785
+              },
+              {
+                "option": "brew",
+                "logprob": -4.483214608102571,
+                "prob": 0.014982325080328537
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "contain",
+              "hold_food",
+              "stack",
+              "support",
+              "cover",
+              "serve",
+              "place",
+              "balance",
+              "store_fuel",
+              "none"
+            ],
+            "n_valid": 10,
+            "invalid": [
+              "Based on the visual analysis of part 4 (the red ring in the stack), here is the ranking of its most plausible affordances:"
+            ],
+            "raw": "Based on the visual analysis of part 4 (the red ring in the stack), here is the ranking of its most plausible affordances:\n\n1. contain\n2. hold_food\n3. stack\n4. support\n5. cover\n6. serve\n7. place\n8. balance\n9. store_fuel\n10. none"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_22_region_6",
+      "area": 36496,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "_ai87ho02gPOLdn04[QOObn03\\QO0cn0O]QO2bn0O\\QO3bn0g0O1N3N1O10O01O001O001O1O010O001O001O001O00010O00001O001O000010OO101O0000010O0000000O20O0001O0000001O000000001O0000001O00010O0000001O0000000000001O0O11O0001O0000000000001O000000001N11O0000000001O000000000000001N1000000001O00O1000001O0000000000001O00000000000O10001O0000000000000O11O000000O10000000001O000000O01000001O000000000000000000000O1000000000001O000000000O10000000000000000O100000000000000O1000000000000000000O10000000000000000O1000000000000O0100000000000O10000000000O1000000000000O10000000000O10000000O0100000000000O010000O1000000000000O10O100000O1000000O10000000O10O10000000O10O1000000O10000000O10O10000O01000000000O1000O10O10000000O0100000000O01000O100O10O100000O1000O01000000O1000O010000000O01000000O0100000O10O1000O10O10O1000000O01000O1000O10O01000O10O10O10O100O0100O010O100O01000O01000O10O100O01000O0100O10O010O1O01000O01000O10O010O10O10O010O010O0100O010O010O10O0100O010O010O10O01O01000O01O01O001O1O010O001O001N2N2N1O2N1N3L4L3mNT1H8M2M4L3N4L3O2MPaR8"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part five appears as a flat disc without any protruding features like handles or spouts visible in its current orientation; unlike others which show distinct functional shapes such as curved grips for holding or domes suggesting containment of liquid contents within their respective positions relative to adjacent layers forming cohesive units designed around utility rather than standalone interaction points due",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.4573991331562866,
+                "prob": 0.2772255880246368
+              },
+              {
+                "option": "align",
+                "logprob": -1.7073147700284608,
+                "prob": 0.2159217201043407
+              },
+              {
+                "option": "adjust",
+                "logprob": -2.082395201170584,
+                "prob": 0.14838874772937155
+              },
+              {
+                "option": "stack",
+                "logprob": -2.833071519737132,
+                "prob": 0.07004649146429749
+              },
+              {
+                "option": "cover",
+                "logprob": -2.9572001296910457,
+                "prob": 0.06186970091304253
+              },
+              {
+                "option": "contain",
+                "logprob": -3.207326328731142,
+                "prob": 0.04817809110695673
+              },
+              {
+                "option": "orient",
+                "logprob": -3.6449042567110155,
+                "prob": 0.03110368958717397
+              },
+              {
+                "option": "anchor",
+                "logprob": -3.957272585859755,
+                "prob": 0.022758941911857063
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -4.144735903125337,
+                "prob": 0.018868517680033937
+              },
+              {
+                "option": "balance",
+                "logprob": -4.332667546463199,
+                "prob": 0.015635800027926396
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "contain",
+              "stack",
+              "hold",
+              "support",
+              "place",
+              "insert",
+              "attach",
+              "organize",
+              "balance"
+            ],
+            "n_valid": 9,
+            "invalid": [
+              "Based on the visual analysis of part 5 (the purple ring-like structure in the stack), here is the ranking of its most plausible affordances:",
+              "secure"
+            ],
+            "raw": "Based on the visual analysis of part 5 (the purple ring-like structure in the stack), here is the ranking of its most plausible affordances:\n\n1. contain\n2. stack\n3. hold\n4. support\n5. place\n6. insert\n7. attach\n8. secure\n9. organize\n10. balance"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_22_region_0",
+      "area": 34287,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "jhZf06eo06K5L3L5L3N2N2N1O2N2N2O1O1N2N2O1O1O1O1O2N1O100O2M2eK]NXZOd1ce0fNXZOZ1ge0iNVZOX1he0kNWZOU1he0mNWZOT1de0QO[ZOo0ce0UO[ZOk0be0YO]ZOg0ae0[O_ZOe0]e0@bZO`0Ye0EgZO;Te0KkZO5Pe00P[O0md04R[OLjd08V[OHfd0=Y[OCad0c0_[O]O]d0h0b[OXOYd0m0g[OSOUd0R1j[OnNRd0V1n[OjNmc0\\1R\\OdNgc0c1X\\O^Ndc0g1[\\OYN`c0l1`\\OTN[c0R2d\\OnMWc0X2h\\OhMTc0\\2k\\OdMSc0`2l\\O`MQc0c2o\\O]Mnb0f2R]OZMlb0h2S]OYMkb0j2T]OUMjb0n2V]ORMhb0P3X]OPMfb0R3Y]OoLeb0S3[]OmLcb0U3]]OjLbb0X3]]OiLab0Y3_]OgL`b0Y3a]OgL^b0Z3a]OgL]b0[3c]OdL]b0\\3d]OdL[b0]3d]OdL\\b0[3e]OdL[b0[3f]OfLYb0Y3i]OgLUb0X3m]OiLRb0T3R^OlLna0Q3T^OoLla0P3V^OPMia0m2Z^OTMea0i2_^OWM`a0d2e^O\\M\\a0_2h^ObMWa0^2j^OaMWa0X2o^OiMPa0T2S_OmMm`0l1Y_OUNf`0g1__OXNb`0b1c_O_N\\`0^1h_ObNX`0[1j_OeNW`0W1l_OjNS`0S1P@mNQ`0n0T@ROl?j0W@WOh?g0Z@YOg?c0]@]Oc?`0_@@a?>a@C_?:c@F^?6e@K[?3f@M[?1f@0Z?Of@1Z?0d@2\\?Nc@3]?Mb@3_?M_@5a?K]@6d?KZ@5g?KW@7i?JT@7m?JP@8P`0Jl_O7U`0Kg_O7Y`0Lb_O5_`0M]_O5d`0MV_O5k`0MP_O6Pa0Mk^O4Va0Od^O3]a01\\^O2ea00U^O2la02l]O1Ub01e]O2]b01[]O3eb02R]O1ob03h\\O1Zc07U\\O0lc08e[OO[d0>cZO6_e0T51O2N2N1O2N1O2N2N2N2N1O2N2N2N2N2N2M3N2N2N2M3N2N3L3N2N3L3N3L3M4M2M4L3N3L4L3M5K3M5K4L4L5J5L4L4K5L5J5K7I7I6J6K6I6I8H8H8H9F;E<B?@b0[Om]c3"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "carry",
+          "justification": "Part 6 features a curved handle extending outward for gripping; unlike its flat counterparts which are designed primarily as containers, handles provide leverage needed to lift objects by hand without spilling contents onto surfaces below them due to their elevated placement above ground level where spills would occur if unsupported during transport across uneven terrain requiring stability against gravity-induced",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "carry",
+                "logprob": -1.1766478375066072,
+                "prob": 0.3716919455800063
+              },
+              {
+                "option": "anchor",
+                "logprob": -1.301652127498528,
+                "prob": 0.328015583502776
+              },
+              {
+                "option": "attach",
+                "logprob": -2.051623884733999,
+                "prob": 0.1549479665216746
+              },
+              {
+                "option": "none",
+                "logprob": -3.428745352430269,
+                "prob": 0.03909395662414312
+              },
+              {
+                "option": "hold",
+                "logprob": -3.5863569378852844,
+                "prob": 0.03339333427791804
+              },
+              {
+                "option": "adjust",
+                "logprob": -4.67673220395227,
+                "prob": 0.011223177296146766
+              },
+              {
+                "option": "carve",
+                "logprob": -5.262664690351812,
+                "prob": 0.006246670208148446
+              },
+              {
+                "option": "detach",
+                "logprob": -5.302277554059401,
+                "prob": 0.0060040587050133295
+              },
+              {
+                "option": "align",
+                "logprob": -5.677040771872271,
+                "prob": 0.004127502380531579
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -5.739629324330934,
+                "prob": 0.0038770863123380665
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "hold",
+              "lift",
+              "carry",
+              "serve",
+              "place",
+              "drink",
+              "scoop",
+              "press",
+              "stir",
+              "rotate"
+            ],
+            "n_valid": 10,
+            "invalid": [
+              "Based on the visual analysis of part 6, which is a handle attached to the side of the bowl-like object, its primary function is to allow a user to grasp and manipulate the object."
+            ],
+            "raw": "Based on the visual analysis of part 6, which is a handle attached to the side of the bowl-like object, its primary function is to allow a user to grasp and manipulate the object.\n\n1. hold\n2. lift\n3. carry\n4. serve\n5. place\n6. drink\n7. scoop\n8. press\n9. stir\n10. rotate"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_22_region_1",
+      "area": 24295,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "`ac3410Vo0R1WOf0]O=A`0F9E9H:F:G7K5K6I6J6I7K6J4L5J6L4K4N2M4K5K4K6L3M3L4M3N3L3N2M3L4M3M3N2M3N2M3M3N101N2L4M3N2N1O2N1N3N1O2N2N2N2N1O2N1O2O0O2NbK[ZOcNde0S1oZOfNPe0S1^[OfNad0T1j[OiNTd0Q1X\\OjNgc0R1a\\OlN]c0P1j\\OnNUc0o0Q]OPOnb0n0V]OPOib0m0\\]OROdb0j0b]OTO]b0j0h]OUOWb0f0P^OXOoa0e0W^OYOha0f0[^OZOca0b0c^O]O\\a0a0i^O]OWa0b0j^O_OTa0`0o^O_OQa0>S_OAl`0?V_OAi`0<[_OCd`0<^_ODb`0:a_OE^`0:d_OF\\`08g_OGX`07l_OHT`07n_OIQ`06P@Jo?6R@Jn?5T@Jl?4V@Li?4X@Lh?3Z@Lf?3[@Me?2\\@Nc?2_@Lb?3_@Ma?2`@Ma?3`@Ic?7]@Ge?9[@Eg?;Y@Dh?<Y@Ai??W@@j?`0V@_Ok?b0U@[Om?f0R@YOo?i0P@UOQ`0l0P@ROP`0o0S@lNn?V1T@eNm?]1V@]Nl?d1V@VNl?JaYOg1e6SNQ`0[2i61O3N0O010O0001O001O1O001O1O1O1O1O001N2O1O2N1O2N2N3M1O2N2N3M2N2M5L3L9G;D8J1N2Neb^g0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "carry",
+          "justification": "Part 7 features a distinct loop handle attached at both ends of its rim; unlike flat bowls which are meant for holding food in place by hand alone, handles provide leverage allowing users to lift objects without touching their contents directly\u2014making them ideal tools designed primarily for carrying rather than just containing items like cups do when used as",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "carry",
+                "logprob": -0.3757128399447538,
+                "prob": 0.7534708619857675
+              },
+              {
+                "option": "anchor",
+                "logprob": -2.1257243693398777,
+                "prob": 0.1309320933857316
+              },
+              {
+                "option": "attach",
+                "logprob": -3.3757399799651466,
+                "prob": 0.03751208722625102
+              },
+              {
+                "option": "hold",
+                "logprob": -4.1448143273591995,
+                "prob": 0.01738467132612114
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -4.626191147852239,
+                "prob": 0.01074254514566321
+              },
+              {
+                "option": "carve",
+                "logprob": -4.760332471516449,
+                "prob": 0.009393995565260332
+              },
+              {
+                "option": "none",
+                "logprob": -4.81632740306668,
+                "prob": 0.008882435469398384
+              },
+              {
+                "option": "swing",
+                "logprob": -5.063481377670541,
+                "prob": 0.006937363542769861
+              },
+              {
+                "option": "adjust",
+                "logprob": -5.751164353103377,
+                "prob": 0.0034876872376996726
+              },
+              {
+                "option": "dangle",
+                "logprob": -5.877693931281101,
+                "prob": 0.0030731689354725096
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "hold",
+              "lift",
+              "carry",
+              "pull",
+              "drag",
+              "shake",
+              "balance",
+              "support"
+            ],
+            "n_valid": 8,
+            "invalid": [
+              "Based on the visual analysis of part 7 (the purple handle on the left side of the object):",
+              "grasp",
+              "grip",
+              "(Note: \"hold\", \"lift\", and \"carry\" are the most direct functions of a handle. \"Grasp\" and \"grip\" are the physical actions required to perform those functions. \"Pull\" and \"drag\" are common actions performed using a handle. \"Shake\" is a common motion for a handle. \"Balance\" and \"support\" are structural roles a handle provides to the object.)",
+              "Since the list provided in the prompt is very specific and limited, I will select the 10 most plausible options from that specific list, prioritizing the most obvious functions of a handle.",
+              "4"
+            ],
+            "raw": "Based on the visual analysis of part 7 (the purple handle on the left side of the object):\n\n1. hold\n2. lift\n3. carry\n4. grasp\n5. grip\n6. pull\n7. drag\n8. shake\n9. balance\n10. support\n\n(Note: \"hold\", \"lift\", and \"carry\" are the most direct functions of a handle. \"Grasp\" and \"grip\" are the physical actions required to perform those functions. \"Pull\" and \"drag\" are common actions performed using a handle. \"Shake\" is a common motion for a handle. \"Balance\" and \"support\" are structural roles a handle provides to the object.)\n\nSince the list provided in the prompt is very specific and limited, I will select the 10 most plausible options from that specific list, prioritizing the most obvious functions of a handle.\n\n1. hold\n2. lift\n3. carry\n4"
+          }
+        }
+      }
+    }
+  ],
+  "generation_option_order": "shuffled_per_part"
+}

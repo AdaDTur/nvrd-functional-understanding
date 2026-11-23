@@ -1,0 +1,911 @@
+{
+  "object": "shape_1",
+  "model": "Qwen/Qwen3.5-4B",
+  "image_path": "/shared/nas/data/m1/adadt2/nvrd/regions_test/data/novel/shape_1.png",
+  "region_source": "sam_slic",
+  "method": "per_part_with_comparative_context",
+  "top_k": 10,
+  "modes": [
+    "logprob",
+    "generation"
+  ],
+  "regions": [
+    {
+      "region_id": "shape_1_region_16",
+      "area": 104043,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "S^b94jn0e1XQOcNfm0P2\\ROkM^l07fSOP2ImM6O`k0^4bTO]K[j0Y6_UOPJ6GVh0]8dWOkG8?Xe0c9^ZOfEVe0f:nZO]E^d0];F5K5H:I7J3J6M4K5J5K6K4K5L4L4L4K5L4M2N3L4LgBP_Oh;l`0UD\\_Oj;a`0SDe_Ol;Y`0RDk_Oo;R`0PDP@Q<m?nCV@S<g?mC[@U<a?kCa@W<\\?gCf@[<X?dCj@]<T?bCm@`<P?`CQAb<m>^CRAe<k>[CVAg<h>XCYAk<d>UC[Ao<b>PC_AR=_>mBaAV=]>jBcAX=Z>iBfAZ=W>eBiA^=U>bBjAa=U>^BkAd=R>]BmAf=P>ZBPBh=o=XBQBj=m=VBRBm=l=SBSBP>k=PBTBS>k=lAUBV>i=jAVBY>g=hAYB[>c=fA\\B]>b=dA\\B^>d=aA[Bb>c=^A\\Be>b=[A^Bg>a=XA^Bk>`=VA^Bb0]Oc<R>lB`B?Dd<j=nB`B;Me<b=PC`B;2d<\\=RCaB95e<Y=RCaB8:f<T=RC`B8?f<o<RCaB8b0f<m<RC_B8f0g<i<RC_B7j0h<e<RC_B6n0i<a<SC^B4S1j<^<RC]B4W1k<Z<SC]B1[1l<W<UCZB1_1l<U<]DmCc;R<]DnCd;R<ZDoCh;o;XDQDj;n;TDSDn;k;RDUDo;k;oCVDS<h;mCXDT<h;jCYDX<e;hC[DY<d;gC\\D[<c;cC]D`<a;`C_Da<`;_C_Dd<`;[C`Df<_;ZCaDh<^;WCaDk<^;UCaDn<^;QCaDQ=_;nBaDT=];lBbDV=^;jB`DX=`;gB_D\\=_;eB`D\\=`;cB_D_=`;]ATC5Z1a>`;XAZC6T1e>a;SA^C6o0j>b;o@bC6k0m>b;l@dC7h0o>d;i@eC8e0c0YOa<[<dBhC7c0b0@a<U<dBjC9?a0G`<P<eBkC:<b0K_<l;eBnC;8`02_<h;eBoC<4a08]<d;gBoC=2?=^<a;eBQD?L`0e0\\<];dBSDa0G`0k0[<[;cBSDa2c0m:Y;bBTD^2f0P;U;bBUD^2h0o:S;bBVD]2h0S;P;`BXD]2i0S;o:`BXD[2k0U;m:_BXD\\2l0V;j:_BYDZ2o0W;h:^BZDZ2n0Y;h:]BYDY2P1\\;e:[B[DY2Q1T7aNUJS<^LZDX2S1d6BVJP;nL\\DW2S1^61TJ`:WM[DV2U1X6`0TJo9]M\\DW2V1R6k0TJb9dM\\DV2W1n5T1TJY9hM\\DU2W1k5]1TJP9kM\\DV2W1g5e1UJh8nM[DU2Z1f5i1SJa8SN[DT2Z1c5Q2TJZ8TN[DU2Z1`5W2VJS8UN\\DT2Z1^5`2TJj7ZN[DU2Z1[5f2TJd7]N[DT2Z1Z5l2TJ^7^N[DS2\\1X5R3TJW7aNZDS2]1V5W3TJR7cNZDa0D`0i1U6]3UJl6eNYD?L>a1W6c3UJf6hNYD=0=^1W6i3TJ`6kNXD=3;\\1V6n3VJ[6mNVD<6:[1U6S4VJV6oNUD;:9W1U6Z4VJP6RORD;>7V1U6^4UJk5VOPD:b06T1S6d4VJe55dDAS1R6h4WJb54dDBQ1S6l4VJ_54eDCo0Q6R5VJ[54eDDn0o5X5XJT54fDEm0o5\\5WJP55hDEk0m5a5XJk46jDDj0l5f5YJe46lDEg0l5k5XJa48lDDh0j5o5YJ^47lDFe0i5U6YJZ47lDHc0h5[6WJW48kDIa0g5a6WJS48kDK?f5g6UJm3<lDJ?c5k6WJi3<nDJ<b5Q7WJe3<nDL:`5X7VJ_3?oDL7_5^7UJ\\3?oDN4_5d7TJX3?PEO1]5k7TJT3?PE2N[5Q8TJP3?PE4KY5Y8SJl2`0oD6GX5b8QJh2`0PE:@V5k8oId2b0PEV7a8VH_2d0oDU7d8WH]2c0oDU7g8WHZ2d0oDS7i8YHX2d0nDP7o8[HS2e0mDo6S9[HP2f0lDm6X9\\Hl1f0lDl6[9^Hi1f0kDj6`9^Hg1g0hDj6d9^Hd1h0gDi6h9_Ha1h0eDh6m9_Ha1f0aDj6Q:_H^1g0_Dj6U:_HY1k0`De6Z:_HU1m0`Db6^:aHR1o0\\D`6e:_Ho0m8SOSGm0j8WOTGj0j8W;O1N2N3L3N3M3M6J3M3N5J4M3M3M4K6I6L3L8I5J7I6K6J8G6K6I6J7J5J6J6K5J7J4L1N2N2O00001N100O100O10000O1O2O00000O1000001N100O1000001O001O00001N101O00000O2O001O00001O0O2O001O00001O001O001N10100O001O001O00100O001O001O1O001O1O00100O1O001O101N1O2N2N2N2N2O1N4M2M2O1N3M4L3M2O3M3L3N2M3N3L3M3N2M4M3L5L3L^eg;"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "align",
+          "justification": "Part 1\u2019s smooth, elongated surface positioned centrally within the ring structure suggests its function as a guide for rotational alignment rather than grip or structural support like the surrounding bands imply",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "align",
+                "logprob": -1.1001255336159375,
+                "prob": 0.38266973593112363
+              },
+              {
+                "option": "orient",
+                "logprob": -2.350151516031474,
+                "prob": 0.10963386636780988
+              },
+              {
+                "option": "anchor",
+                "logprob": -2.475266521825688,
+                "prob": 0.09674042113921492
+              },
+              {
+                "option": "none",
+                "logprob": -2.4753537505457643,
+                "prob": 0.09673198296413027
+              },
+              {
+                "option": "balance",
+                "logprob": -2.975311805435922,
+                "prob": 0.058673374452067335
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -3.1002775148458284,
+                "prob": 0.05178084678348454
+              },
+              {
+                "option": "rotate",
+                "logprob": -3.3501148067443864,
+                "prob": 0.040333526080666794
+              },
+              {
+                "option": "adjust",
+                "logprob": -3.600284993008245,
+                "prob": 0.031406436296755956
+              },
+              {
+                "option": "control",
+                "logprob": -3.7880781031562947,
+                "prob": 0.026029219641625023
+              },
+              {
+                "option": "support",
+                "logprob": -4.475466707604937,
+                "prob": 0.013089771646867998
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "support",
+              "contain",
+              "hold",
+              "carry",
+              "move",
+              "balance",
+              "stand",
+              "rest",
+              "organize",
+              "store_fuel"
+            ],
+            "n_valid": 10,
+            "invalid": [
+              "Based on the visual analysis of part 1 (the large blue central component), which appears to be a main body or chassis of a mechanical device (possibly a vehicle or complex machine) situated within a larger ring structure:"
+            ],
+            "raw": "Based on the visual analysis of part 1 (the large blue central component), which appears to be a main body or chassis of a mechanical device (possibly a vehicle or complex machine) situated within a larger ring structure:\n\n1. support\n2. contain\n3. hold\n4. carry\n5. move\n6. balance\n7. stand\n8. rest\n9. organize\n10. store_fuel"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_1_region_0",
+      "area": 45321,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "Qgg?c0So0c0@a0_O<F8I8G8K4J6H:G7L4J6J6K4L5K5K5L3L4K5M4M2K5K5M3L4M3L4M3M3M3L4L4M3K4O2M3L4N1M4M2N3M2N3L3O2N1M4M2M4N1M4N1N3M2M4N1O1M3O2M2O2L3N2N3M2M3O1O1M3O1O1O2M2M3N2N2O0O2O0O00101N2O1N1O2O1N101N1N3O001N2O1N2N1O2O1O1M201O01O01O0N2010O01M2N20000O101O0O10000O101O0O10001O01OO1O1001O0OO11O2O0O2M2O0O2O1M4N1N1N3O2K4O2L3M3L4M3K6L3J7H7K7F9I8E`0iGVXOW20YN0F;9FF0O20;Mfj01ZUO1AM<0V_U;"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "anchor",
+          "justification": "Part two\u2019s solid brown oval form provides stability by acting as a base for surrounding elements like three green curved segments; its distinct size contrasts smaller components such as eight gray circles while maintaining structural integrity within larger blue sections labeled nine through ten alongside red ring four seven five purple six respectively ensuring balanced assembly without compromising overall design coherence despite",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "anchor",
+                "logprob": -1.707819051516708,
+                "prob": 0.24452126678948494
+              },
+              {
+                "option": "none",
+                "logprob": -1.7080425905878656,
+                "prob": 0.2444666128415025
+              },
+              {
+                "option": "orient",
+                "logprob": -2.895285087317461,
+                "prob": 0.07457730586965408
+              },
+              {
+                "option": "align",
+                "logprob": -3.1453247716999613,
+                "prob": 0.05807855935314474
+              },
+              {
+                "option": "rotate",
+                "logprob": -3.207671984186163,
+                "prob": 0.054568094012261745
+              },
+              {
+                "option": "balance",
+                "logprob": -3.2703696977405343,
+                "prob": 0.05125184614148378
+              },
+              {
+                "option": "block",
+                "logprob": -3.8327172746503493,
+                "prob": 0.02920687312976491
+              },
+              {
+                "option": "bake",
+                "logprob": -3.9282914680370595,
+                "prob": 0.02654469376034174
+              },
+              {
+                "option": "contain",
+                "logprob": -4.020257080934243,
+                "prob": 0.024212384451343605
+              },
+              {
+                "option": "brown",
+                "logprob": -4.395171030715574,
+                "prob": 0.016642344263123197
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "hold",
+              "contain",
+              "store_fuel",
+              "deposit",
+              "fill",
+              "carry",
+              "support",
+              "balance"
+            ],
+            "n_valid": 8,
+            "invalid": [
+              "Based on the visual analysis of part 2 (the large orange section within the ring structure), here is the ranking of its most plausible affordances:",
+              "**transport**",
+              "**stabilize**"
+            ],
+            "raw": "Based on the visual analysis of part 2 (the large orange section within the ring structure), here is the ranking of its most plausible affordances:\n\n1. **hold**\n2. **contain**\n3. **store_fuel**\n4. **deposit**\n5. **fill**\n6. **carry**\n7. **transport**\n8. **support**\n9. **balance**\n10. **stabilize**"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_1_region_11",
+      "area": 39155,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "[fh=Q1dn0e0^Oa0C9F9F:F;H7I5H9J7H6K6I7J5K5K5K5I7L4K5K5K4L4M4J6K4M4K4L4L4L4M4L3K5M3M3L4K6L3M3L4M3M3L4M3L4M3M3M3K4N3M2M4L4M3L4M2N3M3M2M4M2NTL][O`L_d0Y3T\\O^Ljc0]3g\\OZLWc0^3W]O^Lgb0^3a]O_L]b0`3j]O]LRb0`3W^O]Lga0a3`^O]L]a0a3j^O\\LTa0d3P_OZLn`0c3Y_O[Lf`0b3`_O\\L^`0a3i_O]LU`0d3n_O[Lo?d3U@[Lj?a3]@^La?a3c@]L[?b3j@]LR?c3RA\\Ll>b3YA]Lf>a3^A^La>a3cA^LZ>b3jA\\LT>b3QB]Ln=b3TB_Li=`3[B_Ld=_3`BaL]=`3eB_LZ=`3iB_LU=_3PC`Lo<_3TCaLi<^3[CaLd<^3_CaL_<^3eCaLZ<^3iCaLU<^3nCcLP<\\3SDcLl;\\3WDcLg;\\3]DcLa;]3aDcL];]3fDbLY;]3iDdLU;[3nDdLQ;[3SEcLl:\\3VEdLh:]3YEcLe:]3^EbLa:\\3bEeL\\:Z3fEfLX:[3jEdLU:Z3nEfLP:Z3SFeLl9[3UFeLj9Z3YFeLf9Z3\\FfLc9Y3`FfL^9Z3dFfL[9Y3gFgLW9Y3lFfLS9Y3oFgLP9X3RGhLm8W3VGhLi8X3XGhLg8V3\\GjLb8V3aGiL^8V3dGjL[8U3gGkLX8U3iGkLV8T3lGlLS8S3PHlLn7U3SHkLl7T3VHlLi7S3YHmLf7R3\\HmLc7S3_HmL`7S3aHmL^7R3dHnL[7Q3gHoLX7P3jHPMU7P3lHPMS7P3mHQMR7m2QIRMo6m2RITMm6l2TISMl6m2UISMi6m2ZIQMf6n2\\IRMc6m2_IRMb6m2]ITMb6l2_ITMa6j2bIVM]6i2dIWM\\6i2eIUM\\6k2eIUMZ6k2gITMY6k2hIUMY6i2iIVMW6j2jIUMV6j2lIVMS6j2nIUMR6j2PJUMP6j2RJTMo5l2SJRMm5n2SJRMm5m2UJRMk5m2WJRMi5m2YJRMh5m2YJRMg5n2ZJoLh5Q3YJnLg5Q3[JoLd5Q3^JmLb5R3`JmL`5R3cJlL]5T3h;O000O10001O000O1O2O001O00001N1O110O001O001O1N1O2O10O01O1O1N2O1O2O0O2N2O3L5K5J7I6L4K6K3L8H7F>CZcV;"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "align",
+          "justification": "Part 3\u2019s smooth, curved surface fits snugly against adjacent components like part 2 and the central blue section, suggesting its role in guiding precise positioning rather than providing grip or structural support seen elsewhere; unlike rigid bands such as those at positions four through seven which offer lateral stability, three appears designed for rotational alignment within",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "align",
+                "logprob": -0.7435579685552511,
+                "prob": 0.531319067072609
+              },
+              {
+                "option": "blend",
+                "logprob": -1.7436204790719785,
+                "prob": 0.19544914346957826
+              },
+              {
+                "option": "orient",
+                "logprob": -2.993678993458161,
+                "prob": 0.05599384060517519
+              },
+              {
+                "option": "balance",
+                "logprob": -3.2437299971061293,
+                "prob": 0.04360582279773207
+              },
+              {
+                "option": "roll",
+                "logprob": -3.4936210749438033,
+                "prob": 0.033963948166554625
+              },
+              {
+                "option": "none",
+                "logprob": -4.306966042611748,
+                "prob": 0.015058681162697044
+              },
+              {
+                "option": "anchor",
+                "logprob": -4.431244773353683,
+                "prob": 0.01329882806054874
+              },
+              {
+                "option": "rotate",
+                "logprob": -4.493623935210053,
+                "prob": 0.01249460253354691
+              },
+              {
+                "option": "bend",
+                "logprob": -4.831293573275616,
+                "prob": 0.008914036022890799
+              },
+              {
+                "option": "adjust",
+                "logprob": -4.931629356229678,
+                "prob": 0.00806304545140579
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "hold",
+              "contain",
+              "clip",
+              "decorate",
+              "wear",
+              "press",
+              "support",
+              "align"
+            ],
+            "n_valid": 8,
+            "invalid": [
+              "Based on the visual analysis of part 3 (the green curved band):",
+              "grasp",
+              "secure"
+            ],
+            "raw": "Based on the visual analysis of part 3 (the green curved band):\n\n1. hold\n2. contain\n3. clip\n4. decorate\n5. wear\n6. press\n7. grasp\n8. support\n9. align\n10. secure"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_1_region_10",
+      "area": 25022,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "h`^65So0\\1QOh0XOe0^O`0C<D<C:H9G:E9H9H6I8I6I7J7H8I7I6J6K5J5L5K5K5J5K6L2M5K4L4L4L5K4L4M3L4M3L4M3L4L4M3M2M4M2M4M3L4M_Ib\\Oc0[c0WOY]O?db0]Oi]O=Tb0_OW^O<fa0@e^O=Xa0^OS_O?j`0_O^_O=``0@i_O<T`0BS@<k?A^@<_?Bg@<W?Cm@<Q?AWA=f>A_A>_>@gA?V>@oA>n=AXB=f=A_B?^=@fB?X=@lB?S=_ORC?l<@XC?f<_O^Ca0`<_OcC`0Z<@jC`0S<_OQD`0m;_OWD`0h;^O\\Da0b;_OaD`0\\;@gD`0W;_OmD`0Q;@QEa0l:^OXEa0f:_O]E?c:_OaEa0\\:_OfEa0X:_OkE?U:_OnEa0P:_ORFa0l9_OVFa0h9_O[F`0c9_OaF`0]9@eF`0Z9_OhF`0W9@kF`0T9_OoF`0P9_ORG`0m8ATG?k8@WG?h8@]G>b8_OcG?]8_OgG?X8@lG?S8]OVH>i7^OjH4V7HVI1h6KeIM[60mILR60VJLi51`JK_53gJIX55nJHR55TKIk44[KJd44aKJ]44kKGU46PLIo35ULJj34ZLJf33^LM`32dLL\\32hLMW31mLMR31SMNl20YMMh20\\MOc2NbMO`2MeM1Va0N^W`e0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "anchor",
+          "justification": "Part four features a thickened base designed for stability while its curved top allows secure attachment without obstructing movement; unlike surrounding components which are primarily functional surfaces rather than structural supports",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "anchor",
+                "logprob": -1.1276887356943917,
+                "prob": 0.394991132834453
+              },
+              {
+                "option": "none",
+                "logprob": -2.2532709997030906,
+                "prob": 0.12816020105756953
+              },
+              {
+                "option": "align",
+                "logprob": -2.6276844452077057,
+                "prob": 0.08813481286699118
+              },
+              {
+                "option": "adjust",
+                "logprob": -2.6277471322682686,
+                "prob": 0.08812928812780593
+              },
+              {
+                "option": "rotate",
+                "logprob": -3.377621039064252,
+                "prob": 0.041634577534760076
+              },
+              {
+                "option": "ring",
+                "logprob": -3.441339592100121,
+                "prob": 0.03906443490051442
+              },
+              {
+                "option": "wedge",
+                "logprob": -3.443166374010616,
+                "prob": 0.038993137839412516
+              },
+              {
+                "option": "attach",
+                "logprob": -3.8778397255809978,
+                "prob": 0.025247125969228092
+              },
+              {
+                "option": "orient",
+                "logprob": -4.315216265880736,
+                "prob": 0.016302782290945745
+              },
+              {
+                "option": "wear",
+                "logprob": -4.31521888775751,
+                "prob": 0.016302739547115534
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "hold",
+              "wear",
+              "carry",
+              "support",
+              "anchor",
+              "balance",
+              "rotate"
+            ],
+            "n_valid": 7,
+            "invalid": [
+              "Based on the visual analysis of part 4 (the red ring-like structure on the left side of the object), here is the ranking of its most plausible affordances:",
+              "grasp",
+              "grip",
+              "turn"
+            ],
+            "raw": "Based on the visual analysis of part 4 (the red ring-like structure on the left side of the object), here is the ranking of its most plausible affordances:\n\n1. hold\n2. wear\n3. carry\n4. grasp\n5. grip\n6. support\n7. anchor\n8. balance\n9. rotate\n10. turn"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_1_region_9",
+      "area": 19159,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "^ggf07do06G8K6F8K6C<B>YOQNmRO`2\\l0l0J7H8M2O2N1^GSLREo3n:YLhDi3Y;[L[_OGT2S4a>\\Lo^OJY2m3j>_Lb^OL^2g3R?`LR^O6f2[3Z?gL^]O<P3o2e?[OR@i0o?\\Oh_Og0Z`0_OV_Oh0m`0\\Oi^Og0Za0]O\\^Of0ga0@k]Of0Wb0GP]Oa0Tc0T61N3N2N3K4M3N2M3L4M3N3L3L4M4L4K4M4L3M3M4K5L4L3L5L4L4L4J6L4L4K6K4J6K5L5J5L6I5J8H7J6I7I9G8H8G9F:H9E;C>D<C`0^Oe0VOU1eNh`d6"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "decorate",
+          "justification": "Part 5\u2019s smooth, curved surface positioned at the side suggests its role as purely ornamental rather than functional like the central components designed for grip or structural support; unlike others which interact directly through texture or form, it serves primarily aesthetic enhancement without tactile utility",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "decorate",
+                "logprob": -1.4786830404482316,
+                "prob": 0.27329930552129317
+              },
+              {
+                "option": "align",
+                "logprob": -1.7285195346776163,
+                "prob": 0.21288051750048376
+              },
+              {
+                "option": "none",
+                "logprob": -1.9788138734875247,
+                "prob": 0.1657427220341756
+              },
+              {
+                "option": "rotate",
+                "logprob": -3.2909952210320625,
+                "prob": 0.04462326551179158
+              },
+              {
+                "option": "anchor",
+                "logprob": -3.2910712587763555,
+                "prob": 0.04461987258833583
+              },
+              {
+                "option": "orient",
+                "logprob": -3.416070186183788,
+                "prob": 0.03937694158831789
+              },
+              {
+                "option": "adjust",
+                "logprob": -3.6036693365313113,
+                "prob": 0.032641394595535854
+              },
+              {
+                "option": "balance",
+                "logprob": -3.7286686215375084,
+                "prob": 0.028805950222670473
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -4.041325142136856,
+                "prob": 0.02107158499432554
+              },
+              {
+                "option": "ring",
+                "logprob": -4.167955099372193,
+                "prob": 0.018565323132060742
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "hold",
+              "carry",
+              "lift",
+              "pull",
+              "push",
+              "move",
+              "rotate"
+            ],
+            "n_valid": 7,
+            "invalid": [
+              "Based on the visual analysis of part 5, which appears to be a purple, curved handle or grip attached to the side of the object (likely a container or vessel), its primary function is to be grasped and manipulated.",
+              "grasp",
+              "turn",
+              "tilt"
+            ],
+            "raw": "Based on the visual analysis of part 5, which appears to be a purple, curved handle or grip attached to the side of the object (likely a container or vessel), its primary function is to be grasped and manipulated.\n\n1. hold\n2. carry\n3. lift\n4. grasp\n5. pull\n6. push\n7. move\n8. rotate\n9. turn\n10. tilt"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_1_region_13",
+      "area": 6087,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "SWQ`03lo02O3L6K3M2N3M4L3M2N6J4L5K4L5K7I4L5K4L5K4L4L4M3L5K1O001O0000O101N1O1O1O1O2N1O1O1O100O2N1O1O1O2O0O2N1O2fM_ROR2bm0nM^ROQ2dm0mM]ROS2em02010O00100O2O0O2N2N101N100O2N101N101N101N1O2O1N3N0O2O8G100O100O100O2O001O1N2O2M3N3L3N3L2O001O001N3N1N2N\\gd<"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "align",
+          "justification": "Part 6\u2019s flat, rectangular top surface provides a stable platform for positioning components within its recessed cavity, distinguishing itself as a structural guide rather than a functional connector like the surrounding curved bands",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "align",
+                "logprob": -1.4250453359272797,
+                "prob": 0.2828869334135162
+              },
+              {
+                "option": "none",
+                "logprob": -1.4252212267310824,
+                "prob": 0.2828371805790741
+              },
+              {
+                "option": "orient",
+                "logprob": -1.8000716738461051,
+                "prob": 0.19442003575861166
+              },
+              {
+                "option": "anchor",
+                "logprob": -3.175054631778039,
+                "prob": 0.04915792100304897
+              },
+              {
+                "option": "adjust",
+                "logprob": -3.5503383509931155,
+                "prob": 0.03377612777702771
+              },
+              {
+                "option": "rotate",
+                "logprob": -3.6125299619161524,
+                "prob": 0.03173952225784945
+              },
+              {
+                "option": "balance",
+                "logprob": -3.862624824309023,
+                "prob": 0.02471642001876577
+              },
+              {
+                "option": "decorate",
+                "logprob": -4.425341448688414,
+                "prob": 0.014079941226615846
+              },
+              {
+                "option": "block",
+                "logprob": -5.112554989289492,
+                "prob": 0.007081867441670243
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -5.112831395069378,
+                "prob": 0.007079910243079943
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "cover",
+              "close",
+              "seal",
+              "contain",
+              "plug",
+              "block"
+            ],
+            "n_valid": 6,
+            "invalid": [
+              "Based on the visual analysis of part 6, which appears to be a small, brown, textured cap or lid situated at the top of the object (likely a container or vessel), its primary function is to cover the opening.",
+              "retain",
+              "protect",
+              "hide",
+              "stop"
+            ],
+            "raw": "Based on the visual analysis of part 6, which appears to be a small, brown, textured cap or lid situated at the top of the object (likely a container or vessel), its primary function is to cover the opening.\n\n1. cover\n2. close\n3. seal\n4. contain\n5. plug\n6. retain\n7. protect\n8. hide\n9. block\n10. stop"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_1_region_15",
+      "area": 3892,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "o\\T9W2gm0W2]ROgKSk0Y6YNb1_N5K3M3M2M3N3N2M3O0O01fG^ZOIaNm5oj0dN[1[KoSOg2en0oMa[Yf0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "anchor",
+          "justification": "Part seven features a thickened base designed for stability while its elongated form allows flexibility without compromising structural integrity when attached at multiple points along the ring\u2019s circumference",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "anchor",
+                "logprob": -1.1342243951075943,
+                "prob": 0.38243121682891074
+              },
+              {
+                "option": "align",
+                "logprob": -2.009195909340633,
+                "prob": 0.15942559073095305
+              },
+              {
+                "option": "adjust",
+                "logprob": -2.384263368046959,
+                "prob": 0.10956410797201685
+              },
+              {
+                "option": "none",
+                "logprob": -2.509487045725109,
+                "prob": 0.09666836094680017
+              },
+              {
+                "option": "orient",
+                "logprob": -3.44673142702959,
+                "prob": 0.03786555197441194
+              },
+              {
+                "option": "rotate",
+                "logprob": -3.5091650389076676,
+                "prob": 0.03557375575184742
+              },
+              {
+                "option": "attach",
+                "logprob": -3.884310920111602,
+                "prob": 0.024445894477922548
+              },
+              {
+                "option": "ring",
+                "logprob": -3.947665280313231,
+                "prob": 0.022945180778854813
+              },
+              {
+                "option": "wedge",
+                "logprob": -4.262392587697832,
+                "prob": 0.016749704548532973
+              },
+              {
+                "option": "clip",
+                "logprob": -4.571979062224273,
+                "prob": 0.012290101037950259
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "hold",
+              "carry",
+              "support",
+              "contain"
+            ],
+            "n_valid": 4,
+            "invalid": [
+              "Based on the visual analysis of part 7 (the red ring-like structure on the left side of the object), here is the ranking of its most plausible affordances:",
+              "grasp",
+              "secure",
+              "grip",
+              "clutch",
+              "clutch"
+            ],
+            "raw": "Based on the visual analysis of part 7 (the red ring-like structure on the left side of the object), here is the ranking of its most plausible affordances:\n\n1. hold\n2. carry\n3. grasp\n4. support\n5. contain\n6. secure\n7. grip\n8. clutch\n9. clutch\n10. hold"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_1_region_3",
+      "area": 3035,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "\\\\S=;ao05K6L3N2L4M3M2N3M2N2N2O1N2O1N2O0O2O0O2O0O101N101O0000000O10O2O000000000000000O101O0O10001O0O101O001N1O2O1N2N2N2N2N2O2M2M4M3M3L5J7Icej`0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "align",
+          "justification": "Part 8 appears as a smooth, rounded segment positioned adjacent to others in close proximity without gaps; its form suggests interlocking capability rather than independent movement like rings or protrusions seen elsewhere",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "align",
+                "logprob": -1.4290017603198066,
+                "prob": 0.2902286632376538
+              },
+              {
+                "option": "none",
+                "logprob": -1.9295359867392108,
+                "prob": 0.17593856643994835
+              },
+              {
+                "option": "adjust",
+                "logprob": -2.4291616768750828,
+                "prob": 0.10675208565292207
+              },
+              {
+                "option": "anchor",
+                "logprob": -2.6790301229339093,
+                "prob": 0.08314954583198263
+              },
+              {
+                "option": "orient",
+                "logprob": -3.1790596764185466,
+                "prob": 0.050431258446832765
+              },
+              {
+                "option": "button",
+                "logprob": -3.1795559967285953,
+                "prob": 0.050406234599439825
+              },
+              {
+                "option": "aim",
+                "logprob": -3.5541341520729475,
+                "prob": 0.03465828195209543
+              },
+              {
+                "option": "detect",
+                "logprob": -3.6805370709626004,
+                "prob": 0.030542947123071998
+              },
+              {
+                "option": "label",
+                "logprob": -3.804195396718569,
+                "prob": 0.02699024406564844
+              },
+              {
+                "option": "click",
+                "logprob": -3.929439861269202,
+                "prob": 0.023812984645721662
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "label",
+              "decorate",
+              "display",
+              "conceal",
+              "indicate"
+            ],
+            "n_valid": 5,
+            "invalid": [
+              "Based on the visual analysis of part 8 (a grey oval shape located near the top of the blue sphere, adjacent to other small colored shapes), here is the ranking of its most plausible affordances:",
+              "**mark** (not in list, but \"label\" is the closest functional equivalent)",
+              "**identify** (not in list)",
+              "**signify** (not in list)",
+              "**point** (not in list)",
+              "**highlight** (not in list)",
+              "Since \"mark\", \"identify\", \"signify\", \"point\", and \"highlight\" are not in the provided list, the next most plausible options from the list that relate to marking or identifying are:"
+            ],
+            "raw": "Based on the visual analysis of part 8 (a grey oval shape located near the top of the blue sphere, adjacent to other small colored shapes), here is the ranking of its most plausible affordances:\n\n1. **label**\n2. **decorate**\n3. **display**\n4. **conceal**\n5. **mark** (not in list, but \"label\" is the closest functional equivalent)\n6. **identify** (not in list)\n7. **signify** (not in list)\n8. **indicate**\n9. **point** (not in list)\n10. **highlight** (not in list)\n\nSince \"mark\", \"identify\", \"signify\", \"point\", and \"highlight\" are not in the provided list, the next most plausible options from the list that relate to marking or identifying are:\n\n1. **label**\n2. **decorate**\n3. **display"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_1_region_1",
+      "area": 2342,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "d[f;;ao06I7L3M3L4M2N3M2N2N2N2N2N2O0O2O0O100O100O100O10000O0100O10000O1O1O100O2N1O2O0O2N2N1N3O1N2N1O2N2N3M2M4M3K5L[fcb0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "none",
+          "justification": "Part 9 appears as a small, isolated oval indentation without any protruding features or functional surface area like buttons, levers, or handles found in adjacent components such as those labeled 8 or 6; its recessed nature suggests no interactive purpose beyond structural integration into the main body\u2019s design",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "none",
+                "logprob": -1.901667703059502,
+                "prob": 0.19029569865107135
+              },
+              {
+                "option": "align",
+                "logprob": -2.0262929843447637,
+                "prob": 0.1679983049504577
+              },
+              {
+                "option": "adjust",
+                "logprob": -2.026391532883281,
+                "prob": 0.16798174977878882
+              },
+              {
+                "option": "button",
+                "logprob": -2.5265855033067055,
+                "prob": 0.10186632054322295
+              },
+              {
+                "option": "label",
+                "logprob": -3.0888408894534223,
+                "prob": 0.05805587939965656
+              },
+              {
+                "option": "click",
+                "logprob": -3.3390059180674143,
+                "prob": 0.04520650335613843
+              },
+              {
+                "option": "aim",
+                "logprob": -3.7764639783417806,
+                "prob": 0.029188736418775067
+              },
+              {
+                "option": "clip",
+                "logprob": -3.8392596634221263,
+                "prob": 0.027412173709594236
+              },
+              {
+                "option": "assist_breathing",
+                "logprob": -3.9640833265311244,
+                "prob": 0.024195424561618845
+              },
+              {
+                "option": "detect",
+                "logprob": -3.9647181478794664,
+                "prob": 0.024180069663899035
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [],
+            "n_valid": 0,
+            "invalid": [
+              "Based on the visual analysis of part 9 (a small, yellowish oval shape located on the upper surface of the blue object, near other similar small shapes like 8 and 10), here is the ranking of its most plausible affordances.",
+              "Part 9 appears to be a small, flat, possibly textured or button-like element on the surface of a larger object. It does not have the shape or context to be a tool for cooking, moving, or physical manipulation like \"kick\" or \"hit\". Its position suggests it is part of the interface or surface of the device.",
+              "**button** - Small, flat elements on a device surface are most commonly buttons.",
+              "**input** - Buttons are used to input commands or data.",
+              "**click** - The action associated with pressing a button.",
+              "**decorate** - Small colored shapes can serve a decorative purpose on a model or device.",
+              "**label** - It"
+            ],
+            "raw": "Based on the visual analysis of part 9 (a small, yellowish oval shape located on the upper surface of the blue object, near other similar small shapes like 8 and 10), here is the ranking of its most plausible affordances.\n\nPart 9 appears to be a small, flat, possibly textured or button-like element on the surface of a larger object. It does not have the shape or context to be a tool for cooking, moving, or physical manipulation like \"kick\" or \"hit\". Its position suggests it is part of the interface or surface of the device.\n\n1. **button** - Small, flat elements on a device surface are most commonly buttons.\n2. **input** - Buttons are used to input commands or data.\n3. **click** - The action associated with pressing a button.\n4. **decorate** - Small colored shapes can serve a decorative purpose on a model or device.\n5. **label** - It"
+          }
+        }
+      }
+    },
+    {
+      "region_id": "shape_1_region_6",
+      "area": 1709,
+      "segmentation": {
+        "size": [
+          1024,
+          1024
+        ],
+        "counts": "V[`::ao08I5L4M2M4M2N2M2O2N1O10O01O10O01O01000O01O100O00100O1O1O100O100O2N1O1O100O2N1O2N1O2O0O2N1O2N2N2N3M2N3N2Lkfjc0"
+      },
+      "vocabularies": {
+        "synthia_filtered": {
+          "label": "align",
+          "justification": "Part 1 appears as small circular indentations positioned symmetrically along its curved surface, suggesting they are designed for precise alignment rather than gripping; unlike larger protrusions like those at positions two through five which imply holding functions due to their size and texture differences",
+          "logprob": {
+            "ranked": [
+              {
+                "option": "align",
+                "logprob": -1.9601669507974293,
+                "prob": 0.17432174942360457
+              },
+              {
+                "option": "label",
+                "logprob": -2.085048025881406,
+                "prob": 0.15385670022664816
+              },
+              {
+                "option": "none",
+                "logprob": -2.2103823617799208,
+                "prob": 0.13573267349957321
+              },
+              {
+                "option": "adjust",
+                "logprob": -2.585248331015464,
+                "prob": 0.09330011552570433
+              },
+              {
+                "option": "button",
+                "logprob": -2.5853960616514087,
+                "prob": 0.09328633325836062
+              },
+              {
+                "option": "click",
+                "logprob": -2.710063875390915,
+                "prob": 0.08235225189739039
+              },
+              {
+                "option": "detect",
+                "logprob": -3.523319593979977,
+                "prob": 0.03651598402070444
+              },
+              {
+                "option": "decorate",
+                "logprob": -3.585263581655454,
+                "prob": 0.03432267091413808
+              },
+              {
+                "option": "clip",
+                "logprob": -3.8977446375065483,
+                "prob": 0.025111478179051617
+              },
+              {
+                "option": "aim",
+                "logprob": -3.960265249654185,
+                "prob": 0.023589564391361548
+              }
+            ]
+          },
+          "generation": {
+            "ranked": [
+              "press",
+              "click",
+              "select",
+              "input",
+              "start",
+              "lock"
+            ],
+            "n_valid": 6,
+            "invalid": [
+              "Based on the visual analysis of part 10, which appears to be a small, circular, button-like component located on the upper surface of the blue object (likely a control interface or sensor array), the most plausible affordance is **press**. It is designed to be actuated by a finger.",
+              "Here are the 10 most plausible options ranked by likelihood:",
+              "activate",
+              "toggle",
+              "stop",
+              "unlock"
+            ],
+            "raw": "Based on the visual analysis of part 10, which appears to be a small, circular, button-like component located on the upper surface of the blue object (likely a control interface or sensor array), the most plausible affordance is **press**. It is designed to be actuated by a finger.\n\nHere are the 10 most plausible options ranked by likelihood:\n\n1. press\n2. click\n3. select\n4. input\n5. activate\n6. toggle\n7. start\n8. stop\n9. lock\n10. unlock"
+          }
+        }
+      }
+    }
+  ],
+  "generation_option_order": "shuffled_per_part"
+}

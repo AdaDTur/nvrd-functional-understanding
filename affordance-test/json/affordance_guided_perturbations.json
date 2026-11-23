@@ -1,0 +1,348 @@
+[
+  {
+    "id": "scoop_stir_soup",
+    "task": "scooping and stirring soup",
+    "keep_function": true,
+    "image_model": "openai/gpt-image-2.6-sunburst",
+    "quality": "high",
+    "judge_model": "openai/gpt-6-astra",
+    "perturbations": {
+      "shape_deformation": {
+        "levels": [
+          {
+            "level": 1,
+            "prompt": "Visually deform this object noticeably: bend, twist, stretch and reshape it, the part that does the work included, so its shape is visibly different from the current image, without removing its ability to be used for scooping and stirring soup.",
+            "image": "data/scoop_stir_soup/deform/1.png",
+            "judge": {
+              "applied": true,
+              "clean": true,
+              "continuous": true,
+              "reason": "The same purple-handled teal ladle is visibly deformed into a twisting handle and elongated, spouted bowl, while remaining a single recognizable object on a plain white background.",
+              "ok": true
+            },
+            "tries": 1
+          },
+          {
+            "level": 2,
+            "prompt": "Visually deform this object noticeably: bend, twist, stretch and reshape it, the part that does the work included, so its shape is visibly different from the current image, without removing its ability to be used for scooping and stirring soup.",
+            "image": "data/scoop_stir_soup/deform/2.png",
+            "judge": {
+              "applied": true,
+              "clean": true,
+              "continuous": true,
+              "reason": "The bowl is visibly widened and the twisting handle and openings are reshaped, while the same teal-and-purple object retains its overall pose on a plain white background without text or extra objects.",
+              "ok": true
+            },
+            "tries": 1
+          },
+          {
+            "level": 3,
+            "prompt": "Visually deform this object noticeably: bend, twist, stretch and reshape it, the part that does the work included, so its shape is visibly different from the current image, without removing its ability to be used for scooping and stirring soup.",
+            "image": "data/scoop_stir_soup/deform/3.png",
+            "judge": {
+              "applied": true,
+              "clean": true,
+              "continuous": true,
+              "reason": "The bowl rim and twisting handle are visibly reshaped, while the same teal-and-purple object and overall pose remain recognizable on a plain white background without text or extra objects.",
+              "ok": true
+            },
+            "tries": 1
+          },
+          {
+            "level": 4,
+            "prompt": "Visually deform this object noticeably: bend, twist, stretch and reshape it, the part that does the work included, so its shape is visibly different from the current image, without removing its ability to be used for scooping and stirring soup.",
+            "image": "data/scoop_stir_soup/deform/4.png",
+            "judge": {
+              "applied": true,
+              "clean": true,
+              "continuous": true,
+              "reason": "The bowl, twisting stem, and curled tip are visibly reshaped while preserving the same teal-and-purple perforated object and overall pose on a plain white background with no extra elements.",
+              "ok": true
+            },
+            "tries": 1
+          },
+          {
+            "level": 5,
+            "prompt": "Visually deform this object noticeably: bend, twist, stretch and reshape it, the part that does the work included, so its shape is visibly different from the current image, without removing its ability to be used for scooping and stirring soup.",
+            "image": "data/scoop_stir_soup/deform/5.png",
+            "judge": {
+              "applied": true,
+              "clean": true,
+              "continuous": true,
+              "reason": "The second image visibly reshapes the central twists, openings, and upper curl while preserving the same teal-and-purple object and overall pose on a plain white background without text or extra objects.",
+              "ok": true
+            },
+            "tries": 1
+          }
+        ]
+      },
+      "part_addition": {
+        "levels": [
+          {
+            "level": 1,
+            "prompt": "Add a large, clearly visible new part to this object without removing its ability to be used for scooping and stirring soup.",
+            "image": "data/scoop_stir_soup/add/1.png",
+            "judge": {
+              "applied": true,
+              "clean": true,
+              "continuous": true,
+              "reason": "A large purple perforated bowl has been added to the upper left of the same upright object, which remains a single connected object on a plain white background without text or extra objects.",
+              "ok": true
+            },
+            "tries": 1
+          },
+          {
+            "level": 2,
+            "prompt": "Add a large, clearly visible new part to this object without removing its ability to be used for scooping and stirring soup.",
+            "image": "data/scoop_stir_soup/add/2.png",
+            "judge": {
+              "applied": true,
+              "clean": true,
+              "continuous": true,
+              "reason": "A large purple loop handle with a teal finger grip has been added on the right, while the original object and pose remain recognizable on a plain white background without text or extra objects.",
+              "ok": true
+            },
+            "tries": 1
+          },
+          {
+            "level": 3,
+            "prompt": "Add a large, clearly visible new part to this object without removing its ability to be used for scooping and stirring soup.",
+            "image": "data/scoop_stir_soup/add/3.png",
+            "judge": {
+              "applied": true,
+              "clean": true,
+              "continuous": true,
+              "reason": "A large teal pouring bowl with a purple frame has been added to the middle-left of the same object, preserving its pose on a plain white background without text or extra objects.",
+              "ok": true
+            },
+            "tries": 1
+          },
+          {
+            "level": 4,
+            "prompt": "Add a large, clearly visible new part to this object without removing its ability to be used for scooping and stirring soup.",
+            "image": "data/scoop_stir_soup/add/4.png",
+            "judge": {
+              "applied": true,
+              "clean": true,
+              "continuous": true,
+              "reason": "A large purple spiral cage has been added to the lower left of the same object, which retains its overall form and pose on a plain white background without text or separate objects.",
+              "ok": true
+            },
+            "tries": 1
+          },
+          {
+            "level": 5,
+            "prompt": "Add a large, clearly visible new part to this object without removing its ability to be used for scooping and stirring soup.",
+            "image": "data/scoop_stir_soup/add/5.png",
+            "judge": {
+              "applied": true,
+              "clean": true,
+              "continuous": true,
+              "reason": "A large purple supporting base has been added around and beneath the lower bowl, while preserving the same overall object and pose on a plain white background without text or extra objects.",
+              "ok": true
+            },
+            "tries": 1
+          }
+        ]
+      },
+      "part_removal": {
+        "levels": [
+          {
+            "level": 1,
+            "prompt": "Remove the Erase the TOP of the purple handle, from its forked tip down to a horizontal cut at approximately y=285, just above the large opening. This removes about 20% of the object's visible area. from this object. Completely erase it so there is a clear, visible gap or absence where it used to be, and leave the rest of the object exactly as it is. After this step about 20% of the ORIGINAL object should be gone in total. Parts already removed in previous steps: none; do not bring them back.",
+            "image": "data/scoop_stir_soup/remove/1.png",
+            "judge": {
+              "applied": true,
+              "clean": true,
+              "continuous": true,
+              "reason": "The forked top of the purple handle is visibly removed to a horizontal cut just above the large opening, while the remaining object retains its original pose on a plain white background without text or extra objects.",
+              "ok": true
+            },
+            "tries": 1
+          },
+          {
+            "level": 2,
+            "prompt": "Remove the Erase the next purple handle section, between y=285 and y=620, including both sides of the large opening, the LEFT-pointing projection, and the smaller RIGHT-pointing hook. About 40% is now gone. from this object. Completely erase it so there is a clear, visible gap or absence where it used to be, and leave the rest of the object exactly as it is. After this step about 40% of the ORIGINAL object should be gone in total. Parts already removed in previous steps: Erase the TOP of the purple handle, from its forked tip down to a horizontal cut at approximately y=285, just above the large opening. This removes about 20% of the object's visible area.; do not bring them back.",
+            "image": "data/scoop_stir_soup/remove/2.png",
+            "judge": {
+              "applied": true,
+              "clean": true,
+              "continuous": true,
+              "reason": "The upper purple handle, including the large opening and both projections, has been visibly removed, while the same teal bowl and lower handle remain on a plain white background.",
+              "ok": true
+            },
+            "tries": 1
+          },
+          {
+            "level": 3,
+            "prompt": "Remove the Erase the entire region between y=620 and y=790: the remaining lower handle around the small opening and the TOP/BACK portion of the blue bowl. About 60% is now gone. from this object. Completely erase it so there is a clear, visible gap or absence where it used to be, and leave the rest of the object exactly as it is. After this step about 60% of the ORIGINAL object should be gone in total. Parts already removed in previous steps: Erase the TOP of the purple handle, from its forked tip down to a horizontal cut at approximately y=285, just above the large opening. This removes about 20% of the object's visible area., Erase the next purple handle section, between y=285 and y=620, including both sides of the large opening, the LEFT-pointing projection, and the smaller RIGHT-pointing hook. About 40% is now gone.; do not bring them back.",
+            "image": "data/scoop_stir_soup/remove/3.png",
+            "judge": {
+              "applied": true,
+              "clean": true,
+              "continuous": true,
+              "reason": "The handle opening and upper/back bowl region have been visibly erased, leaving the recognizable lower portion in the same pose on a plain white background without text or extra objects.",
+              "ok": true
+            },
+            "tries": 1
+          },
+          {
+            "level": 4,
+            "prompt": "Remove the Erase the bowl's full-width middle band between y=790 and y=850, including the remaining visible interior in that band and the LEFT and RIGHT rim sections. About 75% is now gone. from this object. Completely erase it so there is a clear, visible gap or absence where it used to be, and leave the rest of the object exactly as it is. After this step about 75% of the ORIGINAL object should be gone in total. Parts already removed in previous steps: Erase the TOP of the purple handle, from its forked tip down to a horizontal cut at approximately y=285, just above the large opening. This removes about 20% of the object's visible area., Erase the next purple handle section, between y=285 and y=620, including both sides of the large opening, the LEFT-pointing projection, and the smaller RIGHT-pointing hook. About 40% is now gone., Erase the entire region between y=620 and y=790: the remaining lower handle around the small opening and the TOP/BACK portion of the blue bowl. About 60% is now gone.; do not bring them back.",
+            "image": "data/scoop_stir_soup/remove/4.png",
+            "judge": {
+              "applied": true,
+              "clean": true,
+              "continuous": true,
+              "reason": "The second image visibly removes the bowl\u2019s upper band, including the interior and both upper rim sections, while retaining the same lower bowl fragment on a plain white background.",
+              "ok": true
+            },
+            "tries": 1
+          },
+          {
+            "level": 5,
+            "prompt": "Remove the Erase the full-width band of the bowl's FRONT wall between y=850 and y=910. About 90% of the original object is now gone. from this object. Completely erase it so there is a clear, visible gap or absence where it used to be, and leave the rest of the object exactly as it is. After this step about 90% of the ORIGINAL object should be gone in total. Parts already removed in previous steps: Erase the TOP of the purple handle, from its forked tip down to a horizontal cut at approximately y=285, just above the large opening. This removes about 20% of the object's visible area., Erase the next purple handle section, between y=285 and y=620, including both sides of the large opening, the LEFT-pointing projection, and the smaller RIGHT-pointing hook. About 40% is now gone., Erase the entire region between y=620 and y=790: the remaining lower handle around the small opening and the TOP/BACK portion of the blue bowl. About 60% is now gone., Erase the bowl's full-width middle band between y=790 and y=850, including the remaining visible interior in that band and the LEFT and RIGHT rim sections. About 75% is now gone.; do not bring them back.",
+            "image": "data/scoop_stir_soup/remove/5.png",
+            "judge": {
+              "applied": true,
+              "clean": true,
+              "continuous": true,
+              "reason": "The second image visibly removes a broad band of the bowl\u2019s front wall, leaving a much thinner curved remnant of the same object on a plain white background.",
+              "ok": true
+            },
+            "tries": 1
+          }
+        ],
+        "parts": [
+          "Erase the TOP of the purple handle, from its forked tip down to a horizontal cut at approximately y=285, just above the large opening. This removes about 20% of the object's visible area.",
+          "Erase the next purple handle section, between y=285 and y=620, including both sides of the large opening, the LEFT-pointing projection, and the smaller RIGHT-pointing hook. About 40% is now gone.",
+          "Erase the entire region between y=620 and y=790: the remaining lower handle around the small opening and the TOP/BACK portion of the blue bowl. About 60% is now gone.",
+          "Erase the bowl's full-width middle band between y=790 and y=850, including the remaining visible interior in that band and the LEFT and RIGHT rim sections. About 75% is now gone.",
+          "Erase the full-width band of the bowl's FRONT wall between y=850 and y=910. About 90% of the original object is now gone."
+        ],
+        "remaining": "Only the original blue bowl's rounded BOTTOM/FRONT fragment below approximately y=910 remains, representing about one tenth of the object's original visible area.",
+        "targets_pct_gone": [
+          20,
+          40,
+          60,
+          75,
+          90
+        ]
+      },
+      "style_degradation": {
+        "levels": [
+          {
+            "level": 1,
+            "prompt": "Change the art style of this image so it looks like a professional digital illustration; smoother color transitions, slightly less realistic lighting, keeping the same object, pose and composition, while it still clearly shows an object that could be used for scooping and stirring soup.",
+            "image": "data/scoop_stir_soup/style/1.png",
+            "judge": {
+              "applied": true,
+              "clean": true,
+              "continuous": true,
+              "reason": "The second image visibly replaces realistic surface textures and lighting with smooth illustrated shading while preserving the same ladle-like object and pose on a plain white background without text or extra objects.",
+              "ok": true
+            },
+            "tries": 1
+          },
+          {
+            "level": 2,
+            "prompt": "Change the art style of this image so it looks like an illustration with noticeably flat colors and slightly imprecise line work, keeping the same object, pose and composition, while it still clearly shows an object that could be used for scooping and stirring soup.",
+            "image": "data/scoop_stir_soup/style/2.png",
+            "judge": {
+              "applied": true,
+              "clean": true,
+              "continuous": true,
+              "reason": "The second image clearly uses flat colors and slightly irregular outlines while preserving the same purple-handled teal ladle and pose on a plain white background without text or extra objects.",
+              "ok": true
+            },
+            "tries": 1
+          },
+          {
+            "level": 3,
+            "prompt": "Change the art style of this image so it looks like a bold, blocky graphic using only about 6-8 large flat color regions, keeping the same object, pose and composition, while it still clearly shows an object that could be used for scooping and stirring soup.",
+            "image": "data/scoop_stir_soup/style/3.png",
+            "judge": {
+              "applied": true,
+              "clean": true,
+              "continuous": true,
+              "reason": "The second image preserves the same object and pose while replacing dotted texture and thin outlines with large solid color regions and bold borders, on a plain white background without text or extra objects.",
+              "ok": true
+            },
+            "tries": 1
+          },
+          {
+            "level": 4,
+            "prompt": "Change the art style of this image so it looks like a very rough single-color sketch; a few thick imprecise strokes, keeping the same object, pose and composition, while it still clearly shows an object that could be used for scooping and stirring soup.",
+            "image": "data/scoop_stir_soup/style/4.png",
+            "judge": {
+              "applied": true,
+              "clean": true,
+              "continuous": true,
+              "reason": "The second image clearly renders the same upright ladle-like object as a rough single-color purple sketch with thick imprecise strokes on a plain white background, without text or extra objects.",
+              "ok": true
+            },
+            "tries": 1
+          },
+          {
+            "level": 5,
+            "prompt": "Change the art style of this image so it looks like 2-3 thick, rough smears of dark paint in approximately the original shape, keeping the same object, pose and composition, while it still clearly shows an object that could be used for scooping and stirring soup.",
+            "image": "data/scoop_stir_soup/style/5.png",
+            "judge": {
+              "applied": true,
+              "clean": true,
+              "continuous": true,
+              "reason": "The second image visibly replaces the thin purple strokes with thick, rough dark paint smears while preserving the original overall shape as a single object on a plain white background.",
+              "ok": true
+            },
+            "tries": 1
+          }
+        ],
+        "nvrd_steps": [
+          2,
+          5,
+          8,
+          11,
+          14
+        ]
+      },
+      "texture_shift": {
+        "texture": "crochet",
+        "judge": {
+          "applied": true,
+          "clean": true,
+          "continuous": true,
+          "reason": "The second image clearly applies a crochet texture while preserving the object's shape, colors, and pose as a single object on a plain white background without text or extras.",
+          "ok": true
+        },
+        "tries": 1,
+        "levels": [
+          {
+            "level": 1,
+            "blend": 0.2,
+            "image": "data/scoop_stir_soup/texture/1.png"
+          },
+          {
+            "level": 2,
+            "blend": 0.4,
+            "image": "data/scoop_stir_soup/texture/2.png"
+          },
+          {
+            "level": 3,
+            "blend": 0.6,
+            "image": "data/scoop_stir_soup/texture/3.png"
+          },
+          {
+            "level": 4,
+            "blend": 0.8,
+            "image": "data/scoop_stir_soup/texture/4.png"
+          },
+          {
+            "level": 5,
+            "blend": 1.0,
+            "image": "data/scoop_stir_soup/texture/5.png"
+          }
+        ]
+      }
+    }
+  }
+]

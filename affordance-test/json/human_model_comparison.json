@@ -1,0 +1,478 @@
+{
+  "n_participants": 8,
+  "n_parts_answered": 140,
+  "n_parts_with_2plus_humans": 92,
+  "n_trials": 419,
+  "share_of_picks_from_bank": 0.8869,
+  "results": {
+    "human (leave-one-out)": {
+      "n_trials": 419,
+      "hit_at_k": [
+        0.3174,
+        0.4487,
+        0.5084,
+        0.5609,
+        0.5847,
+        0.6086,
+        0.6181,
+        0.6277,
+        0.6325,
+        0.6348
+      ],
+      "jaccard_top3": 0.2153
+    },
+    "molmo2-4b|generation": {
+      "n_trials": 419,
+      "hit_at_k": [
+        0.2076,
+        0.3294,
+        0.4463,
+        0.4845,
+        0.5298,
+        0.5418,
+        0.5561,
+        0.5585,
+        0.5776,
+        0.5823
+      ],
+      "jaccard_top3": 0.1381
+    },
+    "molmo2-4b|logprob": {
+      "n_trials": 419,
+      "hit_at_k": [
+        0.2076,
+        0.2482,
+        0.2768,
+        0.3031,
+        0.3866,
+        0.4153,
+        0.4558,
+        0.4821,
+        0.5251,
+        0.5489
+      ],
+      "jaccard_top3": 0.085
+    },
+    "phi3.5-vision|generation": {
+      "n_trials": 419,
+      "hit_at_k": [
+        0.0119,
+        0.0119,
+        0.0119,
+        0.031,
+        0.0406,
+        0.0621,
+        0.0788,
+        0.0955,
+        0.1313,
+        0.1408
+      ],
+      "jaccard_top3": 0.0045
+    },
+    "phi3.5-vision|logprob": {
+      "n_trials": 419,
+      "hit_at_k": [
+        0.2076,
+        0.2315,
+        0.2482,
+        0.253,
+        0.2697,
+        0.2816,
+        0.2983,
+        0.3055,
+        0.3198,
+        0.3508
+      ],
+      "jaccard_top3": 0.0768
+    },
+    "gemma4-e4b|generation": {
+      "n_trials": 419,
+      "hit_at_k": [
+        0.1337,
+        0.2554,
+        0.3365,
+        0.389,
+        0.4177,
+        0.4582,
+        0.4726,
+        0.494,
+        0.5012,
+        0.5084
+      ],
+      "jaccard_top3": 0.109
+    },
+    "gemma4-e4b|logprob": {
+      "n_trials": 419,
+      "hit_at_k": [
+        0.1718,
+        0.3031,
+        0.3938,
+        0.4654,
+        0.5227,
+        0.5561,
+        0.58,
+        0.6062,
+        0.6253,
+        0.6301
+      ],
+      "jaccard_top3": 0.119
+    },
+    "qwen3.5-4b|generation": {
+      "n_trials": 419,
+      "hit_at_k": [
+        0.1289,
+        0.1909,
+        0.2315,
+        0.2506,
+        0.2649,
+        0.2768,
+        0.2768,
+        0.2864,
+        0.2912,
+        0.2936
+      ],
+      "jaccard_top3": 0.0879
+    },
+    "qwen3.5-4b|logprob": {
+      "n_trials": 419,
+      "hit_at_k": [
+        0.1718,
+        0.2411,
+        0.3174,
+        0.4105,
+        0.4368,
+        0.4845,
+        0.5251,
+        0.5632,
+        0.5871,
+        0.5919
+      ],
+      "jaccard_top3": 0.1043
+    },
+    "gpt-5.4|generation": {
+      "n_trials": 419,
+      "hit_at_k": [
+        0.2768,
+        0.432,
+        0.5251,
+        0.5871,
+        0.611,
+        0.642,
+        0.6611,
+        0.6921,
+        0.7255,
+        0.7852
+      ],
+      "jaccard_top3": 0.2175
+    }
+  },
+  "per_object_hit_at_3": {
+    "shape_28": {
+      "human (leave-one-out)": 0.6857,
+      "molmo2-4b|generation": 0.4,
+      "molmo2-4b|logprob": 0.3714,
+      "phi3.5-vision|generation": 0.0,
+      "phi3.5-vision|logprob": 0.2286,
+      "gemma4-e4b|generation": 0.3429,
+      "gemma4-e4b|logprob": 0.4,
+      "qwen3.5-4b|generation": 0.1714,
+      "qwen3.5-4b|logprob": 0.3429,
+      "gpt-5.4|generation": 0.5714
+    },
+    "shape_14": {
+      "human (leave-one-out)": 0.5,
+      "molmo2-4b|generation": 0.75,
+      "molmo2-4b|logprob": 0.25,
+      "phi3.5-vision|generation": 0.0,
+      "phi3.5-vision|logprob": 0.25,
+      "gemma4-e4b|generation": 0.5833,
+      "gemma4-e4b|logprob": 0.4167,
+      "qwen3.5-4b|generation": 0.25,
+      "qwen3.5-4b|logprob": 0.25,
+      "gpt-5.4|generation": 0.5833
+    },
+    "shape_20": {
+      "human (leave-one-out)": 0.6122,
+      "molmo2-4b|generation": 0.3776,
+      "molmo2-4b|logprob": 0.1429,
+      "phi3.5-vision|generation": 0.0204,
+      "phi3.5-vision|logprob": 0.1939,
+      "gemma4-e4b|generation": 0.3061,
+      "gemma4-e4b|logprob": 0.3163,
+      "qwen3.5-4b|generation": 0.4898,
+      "qwen3.5-4b|logprob": 0.3776,
+      "gpt-5.4|generation": 0.5408
+    },
+    "shape_38": {
+      "human (leave-one-out)": 0.75,
+      "molmo2-4b|generation": 0.5,
+      "molmo2-4b|logprob": 0.0833,
+      "phi3.5-vision|generation": 0.0,
+      "phi3.5-vision|logprob": 0.1667,
+      "gemma4-e4b|generation": 0.75,
+      "gemma4-e4b|logprob": 0.5,
+      "qwen3.5-4b|generation": 0.0,
+      "qwen3.5-4b|logprob": 0.0833,
+      "gpt-5.4|generation": 0.75
+    },
+    "shape_21": {
+      "human (leave-one-out)": 0.8333,
+      "molmo2-4b|generation": 0.1667,
+      "molmo2-4b|logprob": 0.0,
+      "phi3.5-vision|generation": 0.0,
+      "phi3.5-vision|logprob": 0.3333,
+      "gemma4-e4b|generation": 0.6667,
+      "gemma4-e4b|logprob": 0.6667,
+      "qwen3.5-4b|generation": 0.0,
+      "qwen3.5-4b|logprob": 0.0,
+      "gpt-5.4|generation": 0.6667
+    },
+    "shape_13": {
+      "human (leave-one-out)": 0.7333,
+      "molmo2-4b|generation": 0.5667,
+      "molmo2-4b|logprob": 0.4,
+      "phi3.5-vision|generation": 0.0,
+      "phi3.5-vision|logprob": 0.4,
+      "gemma4-e4b|generation": 0.2333,
+      "gemma4-e4b|logprob": 0.5,
+      "qwen3.5-4b|generation": 0.0,
+      "qwen3.5-4b|logprob": 0.4667,
+      "gpt-5.4|generation": 0.3667
+    },
+    "shape_25": {
+      "human (leave-one-out)": 0.6786,
+      "molmo2-4b|generation": 0.6429,
+      "molmo2-4b|logprob": 0.3929,
+      "phi3.5-vision|generation": 0.0357,
+      "phi3.5-vision|logprob": 0.2143,
+      "gemma4-e4b|generation": 0.4643,
+      "gemma4-e4b|logprob": 0.3214,
+      "qwen3.5-4b|generation": 0.2143,
+      "qwen3.5-4b|logprob": 0.4286,
+      "gpt-5.4|generation": 0.5
+    },
+    "shape_18": {
+      "human (leave-one-out)": 0.4167,
+      "molmo2-4b|generation": 0.25,
+      "molmo2-4b|logprob": 0.25,
+      "phi3.5-vision|generation": 0.0833,
+      "phi3.5-vision|logprob": 0.3333,
+      "gemma4-e4b|generation": 0.25,
+      "gemma4-e4b|logprob": 0.5,
+      "qwen3.5-4b|generation": 0.0,
+      "qwen3.5-4b|logprob": 0.25,
+      "gpt-5.4|generation": 0.6667
+    },
+    "shape_2": {
+      "human (leave-one-out)": 0.625,
+      "molmo2-4b|generation": 0.5833,
+      "molmo2-4b|logprob": 0.3333,
+      "phi3.5-vision|generation": 0.0,
+      "phi3.5-vision|logprob": 0.1458,
+      "gemma4-e4b|generation": 0.4792,
+      "gemma4-e4b|logprob": 0.4583,
+      "qwen3.5-4b|generation": 0.125,
+      "qwen3.5-4b|logprob": 0.1458,
+      "gpt-5.4|generation": 0.5625
+    },
+    "shape_19": {
+      "human (leave-one-out)": 0.375,
+      "molmo2-4b|generation": 0.1964,
+      "molmo2-4b|logprob": 0.1607,
+      "phi3.5-vision|generation": 0.0179,
+      "phi3.5-vision|logprob": 0.1786,
+      "gemma4-e4b|generation": 0.1964,
+      "gemma4-e4b|logprob": 0.2321,
+      "qwen3.5-4b|generation": 0.125,
+      "qwen3.5-4b|logprob": 0.2321,
+      "gpt-5.4|generation": 0.5
+    },
+    "shape_15": {
+      "human (leave-one-out)": 0.1429,
+      "molmo2-4b|generation": 0.4286,
+      "molmo2-4b|logprob": 0.2857,
+      "phi3.5-vision|generation": 0.0,
+      "phi3.5-vision|logprob": 0.3571,
+      "gemma4-e4b|generation": 0.4286,
+      "gemma4-e4b|logprob": 0.5,
+      "qwen3.5-4b|generation": 0.2857,
+      "qwen3.5-4b|logprob": 0.4286,
+      "gpt-5.4|generation": 0.5714
+    },
+    "shape_30": {
+      "human (leave-one-out)": 0.1333,
+      "molmo2-4b|generation": 0.5,
+      "molmo2-4b|logprob": 0.4,
+      "phi3.5-vision|generation": 0.0,
+      "phi3.5-vision|logprob": 0.4,
+      "gemma4-e4b|generation": 0.1667,
+      "gemma4-e4b|logprob": 0.3667,
+      "qwen3.5-4b|generation": 0.2333,
+      "qwen3.5-4b|logprob": 0.4333,
+      "gpt-5.4|generation": 0.3333
+    },
+    "shape_31": {
+      "human (leave-one-out)": 0.25,
+      "molmo2-4b|generation": 0.5417,
+      "molmo2-4b|logprob": 0.4583,
+      "phi3.5-vision|generation": 0.0,
+      "phi3.5-vision|logprob": 0.375,
+      "gemma4-e4b|generation": 0.25,
+      "gemma4-e4b|logprob": 0.5833,
+      "qwen3.5-4b|generation": 0.2917,
+      "qwen3.5-4b|logprob": 0.3333,
+      "gpt-5.4|generation": 0.5833
+    },
+    "shape_27": {
+      "human (leave-one-out)": 0.0,
+      "molmo2-4b|generation": 0.6429,
+      "molmo2-4b|logprob": 0.5,
+      "phi3.5-vision|generation": 0.0,
+      "phi3.5-vision|logprob": 0.3571,
+      "gemma4-e4b|generation": 0.3571,
+      "gemma4-e4b|logprob": 0.5714,
+      "qwen3.5-4b|generation": 0.2143,
+      "qwen3.5-4b|logprob": 0.2857,
+      "gpt-5.4|generation": 0.5
+    }
+  },
+  "spearman": {
+    "human (leave-one-out)": {
+      "mean_rho": 0.202,
+      "pooled_rho": null,
+      "n_parts": 389
+    },
+    "molmo2-4b|generation": {
+      "mean_rho": 0.123,
+      "pooled_rho": 0.1226,
+      "n_parts": 92
+    },
+    "molmo2-4b|logprob": {
+      "mean_rho": 0.2863,
+      "pooled_rho": 0.2777,
+      "n_parts": 92
+    },
+    "phi3.5-vision|generation": {
+      "mean_rho": 0.0468,
+      "pooled_rho": 0.0418,
+      "n_parts": 57
+    },
+    "phi3.5-vision|logprob": {
+      "mean_rho": 0.2025,
+      "pooled_rho": 0.1828,
+      "n_parts": 92
+    },
+    "gemma4-e4b|generation": {
+      "mean_rho": -0.0863,
+      "pooled_rho": -0.0787,
+      "n_parts": 92
+    },
+    "gemma4-e4b|logprob": {
+      "mean_rho": 0.2628,
+      "pooled_rho": 0.2418,
+      "n_parts": 92
+    },
+    "qwen3.5-4b|generation": {
+      "mean_rho": 0.0933,
+      "pooled_rho": 0.0262,
+      "n_parts": 57
+    },
+    "qwen3.5-4b|logprob": {
+      "mean_rho": 0.3172,
+      "pooled_rho": 0.2893,
+      "n_parts": 92
+    },
+    "gpt-5.4|generation": {
+      "mean_rho": 0.3226,
+      "pooled_rho": 0.306,
+      "n_parts": 92
+    }
+  },
+  "top_human_labels": [
+    [
+      "none",
+      96
+    ],
+    [
+      "support",
+      88
+    ],
+    [
+      "hold",
+      83
+    ],
+    [
+      "stand",
+      47
+    ],
+    [
+      "attach",
+      42
+    ],
+    [
+      "decorate",
+      31
+    ],
+    [
+      "balance",
+      28
+    ],
+    [
+      "cover",
+      26
+    ],
+    [
+      "press",
+      22
+    ],
+    [
+      "carry",
+      21
+    ],
+    [
+      "contain",
+      16
+    ],
+    [
+      "defend",
+      14
+    ],
+    [
+      "block",
+      13
+    ],
+    [
+      "shade",
+      12
+    ],
+    [
+      "hang",
+      10
+    ],
+    [
+      "attack",
+      10
+    ],
+    [
+      "indicate",
+      9
+    ],
+    [
+      "channel water",
+      8
+    ],
+    [
+      "rest",
+      8
+    ],
+    [
+      "penetrate",
+      8
+    ]
+  ],
+  "caveats": [
+    "bank options came from Molmo2/Gemma-4/Qwen3.5/GPT-5.4 generation top-10s (inflates their agreement)",
+    "Phi-3.5 generation lists were not re-run with shuffled option order",
+    "log-prob scores exist only for each model's top-10; other shown options score 0 (tied)"
+  ]
+}

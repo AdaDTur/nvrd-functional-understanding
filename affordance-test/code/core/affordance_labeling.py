@@ -381,6 +381,19 @@ def match_ranked(items: list, options: list, k: int = TOP_K) -> dict:
     return {"ranked": ranked[:k], "n_valid": len(ranked[:k]), "invalid": invalid}
 
 
+def shuffled_options(options: list, key: str) -> list:
+    """The vocabulary in a fixed random order for one part (seeded by e.g. its region_id), for the
+    top-K generation prompt. Listed alphabetically, the 231-word synthia list pulled answers toward
+    its first words (Phi-3.5: 96% of answers from the first 20 words; the others 16-28%, vs 9% if
+    spread evenly). The same key gives every model the same order for that part, so models stay
+    comparable; parsing is unaffected (it matches against the option set)."""
+    import random
+    import zlib
+    order = list(options)
+    random.Random(zlib.crc32(key.encode())).shuffle(order)
+    return order
+
+
 def parse_ranked(text: str, options: list, k: int = TOP_K) -> dict:
     """Free-text numbered list -> match_ranked(). Accepts "1. x" / "1) x" / "- x" lines; a single
     line holding a comma-separated list is split on commas instead."""

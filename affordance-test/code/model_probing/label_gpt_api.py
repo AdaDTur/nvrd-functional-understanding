@@ -26,6 +26,8 @@ Usage:
     venv_vlm/bin/python3 label_gpt_api.py --split novel            # the 30 original novel objects
     venv_vlm/bin/python3 label_gpt_api.py shape_16 shape_27        # specific objects
     venv_vlm/bin/python3 label_gpt_api.py --split novel --resume   # skip objects already done
+    AFF_VOCAB=synthia_filtered venv_vlm/bin/python3 label_gpt_api.py --split novel --rank-only
+        # top-10 only, on the synthia vocabulary -> affordance_justification_gpt-5.4_synthia/
     venv_vlm/bin/python3 label_gpt_api.py --split novel --generation-only  # redo only the ranked
         # lists of existing outputs that predate the free-text format, keeping their labels
 Env: GPT_MODEL (default openai/gpt-5.4), GPT_REASONING_EFFORT (default none), GPT_WORKERS (default 8).
@@ -53,11 +55,18 @@ from pycocotools import mask as mask_utils
 
 from affordance_labeling import (
     JSON_DIR, TOP_K, VOCABULARIES, build_per_part_question, build_ranked_question, downscale, first_sentence,
-    numbered_overlay, parse_ranked,
+    numbered_overlay, parse_ranked, shuffled_options,
 )
 from batch_final_labeling import (
     OBJECTS, REGION_SOURCE, VOCAB, build_per_part_justification_prompt, compute_parts, has_topk_fields,
 )
+
+# AFF_VOCAB=synthia_filtered runs on the 230-verb synthia list instead; outputs then go to
+# affordance_justification_<model>_<vocab>/ so the AGD20K results are never overwritten.
+VOCAB = os.environ.get("AFF_VOCAB", VOCAB)
+# SHUFFLE_OPTIONS=1: per-part shuffled option order in the top-K prompt (see shuffled_options); the
+# same seed (region_id) as batch_final_labeling.py, so every model sees the same order for a part.
+SHUFFLE_OPTIONS = os.environ.get("SHUFFLE_OPTIONS") == "1"
 
 MODEL = os.environ.get("GPT_MODEL", "openai/gpt-5.4")
 MODEL_KEY = MODEL.split("/")[-1]  # "gpt-5.4"
@@ -134,14 +143,15 @@ def label_part(api_key, image_uri, i, n_parts, options, glosses) -> tuple:
     return label, first_sentence(just), ranked
 
 
-def rank_part(api_key, image_uri, i, n_parts, options, glosses) -> dict:
+def rank_part(api_key, image_uri, i, n_parts, options, glosses, region_id: str = "") -> dict:
     """Direct-generation top-K, on exactly the same footing as the open models'
     (batch_final_labeling.generate_ranked): the same build_ranked_question prompt asking for a
     numbered plain-text list, parsed by the same parse_ranked. Deliberately NOT a JSON schema with
     an enum of the vocabulary -- that constrained GPT to valid, well-formed options while the open
     models' free text could drift off-vocabulary or repeat, so n_valid compared format compliance
     rather than the ranking itself."""
-    raw = chat(api_key, image_uri, build_ranked_question(i, n_parts, options, glosses), max_tokens=600)
+    listed = shuffled_options(options, region_id) if (SHUFFLE_OPTIONS and region_id) else options
+    raw = chat(api_key, image_uri, build_ranked_question(i, n_parts, listed, glosses), max_tokens=600)
     return {**parse_ranked(raw, options), "raw": raw.strip()}
 
 
@@ -167,13 +177,29 @@ def regenerate_generation_only(api_key: str, out_path: str) -> dict:
     return data
 
 
-def process_object(api_key: str, object_name: str) -> dict:
+def process_object(api_key: str, object_name: str, rank_only: bool = False) -> dict:
     parts, img_path = compute_parts(object_name)
     masks = [mask_utils.decode(p["segmentation"]).astype(bool) for p in parts]
     overlay = downscale(numbered_overlay(Image.open(img_path).convert("RGB"), masks))
     image_uri = image_data_uri(overlay)
     options = VOCABULARIES[VOCAB]["options"]
     glosses = VOCABULARIES[VOCAB]["glosses"]
+
+    if rank_only:  # --rank-only: just the top-K generation call (one call per part), no label/justification
+        with ThreadPoolExecutor(WORKERS) as pool:
+            futures = [pool.submit(rank_part, api_key, image_uri, i, len(parts), options, glosses,
+                                   parts[i - 1]["region_id"])
+                       for i in range(1, len(parts) + 1)]
+            gens = [f.result() for f in futures]
+        for part, g in zip(parts, gens):
+            print(f"    {part['region_id']:>28s}  {g['ranked']}", flush=True)
+        return {
+            "object": object_name, "model": MODEL, "image_path": img_path, "region_source": REGION_SOURCE,
+            "method": "rank_only", "reasoning_effort": REASONING_EFFORT,
+            "generation_option_order": "shuffled_per_part" if SHUFFLE_OPTIONS else "vocabulary", "top_k": TOP_K, "modes": ["generation"],
+            "generation_format": "free_text_numbered_list",
+            "regions": [{**p, "vocabularies": {VOCAB: {"generation": g}}} for p, g in zip(parts, gens)],
+        }
 
     with ThreadPoolExecutor(WORKERS) as pool:
         futures = [pool.submit(label_part, api_key, image_uri, i, len(parts), options, glosses)
@@ -200,11 +226,13 @@ def main():
     args = sys.argv[1:]
     resume = "--resume" in args
     generation_only = "--generation-only" in args
-    args = [a for a in args if a not in ("--resume", "--generation-only")]
+    rank_only = "--rank-only" in args
+    args = [a for a in args if a not in ("--resume", "--generation-only", "--rank-only")]
     split = None
     if args and args[0] == "--split":
         split, args = args[1], args[2:]
-    out_dir = os.path.join(JSON_DIR, f"affordance_justification_{MODEL_KEY}")
+    suffix = "" if VOCAB == "agd20k" else f"_{VOCAB.split('_')[0]}"
+    out_dir = os.path.join(JSON_DIR, f"affordance_justification_{MODEL_KEY}{suffix}")
     os.makedirs(out_dir, exist_ok=True)
     todo = [
         name for category, names in OBJECTS for name in names
@@ -229,13 +257,13 @@ def main():
         out_path = os.path.join(out_dir, f"{name}_affordance_justification.json")
         try:
             data = (regenerate_generation_only(api_key, out_path) if generation_only
-                    else process_object(api_key, name))
+                    else process_object(api_key, name, rank_only))
         except Exception as e:
             print(f"  {name}: FAILED -- {e}", flush=True)
             continue
         with open(out_path, "w") as f:
             json.dump(data, f, indent=2)
-        n_distinct = len({r["vocabularies"][VOCAB]["label"] for r in data["regions"]})
+        n_distinct = len({r["vocabularies"][VOCAB].get("label") for r in data["regions"]})
         print(f"  saved {out_path}  (distinct labels: {n_distinct} of {len(data['regions'])} parts)", flush=True)
 
 
